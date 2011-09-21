@@ -1,0 +1,41 @@
+application: fake-host-github
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /orgs
+  static_dir: orgs
+
+- url: /orgs/theplant
+  static_dir: orgs/theplant
+
+- url: /orgs/theplant/*
+  static_dir: orgs/theplant/*
+
+- url: /user
+  static_dir: user
+
+- url: /users
+  static_dir: users
+
+- url: /repos
+  static_dir: repos
+
+- url: /repos/theplant
+  static_dir: repos/theplant
+
+- url: /repos/theplant/*
+  static_dir: repos/theplant/*
+
+- url: /repos/theplant/*/commits
+  static_dir: repos/theplant/*/commits
+
+- url: /
+  static_dir: /
+#
+#- url: /.*
+#  script: main.py

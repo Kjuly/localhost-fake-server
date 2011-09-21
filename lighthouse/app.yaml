@@ -1,0 +1,46 @@
+application: fake-host-lighthouse
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /tokens
+  static_dir: tokens
+
+- url: /projects
+  static_dir: projects
+
+- url: /projects/55575
+  static_dir: projects/55575
+
+- url: /projects/55575/tickets
+  static_dir: projects/55575/tickets
+
+- url: /projects/30780
+  static_dir: projects/30780
+
+- url: /projects/30780/tickets
+  static_dir: projects/30780/tickets
+
+- url: /projects/30780/messages
+  static_dir: projects/30780/messages
+
+- url: /projects/30780/milestones
+  static_dir: projects/30780/milestones
+
+- url: /projects/30780/bins
+  static_dir: projects/30780/bins
+
+- url: /users
+  static_dir: users
+
+- url: /json/158232
+  static_dir: json/158232
+
+- url: /
+  static_dir: /
+#- url: /.*
+#  script: projects.xml
