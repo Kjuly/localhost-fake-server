@@ -1,0 +1,69 @@
+{
+  "parents": [
+    {
+      "sha": "ab3fcd0229df05ad1bb4e5f0df9eab18cc34a247",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/ab3fcd0229df05ad1bb4e5f0df9eab18cc34a247"
+    }
+  ],
+  "sha": "f39eb9cba9aa7fcc4c07b5842fe71205c561980f",
+  "commit": {
+    "message": "fix crash report add \"make it crash\" code",
+    "tree": {
+      "sha": "12880512c015f1d0c732698211d5734566add926",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/12880512c015f1d0c732698211d5734566add926"
+    },
+    "author": {
+      "email": "liuyi19900922@gmail.com",
+      "date": "2011-08-30T20:25:27-07:00",
+      "name": "liuyi0922"
+    },
+    "committer": {
+      "email": "liuyi19900922@gmail.com",
+      "date": "2011-08-30T20:25:38-07:00",
+      "name": "liuyi0922"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/f39eb9cba9aa7fcc4c07b5842fe71205c561980f"
+  },
+  "author": {
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu",
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+  },
+  "files": [
+    {
+      "changes": 14,
+      "status": "modified",
+      "sha": "f39eb9cba9aa7fcc4c07b5842fe71205c561980f",
+      "additions": 9,
+      "filename": "GBox/GBCrashReport.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/f39eb9cba9aa7fcc4c07b5842fe71205c561980f/GBox/GBCrashReport.m",
+      "deletions": 5,
+      "patch": "--- a/GBox/GBCrashReport.m\n+++ b/GBox/GBCrashReport.m\n@@ -77,8 +77,8 @@\n      if(newCrashReport != nil){\n         NSDate *crashReportTime = [[[NSFileManager defaultManager] attributesOfItemAtPath:newCrashReport \n                                                                                     error:err]  fileModificationDate];\n-    //NSLog(@\"=======================crash time %@\",crashReportTime);\n-    //NSLog(@\"=======================default time %@\",lastCrashTime);\n+    NSLog(@\"=======================crash time %@\",crashReportTime);\n+    NSLog(@\"=======================default time %@\",lastCrashTime);\n     \n     \n     \n@@ -115,11 +115,15 @@\n             [crashContents release];\n             \n             \n-            [[NSUserDefaults standardUserDefaults] setValue:crashReportTime forKey:@\"GBoxLastCrashTime\"];\n+           //[[NSUserDefaults standardUserDefaults] setValue:crashReportTime forKey:@\"GBoxLastCrashTime\"];\n+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];\n+            [defaults setValue:crashReportTime forKey:@\"GBoxLastCrashTime\"];\n+            [defaults synchronize];\n+        \n             return YES;\n         }else{\n             NSLog(@\"==================has no crash\");\n-           /* NSError * err;\n+          /* NSError * err;\n             \n             NSString * crashContents = [[NSString alloc]\n                                         initWithContentsOfFile:newCrashReport\n@@ -140,7 +144,7 @@\n              [request setHTTPBody:postData];\n              \n              [crashContents release];\n-             [NSURLConnection connectionWithRequest:request delegate:self]; */\n+             [NSURLConnection connectionWithRequest:request delegate:self];*/\n             return NO;\n         }\n         ",
+      "blob_url": "https://github.com/theplant/GBox/blob/f39eb9cba9aa7fcc4c07b5842fe71205c561980f/GBox/GBCrashReport.m"
+    },
+    {
+      "changes": 9,
+      "status": "modified",
+      "sha": "f39eb9cba9aa7fcc4c07b5842fe71205c561980f",
+      "additions": 3,
+      "filename": "GBox/GBoxAppDelegate.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/f39eb9cba9aa7fcc4c07b5842fe71205c561980f/GBox/GBoxAppDelegate.m",
+      "deletions": 6,
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -68,7 +68,7 @@\n     [file1 setHidden:YES];\n     \n     \n-   \n+      \n     \n \n     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];\n@@ -112,7 +112,7 @@\n     [defaultValues setObject:[NSNumber numberWithBool:NO] forKey:@\"GBoxStartUp\"];\n     [defaultValues setObject:[NSNumber numberWithBool:NO] forKey:@\"GBoxSetup\"];\n     [defaultValues setObject:[NSNumber numberWithBool:YES] forKey:@\"GBoxNotificaiton\"];\n-    [defaultValues setObject:[NSDate date] forKey:@\"GBoxLastCrashTime\"];\n+    [defaultValues setObject:[NSDate dateWithString:@\"2001-03-24 10:45:32 +0600\"] forKey:@\"GBoxLastCrashTime\"];\n     [defaultValues setObject:selectiveFoldersArray forKey:@\"GBoxSelectiveFolders\"];\n     \n     // do register user defaults\n@@ -550,10 +550,7 @@\n     NSLog(@\"this is pause syncing action\");\n     \n     //this is test code\n-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];\n-    NSData *pathData = [defaults objectForKey:@\"GBoxFolderPath\"];\n-    NSString *string = [NSKeyedUnarchiver unarchiveObjectWithData:pathData];\n-    NSLog(@\"%@\",string);\n+    [file1 release];\n }\n \n //help center",
+      "blob_url": "https://github.com/theplant/GBox/blob/f39eb9cba9aa7fcc4c07b5842fe71205c561980f/GBox/GBoxAppDelegate.m"
+    }
+  ],
+  "stats": {
+    "additions": 12,
+    "deletions": 11,
+    "total": 23
+  },
+  "committer": {
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu",
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/f39eb9cba9aa7fcc4c07b5842fe71205c561980f"
+}

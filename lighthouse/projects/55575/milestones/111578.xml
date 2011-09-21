@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<milestone>
+  <completed-at type="datetime">2011-07-06T12:05:02+09:00</completed-at>
+  <created-at type="datetime">2011-05-12T17:40:46+09:00</created-at>
+  <due-on type="datetime">2011-07-03T00:00:00+09:00</due-on>
+  <goals></goals>
+  <goals-html></goals-html>
+  <id type="integer">111578</id>
+  <open-tickets-count type="integer">0</open-tickets-count>
+  <permalink>iteration-11</permalink>
+  <project-id type="integer">55575</project-id>
+  <tickets-count type="integer">24</tickets-count>
+  <title>Iteration 17</title>
+  <updated-at type="datetime">2011-07-29T11:12:08+09:00</updated-at>
+  <url>http://theplant.lighthouseapp.com/projects/55575/milestones/111578</url>
+  <user-name nil="true"></user-name>
+</milestone>

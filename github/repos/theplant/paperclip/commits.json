@@ -1,0 +1,1210 @@
+[
+  {
+    "sha": "43a1c398bfc9b375fb20a468363bf738108c51ee",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "parents": [
+      {
+        "sha": "e0ea10ae2034172892c9c9a43d8515e182a961d9",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/e0ea10ae2034172892c9c9a43d8515e182a961d9"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/43a1c398bfc9b375fb20a468363bf738108c51ee",
+    "commit": {
+      "tree": {
+        "sha": "46814635edb4e0d27b45b77c846b3993b91b0813",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/46814635edb4e0d27b45b77c846b3993b91b0813"
+      },
+      "author": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T06:42:13-07:00"
+      },
+      "message": "add before_transformation_convert_options",
+      "committer": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T06:42:13-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/43a1c398bfc9b375fb20a468363bf738108c51ee"
+    }
+  },
+  {
+    "sha": "e0ea10ae2034172892c9c9a43d8515e182a961d9",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "parents": [
+      {
+        "sha": "be62ab4fee679a0d0379f64994591f1c1ea41455",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/be62ab4fee679a0d0379f64994591f1c1ea41455"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/e0ea10ae2034172892c9c9a43d8515e182a961d9",
+    "commit": {
+      "tree": {
+        "sha": "3a418e61302e4f28b6905cd28f5ff2ab94a475a3",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/3a418e61302e4f28b6905cd28f5ff2ab94a475a3"
+      },
+      "author": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T06:05:19-07:00"
+      },
+      "message": "use class_attribute instead of class_inheritable_attribute",
+      "committer": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T06:05:19-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/e0ea10ae2034172892c9c9a43d8515e182a961d9"
+    }
+  },
+  {
+    "sha": "be62ab4fee679a0d0379f64994591f1c1ea41455",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "parents": [
+      {
+        "sha": "b4cfdaeead1b0bee710266c44f4048d6295426df",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/b4cfdaeead1b0bee710266c44f4048d6295426df"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/be62ab4fee679a0d0379f64994591f1c1ea41455",
+    "commit": {
+      "tree": {
+        "sha": "1067d4ca340b96a7bc169169b3b3d6143cc927a6",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/1067d4ca340b96a7bc169169b3b3d6143cc927a6"
+      },
+      "author": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T05:21:44-07:00"
+      },
+      "message": "fix destination object",
+      "committer": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T05:21:44-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/be62ab4fee679a0d0379f64994591f1c1ea41455"
+    }
+  },
+  {
+    "sha": "b4cfdaeead1b0bee710266c44f4048d6295426df",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "parents": [
+      {
+        "sha": "69874baac824c7fa351f18edd47507b14f4f7123",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/69874baac824c7fa351f18edd47507b14f4f7123"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/b4cfdaeead1b0bee710266c44f4048d6295426df",
+    "commit": {
+      "tree": {
+        "sha": "df974c74afe6bc3e8c0c1522464da649d829086b",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/df974c74afe6bc3e8c0c1522464da649d829086b"
+      },
+      "author": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T05:03:18-07:00"
+      },
+      "message": "fix format error when tempfile has no correct extension name",
+      "committer": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T05:03:18-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/b4cfdaeead1b0bee710266c44f4048d6295426df"
+    }
+  },
+  {
+    "sha": "69874baac824c7fa351f18edd47507b14f4f7123",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "parents": [
+      {
+        "sha": "2874b053e9c2b0be617714b98bf05c7b8314883a",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/2874b053e9c2b0be617714b98bf05c7b8314883a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/69874baac824c7fa351f18edd47507b14f4f7123",
+    "commit": {
+      "tree": {
+        "sha": "a9267f9d321cfe5cd72c7f1d9575b91adbcd5213",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/a9267f9d321cfe5cd72c7f1d9575b91adbcd5213"
+      },
+      "author": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T04:13:50-07:00"
+      },
+      "message": "fix s3 url bug",
+      "committer": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T04:13:50-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/69874baac824c7fa351f18edd47507b14f4f7123"
+    }
+  },
+  {
+    "sha": "2874b053e9c2b0be617714b98bf05c7b8314883a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "parents": [
+      {
+        "sha": "1738ea1dcaf65860c53088cc62ad7f0887e629ca",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/1738ea1dcaf65860c53088cc62ad7f0887e629ca"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "login": "janx",
+      "url": "https://api.github.com/users/janx"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/2874b053e9c2b0be617714b98bf05c7b8314883a",
+    "commit": {
+      "tree": {
+        "sha": "3ef9170a0957c1964c84c9780bf772e35b978606",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/3ef9170a0957c1964c84c9780bf772e35b978606"
+      },
+      "author": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan",
+        "date": "2010-11-01T01:47:21-07:00"
+      },
+      "message": "linux compatible file command params",
+      "committer": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-04-03T04:06:11-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/2874b053e9c2b0be617714b98bf05c7b8314883a"
+    }
+  },
+  {
+    "sha": "1738ea1dcaf65860c53088cc62ad7f0887e629ca",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "parents": [
+      {
+        "sha": "91c2338578e50a718c8e615a58911d73b330801c",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/91c2338578e50a718c8e615a58911d73b330801c"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/1738ea1dcaf65860c53088cc62ad7f0887e629ca",
+    "commit": {
+      "tree": {
+        "sha": "e03cae0fbe8fc46b6e262ff85906d4601fdd5d11",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/e03cae0fbe8fc46b6e262ff85906d4601fdd5d11"
+      },
+      "author": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-03-09T12:26:10-08:00"
+      },
+      "message": "Allow commandline args like 'xc:black'",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-03-09T12:26:10-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/1738ea1dcaf65860c53088cc62ad7f0887e629ca"
+    }
+  },
+  {
+    "sha": "91c2338578e50a718c8e615a58911d73b330801c",
+    "author": null,
+    "parents": [
+      {
+        "sha": "338fc35300fd6841a464c13b185c2b35d2d157f0",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/338fc35300fd6841a464c13b185c2b35d2d157f0"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/91c2338578e50a718c8e615a58911d73b330801c",
+    "commit": {
+      "tree": {
+        "sha": "7f70337771ec95c8475306f63623e75dff583123",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/7f70337771ec95c8475306f63623e75dff583123"
+      },
+      "author": {
+        "email": "yar@laptop",
+        "name": "yar",
+        "date": "2011-03-07T08:47:37-08:00"
+      },
+      "message": "post-processing can be switched on and off at any time",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-03-09T11:37:45-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/91c2338578e50a718c8e615a58911d73b330801c"
+    }
+  },
+  {
+    "sha": "338fc35300fd6841a464c13b185c2b35d2d157f0",
+    "author": null,
+    "parents": [
+      {
+        "sha": "cf41b01c474fb2828ac2f82e1175fb1d874241bd",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/cf41b01c474fb2828ac2f82e1175fb1d874241bd"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/338fc35300fd6841a464c13b185c2b35d2d157f0",
+    "commit": {
+      "tree": {
+        "sha": "4fc2e4f442c495d0deb2fb801b84d7ecf6fe9617",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/4fc2e4f442c495d0deb2fb801b84d7ecf6fe9617"
+      },
+      "author": {
+        "email": "yar@laptop",
+        "name": "yar",
+        "date": "2011-03-07T09:33:44-08:00"
+      },
+      "message": "selectively reprocessing attachment styles",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-03-09T11:35:44-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/338fc35300fd6841a464c13b185c2b35d2d157f0"
+    }
+  },
+  {
+    "sha": "cf41b01c474fb2828ac2f82e1175fb1d874241bd",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/ec81d9cd659b1823a1dd321a2b547faa?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 131752,
+      "login": "jhawthorn",
+      "url": "https://api.github.com/users/jhawthorn"
+    },
+    "parents": [
+      {
+        "sha": "9ec35a6d4cee91a0c5730fafcf9b8d420f16f200",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/9ec35a6d4cee91a0c5730fafcf9b8d420f16f200"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/cf41b01c474fb2828ac2f82e1175fb1d874241bd",
+    "commit": {
+      "tree": {
+        "sha": "c9f3ec6993f86c15818c0f207171c1cb4d1b94a3",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/c9f3ec6993f86c15818c0f207171c1cb4d1b94a3"
+      },
+      "author": {
+        "email": "john.hawthorn@gmail.com",
+        "name": "John Hawthorn",
+        "date": "2011-02-24T19:14:37-08:00"
+      },
+      "message": "performance: only require 'aws/s3' if it isn't already loaded",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-03-09T11:22:28-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/cf41b01c474fb2828ac2f82e1175fb1d874241bd"
+    }
+  },
+  {
+    "sha": "9ec35a6d4cee91a0c5730fafcf9b8d420f16f200",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/ec81d9cd659b1823a1dd321a2b547faa?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 131752,
+      "login": "jhawthorn",
+      "url": "https://api.github.com/users/jhawthorn"
+    },
+    "parents": [
+      {
+        "sha": "317c04bd446421dd57fc38673b1ba76686273666",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/317c04bd446421dd57fc38673b1ba76686273666"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/9ec35a6d4cee91a0c5730fafcf9b8d420f16f200",
+    "commit": {
+      "tree": {
+        "sha": "5f991f85fcc16d73dcf93f6b53d80cf473ee0f4e",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/5f991f85fcc16d73dcf93f6b53d80cf473ee0f4e"
+      },
+      "author": {
+        "email": "john.hawthorn@gmail.com",
+        "name": "John Hawthorn",
+        "date": "2011-02-24T19:29:52-08:00"
+      },
+      "message": "performance: only define s3 interpolations once.",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-03-09T11:22:19-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/9ec35a6d4cee91a0c5730fafcf9b8d420f16f200"
+    }
+  },
+  {
+    "sha": "317c04bd446421dd57fc38673b1ba76686273666",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/079ab1cc5aa71e625bb160e62b09f09c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 40619,
+      "login": "jmileham",
+      "url": "https://api.github.com/users/jmileham"
+    },
+    "parents": [
+      {
+        "sha": "6a10b358bff2562a5c9b1585f0c8122b540966a3",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/6a10b358bff2562a5c9b1585f0c8122b540966a3"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/317c04bd446421dd57fc38673b1ba76686273666",
+    "commit": {
+      "tree": {
+        "sha": "66dce82774bf1b726a5521c9c86d222fa3cc761e",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/66dce82774bf1b726a5521c9c86d222fa3cc761e"
+      },
+      "author": {
+        "email": "jmileham@gmail.com",
+        "name": "John Mileham",
+        "date": "2011-03-09T06:43:08-08:00"
+      },
+      "message": "Correctly set style when interpolating :hash",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-03-09T11:20:32-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/317c04bd446421dd57fc38673b1ba76686273666"
+    }
+  },
+  {
+    "sha": "6a10b358bff2562a5c9b1585f0c8122b540966a3",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "parents": [
+      {
+        "sha": "f89ab8202f978a236200b1f220368d37f676e815",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/f89ab8202f978a236200b1f220368d37f676e815"
+      },
+      {
+        "sha": "0708cd43866be838c9cf577a746b9aefcb1d8384",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/0708cd43866be838c9cf577a746b9aefcb1d8384"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/6a10b358bff2562a5c9b1585f0c8122b540966a3",
+    "commit": {
+      "tree": {
+        "sha": "975a4ffb74969fdd0236ee845c654b251d341ed5",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/975a4ffb74969fdd0236ee845c654b251d341ed5"
+      },
+      "author": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T14:05:44-08:00"
+      },
+      "message": "Merge pull request #407 from reenhanced/paperclip\n\n---\n\nWhen an attachment has an uppercase extension and a default style, the to_s and url methods do not match when a size is not passed in. This contains the test and fix for this issue.",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T14:05:44-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/6a10b358bff2562a5c9b1585f0c8122b540966a3"
+    }
+  },
+  {
+    "sha": "f89ab8202f978a236200b1f220368d37f676e815",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "parents": [
+      {
+        "sha": "b4f9d2a5f13fa3e82f8c05f7e589815cca5ae13d",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/b4f9d2a5f13fa3e82f8c05f7e589815cca5ae13d"
+      },
+      {
+        "sha": "0bca09a13436c2e8dd91fcf96d7e6fccc4a25dab",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/0bca09a13436c2e8dd91fcf96d7e6fccc4a25dab"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/f89ab8202f978a236200b1f220368d37f676e815",
+    "commit": {
+      "tree": {
+        "sha": "58e40ef1cbb01994c9144602e505429f03416a10",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/58e40ef1cbb01994c9144602e505429f03416a10"
+      },
+      "author": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T13:28:08-08:00"
+      },
+      "message": "Merge pull request #411 from francocatena/paperclip\n\n---\n\nI added lambda support to the size and content type validator, so now you can do something like:\r\n\r\n<code>validates_attachment_size :avatar, :less_than => 2.megabytes, :message => lambda { I18n.t(invalid_image_size) }</code>\r\n\r\nThis is consistent with Rails validators, wich receive either a String or a Proc.\r\n\r\nRegards.",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T13:28:08-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/f89ab8202f978a236200b1f220368d37f676e815"
+    }
+  },
+  {
+    "sha": "b4f9d2a5f13fa3e82f8c05f7e589815cca5ae13d",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "parents": [
+      {
+        "sha": "0422cd89fe226710a3768c8e80717dfa1f65694a",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/0422cd89fe226710a3768c8e80717dfa1f65694a"
+      },
+      {
+        "sha": "13c86cf17f1bc394a14a558851cab681514adb51",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/13c86cf17f1bc394a14a558851cab681514adb51"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/b4f9d2a5f13fa3e82f8c05f7e589815cca5ae13d",
+    "commit": {
+      "tree": {
+        "sha": "1bdb368f233e03c58f0a9e83e37e344ebdd693ba",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/1bdb368f233e03c58f0a9e83e37e344ebdd693ba"
+      },
+      "author": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T12:57:34-08:00"
+      },
+      "message": "Merge pull request #416 from jmileham/paperclip\n\n---\n\nHi there,\r\n\r\nIm building a site that needs to securely obfuscate attachments in a public S3 bucket.  The solution I arrived at seems like it might be useful to the community as a general-purpose tool that remains customizable enough to allow developers with different requirements to implement it differently without having to hack into Paperclip core.  It is a set of storage-agnostic extensions to Attachment and Interpolations and supporting tests.\r\n\r\nIt features:\r\n\r\n  * No extra data model required\r\n  * Choice of HMAC digest algorithm on a per-attachment basis via openssl (modeled after ActiveSupport::MessageVerifier, default algo is SHA1)\r\n  * Choice of fields to include in the hash on a per-attachment basis, which permits many developer-selected tradeoffs between security and flexibility -- some examples:\r\n    * `:hash_data => \":class/:attachment/:id\"` - Unique per asset, long-lived filename with deducible style URLs (e.g. you want a 3rd party site to be able to generate style URLs from a single URL trunk that you provide once and always get the latest attachment)\r\n    * `:hash_data => \":class/:attachment/:id/:style\"` - Adds non-deducible style URLs (e.g. you want to store uncompressed :originals but dont want end users to be able to find them and kill your bandwidth bill)\r\n    * `:hash_data => \":class/:attachment/:id/:style/:updated_at\"` - Adds non-deducible versions (e.g. if a users private profile photo URL makes it out into the wild via a malicious friend, they can unfriend, upload a new photo and the leak is plugged) -- this is the default\r\n\r\nSince the hashes are extremely unlikely to collide, you can also remove other elements of the `:path` that were previously required for global uniqueness (like `:id`), which can give your users plausible deniability of ownership, or even completely obliterate the directory structure (`:path => \":hash\"` -- or less controversially `:path => \":hash.:extension\"`) such that an attacker cant even prove what kind of attachment he/she has gained access to.  Paired with a large `:hash_secret` and HTTPS, your users are left with a similar security guarantee to the analog hole -- attackers would need an authorized-user mole, or would need to compromise either your server-side secret or an authorized users machine in order to gain access to protected attachments, and then would be able to freely distribute them (sadly, using your hosting infrastructure as an accomplice).\r\n\r\n### The `:timestamp` bug\r\n\r\nWhile building this, I ran across what I think is a bug: The `:timestamp` interpolation is non-deterministic in the presence of per-thread time_zones, e.g. displaying time zones per user location, which would affect any such site that uses `:timestamp` in an attachment :path or :url (or if I had used `:timestamp` in `:hash`).  While using `:timestamp` in paths and URLs is probably a little-used feature given the general wordiness of `Time#to_s`, and the intersection of sites that attempt to use it as well as implement per-user time zones is a vanishingly small slice of Paperclip users, I think its worth taking a look at.\r\n\r\nI took a stab at dealing with it by adding a new attachment config parameter `:use_default_time_zone` (defaulted to true) that explicitly churns out :timestamp interpolations in the server-wide default time zone.  This is not perfect, because its possible that a site owner would want to change the default time zone via `config.time_zone=`, which would in turn invalidate all of their existing attachment URLs.  One option available to such an implementor would be to redefine my new method `Attachment#time_zone` explicitly to meet their requirements.  Or I could add a `:time_zone` option on `Attachment`, defaulted to null, and falling through to the present `Attachment#time_zone` implementation.  Such an option could even optionally take a block a la `options[:url]` and `options[:path]`.\r\n\r\nWhile the ideal path for `:timestamp` is unclear to me as Im not deeply familiar with the design philosophy behind Paperclip or the direction it wants to head in (aggressively fixing holes like this or supporting users who may rely on legacy behavior?), it seemed natural to me to expose the integer `Attachment#updated_at` value as an interpolation as an alternative to `:timestamp`.  Epoch seconds dont carry any time zone information and are therefor immune to this issue, plus theyre presumably faster to convert to than text, and fewer characters to hash to boot.\r\n\r\nSo my present implementation has a provisionally \"improved\" behavior for :timestamp (which should be backward compatible for everybody who didnt run into the bug personally), and a new `:updated_at` interpolation that merely exposes the existing `Attachment` instance method.  Id be eager for feedback on what if anything should be done with that stuff.\r\n\r\nThe caveats:\r\n\r\n  * Im pretty new to testing, and this was definitely my first time writing tests using shoulda and test/unit.  Feel free to slap me for transgressions in style and abuse of mocks/stubs/fakes/dummies.\r\n  * I tried to follow house style to the extent I could derive it, but Im sure I got it wrong in places.\r\n  * Im not sure what went on with the appraisal gemfile.locks reverting to an earlier version dependency on Rails -- perhaps this is expected?  Again, never used appraisal before either.  Tips would be more than welcome.\r\n\r\nId be very excited if you see some or all of these changes as valuable to the Paperclip mainstream, and am happy to iterate this into something worthy of pulling.\r\n\r\nThanks a lot!\r\n\r\n-john",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T12:57:34-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/b4f9d2a5f13fa3e82f8c05f7e589815cca5ae13d"
+    }
+  },
+  {
+    "sha": "0422cd89fe226710a3768c8e80717dfa1f65694a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "parents": [
+      {
+        "sha": "fc792c89072f5679e98f91cee58a9078466def17",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/fc792c89072f5679e98f91cee58a9078466def17"
+      },
+      {
+        "sha": "beff1273889c2954c9c68e951641f8c5e705d223",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/beff1273889c2954c9c68e951641f8c5e705d223"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/0422cd89fe226710a3768c8e80717dfa1f65694a",
+    "commit": {
+      "tree": {
+        "sha": "2271e14a717790b9e452e598b22da3bc489ad7a9",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/2271e14a717790b9e452e598b22da3bc489ad7a9"
+      },
+      "author": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T12:45:54-08:00"
+      },
+      "message": "Merge pull request #418 from sleeplessgeek/paperclip\n\n---\n\nUpdated README to make this requirement more noticeable and to explain how to make sure Paperclip has access to its utilities.",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-02-16T12:45:54-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/0422cd89fe226710a3768c8e80717dfa1f65694a"
+    }
+  },
+  {
+    "sha": "beff1273889c2954c9c68e951641f8c5e705d223",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b9c927e051202fc198e70659d9827d2f?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 338814,
+      "login": "sleeplessgeek",
+      "url": "https://api.github.com/users/sleeplessgeek"
+    },
+    "parents": [
+      {
+        "sha": "fc792c89072f5679e98f91cee58a9078466def17",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/fc792c89072f5679e98f91cee58a9078466def17"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b9c927e051202fc198e70659d9827d2f?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 338814,
+      "login": "sleeplessgeek",
+      "url": "https://api.github.com/users/sleeplessgeek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/beff1273889c2954c9c68e951641f8c5e705d223",
+    "commit": {
+      "tree": {
+        "sha": "2271e14a717790b9e452e598b22da3bc489ad7a9",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/2271e14a717790b9e452e598b22da3bc489ad7a9"
+      },
+      "author": {
+        "email": "nathan.long@tma1.com",
+        "name": "Nathan Long",
+        "date": "2011-02-11T06:22:41-08:00"
+      },
+      "message": "Made the ImageMagick requirement more prominent",
+      "committer": {
+        "email": "nathan.long@tma1.com",
+        "name": "Nathan Long",
+        "date": "2011-02-11T06:22:41-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/beff1273889c2954c9c68e951641f8c5e705d223"
+    }
+  },
+  {
+    "sha": "13c86cf17f1bc394a14a558851cab681514adb51",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/079ab1cc5aa71e625bb160e62b09f09c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 40619,
+      "login": "jmileham",
+      "url": "https://api.github.com/users/jmileham"
+    },
+    "parents": [
+      {
+        "sha": "fc792c89072f5679e98f91cee58a9078466def17",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/fc792c89072f5679e98f91cee58a9078466def17"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/079ab1cc5aa71e625bb160e62b09f09c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 40619,
+      "login": "jmileham",
+      "url": "https://api.github.com/users/jmileham"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/13c86cf17f1bc394a14a558851cab681514adb51",
+    "commit": {
+      "tree": {
+        "sha": "341b04f5a62139d8ff8e3505d6c69a664ef0257f",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/341b04f5a62139d8ff8e3505d6c69a664ef0257f"
+      },
+      "author": {
+        "email": "jmileham@gmail.com",
+        "name": "John Mileham",
+        "date": "2011-02-10T02:08:27-08:00"
+      },
+      "message": "Adds secure :hash interpolation and fixes time zone brittleness in :timestamp interpolation",
+      "committer": {
+        "email": "jmileham@gmail.com",
+        "name": "John Mileham",
+        "date": "2011-02-10T07:22:02-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/13c86cf17f1bc394a14a558851cab681514adb51"
+    }
+  },
+  {
+    "sha": "0bca09a13436c2e8dd91fcf96d7e6fccc4a25dab",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/84fbb9c2a7b05c3ddf39904514585a90?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 85371,
+      "login": "francocatena",
+      "url": "https://api.github.com/users/francocatena"
+    },
+    "parents": [
+      {
+        "sha": "fc792c89072f5679e98f91cee58a9078466def17",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/fc792c89072f5679e98f91cee58a9078466def17"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/84fbb9c2a7b05c3ddf39904514585a90?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 85371,
+      "login": "francocatena",
+      "url": "https://api.github.com/users/francocatena"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/0bca09a13436c2e8dd91fcf96d7e6fccc4a25dab",
+    "commit": {
+      "tree": {
+        "sha": "bceb22eed8dbaa59b744c2a2c4ede4b400eccdbf",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/bceb22eed8dbaa59b744c2a2c4ede4b400eccdbf"
+      },
+      "author": {
+        "email": "francocatena@gmail.com",
+        "name": "Franco Catena",
+        "date": "2011-02-04T10:20:30-08:00"
+      },
+      "message": "Added lambda messages to validators",
+      "committer": {
+        "email": "francocatena@gmail.com",
+        "name": "Franco Catena",
+        "date": "2011-02-04T10:20:30-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/0bca09a13436c2e8dd91fcf96d7e6fccc4a25dab"
+    }
+  },
+  {
+    "sha": "0708cd43866be838c9cf577a746b9aefcb1d8384",
+    "author": null,
+    "parents": [
+      {
+        "sha": "fc792c89072f5679e98f91cee58a9078466def17",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/fc792c89072f5679e98f91cee58a9078466def17"
+      }
+    ],
+    "committer": null,
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/0708cd43866be838c9cf577a746b9aefcb1d8384",
+    "commit": {
+      "tree": {
+        "sha": "d893e9d89c55e0be3e6420c69affdd4eff170a52",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/d893e9d89c55e0be3e6420c69affdd4eff170a52"
+      },
+      "author": {
+        "email": "robert@reenhanced.com",
+        "name": "Robert Stern",
+        "date": "2011-02-01T11:01:23-08:00"
+      },
+      "message": "Fixes issue with uppercase extension and default style on to_s method. Fixes issue #385.",
+      "committer": {
+        "email": "robert@reenhanced.com",
+        "name": "Robert Stern",
+        "date": "2011-02-01T11:01:23-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/0708cd43866be838c9cf577a746b9aefcb1d8384"
+    }
+  },
+  {
+    "sha": "fc792c89072f5679e98f91cee58a9078466def17",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "parents": [
+      {
+        "sha": "32f458a0fe7be24fac5dc94b5b11ec485cca703a",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/32f458a0fe7be24fac5dc94b5b11ec485cca703a"
+      },
+      {
+        "sha": "aa55b952065f265b83fed0fc24a79799bd12ab8a",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/aa55b952065f265b83fed0fc24a79799bd12ab8a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/fc792c89072f5679e98f91cee58a9078466def17",
+    "commit": {
+      "tree": {
+        "sha": "1c32bb6a8c697ed5ca30bc3fef5d7d9bfbec2b87",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/1c32bb6a8c697ed5ca30bc3fef5d7d9bfbec2b87"
+      },
+      "author": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:53:46-08:00"
+      },
+      "message": "Merge branch 'master' of github.com:thoughtbot/paperclip",
+      "committer": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:53:46-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/fc792c89072f5679e98f91cee58a9078466def17"
+    }
+  },
+  {
+    "sha": "32f458a0fe7be24fac5dc94b5b11ec485cca703a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "parents": [
+      {
+        "sha": "249bf0aee67b68520c1ad38790db06f66727d2da",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/249bf0aee67b68520c1ad38790db06f66727d2da"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/32f458a0fe7be24fac5dc94b5b11ec485cca703a",
+    "commit": {
+      "tree": {
+        "sha": "8dfaa474b772e3d4f727a04b6fd5cd2999160765",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/8dfaa474b772e3d4f727a04b6fd5cd2999160765"
+      },
+      "author": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:53:33-08:00"
+      },
+      "message": "fix <attachment> markup in events section",
+      "committer": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:53:33-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/32f458a0fe7be24fac5dc94b5b11ec485cca703a"
+    }
+  },
+  {
+    "sha": "249bf0aee67b68520c1ad38790db06f66727d2da",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "parents": [
+      {
+        "sha": "1cdabfcccd7f8ffb8505b952c7cf333df8a1b73e",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/1cdabfcccd7f8ffb8505b952c7cf333df8a1b73e"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/249bf0aee67b68520c1ad38790db06f66727d2da",
+    "commit": {
+      "tree": {
+        "sha": "3f9f275a9e0af3d913e473ca5029afcb812c559c",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/3f9f275a9e0af3d913e473ca5029afcb812c559c"
+      },
+      "author": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:52:30-08:00"
+      },
+      "message": "Revert \"fix the <attachment> stuff for markdown\"\n\nThis reverts commit 1cdabfcccd7f8ffb8505b952c7cf333df8a1b73e.",
+      "committer": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:52:30-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/249bf0aee67b68520c1ad38790db06f66727d2da"
+    }
+  },
+  {
+    "sha": "1cdabfcccd7f8ffb8505b952c7cf333df8a1b73e",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "parents": [
+      {
+        "sha": "0d395b64072d05aca0a95903facea2f161ac4ce4",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/0d395b64072d05aca0a95903facea2f161ac4ce4"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/1cdabfcccd7f8ffb8505b952c7cf333df8a1b73e",
+    "commit": {
+      "tree": {
+        "sha": "bf673d26a78f318418afaa6eb29385ea6f75cea2",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/bf673d26a78f318418afaa6eb29385ea6f75cea2"
+      },
+      "author": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:50:30-08:00"
+      },
+      "message": "fix the <attachment> stuff for markdown",
+      "committer": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-31T05:50:30-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/1cdabfcccd7f8ffb8505b952c7cf333df8a1b73e"
+    }
+  },
+  {
+    "sha": "aa55b952065f265b83fed0fc24a79799bd12ab8a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/e535b2456534fcea111ddd58375b7aa9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 225,
+      "login": "mjankowski",
+      "url": "https://api.github.com/users/mjankowski"
+    },
+    "parents": [
+      {
+        "sha": "0d395b64072d05aca0a95903facea2f161ac4ce4",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/0d395b64072d05aca0a95903facea2f161ac4ce4"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/e535b2456534fcea111ddd58375b7aa9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 225,
+      "login": "mjankowski",
+      "url": "https://api.github.com/users/mjankowski"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/aa55b952065f265b83fed0fc24a79799bd12ab8a",
+    "commit": {
+      "tree": {
+        "sha": "27c380a6b1399ff4dc31a45efc6476f1e740f126",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/27c380a6b1399ff4dc31a45efc6476f1e740f126"
+      },
+      "author": {
+        "email": "mjankowski@thoughtbot.com",
+        "name": "Matt Jankowski",
+        "date": "2011-01-19T10:59:34-08:00"
+      },
+      "message": "thank the contributors",
+      "committer": {
+        "email": "mjankowski@thoughtbot.com",
+        "name": "Matt Jankowski",
+        "date": "2011-01-19T10:59:34-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/aa55b952065f265b83fed0fc24a79799bd12ab8a"
+    }
+  },
+  {
+    "sha": "0d395b64072d05aca0a95903facea2f161ac4ce4",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "parents": [
+      {
+        "sha": "deff9cf5197a4a60ef0bba357cd7e1592b26a626",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/deff9cf5197a4a60ef0bba357cd7e1592b26a626"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/0d395b64072d05aca0a95903facea2f161ac4ce4",
+    "commit": {
+      "tree": {
+        "sha": "3f9f275a9e0af3d913e473ca5029afcb812c559c",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/3f9f275a9e0af3d913e473ca5029afcb812c559c"
+      },
+      "author": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-19T08:07:05-08:00"
+      },
+      "message": "fix the link to rdoc",
+      "committer": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-19T08:07:05-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/0d395b64072d05aca0a95903facea2f161ac4ce4"
+    }
+  },
+  {
+    "sha": "deff9cf5197a4a60ef0bba357cd7e1592b26a626",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "parents": [
+      {
+        "sha": "7a38ef79d00f858b474a00207ef537372a8e30f7",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/7a38ef79d00f858b474a00207ef537372a8e30f7"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/374cb8ccd196db80af224b28a4f604dd?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5015,
+      "login": "cpytel",
+      "url": "https://api.github.com/users/cpytel"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/deff9cf5197a4a60ef0bba357cd7e1592b26a626",
+    "commit": {
+      "tree": {
+        "sha": "e2e1ff5d992607a23c39465eb3c6aa91d2024a5f",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/e2e1ff5d992607a23c39465eb3c6aa91d2024a5f"
+      },
+      "author": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-19T08:05:55-08:00"
+      },
+      "message": "convert the readme to markdown and add proper trademark and license info",
+      "committer": {
+        "email": "cpytel@thoughtbot.com",
+        "name": "Chad Pytel",
+        "date": "2011-01-19T08:05:55-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/deff9cf5197a4a60ef0bba357cd7e1592b26a626"
+    }
+  },
+  {
+    "sha": "7a38ef79d00f858b474a00207ef537372a8e30f7",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "parents": [
+      {
+        "sha": "208883dc39224169441b41a1b3741ee27fc88364",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/208883dc39224169441b41a1b3741ee27fc88364"
+      },
+      {
+        "sha": "88a65aafb7cfab1a325e676e0c9d78c317699665",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/88a65aafb7cfab1a325e676e0c9d78c317699665"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bee024ad9234098c14cb1ab5b3ea72c8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4632,
+      "login": "jyurek",
+      "url": "https://api.github.com/users/jyurek"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/7a38ef79d00f858b474a00207ef537372a8e30f7",
+    "commit": {
+      "tree": {
+        "sha": "f454ad829ef7c1506566c9c261e2ca851a61bb6e",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/f454ad829ef7c1506566c9c261e2ca851a61bb6e"
+      },
+      "author": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-01-14T08:44:12-08:00"
+      },
+      "message": "Merge remote branch 'tilsammans/master'",
+      "committer": {
+        "email": "jyurek@thoughtbot.com",
+        "name": "Jon Yurek",
+        "date": "2011-01-14T08:44:12-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/7a38ef79d00f858b474a00207ef537372a8e30f7"
+    }
+  },
+  {
+    "sha": "88a65aafb7cfab1a325e676e0c9d78c317699665",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/71b46c4f6e9cfec742e18deeec6d2cd9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 14680,
+      "login": "tilsammans",
+      "url": "https://api.github.com/users/tilsammans"
+    },
+    "parents": [
+      {
+        "sha": "1b8bb3c3d223f2f3c332cf0fb5f8c30acc5ca1b8",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/1b8bb3c3d223f2f3c332cf0fb5f8c30acc5ca1b8"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/71b46c4f6e9cfec742e18deeec6d2cd9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 14680,
+      "login": "tilsammans",
+      "url": "https://api.github.com/users/tilsammans"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/88a65aafb7cfab1a325e676e0c9d78c317699665",
+    "commit": {
+      "tree": {
+        "sha": "bc4e3f75dc05416a004f6f4d43e4e2f18b32262c",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/bc4e3f75dc05416a004f6f4d43e4e2f18b32262c"
+      },
+      "author": {
+        "email": "joost@spacebabies.nl",
+        "name": "Joost Baaij",
+        "date": "2011-01-14T02:03:54-08:00"
+      },
+      "message": "added tests for filesystem storage",
+      "committer": {
+        "email": "joost@spacebabies.nl",
+        "name": "Joost Baaij",
+        "date": "2011-01-14T02:03:54-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/88a65aafb7cfab1a325e676e0c9d78c317699665"
+    }
+  },
+  {
+    "sha": "1b8bb3c3d223f2f3c332cf0fb5f8c30acc5ca1b8",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/71b46c4f6e9cfec742e18deeec6d2cd9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 14680,
+      "login": "tilsammans",
+      "url": "https://api.github.com/users/tilsammans"
+    },
+    "parents": [
+      {
+        "sha": "289d9cfb1bfa9e1858a60112deea8f8c687ac0b6",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/289d9cfb1bfa9e1858a60112deea8f8c687ac0b6"
+      },
+      {
+        "sha": "e23d7f51aaaa2ac70f96e7741892adb3272d02b8",
+        "url": "https://api.github.com/repos/theplant/paperclip/commits/e23d7f51aaaa2ac70f96e7741892adb3272d02b8"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/71b46c4f6e9cfec742e18deeec6d2cd9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 14680,
+      "login": "tilsammans",
+      "url": "https://api.github.com/users/tilsammans"
+    },
+    "url": "https://api.github.com/repos/theplant/paperclip/commits/1b8bb3c3d223f2f3c332cf0fb5f8c30acc5ca1b8",
+    "commit": {
+      "tree": {
+        "sha": "09417c07273c059adc6f93ad2dc2488a0797c407",
+        "url": "https://api.github.com/repos/theplant/paperclip/git/trees/09417c07273c059adc6f93ad2dc2488a0797c407"
+      },
+      "author": {
+        "email": "joost@spacebabies.nl",
+        "name": "Joost Baaij",
+        "date": "2011-01-14T01:37:20-08:00"
+      },
+      "message": "Merge branch 'master' of git://github.com/thoughtbot/paperclip",
+      "committer": {
+        "email": "joost@spacebabies.nl",
+        "name": "Joost Baaij",
+        "date": "2011-01-14T01:37:20-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/paperclip/git/commits/1b8bb3c3d223f2f3c332cf0fb5f8c30acc5ca1b8"
+    }
+  }
+]

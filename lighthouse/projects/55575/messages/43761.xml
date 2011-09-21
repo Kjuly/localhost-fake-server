@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <all-attachments-count type="integer">3</all-attachments-count>
+  <attachments-count type="integer">3</attachments-count>
+  <body>Subdomain issue:
+
+* use 'www' (instead of, for example, 'en') if country has only one language, or country default language has a very high weight. So we need a way to adjust language weight in countries.
+
+Running expert:
+
+* a retialer page on asics.eu, for all retailers.
+
+Raphael:
+
+* it would be good to do next product collection update on new system. We'll update collection on June, so we should have a new system with complete frontend, basic backend, and full support to collection update by *May*.
+
+* Easy GA tweaking -  allow admin to express things like: I want to track this page, I want to track that page in this way. Should also allow tracking of AJAX pages/links. I think this basically means customize GA script on each page.
+
+* Emails/Newsletters is an important part.
+    - Mailchimp is not convinient enough. HTML Template editor is good but not necessary, asics have people to create the templates.
+    - What really need is extra attributes on subscription, or connect subscription with user profile. So we can do things like: send this campaign email to all users who is interested in Kinsei3 and age above 25.
+    - mailchimp does provide sending logic based on subscription attributes, we may or may not use it.
+    - And email content should be able to be dynamic, because, e.g., contents may vary between countries.
+    - tracking emails is important, mailchimp do it well.
+
+* it would be better if we can reduce hosting cost, but not a big deal.
+
+* better way for collaborating? Raphael mentioned campfire.
+
+* Gives us guest account of the internal system. It's better if we can find a way to interface with it directly. e.g. people download product zip file from it and upload the zip to asics CMS directly.
+
+* IBM is building an ERP+ system for asics (global). By the end of the year, we may need to interface with the new system then.
+
+* The ERP system will solve the stocking problem, which is the base of EC site.
+
+* Product image feed for other system to use. This can be part of asics2 and be online earlier than the whole system.
+
+* Our system should be able to store future product images, i.e. images without product data. He metioned Adobe Scene7.
+
+Jack/Stephanie/Koen
+
+* Jack is doing collection update
+
+* Stephanie and Koen will join him to do the same thing
+
+* Jack get collection data from the internal system, then add highlights for each product variation manually.
+
+* He'd prefer use highlight ID instead of names in execl.
+
+* It's good to eliminate the intermedia manual work, like upload all data sheets they have directly.
+
+* To automate the flow we need to understand all the rules Jack used to transform the sheets. We talked some on the meeting, not enough.
+
+* I think the rules should be easy to change in an automated system, DSL is good here.
+
+* Human is still need, because some political problems can not be automated.
+
+* Product collection is very season-focused. What we should show on site is current season products, and allow people to find old season products if they want.
+
+Mutaurwa (OT2)
+
+* Publish at somepoint. e.g. I can create bunch of drafts, set some of them to be published at tomorrow, and system will auto publish them at tomorrow.
+
+* too much info on products page (should focus on current collection/season?), not enough info on product page (should connect to other elements on site).
+
+* My observation is Mutaurwa use 'Publish Immediately' almost all the time, which indicates for certain users, 'Publish Immeidately' is the common case, while 'Publish as Draft' is special case. The publish system may be much more simpler if we design the system for this kind of using.
+
+* At least, use checkbox for 'Publish Immediately' is inconvinient to Mutaurwa: he need 2 clicks to save data. A 'Publish Immediately' button will be better.</body>
+  <body-html>&lt;div&gt;&lt;p&gt;Subdomain issue:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use 'www' (instead of, for example, 'en') if country has only
+one language, or country default language has a very high weight.
+So we need a way to adjust language weight in countries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Running expert:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a retialer page on asics.eu, for all retailers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Raphael:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;it would be good to do next product collection update on new
+system. We'll update collection on June, so we should have a new
+system with complete frontend, basic backend, and full support to
+collection update by &lt;em&gt;May&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Easy GA tweaking - allow admin to express things like: I want to
+track this page, I want to track that page in this way. Should also
+allow tracking of AJAX pages/links. I think this basically means
+customize GA script on each page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emails/Newsletters is an important part.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mailchimp is not convinient enough. HTML Template editor is
+good but not necessary, asics have people to create the
+templates.&lt;/li&gt;
+&lt;li&gt;What really need is extra attributes on subscription, or
+connect subscription with user profile. So we can do things like:
+send this campaign email to all users who is interested in Kinsei3
+and age above 25.&lt;/li&gt;
+&lt;li&gt;mailchimp does provide sending logic based on subscription
+attributes, we may or may not use it.&lt;/li&gt;
+&lt;li&gt;And email content should be able to be dynamic, because, e.g.,
+contents may vary between countries.&lt;/li&gt;
+&lt;li&gt;tracking emails is important, mailchimp do it well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;it would be better if we can reduce hosting cost, but not a big
+deal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;better way for collaborating? Raphael mentioned campfire.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gives us guest account of the internal system. It's better if we
+can find a way to interface with it directly. e.g. people download
+product zip file from it and upload the zip to asics CMS
+directly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IBM is building an ERP+ system for asics (global). By the end of
+the year, we may need to interface with the new system then.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ERP system will solve the stocking problem, which is the
+base of EC site.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Product image feed for other system to use. This can be part of
+asics2 and be online earlier than the whole system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Our system should be able to store future product images, i.e.
+images without product data. He metioned Adobe Scene7.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jack/Stephanie/Koen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jack is doing collection update&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stephanie and Koen will join him to do the same thing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jack get collection data from the internal system, then add
+highlights for each product variation manually.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;He'd prefer use highlight ID instead of names in execl.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It's good to eliminate the intermedia manual work, like upload
+all data sheets they have directly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To automate the flow we need to understand all the rules Jack
+used to transform the sheets. We talked some on the meeting, not
+enough.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I think the rules should be easy to change in an automated
+system, DSL is good here.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Human is still need, because some political problems can not be
+automated.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Product collection is very season-focused. What we should show
+on site is current season products, and allow people to find old
+season products if they want.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mutaurwa (OT2)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Publish at somepoint. e.g. I can create bunch of drafts, set
+some of them to be published at tomorrow, and system will auto
+publish them at tomorrow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;too much info on products page (should focus on current
+collection/season?), not enough info on product page (should
+connect to other elements on site).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My observation is Mutaurwa use 'Publish Immediately' almost all
+the time, which indicates for certain users, 'Publish Immeidately'
+is the common case, while 'Publish as Draft' is special case. The
+publish system may be much more simpler if we design the system for
+this kind of using.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;At least, use checkbox for 'Publish Immediately' is inconvinient
+to Mutaurwa: he need 2 clicks to save data. A 'Publish Immediately'
+button will be better.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+  <comments-count type="integer">2</comments-count>
+  <created-at type="datetime">2011-03-23T13:46:18+09:00</created-at>
+  <id type="integer">43761</id>
+  <parent-id type="integer" nil="true"></parent-id>
+  <permalink>ams-meetings-summary</permalink>
+  <project-id type="integer">55575</project-id>
+  <title>AMS Meetings Summary</title>
+  <token>ercqsrpm</token>
+  <updated-at type="datetime">2011-03-23T15:15:21+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <user-name>Jan Xie</user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/messages/43761</url>
+  <comments type="array">
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Above is just my notes. Please add anything you want, Felix :)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Above is just my notes. Please add anything you want, Felix
+:)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2011-03-23T13:48:33+09:00</created-at>
+      <id type="integer">43762</id>
+      <parent-id type="integer">43761</parent-id>
+      <permalink>ams-meetings-summary</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>AMS Meetings Summary</title>
+      <token>pwktb7w3</token>
+      <updated-at type="datetime">2011-03-23T13:48:33+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <user-name>Jan Xie</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/43761</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>@@@
+
+
+Goal of this meeting: One single place for product information/photography for internal use and specifically to display product images on retail cash register displays.
+
+Current situation:  
+there is the digital marketing media library ASICS Bank managed 1.5 TB by Comrad and the PIM system managed by IT.
+The 'ASICS cms&quot; (ruby and mysql system) is working with the ASICS Bank. ASICS cms get export from Comrad every season.
+
+The above Comrad system willed be killed in the future and feature development has been cancelled. Comrad wants to upgrade to a system that we don't want to go with.
+
+Future solution: 
+Akamai or AWS central server Perhaps adobe scene 7 (ACJ started a trial with this) server to let them handle crop/resize capabilities. Can add all this effects in a url using a single media server.
+
+Pim could get item/color or complete list from cms that will generate an .xml file with in it all data and url to images product.(front, back, side etc)
+for example: http://en.ec2.asics.eu/feed/imagescompletecatalog.xml
+with in it:
+&lt;products ID=&quot;TN800&quot;&gt;
+&lt;coloring color ID =&quot;0900&quot;&gt;
+&lt;img src =&quot;http:///&quot;
+...
+&lt;/product&gt;
+In future probably 360 photography. 20 pics per shoe.
+
+Current CMS has only upcoming season uploaded. PIM needs to upload photo samples for season further ahead of time for other departments. Need to be earlier because now we only look to the coming season. not three or 4 ahead.
+
+Timeline for this project? Depends, unclear
+
+Action points;
+The plant will work with IT to provide above image feed.
+
+
+@@@
+
+ASICS IT dept want to
+have a center location to store product images, And Raphael recommend
+us to do so,
+And I think it's a good thing, maybe we can continue to do the Future
+product media library, Which Raphael is thinking about using Adoble
+Scene 7.</body>
+      <body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;
+
+Goal of this meeting: One single place for product information/photography for internal use and specifically to display product images on retail cash register displays.
+
+Current situation:  
+there is the digital marketing media library ASICS Bank managed 1.5 TB by Comrad and the PIM system managed by IT.
+The 'ASICS cms&quot; (ruby and mysql system) is working with the ASICS Bank. ASICS cms get export from Comrad every season.
+
+The above Comrad system willed be killed in the future and feature development has been cancelled. Comrad wants to upgrade to a system that we don't want to go with.
+
+Future solution: 
+Akamai or AWS central server Perhaps adobe scene 7 (ACJ started a trial with this) server to let them handle crop/resize capabilities. Can add all this effects in a url using a single media server.
+
+Pim could get item/color or complete list from cms that will generate an .xml file with in it all data and url to images product.(front, back, side etc)
+for example: http://en.ec2.asics.eu/feed/imagescompletecatalog.xml
+with in it:
+&amp;lt;products ID=&quot;TN800&quot;&amp;gt;
+&amp;lt;coloring color ID =&quot;0900&quot;&amp;gt;
+&amp;lt;img src =&quot;http:///&quot;
+...
+&amp;lt;/product&amp;gt;
+In future probably 360 photography. 20 pics per shoe.
+
+Current CMS has only upcoming season uploaded. PIM needs to upload photo samples for season further ahead of time for other departments. Need to be earlier because now we only look to the coming season. not three or 4 ahead.
+
+Timeline for this project? Depends, unclear
+
+Action points;
+The plant will work with IT to provide above image feed.&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;ASICS IT dept want to&lt;br&gt;
+have a center location to store product images, And Raphael
+recommend&lt;br&gt;
+us to do so,&lt;br&gt;
+And I think it's a good thing, maybe we can continue to do the
+Future&lt;br&gt;
+product media library, Which Raphael is thinking about using
+Adoble&lt;br&gt;
+Scene 7.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2011-03-23T15:15:21+09:00</created-at>
+      <id type="integer">43764</id>
+      <parent-id type="integer">43761</parent-id>
+      <permalink>ams-meetings-summary</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>AMS Meetings Summary</title>
+      <token>pqkx8zt3</token>
+      <updated-at type="datetime">2011-03-23T15:15:21+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <user-name>Felix Sun</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/43761</url>
+    </comment>
+  </comments>
+</message>

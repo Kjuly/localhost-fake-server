@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-18T23:22:10+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">858</number>
+  <permalink>backend-readonly-technology-should-not-line-break</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag>stylesheets</tag>
+  <title>Backend:  readonly technology should not line break</title>
+  <updated-at type="datetime">2011-09-19T12:03:01+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">5</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/858</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>Try to add technology that has long name in global, and view one of its localizations.
+
+See attached.</original-body>
+  <latest-body>Try to add technology that has long name in global, and view one of its localizations.
+
+See attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Try to add technology that has long name in global, and view one
+of its localizations.&lt;/p&gt;
+&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Try to add technology that has long name in global, and view one of its localizations.
+
+See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Try to add technology that has long name in global, and view one
+of its localizations.&lt;/p&gt;
+&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-18T23:22:10+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">858</number>
+      <permalink>backend-readonly-technology-should-not-line-break</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>stylesheets</tag>
+      <title>Backend:  readonly technology should not line break</title>
+      <updated-at type="datetime">2011-09-18T23:22:31+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/858</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T08:32:22+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">858</number>
+      <permalink>backend-readonly-technology-should-not-line-break</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag>stylesheets</tag>
+      <title>Backend:  readonly technology should not line break</title>
+      <updated-at type="datetime">2011-09-19T08:32:30+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/858</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T08:53:20+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">858</number>
+      <permalink>backend-readonly-technology-should-not-line-break</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>stylesheets</tag>
+      <title>Backend:  readonly technology should not line break</title>
+      <updated-at type="datetime">2011-09-19T08:53:31+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/858</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Remember to run 'rake jammit' to re-package changed files :)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Remember to run 'rake jammit' to re-package changed files :)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T11:14:24+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">858</number>
+      <permalink>backend-readonly-technology-should-not-line-break</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>stylesheets</tag>
+      <title>Backend:  readonly technology should not line break</title>
+      <updated-at type="datetime">2011-09-19T11:14:33+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">4</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/858</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Fixed</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Fixed&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-19T12:02:55+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">858</number>
+      <permalink>backend-readonly-technology-should-not-line-break</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>stylesheets</tag>
+      <title>Backend:  readonly technology should not line break</title>
+      <updated-at type="datetime">2011-09-19T12:03:01+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">5</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/858</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>f641f032606484f4bea949e5455304a3a94a97af</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-18T23:22:10+09:00</created-at>
+      <filename>screen-shot-2011-09-18-at-1020.png</filename>
+      <height type="integer">771</height>
+      <id type="integer">1400086</id>
+      <size type="integer">76170</size>
+      <uploader-id type="integer">79899</uploader-id>
+      <width type="integer">1144</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1400086/screen-shot-2011-09-18-at-1020.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

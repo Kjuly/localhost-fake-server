@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+  <total_pages>9</total_pages>
+  <current_page>1</current_page>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-07-27T17:51:39+09:00</created-at>
+    <creator-id type="integer">132540</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">256</number>
+    <permalink>qorform-no-value-shown-in-readonly-filed</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>[qor/form] no value shown in readonly filed</title>
+    <updated-at type="datetime">2011-07-27T17:52:14+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">1</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Charles Shen</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/256</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-05-13T13:16:38+09:00</created-at>
+    <creator-id type="integer">141844</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">254</number>
+    <permalink>bug-user-edit-in-admin-redirect-to-rep-edit</permalink>
+    <priority type="integer">13</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Bug , User edit in admin redirect to rep edit.</title>
+    <updated-at type="datetime">2011-05-16T19:39:38+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>raven</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/254</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-05-13T16:33:07+09:00</created-at>
+    <creator-id type="integer">132540</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">255</number>
+    <permalink>in-development-environment-model-class-is-cached</permalink>
+    <priority type="integer">14</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>in development environment, model class is cached</title>
+    <updated-at type="datetime">2011-05-13T16:33:17+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">1</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Charles Shen</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/255</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>in development environment, if we edit something in the model, we must restart server</original-body>
+    <latest-body>in development environment, if we edit something in the model, we must restart server</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;in development environment, if we edit something in the model,
+we must restart server&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-05-13T13:00:43+09:00</created-at>
+    <creator-id type="integer">141844</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">253</number>
+    <permalink>qorform-select_many-doesnt-support-has_many-relationship</permalink>
+    <priority type="integer">12</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>qor:form select_many doesn't support has_many relationship</title>
+    <updated-at type="datetime">2011-05-13T13:00:56+09:00</updated-at>
+    <user-id type="integer">141844</user-id>
+    <version type="integer">1</version>
+    <user-name>raven</user-name>
+    <creator-name>raven</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/253</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>resource :region do
+  meta :countries, :type =&gt; :select_many
+end
+
+Region has_many :countries
+
+Country belongs_to :region</original-body>
+    <latest-body>resource :region do
+  meta :countries, :type =&gt; :select_many
+end
+
+Region has_many :countries
+
+Country belongs_to :region</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;resource :region do&lt;br&gt;
+meta :countries, :type =&amp;gt; :select_many end&lt;/p&gt;
+&lt;p&gt;Region has_many :countries&lt;/p&gt;
+&lt;p&gt;Country belongs_to :region&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer" nil="true"></assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-05-13T07:35:24+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">252</number>
+    <permalink>notations-add-ability-to-use-wysiwyg-in-help</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Notations &gt; Add ability to use wysiwyg in Help</title>
+    <updated-at type="datetime">2011-05-13T07:36:03+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+    <version type="integer">1</version>
+    <user-name>Anatole</user-name>
+    <creator-name>Anatole</creator-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/252</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>If we could add pictures and such in the Help secion it would make it so that we would radically improve the Help feature.</original-body>
+    <latest-body>If we could add pictures and such in the Help secion it would make it so that we would radically improve the Help feature.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;If we could add pictures and such in the Help secion it would
+make it so that we would radically improve the Help feature.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2010-11-15T18:19:16+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">204</number>
+    <permalink>shaoshing-crop-cant-clear-the-crop-for-a-cropped-image</permalink>
+    <priority type="integer">16</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>ShaoShing Crop &gt; Can't clear the crop for a cropped image. </title>
+    <updated-at type="datetime">2011-04-22T16:50:48+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/204</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>Not sure what to do about the UI, but, I'd like a way to clear the crop (revert to original)</original-body>
+    <latest-body>Not sure what to do about the UI, but, I'd like a way to clear the crop (revert to original)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Not sure what to do about the UI, but, I'd like a way to clear
+the crop (revert to original)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2010-11-15T18:22:35+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">205</number>
+    <permalink>shaoshing-crop-background-color-changes-on-cropped-image</permalink>
+    <priority type="integer">17</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>ShaoShing Crop &gt; Background color changes on cropped image</title>
+    <updated-at type="datetime">2011-04-22T16:47:53+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/205</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>See attached.</original-body>
+    <latest-body>See attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">2</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2010-11-15T18:23:29+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">206</number>
+    <permalink>shaoshing-crop-preview-image-proportions-sometimes-wrong</permalink>
+    <priority type="integer">18</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>ShaoShing Crop &gt; Preview image proportions sometimes wrong</title>
+    <updated-at type="datetime">2011-04-22T16:47:41+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/206</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>See attached.</original-body>
+    <latest-body>See attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2010-12-17T17:23:46+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">226</number>
+    <permalink>shaoshing-crop-strict-the-crop-area-with-fixed-width</permalink>
+    <priority type="integer">20</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>ShaoShing Crop &gt; Strict the crop area with fixed width</title>
+    <updated-at type="datetime">2011-04-22T16:47:28+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/226</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>If the paperclip style was set to '200', then the crop area width should be strict to 200px , while the height can be any value.
+
+( same for fixed height )</original-body>
+    <latest-body>If the paperclip style was set to '200', then the crop area width should be strict to 200px , while the height can be any value.
+
+( same for fixed height )</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;If the paperclip style was set to '200', then the crop area
+width should be strict to 200px , while the height can be any
+value.&lt;/p&gt;
+&lt;p&gt;( same for fixed height )&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">2</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-04-14T15:06:30+09:00</created-at>
+    <creator-id type="integer">94027</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">251</number>
+    <permalink>long-process-style-broken</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Long Process style broken.</title>
+    <updated-at type="datetime">2011-04-15T13:03:29+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">2</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>bin</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/251</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>http://www.ru.dev3.asics.eu:9090/admin/long_processes</original-body>
+    <latest-body>http://www.ru.dev3.asics.eu:9090/admin/long_processes</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.ru.dev3.asics.eu:9090/admin/long_processes&quot;&gt;http://www.ru.dev3.asics.eu:9090/admin/long_processes&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-04-07T12:13:17+09:00</created-at>
+    <creator-id type="integer">132540</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">250</number>
+    <permalink>way-to-render-widget</permalink>
+    <priority type="integer">63</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Way to render widget</title>
+    <updated-at type="datetime">2011-04-07T12:13:24+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">1</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Charles Shen</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/250</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>If I have two widgets in one group
+widget :sidebar_shoe_advisor, :group =&gt; :widget_asset do
+end
+
+widget :events_sidebar_myasics, :group =&gt; :widget_asset do
+end
+when I use render_widget :sidebar_shoe_advisor, it creates #&lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5, widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;, ....&gt;, but the widget_group value should be empty.
+
+So I think we should use render_widget :widget =&gt; :sidebar_shoe_advisor to render a separate widget, use render_widget :group =&gt; :widget_asset to render a group widget.</original-body>
+    <latest-body>If I have two widgets in one group
+widget :sidebar_shoe_advisor, :group =&gt; :widget_asset do
+end
+
+widget :events_sidebar_myasics, :group =&gt; :widget_asset do
+end
+when I use render_widget :sidebar_shoe_advisor, it creates #&lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5, widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;, ....&gt;, but the widget_group value should be empty.
+
+So I think we should use render_widget :widget =&gt; :sidebar_shoe_advisor to render a separate widget, use render_widget :group =&gt; :widget_asset to render a group widget.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;If I have two widgets in one group&lt;br&gt;
+widget :sidebar_shoe_advisor, :group =&amp;gt; :widget_asset do&lt;br&gt;
+end&lt;/p&gt;
+&lt;p&gt;widget :events_sidebar_myasics, :group =&amp;gt; :widget_asset
+do&lt;br&gt;
+end&lt;br&gt;
+when I use render_widget :sidebar_shoe_advisor, it creates
+#&amp;lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5,
+widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;,
+....&amp;gt;, but the widget_group value should be empty.&lt;/p&gt;
+&lt;p&gt;So I think we should use render_widget :widget =&amp;gt;
+:sidebar_shoe_advisor to render a separate widget, use
+render_widget :group =&amp;gt; :widget_asset to render a group
+widget.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-03-28T19:06:45+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">249</number>
+    <permalink>file-importer-need-to-import-a-list-of-urls-provided-by-lambda</permalink>
+    <priority type="integer">11</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>File Importer need to import a list of URLs provided by lambda</title>
+    <updated-at type="datetime">2011-03-28T19:06:58+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/249</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-03-28T19:05:53+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">248</number>
+    <permalink>autocomplete-on-change-event-seems-doesnt-work-for-new-record</permalink>
+    <priority type="integer">10</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>AutoComplete On Change Event seems doesn't work for New record?</title>
+    <updated-at type="datetime">2011-03-28T19:06:06+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/248</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>If I add a new Record by clicking &quot;Add new record&quot;, It doesn't trigger AutoComplete's item_change?</original-body>
+    <latest-body>If I add a new Record by clicking &quot;Add new record&quot;, It doesn't trigger AutoComplete's item_change?</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;If I add a new Record by clicking &quot;Add new record&quot;, It doesn't
+trigger AutoComplete's item_change?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-03-28T19:04:32+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">247</number>
+    <permalink>way-to-clear-autocomplete-selected-values</permalink>
+    <priority type="integer">9</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Way to clear AutoComplete selected values</title>
+    <updated-at type="datetime">2011-03-28T19:04:43+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/247</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>In Product item change, I need to clear ColorVariation AutoComplete and SizeVariation AutoComplete, How do I do this in JavaScript?</original-body>
+    <latest-body>In Product item change, I need to clear ColorVariation AutoComplete and SizeVariation AutoComplete, How do I do this in JavaScript?</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;In Product item change, I need to clear ColorVariation
+AutoComplete and SizeVariation AutoComplete, How do I do this in
+JavaScript?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-03-18T16:00:20+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">246</number>
+    <permalink>add-tracking-to-google-analytics-on-front-end</permalink>
+    <priority type="integer">15</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Add tracking to Google Analytics on Front end</title>
+    <updated-at type="datetime">2011-03-18T16:00:34+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/246</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>Raph want to be able to say &quot;This link, this button, this transition should be tracked by Google Analytics&quot; at front end
+
+We should think about have a interface to add tracking definitions to Google Analytics in front end.</original-body>
+    <latest-body>Raph want to be able to say &quot;This link, this button, this transition should be tracked by Google Analytics&quot; at front end
+
+We should think about have a interface to add tracking definitions to Google Analytics in front end.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Raph want to be able to say &quot;This link, this button, this
+transition should be tracked by Google Analytics&quot; at front end&lt;/p&gt;
+&lt;p&gt;We should think about have a interface to add tracking
+definitions to Google Analytics in front end.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-03-13T22:34:55+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">245</number>
+    <permalink>the-plant-provisioning-should-promote-error-when-cant-find-chef-config</permalink>
+    <priority type="integer">14</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>The Plant Provisioning should promote error when can't find chef config</title>
+    <updated-at type="datetime">2011-03-13T22:35:06+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/245</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>take me an hour to find the problem.</original-body>
+    <latest-body>take me an hour to find the problem.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;take me an hour to find the problem.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-02-25T19:34:07+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">244</number>
+    <permalink>rewrite-permission-control-code-using-rails3-massassignmentsecurity</permalink>
+    <priority type="integer">13</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>dolilo permission role</tag>
+    <title>rewrite permission control code using rails3 MassAssignmentSecurity</title>
+    <updated-at type="datetime">2011-02-25T19:34:45+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">1</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/244</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>Since now we can dynamic change attr_protected attributes.
+
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html</original-body>
+    <latest-body>Since now we can dynamic change attr_protected attributes.
+
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Since now we can dynamic change attr_protected attributes.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html&quot;&gt;
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmen...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-02-21T19:08:21+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">243</number>
+    <permalink>refactor-filtered_scope-out-from-resources_controller</permalink>
+    <priority type="integer">61</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>refactor resources_engine</tag>
+    <title>refactor filtered_scope out from resources_controller</title>
+    <updated-at type="datetime">2011-02-21T19:08:30+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">1</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/243</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>* a module including all filter_scoped related methods
+* resources_engine will add a filter_scoped class method to all models
+* in resources_controller#index, we just do @resource_class.filter_scoped(params[:filter])
+* we can simplify search_center_controller a lot</original-body>
+    <latest-body>* a module including all filter_scoped related methods
+* resources_engine will add a filter_scoped class method to all models
+* in resources_controller#index, we just do @resource_class.filter_scoped(params[:filter])
+* we can simplify search_center_controller a lot</latest-body>
+    <original-body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;a module including all filter_scoped related methods&lt;/li&gt;
+&lt;li&gt;resources_engine will add a filter_scoped class method to all
+models&lt;/li&gt;
+&lt;li&gt;in resources_controller#index, we just do
+@resource_class.filter_scoped(params[:filter])&lt;/li&gt;
+&lt;li&gt;we can simplify search_center_controller a lot&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-02-21T19:04:53+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">242</number>
+    <permalink>use-kaminari-instead-of-will_paginate-in-resources_engine</permalink>
+    <priority type="integer">60</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Use kaminari instead of will_paginate in resources_engine</title>
+    <updated-at type="datetime">2011-02-21T19:05:01+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">1</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/242</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>https://github.com/amatsuda/kaminari
+
+will_paginate rails3 branch hasn't been updated for a long time. Kaminari is better in rails3/ruby19 environment.</original-body>
+    <latest-body>https://github.com/amatsuda/kaminari
+
+will_paginate rails3 branch hasn't been updated for a long time. Kaminari is better in rails3/ruby19 environment.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://github.com/amatsuda/kaminari&quot;&gt;https://github.com/amatsuda/kaminari&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;will_paginate rails3 branch hasn't been updated for a long time.
+Kaminari is better in rails3/ruby19 environment.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">6</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-02-14T11:14:33+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">241</number>
+    <permalink>introducing-qor-resources-engine-search-center</permalink>
+    <priority type="integer">13</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Introducing Qor Resources Engine Search Center</title>
+    <updated-at type="datetime">2011-02-17T13:13:45+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">3</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/241</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>Search center is a integration view for multiple resources, I add this feature because of LACOSTE Customer Service admin, Which is also related to:
+
+- https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view
+- Single User View that someday Anatole mentioned.
+
+Here are the listing of current behaviors
+
+### You can search multiple resources the same time ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png &quot;image&quot;)
+
+### Choose one of the row in result, It will show that records related info ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png &quot;image&quot;)
+
+
+### Mount to any url you want, and choose whatever resources related ###
+@@@
+  search_center :at =&gt; &quot;/catalogue&quot;, :resources =&gt; [:product, :color_variation, :color, :size]
+@@@
+
+### If you get only one result, It show related info page directly ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png &quot;image&quot;)
+
+
+Define related info like this:
+
+@@@
+  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end
+
+
+@@@
+
+
+You can edit any record in the result page.</original-body>
+    <latest-body>Search center is a integration view for multiple resources, I add this feature because of LACOSTE Customer Service admin, Which is also related to:
+
+- https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view
+- Single User View that someday Anatole mentioned.
+
+Here are the listing of current behaviors
+
+### You can search multiple resources the same time ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png &quot;image&quot;)
+
+### Choose one of the row in result, It will show that records related info ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png &quot;image&quot;)
+
+
+### Mount to any url you want, and choose whatever resources related ###
+@@@
+  search_center :at =&gt; &quot;/catalogue&quot;, :resources =&gt; [:product, :color_variation, :color, :size]
+@@@
+
+### If you get only one result, It show related info page directly ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png &quot;image&quot;)
+
+
+Define related info like this:
+
+@@@
+  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end
+
+
+@@@
+
+
+You can edit any record in the result page.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Search center is a integration view for multiple resources, I
+add this feature because of LACOSTE Customer Service admin, Which
+is also related to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view&quot;&gt;
+https://theplant.lighthouseapp.com/projects/30780/tickets/214-custo...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Single User View that someday Anatole mentioned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the listing of current behaviors&lt;/p&gt;
+&lt;h3&gt;You can search multiple resources the same time&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Choose one of the row in result, It will show that records
+related info&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Mount to any url you want, and choose whatever resources
+related&lt;/h3&gt;
+&lt;pre&gt;
+&lt;code&gt;  search_center :at =&amp;gt; &quot;/catalogue&quot;, :resources =&amp;gt; [:product, :color_variation, :color, :size]&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h3&gt;If you get only one result, It show related info page
+directly&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Define related info like this:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;You can edit any record in the result page.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-02-10T13:00:31+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">238</number>
+    <permalink>autocomplete-control-for-qor-form</permalink>
+    <priority type="integer">12</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Autocomplete control for Qor Form</title>
+    <updated-at type="datetime">2011-02-14T19:17:27+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/238</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>I imagine we could use it like this, And it is required for Lacoste Customer Service admin:
+
+@@@
+meta :type =&gt; :autocomplete, :collection =&gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&gt; &quot;%hello%&quot;)
+}, :item_label_method =&gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number
+
+
+@@@
+
+Need a app/controllers/autocompelete_controller.rb to execute the lambda everytime the user type in text field, and return json to show as dropdown list for the text field.</original-body>
+    <latest-body>I imagine we could use it like this, And it is required for Lacoste Customer Service admin:
+
+@@@
+meta :type =&gt; :autocomplete, :collection =&gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&gt; &quot;%hello%&quot;)
+}, :item_label_method =&gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number
+
+
+@@@
+
+Need a app/controllers/autocompelete_controller.rb to execute the lambda everytime the user type in text field, and return json to show as dropdown list for the text field.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;I imagine we could use it like this, And it is required for
+Lacoste Customer Service admin:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;meta :type =&amp;gt; :autocomplete, :collection =&amp;gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&amp;gt; &quot;%hello%&quot;)
+}, :item_label_method =&amp;gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Need a app/controllers/autocompelete_controller.rb to execute
+the lambda everytime the user type in text field, and return json
+to show as dropdown list for the text field.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-02-13T15:44:47+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">240</number>
+    <permalink>publish-try-retrieve_connection-before-establish_connection</permalink>
+    <priority type="integer">12</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>publish</tag>
+    <title>Publish: try retrieve_connection before establish_connection</title>
+    <updated-at type="datetime">2011-02-13T15:44:57+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">1</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/240</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-02-12T21:59:43+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">239</number>
+    <permalink>rewrite-publish-publish-3</permalink>
+    <priority type="integer">11</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>publish</tag>
+    <title>rewrite Publish (Publish 3)</title>
+    <updated-at type="datetime">2011-02-12T22:22:04+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">1</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/239</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>* based on versioning (prefer https://github.com/laserlemon/vestal_versions to https://github.com/airblade/paper_trail)
+* use lock? with lock we can ask user to resolve conflict when publish
+* unintrusive design, Publish as a middle man instead of insert callbacks everywhere
+* get #171 resolved</original-body>
+    <latest-body>* based on versioning (prefer https://github.com/laserlemon/vestal_versions to https://github.com/airblade/paper_trail)
+* use lock? with lock we can ask user to resolve conflict when publish
+* unintrusive design, Publish as a middle man instead of insert callbacks everywhere
+* get #171 resolved</latest-body>
+    <original-body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;based on versioning (prefer &lt;a href=
+&quot;https://github.com/laserlemon/vestal_versions&quot;&gt;https://github.com/laserlemon/vestal_versions&lt;/a&gt;
+to &lt;a href=
+&quot;https://github.com/airblade/paper_trail&quot;&gt;https://github.com/airblade/paper_trail&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;use lock? with lock we can ask user to resolve conflict when
+publish&lt;/li&gt;
+&lt;li&gt;unintrusive design, Publish as a middle man instead of insert
+callbacks everywhere&lt;/li&gt;
+&lt;li&gt;get &lt;a href=&quot;/projects/30780/tickets/171&quot; title=
+&quot;Ticket #171&quot;&gt;#171&lt;/a&gt; resolved&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">6</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2010-09-10T17:05:45+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">165</number>
+    <permalink>the-deleted-label-still-leave</permalink>
+    <priority type="integer">54</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>The deleted label still leave</title>
+    <updated-at type="datetime">2011-02-12T21:58:32+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">2</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/165</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>1.add a new category named &quot;&#26032;&#20135;&#21697;&#8220;
+
+2.add other new category under&quot;&#26032;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;.
+
+3.add other new category under&quot;&#31532;&#20108;&#32423;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;.&#65288;image 1)
+
+4.publish&quot;&#26032;&#20135;&#21697;&#8220;&#65292;then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be published.
+
+5.edit&quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;,and there is a diffs list.(image 2)
+
+6.delete &quot;&#26032;&#20135;&#21697;&#8221;,then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be deleted.
+
+But,there still has &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;on the diffs page.
+
+And &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;this label still leave.(image 3)</original-body>
+    <latest-body>1.add a new category named &quot;&#26032;&#20135;&#21697;&#8220;
+
+2.add other new category under&quot;&#26032;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;.
+
+3.add other new category under&quot;&#31532;&#20108;&#32423;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;.&#65288;image 1)
+
+4.publish&quot;&#26032;&#20135;&#21697;&#8220;&#65292;then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be published.
+
+5.edit&quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;,and there is a diffs list.(image 2)
+
+6.delete &quot;&#26032;&#20135;&#21697;&#8221;,then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be deleted.
+
+But,there still has &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;on the diffs page.
+
+And &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;this label still leave.(image 3)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;1.add a new category named &quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8220;&lt;/p&gt;
+&lt;p&gt;2.add other new category
+under&quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8221;&amp;#65292;named
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;.&lt;/p&gt;
+&lt;p&gt;3.add other new category
+under&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&amp;#8221;&amp;#65292;named
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;.&amp;#65288;image 1)&lt;/p&gt;
+&lt;p&gt;4.publish&quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8220;&amp;#65292;then both
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;and
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;are will be
+published.&lt;/p&gt;
+&lt;p&gt;5.edit&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;,and there is a
+diffs list.(image 2)&lt;/p&gt;
+&lt;p&gt;6.delete &quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8221;,then both
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;and
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;are will be deleted.&lt;/p&gt;
+&lt;p&gt;But,there still has &quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;on
+the diffs page.&lt;/p&gt;
+&lt;p&gt;And &quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;this label still
+leave.(image 3)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2010-09-16T11:09:42+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">171</number>
+    <permalink>publish-resources_engine-and-other-improvments</permalink>
+    <priority type="integer">17</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>publish</tag>
+    <title>publish + resources_engine and other improvments</title>
+    <updated-at type="datetime">2011-02-12T21:58:23+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">3</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/171</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>Add a hook in publish to accept a list of 'visible' resources, so when app initialize, we can pass in the resources list of resources_engine. Visible means displayed on admin, the resource user can manage directly.
+
+With that information, we can improve the auto publish algorithm used now:
+
+1. if A belongs_to B, B is new, when you publish A, B should be published too (keep fk consistent)
+
+2. if A has_many B, and B is in resources list, when publish A do nothing to B (because user can see B on admin pages, he can publish B by himself if he wish)
+
+3. if A has_many B, and B is NOT in resources list, when publish A also publish B (if don't publish B also, user have no way to publish it because it's not in the resources list)
+
+4. if A has_many C through B, auto publish B only when both A and C are published. e.g. if A is published but C is not, keep B unpublished. If C is published at a later time, publish B.
+
+A graph search can be used to determine the dependencies of a publish, which can help user experience and avoid dead loop (there should be no circle in the graph). e.g. if user choose to publish A, we can know B and C need to be published automatically in advance, and give that information back to user, ask for his confirmation to avoid auto publish any sensitive data.
+
+We should display a progress bar after user clicks the publish button.</original-body>
+    <latest-body>Add a hook in publish to accept a list of 'visible' resources, so when app initialize, we can pass in the resources list of resources_engine. Visible means displayed on admin, the resource user can manage directly.
+
+With that information, we can improve the auto publish algorithm used now:
+
+1. if A belongs_to B, B is new, when you publish A, B should be published too (keep fk consistent)
+
+2. if A has_many B, and B is in resources list, when publish A do nothing to B (because user can see B on admin pages, he can publish B by himself if he wish)
+
+3. if A has_many B, and B is NOT in resources list, when publish A also publish B (if don't publish B also, user have no way to publish it because it's not in the resources list)
+
+4. if A has_many C through B, auto publish B only when both A and C are published. e.g. if A is published but C is not, keep B unpublished. If C is published at a later time, publish B.
+
+A graph search can be used to determine the dependencies of a publish, which can help user experience and avoid dead loop (there should be no circle in the graph). e.g. if user choose to publish A, we can know B and C need to be published automatically in advance, and give that information back to user, ask for his confirmation to avoid auto publish any sensitive data.
+
+We should display a progress bar after user clicks the publish button.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Add a hook in publish to accept a list of 'visible' resources,
+so when app initialize, we can pass in the resources list of
+resources_engine. Visible means displayed on admin, the resource
+user can manage directly.&lt;/p&gt;
+&lt;p&gt;With that information, we can improve the auto publish algorithm
+used now:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;if A belongs_to B, B is new, when you publish A, B should be
+published too (keep fk consistent)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many B, and B is in resources list, when publish A do
+nothing to B (because user can see B on admin pages, he can publish
+B by himself if he wish)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many B, and B is NOT in resources list, when publish A
+also publish B (if don't publish B also, user have no way to
+publish it because it's not in the resources list)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many C through B, auto publish B only when both A and C
+are published. e.g. if A is published but C is not, keep B
+unpublished. If C is published at a later time, publish B.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A graph search can be used to determine the dependencies of a
+publish, which can help user experience and avoid dead loop (there
+should be no circle in the graph). e.g. if user choose to publish
+A, we can know B and C need to be published automatically in
+advance, and give that information back to user, ask for his
+confirmation to avoid auto publish any sensitive data.&lt;/p&gt;
+&lt;p&gt;We should display a progress bar after user clicks the publish
+button.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2010-12-16T22:00:58+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">225</number>
+    <permalink>event-generator</permalink>
+    <priority type="integer">59</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>event  generator</title>
+    <updated-at type="datetime">2011-02-10T16:14:46+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">2</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/225</url>
+    <priority-name nil="true"></priority-name>
+    <original-body>We need great flexibility in controller/view level for Qor Event: I believe most events have different appearances. Two way to achieve this goal:
+
+1. resources_engine like design: a EventsController responds to all requests for events, return different views based on complex logic
+2. scaffold. Use a generator to generate scaffold of events flow, then you can customize as you wish
+
+I'm going to walk on way 2, because it's extremely customizable, which is the first goal in Qor Event's case. Shared code will be put in modules/helpers.</original-body>
+    <latest-body>We need great flexibility in controller/view level for Qor Event: I believe most events have different appearances. Two way to achieve this goal:
+
+1. resources_engine like design: a EventsController responds to all requests for events, return different views based on complex logic
+2. scaffold. Use a generator to generate scaffold of events flow, then you can customize as you wish
+
+I'm going to walk on way 2, because it's extremely customizable, which is the first goal in Qor Event's case. Shared code will be put in modules/helpers.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;We need great flexibility in controller/view level for Qor
+Event: I believe most events have different appearances. Two way to
+achieve this goal:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;resources_engine like design: a EventsController responds to
+all requests for events, return different views based on complex
+logic&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;scaffold. Use a generator to generate scaffold of events flow,
+then you can customize as you wish&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I'm going to walk on way 2, because it's extremely customizable,
+which is the first goal in Qor Event's case. Shared code will be
+put in modules/helpers.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">24538</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-02-10T00:31:05+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">237</number>
+    <permalink>replace-will_pagniate-with-kaminari-in-resources_engine</permalink>
+    <priority type="integer">10</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>resources_engine</tag>
+    <title>replace will_pagniate with kaminari in resources_engine</title>
+    <updated-at type="datetime">2011-02-10T00:31:16+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">1</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Jan Xie</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/237</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>https://github.com/amatsuda/kaminari</original-body>
+    <latest-body>https://github.com/amatsuda/kaminari</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://github.com/amatsuda/kaminari&quot;&gt;https://github.com/amatsuda/kaminari&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-02-08T16:20:29+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">90248</milestone-id>
+    <number type="integer">236</number>
+    <permalink>add-another-button</permalink>
+    <priority type="integer">8</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Add Another button</title>
+    <updated-at type="datetime">2011-02-08T20:03:35+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">2</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/236</url>
+    <milestone-title>Next Milestone?</milestone-title>
+    <priority-name nil="true"></priority-name>
+    <original-body>Just after added a record, It redirect to Edit form of that record, It would be nice if there is a &quot;Add Another&quot; button along with &quot;Update&quot; button, So that you can continue adding new record, Don't need to go back to list, and click &quot;Add new xxx&quot; button.
+
+NOTE, the button should only appear just after you added a new record? When you go list, and click a record to edit, It shouldn't show that button?</original-body>
+    <latest-body>Just after added a record, It redirect to Edit form of that record, It would be nice if there is a &quot;Add Another&quot; button along with &quot;Update&quot; button, So that you can continue adding new record, Don't need to go back to list, and click &quot;Add new xxx&quot; button.
+
+NOTE, the button should only appear just after you added a new record? When you go list, and click a record to edit, It shouldn't show that button?</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Just after added a record, It redirect to Edit form of that
+record, It would be nice if there is a &quot;Add Another&quot; button along
+with &quot;Update&quot; button, So that you can continue adding new record,
+Don't need to go back to list, and click &quot;Add new xxx&quot; button.&lt;/p&gt;
+&lt;p&gt;NOTE, the button should only appear just after you added a new
+record? When you go list, and click a record to edit, It shouldn't
+show that button?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-01-26T19:23:55+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">234</number>
+    <permalink>tree-theme-bug-tree-get-messed-if-you-click-cancel-after-you-click-the-trashbin-icon</permalink>
+    <priority type="integer">10</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>tree theme bug: tree get messed if you click cancel after you click the trashbin icon</title>
+    <updated-at type="datetime">2011-01-27T19:08:41+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">2</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/234</url>
+    <priority-name nil="true"></priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-01-26T19:24:20+09:00</created-at>
+    <creator-id type="integer">24538</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">235</number>
+    <permalink>tree-theme-bug-click-yes-after-you-click-trashbin-icon</permalink>
+    <priority type="integer">11</priority>
+    <project-id type="integer">30780</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>tree theme bug: click yes after you click trashbin icon</title>
+    <updated-at type="datetime">2011-01-27T19:08:35+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+    <version type="integer">2</version>
+    <user-name>Jan Xie</user-name>
+    <creator-name>Jan Xie</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/30780/tickets/235</url>
+    <priority-name nil="true"></priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+</tickets>

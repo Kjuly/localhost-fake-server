@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-31T16:25:21+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">641</number>
+  <permalink>ungency-bugs-undefined-method-granted_languages-for-nilnilclass</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag>ungency</tag>
+  <title>Ungency bugs: undefined method `granted_languages' for nil:NilClass</title>
+  <updated-at type="datetime">2011-08-31T16:25:39+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">1</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/641</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>https://theplant.airbrakeapp.com/errors/12621989</original-body>
+  <latest-body>https://theplant.airbrakeapp.com/errors/12621989</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://theplant.airbrakeapp.com/errors/12621989&quot;&gt;https://theplant.airbrakeapp.com/errors/12621989&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>https://theplant.airbrakeapp.com/errors/12621989</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://theplant.airbrakeapp.com/errors/12621989&quot;&gt;https://theplant.airbrakeapp.com/errors/12621989&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-31T16:25:21+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">641</number>
+      <permalink>ungency-bugs-undefined-method-granted_languages-for-nilnilclass</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>ungency</tag>
+      <title>Ungency bugs: undefined method `granted_languages' for nil:NilClass</title>
+      <updated-at type="datetime">2011-08-31T16:25:39+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/641</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+</ticket>

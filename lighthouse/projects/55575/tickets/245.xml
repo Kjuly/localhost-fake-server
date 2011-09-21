@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-07-28T12:26:09+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">245</number>
+  <permalink>announcementcontents-style</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Announcement&gt;contents style</title>
+  <updated-at type="datetime">2011-08-31T13:05:35+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">4</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/245</url>
+  <priority-name>Low</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-28T12:26:09+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">245</number>
+      <permalink>announcementcontents-style</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Announcement&gt;contents style</title>
+      <updated-at type="datetime">2011-07-28T12:26:27+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/245</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-28T15:23:46+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">245</number>
+      <permalink>announcementcontents-style</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Announcement&gt;contents style</title>
+      <updated-at type="datetime">2011-07-28T15:24:01+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">2</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/245</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-01T18:04:24+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 104778
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">245</number>
+      <permalink>announcementcontents-style</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Announcement&gt;contents style</title>
+      <updated-at type="datetime">2011-08-01T18:04:38+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">3</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/245</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-31T13:05:19+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">245</number>
+      <permalink>announcementcontents-style</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Announcement&gt;contents style</title>
+      <updated-at type="datetime">2011-08-31T13:05:35+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/245</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>3b70bbe3a45e1657e02e365267071a1aa43c0441</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-07-28T12:26:09+09:00</created-at>
+      <filename>2011-07-28_1123.png</filename>
+      <height type="integer">871</height>
+      <id type="integer">1214052</id>
+      <size type="integer">248495</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1398</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1214052/2011-07-28_1123.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

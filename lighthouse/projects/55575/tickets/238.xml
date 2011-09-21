@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">139207</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-07-26T13:01:11+09:00</created-at>
+  <creator-id type="integer">139207</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">238</number>
+  <permalink>select-button-text-error-of-shoe-adviser</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Select Button text error  of Shoe Adviser</title>
+  <updated-at type="datetime">2011-09-20T11:35:08+09:00</updated-at>
+  <user-id type="integer">139207</user-id>
+  <version type="integer">4</version>
+  <user-name>Oscar</user-name>
+  <creator-name>Oscar</creator-name>
+  <assigned-user-name>Oscar</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/238</url>
+  <priority-name>Low</priority-name>
+  <original-body>see attached image</original-body>
+  <latest-body>see attached image</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;see attached image&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>see attached image</body>
+      <body-html>&lt;div&gt;&lt;p&gt;see attached image&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-26T13:01:11+09:00</created-at>
+      <creator-id type="integer">139207</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">238</number>
+      <permalink>select-button-text-error-of-shoe-adviser</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Select Button text error  of Shoe Adviser</title>
+      <updated-at type="datetime">2011-07-26T13:01:22+09:00</updated-at>
+      <user-id type="integer">139207</user-id>
+      <version type="integer">1</version>
+      <user-name>Oscar</user-name>
+      <creator-name>Oscar</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/238</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-26T15:43:48+09:00</created-at>
+      <creator-id type="integer">139207</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">238</number>
+      <permalink>select-button-text-error-of-shoe-adviser</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Select Button text error  of Shoe Adviser</title>
+      <updated-at type="datetime">2011-07-26T15:44:02+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Oscar</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/238</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">139207</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body>fixed</body>
+      <body-html>&lt;div&gt;&lt;p&gt;fixed&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-27T12:37:57+09:00</created-at>
+      <creator-id type="integer">139207</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">238</number>
+      <permalink>select-button-text-error-of-shoe-adviser</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Select Button text error  of Shoe Adviser</title>
+      <updated-at type="datetime">2011-07-27T12:38:06+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Oscar</creator-name>
+      <assigned-user-name>Oscar</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/238</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">139207</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-20T11:34:58+09:00</created-at>
+      <creator-id type="integer">139207</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">238</number>
+      <permalink>select-button-text-error-of-shoe-adviser</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Select Button text error  of Shoe Adviser</title>
+      <updated-at type="datetime">2011-09-20T11:35:08+09:00</updated-at>
+      <user-id type="integer">139207</user-id>
+      <version type="integer">4</version>
+      <user-name>Oscar</user-name>
+      <creator-name>Oscar</creator-name>
+      <assigned-user-name>Oscar</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/238</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>36be0492aca6c0d7b0d5b737c00ef1f81a32a7ac</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-07-26T13:01:11+09:00</created-at>
+      <filename>2011-07-26_1157.png</filename>
+      <height type="integer">731</height>
+      <id type="integer">1205084</id>
+      <size type="integer">330093</size>
+      <uploader-id type="integer">139207</uploader-id>
+      <width type="integer">1280</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1205084/2011-07-26_1157.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>3fcee51168b3a370cf5c29939bb66ffbe40f3c60</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-07-26T15:43:48+09:00</created-at>
+      <filename>2011-07-26_1442.png</filename>
+      <height type="integer">318</height>
+      <id type="integer">1205318</id>
+      <size type="integer">98983</size>
+      <uploader-id type="integer">132540</uploader-id>
+      <width type="integer">663</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1205318/2011-07-26_1442.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

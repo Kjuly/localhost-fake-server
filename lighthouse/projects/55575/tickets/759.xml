@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-09T09:36:29+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">759</number>
+  <permalink>login-css-issues</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Login &gt; CSS issues</title>
+  <updated-at type="datetime">2011-09-09T21:24:17+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/759</url>
+  <priority-name>Low</priority-name>
+  <original-body>Form shifts around after clicking the button.</original-body>
+  <latest-body>Form shifts around after clicking the button.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Form shifts around after clicking the button.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Form shifts around after clicking the button.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Form shifts around after clicking the button.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T09:36:29+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">759</number>
+      <permalink>login-css-issues</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Login &gt; CSS issues</title>
+      <updated-at type="datetime">2011-09-09T09:36:41+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/759</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Done, please check.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Done, please check.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T12:15:06+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">759</number>
+      <permalink>login-css-issues</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Login &gt; CSS issues</title>
+      <updated-at type="datetime">2011-09-09T12:15:17+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/759</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-09T21:24:05+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">759</number>
+      <permalink>login-css-issues</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Login &gt; CSS issues</title>
+      <updated-at type="datetime">2011-09-09T21:24:17+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/759</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

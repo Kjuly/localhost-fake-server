@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">104778</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-21T09:18:11+09:00</created-at>
+  <creator-id type="integer">104778</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">883</number>
+  <permalink>asics-chages-can-not-classify-an-article-as-a-running-clinics-articles-in-admin-and-the-front-end-is-choosing-the-wrong-articles</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>[ASICS Chages] Can not classify an article as a Running Clinics Articles in admin and the front end is choosing the wrong articles</title>
+  <updated-at type="datetime">2011-09-21T09:18:42+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Zhen Wu</creator-name>
+  <assigned-user-name>Zhen Wu</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/883</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T16:06:05+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">883</number>
+      <permalink>asics-chages-can-not-classify-an-article-as-a-running-clinics-articles-in-admin-and-the-front-end-is-choosing-the-wrong-articles</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>[ASICS Chages] Can not classify an article as a Running Clinics Articles in admin and the front end is choosing the wrong articles</title>
+      <updated-at type="datetime">2011-09-20T16:06:56+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">1</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/883</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>The ticket is from ASICS Changes:
+ 
+I'm not sure what you mean exactly, can you show me a picture.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;The ticket is from ASICS Changes:&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I'm not sure what you mean exactly, can you show me a
+picture.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T16:19:31+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:priority: 3
+:assigned_user: 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">883</number>
+      <permalink>asics-chages-can-not-classify-an-article-as-a-running-clinics-articles-in-admin-and-the-front-end-is-choosing-the-wrong-articles</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>,</tag>
+      <title>[ASICS Chages] Can not classify an article as a Running Clinics Articles in admin and the front end is choosing the wrong articles</title>
+      <updated-at type="datetime">2011-09-20T16:26:42+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">2</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/883</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body nil="true"></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T09:18:11+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:tag: &quot;,&quot;
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">883</number>
+      <permalink>asics-chages-can-not-classify-an-article-as-a-running-clinics-articles-in-admin-and-the-front-end-is-choosing-the-wrong-articles</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>,</tag>
+      <title>[ASICS Chages] Can not classify an article as a Running Clinics Articles in admin and the front end is choosing the wrong articles</title>
+      <updated-at type="datetime">2011-09-21T09:18:41+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/883</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>39406b68251271f07e272a1bc4952ad653364654</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-21T09:18:11+09:00</created-at>
+      <filename>2011-09-21_0915.png</filename>
+      <height type="integer">397</height>
+      <id type="integer">1410878</id>
+      <size type="integer">205163</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">561</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1410878/2011-09-21_0915.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

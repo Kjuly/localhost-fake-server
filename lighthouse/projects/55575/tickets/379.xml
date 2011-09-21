@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-17T19:45:01+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">379</number>
+  <permalink>lots-of-different-on-tech_tours</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag>tech_tours</tag>
+  <title>lots of different on tech_tours</title>
+  <updated-at type="datetime">2011-09-06T13:42:39+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">8</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+  <priority-name>High</priority-name>
+  <original-body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</original-body>
+  <latest-body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-17T19:45:01+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-08-17T19:45:16+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-17T19:45:42+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:tag: 
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>tech_tours</tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-08-17T19:45:59+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-17T20:26:54+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>tech_tours</tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-08-17T20:27:06+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>it's fixed in other ticket.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;it's fixed in other ticket.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T16:51:35+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>tech_tours</tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-08-29T16:51:48+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">4</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Tech tours widget doesn't works</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Tech tours widget doesn't works&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T19:58:23+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>tech_tours</tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-08-29T19:58:37+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">5</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-30T19:40:56+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>tech_tours</tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-08-30T19:41:11+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">6</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-06T13:41:47+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>tech_tours</tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-09-06T13:42:02+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">7</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-06T13:42:26+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: resolved
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">379</number>
+      <permalink>lots-of-different-on-tech_tours</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>tech_tours</tag>
+      <title>lots of different on tech_tours</title>
+      <updated-at type="datetime">2011-09-06T13:42:39+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">8</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/379</url>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>b3202e5ff27d2c4a743a365c30afa0d2a549738d</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-17T19:45:02+09:00</created-at>
+      <filename>tech_tours.png</filename>
+      <height type="integer">1035</height>
+      <id type="integer">1279729</id>
+      <size type="integer">606666</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1747</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1279729/tech_tours.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>bcd52cafafe19c81a906448be6e13cef02eb2a06</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-29T19:58:23+09:00</created-at>
+      <filename>2011-08-29_1856.png</filename>
+      <height type="integer">925</height>
+      <id type="integer">1321935</id>
+      <size type="integer">370168</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1021</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1321935/2011-08-29_1856.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

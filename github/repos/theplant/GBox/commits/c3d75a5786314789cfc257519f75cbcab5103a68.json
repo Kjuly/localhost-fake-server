@@ -1,0 +1,80 @@
+{
+  "commit": {
+    "message": "Recently change files' info stored and can set right info after restart app",
+    "tree": {
+      "sha": "88a82be1ce0bbf75daaafdbaaadfddbc6d065db5",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/88a82be1ce0bbf75daaafdbaaadfddbc6d065db5"
+    },
+    "author": {
+      "date": "2011-08-24T09:28:53-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "committer": {
+      "date": "2011-08-24T09:28:53-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/c3d75a5786314789cfc257519f75cbcab5103a68"
+  },
+  "sha": "c3d75a5786314789cfc257519f75cbcab5103a68",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "frankyue",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "c3d75a5786314789cfc257519f75cbcab5103a68",
+      "raw_url": "https://github.com/theplant/GBox/raw/c3d75a5786314789cfc257519f75cbcab5103a68/GBox/GBUtility.h",
+      "additions": 3,
+      "blob_url": "https://github.com/theplant/GBox/blob/c3d75a5786314789cfc257519f75cbcab5103a68/GBox/GBUtility.h",
+      "filename": "GBox/GBUtility.h",
+      "patch": "--- a/GBox/GBUtility.h\n+++ b/GBox/GBUtility.h\n@@ -90,10 +90,13 @@\n     //queue control the display list\n     //FIFO struct\n     NSMutableArray *queueList;\n+    \n+    NSString * getStringKey;\n }\n \n - (void)    insertPI:(NSTextField *)textfield\n    progressIndicator:(NSProgressIndicator *)progressIndicator;\n+- (void) PIStringInitial;\n - (NSInteger) getNotUsedID;\n - (void)    removeUsed:(NSInteger) piID;\n - (void)    usePI:(NSInteger)piID",
+      "deletions": 0,
+      "changes": 3
+    },
+    {
+      "status": "modified",
+      "sha": "c3d75a5786314789cfc257519f75cbcab5103a68",
+      "raw_url": "https://github.com/theplant/GBox/raw/c3d75a5786314789cfc257519f75cbcab5103a68/GBox/GBUtility.m",
+      "additions": 24,
+      "blob_url": "https://github.com/theplant/GBox/blob/c3d75a5786314789cfc257519f75cbcab5103a68/GBox/GBUtility.m",
+      "filename": "GBox/GBUtility.m",
+      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -405,16 +405,33 @@ static NSUInteger sharedBandWidth = 0;\n         [queueList addObject:@\"3\"];\n         [queueList addObject:@\"4\"];\n         [queueList addObject:@\"5\"];\n+        \n+        getStringKey = [[NSString alloc] initWithString:@\"PIString\"];\n     }\n     return self;\n }\n \n - (void)dealloc\n {\n+    [getStringKey release];\n     [pList release];\n     [self release];\n }\n \n+- (void) PIStringInitial\n+{\n+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];\n+    \n+    NSString * getStringNum;\n+    NSInteger i = 0;\n+    getStringNum = [[NSString alloc] initWithFormat:@\"%@%d\",getStringKey,i+1];\n+    while ([defaults stringForKey:getStringNum] != nil) {\n+        [[[pList objectAtIndex:i] getLabel] setStringValue:[defaults stringForKey:getStringNum]];\n+        i++;\n+        getStringNum = [[NSString alloc] initWithFormat:@\"%@%d\",getStringKey,i+1];\n+    }\n+}\n+\n - (void) insertPI:(NSTextField *)textfield progressIndicator:(NSProgressIndicator *)progressIndicator\n {\n     ++amount;\n@@ -478,7 +495,14 @@ static NSUInteger sharedBandWidth = 0;\n         if ([pi getID] == piID) {\n             //[[pi getPI] setDoubleValue:20];//[progressIndicator doubleValue]];\n             [[pi getLabel] setStringValue:displayname];\n+            \n+            NSString * keyForString = [[NSString alloc] initWithFormat:@\"%@%d\",getStringKey,[pi getID]];\n+            //store the display into the userdefault for the next start show\n+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];\n+            [defaults setValue:displayname forKey:keyForString];\n             [pi setUseState:YES];\n+            [keyForString release];\n+            return;\n         }\n     }\n }",
+      "deletions": 0,
+      "changes": 24
+    },
+    {
+      "status": "modified",
+      "sha": "c3d75a5786314789cfc257519f75cbcab5103a68",
+      "raw_url": "https://github.com/theplant/GBox/raw/c3d75a5786314789cfc257519f75cbcab5103a68/GBox/GBoxAppDelegate.m",
+      "additions": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/c3d75a5786314789cfc257519f75cbcab5103a68/GBox/GBoxAppDelegate.m",
+      "filename": "GBox/GBoxAppDelegate.m",
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -117,14 +117,14 @@\n     [GBUtility setBandWidth:[defaults integerForKey:@\"GBoxBandWidth\"] initBandWidth:YES];\n         \n     //syncController = [[GBSyncController alloc]init];\n-   \n-    \n+ \n     [[GBUtility sharedPList] insertPI:file1 progressIndicator:pi1];\n     [[GBUtility sharedPList] insertPI:file2 progressIndicator:pi2];\n     [[GBUtility sharedPList] insertPI:file3 progressIndicator:pi3];\n     [[GBUtility sharedPList] insertPI:file4 progressIndicator:pi4];\n     [[GBUtility sharedPList] insertPI:file5 progressIndicator:pi5];\n     \n+    [[GBUtility sharedPList] PIStringInitial];\n     //Initial Folder Creation\n     \n     if(![fm fileExistsAtPath:rootPath isDirectory:&isDir]) {",
+      "deletions": 2,
+      "changes": 4
+    }
+  ],
+  "stats": {
+    "additions": 29,
+    "total": 31,
+    "deletions": 2
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "frankyue",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "parents": [
+    {
+      "sha": "043fa3db18086f413f0aac09f7b3d16ad17c1707",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/043fa3db18086f413f0aac09f7b3d16ad17c1707"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/c3d75a5786314789cfc257519f75cbcab5103a68"
+}

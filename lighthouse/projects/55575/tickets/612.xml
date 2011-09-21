@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">94027</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-29T12:36:35+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">115207</milestone-id>
+  <number type="integer">612</number>
+  <permalink>rake-task-to-upload-data-and-sending-emails</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>rake task to upload data and sending emails</title>
+  <updated-at type="datetime">2011-08-29T12:36:47+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">1</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>bin</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/612</url>
+  <milestone-title>Post Launch</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>rake gbc:send_report_email
+     rake techtour_reservations_csv
+     rake store:coordinating_stores</original-body>
+  <latest-body>rake gbc:send_report_email
+     rake techtour_reservations_csv
+     rake store:coordinating_stores</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;rake gbc:send_report_email&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; rake techtour_reservations_csv
+ rake store:coordinating_stores&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>rake gbc:send_report_email
+     rake techtour_reservations_csv
+     rake store:coordinating_stores</body>
+      <body-html>&lt;div&gt;&lt;p&gt;rake gbc:send_report_email&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; rake techtour_reservations_csv
+ rake store:coordinating_stores&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T12:36:35+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">115207</milestone-id>
+      <number type="integer">612</number>
+      <permalink>rake-task-to-upload-data-and-sending-emails</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>rake task to upload data and sending emails</title>
+      <updated-at type="datetime">2011-08-29T12:36:47+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/612</url>
+      <milestone-title>Post Launch</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

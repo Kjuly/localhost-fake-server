@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <all-attachments-count type="integer">0</all-attachments-count>
+  <attachments-count type="integer">0</attachments-count>
+  <body>- Footer Need manually checking and fixing some footer link that can't imported.</body>
+  <body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Footer Need manually checking and fixing some footer link that
+can't imported.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+  <comments-count type="integer">0</comments-count>
+  <created-at type="datetime">2011-07-13T20:05:27+09:00</created-at>
+  <id type="integer">48337</id>
+  <parent-id type="integer" nil="true"></parent-id>
+  <permalink>asics2-release-note</permalink>
+  <project-id type="integer">55575</project-id>
+  <title>ASICS2 Release Note</title>
+  <token>3pceh9u6</token>
+  <updated-at type="datetime">2011-07-13T20:05:27+09:00</updated-at>
+  <user-id type="integer">2504</user-id>
+  <user-name>Felix Sun</user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/messages/48337</url>
+  <comments type="array"/>
+</message>

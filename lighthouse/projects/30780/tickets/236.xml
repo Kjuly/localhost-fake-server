@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-02-08T16:20:29+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">236</number>
+  <permalink>add-another-button</permalink>
+  <priority type="integer">8</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Add Another button</title>
+  <updated-at type="datetime">2011-02-08T20:03:35+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">2</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/236</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name nil="true"></priority-name>
+  <original-body>Just after added a record, It redirect to Edit form of that record, It would be nice if there is a &quot;Add Another&quot; button along with &quot;Update&quot; button, So that you can continue adding new record, Don't need to go back to list, and click &quot;Add new xxx&quot; button.
+
+NOTE, the button should only appear just after you added a new record? When you go list, and click a record to edit, It shouldn't show that button?</original-body>
+  <latest-body>Just after added a record, It redirect to Edit form of that record, It would be nice if there is a &quot;Add Another&quot; button along with &quot;Update&quot; button, So that you can continue adding new record, Don't need to go back to list, and click &quot;Add new xxx&quot; button.
+
+NOTE, the button should only appear just after you added a new record? When you go list, and click a record to edit, It shouldn't show that button?</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Just after added a record, It redirect to Edit form of that
+record, It would be nice if there is a &quot;Add Another&quot; button along
+with &quot;Update&quot; button, So that you can continue adding new record,
+Don't need to go back to list, and click &quot;Add new xxx&quot; button.&lt;/p&gt;
+&lt;p&gt;NOTE, the button should only appear just after you added a new
+record? When you go list, and click a record to edit, It shouldn't
+show that button?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Just after added a record, It redirect to Edit form of that record, It would be nice if there is a &quot;Add Another&quot; button along with &quot;Update&quot; button, So that you can continue adding new record, Don't need to go back to list, and click &quot;Add new xxx&quot; button.
+
+NOTE, the button should only appear just after you added a new record? When you go list, and click a record to edit, It shouldn't show that button?</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Just after added a record, It redirect to Edit form of that
+record, It would be nice if there is a &quot;Add Another&quot; button along
+with &quot;Update&quot; button, So that you can continue adding new record,
+Don't need to go back to list, and click &quot;Add new xxx&quot; button.&lt;/p&gt;
+&lt;p&gt;NOTE, the button should only appear just after you added a new
+record? When you go list, and click a record to edit, It shouldn't
+show that button?&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-08T16:20:29+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">236</number>
+      <permalink>add-another-button</permalink>
+      <priority type="integer">8</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Add Another button</title>
+      <updated-at type="datetime">2011-02-08T16:20:42+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/236</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>related to #62.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;related to &lt;a href=&quot;/projects/30780/tickets/62&quot; title=
+&quot;Ticket #62&quot;&gt;#62&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-08T20:03:19+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">236</number>
+      <permalink>add-another-button</permalink>
+      <priority type="integer">8</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Add Another button</title>
+      <updated-at type="datetime">2011-02-08T20:03:35+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">2</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/236</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-04T12:51:53+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">707</number>
+  <permalink>subscribe-tech-tours-newsletter-doesnt-work</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag nil="true"></tag>
+  <title>subscribe tech tours newsletter doesn't work</title>
+  <updated-at type="datetime">2011-09-20T14:50:19+09:00</updated-at>
+  <user-id type="integer">94027</user-id>
+  <version type="integer">5</version>
+  <user-name>bin</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/707</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</original-body>
+  <latest-body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-04T12:51:53+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">707</number>
+      <permalink>subscribe-tech-tours-newsletter-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>subscribe tech tours newsletter doesn't work</title>
+      <updated-at type="datetime">2011-09-04T12:52:08+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/707</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Fixed.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Fixed.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-07T22:42:45+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">707</number>
+      <permalink>subscribe-tech-tours-newsletter-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>subscribe tech tours newsletter doesn't work</title>
+      <updated-at type="datetime">2011-09-07T22:43:02+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/707</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Not finished yet.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Not finished yet.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T16:41:42+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">707</number>
+      <permalink>subscribe-tech-tours-newsletter-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>subscribe tech tours newsletter doesn't work</title>
+      <updated-at type="datetime">2011-09-12T16:41:57+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">3</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/707</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T11:42:46+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">707</number>
+      <permalink>subscribe-tech-tours-newsletter-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>subscribe tech tours newsletter doesn't work</title>
+      <updated-at type="datetime">2011-09-19T11:43:04+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">4</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/707</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T14:50:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">707</number>
+      <permalink>subscribe-tech-tours-newsletter-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>subscribe tech tours newsletter doesn't work</title>
+      <updated-at type="datetime">2011-09-20T14:50:19+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">5</version>
+      <user-name>bin</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/707</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>ac9214a1a6afdfcb620ad0c5928c21311c0c1d47</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-04T12:51:54+09:00</created-at>
+      <filename>2011-09-04_1103.png</filename>
+      <height type="integer">726</height>
+      <id type="integer">1348483</id>
+      <size type="integer">400257</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">863</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1348483/2011-09-04_1103.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

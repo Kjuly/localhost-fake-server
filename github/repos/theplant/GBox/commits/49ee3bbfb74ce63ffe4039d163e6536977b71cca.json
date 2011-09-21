@@ -1,0 +1,102 @@
+{
+  "parents": [
+    {
+      "sha": "c9d756fd380ff42070659fc522a004d0a8c51c3e",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/c9d756fd380ff42070659fc522a004d0a8c51c3e"
+    }
+  ],
+  "commit": {
+    "message": "Add local rename and move handle",
+    "committer": {
+      "email": "xiaoyi.chen@hotmail.com",
+      "date": "2011-08-31T03:12:00-07:00",
+      "name": "Xiaoyi Chen"
+    },
+    "tree": {
+      "sha": "cdba0d132c3de5b692914760c40b09362be55e15",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/cdba0d132c3de5b692914760c40b09362be55e15"
+    },
+    "author": {
+      "email": "xiaoyi.chen@hotmail.com",
+      "date": "2011-08-31T03:12:00-07:00",
+      "name": "Xiaoyi Chen"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/49ee3bbfb74ce63ffe4039d163e6536977b71cca"
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "changes": 3,
+      "status": "modified",
+      "additions": 3,
+      "blob_url": "https://github.com/theplant/GBox/blob/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBDocListData.h",
+      "raw_url": "https://github.com/theplant/GBox/raw/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBDocListData.h",
+      "deletions": 0,
+      "filename": "GBox/GBDocListData.h",
+      "patch": "--- a/GBox/GBDocListData.h\n+++ b/GBox/GBDocListData.h\n@@ -66,6 +66,9 @@\n \n - (void)showChanges;\n \n+- (void)renameEntry:(GDataEntryDocBase*)entry\n+                 to:(NSString*)newName;\n+\n - (void)deleteEntry:(GDataEntryDocBase *)entry ;\n \n - (void)deleteEntryByIdentifier:(NSString*)identifier;",
+      "sha": "49ee3bbfb74ce63ffe4039d163e6536977b71cca"
+    },
+    {
+      "changes": 24,
+      "status": "modified",
+      "additions": 24,
+      "blob_url": "https://github.com/theplant/GBox/blob/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBDocListData.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBDocListData.m",
+      "deletions": 0,
+      "filename": "GBox/GBDocListData.m",
+      "patch": "--- a/GBox/GBDocListData.m\n+++ b/GBox/GBDocListData.m\n@@ -96,7 +96,31 @@ static GBDocListData* sharedInstance = nil;\n \n }\n \n+- (void)renameEntry:(GDataEntryDocBase*)entry\n+                 to:(NSString*)newName{\n+    \n+    GDataServiceGoogleDocs *service = [self docsService];\n+    \n+    // rename it\n+    [entry setTitleWithString:newName];\n+    \n+    [service fetchEntryByUpdatingEntry:entry\n+                              delegate:self\n+                     didFinishSelector:@selector(renameEntryTicket:renamedEntry:error:)];\n+}\n \n+// rename entry callback\n+- (void)renameEntryTicket:(GDataServiceTicket *)ticket\n+             renamedEntry:(GDataEntryDocBase *)entry\n+                    error:(NSError *)error {\n+    if (error == nil) {\n+        // tell the user that the rename worked\n+        NSLog(@\"Entry %@ rename succeed\",[[entry title]stringValue]);\n+        \n+    } else {\n+        NSLog(@\"Entry %@ rename failed.\",[[entry title]stringValue]);\n+    }\n+}\n \n // begin retrieving the list of the user's docs\n - (void)fetchDocList {",
+      "sha": "49ee3bbfb74ce63ffe4039d163e6536977b71cca"
+    },
+    {
+      "changes": 1,
+      "status": "modified",
+      "additions": 0,
+      "blob_url": "https://github.com/theplant/GBox/blob/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBSyncController.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBSyncController.m",
+      "deletions": 1,
+      "filename": "GBox/GBSyncController.m",
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -16,7 +16,6 @@\n #import \"GBUtility.h\"\n #import \"GBoxConstants.h\"\n \n-#import \"GBFileManager.h\"\n #import \"GBCollectionManager.h\"\n \n #import \"GBDownloadOperation.h\"",
+      "sha": "49ee3bbfb74ce63ffe4039d163e6536977b71cca"
+    },
+    {
+      "changes": 39,
+      "status": "modified",
+      "additions": 33,
+      "blob_url": "https://github.com/theplant/GBox/blob/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBTaskHandler.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBTaskHandler.m",
+      "deletions": 6,
+      "filename": "GBox/GBTaskHandler.m",
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -24,7 +24,6 @@\n #import \"GBUtility.h\"\n #import \"GBoxConstants.h\"\n \n-#import \"GBFileManager.h\"\n #import \"GBCollectionManager.h\"\n \n #import \"GBDownloadOperation.h\"\n@@ -299,9 +298,8 @@\n             NSString *newName = [path lastPathComponent];\n             NSString* identifier = [[localInfoDic valueForKey:path] valueForKey:kGBFileAttributeIdentifier];\n             GDataEntryDocBase *entry = [docListData entryForIdentifier:identifier];\n-            \n-            [entry setFilename:newName];\n-            [entry setTitle:[GDataTextConstruct textConstructWithString:newName]];\n+                        \n+            [docListData renameEntry:entry to:newName];\n             \n             [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n             [currentExecutingTasks removeObject:taskID];\n@@ -310,6 +308,32 @@\n         }\n             break;\n         case kGBLocalMoveEntry:{\n+            \n+            NSString* oldPath = operandA;\n+            NSString* newPath = [taskMO valueForKey:@\"operandB\"];\n+            NSString* identifier = [GBUtility identifierforFileAtPath:[GBUtility simplifyLocalPath:newPath]];\n+            GDataEntryDocBase* docEntry = [docListData entryForIdentifier:identifier];\n+            \n+            if([[oldPath stringByDeletingLastPathComponent] length]!= [[GBUtility rootPath] length]){\n+                /*\n+                [dataFacility insertEvent:0\n+                            withEventCode:kGBLocalRemoveEntryFromCollection\n+                                 operandA:newPath\n+                              andOperandB:nil];\n+                 */\n+                //[collectionManager removeEntry:<#(GDataEntryDocBase *)#> fromFolder:<#(GDataEntryFolderDoc *)#>\n+            }\n+            \n+            if([[newPath stringByDeletingLastPathComponent] length]!= [[GBUtility rootPath] length]){\n+                [dataFacility insertEvent:0\n+                            withEventCode:kGBLocalAddEntryToCollection\n+                                 operandA:newPath\n+                              andOperandB:nil];\n+                \n+            }\n+\n+            \n+\n             [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n             [currentExecutingTasks removeObject:taskID];\n \n@@ -325,7 +349,7 @@\n             NSString* path = operandA;\n             NSString* parentPath = [[GBUtility simplifyLocalPath:[path stringByDeletingLastPathComponent]] stringByAppendingString:@\"/\"];\n             \n-            NSString* parentIdentifier = [GBUtility identifierforFileAtPath:path];\n+            NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n             \n             NSString* entryIdentifier = [GBUtility identifierforFileAtPath:[GBUtility simplifyLocalPath:path]];\n             GDataEntryDocBase* entry = [docListData entryForIdentifier:entryIdentifier];\n@@ -339,9 +363,12 @@\n                 [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n                 [currentExecutingTasks removeObject:taskID];\n             }\n-            \n+            [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n+            [currentExecutingTasks removeObject:taskID];\n+\n         }break;\n \n+  \n         default:\n             NSLog(@\"Unrecognized event code.\");\n     }",
+      "sha": "49ee3bbfb74ce63ffe4039d163e6536977b71cca"
+    },
+    {
+      "changes": 7,
+      "status": "modified",
+      "additions": 5,
+      "blob_url": "https://github.com/theplant/GBox/blob/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBoxConstants.h",
+      "raw_url": "https://github.com/theplant/GBox/raw/49ee3bbfb74ce63ffe4039d163e6536977b71cca/GBox/GBoxConstants.h",
+      "deletions": 2,
+      "filename": "GBox/GBoxConstants.h",
+      "patch": "--- a/GBox/GBoxConstants.h\n+++ b/GBox/GBoxConstants.h\n@@ -45,7 +45,7 @@ typedef enum {\n     kGBLocalFileUpdated,\n \n     kGBLocalMoveEntry,\n-\n+    \n     kGBServerNoMD5ConflictedFileExist,\n \n     kGBFileExistPathsSubSet,\n@@ -54,9 +54,12 @@ typedef enum {\n \n     kGBSync,\n     \n-    kGBLocalAddEntryToCollection\n+    kGBLocalAddEntryToCollection,\n+    \n+    kGBLocalRemoveEntryFromCollection\n     \n } GBEventCode;\n+//The last 6 event code will never be detected, only used by internal handle logic in GBTaskHandler\n \n extern NSString* const kGBFileAttributeMD5;\n ",
+      "sha": "49ee3bbfb74ce63ffe4039d163e6536977b71cca"
+    }
+  ],
+  "stats": {
+    "additions": 65,
+    "deletions": 9,
+    "total": 74
+  },
+  "sha": "49ee3bbfb74ce63ffe4039d163e6536977b71cca",
+  "url": "https://api.github.com/repos/theplant/GBox/commits/49ee3bbfb74ce63ffe4039d163e6536977b71cca"
+}

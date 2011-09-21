@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-19T18:16:03+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">824</number>
+  <permalink>shouldnt-show-product-kind-like-footwear-if-not-product-in-it</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>open</state>
+  <tag nil="true"></tag>
+  <title>Shouldn't show product kind like Footwear if not product in it</title>
+  <updated-at type="datetime">2011-09-20T17:12:02+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">4</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/824</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T17:33:19+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">824</number>
+      <permalink>shouldnt-show-product-kind-like-footwear-if-not-product-in-it</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Shouldn't show product kind like Footwear if not product in it</title>
+      <updated-at type="datetime">2011-09-15T17:33:46+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/824</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>because of filter_items data error, NO product kinds displayed, now fixed</body>
+      <body-html>&lt;div&gt;&lt;p&gt;because of filter_items data error, NO product kinds displayed,
+now fixed&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T16:41:32+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">824</number>
+      <permalink>shouldnt-show-product-kind-like-footwear-if-not-product-in-it</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Shouldn't show product kind like Footwear if not product in it</title>
+      <updated-at type="datetime">2011-09-19T16:41:42+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/824</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>If their are no products in this Kind, Will it show the Kind or not? It shouldn't show the kind.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;If their are no products in this Kind, Will it show the Kind or
+not? It shouldn't show the kind.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T17:22:46+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 2504
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">824</number>
+      <permalink>shouldnt-show-product-kind-like-footwear-if-not-product-in-it</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>Shouldn't show product kind like Footwear if not product in it</title>
+      <updated-at type="datetime">2011-09-19T17:22:53+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">3</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/824</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Navigation_items is edited by webmaster on the backend.
+if their are no products in the kind, we should notice them don't add this Kind to Navigation Items(display products count on navigation_items index page), or any good suggestion?</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Navigation_items is edited by webmaster on the backend.&lt;br&gt;
+if their are no products in the kind, we should notice them don't
+add this Kind to Navigation Items(display products count on
+navigation_items index page), or any good suggestion?&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T18:16:03+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+:tag: 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">824</number>
+      <permalink>shouldnt-show-product-kind-like-footwear-if-not-product-in-it</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag>,</tag>
+      <title>Shouldn't show product kind like Footwear if not product in it</title>
+      <updated-at type="datetime">2011-09-20T17:11:59+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">4</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/824</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>f15b02f287d7568a52b532ee8d1b7779f2e324e3</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-15T17:33:19+09:00</created-at>
+      <filename>screen-shot-2011-09-15-at-413.png</filename>
+      <height type="integer">579</height>
+      <id type="integer">1389679</id>
+      <size type="integer">75541</size>
+      <uploader-id type="integer">2504</uploader-id>
+      <width type="integer">976</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1389679/screen-shot-2011-09-15-at-413.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-16T12:10:13+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">844</number>
+  <permalink>ie7sportstyle-newsletter-submit-button</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>IE7&gt;sportstyle newsletter submit button</title>
+  <updated-at type="datetime">2011-09-19T13:31:55+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">4</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/844</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-16T12:10:13+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">844</number>
+      <permalink>ie7sportstyle-newsletter-submit-button</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>IE7&gt;sportstyle newsletter submit button</title>
+      <updated-at type="datetime">2011-09-16T12:10:29+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/844</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-16T17:09:33+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">844</number>
+      <permalink>ie7sportstyle-newsletter-submit-button</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>IE7&gt;sportstyle newsletter submit button</title>
+      <updated-at type="datetime">2011-09-16T17:09:46+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/844</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-18T18:03:39+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">844</number>
+      <permalink>ie7sportstyle-newsletter-submit-button</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>IE7&gt;sportstyle newsletter submit button</title>
+      <updated-at type="datetime">2011-09-18T18:04:00+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/844</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-19T13:31:41+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">844</number>
+      <permalink>ie7sportstyle-newsletter-submit-button</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>IE7&gt;sportstyle newsletter submit button</title>
+      <updated-at type="datetime">2011-09-19T13:31:55+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/844</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>0ebbdd1b8faf1503b0edc98af67b7fa9765e8783</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-16T12:10:13+09:00</created-at>
+      <filename>submit-button.png</filename>
+      <height type="integer">970</height>
+      <id type="integer">1394677</id>
+      <size type="integer">449062</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1470</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1394677/submit-button.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

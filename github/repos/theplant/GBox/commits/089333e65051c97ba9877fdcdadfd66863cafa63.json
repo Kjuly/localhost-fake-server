@@ -1,0 +1,58 @@
+{
+  "commit": {
+    "message": "set recenty files default none",
+    "tree": {
+      "sha": "c9048e85508199dd79194a48f9aec80d862e8fc6",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/c9048e85508199dd79194a48f9aec80d862e8fc6"
+    },
+    "author": {
+      "date": "2011-08-24T23:29:26-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "committer": {
+      "date": "2011-08-24T23:29:26-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/089333e65051c97ba9877fdcdadfd66863cafa63"
+  },
+  "sha": "089333e65051c97ba9877fdcdadfd66863cafa63",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "089333e65051c97ba9877fdcdadfd66863cafa63",
+      "additions": 5,
+      "blob_url": "https://github.com/theplant/GBox/blob/089333e65051c97ba9877fdcdadfd66863cafa63/GBox/MainMenu.xib",
+      "raw_url": "https://github.com/theplant/GBox/raw/089333e65051c97ba9877fdcdadfd66863cafa63/GBox/MainMenu.xib",
+      "filename": "GBox/MainMenu.xib",
+      "patch": "--- a/GBox/MainMenu.xib\n+++ b/GBox/MainMenu.xib\n@@ -1465,7 +1465,7 @@\n \t\t\t\t\t\t<object class=\"NSTextFieldCell\" key=\"NSCell\" id=\"136802235\">\n \t\t\t\t\t\t\t<int key=\"NSCellFlags\">68288064</int>\n \t\t\t\t\t\t\t<int key=\"NSCellFlags2\">272630784</int>\n-\t\t\t\t\t\t\t<string key=\"NSContents\">SysServices.pdf</string>\n+\t\t\t\t\t\t\t<string key=\"NSContents\"/>\n \t\t\t\t\t\t\t<object class=\"NSFont\" key=\"NSSupport\" id=\"912827701\">\n \t\t\t\t\t\t\t\t<string key=\"NSName\">LucidaGrande</string>\n \t\t\t\t\t\t\t\t<double key=\"NSSize\">13</double>\n@@ -1499,7 +1499,6 @@\n \t\t\t\t\t\t<string key=\"NSFrame\">{{166, 6}, {56, 20}}</string>\n \t\t\t\t\t\t<reference key=\"NSSuperview\" ref=\"947358406\"/>\n \t\t\t\t\t\t<reference key=\"NSWindow\"/>\n-\t\t\t\t\t\t<reference key=\"NSNextKeyView\"/>\n \t\t\t\t\t\t<int key=\"NSpiFlags\">24584</int>\n \t\t\t\t\t\t<double key=\"NSMaxValue\">100</double>\n \t\t\t\t\t</object>\n@@ -1525,7 +1524,7 @@\n \t\t\t\t\t\t<object class=\"NSTextFieldCell\" key=\"NSCell\" id=\"1071655903\">\n \t\t\t\t\t\t\t<int key=\"NSCellFlags\">68288064</int>\n \t\t\t\t\t\t\t<int key=\"NSCellFlags2\">272630784</int>\n-\t\t\t\t\t\t\t<string key=\"NSContents\">magento_url.txt</string>\n+\t\t\t\t\t\t\t<string key=\"NSContents\"/>\n \t\t\t\t\t\t\t<reference key=\"NSSupport\" ref=\"912827701\"/>\n \t\t\t\t\t\t\t<reference key=\"NSControlView\" ref=\"567664511\"/>\n \t\t\t\t\t\t\t<reference key=\"NSBackgroundColor\" ref=\"67596223\"/>\n@@ -1554,7 +1553,7 @@\n \t\t\t\t\t\t<object class=\"NSTextFieldCell\" key=\"NSCell\" id=\"220305261\">\n \t\t\t\t\t\t\t<int key=\"NSCellFlags\">68288064</int>\n \t\t\t\t\t\t\t<int key=\"NSCellFlags2\">272630784</int>\n-\t\t\t\t\t\t\t<string key=\"NSContents\">ObjC.pdf</string>\n+\t\t\t\t\t\t\t<string key=\"NSContents\"/>\n \t\t\t\t\t\t\t<reference key=\"NSSupport\" ref=\"912827701\"/>\n \t\t\t\t\t\t\t<reference key=\"NSControlView\" ref=\"52244825\"/>\n \t\t\t\t\t\t\t<reference key=\"NSBackgroundColor\" ref=\"67596223\"/>\n@@ -1583,7 +1582,7 @@\n \t\t\t\t\t\t<object class=\"NSTextFieldCell\" key=\"NSCell\" id=\"342704261\">\n \t\t\t\t\t\t\t<int key=\"NSCellFlags\">68288064</int>\n \t\t\t\t\t\t\t<int key=\"NSCellFlags2\">272630784</int>\n-\t\t\t\t\t\t\t<string key=\"NSContents\">ObjCTutorialetdg.pdf</string>\n+\t\t\t\t\t\t\t<string key=\"NSContents\"/>\n \t\t\t\t\t\t\t<reference key=\"NSSupport\" ref=\"912827701\"/>\n \t\t\t\t\t\t\t<reference key=\"NSControlView\" ref=\"725088129\"/>\n \t\t\t\t\t\t\t<reference key=\"NSBackgroundColor\" ref=\"67596223\"/>\n@@ -1612,7 +1611,7 @@\n \t\t\t\t\t\t<object class=\"NSTextFieldCell\" key=\"NSCell\" id=\"423247156\">\n \t\t\t\t\t\t\t<int key=\"NSCellFlags\">68288064</int>\n \t\t\t\t\t\t\t<int key=\"NSCellFlags2\">272630784</int>\n-\t\t\t\t\t\t\t<string key=\"NSContents\">carbon2.pdf</string>\n+\t\t\t\t\t\t\t<string key=\"NSContents\"/>\n \t\t\t\t\t\t\t<reference key=\"NSSupport\" ref=\"912827701\"/>\n \t\t\t\t\t\t\t<reference key=\"NSControlView\" ref=\"495723745\"/>\n \t\t\t\t\t\t\t<reference key=\"NSBackgroundColor\" ref=\"67596223\"/>",
+      "deletions": 6,
+      "changes": 11
+    }
+  ],
+  "stats": {
+    "additions": 5,
+    "total": 11,
+    "deletions": 6
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "parents": [
+    {
+      "sha": "f656b99aa0f707be8ca1880b9f4348f16ca160a6",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/f656b99aa0f707be8ca1880b9f4348f16ca160a6"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/089333e65051c97ba9877fdcdadfd66863cafa63"
+}

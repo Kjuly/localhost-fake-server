@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-11T13:54:06+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">776</number>
+  <permalink>store-locator-running-expert-stores-do-not-appear-in-search-for-all</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Store Locator &gt; Running Expert stores do not appear in search for &quot;All&quot;</title>
+  <updated-at type="datetime">2011-09-14T00:58:30+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">4</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/776</url>
+  <priority-name>Low</priority-name>
+  <original-body>All should return all results including Running Expert Stores.
+
+I added the Running Expert store data for DE.
+
+Compare: http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;category_id=&amp;store_type=all
+
+and: http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;category_id=&amp;store_type=expert_running</original-body>
+  <latest-body>All should return all results including Running Expert Stores.
+
+I added the Running Expert store data for DE.
+
+Compare: http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;category_id=&amp;store_type=all
+
+and: http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;category_id=&amp;store_type=expert_running</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;All should return all results including Running Expert
+Stores.&lt;/p&gt;
+&lt;p&gt;I added the Running Expert store data for DE.&lt;/p&gt;
+&lt;p&gt;Compare: &lt;a href=
+&quot;http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;amp;category_id=&amp;amp;store_type=all&quot;&gt;
+http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berl...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and: &lt;a href=
+&quot;http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;amp;category_id=&amp;amp;store_type=expert_running&quot;&gt;
+http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berl...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>All should return all results including Running Expert Stores.
+
+I added the Running Expert store data for DE.
+
+Compare: http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;category_id=&amp;store_type=all
+
+and: http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;category_id=&amp;store_type=expert_running</body>
+      <body-html>&lt;div&gt;&lt;p&gt;All should return all results including Running Expert
+Stores.&lt;/p&gt;
+&lt;p&gt;I added the Running Expert store data for DE.&lt;/p&gt;
+&lt;p&gt;Compare: &lt;a href=
+&quot;http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;amp;category_id=&amp;amp;store_type=all&quot;&gt;
+http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berl...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and: &lt;a href=
+&quot;http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berlin&amp;amp;category_id=&amp;amp;store_type=expert_running&quot;&gt;
+http://www.de.asics2-draft.theplant-dev.com/store_locator/?zip=berl...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-11T13:54:06+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">776</number>
+      <permalink>store-locator-running-expert-stores-do-not-appear-in-search-for-all</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator &gt; Running Expert stores do not appear in search for &quot;All&quot;</title>
+      <updated-at type="datetime">2011-09-11T13:54:17+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/776</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Hi,
+
+The first one, search conditions: 
+address = Berlin, radius = 4.5km, store_type = all 
+but, distance between stores (&quot;Long Distance&quot;, &quot;Lang und Laufladen&quot;) and center point &gt; 4.5km, so the Running Expert Stores don't display.
+
+The second one, we will search by (address = Berlin, radius = 4.5km, store_type = running_expert) first, but we can't any stores. so system will enlarge the radius to 10km, and find the stores (Long Distance), (Lang und Laufladen). There is why the Running Expert stores display in the second one.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;The first one, search conditions:&lt;br&gt;
+address = Berlin, radius = 4.5km, store_type = all&lt;br&gt;
+but, distance between stores (&quot;Long Distance&quot;, &quot;Lang und
+Laufladen&quot;) and center point &amp;gt; 4.5km, so the Running Expert
+Stores don't display.&lt;/p&gt;
+&lt;p&gt;The second one, we will search by (address = Berlin, radius =
+4.5km, store_type = running_expert) first, but we can't any stores.
+so system will enlarge the radius to 10km, and find the stores
+(Long Distance), (Lang und Laufladen). There is why the Running
+Expert stores display in the second one.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T14:49:48+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">776</number>
+      <permalink>store-locator-running-expert-stores-do-not-appear-in-search-for-all</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator &gt; Running Expert stores do not appear in search for &quot;All&quot;</title>
+      <updated-at type="datetime">2011-09-12T14:50:00+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/776</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Thanks for the explanation. Could you tell me how the radius 4.5 km is
+decided?</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Thanks for the explanation. Could you tell me how the radius 4.5
+km is&lt;br&gt;
+decided?&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T14:53:20+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">776</number>
+      <permalink>store-locator-running-expert-stores-do-not-appear-in-search-for-all</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator &gt; Running Expert stores do not appear in search for &quot;All&quot;</title>
+      <updated-at type="datetime">2011-09-12T14:53:32+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/776</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-14T00:58:19+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">776</number>
+      <permalink>store-locator-running-expert-stores-do-not-appear-in-search-for-all</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Store Locator &gt; Running Expert stores do not appear in search for &quot;All&quot;</title>
+      <updated-at type="datetime">2011-09-14T00:58:30+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">4</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/776</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

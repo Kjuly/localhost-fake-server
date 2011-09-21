@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-12T18:15:19+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">794</number>
+  <permalink>click-the-different-product-it-is-broken</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag>data</tag>
+  <title>Click the different product, it is broken</title>
+  <updated-at type="datetime">2011-09-13T11:42:15+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">3</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/794</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>http://www.nl.asics2-draft.theplant-dev.com/running/ayami/products/ayami-ketsui-women/</original-body>
+  <latest-body>http://www.nl.asics2-draft.theplant-dev.com/running/ayami/products/ayami-ketsui-women/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/ayami/products/ayami-ketsui-women/&quot;&gt;
+http://www.nl.asics2-draft.theplant-dev.com/running/ayami/products/...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.nl.asics2-draft.theplant-dev.com/running/ayami/products/ayami-ketsui-women/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/ayami/products/ayami-ketsui-women/&quot;&gt;
+http://www.nl.asics2-draft.theplant-dev.com/running/ayami/products/...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T18:15:19+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">794</number>
+      <permalink>click-the-different-product-it-is-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Click the different product, it is broken</title>
+      <updated-at type="datetime">2011-09-12T18:15:32+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/794</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>maybe data issue</body>
+      <body-html>&lt;div&gt;&lt;p&gt;maybe data issue&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T11:27:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">794</number>
+      <permalink>click-the-different-product-it-is-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Click the different product, it is broken</title>
+      <updated-at type="datetime">2011-09-13T11:27:16+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/794</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T11:42:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:tag: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">794</number>
+      <permalink>click-the-different-product-it-is-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>data</tag>
+      <title>Click the different product, it is broken</title>
+      <updated-at type="datetime">2011-09-13T11:42:15+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/794</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>eee4713690781d28fea7d6ce6751a337931941e3</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-12T18:15:19+09:00</created-at>
+      <filename>2011-09-12_1714.png</filename>
+      <height type="integer">942</height>
+      <id type="integer">1374640</id>
+      <size type="integer">331907</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1160</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1374640/2011-09-12_1714.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

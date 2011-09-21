@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-27T11:00:51+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">546</number>
+  <permalink>lots-of-bad-gateways</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>hold</state>
+  <tag nil="true"></tag>
+  <title>Lots of Bad Gateways</title>
+  <updated-at type="datetime">2011-09-02T22:44:42+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">3</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/546</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>I think it is not good to show this to ASICS like this... they have a bad memory of this error message and don't want them to think the new system is going to give them these issues. Is there a fix planned?</original-body>
+  <latest-body>I think it is not good to show this to ASICS like this... they have a bad memory of this error message and don't want them to think the new system is going to give them these issues. Is there a fix planned?</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;I think it is not good to show this to ASICS like this... they
+have a bad memory of this error message and don't want them to
+think the new system is going to give them these issues. Is there a
+fix planned?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>I think it is not good to show this to ASICS like this... they have a bad memory of this error message and don't want them to think the new system is going to give them these issues. Is there a fix planned?</body>
+      <body-html>&lt;div&gt;&lt;p&gt;I think it is not good to show this to ASICS like this... they
+have a bad memory of this error message and don't want them to
+think the new system is going to give them these issues. Is there a
+fix planned?&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T11:00:51+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">546</number>
+      <permalink>lots-of-bad-gateways</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Lots of Bad Gateways</title>
+      <updated-at type="datetime">2011-08-27T11:01:02+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/546</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/60250)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/60250&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T19:13:33+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">546</number>
+      <permalink>lots-of-bad-gateways</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Lots of Bad Gateways</title>
+      <updated-at type="datetime">2011-08-27T19:13:33+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/546</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-02T22:44:30+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">546</number>
+      <permalink>lots-of-bad-gateways</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>hold</state>
+      <tag nil="true"></tag>
+      <title>Lots of Bad Gateways</title>
+      <updated-at type="datetime">2011-09-02T22:44:42+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/546</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

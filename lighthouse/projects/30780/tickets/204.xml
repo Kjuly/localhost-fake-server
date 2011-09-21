@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2010-11-15T18:19:16+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">204</number>
+  <permalink>shaoshing-crop-cant-clear-the-crop-for-a-cropped-image</permalink>
+  <priority type="integer">16</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>ShaoShing Crop &gt; Can't clear the crop for a cropped image. </title>
+  <updated-at type="datetime">2011-04-22T16:50:48+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/204</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>Not sure what to do about the UI, but, I'd like a way to clear the crop (revert to original)</original-body>
+  <latest-body>Not sure what to do about the UI, but, I'd like a way to clear the crop (revert to original)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Not sure what to do about the UI, but, I'd like a way to clear
+the crop (revert to original)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Not sure what to do about the UI, but, I'd like a way to clear the crop (revert to original)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Not sure what to do about the UI, but, I'd like a way to clear
+the crop (revert to original)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2010-11-15T18:19:16+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">204</number>
+      <permalink>shaoshing-crop-cant-clear-the-crop-for-a-cropped-image</permalink>
+      <priority type="integer">16</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ShaoShing Crop &gt; Can't clear the crop for a cropped image. </title>
+      <updated-at type="datetime">2010-11-15T18:19:22+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/204</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Here's how to clear the cropping:
+
+1. Click anywhere on the blur section to cancel the cropping box
+2. Hit save</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Here's how to clear the cropping:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Click anywhere on the blur section to cancel the cropping
+box&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Hit save&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-04-22T16:50:33+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">204</number>
+      <permalink>shaoshing-crop-cant-clear-the-crop-for-a-cropped-image</permalink>
+      <priority type="integer">16</priority>
+      <project-id type="integer">30780</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>ShaoShing Crop &gt; Can't clear the crop for a cropped image. </title>
+      <updated-at type="datetime">2011-04-22T16:50:48+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/204</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

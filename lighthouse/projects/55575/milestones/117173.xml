@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<milestone>
+  <completed-at type="datetime" nil="true"></completed-at>
+  <created-at type="datetime">2011-07-12T00:23:12+09:00</created-at>
+  <due-on type="datetime">2011-08-03T00:00:00+09:00</due-on>
+  <goals>8.3 for internal Beta.</goals>
+  <goals-html>&lt;div&gt;&lt;p&gt;8.3 for internal Beta.&lt;/p&gt;&lt;/div&gt;</goals-html>
+  <id type="integer">117173</id>
+  <open-tickets-count type="integer">111</open-tickets-count>
+  <permalink>current-iteration</permalink>
+  <project-id type="integer">55575</project-id>
+  <tickets-count type="integer">297</tickets-count>
+  <title>Current Iteration</title>
+  <updated-at type="datetime">2011-08-29T23:38:41+09:00</updated-at>
+  <url>http://theplant.lighthouseapp.com/projects/55575/milestones/117173</url>
+  <user-name nil="true"></user-name>
+</milestone>

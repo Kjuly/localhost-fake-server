@@ -1,0 +1,80 @@
+{
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue",
+    "login": "frankyue"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue",
+    "login": "frankyue"
+  },
+  "files": [
+    {
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -1019,21 +1019,21 @@\n //append for single task not include(upload,download)\n //operation is the string\n -(void) appendPISingle:(NSString *)operation {\n-    \n+\n     if (piList < 6) {\n         //search one is not in used\n         NSInteger ID = [[GBUtility sharedPList] getNotUsedID];\n-        if ( ID != -1)\n+        if ( ID == -1)\n+            return;\n+        else\n         {\n+            //NSLog(@\"appendPISing ID = %ld\",ID);\n             [[GBUtility sharedPList] usePI:ID fileName:operation];\n             piList++;\n-            NSLog(@\"pList add %@ after ++: %ld\",operation,piList);\n-            \n+        \n+            [[GBUtility sharedPList] removeUsed:ID];\n+            piList--;\n         }\n-        [[GBUtility sharedPList] removeUsed:ID];\n-        piList--;\n-        NSLog(@\"pList after -- : %ld\",piList);\n-\n     }\n }\n @end",
+      "status": "modified",
+      "deletions": 8,
+      "additions": 8,
+      "raw_url": "https://github.com/theplant/GBox/raw/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca/GBox/GBTaskHandler.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca/GBox/GBTaskHandler.m",
+      "changes": 16,
+      "filename": "GBox/GBTaskHandler.m",
+      "sha": "cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
+    },
+    {
+      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -397,6 +397,7 @@ static NSUInteger sharedBandWidth = 0;\n         [queueList addObject:@\"4\"];\n         [queueList addObject:@\"5\"];\n         \n+        \n         getStringKey = [[NSString alloc] initWithString:@\"PIString\"];\n     }\n     return self;\n@@ -441,6 +442,8 @@ static NSUInteger sharedBandWidth = 0;\n     {\n         NSInteger reID = [[queueList objectAtIndex:0] integerValue];\n         [queueList removeObjectAtIndex:0];\n+        //NSLog(@\"the qulist = %ld\",[queueList count]);\n+        //NSLog(@\"the reID = %ld\",reID);\n         return reID;\n     }\n     \n@@ -456,10 +459,10 @@ static NSUInteger sharedBandWidth = 0;\n \n - (void) removeUsed:(NSInteger)piID\n {\n-    NSLog(@\"piID = %ld\",piID);\n-    NSLog(@\"queuelist = %ld\",[queueList count]);\n-    [queueList addObject:[[NSString alloc] initWithFormat:@\"ld\",piID]];\n-    NSLog(@\"queuelist = %ld\",[queueList count]);\n+    //NSLog(@\"piID will remove = %ld\",piID);\n+    id insertid = [[NSString alloc] initWithFormat:@\"%ld\",piID];\n+    [queueList addObject:insertid];\n+    //NSLog(@\"insertid = %@\",insertid);\n     /*\n     for (id pi in pList){\n         if ([pi getID] == piID) {",
+      "status": "modified",
+      "deletions": 4,
+      "additions": 7,
+      "raw_url": "https://github.com/theplant/GBox/raw/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca/GBox/GBUtility.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca/GBox/GBUtility.m",
+      "changes": 11,
+      "filename": "GBox/GBUtility.m",
+      "sha": "cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
+    },
+    {
+      "patch": "--- a/GBox/GBoxConstants.m\n+++ b/GBox/GBoxConstants.m\n@@ -46,7 +46,7 @@ NSString* const kGBLargestChangestamp=@\"largestChangestamp\";\n \n NSString* const kGBNotFoundMarker = @\"notFoundMarker#9987dfewfvrtqd8765dfeef78341\";\n \n-NSString* const kGBSetupFinished = @\"kGBSetupFinished-Alpha1TESTTEST984959867787896658786354\";\n+NSString* const kGBSetupFinished = @\"kGBSetupFinished-Alpha1TESTTEST84434894565344678678975984589883697945433787896658786354\";\n \n NSString * const kGB_DB_STORE_FILENAME = @\"gbdatamodel.xml\";\n ",
+      "status": "modified",
+      "deletions": 1,
+      "additions": 1,
+      "raw_url": "https://github.com/theplant/GBox/raw/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca/GBox/GBoxConstants.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca/GBox/GBoxConstants.m",
+      "changes": 2,
+      "filename": "GBox/GBoxConstants.m",
+      "sha": "cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
+    }
+  ],
+  "stats": {
+    "deletions": 13,
+    "additions": 16,
+    "total": 29
+  },
+  "parents": [
+    {
+      "sha": "c998a04968e279d36f4048272064cd541eabd848",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/c998a04968e279d36f4048272064cd541eabd848"
+    }
+  ],
+  "sha": "cf2cdb85bdbaed12299e8610d27fe5b5a69cebca",
+  "commit": {
+    "tree": {
+      "sha": "a5aca04c657f58c93ef1d74ae222c7c021e241e9",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/a5aca04c657f58c93ef1d74ae222c7c021e241e9"
+    },
+    "message": "fix the recently changes bug that lost symbol % in any time commit",
+    "committer": {
+      "date": "2011-09-07T07:45:09-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "author": {
+      "date": "2011-09-07T07:45:09-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
+}

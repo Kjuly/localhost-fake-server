@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-27T10:56:45+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">544</number>
+  <permalink>admin-settings-organization-of-features-for-europecountry</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Admin &gt; Settings &gt; Organization of features for Europe/Country</title>
+  <updated-at type="datetime">2011-09-02T23:36:18+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">4</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/544</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>### For country
+
+* CrazyEgg should only be available for Europe. Remove from all countries (but keep in Europe http://www.eu.asics2-draft.theplant-dev.com/admin/settings)
+* Locale Settings should always be &quot;On&quot; (shouldn't be able to turn off)
+
+### For Europe
+
+* Remove all settings _except_ CrazyEgg</original-body>
+  <latest-body>### For country
+
+* CrazyEgg should only be available for Europe. Remove from all countries (but keep in Europe http://www.eu.asics2-draft.theplant-dev.com/admin/settings)
+* Locale Settings should always be &quot;On&quot; (shouldn't be able to turn off)
+
+### For Europe
+
+* Remove all settings _except_ CrazyEgg</latest-body>
+  <original-body-html>&lt;div&gt;&lt;h3&gt;For country&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CrazyEgg should only be available for Europe. Remove from all
+countries (but keep in Europe &lt;a href=
+&quot;http://www.eu.asics2-draft.theplant-dev.com/admin/settings&quot;&gt;http://www.eu.asics2-draft.theplant-dev.com/admin/settings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Locale Settings should always be &quot;On&quot; (shouldn't be able to
+turn off)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;For Europe&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove all settings &lt;em&gt;except&lt;/em&gt; CrazyEgg&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>### For country
+
+* CrazyEgg should only be available for Europe. Remove from all countries (but keep in Europe http://www.eu.asics2-draft.theplant-dev.com/admin/settings)
+* Locale Settings should always be &quot;On&quot; (shouldn't be able to turn off)
+
+### For Europe
+
+* Remove all settings _except_ CrazyEgg</body>
+      <body-html>&lt;div&gt;&lt;h3&gt;For country&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CrazyEgg should only be available for Europe. Remove from all
+countries (but keep in Europe &lt;a href=
+&quot;http://www.eu.asics2-draft.theplant-dev.com/admin/settings&quot;&gt;http://www.eu.asics2-draft.theplant-dev.com/admin/settings&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Locale Settings should always be &quot;On&quot; (shouldn't be able to
+turn off)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;For Europe&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove all settings &lt;em&gt;except&lt;/em&gt; CrazyEgg&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T10:56:45+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">544</number>
+      <permalink>admin-settings-organization-of-features-for-europecountry</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Settings &gt; Organization of features for Europe/Country</title>
+      <updated-at type="datetime">2011-08-27T10:56:58+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/544</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/60250)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/60250&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T19:13:33+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">544</number>
+      <permalink>admin-settings-organization-of-features-for-europecountry</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Settings &gt; Organization of features for Europe/Country</title>
+      <updated-at type="datetime">2011-08-27T19:13:33+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/544</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-02T22:43:29+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">544</number>
+      <permalink>admin-settings-organization-of-features-for-europecountry</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Settings &gt; Organization of features for Europe/Country</title>
+      <updated-at type="datetime">2011-09-02T22:43:46+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/544</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-02T23:36:07+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">544</number>
+      <permalink>admin-settings-organization-of-features-for-europecountry</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Settings &gt; Organization of features for Europe/Country</title>
+      <updated-at type="datetime">2011-09-02T23:36:18+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">4</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/544</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

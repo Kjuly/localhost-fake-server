@@ -1,0 +1,58 @@
+{
+  "commit": {
+    "message": "comment usage log",
+    "tree": {
+      "sha": "b769bdadb99d05dc6b0d5ccbc9d29fc1203ba736",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/b769bdadb99d05dc6b0d5ccbc9d29fc1203ba736"
+    },
+    "author": {
+      "date": "2011-08-25T00:07:04-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "committer": {
+      "date": "2011-08-25T00:07:04-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/4f6cec508fccade0a73f2fc73edd399d913e9279"
+  },
+  "sha": "4f6cec508fccade0a73f2fc73edd399d913e9279",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "4f6cec508fccade0a73f2fc73edd399d913e9279",
+      "additions": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/4f6cec508fccade0a73f2fc73edd399d913e9279/GBox/GBoxAppDelegate.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/4f6cec508fccade0a73f2fc73edd399d913e9279/GBox/GBoxAppDelegate.m",
+      "filename": "GBox/GBoxAppDelegate.m",
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -180,8 +180,8 @@\n     NSInteger totalSpace = [[docListData totalSpace] intValue]/1024/1024;\n     \n     \n-    NSLog(@\"%d%% usage\", (int)usedSpace);\n-    NSLog(@\"%d%% usage\", (int)totalSpace);\n+    //NSLog(@\"%d%% usage\", (int)usedSpace);\n+    //NSLog(@\"%d%% usage\", (int)totalSpace);\n     \n     [spaceItem setTitle:[NSString stringWithFormat:@\"%.2f%% of %dG used\",(float)usedSpace/totalSpace,totalSpace/1024]];\n     ",
+      "deletions": 2,
+      "changes": 4
+    }
+  ],
+  "stats": {
+    "additions": 2,
+    "total": 4,
+    "deletions": 2
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "parents": [
+    {
+      "sha": "089333e65051c97ba9877fdcdadfd66863cafa63",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/089333e65051c97ba9877fdcdadfd66863cafa63"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/4f6cec508fccade0a73f2fc73edd399d913e9279"
+}

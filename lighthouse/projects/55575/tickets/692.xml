@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-03T15:49:14+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">692</number>
+  <permalink>argumenterror-wrong-number-of-arguments-2-for-1</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag>hoptoad</tag>
+  <title>ArgumentError: wrong number of arguments (2 for 1)</title>
+  <updated-at type="datetime">2011-09-03T15:51:53+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">2</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/692</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>Created from Airbrake: [ArgumentError: ArgumentError: wrong number of arguments (2 for 1)](http://theplant.airbrakeapp.com/errors/12790861)</original-body>
+  <latest-body>Created from Airbrake: [ArgumentError: ArgumentError: wrong number of arguments (2 for 1)](http://theplant.airbrakeapp.com/errors/12790861)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12790861&quot;&gt;ArgumentError:
+ArgumentError: wrong number of arguments (2 for 1)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Created from Airbrake: [ArgumentError: ArgumentError: wrong number of arguments (2 for 1)](http://theplant.airbrakeapp.com/errors/12790861)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12790861&quot;&gt;ArgumentError:
+ArgumentError: wrong number of arguments (2 for 1)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-03T15:49:14+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">692</number>
+      <permalink>argumenterror-wrong-number-of-arguments-2-for-1</permalink>
+      <priority type="integer">0</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>ArgumentError: wrong number of arguments (2 for 1)</title>
+      <updated-at type="datetime">2011-09-03T15:49:23+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/692</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-03T15:51:36+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:priority: 0
+:milestone: 
+:assigned_user: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">692</number>
+      <permalink>argumenterror-wrong-number-of-arguments-2-for-1</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>ArgumentError: wrong number of arguments (2 for 1)</title>
+      <updated-at type="datetime">2011-09-03T15:51:53+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/692</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+</ticket>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-21T15:58:17+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">470</number>
+  <permalink>store-locator-translation</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>invalid</state>
+  <tag nil="true"></tag>
+  <title>Store Locator translation</title>
+  <updated-at type="datetime">2011-08-22T11:15:05+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/470</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>Store Locator is a new design, this part have no translations in asics 1, so we need to ask the client.
+
+http://www.nl.asics2-draft.theplant-dev.com/store_locator</original-body>
+  <latest-body>Store Locator is a new design, this part have no translations in asics 1, so we need to ask the client.
+
+http://www.nl.asics2-draft.theplant-dev.com/store_locator</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Store Locator is a new design, this part have no translations in
+asics 1, so we need to ask the client.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/store_locator&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/store_locator&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Store Locator is a new design, this part have no translations in asics 1, so we need to ask the client.
+
+http://www.nl.asics2-draft.theplant-dev.com/store_locator</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Store Locator is a new design, this part have no translations in
+asics 1, so we need to ask the client.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/store_locator&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/store_locator&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T15:58:17+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">470</number>
+      <permalink>store-locator-translation</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator translation</title>
+      <updated-at type="datetime">2011-08-21T15:58:26+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/470</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body>Duplicate</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Duplicate&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-22T11:14:50+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">470</number>
+      <permalink>store-locator-translation</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>invalid</state>
+      <tag nil="true"></tag>
+      <title>Store Locator translation</title>
+      <updated-at type="datetime">2011-08-22T11:15:05+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/470</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>4dfc05e7dc0dc4e55277d20ce56759a128ec1949</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-21T15:58:17+09:00</created-at>
+      <filename>store_locator.png</filename>
+      <height type="integer">507</height>
+      <id type="integer">1294387</id>
+      <size type="integer">141914</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">925</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1294387/store_locator.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>00c04019e0dd6707c222446a906668b6465acc07</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-21T15:58:17+09:00</created-at>
+      <filename>store_lacator2.png</filename>
+      <height type="integer">645</height>
+      <id type="integer">1294388</id>
+      <size type="integer">383588</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">896</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1294388/store_lacator2.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

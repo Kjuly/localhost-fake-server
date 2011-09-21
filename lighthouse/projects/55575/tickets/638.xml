@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">104778</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-31T11:49:20+09:00</created-at>
+  <creator-id type="integer">104778</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">638</number>
+  <permalink>css-problem-when-finish-signup-clinic-reservation</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>css problem when finish signup clinic reservation</title>
+  <updated-at type="datetime">2011-09-09T23:24:13+09:00</updated-at>
+  <user-id type="integer">104778</user-id>
+  <version type="integer">3</version>
+  <user-name>Zhen Wu</user-name>
+  <creator-name>Zhen Wu</creator-name>
+  <assigned-user-name>Zhen Wu</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/638</url>
+  <priority-name>High</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-31T11:49:20+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">638</number>
+      <permalink>css-problem-when-finish-signup-clinic-reservation</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>css problem when finish signup clinic reservation</title>
+      <updated-at type="datetime">2011-08-31T11:49:32+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">1</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/638</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T15:54:36+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">638</number>
+      <permalink>css-problem-when-finish-signup-clinic-reservation</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>css problem when finish signup clinic reservation</title>
+      <updated-at type="datetime">2011-09-09T15:54:49+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">2</version>
+      <user-name>Jun</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/638</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-09T23:24:01+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">638</number>
+      <permalink>css-problem-when-finish-signup-clinic-reservation</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>css problem when finish signup clinic reservation</title>
+      <updated-at type="datetime">2011-09-09T23:24:13+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">3</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/638</url>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>89dbbc1d5c7e64b201ea61b30ca1afc1a0d2e539</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-31T11:49:20+09:00</created-at>
+      <filename>771710e15df83cdf19c46af290deff3e5fb9ddc4.png</filename>
+      <height type="integer">800</height>
+      <id type="integer">1331849</id>
+      <size type="integer">148877</size>
+      <uploader-id type="integer">104778</uploader-id>
+      <width type="integer">1280</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1331849/771710e15df83cdf19c46af290deff3e5fb9ddc4.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>75acd1b39ceec87bea1b62eb53b35f31fdf0690f</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-31T11:49:20+09:00</created-at>
+      <filename>067f1c1993ef42ad67fef60966083b8745139ca8.png</filename>
+      <height type="integer">800</height>
+      <id type="integer">1331850</id>
+      <size type="integer">238842</size>
+      <uploader-id type="integer">104778</uploader-id>
+      <width type="integer">1280</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1331850/067f1c1993ef42ad67fef60966083b8745139ca8.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

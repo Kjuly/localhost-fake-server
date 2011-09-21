@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">5</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-24T21:56:43+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">516</number>
+  <permalink>store-locator</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>open</state>
+  <tag nil="true"></tag>
+  <title>Store Locator</title>
+  <updated-at type="datetime">2011-09-01T11:27:07+09:00</updated-at>
+  <user-id type="integer">94027</user-id>
+  <version type="integer">5</version>
+  <user-name>bin</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/516</url>
+  <priority-name>Low</priority-name>
+  <original-body>A couple of issues I noticed:
+
+* Search for Flagship and Foot ID stores don't work
+* Error message wrong (see attached).
+* Highlighting clicked stores (left side) is weird. If I click 2 stores, both are highlighted on left, but only one shows on the map (I think we should just highlight the one clicked last)</original-body>
+  <latest-body>A couple of issues I noticed:
+
+* Search for Flagship and Foot ID stores don't work
+* Error message wrong (see attached).
+* Highlighting clicked stores (left side) is weird. If I click 2 stores, both are highlighted on left, but only one shows on the map (I think we should just highlight the one clicked last)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;A couple of issues I noticed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search for Flagship and Foot ID stores don't work&lt;/li&gt;
+&lt;li&gt;Error message wrong (see attached).&lt;/li&gt;
+&lt;li&gt;Highlighting clicked stores (left side) is weird. If I click 2
+stores, both are highlighted on left, but only one shows on the map
+(I think we should just highlight the one clicked last)&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>A couple of issues I noticed:
+
+* Search for Flagship and Foot ID stores don't work
+* Error message wrong (see attached).
+* Highlighting clicked stores (left side) is weird. If I click 2 stores, both are highlighted on left, but only one shows on the map (I think we should just highlight the one clicked last)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;A couple of issues I noticed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search for Flagship and Foot ID stores don't work&lt;/li&gt;
+&lt;li&gt;Error message wrong (see attached).&lt;/li&gt;
+&lt;li&gt;Highlighting clicked stores (left side) is weird. If I click 2
+stores, both are highlighted on left, but only one shows on the map
+(I think we should just highlight the one clicked last)&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-24T21:56:43+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">516</number>
+      <permalink>store-locator</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator</title>
+      <updated-at type="datetime">2011-08-24T21:56:55+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/516</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Done.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Done.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T16:27:30+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">516</number>
+      <permalink>store-locator</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Store Locator</title>
+      <updated-at type="datetime">2011-08-28T16:27:42+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/516</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>I still have the issue that multiple stores remain highlighted in the left column... See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;I still have the issue that multiple stores remain highlighted
+in the left column... See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T22:46:24+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 2503
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">516</number>
+      <permalink>store-locator</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>Store Locator</title>
+      <updated-at type="datetime">2011-08-28T22:46:40+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/516</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>forgot attachment</body>
+      <body-html>&lt;div&gt;&lt;p&gt;forgot attachment&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T22:46:50+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">516</number>
+      <permalink>store-locator</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>Store Locator</title>
+      <updated-at type="datetime">2011-08-28T22:47:02+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">4</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/516</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">5</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-01T11:26:56+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">516</number>
+      <permalink>store-locator</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>Store Locator</title>
+      <updated-at type="datetime">2011-09-01T11:27:07+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">5</version>
+      <user-name>bin</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/516</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>ad778da2d07d96fd13ac88ec044143624fb78558</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-24T21:56:44+09:00</created-at>
+      <filename>2011-08-24_2144.png</filename>
+      <height type="integer">425</height>
+      <id type="integer">1306684</id>
+      <size type="integer">167009</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1036</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1306684/2011-08-24_2144.png</url>
+    </attachment-image>
+    <attachment type="Attachment">
+      <code>dcdf986b5f6b3b48c9edf5a57f72df8e239393e4</code>
+      <content-type>application/x-shockwave-flash</content-type>
+      <created-at type="datetime">2011-08-28T22:46:51+09:00</created-at>
+      <filename>multiple-highlighted.swf</filename>
+      <height type="integer" nil="true"></height>
+      <id type="integer">1320581</id>
+      <size type="integer">2389856</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer" nil="true"></width>
+      <url>http://theplant.lighthouseapp.com/attachments/1320581/multiple-highlighted.swf</url>
+    </attachment>
+  </attachments>
+</ticket>

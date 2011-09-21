@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-09T17:48:37+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">769</number>
+  <permalink>post-code-issue</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag nil="true"></tag>
+  <title>Post code issue</title>
+  <updated-at type="datetime">2011-09-20T14:55:28+09:00</updated-at>
+  <user-id type="integer">94027</user-id>
+  <version type="integer">2</version>
+  <user-name>bin</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/769</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Medium</priority-name>
+  <original-body>I have filled the post code when registered, but the code doesn't show on my setting page.</original-body>
+  <latest-body>I have filled the post code when registered, but the code doesn't show on my setting page.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;I have filled the post code when registered, but the code
+doesn't show on my setting page.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>I have filled the post code when registered, but the code doesn't show on my setting page.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;I have filled the post code when registered, but the code
+doesn't show on my setting page.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T17:48:37+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">769</number>
+      <permalink>post-code-issue</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Post code issue</title>
+      <updated-at type="datetime">2011-09-09T17:49:06+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/769</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Fixed.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Fixed.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T14:55:11+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">769</number>
+      <permalink>post-code-issue</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Post code issue</title>
+      <updated-at type="datetime">2011-09-20T14:55:28+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/769</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>d2b2480d48e079c57df646e06671a88b31cf1f61</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-09T17:48:37+09:00</created-at>
+      <filename>2011-09-09_1642.png</filename>
+      <height type="integer">893</height>
+      <id type="integer">1368543</id>
+      <size type="integer">167921</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1212</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1368543/2011-09-09_1642.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

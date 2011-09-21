@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">26</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-06-15T13:33:59+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">125</number>
+  <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+  <updated-at type="datetime">2011-08-29T16:05:43+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">18</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>See attached for an example. This is really important to them and bothers them alot if it is not written in upper case.</original-body>
+  <latest-body>See attached for an example. This is really important to them and bothers them alot if it is not written in upper case.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;See attached for an example. This is really important to them
+and bothers them alot if it is not written in upper case.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>See attached for an example. This is really important to them and bothers them alot if it is not written in upper case.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;See attached for an example. This is really important to them
+and bothers them alot if it is not written in upper case.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-06-15T13:33:59+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-06-15T13:34:08+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">2</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-06-15T15:07:19+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-06-15T15:07:25+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">2</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/54257)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/54257&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-06-21T19:07:07+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">111578</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-06-21T19:07:07+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 17</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">2</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-06-25T19:36:27+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+</diffable-attributes>
+      <milestone-id type="integer">111578</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-06-25T19:36:36+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">4</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 17</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">2</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-06-27T14:31:55+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">111578</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-06-27T14:32:08+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">5</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 17</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">2</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-06-29T13:31:55+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">111578</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-06-29T13:32:05+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">6</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 17</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">2</attachments-count>
+      <body>See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-05T18:15:46+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: resolved
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">111578</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-07-05T18:15:57+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">7</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 17</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-05T19:03:36+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+</diffable-attributes>
+      <milestone-id type="integer">111578</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-07-05T19:03:46+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">8</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 17</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-06T12:03:16+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 111578
+</diffable-attributes>
+      <milestone-id type="integer">116476</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-07-06T12:04:03+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">9</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 18</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/55872)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/55872&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-11T11:36:04+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">116476</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-07-11T11:36:04+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">10</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Iteration 18</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-25T11:56:22+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 116476
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-07-25T11:56:37+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">11</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body>Hi,
+The following places need to change &quot;asics&quot;to&quot;ASICS&quot;:
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/events
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/widget_sets/1/edit
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/users/1/edit</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Hi,&lt;br&gt;
+The following places need to change &quot;asics&quot;to&quot;ASICS&quot;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/events&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/events&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/widget_sets/1/edit&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/admin/widget_sets/1/edit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/users/1/edit&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/users/1/edit&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-15T16:07:58+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-08-15T16:08:12+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">12</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">18</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-17T12:14:11+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-08-17T12:14:23+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">13</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">18</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-17T16:39:56+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-08-17T16:40:09+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">14</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">18</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T20:19:51+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-08-18T20:20:03+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">15</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">22</attachments-count>
+      <body>http://www.it.asics2-draft.theplant-dev.com/about</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.it.asics2-draft.theplant-dev.com/about&quot;&gt;http://www.it.asics2-draft.theplant-dev.com/about&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-25T17:46:33+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-08-25T17:47:07+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">16</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">26</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T15:24:45+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-08-29T15:24:59+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">17</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">26</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-29T16:05:30+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">125</number>
+      <permalink>asics-and-the-asics-in-my-asics-should-always-be-written-in-upper-case</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>ASICS and the &quot;ASICS&quot; in My ASICS should always be written in UPPER CASE</title>
+      <updated-at type="datetime">2011-08-29T16:05:43+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">18</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/125</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>4cdc90bfea107000216add557062dff667ae0802</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-06-15T13:34:00+09:00</created-at>
+      <filename>asics-lc.png</filename>
+      <height type="integer">693</height>
+      <id type="integer">1114047</id>
+      <size type="integer">397828</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1132</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1114047/asics-lc.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>d3c1a4a67c375f86e9252fab8e36e145b8f526f2</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-07-05T18:15:46+09:00</created-at>
+      <filename>myasics.png</filename>
+      <height type="integer">693</height>
+      <id type="integer">1145371</id>
+      <size type="integer">704768</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1306</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1145371/myasics.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>44152fdc6e2cf0ce901393869f89e998241cb78e</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-15T16:07:58+09:00</created-at>
+      <filename>2011-08-15_1426.png</filename>
+      <height type="integer">949</height>
+      <id type="integer">1269774</id>
+      <size type="integer">209886</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1197</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1269774/2011-08-15_1426.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>c6f34161d2e541982850205b2a2ad344a4eef047</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-15T16:07:58+09:00</created-at>
+      <filename>2011-08-15_1459.png</filename>
+      <height type="integer">844</height>
+      <id type="integer">1269775</id>
+      <size type="integer">136448</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1180</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1269775/2011-08-15_1459.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>5a8dc6cdff7c813b32927ee3fc079a1440b5ec03</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-15T16:07:58+09:00</created-at>
+      <filename>2011-08-15_1439.png</filename>
+      <height type="integer">936</height>
+      <id type="integer">1269776</id>
+      <size type="integer">129658</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1115</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1269776/2011-08-15_1439.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>66c885b5c750f26e42842981e5193edf2b698f26</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-18T20:19:51+09:00</created-at>
+      <filename>asics.png</filename>
+      <height type="integer">935</height>
+      <id type="integer">1285151</id>
+      <size type="integer">283006</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1005</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1285151/asics.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>74eb5f21f1e2d5551bb9f262f7ca8fcf926976a1</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-25T17:46:33+09:00</created-at>
+      <filename>2011-08-25_1637.png</filename>
+      <height type="integer">930</height>
+      <id type="integer">1310794</id>
+      <size type="integer">283032</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1046</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1310794/2011-08-25_1637.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

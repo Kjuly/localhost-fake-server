@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-27T17:33:17+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">559</number>
+  <permalink>store-locator-hidden</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Store Locator hidden</title>
+  <updated-at type="datetime">2011-08-29T19:18:22+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">3</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/559</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>On the product page, there has not store locator widget on ASICS 1, so i hide this widget on the same page on ASICS 2 (attachment 1). But if I did that, the store locator widget on the running page would be hidden, either.(attachment 2).
+
+http://www.se.asics2-draft.theplant-dev.com/running/products/gel-trabuco-men
+
+http://www.se.asics2-draft.theplant-dev.com/running</original-body>
+  <latest-body>On the product page, there has not store locator widget on ASICS 1, so i hide this widget on the same page on ASICS 2 (attachment 1). But if I did that, the store locator widget on the running page would be hidden, either.(attachment 2).
+
+http://www.se.asics2-draft.theplant-dev.com/running/products/gel-trabuco-men
+
+http://www.se.asics2-draft.theplant-dev.com/running</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;On the product page, there has not store locator widget on ASICS
+1, so i hide this widget on the same page on ASICS 2 (attachment
+1). But if I did that, the store locator widget on the running page
+would be hidden, either.(attachment 2).&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.se.asics2-draft.theplant-dev.com/running/products/gel-trabuco-men&quot;&gt;
+http://www.se.asics2-draft.theplant-dev.com/running/products/gel-tr...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.se.asics2-draft.theplant-dev.com/running&quot;&gt;http://www.se.asics2-draft.theplant-dev.com/running&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>On the product page, there has not store locator widget on ASICS 1, so i hide this widget on the same page on ASICS 2 (attachment 1). But if I did that, the store locator widget on the running page would be hidden, either.(attachment 2).
+
+http://www.se.asics2-draft.theplant-dev.com/running/products/gel-trabuco-men
+
+http://www.se.asics2-draft.theplant-dev.com/running</body>
+      <body-html>&lt;div&gt;&lt;p&gt;On the product page, there has not store locator widget on ASICS
+1, so i hide this widget on the same page on ASICS 2 (attachment
+1). But if I did that, the store locator widget on the running page
+would be hidden, either.(attachment 2).&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.se.asics2-draft.theplant-dev.com/running/products/gel-trabuco-men&quot;&gt;
+http://www.se.asics2-draft.theplant-dev.com/running/products/gel-tr...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.se.asics2-draft.theplant-dev.com/running&quot;&gt;http://www.se.asics2-draft.theplant-dev.com/running&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T17:33:17+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">559</number>
+      <permalink>store-locator-hidden</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator hidden</title>
+      <updated-at type="datetime">2011-08-27T17:33:54+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/559</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T13:15:58+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">559</number>
+      <permalink>store-locator-hidden</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Store Locator hidden</title>
+      <updated-at type="datetime">2011-08-29T13:16:10+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/559</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-29T19:18:10+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">559</number>
+      <permalink>store-locator-hidden</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Store Locator hidden</title>
+      <updated-at type="datetime">2011-08-29T19:18:22+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">3</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/559</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>2b942a2819c81b1216830b9da786b00855e83a7c</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-27T17:33:17+09:00</created-at>
+      <filename>1.png</filename>
+      <height type="integer">755</height>
+      <id type="integer">1319738</id>
+      <size type="integer">381676</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1361</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1319738/1.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>d12f4958e77c880d982edb5092f5c54aa5123f9c</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-27T17:33:30+09:00</created-at>
+      <filename>2.png</filename>
+      <height type="integer">754</height>
+      <id type="integer">1319739</id>
+      <size type="integer">534977</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">928</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1319739/2.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

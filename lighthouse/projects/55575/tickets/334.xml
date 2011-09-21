@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-10T13:34:43+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">115207</milestone-id>
+  <number type="integer">334</number>
+  <permalink>blog-post-tag-should-use-autocomplete</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Blog Post tag should use Autocomplete</title>
+  <updated-at type="datetime">2011-09-21T11:28:24+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/334</url>
+  <milestone-title>Post Launch</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-10T13:34:43+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">334</number>
+      <permalink>blog-post-tag-should-use-autocomplete</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Blog Post tag should use Autocomplete</title>
+      <updated-at type="datetime">2011-08-10T13:34:51+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/334</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T11:28:12+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 117173
+</diffable-attributes>
+      <milestone-id type="integer">115207</milestone-id>
+      <number type="integer">334</number>
+      <permalink>blog-post-tag-should-use-autocomplete</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Blog Post tag should use Autocomplete</title>
+      <updated-at type="datetime">2011-09-21T11:28:24+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/334</url>
+      <milestone-title>Post Launch</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

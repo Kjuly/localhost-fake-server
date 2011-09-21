@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-16T12:26:34+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">357</number>
+  <permalink>lose-asics-sports-on-ie7</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag>&quot;asics sport&quot; ie7</tag>
+  <title>Lose ASICS SPORTS on IE7</title>
+  <updated-at type="datetime">2011-09-20T12:29:52+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">5</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/357</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Medium</priority-name>
+  <original-body>Please see attached.</original-body>
+  <latest-body>Please see attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Please see attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Please see attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Please see attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-16T12:26:34+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">357</number>
+      <permalink>lose-asics-sports-on-ie7</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;asics sport&quot; ie7</tag>
+      <title>Lose ASICS SPORTS on IE7</title>
+      <updated-at type="datetime">2011-08-16T12:26:48+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/357</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-19T04:01:47+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">357</number>
+      <permalink>lose-asics-sports-on-ie7</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;asics sport&quot; ie7</tag>
+      <title>Lose ASICS SPORTS on IE7</title>
+      <updated-at type="datetime">2011-08-19T04:02:05+09:00</updated-at>
+      <user-id type="integer">158028</user-id>
+      <version type="integer">2</version>
+      <user-name>lancee LY</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/357</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">158028</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>but the arrows can't slide.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;but the arrows can't slide.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T16:32:38+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">357</number>
+      <permalink>lose-asics-sports-on-ie7</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;asics sport&quot; ie7</tag>
+      <title>Lose ASICS SPORTS on IE7</title>
+      <updated-at type="datetime">2011-09-15T16:32:54+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">3</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>lancee LY</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/357</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T17:02:03+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 158028
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">357</number>
+      <permalink>lose-asics-sports-on-ie7</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;asics sport&quot; ie7</tag>
+      <title>Lose ASICS SPORTS on IE7</title>
+      <updated-at type="datetime">2011-09-15T17:02:25+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/357</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T12:29:34+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">357</number>
+      <permalink>lose-asics-sports-on-ie7</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;asics sport&quot; ie7</tag>
+      <title>Lose ASICS SPORTS on IE7</title>
+      <updated-at type="datetime">2011-09-20T12:29:52+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">5</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/357</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>b801799c70dcb4dbb39b93a238f99f0f8c36b235</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-16T12:26:35+09:00</created-at>
+      <filename>2011-08-16_1125.png</filename>
+      <height type="integer">963</height>
+      <id type="integer">1273724</id>
+      <size type="integer">710754</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1439</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1273724/2011-08-16_1125.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>c80c66411f9ecbc292e8a545df70127832ea6062</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-15T16:32:38+09:00</created-at>
+      <filename>2011-09-15_1528.png</filename>
+      <height type="integer">945</height>
+      <id type="integer">1389513</id>
+      <size type="integer">583846</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1354</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1389513/2011-09-15_1528.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

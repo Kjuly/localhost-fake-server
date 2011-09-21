@@ -1,0 +1,58 @@
+{
+  "commit": {
+    "message": "fixed the renamed but in a dirty approach.",
+    "tree": {
+      "sha": "52d8816d88ec59e327dca754d32c204db507246d",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/52d8816d88ec59e327dca754d32c204db507246d"
+    },
+    "author": {
+      "date": "2011-08-24T00:38:49-07:00",
+      "name": "fleuria",
+      "email": "me.ssword@gmail.com"
+    },
+    "committer": {
+      "date": "2011-08-24T00:39:12-07:00",
+      "name": "fleuria",
+      "email": "me.ssword@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/420cac40d662587e0d4ba5aa793a615ec19686a2"
+  },
+  "sha": "420cac40d662587e0d4ba5aa793a615ec19686a2",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/7ff5fdf2175e6e31a0cf105201d7065c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "Fleurer",
+    "id": 129800,
+    "url": "https://api.github.com/users/Fleurer"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "420cac40d662587e0d4ba5aa793a615ec19686a2",
+      "additions": 12,
+      "blob_url": "https://github.com/theplant/GBox/blob/420cac40d662587e0d4ba5aa793a615ec19686a2/GBox/GBFileSystemWatcher.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/420cac40d662587e0d4ba5aa793a615ec19686a2/GBox/GBFileSystemWatcher.m",
+      "filename": "GBox/GBFileSystemWatcher.m",
+      "patch": "--- a/GBox/GBFileSystemWatcher.m\n+++ b/GBox/GBFileSystemWatcher.m\n@@ -52,7 +52,15 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n             if ((eventFlag & kFSEventStreamEventFlagItemRenamed) && (i+1 < [filePaths count])) {\n                 newPath = [[filePaths objectAtIndex: i+1] stringByStandardizingPath];\n                 i++;\n-                [[fsw delegate] fileMoved: filePath newPath: newPath eventId: eventId];\n+                // there's a bug from kFSEventStreamEventFlagItemRenamed on Mac OS X 10.7. It's a \n+                // good API, but seems have no documentation, so take care.\n+                if ([fm fileExistsAtPath: newPath] == NO) {\n+                    [[fsw delegate] fileDeleted: filePath eventId: eventId];\n+                    [[fsw delegate] fileDeleted: newPath eventId: eventId];\n+                }\n+                else {\n+                    [[fsw delegate] fileMoved: filePath newPath: newPath eventId: eventId];\n+                }\n             }\n             else {\n                 [[fsw delegate] fileDeleted: filePath eventId: eventId];\n@@ -63,11 +71,11 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n             if (!attrs) \n                 continue;\n             // file created or modified\n-            if (eventFlag & kFSEventStreamEventFlagItemModified) {\n-                [[fsw delegate] fileModified: filePath eventId: eventId];\n+            if (eventFlag & kFSEventStreamEventFlagItemCreated) {\n+                [[fsw delegate] fileCreated: filePath eventId: eventId];\n             }\n             else {\n-                [[fsw delegate] fileCreated: filePath eventId: eventId];\n+                [[fsw delegate] fileModified: filePath eventId: eventId];\n             }\n         }\n         [fsw setLastEventId: eventId];",
+      "deletions": 4,
+      "changes": 16
+    }
+  ],
+  "stats": {
+    "additions": 12,
+    "total": 16,
+    "deletions": 4
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/7ff5fdf2175e6e31a0cf105201d7065c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "Fleurer",
+    "id": 129800,
+    "url": "https://api.github.com/users/Fleurer"
+  },
+  "parents": [
+    {
+      "sha": "02f6e99caf5da5a2cbeecb9289073509a8f9a6e4",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/02f6e99caf5da5a2cbeecb9289073509a8f9a6e4"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/420cac40d662587e0d4ba5aa793a615ec19686a2"
+}

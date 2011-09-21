@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-27T11:40:45+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">556</number>
+  <permalink>admin-about-pages-active</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag nil="true"></tag>
+  <title>Admin &gt; About Pages &gt; Active?</title>
+  <updated-at type="datetime">2011-09-02T23:39:54+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">5</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/556</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages
+
+I think the word Active? is probably wrong... what does it really mean/do in this context? See attached.</original-body>
+  <latest-body>http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages
+
+I think the word Active? is probably wrong... what does it really mean/do in this context? See attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I think the word Active? is probably wrong... what does it
+really mean/do in this context? See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages
+
+I think the word Active? is probably wrong... what does it really mean/do in this context? See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I think the word Active? is probably wrong... what does it
+really mean/do in this context? See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T11:40:45+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">556</number>
+      <permalink>admin-about-pages-active</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; About Pages &gt; Active?</title>
+      <updated-at type="datetime">2011-08-27T11:40:57+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/556</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/60250)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/60250&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T19:13:33+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">556</number>
+      <permalink>admin-about-pages-active</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; About Pages &gt; Active?</title>
+      <updated-at type="datetime">2011-08-27T19:13:33+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/556</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>If page is inactive, it will not display in the frontend.
+
+This might be how the user use the feature:
+
+&gt; After you created page, you might want to hide this page a while for some specific reason.
+&gt; But you don't want to delete the post and create it again when you want it to display.
+
+If this feature is confirmed no longer used, we can then remove it. Or we can rename 'active?' to 'hide' if it's hard to understand.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;If page is inactive, it will not display in the frontend.&lt;/p&gt;
+&lt;p&gt;This might be how the user use the feature:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;After you created page, you might want to hide this page a while
+for some specific reason. But you don't want to delete the post and
+create it again when you want it to display.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If this feature is confirmed no longer used, we can then remove
+it. Or we can rename 'active?' to 'hide' if it's hard to
+understand.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-02T19:09:55+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">556</number>
+      <permalink>admin-about-pages-active</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; About Pages &gt; Active?</title>
+      <updated-at type="datetime">2011-09-02T19:10:07+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/556</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Actually, I don't think it means that. I think it means that it does not become part of the right navigation in the about section, however the pages still display on the frontend. If I'm right, I think we should change this to: &quot;Show in about navigation&quot; or something like that.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Actually, I don't think it means that. I think it means that it
+does not become part of the right navigation in the about section,
+however the pages still display on the frontend. If I'm right, I
+think we should change this to: &quot;Show in about navigation&quot; or
+something like that.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-02T23:39:28+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">556</number>
+      <permalink>admin-about-pages-active</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; About Pages &gt; Active?</title>
+      <updated-at type="datetime">2011-09-02T23:39:41+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">4</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/556</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-02T23:39:41+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 2503
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">556</number>
+      <permalink>admin-about-pages-active</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; About Pages &gt; Active?</title>
+      <updated-at type="datetime">2011-09-02T23:39:54+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">5</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/556</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>86e978abd840cc5006a68500acdbcbcbd1a6e372</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-27T11:40:45+09:00</created-at>
+      <filename>about-active.png</filename>
+      <height type="integer">664</height>
+      <id type="integer">1319584</id>
+      <size type="integer">177992</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1240</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1319584/about-active.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

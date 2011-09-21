@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-08T01:12:55+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">744</number>
+  <permalink>missing-related-products</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Missing Related Products???</title>
+  <updated-at type="datetime">2011-09-09T13:33:16+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">2</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/744</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>For example; http://www.fr.asics2-draft.theplant-dev.com/running/products/gel-kinetic-men/</original-body>
+  <latest-body>For example; http://www.fr.asics2-draft.theplant-dev.com/running/products/gel-kinetic-men/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;For example; &lt;a href=
+&quot;http://www.fr.asics2-draft.theplant-dev.com/running/products/gel-kinetic-men/&quot;&gt;
+http://www.fr.asics2-draft.theplant-dev.com/running/products/gel-ki...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>For example; http://www.fr.asics2-draft.theplant-dev.com/running/products/gel-kinetic-men/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;For example; &lt;a href=
+&quot;http://www.fr.asics2-draft.theplant-dev.com/running/products/gel-kinetic-men/&quot;&gt;
+http://www.fr.asics2-draft.theplant-dev.com/running/products/gel-ki...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T01:12:55+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">744</number>
+      <permalink>missing-related-products</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Missing Related Products???</title>
+      <updated-at type="datetime">2011-09-08T01:13:09+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/744</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Nope! it's back</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Nope! it's back&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-09T13:33:03+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">744</number>
+      <permalink>missing-related-products</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Missing Related Products???</title>
+      <updated-at type="datetime">2011-09-09T13:33:16+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/744</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>9290226e4760923222174b76e900196b08bd41ad</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-08T01:12:55+09:00</created-at>
+      <filename>2011-09-08_0010.png</filename>
+      <height type="integer">818</height>
+      <id type="integer">1360126</id>
+      <size type="integer">230960</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">927</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1360126/2011-09-08_0010.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

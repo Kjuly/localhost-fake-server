@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changesets type="array">
+  <total_pages>126</total_pages>
+  <current_page>1</current_page>
+  <changeset>
+    <body>[widget] Add note for SSI timestamp.
+https://github.com/theplant/qor/commit/a0c0ba9a8d7e826e1bb6a8be42f3bc587e8aad4d</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/widget&quot; title=
+&quot;Changeset [widget]&quot;&gt;[widget]&lt;/a&gt; Add note for SSI timestamp.
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/a0c0ba9a8d7e826e1bb6a8be42f3bc587e8aad4d&quot;&gt;
+https://github.com/theplant/qor/commit/a0c0ba9a8d7e826e1bb6a8be42f3...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-29T22:51:28+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - widget/lib/qor/widget/helpers.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>a0c0ba9a8d7e826e1bb6a8be42f3bc587e8aad4d</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [a0c0ba9a8d7e826e1bb6a8be42f3bc587e8aad4d] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[widget] Add timestampe to SSI url.
+https://github.com/theplant/qor/commit/5920c493a451f7b642be3529d9cd8b087f12e14f</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/widget&quot; title=
+&quot;Changeset [widget]&quot;&gt;[widget]&lt;/a&gt; Add timestampe to SSI url.
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/5920c493a451f7b642be3529d9cd8b087f12e14f&quot;&gt;
+https://github.com/theplant/qor/commit/5920c493a451f7b642be3529d9cd...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-29T22:41:45+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - widget/app/models/qor/widget/view_setting.rb
+- - M
+  - widget/lib/qor/widget/helpers.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>5920c493a451f7b642be3529d9cd8b087f12e14f</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [5920c493a451f7b642be3529d9cd8b087f12e14f] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[extlib] Fix by_child_key! method by tying to find with both string and symbol.
+https://github.com/theplant/qor/commit/d391c4ce9dade5579e730911fd3aaf6029fe4bff</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/extlib&quot; title=
+&quot;Changeset [extlib]&quot;&gt;[extlib]&lt;/a&gt; Fix by_child_key! method by tying
+to find with both string and symbol. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/d391c4ce9dade5579e730911fd3aaf6029fe4bff&quot;&gt;
+https://github.com/theplant/qor/commit/d391c4ce9dade5579e730911fd3a...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-29T18:37:16+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - extlib/lib/qor/extlib/dsl/configuration.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>d391c4ce9dade5579e730911fd3aaf6029fe4bff</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [d391c4ce9dade5579e730911fd3aaf6029fe4bff] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[widget] Use javascript to set redirect back params.
+To avoid incorrect back url when setting page was loaded by ngnix SSI.
+https://github.com/theplant/qor/commit/2f855642711b1e6db7bb8642366e8f0f283bc858</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/widget&quot; title=
+&quot;Changeset [widget]&quot;&gt;[widget]&lt;/a&gt; Use javascript to set redirect
+back params. To avoid incorrect back url when setting page was
+loaded by ngnix SSI.&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/2f855642711b1e6db7bb8642366e8f0f283bc858&quot;&gt;
+https://github.com/theplant/qor/commit/2f855642711b1e6db7bb8642366e...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-29T16:54:19+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - widget/app/views/qor/widget/settings/edit.html.erb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>2f855642711b1e6db7bb8642366e8f0f283bc858</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [2f855642711b1e6db7bb8642366e8f0f283bc858] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[l10n] Update readme to include trouble shooting.
+https://github.com/theplant/qor/commit/aaf92238f1304e314a23d104af44567c79c91618</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/l10n&quot; title=
+&quot;Changeset [l10n]&quot;&gt;[l10n]&lt;/a&gt; Update readme to include trouble
+shooting. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/aaf92238f1304e314a23d104af44567c79c91618&quot;&gt;
+https://github.com/theplant/qor/commit/aaf92238f1304e314a23d104af44...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-29T14:01:00+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - l10n/README.rdoc
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>aaf92238f1304e314a23d104af44567c79c91618</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [aaf92238f1304e314a23d104af44567c79c91618] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>Merge branch 'develop' of github.com:theplant/qor into develop
+https://github.com/theplant/qor/commit/ce44359e156f049359f941f5f8d1b8ff98b83700</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Merge branch 'develop' of github.com:theplant/qor into
+develop&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/ce44359e156f049359f941f5f8d1b8ff98b83700&quot;&gt;
+https://github.com/theplant/qor/commit/ce44359e156f049359f941f5f8d1...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-29T00:00:11+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - resources_engine/app/helpers/resources_helper.rb
+- - M
+  - resources_engine/app/views/resources/tis/_form.html.erb
+- - M
+  - widget/lib/qor/widget/helpers.rb
+- - M
+  - widget/lib/qor/widget/site_symlinker.rb
+</changes>
+    <committer>Zhen Wu</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>ce44359e156f049359f941f5f8d1b8ff98b83700</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [ce44359e156f049359f941f5f8d1b8ff98b83700] by Zhen Wu</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[Event]add attrs option for reservation
+https://github.com/theplant/qor/commit/18eafb77718b1bd4fd6df96fe2298f9749f3cdb7</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/Event&quot; title=
+&quot;Changeset [Event]&quot;&gt;[Event]&lt;/a&gt;add attrs option for reservation
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/18eafb77718b1bd4fd6df96fe2298f9749f3cdb7&quot;&gt;
+https://github.com/theplant/qor/commit/18eafb77718b1bd4fd6df96fe229...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-28T23:59:29+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - event/lib/qor/event/reservable.rb
+</changes>
+    <committer>Zhen Wu</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>18eafb77718b1bd4fd6df96fe2298f9749f3cdb7</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [18eafb77718b1bd4fd6df96fe2298f9749f3cdb7] by Zhen Wu</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[resource] open edit resource link in new window is uesless when it will link back to original page.
+https://github.com/theplant/qor/commit/98255037744bbb2ca1fd0bdea21b89d10ea36d37</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/resource&quot; title=
+&quot;Changeset [resource]&quot;&gt;[resource]&lt;/a&gt; open edit resource link in
+new window is uesless when it will link back to original page.
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/98255037744bbb2ca1fd0bdea21b89d10ea36d37&quot;&gt;
+https://github.com/theplant/qor/commit/98255037744bbb2ca1fd0bdea21b...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-27T19:50:02+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - resources_engine/app/helpers/resources_helper.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>98255037744bbb2ca1fd0bdea21b89d10ea36d37</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [98255037744bbb2ca1fd0bdea21b89d10ea36d37] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[resources_engine] Make resource edit link open in new window and redirect back when updated.
+https://github.com/theplant/qor/commit/2253f7fa37217c0f6460d66867b4ad2346115c20</body>
+    <body-html>&lt;div&gt;&lt;p&gt;[resources_engine] Make resource edit link open in new window
+and redirect back when updated. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/2253f7fa37217c0f6460d66867b4ad2346115c20&quot;&gt;
+https://github.com/theplant/qor/commit/2253f7fa37217c0f6460d66867b4...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-27T19:45:53+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - resources_engine/app/helpers/resources_helper.rb
+- - M
+  - resources_engine/app/views/resources/tis/_form.html.erb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>2253f7fa37217c0f6460d66867b4ad2346115c20</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [2253f7fa37217c0f6460d66867b4ad2346115c20] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[widget] Fix site symlinker bug when request url contains site url.
+https://github.com/theplant/qor/commit/8c6cf7a8d6816768399ee2ec6c43a3064e5e4847</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/widget&quot; title=
+&quot;Changeset [widget]&quot;&gt;[widget]&lt;/a&gt; Fix site symlinker bug when
+request url contains site url. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/8c6cf7a8d6816768399ee2ec6c43a3064e5e4847&quot;&gt;
+https://github.com/theplant/qor/commit/8c6cf7a8d6816768399ee2ec6c43...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-27T17:55:25+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - widget/lib/qor/widget/site_symlinker.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>8c6cf7a8d6816768399ee2ec6c43a3064e5e4847</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [8c6cf7a8d6816768399ee2ec6c43a3064e5e4847] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[widget] add tailing slash to widget ssi url
+https://github.com/theplant/qor/commit/cbec1a6f7860f3e0610e3cb24899ed3898022a59</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/widget&quot; title=
+&quot;Changeset [widget]&quot;&gt;[widget]&lt;/a&gt; add tailing slash to widget ssi
+url &lt;a href=
+&quot;https://github.com/theplant/qor/commit/cbec1a6f7860f3e0610e3cb24899ed3898022a59&quot;&gt;
+https://github.com/theplant/qor/commit/cbec1a6f7860f3e0610e3cb24899...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-27T16:28:50+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - widget/lib/qor/widget/helpers.rb
+</changes>
+    <committer>Felix Sun</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>cbec1a6f7860f3e0610e3cb24899ed3898022a59</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [cbec1a6f7860f3e0610e3cb24899ed3898022a59] by Felix Sun</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[publish] change behavior for select_all to publish
+https://github.com/theplant/qor/commit/3d1ad81e879ac77358242f1e75f23371abbadc2d</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/publish&quot; title=
+&quot;Changeset [publish]&quot;&gt;[publish]&lt;/a&gt; change behavior for select_all
+to publish &lt;a href=
+&quot;https://github.com/theplant/qor/commit/3d1ad81e879ac77358242f1e75f23371abbadc2d&quot;&gt;
+https://github.com/theplant/qor/commit/3d1ad81e879ac77358242f1e75f2...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T21:57:51+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - resources_engine/public/resources/tis/admin.js
+</changes>
+    <committer>Jinzhu</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>3d1ad81e879ac77358242f1e75f23371abbadc2d</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [3d1ad81e879ac77358242f1e75f23371abbadc2d] by Jinzhu</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[publish] change behavior for select_all to publish
+https://github.com/theplant/qor/commit/c43181da2a644d2e8140993401831207436ca1d3</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/publish&quot; title=
+&quot;Changeset [publish]&quot;&gt;[publish]&lt;/a&gt; change behavior for select_all
+to publish &lt;a href=
+&quot;https://github.com/theplant/qor/commit/c43181da2a644d2e8140993401831207436ca1d3&quot;&gt;
+https://github.com/theplant/qor/commit/c43181da2a644d2e814099340183...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T21:57:05+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - resources_engine/public/resources/tis/admin.js
+</changes>
+    <committer>Jinzhu</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>c43181da2a644d2e8140993401831207436ca1d3</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [c43181da2a644d2e8140993401831207436ca1d3] by Jinzhu</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>fix rack reponse body should respond to each
+https://github.com/theplant/qor/commit/1a58dc2869cbb929ccb790d0d3b366846a3bc0ee</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix rack reponse body should respond to each&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/1a58dc2869cbb929ccb790d0d3b366846a3bc0ee&quot;&gt;
+https://github.com/theplant/qor/commit/1a58dc2869cbb929ccb790d0d3b3...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T21:04:01+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - health_check/lib/qor_health_check.rb
+</changes>
+    <committer>Felix Sun</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>1a58dc2869cbb929ccb790d0d3b366846a3bc0ee</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [1a58dc2869cbb929ccb790d0d3b366846a3bc0ee] by Felix Sun</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>add lots of float:left to make update button work
+https://github.com/theplant/qor/commit/73835063e8413d58b5bab39da0c9e64f4d3d0d83</body>
+    <body-html>&lt;div&gt;&lt;p&gt;add lots of float:left to make update button work&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/73835063e8413d58b5bab39da0c9e64f4d3d0d83&quot;&gt;
+https://github.com/theplant/qor/commit/73835063e8413d58b5bab39da0c9...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T15:16:28+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - resources_engine/public/resources/tis/admin.css
+</changes>
+    <committer>Yuan He</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>73835063e8413d58b5bab39da0c9e64f4d3d0d83</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [73835063e8413d58b5bab39da0c9e64f4d3d0d83] by Yuan He</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>Merge branch 'develop' of github.com:theplant/qor into develop
+https://github.com/theplant/qor/commit/4219b9b7d26dc7f32747a38ee82a760faf820058</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Merge branch 'develop' of github.com:theplant/qor into
+develop&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/4219b9b7d26dc7f32747a38ee82a760faf820058&quot;&gt;
+https://github.com/theplant/qor/commit/4219b9b7d26dc7f32747a38ee82a...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T12:07:46+09:00</changed-at>
+    <changes type="yaml">--- []
+
+</changes>
+    <committer>Yuan He</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>4219b9b7d26dc7f32747a38ee82a760faf820058</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [4219b9b7d26dc7f32747a38ee82a760faf820058] by Yuan He</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>Merge branch 'develop' of github.com:theplant/qor into develop
+https://github.com/theplant/qor/commit/0b55a9cbcee85a16d8543decaac28320fb9e3677</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Merge branch 'develop' of github.com:theplant/qor into
+develop&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/0b55a9cbcee85a16d8543decaac28320fb9e3677&quot;&gt;
+https://github.com/theplant/qor/commit/0b55a9cbcee85a16d8543decaac2...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T12:07:03+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - publish/app/views/resources/publish/_search_results.html.erb
+- - A
+  - resources_engine/public/resources/tis/publish.js
+- - M
+  - cache/lib/qor/cache/writer.rb
+- - M
+  - extlib/lib/qor/extlib/active_record/table_finder.rb
+- - M
+  - form/public/qor_form/main.js
+- - M
+  - form/public/qor_form/main/cropper.js
+- - M
+  - health_check/Gemfile
+- - M
+  - l10n/lib/qor/l10n/railtie.rb
+- - M
+  - l10n/lib/tasks/l10n.rake
+- - M
+  - localization/Gemfile
+- - M
+  - localization/app/controllers/resources/localization_controller.rb
+- - M
+  - localization/lib/qor/localization/generator/localization_generator.rb
+- - M
+  - media_library/Gemfile
+- - M
+  - media_library/app/controllers/qor/media_library/assets_controller.rb
+- - M
+  - media_library/lib/qor/paperclip.rb
+- - M
+  - media_library/lib/qor/paperclip/qor_cropper.rb
+- - M
+  - publish/app/controllers/resources/publish_controller.rb
+- - M
+  - publish/app/views/resources/publish/_diff_group.html.erb
+- - M
+  - publish/app/views/resources/publish/_operations.html.erb
+- - M
+  - publish/app/views/resources/publish/_table.html.erb
+- - M
+  - publish/app/views/resources/publish/index.html.erb
+- - M
+  - publish/lib/qor/publish.rb
+- - M
+  - resources_engine/app/views/layouts/resources/tis.html.erb
+- - M
+  - resources_engine/lib/qor/resources_engine_generator.rb
+- - M
+  - resources_engine/public/resources/publish/publish.css
+- - M
+  - resources_engine/public/resources/tis/admin.css
+- - M
+  - shared/gemfile.rb
+- - M
+  - widget/app/models/qor/widget/view_setting.rb
+- - M
+  - widget/app/views/qor/widget/settings/_help.html.erb
+- - M
+  - widget/config/locales/en.yml
+- - M
+  - widget/lib/qor/widget/configuration.rb
+- - M
+  - widget/lib/qor/widget/helpers.rb
+- - M
+  - widget/lib/qor_widget.rb
+- - M
+  - widget/lib/tasks/widget.rake
+</changes>
+    <committer>Yuan He</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>0b55a9cbcee85a16d8543decaac28320fb9e3677</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [0b55a9cbcee85a16d8543decaac28320fb9e3677] by Yuan He</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>Merge branch 'develop' of github.com:theplant/qor into develop
+https://github.com/theplant/qor/commit/8be2f55e1d62d8da099eac2bb5ad13982941fd1c</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Merge branch 'develop' of github.com:theplant/qor into
+develop&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/8be2f55e1d62d8da099eac2bb5ad13982941fd1c&quot;&gt;
+https://github.com/theplant/qor/commit/8be2f55e1d62d8da099eac2bb5ad...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T11:10:43+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - publish/app/views/resources/publish/_search_results.html.erb
+- - A
+  - resources_engine/public/resources/tis/publish.js
+- - M
+  - cache/lib/qor/cache/writer.rb
+- - M
+  - extlib/lib/qor/extlib/active_record/table_finder.rb
+- - M
+  - form/public/qor_form/main.js
+- - M
+  - form/public/qor_form/main/cropper.js
+- - M
+  - health_check/Gemfile
+- - M
+  - l10n/lib/qor/l10n/railtie.rb
+- - M
+  - l10n/lib/tasks/l10n.rake
+- - M
+  - localization/Gemfile
+- - M
+  - localization/app/controllers/resources/localization_controller.rb
+- - M
+  - localization/lib/qor/localization/generator/localization_generator.rb
+- - M
+  - media_library/Gemfile
+- - M
+  - media_library/app/controllers/qor/media_library/assets_controller.rb
+- - M
+  - media_library/lib/qor/paperclip.rb
+- - M
+  - media_library/lib/qor/paperclip/qor_cropper.rb
+- - M
+  - publish/app/controllers/resources/publish_controller.rb
+- - M
+  - publish/app/views/resources/publish/_diff_group.html.erb
+- - M
+  - publish/app/views/resources/publish/_operations.html.erb
+- - M
+  - publish/app/views/resources/publish/_table.html.erb
+- - M
+  - publish/app/views/resources/publish/index.html.erb
+- - M
+  - publish/lib/qor/publish.rb
+- - M
+  - resources_engine/app/views/layouts/resources/tis.html.erb
+- - M
+  - resources_engine/lib/qor/resources_engine_generator.rb
+- - M
+  - resources_engine/public/resources/publish/publish.css
+- - M
+  - shared/gemfile.rb
+- - M
+  - widget/app/models/qor/widget/view_setting.rb
+- - M
+  - widget/app/views/qor/widget/settings/_help.html.erb
+- - M
+  - widget/config/locales/en.yml
+- - M
+  - widget/lib/qor/widget/configuration.rb
+- - M
+  - widget/lib/qor/widget/helpers.rb
+- - M
+  - widget/lib/qor_widget.rb
+- - M
+  - widget/lib/tasks/widget.rake
+</changes>
+    <committer>Yuan He</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>8be2f55e1d62d8da099eac2bb5ad13982941fd1c</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [8be2f55e1d62d8da099eac2bb5ad13982941fd1c] by Yuan He</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[resources_engine] Improve create/update button style
+https://github.com/theplant/qor/commit/5fd1c994e98e564815e342d39e412242f1116d83</body>
+    <body-html>&lt;div&gt;&lt;p&gt;[resources_engine] Improve create/update button style &lt;a href=
+&quot;https://github.com/theplant/qor/commit/5fd1c994e98e564815e342d39e412242f1116d83&quot;&gt;
+https://github.com/theplant/qor/commit/5fd1c994e98e564815e342d39e41...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-26T11:10:26+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - resources_engine/app/views/resources/tis/_publish_immediately.html.erb
+- - M
+  - resources_engine/public/resources/tis/admin.css
+</changes>
+    <committer>Yuan He</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>5fd1c994e98e564815e342d39e412242f1116d83</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [5fd1c994e98e564815e342d39e412242f1116d83] by Yuan He</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>dont write cache if cant get response
+https://github.com/theplant/qor/commit/079f55279f82bd34579743506df861653ffc1392</body>
+    <body-html>&lt;div&gt;&lt;p&gt;dont write cache if cant get response&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/079f55279f82bd34579743506df861653ffc1392&quot;&gt;
+https://github.com/theplant/qor/commit/079f55279f82bd34579743506df8...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-25T20:19:26+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - cache/lib/qor/cache/writer.rb
+</changes>
+    <committer>Felix Sun</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>079f55279f82bd34579743506df861653ffc1392</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [079f55279f82bd34579743506df861653ffc1392] by Felix Sun</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[l10n] Implement ajax updating translations.
+https://github.com/theplant/qor/commit/3564e66f62c92ecc16cc0e56052780a86076848d</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/l10n&quot; title=
+&quot;Changeset [l10n]&quot;&gt;[l10n]&lt;/a&gt; Implement ajax updating translations.
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/3564e66f62c92ecc16cc0e56052780a86076848d&quot;&gt;
+https://github.com/theplant/qor/commit/3564e66f62c92ecc16cc0e560527...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-25T11:02:45+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - l10n/app/assets/javascripts/qor_l10n
+- - A
+  - l10n/public/qor_l10n/inline_translation.css
+- - A
+  - l10n/public/qor_l10n/inline_translation.js
+- - A
+  - l10n/test/dummy/public/qor_form
+- - A
+  - l10n/test/dummy/public/qor_l10n
+- - R
+  - l10n/app/assets/javascripts/qor_l10n_edit_translation.js
+- - R
+  - l10n/app/assets/stylesheets/qor_l10n_edit_translation.css
+- - M
+  - l10n/app/controllers/resources/translations_controller.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation/extend_i18n.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation/helpers.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation/middleware.rb
+- - M
+  - l10n/test/dummy/app/views/layouts/application.html.erb
+- - M
+  - l10n/test/dummy/config/resources_engine.rb
+- - M
+  - resources_engine/config/routes.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>3564e66f62c92ecc16cc0e56052780a86076848d</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [3564e66f62c92ecc16cc0e56052780a86076848d] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[l10n] Refactor inline translation middleware.
+https://github.com/theplant/qor/commit/b3123e9c47f74aef3c54ed78e3f6bdec3a36460c</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/l10n&quot; title=
+&quot;Changeset [l10n]&quot;&gt;[l10n]&lt;/a&gt; Refactor inline translation
+middleware. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/b3123e9c47f74aef3c54ed78e3f6bdec3a36460c&quot;&gt;
+https://github.com/theplant/qor/commit/b3123e9c47f74aef3c54ed78e3f6...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-25T03:08:32+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - l10n/lib/qor/l10n/inline_translation.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation/extend_i18n.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation/helpers.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation/middleware.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>b3123e9c47f74aef3c54ed78e3f6bdec3a36460c</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [b3123e9c47f74aef3c54ed78e3f6bdec3a36460c] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[l10n] Add more test case for inline translation.
+https://github.com/theplant/qor/commit/0723d8e42477c127127fbcc1736c0ab5a3e113a0</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/l10n&quot; title=
+&quot;Changeset [l10n]&quot;&gt;[l10n]&lt;/a&gt; Add more test case for inline
+translation. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/0723d8e42477c127127fbcc1736c0ab5a3e113a0&quot;&gt;
+https://github.com/theplant/qor/commit/0723d8e42477c127127fbcc1736c...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-25T02:04:04+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - l10n/test/dummy/app/views/application/test_inline_translation.html.erb
+- - M
+  - l10n/test/dummy/config/locales/en.yml
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>0723d8e42477c127127fbcc1736c0ab5a3e113a0</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [0723d8e42477c127127fbcc1736c0ab5a3e113a0] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[l10n] Make inline translation middleware works.
+https://github.com/theplant/qor/commit/6506aa0528be7239ce3dae99b8c9e5079449ddb2</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/l10n&quot; title=
+&quot;Changeset [l10n]&quot;&gt;[l10n]&lt;/a&gt; Make inline translation middleware
+works. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/6506aa0528be7239ce3dae99b8c9e5079449ddb2&quot;&gt;
+https://github.com/theplant/qor/commit/6506aa0528be7239ce3dae99b8c9...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-25T01:56:22+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - l10n/lib/qor/l10n/inline_translation/helpers.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation/middleware.rb
+- - M
+  - l10n/test/dummy/app/views/layouts/application.html.erb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>6506aa0528be7239ce3dae99b8c9e5079449ddb2</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [6506aa0528be7239ce3dae99b8c9e5079449ddb2] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[l10n] Remove unused test view files.
+https://github.com/theplant/qor/commit/5e8c129ebe509a9f44ab1b4612aea870ef5e106c</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/l10n&quot; title=
+&quot;Changeset [l10n]&quot;&gt;[l10n]&lt;/a&gt; Remove unused test view files.
+&lt;a href=
+&quot;https://github.com/theplant/qor/commit/5e8c129ebe509a9f44ab1b4612aea870ef5e106c&quot;&gt;
+https://github.com/theplant/qor/commit/5e8c129ebe509a9f44ab1b4612ae...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-25T01:48:29+09:00</changed-at>
+    <changes type="yaml">--- 
+- - R
+  - l10n/test/dummy/app/views/layouts/resources/dummy.html.erb
+- - R
+  - l10n/test/dummy/app/views/layouts/resources/simple.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/dummy/edit.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/dummy/index.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/dummy/new.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/dummy/show.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/simple/edit.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/simple/index.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/simple/new.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/simple/show.html.erb
+- - R
+  - l10n/test/dummy/app/views/resources/tis/products/new.html.erb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>5e8c129ebe509a9f44ab1b4612aea870ef5e106c</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [5e8c129ebe509a9f44ab1b4612aea870ef5e106c] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[l10n] Tweak inline translation related files, setup test env.
+https://github.com/theplant/qor/commit/c11f32f063ef7fd239afa33e2505fc4ec82443dc</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/l10n&quot; title=
+&quot;Changeset [l10n]&quot;&gt;[l10n]&lt;/a&gt; Tweak inline translation related
+files, setup test env. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/c11f32f063ef7fd239afa33e2505fc4ec82443dc&quot;&gt;
+https://github.com/theplant/qor/commit/c11f32f063ef7fd239afa33e2505...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-25T01:46:02+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - l10n/lib/qor/l10n/inline_translation/extend_i18n.rb
+- - A
+  - l10n/lib/qor/l10n/inline_translation/helpers.rb
+- - A
+  - l10n/lib/qor/l10n/inline_translation/middleware.rb
+- - A
+  - l10n/test/dummy/app/views/application/test_inline_translation.html.erb
+- - R
+  - l10n/app/helpers/resources/translation_helper.rb
+- - M
+  - l10n/lib/qor/l10n/exceptions.rb
+- - M
+  - l10n/lib/qor/l10n/inline_translation.rb
+- - M
+  - l10n/lib/qor/l10n/railtie.rb
+- - M
+  - l10n/lib/qor/l10n/read_only_active_record.rb
+- - M
+  - l10n/test/dummy/app/controllers/application_controller.rb
+- - M
+  - l10n/test/dummy/app/views/layouts/application.html.erb
+- - M
+  - l10n/test/dummy/config/application.rb
+- - M
+  - l10n/test/dummy/config/routes.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>c11f32f063ef7fd239afa33e2505fc4ec82443dc</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [c11f32f063ef7fd239afa33e2505fc4ec82443dc] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[localization] Fix method delegate skipping.
+https://github.com/theplant/qor/commit/73dbd2e10a2eb0c14a186d2c9ff513c05e3b076f</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/localization&quot; title=
+&quot;Changeset [localization]&quot;&gt;[localization]&lt;/a&gt; Fix method delegate
+skipping. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/73dbd2e10a2eb0c14a186d2c9ff513c05e3b076f&quot;&gt;
+https://github.com/theplant/qor/commit/73dbd2e10a2eb0c14a186d2c9ff5...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-24T22:59:30+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - localization/app/controllers/resources/localization_controller.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>73dbd2e10a2eb0c14a186d2c9ff513c05e3b076f</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [73dbd2e10a2eb0c14a186d2c9ff513c05e3b076f] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[widget] Validate uniqueness of setting obj id.
+https://github.com/theplant/qor/commit/468b31ec17d10634972700aa498c1f30ab0ba46c</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/widget&quot; title=
+&quot;Changeset [widget]&quot;&gt;[widget]&lt;/a&gt; Validate uniqueness of setting
+obj id. &lt;a href=
+&quot;https://github.com/theplant/qor/commit/468b31ec17d10634972700aa498c1f30ab0ba46c&quot;&gt;
+https://github.com/theplant/qor/commit/468b31ec17d10634972700aa498c...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-24T17:28:51+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - widget/app/models/qor/widget/view_setting.rb
+</changes>
+    <committer>Shaoshing</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>468b31ec17d10634972700aa498c1f30ab0ba46c</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [468b31ec17d10634972700aa498c1f30ab0ba46c] by Shaoshing</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[widget] change mount to copy
+https://github.com/theplant/qor/commit/7461efc2c9e9830c9bb2d1daf38e147a55afc482</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/widget&quot; title=
+&quot;Changeset [widget]&quot;&gt;[widget]&lt;/a&gt; change mount to copy &lt;a href=
+&quot;https://github.com/theplant/qor/commit/7461efc2c9e9830c9bb2d1daf38e147a55afc482&quot;&gt;
+https://github.com/theplant/qor/commit/7461efc2c9e9830c9bb2d1daf38e...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-24T16:03:44+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - widget/lib/tasks/widget.rake
+</changes>
+    <committer>Felix Sun</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>7461efc2c9e9830c9bb2d1daf38e147a55afc482</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [7461efc2c9e9830c9bb2d1daf38e147a55afc482] by Felix Sun</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+  <changeset>
+    <body>[publish] finally crop samller images correctly
+https://github.com/theplant/qor/commit/7acc5566f028d35c25bd569c100ecf9598e26a35</body>
+    <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=&quot;/projects/30780/changesets/publish&quot; title=
+&quot;Changeset [publish]&quot;&gt;[publish]&lt;/a&gt; finally crop samller images
+correctly &lt;a href=
+&quot;https://github.com/theplant/qor/commit/7acc5566f028d35c25bd569c100ecf9598e26a35&quot;&gt;
+https://github.com/theplant/qor/commit/7acc5566f028d35c25bd569c100e...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-08-24T13:52:55+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - media_library/app/controllers/qor/media_library/assets_controller.rb
+- - M
+  - media_library/lib/qor/paperclip.rb
+- - M
+  - media_library/lib/qor/paperclip/qor_cropper.rb
+</changes>
+    <committer>Jinzhu</committer>
+    <project-id type="integer">30780</project-id>
+    <revision>7acc5566f028d35c25bd569c100ecf9598e26a35</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [7acc5566f028d35c25bd569c100ecf9598e26a35] by Jinzhu</title>
+    <user-id type="integer">2504</user-id>
+  </changeset>
+</changesets>

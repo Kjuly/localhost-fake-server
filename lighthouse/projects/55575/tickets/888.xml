@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-21T09:14:07+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">888</number>
+  <permalink>interaction-of-top-sports-nav-menu</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Interaction of top sports nav menu</title>
+  <updated-at type="datetime">2011-09-21T11:24:43+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/888</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>The interaction is slightly different between the sports navigation.
+
+Compare: http://www.asics.co.uk/running/ and http://www.uk.asics2-draft.theplant-dev.com/running
+
+Please make the new site like the old as far as the interaction of roll overs on Products and Knowledge.</original-body>
+  <latest-body>The interaction is slightly different between the sports navigation.
+
+Compare: http://www.asics.co.uk/running/ and http://www.uk.asics2-draft.theplant-dev.com/running
+
+Please make the new site like the old as far as the interaction of roll overs on Products and Knowledge.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;The interaction is slightly different between the sports
+navigation.&lt;/p&gt;
+&lt;p&gt;Compare: &lt;a href=
+&quot;http://www.asics.co.uk/running/&quot;&gt;http://www.asics.co.uk/running/&lt;/a&gt;
+and &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please make the new site like the old as far as the interaction
+of roll overs on Products and Knowledge.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>The interaction is slightly different between the sports navigation.
+
+Compare: http://www.asics.co.uk/running/ and http://www.uk.asics2-draft.theplant-dev.com/running
+
+Please make the new site like the old as far as the interaction of roll overs on Products and Knowledge.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;The interaction is slightly different between the sports
+navigation.&lt;/p&gt;
+&lt;p&gt;Compare: &lt;a href=
+&quot;http://www.asics.co.uk/running/&quot;&gt;http://www.asics.co.uk/running/&lt;/a&gt;
+and &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please make the new site like the old as far as the interaction
+of roll overs on Products and Knowledge.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T09:14:07+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">888</number>
+      <permalink>interaction-of-top-sports-nav-menu</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Interaction of top sports nav menu</title>
+      <updated-at type="datetime">2011-09-21T09:14:20+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/888</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T11:24:29+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">888</number>
+      <permalink>interaction-of-top-sports-nav-menu</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Interaction of top sports nav menu</title>
+      <updated-at type="datetime">2011-09-21T11:24:43+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/888</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

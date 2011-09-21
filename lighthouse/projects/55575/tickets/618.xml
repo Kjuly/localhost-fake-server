@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">1</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-29T19:09:44+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">618</number>
+  <permalink>hide-this-widget-doesnt-work</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Hide this widget doesn't work</title>
+  <updated-at type="datetime">2011-09-06T13:36:13+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">3</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/618</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>for example: http://www.se.asics2-draft.theplant-dev.com/running/products/</original-body>
+  <latest-body>for example: http://www.se.asics2-draft.theplant-dev.com/running/products/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;for example: &lt;a href=
+&quot;http://www.se.asics2-draft.theplant-dev.com/running/products/&quot;&gt;http://www.se.asics2-draft.theplant-dev.com/running/products/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>for example: http://www.se.asics2-draft.theplant-dev.com/running/products/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;for example: &lt;a href=
+&quot;http://www.se.asics2-draft.theplant-dev.com/running/products/&quot;&gt;http://www.se.asics2-draft.theplant-dev.com/running/products/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T19:09:44+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">618</number>
+      <permalink>hide-this-widget-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Hide this widget doesn't work</title>
+      <updated-at type="datetime">2011-08-29T19:10:04+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/618</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">1</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-30T13:31:11+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">618</number>
+      <permalink>hide-this-widget-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Hide this widget doesn't work</title>
+      <updated-at type="datetime">2011-08-30T13:31:24+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/618</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">1</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-06T13:35:58+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">618</number>
+      <permalink>hide-this-widget-doesnt-work</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Hide this widget doesn't work</title>
+      <updated-at type="datetime">2011-09-06T13:36:13+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/618</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment type="Attachment">
+      <code>865f7ee2ef9ca29740ff25fb826238f751a69275</code>
+      <content-type>application/x-shockwave-flash</content-type>
+      <created-at type="datetime">2011-08-29T19:09:45+09:00</created-at>
+      <filename>2011-08-29_1808.swf</filename>
+      <height type="integer" nil="true"></height>
+      <id type="integer">1321826</id>
+      <size type="integer">3929949</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer" nil="true"></width>
+      <url>http://theplant.lighthouseapp.com/attachments/1321826/2011-08-29_1808.swf</url>
+    </attachment>
+  </attachments>
+</ticket>

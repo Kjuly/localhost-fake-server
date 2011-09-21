@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">6</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-29T12:37:36+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">613</number>
+  <permalink>add-the-new-store-locator-button-to-all-product-page</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag>&quot;new store locator button&quot;</tag>
+  <title>Add the new Store Locator Button to all product page</title>
+  <updated-at type="datetime">2011-09-09T15:57:09+09:00</updated-at>
+  <user-id type="integer">44985</user-id>
+  <version type="integer">5</version>
+  <user-name>Jun</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/613</url>
+  <priority-name>Medium</priority-name>
+  <original-body>Please see ticket: https://theplant.lighthouseapp.com/projects/18933/tickets/4381-please-implement-versions-3-4-of-store-locator-button</original-body>
+  <latest-body>Please see ticket: https://theplant.lighthouseapp.com/projects/18933/tickets/4381-please-implement-versions-3-4-of-store-locator-button</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Please see ticket: &lt;a href=
+&quot;https://theplant.lighthouseapp.com/projects/18933/tickets/4381-please-implement-versions-3-4-of-store-locator-button&quot;&gt;
+https://theplant.lighthouseapp.com/projects/18933/tickets/4381-plea...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">158028</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Please see ticket: https://theplant.lighthouseapp.com/projects/18933/tickets/4381-please-implement-versions-3-4-of-store-locator-button</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Please see ticket: &lt;a href=
+&quot;https://theplant.lighthouseapp.com/projects/18933/tickets/4381-please-implement-versions-3-4-of-store-locator-button&quot;&gt;
+https://theplant.lighthouseapp.com/projects/18933/tickets/4381-plea...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T12:37:36+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">613</number>
+      <permalink>add-the-new-store-locator-button-to-all-product-page</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;new store locator button&quot;</tag>
+      <title>Add the new Store Locator Button to all product page</title>
+      <updated-at type="datetime">2011-08-29T12:37:56+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>lancee LY</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/613</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T13:41:42+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 158028
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">613</number>
+      <permalink>add-the-new-store-locator-button-to-all-product-page</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag>&quot;new store locator button&quot;</tag>
+      <title>Add the new Store Locator Button to all product page</title>
+      <updated-at type="datetime">2011-08-29T13:42:06+09:00</updated-at>
+      <user-id type="integer">158028</user-id>
+      <version type="integer">2</version>
+      <user-name>lancee LY</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/613</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">5</attachments-count>
+      <body>Other detail: https://theplant.lighthouseapp.com/projects/18933-asics/tickets/4391-please-provide-design-for-store-locator-button-on-ayamihockey-other-specialist-pages</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Other detail: &lt;a href=
+&quot;https://theplant.lighthouseapp.com/projects/18933-asics/tickets/4391-please-provide-design-for-store-locator-button-on-ayamihockey-other-specialist-pages&quot;&gt;
+https://theplant.lighthouseapp.com/projects/18933-asics/tickets/439...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T16:59:42+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">613</number>
+      <permalink>add-the-new-store-locator-button-to-all-product-page</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag>&quot;new store locator button&quot;</tag>
+      <title>Add the new Store Locator Button to all product page</title>
+      <updated-at type="datetime">2011-08-29T17:00:00+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">3</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/613</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">5</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-30T13:00:29+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">613</number>
+      <permalink>add-the-new-store-locator-button-to-all-product-page</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag>&quot;new store locator button&quot;</tag>
+      <title>Add the new Store Locator Button to all product page</title>
+      <updated-at type="datetime">2011-08-30T13:00:51+09:00</updated-at>
+      <user-id type="integer">158028</user-id>
+      <version type="integer">4</version>
+      <user-name>lancee LY</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/613</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T15:56:47+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">613</number>
+      <permalink>add-the-new-store-locator-button-to-all-product-page</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;new store locator button&quot;</tag>
+      <title>Add the new Store Locator Button to all product page</title>
+      <updated-at type="datetime">2011-09-09T15:57:09+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">5</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/613</url>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>b892c9d35b3964b023db7e267ea36ea22f0b0593</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-29T12:37:36+09:00</created-at>
+      <filename>2011-08-29_1129.png</filename>
+      <height type="integer">965</height>
+      <id type="integer">1321260</id>
+      <size type="integer">662070</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1809</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1321260/2011-08-29_1129.png</url>
+    </attachment-image>
+    <attachment type="Attachment">
+      <code>370775d1138a0de450fef90cca440ada9b7d3297</code>
+      <content-type>application/zip</content-type>
+      <created-at type="datetime">2011-08-29T13:41:42+09:00</created-at>
+      <filename>new_designhtml.zip</filename>
+      <height type="integer" nil="true"></height>
+      <id type="integer">1321334</id>
+      <size type="integer">1282</size>
+      <uploader-id type="integer">158028</uploader-id>
+      <width type="integer" nil="true"></width>
+      <url>http://theplant.lighthouseapp.com/attachments/1321334/new_designhtml.zip</url>
+    </attachment>
+    <attachment type="Attachment">
+      <code>7a7280f3cc09f85de37c2c91bc38c6cb3ae93329</code>
+      <content-type>application/zip</content-type>
+      <created-at type="datetime">2011-08-30T13:00:29+09:00</created-at>
+      <filename>newbuttonhtml.zip</filename>
+      <height type="integer" nil="true"></height>
+      <id type="integer">1325940</id>
+      <size type="integer">211666</size>
+      <uploader-id type="integer">158028</uploader-id>
+      <width type="integer" nil="true"></width>
+      <url>http://theplant.lighthouseapp.com/attachments/1325940/newbuttonhtml.zip</url>
+    </attachment>
+  </attachments>
+</ticket>

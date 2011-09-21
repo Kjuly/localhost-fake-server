@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-02-25T19:34:07+09:00</created-at>
+  <creator-id type="integer">24538</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">244</number>
+  <permalink>rewrite-permission-control-code-using-rails3-massassignmentsecurity</permalink>
+  <priority type="integer">13</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag>dolilo permission role</tag>
+  <title>rewrite permission control code using rails3 MassAssignmentSecurity</title>
+  <updated-at type="datetime">2011-02-25T19:34:45+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">1</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Jan Xie</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/244</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name nil="true"></priority-name>
+  <original-body>Since now we can dynamic change attr_protected attributes.
+
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html</original-body>
+  <latest-body>Since now we can dynamic change attr_protected attributes.
+
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Since now we can dynamic change attr_protected attributes.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html&quot;&gt;
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmen...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Since now we can dynamic change attr_protected attributes.
+
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Since now we can dynamic change attr_protected attributes.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmentSecurity/ClassMethods.html&quot;&gt;
+http://doc.theplant-dev.com/rails/classes/ActiveModel/MassAssignmen...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-25T19:34:07+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">244</number>
+      <permalink>rewrite-permission-control-code-using-rails3-massassignmentsecurity</permalink>
+      <priority type="integer">13</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag>dolilo permission role</tag>
+      <title>rewrite permission control code using rails3 MassAssignmentSecurity</title>
+      <updated-at type="datetime">2011-02-25T19:34:43+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">1</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/244</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

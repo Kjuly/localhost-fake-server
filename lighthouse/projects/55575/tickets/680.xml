@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-02T22:30:19+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">680</number>
+  <permalink>footer-widget-need-to-eliminate-country-loading</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Footer widget need to eliminate country loading</title>
+  <updated-at type="datetime">2011-09-19T11:52:28+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">3</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/680</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Medium</priority-name>
+  <original-body>@@@
+
+
+
+Started GET &quot;/qor/widget/settings/13/LS0tIHt9Cgo=@/1310374330/&quot; for 175.41.242.254 at 2011-09-02 12:36:08 +0000
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&gt;&quot;13&quot;, &quot;options_base64&quot;=&gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&gt;&quot;1310374330&quot;}
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.2ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) L
+IMIT 1
+  Language Load (1.1ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (1.3ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &gt; 0) O
+RDER BY position ASC
+  FooterItem Load (0.8ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR
+ `links`.`children_count` IS NULL) ORDER BY position ASC
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.choose_your_coun
+try') OR `key` LIKE 'footer.choose_your_country.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.cancel') OR `key
+` LIKE 'footer.cancel.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_corporatio
+n') OR `key` LIKE 'footer.asics_corporation.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_explaination') OR `key` LIKE 'footer.asics_explaination.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_trademark') OR `key` LIKE 'footer.asics_trademark.%')
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 29 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 6 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 28 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 27 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 9 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 30 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 14 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 16 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Link Load (1.1ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2571 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2572 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2573 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2574 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (206.3ms)
+Completed 200 OK in 209ms (Views: 185.5ms | ActiveRecord: 21.9ms)
+
+
+@@@</original-body>
+  <latest-body>@@@
+
+
+
+Started GET &quot;/qor/widget/settings/13/LS0tIHt9Cgo=@/1310374330/&quot; for 175.41.242.254 at 2011-09-02 12:36:08 +0000
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&gt;&quot;13&quot;, &quot;options_base64&quot;=&gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&gt;&quot;1310374330&quot;}
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.2ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) L
+IMIT 1
+  Language Load (1.1ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (1.3ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &gt; 0) O
+RDER BY position ASC
+  FooterItem Load (0.8ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR
+ `links`.`children_count` IS NULL) ORDER BY position ASC
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.choose_your_coun
+try') OR `key` LIKE 'footer.choose_your_country.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.cancel') OR `key
+` LIKE 'footer.cancel.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_corporatio
+n') OR `key` LIKE 'footer.asics_corporation.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_explaination') OR `key` LIKE 'footer.asics_explaination.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_trademark') OR `key` LIKE 'footer.asics_trademark.%')
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 29 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 6 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 28 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 27 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 9 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 30 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 14 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 16 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Link Load (1.1ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2571 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2572 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2573 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2574 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (206.3ms)
+Completed 200 OK in 209ms (Views: 185.5ms | ActiveRecord: 21.9ms)
+
+
+@@@</latest-body>
+  <original-body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;
+
+
+Started GET &quot;/qor/widget/settings/13/LS0tIHt9Cgo=@/1310374330/&quot; for 175.41.242.254 at 2011-09-02 12:36:08 +0000
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&amp;gt;&quot;13&quot;, &quot;options_base64&quot;=&amp;gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&amp;gt;&quot;1310374330&quot;}
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.2ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) L
+IMIT 1
+  Language Load (1.1ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (1.3ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &amp;gt; 0) O
+RDER BY position ASC
+  FooterItem Load (0.8ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR
+ `links`.`children_count` IS NULL) ORDER BY position ASC
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.choose_your_coun
+try') OR `key` LIKE 'footer.choose_your_country.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.cancel') OR `key
+` LIKE 'footer.cancel.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_corporatio
+n') OR `key` LIKE 'footer.asics_corporation.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_explaination') OR `key` LIKE 'footer.asics_explaination.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_trademark') OR `key` LIKE 'footer.asics_trademark.%')
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 29 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 6 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 28 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 27 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 9 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 30 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 14 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 16 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Link Load (1.1ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2571 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2572 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2573 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2574 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (206.3ms)
+Completed 200 OK in 209ms (Views: 185.5ms | ActiveRecord: 21.9ms)&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>@@@
+
+
+
+Started GET &quot;/qor/widget/settings/13/LS0tIHt9Cgo=@/1310374330/&quot; for 175.41.242.254 at 2011-09-02 12:36:08 +0000
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&gt;&quot;13&quot;, &quot;options_base64&quot;=&gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&gt;&quot;1310374330&quot;}
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.2ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) L
+IMIT 1
+  Language Load (1.1ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (1.3ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &gt; 0) O
+RDER BY position ASC
+  FooterItem Load (0.8ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR
+ `links`.`children_count` IS NULL) ORDER BY position ASC
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.choose_your_coun
+try') OR `key` LIKE 'footer.choose_your_country.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.cancel') OR `key
+` LIKE 'footer.cancel.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_corporatio
+n') OR `key` LIKE 'footer.asics_corporation.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_explaination') OR `key` LIKE 'footer.asics_explaination.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_trademark') OR `key` LIKE 'footer.asics_trademark.%')
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 29 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 6 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 28 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 27 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 9 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 30 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 14 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 16 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Link Load (1.1ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2571 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2572 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2573 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2574 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (206.3ms)
+Completed 200 OK in 209ms (Views: 185.5ms | ActiveRecord: 21.9ms)
+
+
+@@@</body>
+      <body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;
+
+
+Started GET &quot;/qor/widget/settings/13/LS0tIHt9Cgo=@/1310374330/&quot; for 175.41.242.254 at 2011-09-02 12:36:08 +0000
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&amp;gt;&quot;13&quot;, &quot;options_base64&quot;=&amp;gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&amp;gt;&quot;1310374330&quot;}
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.2ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) L
+IMIT 1
+  Language Load (1.1ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (1.3ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &amp;gt; 0) O
+RDER BY position ASC
+  FooterItem Load (0.8ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR
+ `links`.`children_count` IS NULL) ORDER BY position ASC
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.choose_your_coun
+try') OR `key` LIKE 'footer.choose_your_country.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.cancel') OR `key
+` LIKE 'footer.cancel.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.5ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_corporatio
+n') OR `key` LIKE 'footer.asics_corporation.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_explaination') OR `key` LIKE 'footer.asics_explaination.%')
+  I18n::Backend::ActiveRecord::Translation Load (0.4ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('footer.asics_trademark') OR `key` LIKE 'footer.asics_trademark.%')
+  Country Load (0.4ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 29 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 6 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 28 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 27 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 9 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 30 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 14 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 16 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.2ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Link Load (1.1ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2571 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2572 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2573 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2574 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (206.3ms)
+Completed 200 OK in 209ms (Views: 185.5ms | ActiveRecord: 21.9ms)&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-02T22:30:19+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">680</number>
+      <permalink>footer-widget-need-to-eliminate-country-loading</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Footer widget need to eliminate country loading</title>
+      <updated-at type="datetime">2011-09-02T22:30:26+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/680</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-05T12:49:52+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">680</number>
+      <permalink>footer-widget-need-to-eliminate-country-loading</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Footer widget need to eliminate country loading</title>
+      <updated-at type="datetime">2011-09-05T12:49:59+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/680</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-19T11:52:19+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 2504
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">680</number>
+      <permalink>footer-widget-need-to-eliminate-country-loading</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Footer widget need to eliminate country loading</title>
+      <updated-at type="datetime">2011-09-19T11:52:28+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/680</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+</ticket>

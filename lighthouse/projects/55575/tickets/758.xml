@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-08T16:17:01+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">758</number>
+  <permalink>trail-top-page-video-style-issue</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Trail top page video style issue</title>
+  <updated-at type="datetime">2011-09-13T14:29:35+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">5</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/758</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>http://www.asics-local.fr:3000/outdoor
+
+* Video exceed the box
+* Missing image, should displayed with &quot;NO IMAGE&quot;?</original-body>
+  <latest-body>http://www.asics-local.fr:3000/outdoor
+
+* Video exceed the box
+* Missing image, should displayed with &quot;NO IMAGE&quot;?</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.asics-local.fr:3000/outdoor&quot;&gt;http://www.asics-local.fr:3000/outdoor&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Video exceed the box&lt;/li&gt;
+&lt;li&gt;Missing image, should displayed with &quot;NO IMAGE&quot;?&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.asics-local.fr:3000/outdoor
+
+* Video exceed the box
+* Missing image, should displayed with &quot;NO IMAGE&quot;?</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.asics-local.fr:3000/outdoor&quot;&gt;http://www.asics-local.fr:3000/outdoor&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Video exceed the box&lt;/li&gt;
+&lt;li&gt;Missing image, should displayed with &quot;NO IMAGE&quot;?&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T16:17:01+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">758</number>
+      <permalink>trail-top-page-video-style-issue</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Trail top page video style issue</title>
+      <updated-at type="datetime">2011-09-08T16:17:12+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/758</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T16:50:28+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">758</number>
+      <permalink>trail-top-page-video-style-issue</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>Trail top page video style issue</title>
+      <updated-at type="datetime">2011-09-08T16:50:39+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/758</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T13:13:45+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">758</number>
+      <permalink>trail-top-page-video-style-issue</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Trail top page video style issue</title>
+      <updated-at type="datetime">2011-09-09T13:13:54+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/758</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T18:48:31+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">758</number>
+      <permalink>trail-top-page-video-style-issue</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Trail top page video style issue</title>
+      <updated-at type="datetime">2011-09-09T18:48:40+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">4</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/758</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-13T14:29:26+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">758</number>
+      <permalink>trail-top-page-video-style-issue</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Trail top page video style issue</title>
+      <updated-at type="datetime">2011-09-13T14:29:35+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">5</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/758</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>f39d18c40b96c4e83aa2d4a99ad4e164d6b1b2d6</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-08T16:17:02+09:00</created-at>
+      <filename>screen-shot-2011-09-08-at-316.png</filename>
+      <height type="integer">568</height>
+      <id type="integer">1363082</id>
+      <size type="integer">123396</size>
+      <uploader-id type="integer">79899</uploader-id>
+      <width type="integer">505</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1363082/screen-shot-2011-09-08-at-316.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

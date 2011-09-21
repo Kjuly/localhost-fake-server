@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-02-10T13:00:31+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">238</number>
+  <permalink>autocomplete-control-for-qor-form</permalink>
+  <priority type="integer">12</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Autocomplete control for Qor Form</title>
+  <updated-at type="datetime">2011-02-14T19:17:27+09:00</updated-at>
+  <user-id type="integer">2504</user-id>
+  <version type="integer">1</version>
+  <user-name>Felix Sun</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/238</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name nil="true"></priority-name>
+  <original-body>I imagine we could use it like this, And it is required for Lacoste Customer Service admin:
+
+@@@
+meta :type =&gt; :autocomplete, :collection =&gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&gt; &quot;%hello%&quot;)
+}, :item_label_method =&gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number
+
+
+@@@
+
+Need a app/controllers/autocompelete_controller.rb to execute the lambda everytime the user type in text field, and return json to show as dropdown list for the text field.</original-body>
+  <latest-body>I imagine we could use it like this, And it is required for Lacoste Customer Service admin:
+
+@@@
+meta :type =&gt; :autocomplete, :collection =&gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&gt; &quot;%hello%&quot;)
+}, :item_label_method =&gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number
+
+
+@@@
+
+Need a app/controllers/autocompelete_controller.rb to execute the lambda everytime the user type in text field, and return json to show as dropdown list for the text field.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;I imagine we could use it like this, And it is required for
+Lacoste Customer Service admin:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;meta :type =&amp;gt; :autocomplete, :collection =&amp;gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&amp;gt; &quot;%hello%&quot;)
+}, :item_label_method =&amp;gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Need a app/controllers/autocompelete_controller.rb to execute
+the lambda everytime the user type in text field, and return json
+to show as dropdown list for the text field.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>I imagine we could use it like this, And it is required for Lacoste Customer Service admin:
+
+@@@
+meta :type =&gt; :autocomplete, :collection =&gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&gt; &quot;%hello%&quot;)
+}, :item_label_method =&gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number
+
+
+@@@
+
+Need a app/controllers/autocompelete_controller.rb to execute the lambda everytime the user type in text field, and return json to show as dropdown list for the text field.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;I imagine we could use it like this, And it is required for
+Lacoste Customer Service admin:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;meta :type =&amp;gt; :autocomplete, :collection =&amp;gt; lambda{|owner, keyword, app| 
+  Order.includes(:user)
+       .where(&quot;users.family_name LIKE :keyword OR users.given_name LIKE :keyword&quot;, :keyword =&amp;gt; &quot;%hello%&quot;)
+}, :item_label_method =&amp;gt; :order_id_with_first_product_name_with_user_name_and_user_phone_number&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Need a app/controllers/autocompelete_controller.rb to execute
+the lambda everytime the user type in text field, and return json
+to show as dropdown list for the text field.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-10T13:00:31+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">238</number>
+      <permalink>autocomplete-control-for-qor-form</permalink>
+      <priority type="integer">12</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Autocomplete control for Qor Form</title>
+      <updated-at type="datetime">2011-02-14T19:17:25+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/238</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

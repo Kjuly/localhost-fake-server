@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">94027</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-29T12:34:28+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">611</number>
+  <permalink>newletter-subscription-data-input</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Newletter subscription data input</title>
+  <updated-at type="datetime">2011-08-29T12:50:19+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>bin</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/611</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>Newsletter subscription 
+
+Mail chimp
+http://www.asics.co.uk/sportstyle/
+http://www.asics.co.uk/running/
+
+System mail
+http://www.asics.co.uk/running_clinics/search/?zip=12&amp;submit=
+http://www.asics.nl/running/tech_tours/
+http://www.asics.fr/running/foot_id/search/?zip=12&amp;submit=
+
+Other please search
+search app/models/user.rb for 'mailchimp'</original-body>
+  <latest-body>Newsletter subscription 
+
+Mail chimp
+http://www.asics.co.uk/sportstyle/
+http://www.asics.co.uk/running/
+
+System mail
+http://www.asics.co.uk/running_clinics/search/?zip=12&amp;submit=
+http://www.asics.nl/running/tech_tours/
+http://www.asics.fr/running/foot_id/search/?zip=12&amp;submit=
+
+Other please search
+search app/models/user.rb for 'mailchimp'</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Newsletter subscription&lt;/p&gt;
+&lt;p&gt;Mail chimp&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.co.uk/sportstyle/&quot;&gt;http://www.asics.co.uk/sportstyle/&lt;/a&gt;&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.co.uk/running/&quot;&gt;http://www.asics.co.uk/running/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;System mail&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.co.uk/running_clinics/search/?zip=12&amp;amp;submit&quot;&gt;http://www.asics.co.uk/running_clinics/search/?zip=12&amp;amp;amp;submit&lt;/a&gt;=&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.nl/running/tech_tours/&quot;&gt;http://www.asics.nl/running/tech_tours/&lt;/a&gt;&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.fr/running/foot_id/search/?zip=12&amp;amp;submit&quot;&gt;http://www.asics.fr/running/foot_id/search/?zip=12&amp;amp;amp;submit&lt;/a&gt;=&lt;/p&gt;
+&lt;p&gt;Other please search&lt;br&gt;
+search app/models/user.rb for 'mailchimp'&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Newsletter subscription 
+
+Mail chimp
+http://www.asics.co.uk/sportstyle/
+http://www.asics.co.uk/running/
+
+System mail
+http://www.asics.co.uk/running_clinics/search/?zip=12&amp;submit=
+http://www.asics.nl/running/tech_tours/
+http://www.asics.fr/running/foot_id/search/?zip=12&amp;submit=
+
+Other please search
+search app/models/user.rb for 'mailchimp'</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Newsletter subscription&lt;/p&gt;
+&lt;p&gt;Mail chimp&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.co.uk/sportstyle/&quot;&gt;http://www.asics.co.uk/sportstyle/&lt;/a&gt;&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.co.uk/running/&quot;&gt;http://www.asics.co.uk/running/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;System mail&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.co.uk/running_clinics/search/?zip=12&amp;amp;submit&quot;&gt;http://www.asics.co.uk/running_clinics/search/?zip=12&amp;amp;amp;submit&lt;/a&gt;=&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.nl/running/tech_tours/&quot;&gt;http://www.asics.nl/running/tech_tours/&lt;/a&gt;&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.fr/running/foot_id/search/?zip=12&amp;amp;submit&quot;&gt;http://www.asics.fr/running/foot_id/search/?zip=12&amp;amp;amp;submit&lt;/a&gt;=&lt;/p&gt;
+&lt;p&gt;Other please search&lt;br&gt;
+search app/models/user.rb for 'mailchimp'&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T12:34:28+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">611</number>
+      <permalink>newletter-subscription-data-input</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Newletter subscription data input</title>
+      <updated-at type="datetime">2011-08-29T12:34:40+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/611</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Please add mail translation for system mails too</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Please add mail translation for system mails too&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T12:50:08+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">611</number>
+      <permalink>newletter-subscription-data-input</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Newletter subscription data input</title>
+      <updated-at type="datetime">2011-08-29T12:50:19+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/611</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

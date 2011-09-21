@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer" nil="true"></assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-13T11:53:18+09:00</created-at>
+  <creator-id type="integer">44985</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">115207</milestone-id>
+  <number type="integer">799</number>
+  <permalink>event-show-page-search-video-missing</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Event show page search video missing</title>
+  <updated-at type="datetime">2011-09-13T12:00:35+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Jun</creator-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/799</url>
+  <milestone-title>Post Launch</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>http://www.fr.dev3.asics.eu/course/%C3%A9v%C3%A9nement/trail-des-terrils/</original-body>
+  <latest-body>http://www.fr.dev3.asics.eu/course/%C3%A9v%C3%A9nement/trail-des-terrils/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.fr.dev3.asics.eu/course/%C3%A9v%C3%A9nement/trail-des-terrils/&quot;&gt;
+http://www.fr.dev3.asics.eu/course/%C3%A9v%C3%A9nement/trail-des-te...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.fr.dev3.asics.eu/course/%C3%A9v%C3%A9nement/trail-des-terrils/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.fr.dev3.asics.eu/course/%C3%A9v%C3%A9nement/trail-des-terrils/&quot;&gt;
+http://www.fr.dev3.asics.eu/course/%C3%A9v%C3%A9nement/trail-des-te...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T11:53:18+09:00</created-at>
+      <creator-id type="integer">44985</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">799</number>
+      <permalink>event-show-page-search-video-missing</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Event show page search video missing</title>
+      <updated-at type="datetime">2011-09-13T11:53:30+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">1</version>
+      <user-name>Jun</user-name>
+      <creator-name>Jun</creator-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/799</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T12:00:23+09:00</created-at>
+      <creator-id type="integer">44985</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">115207</milestone-id>
+      <number type="integer">799</number>
+      <permalink>event-show-page-search-video-missing</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Event show page search video missing</title>
+      <updated-at type="datetime">2011-09-13T12:00:35+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Jun</creator-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/799</url>
+      <milestone-title>Post Launch</milestone-title>
+      <priority-name>Low</priority-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>e70eb01889fef0a259647498a2c3bfbfff66d07f</code>
+      <content-type>image/jpeg</content-type>
+      <created-at type="datetime">2011-09-13T11:53:18+09:00</created-at>
+      <filename>trail-des-terrils-running-a.jpg</filename>
+      <height type="integer">748</height>
+      <id type="integer">1378459</id>
+      <size type="integer">228598</size>
+      <uploader-id type="integer">44985</uploader-id>
+      <width type="integer">1320</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1378459/trail-des-terrils-running-a.jpg</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>c8158fbd336794f14e61be271777a4ce35818349</code>
+      <content-type>image/jpeg</content-type>
+      <created-at type="datetime">2011-09-13T11:53:18+09:00</created-at>
+      <filename>asics-admin.jpg</filename>
+      <height type="integer">748</height>
+      <id type="integer">1378460</id>
+      <size type="integer">160339</size>
+      <uploader-id type="integer">44985</uploader-id>
+      <width type="integer">1320</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1378460/asics-admin.jpg</url>
+    </attachment-image>
+  </attachments>
+</ticket>

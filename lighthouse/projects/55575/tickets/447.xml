@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-21T01:35:20+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">447</number>
+  <permalink>event-youtube-video-was-not-displayed</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Event: youtube video was not displayed</title>
+  <updated-at type="datetime">2011-09-06T13:16:55+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">3</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/447</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>http://fr.asics.ch/running/events/triathlon-de-lausanne/#photos_and_videos
+http://fr.ch.asics2-draft.theplant-dev.com/running/events/triathlon-de-lausanne
+     youtube video was not displayed</original-body>
+  <latest-body>http://fr.asics.ch/running/events/triathlon-de-lausanne/#photos_and_videos
+http://fr.ch.asics2-draft.theplant-dev.com/running/events/triathlon-de-lausanne
+     youtube video was not displayed</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://fr.asics.ch/running/events/triathlon-de-lausanne/#photos_and_videos&quot;&gt;
+http://fr.asics.ch/running/events/triathlon-de-lausanne/#photos_and...&lt;/a&gt;&lt;br&gt;
+&lt;a href=
+&quot;http://fr.ch.asics2-draft.theplant-dev.com/running/events/triathlon-de-lausanne&quot;&gt;
+http://fr.ch.asics2-draft.theplant-dev.com/running/events/triathlon...&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; youtube video was not displayed&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://fr.asics.ch/running/events/triathlon-de-lausanne/#photos_and_videos
+http://fr.ch.asics2-draft.theplant-dev.com/running/events/triathlon-de-lausanne
+     youtube video was not displayed</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://fr.asics.ch/running/events/triathlon-de-lausanne/#photos_and_videos&quot;&gt;
+http://fr.asics.ch/running/events/triathlon-de-lausanne/#photos_and...&lt;/a&gt;&lt;br&gt;
+&lt;a href=
+&quot;http://fr.ch.asics2-draft.theplant-dev.com/running/events/triathlon-de-lausanne&quot;&gt;
+http://fr.ch.asics2-draft.theplant-dev.com/running/events/triathlon...&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt; youtube video was not displayed&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T01:35:20+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">447</number>
+      <permalink>event-youtube-video-was-not-displayed</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Event: youtube video was not displayed</title>
+      <updated-at type="datetime">2011-08-21T01:35:28+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/447</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T16:23:56+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">447</number>
+      <permalink>event-youtube-video-was-not-displayed</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Event: youtube video was not displayed</title>
+      <updated-at type="datetime">2011-08-21T16:24:05+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/447</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-06T13:16:45+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">447</number>
+      <permalink>event-youtube-video-was-not-displayed</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Event: youtube video was not displayed</title>
+      <updated-at type="datetime">2011-09-06T13:16:55+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/447</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

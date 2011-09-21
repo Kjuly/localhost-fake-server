@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">18874</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-11T21:49:34+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">781</number>
+  <permalink>publish-select-all-ambiguities</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Publish &gt; Select all ambiguities</title>
+  <updated-at type="datetime">2011-09-14T00:58:11+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Juice</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/781</url>
+  <priority-name>Low</priority-name>
+  <original-body>This is my problem:
+
+I wanted to publish all stores, but not publish all resources. When I clicked on the Stores link in the Publish menu, I could Publish 100 stores at a time, but I wasn't sure if I clicked on &quot;Select all&quot; next to the Publish button if it would publish all resources (Tech Tour, Setting, and so on) or just all the Stores (what I wanted). I wasn't sure, so what I did is publish 100 stores at a time, 11 times.
+
+I think we need an easy way to Publish all the resources that you are looking at. I recommend:
+
+* Changing the text &quot;Select all&quot; =&gt; &quot;Select all {resource type}&quot; so... something like &quot;Select all Stores&quot;, and only publish the stores.
+
+One more small point on this... the pagination layout is a little strange. Please fix it too :-)</original-body>
+  <latest-body>This is my problem:
+
+I wanted to publish all stores, but not publish all resources. When I clicked on the Stores link in the Publish menu, I could Publish 100 stores at a time, but I wasn't sure if I clicked on &quot;Select all&quot; next to the Publish button if it would publish all resources (Tech Tour, Setting, and so on) or just all the Stores (what I wanted). I wasn't sure, so what I did is publish 100 stores at a time, 11 times.
+
+I think we need an easy way to Publish all the resources that you are looking at. I recommend:
+
+* Changing the text &quot;Select all&quot; =&gt; &quot;Select all {resource type}&quot; so... something like &quot;Select all Stores&quot;, and only publish the stores.
+
+One more small point on this... the pagination layout is a little strange. Please fix it too :-)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;This is my problem:&lt;/p&gt;
+&lt;p&gt;I wanted to publish all stores, but not publish all resources.
+When I clicked on the Stores link in the Publish menu, I could
+Publish 100 stores at a time, but I wasn't sure if I clicked on
+&quot;Select all&quot; next to the Publish button if it would publish all
+resources (Tech Tour, Setting, and so on) or just all the Stores
+(what I wanted). I wasn't sure, so what I did is publish 100 stores
+at a time, 11 times.&lt;/p&gt;
+&lt;p&gt;I think we need an easy way to Publish all the resources that
+you are looking at. I recommend:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changing the text &quot;Select all&quot; =&amp;gt; &quot;Select all {resource
+type}&quot; so... something like &quot;Select all Stores&quot;, and only publish
+the stores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One more small point on this... the pagination layout is a
+little strange. Please fix it too :-)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">18874</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>This is my problem:
+
+I wanted to publish all stores, but not publish all resources. When I clicked on the Stores link in the Publish menu, I could Publish 100 stores at a time, but I wasn't sure if I clicked on &quot;Select all&quot; next to the Publish button if it would publish all resources (Tech Tour, Setting, and so on) or just all the Stores (what I wanted). I wasn't sure, so what I did is publish 100 stores at a time, 11 times.
+
+I think we need an easy way to Publish all the resources that you are looking at. I recommend:
+
+* Changing the text &quot;Select all&quot; =&gt; &quot;Select all {resource type}&quot; so... something like &quot;Select all Stores&quot;, and only publish the stores.
+
+One more small point on this... the pagination layout is a little strange. Please fix it too :-)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;This is my problem:&lt;/p&gt;
+&lt;p&gt;I wanted to publish all stores, but not publish all resources.
+When I clicked on the Stores link in the Publish menu, I could
+Publish 100 stores at a time, but I wasn't sure if I clicked on
+&quot;Select all&quot; next to the Publish button if it would publish all
+resources (Tech Tour, Setting, and so on) or just all the Stores
+(what I wanted). I wasn't sure, so what I did is publish 100 stores
+at a time, 11 times.&lt;/p&gt;
+&lt;p&gt;I think we need an easy way to Publish all the resources that
+you are looking at. I recommend:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changing the text &quot;Select all&quot; =&amp;gt; &quot;Select all {resource
+type}&quot; so... something like &quot;Select all Stores&quot;, and only publish
+the stores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One more small point on this... the pagination layout is a
+little strange. Please fix it too :-)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-11T21:49:34+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">781</number>
+      <permalink>publish-select-all-ambiguities</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Publish &gt; Select all ambiguities</title>
+      <updated-at type="datetime">2011-09-11T21:49:47+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Juice</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/781</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>&gt; but I wasn't sure if I clicked on &quot;Select all&quot; next to the Publish button if it would publish all resources (Tech Tour, Setting, and so on) or just all the Stores (what I wanted). I wasn't sure, so what I did is publish 100 stores at a time, 11 times.
+
+It would publish all resources, FYI you could click the next page to select the next 100 stores, and do it 11 times to publish all stores, I know it is also a bad idea ;) .... 
+
+Maybe provide an checkbox beside the Store link in the Publish menu, I think it would make publish serveal models easier? ...</body>
+      <body-html>&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;but I wasn't sure if I clicked on &quot;Select all&quot; next to the
+Publish button if it would publish all resources (Tech Tour,
+Setting, and so on) or just all the Stores (what I wanted). I
+wasn't sure, so what I did is publish 100 stores at a time, 11
+times.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It would publish all resources, FYI you could click the next
+page to select the next 100 stores, and do it 11 times to publish
+all stores, I know it is also a bad idea ;) ....&lt;/p&gt;
+&lt;p&gt;Maybe provide an checkbox beside the Store link in the Publish
+menu, I think it would make publish serveal models easier? ...&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T00:15:09+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 18874
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">781</number>
+      <permalink>publish-select-all-ambiguities</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Publish &gt; Select all ambiguities</title>
+      <updated-at type="datetime">2011-09-13T00:15:47+09:00</updated-at>
+      <user-id type="integer">18874</user-id>
+      <version type="integer">2</version>
+      <user-name>Juice</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/781</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">18874</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Yes, either my option above for changing the use of the Select All depending on the Publish context:
+
+* Changing the text &quot;Select all&quot; =&gt; &quot;Select all {resource type}&quot; so... something like &quot;Select all Stores&quot;, and only publish the stores.
+
+Or your option... whichever you think has the best usability.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Yes, either my option above for changing the use of the Select
+All depending on the Publish context:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changing the text &quot;Select all&quot; =&amp;gt; &quot;Select all {resource
+type}&quot; so... something like &quot;Select all Stores&quot;, and only publish
+the stores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or your option... whichever you think has the best
+usability.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-14T00:57:57+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 2503
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">781</number>
+      <permalink>publish-select-all-ambiguities</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Publish &gt; Select all ambiguities</title>
+      <updated-at type="datetime">2011-09-14T00:58:11+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Juice</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/781</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>e36a7cac6c5706f3a88dd6ed7a69a1dba916bc05</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-11T21:49:34+09:00</created-at>
+      <filename>select_all_publish.png</filename>
+      <height type="integer">696</height>
+      <id type="integer">1373576</id>
+      <size type="integer">317727</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1200</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1373576/select_all_publish.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

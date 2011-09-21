@@ -1,0 +1,128 @@
+{
+  "commit": {
+    "message": "Merge branch 'master' of github.com:theplant/GBox",
+    "tree": {
+      "sha": "46445cd9d4e078355a13f3914209a782371930e8",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/46445cd9d4e078355a13f3914209a782371930e8"
+    },
+    "author": {
+      "date": "2011-08-24T09:29:15-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "committer": {
+      "date": "2011-08-24T09:29:15-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/866b3880cb6534c0b7318301580e51c697e5d6ff"
+  },
+  "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "frankyue",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+      "additions": 13,
+      "blob_url": "https://github.com/theplant/GBox/blob/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBDownloadOperation.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBDownloadOperation.m",
+      "filename": "GBox/GBDownloadOperation.m",
+      "patch": "--- a/GBox/GBDownloadOperation.m\n+++ b/GBox/GBDownloadOperation.m\n@@ -147,7 +147,8 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n \n     if (exportURL == nil) {\n         NSLog(@\"Entry content sourceURL is nil: %@.\", [entry content]);\n-        return;\n+        [self requestFailed:nil];\n+\n     }\n \n     // we'll use GDataQuery as a convenient way to append the exportFormat\n@@ -205,7 +206,17 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n \n - (void)requestFailed:(ASIHTTPRequest *)request\n {\n-    [[NSNotificationCenter defaultCenter] postNotificationName:kGBDownloadFailed  object:taskID];\n+    if(request==nil){\n+        [[NSNotificationCenter defaultCenter] postNotificationName:kGBDownloadFailed  \n+                                                            object:taskID\n+                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:NO,@\"retryNeeded\", nil]];\n+\n+    }else{\n+        [[NSNotificationCenter defaultCenter] postNotificationName:kGBDownloadFailed  \n+                                                            object:taskID\n+                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:YES,@\"retryNeeded\", nil]];\n+\n+    }\n     NSLog(@\"Faild of request\");\n     NSLog(@\"request = %@\",[request error]);\n     [self willChangeValueForKey:@\"isFinished\"];",
+      "deletions": 2,
+      "changes": 15
+    },
+    {
+      "status": "modified",
+      "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBSyncController.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBSyncController.m",
+      "filename": "GBox/GBSyncController.m",
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -88,7 +88,7 @@\n                                                                       userInfo:nil\n                                                                        repeats:YES];\n         [repeatingTimers addObject:timerForFetchChange];\n-        NSTimer *timerForHandleTasks = [NSTimer scheduledTimerWithTimeInterval:31.985\n+        NSTimer *timerForHandleTasks = [NSTimer scheduledTimerWithTimeInterval:3.985\n                                                                         target:self\n                                                                       selector:@selector(handleTasks:)\n                                                                       userInfo:nil",
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "status": "modified",
+      "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+      "additions": 19,
+      "blob_url": "https://github.com/theplant/GBox/blob/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBTaskHandler.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBTaskHandler.m",
+      "filename": "GBox/GBTaskHandler.m",
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -67,6 +67,10 @@\n                selector:@selector(downloadFailed:) \n                    name:kGBDownloadFailed\n                  object:nil];\n+        [nc addObserver:self\n+               selector:@selector(uploadFailed:) \n+                   name:kGBUploadFailed\n+                 object:nil];\n         [opqueue setMaxConcurrentOperationCount:10];\n         //Manage the Concurrent Operation Number limit\n     }\n@@ -498,6 +502,21 @@\n     [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n }\n \n+-(void)uploadFailed:(NSNotification*)aNotification{\n+    numInQueue--;\n+    NSLog(@\"upload failed\");\n+    NSManagedObjectID* taskID = [aNotification object];   \n+    NSDictionary* userInfo = [aNotification userInfo];\n+    BOOL retryNeeded = [userInfo valueForKey:@\"retryNeeded\"];\n+    if(retryNeeded){\n+        [currentExecutingTasks removeObject:taskID];\n+        [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n+    }else{\n+        [currentExecutingTasks removeObject:taskID];\n+        [dataFacility setState:kGBStateCancel ofTaskID:taskID];\n+    }\n+}\n+\n -(void)downloadFinished:(NSNotification*)aNotification{\n     numInQueue--;\n     ",
+      "deletions": 0,
+      "changes": 19
+    },
+    {
+      "status": "modified",
+      "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+      "additions": 17,
+      "blob_url": "https://github.com/theplant/GBox/blob/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBUploadOperation.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBUploadOperation.m",
+      "filename": "GBox/GBUploadOperation.m",
+      "patch": "--- a/GBox/GBUploadOperation.m\n+++ b/GBox/GBUploadOperation.m\n@@ -249,8 +249,16 @@\n     if (errorMsg) {\n         // we're currently in the middle of the file selection sheet, so defer our\n         // error sheet\n-        [GBUtility displayAlert:@\"Upload Error\"\n-                         format:@\"%@\", errorMsg];\n+        [self willChangeValueForKey:@\"isFinished\"];\n+        [self willChangeValueForKey:@\"isExecuting\"];\n+        finished = YES;\n+        executing = NO;\n+        [self didChangeValueForKey:@\"isExecuting\"];\n+        [self didChangeValueForKey:@\"isFinished\"];  \n+        done = YES;\n+        [[NSNotificationCenter defaultCenter] postNotificationName:kGBUploadFailed \n+                                                            object:taskID \n+                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:NO, @\"retryNeeded\",nil]];\n     }\n     \n     //[self updateUI];\n@@ -377,14 +385,16 @@\n         // tell the user that the add worked\n         [GBUtility displayAlert:@\"Uploaded file\"\n                          format:@\"File uploaded: %@\", [[entry title] stringValue]];\n+        [[NSNotificationCenter defaultCenter] postNotificationName:kGBUploadFinished \n+                                                            object:taskID \n+                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:[entry identifier], @\"kGBEntryIdentifier\",nil]];\n     } else {\n-        [GBUtility displayAlert:@\"Upload failed\"\n-                         format:@\"File upload failed: %@\", error];\n+        [[NSNotificationCenter defaultCenter] postNotificationName:kGBUploadFailed \n+                                                            object:taskID \n+                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:YES,@\"retryNeeded\",[entry identifier], @\"kGBEntryIdentifier\",nil]];\n     }\n     //[self updateUI];\n-    [[NSNotificationCenter defaultCenter] postNotificationName:kGBUploadFinished \n-                                                        object:taskID \n-                                                      userInfo:[NSDictionary dictionaryWithObjectsAndKeys:[entry identifier], @\"kGBEntryIdentifier\",nil]];\n+    \n \n     [self willChangeValueForKey:@\"isFinished\"];\n     [self willChangeValueForKey:@\"isExecuting\"];",
+      "deletions": 7,
+      "changes": 24
+    },
+    {
+      "status": "modified",
+      "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+      "additions": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBUtility.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBUtility.m",
+      "filename": "GBox/GBUtility.m",
+      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -85,6 +85,8 @@ static NSUInteger sharedBandWidth = 0;\n     return sharedBandWidth;\n }\n \n+\n+\n +(NSString*) rootPath{\n     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];\n     NSData *pathData;",
+      "deletions": 0,
+      "changes": 2
+    },
+    {
+      "status": "modified",
+      "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+      "additions": 14,
+      "blob_url": "https://github.com/theplant/GBox/blob/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBoxAppDelegate.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBoxAppDelegate.m",
+      "filename": "GBox/GBoxAppDelegate.m",
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -133,12 +133,10 @@\n     else{\n         NSLog(@\"exists\");\n     }\n-    \n     /*\n     [defaults setBool:NO forKey:kGBSetupFinished];\n     [defaults synchronize];\n-    */\n-     \n+     */\n     // check if this is the first run.\n     setupFinished = YES;\n     authController = [OAuthController authController]; \n@@ -418,7 +416,19 @@\n     fm = [NSFileManager defaultManager];\n     if ([fm fileExistsAtPath:rootPath]) {\n        newPath = [[rootPath stringByDeletingLastPathComponent] stringByAppendingPathComponent: @\"GBox_old\"];\n-       [fm moveItemAtPath:rootPath toPath:newPath error:nil]; \n+       //[fm moveItemAtPath:rootPath toPath:newPath error:nil]; \n+        NSError* error = nil;\n+        [fm createDirectoryAtPath:newPath\n+      withIntermediateDirectories:NO\n+                       attributes:nil\n+                            error:&error];\n+        \n+        [[NSWorkspace sharedWorkspace] performFileOperation:NSWorkspaceMoveOperation \n+                                                     source:[GBUtility rootPath]    \n+                                                destination:newPath \n+                                                      files:[fm contentsOfDirectoryAtPath:[GBUtility rootPath]error:&error]\n+                                                        tag:nil];\n+        \n        NSLog(@\"backup the old gbox folder to %@\", newPath);\n     }\n     [fm createDirectoryAtPath:rootPath withIntermediateDirectories:YES attributes:nil error:nil];   ",
+      "deletions": 4,
+      "changes": 18
+    },
+    {
+      "status": "modified",
+      "sha": "866b3880cb6534c0b7318301580e51c697e5d6ff",
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBoxConstants.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/866b3880cb6534c0b7318301580e51c697e5d6ff/GBox/GBoxConstants.m",
+      "filename": "GBox/GBoxConstants.m",
+      "patch": "--- a/GBox/GBoxConstants.m\n+++ b/GBox/GBoxConstants.m\n@@ -47,7 +47,7 @@ NSString* const kGBLargestChangestamp=@\"largestChangestamp\";\n \n NSString* const kGBNotFoundMarker = @\"notFoundMarker#9987dfewfvrtqd8765dfeef78341\";\n \n-NSString* const kGBSetupFinished = @\"kGBSetupFinished\";\n+NSString* const kGBSetupFinished = @\"kGBSetupFinishedTEST\";\n \n NSString * const kGB_DB_STORE_FILENAME = @\"gbdatamodel.xml\";\n ",
+      "deletions": 1,
+      "changes": 2
+    }
+  ],
+  "stats": {
+    "additions": 0,
+    "total": 0,
+    "deletions": 0
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "frankyue",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "parents": [
+    {
+      "sha": "c3d75a5786314789cfc257519f75cbcab5103a68",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/c3d75a5786314789cfc257519f75cbcab5103a68"
+    },
+    {
+      "sha": "b08d89951bc95a4d9fd426eb34e55ea1eb8c44d8",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/b08d89951bc95a4d9fd426eb34e55ea1eb8c44d8"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/866b3880cb6534c0b7318301580e51c697e5d6ff"
+}

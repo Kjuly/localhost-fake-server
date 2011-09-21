@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-29T06:51:34+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">600</number>
+  <permalink>london-store-hidden-widgets-should-be-hidden-completely</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>London Store &gt; Hidden widgets should be hidden completely</title>
+  <updated-at type="datetime">2011-09-09T21:23:30+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">4</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/600</url>
+  <priority-name>Low</priority-name>
+  <original-body>See attached.</original-body>
+  <latest-body>See attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T06:51:34+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">600</number>
+      <permalink>london-store-hidden-widgets-should-be-hidden-completely</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>London Store &gt; Hidden widgets should be hidden completely</title>
+      <updated-at type="datetime">2011-08-29T06:51:47+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/600</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-31T10:51:33+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">600</number>
+      <permalink>london-store-hidden-widgets-should-be-hidden-completely</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>London Store &gt; Hidden widgets should be hidden completely</title>
+      <updated-at type="datetime">2011-08-31T10:51:46+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">2</version>
+      <user-name>Jun</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/600</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T15:59:42+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">600</number>
+      <permalink>london-store-hidden-widgets-should-be-hidden-completely</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>London Store &gt; Hidden widgets should be hidden completely</title>
+      <updated-at type="datetime">2011-09-09T15:59:53+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">3</version>
+      <user-name>Jun</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/600</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-09T21:23:17+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">600</number>
+      <permalink>london-store-hidden-widgets-should-be-hidden-completely</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>London Store &gt; Hidden widgets should be hidden completely</title>
+      <updated-at type="datetime">2011-09-09T21:23:30+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">4</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/600</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>2d241044f67ba05c7e7034585b8fbc213eeafe69</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-29T06:51:35+09:00</created-at>
+      <filename>2011-08-29_0650.png</filename>
+      <height type="integer">696</height>
+      <id type="integer">1320930</id>
+      <size type="integer">305936</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1157</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1320930/2011-08-29_0650.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

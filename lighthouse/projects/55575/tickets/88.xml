@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-05-25T17:44:23+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">115204</milestone-id>
+  <number type="integer">88</number>
+  <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag>footer header</tag>
+  <title>It seems the head and the footer not the same as ASICS 1</title>
+  <updated-at type="datetime">2011-09-06T13:04:48+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">9</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+  <milestone-title>Next Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>Please have a look. Thank you!</original-body>
+  <latest-body>Please have a look. Thank you!</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Please have a look. Thank you!&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Please have a look. Thank you!</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Please have a look. Thank you!&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-05-25T17:44:23+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-05-25T17:44:41+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/54253)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/54253&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-06-21T18:55:43+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">111578</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-06-21T18:55:43+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Iteration 17</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-06-30T13:02:49+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:tag: 
+:assigned_user: 44985
+:milestone: 111578
+</diffable-attributes>
+      <milestone-id type="integer">115204</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>footer header</tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-06-30T13:03:10+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Next Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-12T00:44:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 
+</diffable-attributes>
+      <milestone-id type="integer">115204</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>footer header</tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-07-12T00:44:26+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">4</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Next Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-02T19:26:27+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer">115204</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>footer header</tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-08-02T19:26:44+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">5</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Next Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Head according to ASICS 2, but the footer must match with ASICS 1.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Head according to ASICS 2, but the footer must match with ASICS
+1.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-12T18:35:28+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">115204</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag>footer header</tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-08-12T18:35:45+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">6</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Next Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T01:01:39+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+</diffable-attributes>
+      <milestone-id type="integer">115204</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>footer header</tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-08-18T01:01:55+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">7</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Next Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T13:00:53+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer">115204</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>footer header</tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-08-18T13:01:09+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">8</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Next Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-06T13:04:32+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">115204</milestone-id>
+      <number type="integer">88</number>
+      <permalink>it-seems-the-head-and-the-footer-not-the-same-as-asics-1</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>footer header</tag>
+      <title>It seems the head and the footer not the same as ASICS 1</title>
+      <updated-at type="datetime">2011-09-06T13:04:48+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">9</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/88</url>
+      <milestone-title>Next Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>812d7ca725a2f03aaa78e5dfee1e9e3116bb712f</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-05-25T17:44:23+09:00</created-at>
+      <filename>head.png</filename>
+      <height type="integer">641</height>
+      <id type="integer">1080082</id>
+      <size type="integer">666152</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1908</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1080082/head.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>8909f1dffa4401139190a0da4320f99af3f2f005</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-05-25T17:44:23+09:00</created-at>
+      <filename>2011-05-25_1625.png</filename>
+      <height type="integer">977</height>
+      <id type="integer">1080083</id>
+      <size type="integer">856518</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1899</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1080083/2011-05-25_1625.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

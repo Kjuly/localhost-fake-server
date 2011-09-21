@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-02T22:40:08+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">684</number>
+  <permalink>some-widget-need-optimization</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Some widget need optimization </title>
+  <updated-at type="datetime">2011-09-02T22:40:16+09:00</updated-at>
+  <user-id type="integer">2504</user-id>
+  <version type="integer">1</version>
+  <user-name>Felix Sun</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/684</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Medium</priority-name>
+  <original-body>@@@
+Started GET &quot;/qor/widget/settings/4443/LS0tIHt9Cgo=@/1314849466/&quot; for 175.41.242.254 at 2011-09-02 12:40:20 +0000
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&gt;&quot;4443&quot;, &quot;options_base64&quot;=&gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&gt;&quot;1314849466&quot;}
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 4443 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting Load (0.3ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10095 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting::ProductsFootwear Load (7.1ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  WidgetSetting::ProductsFootwear Load (6.7ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position
+  I18n::Backend::ActiveRecord::Translation Load (0.8ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('product_kinds.index.footwear') OR `key` LIKE 'product_kinds.index.footwear.%')
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (388.4ms)
+Completed 200 OK in 394ms (Views: 372.7ms | ActiveRecord: 17.4ms)
+
+
+@@@</original-body>
+  <latest-body>@@@
+Started GET &quot;/qor/widget/settings/4443/LS0tIHt9Cgo=@/1314849466/&quot; for 175.41.242.254 at 2011-09-02 12:40:20 +0000
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&gt;&quot;4443&quot;, &quot;options_base64&quot;=&gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&gt;&quot;1314849466&quot;}
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 4443 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting Load (0.3ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10095 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting::ProductsFootwear Load (7.1ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  WidgetSetting::ProductsFootwear Load (6.7ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position
+  I18n::Backend::ActiveRecord::Translation Load (0.8ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('product_kinds.index.footwear') OR `key` LIKE 'product_kinds.index.footwear.%')
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (388.4ms)
+Completed 200 OK in 394ms (Views: 372.7ms | ActiveRecord: 17.4ms)
+
+
+@@@</latest-body>
+  <original-body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;Started GET &quot;/qor/widget/settings/4443/LS0tIHt9Cgo=@/1314849466/&quot; for 175.41.242.254 at 2011-09-02 12:40:20 +0000
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&amp;gt;&quot;4443&quot;, &quot;options_base64&quot;=&amp;gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&amp;gt;&quot;1314849466&quot;}
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 4443 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting Load (0.3ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10095 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting::ProductsFootwear Load (7.1ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  WidgetSetting::ProductsFootwear Load (6.7ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position
+  I18n::Backend::ActiveRecord::Translation Load (0.8ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('product_kinds.index.footwear') OR `key` LIKE 'product_kinds.index.footwear.%')
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (388.4ms)
+Completed 200 OK in 394ms (Views: 372.7ms | ActiveRecord: 17.4ms)&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>@@@
+Started GET &quot;/qor/widget/settings/4443/LS0tIHt9Cgo=@/1314849466/&quot; for 175.41.242.254 at 2011-09-02 12:40:20 +0000
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&gt;&quot;4443&quot;, &quot;options_base64&quot;=&gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&gt;&quot;1314849466&quot;}
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 4443 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting Load (0.3ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10095 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting::ProductsFootwear Load (7.1ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  WidgetSetting::ProductsFootwear Load (6.7ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position
+  I18n::Backend::ActiveRecord::Translation Load (0.8ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('product_kinds.index.footwear') OR `key` LIKE 'product_kinds.index.footwear.%')
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (388.4ms)
+Completed 200 OK in 394ms (Views: 372.7ms | ActiveRecord: 17.4ms)
+
+
+@@@</body>
+      <body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;Started GET &quot;/qor/widget/settings/4443/LS0tIHt9Cgo=@/1314849466/&quot; for 175.41.242.254 at 2011-09-02 12:40:20 +0000
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 7 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  Processing by Qor::Widget::SettingsController#show as HTML
+  Parameters: {&quot;id&quot;=&amp;gt;&quot;4443&quot;, &quot;options_base64&quot;=&amp;gt;&quot;LS0tIHt9Cgo=@&quot;, &quot;timestamp&quot;=&amp;gt;&quot;1314849466&quot;}
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`id` = 4443 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting Load (0.3ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10095 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  WidgetSetting::ProductsFootwear Load (7.1ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  WidgetSetting::ProductsFootwear Load (6.7ms)  SELECT `widget_settings`.* FROM `widget_settings` WHERE `widget_settings`.`type` IN ('WidgetSetting::ProductsFootwear') AND `widget_settings`.`setting_id` = 3975 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `widget_settings`.`deleted_at` IS NULL) ORDER BY position
+  I18n::Backend::ActiveRecord::Translation Load (0.8ms)  SELECT `translations`.* FROM `translations` WHERE `translations`.`locale` = 'de-de' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `translations`.`deleted_at` IS NULL) AND (`key` IN ('product_kinds.index.footwear') OR `key` LIKE 'product_kinds.index.footwear.%')
+Rendered /home/app/qor/widget/app/views/qor/widget/settings/show.html.erb (388.4ms)
+Completed 200 OK in 394ms (Views: 372.7ms | ActiveRecord: 17.4ms)&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-02T22:40:08+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">684</number>
+      <permalink>some-widget-need-optimization</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Some widget need optimization </title>
+      <updated-at type="datetime">2011-09-02T22:40:16+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/684</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+</ticket>

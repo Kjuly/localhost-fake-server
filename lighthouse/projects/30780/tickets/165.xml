@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">6</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2010-09-10T17:05:45+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">165</number>
+  <permalink>the-deleted-label-still-leave</permalink>
+  <priority type="integer">54</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>The deleted label still leave</title>
+  <updated-at type="datetime">2011-02-12T21:58:32+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">2</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/165</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>1.add a new category named &quot;&#26032;&#20135;&#21697;&#8220;
+
+2.add other new category under&quot;&#26032;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;.
+
+3.add other new category under&quot;&#31532;&#20108;&#32423;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;.&#65288;image 1)
+
+4.publish&quot;&#26032;&#20135;&#21697;&#8220;&#65292;then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be published.
+
+5.edit&quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;,and there is a diffs list.(image 2)
+
+6.delete &quot;&#26032;&#20135;&#21697;&#8221;,then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be deleted.
+
+But,there still has &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;on the diffs page.
+
+And &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;this label still leave.(image 3)</original-body>
+  <latest-body>1.add a new category named &quot;&#26032;&#20135;&#21697;&#8220;
+
+2.add other new category under&quot;&#26032;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;.
+
+3.add other new category under&quot;&#31532;&#20108;&#32423;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;.&#65288;image 1)
+
+4.publish&quot;&#26032;&#20135;&#21697;&#8220;&#65292;then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be published.
+
+5.edit&quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;,and there is a diffs list.(image 2)
+
+6.delete &quot;&#26032;&#20135;&#21697;&#8221;,then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be deleted.
+
+But,there still has &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;on the diffs page.
+
+And &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;this label still leave.(image 3)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;1.add a new category named &quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8220;&lt;/p&gt;
+&lt;p&gt;2.add other new category
+under&quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8221;&amp;#65292;named
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;.&lt;/p&gt;
+&lt;p&gt;3.add other new category
+under&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&amp;#8221;&amp;#65292;named
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;.&amp;#65288;image 1)&lt;/p&gt;
+&lt;p&gt;4.publish&quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8220;&amp;#65292;then both
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;and
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;are will be
+published.&lt;/p&gt;
+&lt;p&gt;5.edit&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;,and there is a
+diffs list.(image 2)&lt;/p&gt;
+&lt;p&gt;6.delete &quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8221;,then both
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;and
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;are will be deleted.&lt;/p&gt;
+&lt;p&gt;But,there still has &quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;on
+the diffs page.&lt;/p&gt;
+&lt;p&gt;And &quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;this label still
+leave.(image 3)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>1.add a new category named &quot;&#26032;&#20135;&#21697;&#8220;
+
+2.add other new category under&quot;&#26032;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;.
+
+3.add other new category under&quot;&#31532;&#20108;&#32423;&#20135;&#21697;&#8221;&#65292;named &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;.&#65288;image 1)
+
+4.publish&quot;&#26032;&#20135;&#21697;&#8220;&#65292;then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be published.
+
+5.edit&quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;,and there is a diffs list.(image 2)
+
+6.delete &quot;&#26032;&#20135;&#21697;&#8221;,then both &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;and &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;are will be deleted.
+
+But,there still has &quot;&#31532;&#19977;&#32423;&#20135;&#21697;&quot;on the diffs page.
+
+And &quot;&#31532;&#20108;&#32423;&#20135;&#21697;&quot;this label still leave.(image 3)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;1.add a new category named &quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8220;&lt;/p&gt;
+&lt;p&gt;2.add other new category
+under&quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8221;&amp;#65292;named
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;.&lt;/p&gt;
+&lt;p&gt;3.add other new category
+under&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&amp;#8221;&amp;#65292;named
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;.&amp;#65288;image 1)&lt;/p&gt;
+&lt;p&gt;4.publish&quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8220;&amp;#65292;then both
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;and
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;are will be
+published.&lt;/p&gt;
+&lt;p&gt;5.edit&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;,and there is a
+diffs list.(image 2)&lt;/p&gt;
+&lt;p&gt;6.delete &quot;&amp;#26032;&amp;#20135;&amp;#21697;&amp;#8221;,then both
+&quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;and
+&quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;are will be deleted.&lt;/p&gt;
+&lt;p&gt;But,there still has &quot;&amp;#31532;&amp;#19977;&amp;#32423;&amp;#20135;&amp;#21697;&quot;on
+the diffs page.&lt;/p&gt;
+&lt;p&gt;And &quot;&amp;#31532;&amp;#20108;&amp;#32423;&amp;#20135;&amp;#21697;&quot;this label still
+leave.(image 3)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2010-09-10T17:05:45+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">165</number>
+      <permalink>the-deleted-label-still-leave</permalink>
+      <priority type="integer">54</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>The deleted label still leave</title>
+      <updated-at type="datetime">2010-09-10T17:05:49+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/165</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-02-12T21:58:20+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">165</number>
+      <permalink>the-deleted-label-still-leave</permalink>
+      <priority type="integer">54</priority>
+      <project-id type="integer">30780</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>The deleted label still leave</title>
+      <updated-at type="datetime">2011-02-12T21:58:32+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">2</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/165</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>ab902ce4e2f0d89f20f842ae97fe9f02a82138f5</code>
+      <content-type>image/jpeg</content-type>
+      <created-at type="datetime">2010-09-10T17:05:46+09:00</created-at>
+      <filename>image-1.jpg</filename>
+      <height type="integer">543</height>
+      <id type="integer">667599</id>
+      <size type="integer">53545</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1161</width>
+      <url>http://theplant.lighthouseapp.com/attachments/667599/image-1.jpg</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>140b651c07f320c307a6cefe879e0ddb139d8304</code>
+      <content-type>image/jpeg</content-type>
+      <created-at type="datetime">2010-09-10T17:05:46+09:00</created-at>
+      <filename>image-2.jpg</filename>
+      <height type="integer">880</height>
+      <id type="integer">667600</id>
+      <size type="integer">83404</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1005</width>
+      <url>http://theplant.lighthouseapp.com/attachments/667600/image-2.jpg</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>dd8b6cf4b5872bdeaff476ba5710554195447e06</code>
+      <content-type>image/jpeg</content-type>
+      <created-at type="datetime">2010-09-10T17:05:46+09:00</created-at>
+      <filename>image-3.jpg</filename>
+      <height type="integer">880</height>
+      <id type="integer">667601</id>
+      <size type="integer">110382</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1005</width>
+      <url>http://theplant.lighthouseapp.com/attachments/667601/image-3.jpg</url>
+    </attachment-image>
+  </attachments>
+</ticket>

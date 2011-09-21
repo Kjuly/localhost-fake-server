@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-30T08:33:25+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">623</number>
+  <permalink>location-coordinates-reject-00-as-a-location</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag nil="true"></tag>
+  <title>Location Coordinates &gt; Reject 0,0 as a location</title>
+  <updated-at type="datetime">2011-09-01T11:10:15+09:00</updated-at>
+  <user-id type="integer">94027</user-id>
+  <version type="integer">2</version>
+  <user-name>bin</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/623</url>
+  <priority-name>Low</priority-name>
+  <original-body>For Foot ID, Events, Stores, any other place we use maps:
+
+Reported from Raphael:
+
+&gt; Could you add a check on the geolocation of the running clinics / FOOT ID systems, so that coordinates 0,0 are rejected? (See the screenshot attached.)</original-body>
+  <latest-body>For Foot ID, Events, Stores, any other place we use maps:
+
+Reported from Raphael:
+
+&gt; Could you add a check on the geolocation of the running clinics / FOOT ID systems, so that coordinates 0,0 are rejected? (See the screenshot attached.)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;For Foot ID, Events, Stores, any other place we use maps:&lt;/p&gt;
+&lt;p&gt;Reported from Raphael:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Could you add a check on the geolocation of the running clinics
+/ FOOT ID systems, so that coordinates 0,0 are rejected? (See the
+screenshot attached.)&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>For Foot ID, Events, Stores, any other place we use maps:
+
+Reported from Raphael:
+
+&gt; Could you add a check on the geolocation of the running clinics / FOOT ID systems, so that coordinates 0,0 are rejected? (See the screenshot attached.)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;For Foot ID, Events, Stores, any other place we use maps:&lt;/p&gt;
+&lt;p&gt;Reported from Raphael:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Could you add a check on the geolocation of the running clinics
+/ FOOT ID systems, so that coordinates 0,0 are rejected? (See the
+screenshot attached.)&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-30T08:33:25+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">623</number>
+      <permalink>location-coordinates-reject-00-as-a-location</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Location Coordinates &gt; Reject 0,0 as a location</title>
+      <updated-at type="datetime">2011-08-30T08:33:41+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/623</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Fixed. Now all store/clinic/foot_id/tech_tour will auto set location if coordinates is 0,0.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Fixed. Now all store/clinic/foot_id/tech_tour will auto set
+location if coordinates is 0,0.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-01T11:10:01+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">623</number>
+      <permalink>location-coordinates-reject-00-as-a-location</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Location Coordinates &gt; Reject 0,0 as a location</title>
+      <updated-at type="datetime">2011-09-01T11:10:15+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/623</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>948fe209cc20d5788cdc3c6c39c213d7d035b994</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-30T08:33:25+09:00</created-at>
+      <filename>clinics-professional-one-on-o.png</filename>
+      <height type="integer">702</height>
+      <id type="integer">1325303</id>
+      <size type="integer">301079</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1237</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1325303/clinics-professional-one-on-o.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

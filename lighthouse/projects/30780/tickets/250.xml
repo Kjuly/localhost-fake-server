@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-04-07T12:13:17+09:00</created-at>
+  <creator-id type="integer">132540</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">250</number>
+  <permalink>way-to-render-widget</permalink>
+  <priority type="integer">63</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Way to render widget</title>
+  <updated-at type="datetime">2011-04-07T12:13:24+09:00</updated-at>
+  <user-id type="integer">132540</user-id>
+  <version type="integer">1</version>
+  <user-name>Charles Shen</user-name>
+  <creator-name>Charles Shen</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/250</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>If I have two widgets in one group
+widget :sidebar_shoe_advisor, :group =&gt; :widget_asset do
+end
+
+widget :events_sidebar_myasics, :group =&gt; :widget_asset do
+end
+when I use render_widget :sidebar_shoe_advisor, it creates #&lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5, widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;, ....&gt;, but the widget_group value should be empty.
+
+So I think we should use render_widget :widget =&gt; :sidebar_shoe_advisor to render a separate widget, use render_widget :group =&gt; :widget_asset to render a group widget.</original-body>
+  <latest-body>If I have two widgets in one group
+widget :sidebar_shoe_advisor, :group =&gt; :widget_asset do
+end
+
+widget :events_sidebar_myasics, :group =&gt; :widget_asset do
+end
+when I use render_widget :sidebar_shoe_advisor, it creates #&lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5, widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;, ....&gt;, but the widget_group value should be empty.
+
+So I think we should use render_widget :widget =&gt; :sidebar_shoe_advisor to render a separate widget, use render_widget :group =&gt; :widget_asset to render a group widget.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;If I have two widgets in one group&lt;br&gt;
+widget :sidebar_shoe_advisor, :group =&amp;gt; :widget_asset do&lt;br&gt;
+end&lt;/p&gt;
+&lt;p&gt;widget :events_sidebar_myasics, :group =&amp;gt; :widget_asset
+do&lt;br&gt;
+end&lt;br&gt;
+when I use render_widget :sidebar_shoe_advisor, it creates
+#&amp;lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5,
+widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;,
+....&amp;gt;, but the widget_group value should be empty.&lt;/p&gt;
+&lt;p&gt;So I think we should use render_widget :widget =&amp;gt;
+:sidebar_shoe_advisor to render a separate widget, use
+render_widget :group =&amp;gt; :widget_asset to render a group
+widget.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>If I have two widgets in one group
+widget :sidebar_shoe_advisor, :group =&gt; :widget_asset do
+end
+
+widget :events_sidebar_myasics, :group =&gt; :widget_asset do
+end
+when I use render_widget :sidebar_shoe_advisor, it creates #&lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5, widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;, ....&gt;, but the widget_group value should be empty.
+
+So I think we should use render_widget :widget =&gt; :sidebar_shoe_advisor to render a separate widget, use render_widget :group =&gt; :widget_asset to render a group widget.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;If I have two widgets in one group&lt;br&gt;
+widget :sidebar_shoe_advisor, :group =&amp;gt; :widget_asset do&lt;br&gt;
+end&lt;/p&gt;
+&lt;p&gt;widget :events_sidebar_myasics, :group =&amp;gt; :widget_asset
+do&lt;br&gt;
+end&lt;br&gt;
+when I use render_widget :sidebar_shoe_advisor, it creates
+#&amp;lt;Qor::Widget::ViewSetting id: 1063, template_bundle_id: 5,
+widget_name: &quot;sidebar_shoe_advisor&quot;, widget_group: &quot;widget_asset&quot;,
+....&amp;gt;, but the widget_group value should be empty.&lt;/p&gt;
+&lt;p&gt;So I think we should use render_widget :widget =&amp;gt;
+:sidebar_shoe_advisor to render a separate widget, use
+render_widget :group =&amp;gt; :widget_asset to render a group
+widget.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-04-07T12:13:17+09:00</created-at>
+      <creator-id type="integer">132540</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">250</number>
+      <permalink>way-to-render-widget</permalink>
+      <priority type="integer">63</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Way to render widget</title>
+      <updated-at type="datetime">2011-04-07T12:13:24+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">1</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Charles Shen</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/250</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

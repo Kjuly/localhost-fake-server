@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">94027</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-20T12:17:44+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">880</number>
+  <permalink>asics-changes-store-locator-etc</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>ASICS changes: Store locator etc.</title>
+  <updated-at type="datetime">2011-09-21T09:23:21+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>bin</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/880</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>Mails
+1. Change fonts in emails to arial (currently shows up as courier in Lotus notes)
+2. Change default sender from: ASICS &lt;online@asics.eu&gt;&#8221; but let countries change this in their settings page
+3. Currently the default sign at the bottom of each email is ASICS Benelux. Change this to ASICS. Should also be a configuration in settings.
+4. Cancellation email not found in /admin/mails (also confirm that all system mails were configured for preview.)
+
+
+Store Locator
+1. Map jumps on store locator after clicking store name
+2. ASICS and OTHER ASICS STORES =&gt; OTHER RETAIL PARTNERS
+3. Is there a reason for the shop order? If not, alphabetize results.
+4. What is Alternative name in store admin?
+5. What creates the list of categories in the store locator?
+6. Stores upload doesn't work well (especially deleting and adding at the
+same time... Karen reported it took 3 times for it to work)</original-body>
+  <latest-body>Mails
+1. Change fonts in emails to arial (currently shows up as courier in Lotus notes)
+2. Change default sender from: ASICS &lt;online@asics.eu&gt;&#8221; but let countries change this in their settings page
+3. Currently the default sign at the bottom of each email is ASICS Benelux. Change this to ASICS. Should also be a configuration in settings.
+4. Cancellation email not found in /admin/mails (also confirm that all system mails were configured for preview.)
+
+
+Store Locator
+1. Map jumps on store locator after clicking store name
+2. ASICS and OTHER ASICS STORES =&gt; OTHER RETAIL PARTNERS
+3. Is there a reason for the shop order? If not, alphabetize results.
+4. What is Alternative name in store admin?
+5. What creates the list of categories in the store locator?
+6. Stores upload doesn't work well (especially deleting and adding at the
+same time... Karen reported it took 3 times for it to work)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Mails&lt;br&gt;
+1. Change fonts in emails to arial (currently shows up as courier
+in Lotus notes)&lt;br&gt;
+2. Change default sender from: ASICS &lt;a href=
+&quot;mailto:online@asics.eu&quot;&gt;online@asics.eu&lt;/a&gt;&amp;#8221; but let
+countries change this in their settings page&lt;br&gt;
+3. Currently the default sign at the bottom of each email is ASICS
+Benelux. Change this to ASICS. Should also be a configuration in
+settings.&lt;br&gt;
+4. Cancellation email not found in /admin/mails (also confirm that
+all system mails were configured for preview.)&lt;/p&gt;
+&lt;p&gt;Store Locator&lt;br&gt;
+1. Map jumps on store locator after clicking store name&lt;br&gt;
+2. ASICS and OTHER ASICS STORES =&amp;gt; OTHER RETAIL PARTNERS&lt;br&gt;
+3. Is there a reason for the shop order? If not, alphabetize
+results.&lt;br&gt;
+4. What is Alternative name in store admin?&lt;br&gt;
+5. What creates the list of categories in the store locator?&lt;br&gt;
+6. Stores upload doesn't work well (especially deleting and adding
+at the&lt;br&gt;
+same time... Karen reported it took 3 times for it to work)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Mails
+1. Change fonts in emails to arial (currently shows up as courier in Lotus notes)
+2. Change default sender from: ASICS &lt;online@asics.eu&gt;&#8221; but let countries change this in their settings page
+3. Currently the default sign at the bottom of each email is ASICS Benelux. Change this to ASICS. Should also be a configuration in settings.
+4. Cancellation email not found in /admin/mails (also confirm that all system mails were configured for preview.)
+
+
+Store Locator
+1. Map jumps on store locator after clicking store name
+2. ASICS and OTHER ASICS STORES =&gt; OTHER RETAIL PARTNERS
+3. Is there a reason for the shop order? If not, alphabetize results.
+4. What is Alternative name in store admin?
+5. What creates the list of categories in the store locator?
+6. Stores upload doesn't work well (especially deleting and adding at the
+same time... Karen reported it took 3 times for it to work)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Mails&lt;br&gt;
+1. Change fonts in emails to arial (currently shows up as courier
+in Lotus notes)&lt;br&gt;
+2. Change default sender from: ASICS &lt;a href=
+&quot;mailto:online@asics.eu&quot;&gt;online@asics.eu&lt;/a&gt;&amp;#8221; but let
+countries change this in their settings page&lt;br&gt;
+3. Currently the default sign at the bottom of each email is ASICS
+Benelux. Change this to ASICS. Should also be a configuration in
+settings.&lt;br&gt;
+4. Cancellation email not found in /admin/mails (also confirm that
+all system mails were configured for preview.)&lt;/p&gt;
+&lt;p&gt;Store Locator&lt;br&gt;
+1. Map jumps on store locator after clicking store name&lt;br&gt;
+2. ASICS and OTHER ASICS STORES =&amp;gt; OTHER RETAIL PARTNERS&lt;br&gt;
+3. Is there a reason for the shop order? If not, alphabetize
+results.&lt;br&gt;
+4. What is Alternative name in store admin?&lt;br&gt;
+5. What creates the list of categories in the store locator?&lt;br&gt;
+6. Stores upload doesn't work well (especially deleting and adding
+at the&lt;br&gt;
+same time... Karen reported it took 3 times for it to work)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T12:17:44+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">880</number>
+      <permalink>asics-changes-store-locator-etc</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Store locator etc.</title>
+      <updated-at type="datetime">2011-09-20T12:17:57+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/880</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Hi Anatole,
+
+&gt; 1. Map jumps on store locator after clicking store name
+   
+is it broken? I test on ff and chrome, it works.
+
+&gt; 2. ASICS and OTHER ASICS STORES =&gt; OTHER RETAIL PARTNERS
+   
+Done.
+
+&gt;3. Is there a reason for the shop order? If not, alphabetize results.
+   
+Yes. Order by distance.
+
+&gt; 4. What is Alternative name in store admin?
+   
+I can't found any code use &quot;alter_name&quot;, should we remove it?
+
+&gt; 5. What creates the list of categories in the store locator?
+   
+Each store have categories. we get all stores categories and uniq the categories. 
+
+&gt; 6. Stores upload doesn't work well (especially deleting and adding at the same time... Karen reported it took 3 times for it to work)
+   
+I imported five times, it seems work every time. could you please tell me how to reproduce the error?</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Hi Anatole,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Map jumps on store locator after clicking store name&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;is it broken? I test on ff and chrome, it works.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;ASICS and OTHER ASICS STORES =&amp;gt; OTHER RETAIL PARTNERS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Done.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Is there a reason for the shop order? If not, alphabetize
+results.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yes. Order by distance.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;What is Alternative name in store admin?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can't found any code use &quot;alter_name&quot;, should we remove
+it?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;What creates the list of categories in the store locator?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Each store have categories. we get all stores categories and
+uniq the categories.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Stores upload doesn't work well (especially deleting and adding
+at the same time... Karen reported it took 3 times for it to
+work)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I imported five times, it seems work every time. could you
+please tell me how to reproduce the error?&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T14:38:57+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">880</number>
+      <permalink>asics-changes-store-locator-etc</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Store locator etc.</title>
+      <updated-at type="datetime">2011-09-20T14:39:08+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/880</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>I replied by email... please resolve if everything is fine.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;I replied by email... please resolve if everything is fine.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T09:23:10+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 2503
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">880</number>
+      <permalink>asics-changes-store-locator-etc</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Store locator etc.</title>
+      <updated-at type="datetime">2011-09-21T09:23:21+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/880</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

@@ -1,0 +1,91 @@
+{
+  "parents": [
+    {
+      "sha": "7768a74459bbc5f3c61600770c9137a1c8d51e37",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/7768a74459bbc5f3c61600770c9137a1c8d51e37"
+    }
+  ],
+  "sha": "d69bc608a5589f4433907407256b6917b332c754",
+  "commit": {
+    "message": "bad code need to fix",
+    "tree": {
+      "sha": "cd4da13f54384091c2ab830182d9fe5ce8fce808",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/cd4da13f54384091c2ab830182d9fe5ce8fce808"
+    },
+    "author": {
+      "email": "liuyi19900922@gmail.com",
+      "date": "2011-08-25T20:50:30-07:00",
+      "name": "liuyi0922"
+    },
+    "committer": {
+      "email": "liuyi19900922@gmail.com",
+      "date": "2011-08-25T20:50:30-07:00",
+      "name": "liuyi0922"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/d69bc608a5589f4433907407256b6917b332c754"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "files": [
+    {
+      "raw_url": "https://github.com/theplant/GBox/raw/d69bc608a5589f4433907407256b6917b332c754/GBox.xcodeproj/project.pbxproj",
+      "changes": 4,
+      "status": "modified",
+      "sha": "d69bc608a5589f4433907407256b6917b332c754",
+      "additions": 4,
+      "filename": "GBox.xcodeproj/project.pbxproj",
+      "deletions": 0,
+      "patch": "--- a/GBox.xcodeproj/project.pbxproj\n+++ b/GBox.xcodeproj/project.pbxproj\n@@ -177,6 +177,7 @@\n \t\t4CE5081113C1FE22000AAA69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE5081013C1FE22000AAA69 /* SenTestingKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };\n \t\t4CE5095F13C20398000AAA69 /* GBDocListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5095E13C20398000AAA69 /* GBDocListData.m */; };\n \t\t4CF0A2E813DE5E030019D55B /* GBMOModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0A2E613DE5E030019D55B /* GBMOModel.xcdatamodeld */; };\n+\t\tCF3EA1A314074C1800A19644 /* statusicon2.icns in Resources */ = {isa = PBXBuildFile; fileRef = CF3EA1A214074C1800A19644 /* statusicon2.icns */; };\n \t\tCF46C10C13D7BFCA00C5A5DE /* StartUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF46C10B13D7BFCA00C5A5DE /* StartUpController.m */; };\n \t\tCF9BF16113CC32A500D5691F /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9BF16013CC32A500D5691F /* AccountModel.m */; };\n \t\tCFAFBC1213C6F03E00F4BAC6 /* ShareFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAFBC1113C6F03E00F4BAC6 /* ShareFiles.m */; };\n@@ -522,6 +523,7 @@\n \t\t4CE5095D13C20398000AAA69 /* GBDocListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDocListData.h; sourceTree = \"<group>\"; };\n \t\t4CE5095E13C20398000AAA69 /* GBDocListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDocListData.m; sourceTree = \"<group>\"; };\n \t\t4CF0A2E713DE5E030019D55B /* GBMOModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GBMOModel.xcdatamodel; sourceTree = \"<group>\"; };\n+\t\tCF3EA1A214074C1800A19644 /* statusicon2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = statusicon2.icns; sourceTree = \"<group>\"; };\n \t\tCF46C10A13D7BFCA00C5A5DE /* StartUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUpController.h; sourceTree = \"<group>\"; };\n \t\tCF46C10B13D7BFCA00C5A5DE /* StartUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUpController.m; sourceTree = \"<group>\"; };\n \t\tCF9BF15F13CC32A500D5691F /* AccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountModel.h; sourceTree = \"<group>\"; };\n@@ -690,6 +692,7 @@\n \t\t4C1FEDF213BE3BF600679BD7 /* icons */ = {\n \t\t\tisa = PBXGroup;\n \t\t\tchildren = (\n+\t\t\t\tCF3EA1A214074C1800A19644 /* statusicon2.icns */,\n \t\t\t\t14B6D52613D580E400B913EE /* notify-close.tiff */,\n \t\t\t\tCFAFBC2613C6F5C900F4BAC6 /* 20110708044652228_easyicon_cn_48.icns */,\n \t\t\t\tCFAFBC1313C6F20200F4BAC6 /* 20110708043228585_easyicon_cn_96.png */,\n@@ -1198,6 +1201,7 @@\n \t\t\t\t4CC7429913F3DD5000A6A875 /* GTMOAuth2Window.xib in Resources */,\n \t\t\t\t4CC7429B13F3DD5000A6A875 /* ReleaseNotes.txt in Resources */,\n \t\t\t\t4CCB3B3913FCB3B5002B5178 /* Growl Registration Ticket.growlRegDict.plist in Resources */,\n+\t\t\t\tCF3EA1A314074C1800A19644 /* statusicon2.icns in Resources */,\n \t\t\t);\n \t\t\trunOnlyForDeploymentPostprocessing = 0;\n \t\t};",
+      "blob_url": "https://github.com/theplant/GBox/blob/d69bc608a5589f4433907407256b6917b332c754/GBox.xcodeproj/project.pbxproj"
+    },
+    {
+      "raw_url": "https://github.com/theplant/GBox/raw/d69bc608a5589f4433907407256b6917b332c754/GBox/GBSyncController.h",
+      "changes": 5,
+      "status": "modified",
+      "sha": "d69bc608a5589f4433907407256b6917b332c754",
+      "additions": 5,
+      "filename": "GBox/GBSyncController.h",
+      "deletions": 0,
+      "patch": "--- a/GBox/GBSyncController.h\n+++ b/GBox/GBSyncController.h\n@@ -42,6 +42,8 @@\n     NSMutableArray *executingTasksCache;\n     NSMutableArray *finishedTasksCache;\n     \n+    NSStatusItem *statusItem;\n+    \n }\n \n + (GBSyncController *) shareSyncController;\n@@ -54,4 +56,7 @@\n \n -(void)setupFinished:(BOOL)yesOrNo;\n -(void)beginSync;\n+\n+-(void)setStatusItem:(NSStatusItem*)item;\n+\n @end",
+      "blob_url": "https://github.com/theplant/GBox/blob/d69bc608a5589f4433907407256b6917b332c754/GBox/GBSyncController.h"
+    },
+    {
+      "raw_url": "https://github.com/theplant/GBox/raw/d69bc608a5589f4433907407256b6917b332c754/GBox/GBSyncController.m",
+      "changes": 9,
+      "status": "modified",
+      "sha": "d69bc608a5589f4433907407256b6917b332c754",
+      "additions": 9,
+      "filename": "GBox/GBSyncController.m",
+      "deletions": 0,
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -202,9 +202,18 @@ static GBSyncController * shareSyncController = nil;\n         }\n     }\n      */\n+    \n     if(countOfWaitingTasks!=0&&countOfExecutingTasks==0){\n+        [statusItem setImage:[NSImage imageNamed:@\"statusicon2\"]];\n         [docListData fetchDocList];\n+    }else if(countOfExecutingTasks==0){\n+        [statusItem setImage:[NSImage imageNamed:@\"statusicon1\"]];\n     }\n+    \n+}\n+\n+-(void)setStatusItem:(NSStatusItem*)item{\n+    statusItem = item;\n }\n \n -(void)setupFinished:(BOOL)yesOrNo{",
+      "blob_url": "https://github.com/theplant/GBox/blob/d69bc608a5589f4433907407256b6917b332c754/GBox/GBSyncController.m"
+    },
+    {
+      "raw_url": "https://github.com/theplant/GBox/raw/d69bc608a5589f4433907407256b6917b332c754/GBox/GBoxAppDelegate.m",
+      "changes": 1,
+      "status": "modified",
+      "sha": "d69bc608a5589f4433907407256b6917b332c754",
+      "additions": 1,
+      "filename": "GBox/GBoxAppDelegate.m",
+      "deletions": 0,
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -217,6 +217,7 @@\n         [contactsData fetchAllContacts];\n         \n         syncController = [GBSyncController shareSyncController];\n+        [syncController setStatusItem:statusItem];\n         if(setupFinished ==YES){\n             [syncController setupFinished:YES];\n             [syncController beginSync];",
+      "blob_url": "https://github.com/theplant/GBox/blob/d69bc608a5589f4433907407256b6917b332c754/GBox/GBoxAppDelegate.m"
+    }
+  ],
+  "stats": {
+    "additions": 19,
+    "deletions": 0,
+    "total": 19
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/d69bc608a5589f4433907407256b6917b332c754"
+}

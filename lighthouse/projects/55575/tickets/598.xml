@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-29T06:45:57+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">598</number>
+  <permalink>store-locator-change-error-message-if-search-is-blank</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Store Locator &gt; Change error message if search is blank</title>
+  <updated-at type="datetime">2011-09-02T23:44:55+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/598</url>
+  <priority-name>Low</priority-name>
+  <original-body>Change error message to: &quot;Please enter a location and search again.&quot;
+
+Sample URL: http://www.uk.asics2-draft.theplant-dev.com/store_locator?zip=&amp;category_id=1069
+
+See attached.</original-body>
+  <latest-body>Change error message to: &quot;Please enter a location and search again.&quot;
+
+Sample URL: http://www.uk.asics2-draft.theplant-dev.com/store_locator?zip=&amp;category_id=1069
+
+See attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Change error message to: &quot;Please enter a location and search
+again.&quot;&lt;/p&gt;
+&lt;p&gt;Sample URL: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/store_locator?zip=&amp;amp;category_id=1069&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/store_locator?zip=&amp;amp;amp;...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Change error message to: &quot;Please enter a location and search again.&quot;
+
+Sample URL: http://www.uk.asics2-draft.theplant-dev.com/store_locator?zip=&amp;category_id=1069
+
+See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Change error message to: &quot;Please enter a location and search
+again.&quot;&lt;/p&gt;
+&lt;p&gt;Sample URL: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/store_locator?zip=&amp;amp;category_id=1069&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/store_locator?zip=&amp;amp;amp;...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T06:45:57+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">598</number>
+      <permalink>store-locator-change-error-message-if-search-is-blank</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator &gt; Change error message if search is blank</title>
+      <updated-at type="datetime">2011-08-29T06:46:08+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/598</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-01T11:21:51+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">598</number>
+      <permalink>store-locator-change-error-message-if-search-is-blank</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Store Locator &gt; Change error message if search is blank</title>
+      <updated-at type="datetime">2011-09-01T11:22:17+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/598</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-02T23:44:34+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">598</number>
+      <permalink>store-locator-change-error-message-if-search-is-blank</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Store Locator &gt; Change error message if search is blank</title>
+      <updated-at type="datetime">2011-09-02T23:44:55+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/598</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>ba727420ebd0db86750a9a1d4d5c14cb44e48bfa</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-29T06:45:57+09:00</created-at>
+      <filename>location-empty.png</filename>
+      <height type="integer">472</height>
+      <id type="integer">1320906</id>
+      <size type="integer">191994</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">995</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1320906/location-empty.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

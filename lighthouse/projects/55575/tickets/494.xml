@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-23T14:33:36+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">494</number>
+  <permalink>admin-country-pulldown</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag nil="true"></tag>
+  <title>Admin &gt; Country pulldown</title>
+  <updated-at type="datetime">2011-09-06T14:09:31+09:00</updated-at>
+  <user-id type="integer">132540</user-id>
+  <version type="integer">4</version>
+  <user-name>Charles Shen</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/494</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>The current list is confusing. Please use:
+
+* Start with &quot;Europe&quot;, then order by country name
+* The country name, for example: England or Switzerland
+* IF the country has more than one language, put each language in paranthesis after the country name. For example: Belgium (French)
+* Put the list in order of country name, so you will get a list like this:
+
+Europe
+Austria
+Belgium (Dutch)
+Belgium (French)
+...</original-body>
+  <latest-body>The current list is confusing. Please use:
+
+* Start with &quot;Europe&quot;, then order by country name
+* The country name, for example: England or Switzerland
+* IF the country has more than one language, put each language in paranthesis after the country name. For example: Belgium (French)
+* Put the list in order of country name, so you will get a list like this:
+
+Europe
+Austria
+Belgium (Dutch)
+Belgium (French)
+...</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;The current list is confusing. Please use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start with &quot;Europe&quot;, then order by country name&lt;/li&gt;
+&lt;li&gt;The country name, for example: England or Switzerland&lt;/li&gt;
+&lt;li&gt;IF the country has more than one language, put each language in
+paranthesis after the country name. For example: Belgium
+(French)&lt;/li&gt;
+&lt;li&gt;Put the list in order of country name, so you will get a list
+like this:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Europe&lt;br&gt;
+Austria&lt;br&gt;
+Belgium (Dutch)&lt;br&gt;
+Belgium (French)&lt;br&gt;
+...&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>The current list is confusing. Please use:
+
+* Start with &quot;Europe&quot;, then order by country name
+* The country name, for example: England or Switzerland
+* IF the country has more than one language, put each language in paranthesis after the country name. For example: Belgium (French)
+* Put the list in order of country name, so you will get a list like this:
+
+Europe
+Austria
+Belgium (Dutch)
+Belgium (French)
+...</body>
+      <body-html>&lt;div&gt;&lt;p&gt;The current list is confusing. Please use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start with &quot;Europe&quot;, then order by country name&lt;/li&gt;
+&lt;li&gt;The country name, for example: England or Switzerland&lt;/li&gt;
+&lt;li&gt;IF the country has more than one language, put each language in
+paranthesis after the country name. For example: Belgium
+(French)&lt;/li&gt;
+&lt;li&gt;Put the list in order of country name, so you will get a list
+like this:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Europe&lt;br&gt;
+Austria&lt;br&gt;
+Belgium (Dutch)&lt;br&gt;
+Belgium (French)&lt;br&gt;
+...&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-23T14:33:36+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">494</number>
+      <permalink>admin-country-pulldown</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Country pulldown</title>
+      <updated-at type="datetime">2011-08-23T14:33:48+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/494</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T19:13:19+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">494</number>
+      <permalink>admin-country-pulldown</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Country pulldown</title>
+      <updated-at type="datetime">2011-08-27T19:13:31+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/494</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/60250)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/60250&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T19:13:33+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">494</number>
+      <permalink>admin-country-pulldown</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Country pulldown</title>
+      <updated-at type="datetime">2011-08-27T19:13:33+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/494</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-06T14:09:18+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">494</number>
+      <permalink>admin-country-pulldown</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Country pulldown</title>
+      <updated-at type="datetime">2011-09-06T14:09:31+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">4</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/494</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>89bf99f09d7089818edab88c922b8acadc5cfbff</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-23T14:33:36+09:00</created-at>
+      <filename>2011-08-23_1427.png</filename>
+      <height type="integer">1052</height>
+      <id type="integer">1299919</id>
+      <size type="integer">231606</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1106</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1299919/2011-08-23_1427.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

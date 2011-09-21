@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">12</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-29T13:03:46+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">614</number>
+  <permalink>stylesidebar-widget</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag>css &quot;CSS&quot;</tag>
+  <title>Style&gt;Sidebar widget </title>
+  <updated-at type="datetime">2011-08-29T20:23:13+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">3</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/614</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>Cricket: http://www.uk.asics2-draft.theplant-dev.com/cricket/products/gel-advance-men
+
+and Rugby: http://www.uk.asics2-draft.theplant-dev.com/rugby/products/gel-lethal-ultimate-igs-men</original-body>
+  <latest-body>Cricket: http://www.uk.asics2-draft.theplant-dev.com/cricket/products/gel-advance-men
+
+and Rugby: http://www.uk.asics2-draft.theplant-dev.com/rugby/products/gel-lethal-ultimate-igs-men</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Cricket: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/cricket/products/gel-advance-men&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/cricket/products/gel-ad...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and Rugby: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/rugby/products/gel-lethal-ultimate-igs-men&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/rugby/products/gel-leth...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Cricket: http://www.uk.asics2-draft.theplant-dev.com/cricket/products/gel-advance-men
+
+and Rugby: http://www.uk.asics2-draft.theplant-dev.com/rugby/products/gel-lethal-ultimate-igs-men</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Cricket: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/cricket/products/gel-advance-men&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/cricket/products/gel-ad...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;and Rugby: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/rugby/products/gel-lethal-ultimate-igs-men&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/rugby/products/gel-leth...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T13:03:46+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">614</number>
+      <permalink>stylesidebar-widget</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>css &quot;CSS&quot;</tag>
+      <title>Style&gt;Sidebar widget </title>
+      <updated-at type="datetime">2011-08-29T13:04:01+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/614</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T16:28:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">614</number>
+      <permalink>stylesidebar-widget</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>css &quot;CSS&quot;</tag>
+      <title>Style&gt;Sidebar widget </title>
+      <updated-at type="datetime">2011-08-29T16:28:19+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/614</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body>missing gray edge</body>
+      <body-html>&lt;div&gt;&lt;p&gt;missing gray edge&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T20:22:54+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">614</number>
+      <permalink>stylesidebar-widget</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>css &quot;CSS&quot;</tag>
+      <title>Style&gt;Sidebar widget </title>
+      <updated-at type="datetime">2011-08-29T20:23:11+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">3</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/614</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>263a06f5d1e987716498922826a7dcf0511b158d</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-29T13:03:46+09:00</created-at>
+      <filename>2011-08-29_1158.png</filename>
+      <height type="integer">1048</height>
+      <id type="integer">1321286</id>
+      <size type="integer">408529</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1055</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1321286/2011-08-29_1158.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>5726a22ab7387c2d5dec54550097c221bdc1e3a5</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-29T13:03:46+09:00</created-at>
+      <filename>2011-08-29_1202.png</filename>
+      <height type="integer">1052</height>
+      <id type="integer">1321287</id>
+      <size type="integer">394623</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1073</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1321287/2011-08-29_1202.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>445a3ec349766adc198f1cf02f6515b22acd2ee2</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-29T20:22:54+09:00</created-at>
+      <filename>2011-08-29_1921.png</filename>
+      <height type="integer">1009</height>
+      <id type="integer">1321997</id>
+      <size type="integer">569048</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1761</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1321997/2011-08-29_1921.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <all-attachments-count type="integer">0</all-attachments-count>
+  <attachments-count type="integer">0</attachments-count>
+  <body>To update data (fixtures) and assets (on s3), we need to run data/asset migration script in an environment with latest production data and assets.
+
+I created an asics2 account on snowwhite.asics.eu, on which asics1 database is running and assets is hosting.
+
+@@@
+cd app
+ASICS=/home/asics/app/current rake old:to_sql
+ASICS=/home/asics/app/current rake old:upload_assets
+@@@
+
+Don't forget to commit updated fixtures back to github.
+
+Person to contact when have problem:
+
+* Shaoshing
+* Jan</body>
+  <body-html>&lt;div&gt;&lt;p&gt;To update data (fixtures) and assets (on s3), we need to run
+data/asset migration script in an environment with latest
+production data and assets.&lt;/p&gt;
+&lt;p&gt;I created an asics2 account on snowwhite.asics.eu, on which
+asics1 database is running and assets is hosting.&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;cd app
+ASICS=/home/asics/app/current rake old:to_sql
+ASICS=/home/asics/app/current rake old:upload_assets&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Don't forget to commit updated fixtures back to github.&lt;/p&gt;
+&lt;p&gt;Person to contact when have problem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shaoshing&lt;/li&gt;
+&lt;li&gt;Jan&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+  <comments-count type="integer">0</comments-count>
+  <created-at type="datetime">2011-05-25T17:01:27+09:00</created-at>
+  <id type="integer">46625</id>
+  <parent-id type="integer" nil="true"></parent-id>
+  <permalink>data-and-asset-update</permalink>
+  <project-id type="integer">55575</project-id>
+  <title>Data and Asset update</title>
+  <token>q7wvbs3m</token>
+  <updated-at type="datetime">2011-05-25T17:01:27+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <user-name>Jan Xie</user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/messages/46625</url>
+  <comments type="array"/>
+</message>

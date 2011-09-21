@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-29T17:53:48+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">617</number>
+  <permalink>export-to-excel-not-csv</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Export to Excel, not CSV</title>
+  <updated-at type="datetime">2011-08-29T17:53:57+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">1</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/617</url>
+  <priority-name>Low</priority-name>
+  <original-body>An ongoing major usability problem. If we could export to Excel rather than CSV a lot of problems will be solved.</original-body>
+  <latest-body>An ongoing major usability problem. If we could export to Excel rather than CSV a lot of problems will be solved.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;An ongoing major usability problem. If we could export to Excel
+rather than CSV a lot of problems will be solved.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>An ongoing major usability problem. If we could export to Excel rather than CSV a lot of problems will be solved.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;An ongoing major usability problem. If we could export to Excel
+rather than CSV a lot of problems will be solved.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T17:53:48+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">617</number>
+      <permalink>export-to-excel-not-csv</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Export to Excel, not CSV</title>
+      <updated-at type="datetime">2011-08-29T17:53:57+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/617</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

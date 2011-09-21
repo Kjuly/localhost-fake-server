@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">94027</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-20T17:15:50+09:00</created-at>
+  <creator-id type="integer">104778</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">886</number>
+  <permalink>add-extra-map-support-for-editing-activity</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>add extra map support for editing activity</title>
+  <updated-at type="datetime">2011-09-20T17:16:05+09:00</updated-at>
+  <user-id type="integer">104778</user-id>
+  <version type="integer">1</version>
+  <user-name>Zhen Wu</user-name>
+  <creator-name>Zhen Wu</creator-name>
+  <assigned-user-name>bin</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/886</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>we should add some extra features about editing clinic, tech tour and foot id
+
+Please check the attachment.</original-body>
+  <latest-body>we should add some extra features about editing clinic, tech tour and foot id
+
+Please check the attachment.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;we should add some extra features about editing clinic, tech
+tour and foot id&lt;/p&gt;
+&lt;p&gt;Please check the attachment.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>we should add some extra features about editing clinic, tech tour and foot id
+
+Please check the attachment.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;we should add some extra features about editing clinic, tech
+tour and foot id&lt;/p&gt;
+&lt;p&gt;Please check the attachment.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T17:15:50+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">886</number>
+      <permalink>add-extra-map-support-for-editing-activity</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>add extra map support for editing activity</title>
+      <updated-at type="datetime">2011-09-20T17:16:03+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">1</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/886</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>b2aa67d174d876a4471eb74a96cd15173262e2d4</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-20T17:15:50+09:00</created-at>
+      <filename>map.png</filename>
+      <height type="integer">1060</height>
+      <id type="integer">1406449</id>
+      <size type="integer">258796</size>
+      <uploader-id type="integer">104778</uploader-id>
+      <width type="integer">1751</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1406449/map.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

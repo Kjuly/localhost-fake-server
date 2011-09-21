@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-06T14:02:33+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">724</number>
+  <permalink>missing-canada-flag-in-language-selector</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Missing Canada flag in language selector</title>
+  <updated-at type="datetime">2011-09-06T14:02:45+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">1</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/724</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-06T14:02:33+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">724</number>
+      <permalink>missing-canada-flag-in-language-selector</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Missing Canada flag in language selector</title>
+      <updated-at type="datetime">2011-09-06T14:02:44+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/724</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>abf1523b252831a2d6b8951b08bbf5d4462f3c3d</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-06T14:02:33+09:00</created-at>
+      <filename>screen-shot-2011-09-06-at-101.png</filename>
+      <height type="integer">567</height>
+      <id type="integer">1352783</id>
+      <size type="integer">304699</size>
+      <uploader-id type="integer">79899</uploader-id>
+      <width type="integer">798</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1352783/screen-shot-2011-09-06-at-101.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket-bins type="array">
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">354068</id>
+    <name>Open tickets</name>
+    <position type="integer">1</position>
+    <project-id type="integer">55575</project-id>
+    <query>state:open not-state:committed  milestone:&quot;Current Iteration&quot; not-state:pending_review</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">74</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">336391</id>
+    <name>Unassigned tickets</name>
+    <position type="integer">2</position>
+    <project-id type="integer">55575</project-id>
+    <query>not-responsible:any state:open</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">13</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">344876</id>
+    <name>Pending review tickets</name>
+    <position type="integer">3</position>
+    <project-id type="integer">55575</project-id>
+    <query>state:pending_review</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">55</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">171767</id>
+    <name>All open tickets</name>
+    <position type="integer">4</position>
+    <project-id type="integer">55575</project-id>
+    <query>state:open not-state:committed not-state:pending_review</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">124</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">258710</id>
+    <name>Jun</name>
+    <position type="integer">5</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:Jun state:open  sort:priority milestone:&quot;Current Iteration&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">6</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">258712</id>
+    <name>Felix</name>
+    <position type="integer">6</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:'Felix Sun' state:open  sort:priority milestone:&quot;Current Iteration&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">7</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">336382</id>
+    <name>Charles Shen</name>
+    <position type="integer">7</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:Charles state:open  sort:priority milestone:&quot;Current Iteration&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">13</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">336383</id>
+    <name>Shaoshing</name>
+    <position type="integer">8</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:Shaoshing state:open sort:priority milestone:&quot;Current Iteration&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">37</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">340127</id>
+    <name>Zhen Wu</name>
+    <position type="integer">9</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:&quot;Zhen Wu&quot; state:open  sort:priority milestone:&quot;Current Iteration&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">11</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">340139</id>
+    <name>Yuan He</name>
+    <position type="integer">10</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:&quot;Yuan He&quot; state:open sort:priority milestone:&quot;Current Iteration&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">6</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">258716</id>
+    <name>Anatole</name>
+    <position type="integer">11</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:'Anatole' state:open</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">1</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">24538</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">345901</id>
+    <name>Tingting</name>
+    <position type="integer">12</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:Tingting state:open</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">42</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">171768</id>
+    <name>Resolved tickets</name>
+    <position type="integer">13</position>
+    <project-id type="integer">55575</project-id>
+    <query>state:resolved</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">368</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">355483</id>
+    <name>My tickets</name>
+    <position type="integer">31</position>
+    <project-id type="integer">55575</project-id>
+    <query>responsible:me state:open</query>
+    <shared type="boolean">false</shared>
+    <tickets-count type="integer">0</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">158232</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">355484</id>
+    <name>Tickets I'm watching</name>
+    <position type="integer">32</position>
+    <project-id type="integer">55575</project-id>
+    <query>watched:me</query>
+    <shared type="boolean">false</shared>
+    <tickets-count type="integer">0</tickets-count>
+    <updated-at type="datetime">2011-08-30T00:16:05+09:00</updated-at>
+    <user-id type="integer">158232</user-id>
+  </ticket-bin>
+</ticket-bins>

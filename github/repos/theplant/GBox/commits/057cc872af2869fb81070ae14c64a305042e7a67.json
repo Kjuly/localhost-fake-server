@@ -1,0 +1,80 @@
+{
+  "committer": {
+    "url": "https://api.github.com/users/chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966
+  },
+  "parents": [
+    {
+      "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/627d66c9f2b312b185c5fae9b2f0360b589d2df3"
+    }
+  ],
+  "commit": {
+    "committer": {
+      "date": "2011-08-30T19:16:50-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "author": {
+      "date": "2011-08-30T19:16:50-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "message": "Share file with identifier from extended attribute.",
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/057cc872af2869fb81070ae14c64a305042e7a67",
+    "tree": {
+      "sha": "a4bf76c6c72d26403afafcbee4ae9720af817ef2",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/a4bf76c6c72d26403afafcbee4ae9720af817ef2"
+    }
+  },
+  "author": {
+    "url": "https://api.github.com/users/chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966
+  },
+  "sha": "057cc872af2869fb81070ae14c64a305042e7a67",
+  "files": [
+    {
+      "filename": "GBox/GBTaskHandler.m",
+      "deletions": 1,
+      "status": "modified",
+      "additions": 0,
+      "sha": "057cc872af2869fb81070ae14c64a305042e7a67",
+      "raw_url": "https://github.com/theplant/GBox/raw/057cc872af2869fb81070ae14c64a305042e7a67/GBox/GBTaskHandler.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/057cc872af2869fb81070ae14c64a305042e7a67/GBox/GBTaskHandler.m",
+      "changes": 1,
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -555,7 +555,6 @@\n     for (numin = 0; numin < numInQueue; numin++) {\n         [[[[opqueue operations] objectAtIndex:numin] getRequest] cancel];\n     }\n-    \n     [opqueue release];\n     opqueue = [[NSOperationQueue alloc]init];    \n "
+    },
+    {
+      "filename": "GBox/ShareWindowController.h",
+      "deletions": 1,
+      "status": "modified",
+      "additions": 1,
+      "sha": "057cc872af2869fb81070ae14c64a305042e7a67",
+      "raw_url": "https://github.com/theplant/GBox/raw/057cc872af2869fb81070ae14c64a305042e7a67/GBox/ShareWindowController.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/057cc872af2869fb81070ae14c64a305042e7a67/GBox/ShareWindowController.h",
+      "changes": 2,
+      "patch": "--- a/GBox/ShareWindowController.h\n+++ b/GBox/ShareWindowController.h\n@@ -42,7 +42,7 @@\n     BOOL commandHandling;\n     \n     GBDocListData *docListData;\n-    GBDataFacility *dataFacility;\n+    //GBDataFacility *dataFacility;\n     GBACLShareManager *aclShareManager;\n     \n     NSMutableDictionary* emailIdentifier;"
+    },
+    {
+      "filename": "GBox/ShareWindowController.m",
+      "deletions": 2,
+      "status": "modified",
+      "additions": 2,
+      "sha": "057cc872af2869fb81070ae14c64a305042e7a67",
+      "raw_url": "https://github.com/theplant/GBox/raw/057cc872af2869fb81070ae14c64a305042e7a67/GBox/ShareWindowController.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/057cc872af2869fb81070ae14c64a305042e7a67/GBox/ShareWindowController.m",
+      "changes": 4,
+      "patch": "--- a/GBox/ShareWindowController.m\n+++ b/GBox/ShareWindowController.m\n@@ -47,13 +47,13 @@\n     }\n     \n     docListData = [GBDocListData sharedDocListData];\n-    dataFacility = [GBDataFacility sharedDataFacility];\n+    //dataFacility = [GBDataFacility sharedDataFacility];\n     aclShareManager = [[GBACLShareManager alloc]init];\n     \n     NSString* simplifiedPath = [GBUtility simplifyLocalPath:filePath];\n \n     NSLog(@\"%@\",simplifiedPath);\n-    NSString* identifier = [dataFacility identifierForEntryAtLocalPath: simplifiedPath];\n+    NSString* identifier = [GBUtility identifierforFileAtPath: simplifiedPath];\n     if(identifier !=nil){\n         entry = [[docListData docListFeed] entryForIdentifier:identifier];\n         "
+    }
+  ],
+  "stats": {
+    "deletions": 4,
+    "additions": 3,
+    "total": 7
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/057cc872af2869fb81070ae14c64a305042e7a67"
+}

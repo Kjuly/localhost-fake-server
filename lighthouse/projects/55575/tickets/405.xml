@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-18T13:19:30+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">405</number>
+  <permalink>technologies-icons-broken</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag>icon stylesheets</tag>
+  <title>Technologies icons broken</title>
+  <updated-at type="datetime">2011-09-06T13:20:30+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">5</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/405</url>
+  <priority-name>High</priority-name>
+  <original-body>For example:
+
+http://www.nl.asics2-draft.theplant-dev.com/walking/products/gel-odyssey-men
+
+http://www.nl.asics2-draft.theplant-dev.com/admin/technologies</original-body>
+  <latest-body>For example:
+
+http://www.nl.asics2-draft.theplant-dev.com/walking/products/gel-odyssey-men
+
+http://www.nl.asics2-draft.theplant-dev.com/admin/technologies</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;For example:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/walking/products/gel-odyssey-men&quot;&gt;
+http://www.nl.asics2-draft.theplant-dev.com/walking/products/gel-od...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/admin/technologies&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/admin/technologies&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>For example:
+
+http://www.nl.asics2-draft.theplant-dev.com/walking/products/gel-odyssey-men
+
+http://www.nl.asics2-draft.theplant-dev.com/admin/technologies</body>
+      <body-html>&lt;div&gt;&lt;p&gt;For example:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/walking/products/gel-odyssey-men&quot;&gt;
+http://www.nl.asics2-draft.theplant-dev.com/walking/products/gel-od...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/admin/technologies&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/admin/technologies&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T13:19:30+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">405</number>
+      <permalink>technologies-icons-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Technologies icons broken</title>
+      <updated-at type="datetime">2011-08-18T13:19:50+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/405</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T17:56:00+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">405</number>
+      <permalink>technologies-icons-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Technologies icons broken</title>
+      <updated-at type="datetime">2011-08-18T17:56:16+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/405</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T23:41:22+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">405</number>
+      <permalink>technologies-icons-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Technologies icons broken</title>
+      <updated-at type="datetime">2011-08-21T23:41:39+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">3</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/405</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-22T05:06:21+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:tag: 
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">405</number>
+      <permalink>technologies-icons-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>icon stylesheets</tag>
+      <title>Technologies icons broken</title>
+      <updated-at type="datetime">2011-08-22T05:06:35+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">4</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/405</url>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-06T13:20:17+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">405</number>
+      <permalink>technologies-icons-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>icon stylesheets</tag>
+      <title>Technologies icons broken</title>
+      <updated-at type="datetime">2011-09-06T13:20:30+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">5</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/405</url>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>08c713d774b5ca0649acb040a6bcfee9a36016d5</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-18T13:19:30+09:00</created-at>
+      <filename>2011-08-18_1210.png</filename>
+      <height type="integer">850</height>
+      <id type="integer">1284003</id>
+      <size type="integer">218007</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">963</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1284003/2011-08-18_1210.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>352913c10c1e2e4f807058f5dc756c939181f1f7</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-18T13:19:35+09:00</created-at>
+      <filename>2011-08-18_1216.png</filename>
+      <height type="integer">1065</height>
+      <id type="integer">1284004</id>
+      <size type="integer">158071</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1000</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1284004/2011-08-18_1216.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

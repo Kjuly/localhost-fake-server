@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<milestone>
+  <completed-at type="datetime" nil="true"></completed-at>
+  <created-at type="datetime">2010-08-19T17:07:50+09:00</created-at>
+  <due-on type="datetime">2010-08-31T00:00:00+09:00</due-on>
+  <goals></goals>
+  <goals-html></goals-html>
+  <id type="integer">81851</id>
+  <open-tickets-count type="integer">0</open-tickets-count>
+  <permalink>ready-for-ot</permalink>
+  <project-id type="integer">30780</project-id>
+  <tickets-count type="integer">1</tickets-count>
+  <title>Ready for OT</title>
+  <updated-at type="datetime">2010-10-26T13:12:40+09:00</updated-at>
+  <url>http://theplant.lighthouseapp.com/projects/30780/milestones/81851</url>
+  <user-name nil="true"></user-name>
+</milestone>

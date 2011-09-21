@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-13T12:33:12+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">800</number>
+  <permalink>product-filter-tweaks</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>committed</state>
+  <tag nil="true"></tag>
+  <title>Product filter tweaks</title>
+  <updated-at type="datetime">2011-09-13T18:38:00+09:00</updated-at>
+  <user-id type="integer">132540</user-id>
+  <version type="integer">2</version>
+  <user-name>Charles Shen</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/800</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>* Show USE, PRONATION, and WIDTH filter only for Running
+* Alphabetize sub-categories in USE filter</original-body>
+  <latest-body>* Show USE, PRONATION, and WIDTH filter only for Running
+* Alphabetize sub-categories in USE filter</latest-body>
+  <original-body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Show USE, PRONATION, and WIDTH filter only for Running&lt;/li&gt;
+&lt;li&gt;Alphabetize sub-categories in USE filter&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>* Show USE, PRONATION, and WIDTH filter only for Running
+* Alphabetize sub-categories in USE filter</body>
+      <body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Show USE, PRONATION, and WIDTH filter only for Running&lt;/li&gt;
+&lt;li&gt;Alphabetize sub-categories in USE filter&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T12:33:12+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">800</number>
+      <permalink>product-filter-tweaks</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Product filter tweaks</title>
+      <updated-at type="datetime">2011-09-13T12:33:22+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/800</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T18:37:54+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">800</number>
+      <permalink>product-filter-tweaks</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Product filter tweaks</title>
+      <updated-at type="datetime">2011-09-13T18:38:00+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/800</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

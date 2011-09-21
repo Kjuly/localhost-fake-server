@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-20T12:11:43+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">876</number>
+  <permalink>asics-changes-top-navigation-widgets-sportstyle-ayami</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>open</state>
+  <tag nil="true"></tag>
+  <title>ASICS changes: Top Navigation, Widgets, SportStyle, AYAMi</title>
+  <updated-at type="datetime">2011-09-20T18:47:14+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">2</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/876</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>Top Navigation
+1. Change AYAMI =&gt; AYAMi
+
+Widgets
+2. Remove store locator widget from all product pages since there is the new store locator lead below the product description
+
+ASICS SportStyle
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same space between title and description below.
+2.Remove image filter for now. Maybe it will come back in the future.
+
+AYAMi
+1. Clicking an AYAMi hotspots click jumps to top of page
+2. Change text in the Get Layering section from AYAMI =&gt; AYAMi</original-body>
+  <latest-body>Top Navigation
+1. Change AYAMI =&gt; AYAMi
+
+Widgets
+2. Remove store locator widget from all product pages since there is the new store locator lead below the product description
+
+ASICS SportStyle
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same space between title and description below.
+2.Remove image filter for now. Maybe it will come back in the future.
+
+AYAMi
+1. Clicking an AYAMi hotspots click jumps to top of page
+2. Change text in the Get Layering section from AYAMI =&gt; AYAMi</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Top Navigation&lt;br&gt;
+1. Change AYAMI =&amp;gt; AYAMi&lt;/p&gt;
+&lt;p&gt;Widgets&lt;br&gt;
+2. Remove store locator widget from all product pages since there
+is the new store locator lead below the product description&lt;/p&gt;
+&lt;p&gt;ASICS SportStyle&lt;br&gt;
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same
+space between title and description below.&lt;br&gt;
+2.Remove image filter for now. Maybe it will come back in the
+future.&lt;/p&gt;
+&lt;p&gt;AYAMi&lt;br&gt;
+1. Clicking an AYAMi hotspots click jumps to top of page&lt;br&gt;
+2. Change text in the Get Layering section from AYAMI =&amp;gt;
+AYAMi&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Top Navigation
+1. Change AYAMI =&gt; AYAMi
+
+Widgets
+2. Remove store locator widget from all product pages since there is the new store locator lead below the product description
+
+ASICS SportStyle
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same space between title and description below.
+2.Remove image filter for now. Maybe it will come back in the future.
+
+AYAMi
+1. Clicking an AYAMi hotspots click jumps to top of page
+2. Change text in the Get Layering section from AYAMI =&gt; AYAMi</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Top Navigation&lt;br&gt;
+1. Change AYAMI =&amp;gt; AYAMi&lt;/p&gt;
+&lt;p&gt;Widgets&lt;br&gt;
+2. Remove store locator widget from all product pages since there
+is the new store locator lead below the product description&lt;/p&gt;
+&lt;p&gt;ASICS SportStyle&lt;br&gt;
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same
+space between title and description below.&lt;br&gt;
+2.Remove image filter for now. Maybe it will come back in the
+future.&lt;/p&gt;
+&lt;p&gt;AYAMi&lt;br&gt;
+1. Clicking an AYAMi hotspots click jumps to top of page&lt;br&gt;
+2. Change text in the Get Layering section from AYAMI =&amp;gt;
+AYAMi&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T12:11:43+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">876</number>
+      <permalink>asics-changes-top-navigation-widgets-sportstyle-ayami</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Top Navigation, Widgets, SportStyle, AYAMi</title>
+      <updated-at type="datetime">2011-09-20T12:11:52+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/876</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T18:47:07+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">876</number>
+      <permalink>asics-changes-top-navigation-widgets-sportstyle-ayami</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Top Navigation, Widgets, SportStyle, AYAMi</title>
+      <updated-at type="datetime">2011-09-20T18:47:14+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/876</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

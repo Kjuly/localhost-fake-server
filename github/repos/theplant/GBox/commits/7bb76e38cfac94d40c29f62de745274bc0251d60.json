@@ -1,0 +1,135 @@
+{
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue",
+    "login": "frankyue"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue",
+    "login": "frankyue"
+  },
+  "files": [
+    {
+      "patch": "--- a/GBox/GBDownloadOperation.h\n+++ b/GBox/GBDownloadOperation.h\n@@ -52,8 +52,10 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n - (NSString *)getPath;\n - (NSManagedObjectID *)getMo;\n - (NSString *)getOptions;\n-- (NSProgressIndicator *) getdownloadPI;\n+- (NSProgressIndicator *) getPI;\n - (void) setpiID:(NSInteger)ID;\n - (NSInteger) getpiID;\n - (void) setPI:(NSProgressIndicator *)pi;\n+- (NSString *) getFileName;\n+\n @end",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBDownloadOperation.h",
+      "deletions": 1,
+      "additions": 3,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBDownloadOperation.h",
+      "changes": 4,
+      "filename": "GBox/GBDownloadOperation.h",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    },
+    {
+      "patch": "--- a/GBox/GBDownloadOperation.m\n+++ b/GBox/GBDownloadOperation.m\n@@ -362,7 +362,7 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n     return option;\n }\n \n-- (NSProgressIndicator *) getdownloadPI\n+- (NSProgressIndicator *) getPI\n {\n     return downloadPI;\n }\n@@ -382,4 +382,10 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n     downloadPI = pi;\n }\n \n+- (NSString *) getFileName\n+{\n+    return [[entry title] stringValue];\n+}\n+\n+\n @end",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBDownloadOperation.m",
+      "deletions": 1,
+      "additions": 7,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBDownloadOperation.m",
+      "changes": 8,
+      "filename": "GBox/GBDownloadOperation.m",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    },
+    {
+      "patch": "--- a/GBox/GBTaskHandler.h\n+++ b/GBox/GBTaskHandler.h\n@@ -48,8 +48,8 @@ struct PIArray {\n -(void)handleTasks;\n -(void)stopAllOperations;\n -(void)restartAllOperations ;\n-- (void) appendPIList:(GBDownloadOperation *)operation;\n-- (void) removePIList:(NSInteger)operationID;\n+-(void) appendPIList:(id)operation;\n+-(void) removePIList:(NSInteger)operationID;\n -(void)cancelAllOperations;\n -(void)setCollectionManager:(GBCollectionManager*)cm;\n ",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBTaskHandler.h",
+      "deletions": 2,
+      "additions": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBTaskHandler.h",
+      "changes": 4,
+      "filename": "GBox/GBTaskHandler.h",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    },
+    {
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -796,7 +796,7 @@\n                                                                    taskID:[mo objectID]\n                                                                    option:option];\n         \n-        \n+        [self appendPIList:uploadOp];\n         [opqueue addOperation:uploadOp];\n         [uploadOp release];\n     }\n@@ -892,7 +892,9 @@\n }\n \n //append the operation to progress indicator\n-- (void) appendPIList:(GBDownloadOperation *)operation {\n+//- (void) appendPIList:(GBDownloadOperation *)operation {\n+- (void) appendPIList:(id)operation {\n+\n     //progress indicator only support 5 info\n     \n     if (piList < 6) {\n@@ -902,7 +904,7 @@\n         {\n             [operation setpiID:ID];\n             [operation setPI:[[GBUtility sharedPList] getPI:ID]];\n-            [[GBUtility sharedPList] usePI:ID pIndicator:[operation getdownloadPI] fileName:[[[operation getDocEntry] title] stringValue]];\n+            [[GBUtility sharedPList] usePI:ID fileName:[operation getFileName]];\n             piList++;\n         }\n     }",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBTaskHandler.m",
+      "deletions": 3,
+      "additions": 5,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBTaskHandler.m",
+      "changes": 8,
+      "filename": "GBox/GBTaskHandler.m",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    },
+    {
+      "patch": "--- a/GBox/GBUploadOperation.h\n+++ b/GBox/GBUploadOperation.h\n@@ -31,6 +31,10 @@\n     \n     NSManagedObjectID* taskID;\n     NSString* option;\n+    \n+    NSString * fileName;\n+    NSProgressIndicator * uploadPI;\n+    NSInteger piID;\n \n }\n \n@@ -49,4 +53,9 @@\n           taskID:(NSManagedObjectID*)taskID\n           option:(NSString*)optionString;\n \n+-(void) setpiID:(NSInteger)ID;\n+-(void) setPI:(NSProgressIndicator *)pi;\n+-(NSProgressIndicator *) getPI;\n+-(NSString *) getFileName;\n+\n @end",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUploadOperation.h",
+      "deletions": 0,
+      "additions": 9,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUploadOperation.h",
+      "changes": 9,
+      "filename": "GBox/GBUploadOperation.h",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    },
+    {
+      "patch": "--- a/GBox/GBUploadOperation.m\n+++ b/GBox/GBUploadOperation.m\n@@ -31,6 +31,7 @@\n     self = [self initWith:gData  uploadingAtPath:path];\n     taskID = tID;\n     option=optionString;\n+    fileName = [[path lastPathComponent] retain];\n     return self;\n }\n \n@@ -172,7 +173,7 @@\n         GDataEntryDocBase *newEntry = [entryClass documentEntry];\n         NSString *title = [[NSFileManager defaultManager] displayNameAtPath:path];\n         [newEntry setTitleWithString:title];\n-        \n+\n         NSFileHandle *uploadFileHandle = [NSFileHandle fileHandleForReadingAtPath:path];\n         if (!uploadFileHandle) {\n             errorMsg = [NSString stringWithFormat:@\"cannot read file %@\", path];\n@@ -203,7 +204,6 @@\n             // Upload start ===============\n             // make service tickets call back into our upload progress selector\n             GDataServiceGoogleDocs *service = [docListData docsService];\n-            //NSLog(@\"%@\");\n             \n             //Folder Creation\n             GDataServiceTicket *ticket;\n@@ -275,6 +275,7 @@\n }\n \n \n+//not used \n //just for upload no convert file\n - (void) uploadFile:(NSURL *)uploadURL\n         accessToken:(NSString *)value\n@@ -375,6 +376,10 @@\n     //[mUploadProgressIndicator setDoubleValue:(double)numberOfBytesRead];\n     NSString *percentage = [NSString stringWithFormat:@\"Uploading...%d/%d\",numberOfBytesRead,dataLength];\n     NSLog(percentage);\n+    \n+    [uploadPI setMinValue:0.0];\n+    [uploadPI setMaxValue:(double)dataLength];\n+    [uploadPI setDoubleValue:(double)numberOfBytesRead];\n }\n \n \n@@ -433,4 +438,23 @@\n {\n     return uploadrequest;\n }\n+\n+- (void) setpiID:(NSInteger)ID\n+{\n+    piID = ID;\n+}\n+- (void) setPI:(NSProgressIndicator *)pi\n+{\n+    uploadPI = pi;\n+}\n+- (NSProgressIndicator *) getPI\n+{\n+    return uploadPI;\n+}\n+\n+- (NSString *) getFileName\n+{\n+    return fileName;\n+}\n+\n @end",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUploadOperation.m",
+      "deletions": 2,
+      "additions": 26,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUploadOperation.m",
+      "changes": 28,
+      "filename": "GBox/GBUploadOperation.m",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    },
+    {
+      "patch": "--- a/GBox/GBUtility.h\n+++ b/GBox/GBUtility.h\n@@ -97,7 +97,6 @@\n - (NSInteger) getNotUsedID;\n - (void)    removeUsed:(NSInteger) piID;\n - (void)    usePI:(NSInteger)piID\n-       pIndicator:(NSProgressIndicator *)progressIndicator\n          fileName:(NSString *)filename;\n - (id) getPI:(NSInteger)ID;\n ",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUtility.h",
+      "deletions": 1,
+      "additions": 0,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUtility.h",
+      "changes": 1,
+      "filename": "GBox/GBUtility.h",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    },
+    {
+      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -467,7 +467,6 @@ static NSUInteger sharedBandWidth = 0;\n }\n \n - (void) usePI:(NSInteger)piID\n-    pIndicator:(NSProgressIndicator *)progressIndicator\n       fileName:(NSString *)filename \n {\n     //spilt the filename with the limit length\n@@ -485,7 +484,6 @@ static NSUInteger sharedBandWidth = 0;\n                             \n     for (id pi in pList) {\n         if ([pi getID] == piID) {\n-            //[[pi getPI] setDoubleValue:20];//[progressIndicator doubleValue]];\n             [[pi getLabel] setStringValue:displayname];\n             [[pi getLabel] setHidden:NO];\n             ",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUtility.m",
+      "deletions": 2,
+      "additions": 0,
+      "blob_url": "https://github.com/theplant/GBox/blob/7bb76e38cfac94d40c29f62de745274bc0251d60/GBox/GBUtility.m",
+      "changes": 2,
+      "filename": "GBox/GBUtility.m",
+      "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60"
+    }
+  ],
+  "stats": {
+    "deletions": 12,
+    "additions": 52,
+    "total": 64
+  },
+  "parents": [
+    {
+      "sha": "9a4cc31c2556deb7029496438725222112cc7680",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/9a4cc31c2556deb7029496438725222112cc7680"
+    }
+  ],
+  "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60",
+  "commit": {
+    "tree": {
+      "sha": "8097f188142ecf0a0aa913e23d3a8b65da98d40f",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/8097f188142ecf0a0aa913e23d3a8b65da98d40f"
+    },
+    "message": "add upload file to Recently changes's bar that the progress can show how much had upload to server",
+    "committer": {
+      "date": "2011-09-05T08:49:11-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "author": {
+      "date": "2011-09-05T08:49:11-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/7bb76e38cfac94d40c29f62de745274bc0251d60"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/7bb76e38cfac94d40c29f62de745274bc0251d60"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-28T17:13:52+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">589</number>
+  <permalink>event-map-is-missing</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag nil="true"></tag>
+  <title>Event map is missing</title>
+  <updated-at type="datetime">2011-08-29T11:29:05+09:00</updated-at>
+  <user-id type="integer">132540</user-id>
+  <version type="integer">3</version>
+  <user-name>Charles Shen</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/589</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>http://www.fr.asics2-draft.theplant-dev.com/running/events/trail-cretes-vosgiennes</original-body>
+  <latest-body>http://www.fr.asics2-draft.theplant-dev.com/running/events/trail-cretes-vosgiennes</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.fr.asics2-draft.theplant-dev.com/running/events/trail-cretes-vosgiennes&quot;&gt;
+http://www.fr.asics2-draft.theplant-dev.com/running/events/trail-cr...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.fr.asics2-draft.theplant-dev.com/running/events/trail-cretes-vosgiennes</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.fr.asics2-draft.theplant-dev.com/running/events/trail-cretes-vosgiennes&quot;&gt;
+http://www.fr.asics2-draft.theplant-dev.com/running/events/trail-cr...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T17:13:52+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">589</number>
+      <permalink>event-map-is-missing</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Event map is missing</title>
+      <updated-at type="datetime">2011-08-28T17:14:09+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/589</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T20:28:46+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">589</number>
+      <permalink>event-map-is-missing</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Event map is missing</title>
+      <updated-at type="datetime">2011-08-28T20:29:01+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/589</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T11:28:46+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">589</number>
+      <permalink>event-map-is-missing</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Event map is missing</title>
+      <updated-at type="datetime">2011-08-29T11:29:05+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">3</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/589</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>3a86aa629af37fca5a43508ebe18edac3d8dc864</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-28T17:13:52+09:00</created-at>
+      <filename>missing-map.png</filename>
+      <height type="integer">761</height>
+      <id type="integer">1320354</id>
+      <size type="integer">425005</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">999</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1320354/missing-map.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

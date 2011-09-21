@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<milestone>
+  <completed-at type="datetime" nil="true"></completed-at>
+  <created-at type="datetime">2010-10-26T13:12:01+09:00</created-at>
+  <due-on type="datetime">2010-11-02T00:00:00+09:00</due-on>
+  <goals></goals>
+  <goals-html></goals-html>
+  <id type="integer">89125</id>
+  <open-tickets-count type="integer">0</open-tickets-count>
+  <permalink>nov-2-demo</permalink>
+  <project-id type="integer">30780</project-id>
+  <tickets-count type="integer">7</tickets-count>
+  <title>Nov 2 Demo</title>
+  <updated-at type="datetime">2010-11-18T17:02:54+09:00</updated-at>
+  <url>http://theplant.lighthouseapp.com/projects/30780/milestones/89125</url>
+  <user-name nil="true"></user-name>
+</milestone>

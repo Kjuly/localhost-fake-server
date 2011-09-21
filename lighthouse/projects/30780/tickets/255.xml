@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-05-13T16:33:07+09:00</created-at>
+  <creator-id type="integer">132540</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">255</number>
+  <permalink>in-development-environment-model-class-is-cached</permalink>
+  <priority type="integer">14</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>in development environment, model class is cached</title>
+  <updated-at type="datetime">2011-05-13T16:33:17+09:00</updated-at>
+  <user-id type="integer">132540</user-id>
+  <version type="integer">1</version>
+  <user-name>Charles Shen</user-name>
+  <creator-name>Charles Shen</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/255</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name nil="true"></priority-name>
+  <original-body>in development environment, if we edit something in the model, we must restart server</original-body>
+  <latest-body>in development environment, if we edit something in the model, we must restart server</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;in development environment, if we edit something in the model,
+we must restart server&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>in development environment, if we edit something in the model, we must restart server</body>
+      <body-html>&lt;div&gt;&lt;p&gt;in development environment, if we edit something in the model,
+we must restart server&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-05-13T16:33:07+09:00</created-at>
+      <creator-id type="integer">132540</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">255</number>
+      <permalink>in-development-environment-model-class-is-cached</permalink>
+      <priority type="integer">14</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>in development environment, model class is cached</title>
+      <updated-at type="datetime">2011-05-13T16:33:17+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">1</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Charles Shen</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/255</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

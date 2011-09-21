@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-20T12:13:40+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">877</number>
+  <permalink>asics-changes-events-etc</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>ASICS changes: Events etc.</title>
+  <updated-at type="datetime">2011-09-20T12:13:49+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">1</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/877</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>Running Events
+1. /running/events &gt; World is broken and/or too slow
+2. Remove &quot;Event Updates&quot; from both the /running page and /running/events pages (/running/events map should stretch the length of the page)
+
+Bazaar Voice
+1. BV test comments showing up http://reviews.asics.co.uk/bvstaging/8011- en_gb/2446/gel-kayano-17-reviews/reviews.htm. I&#8217;m guessing this is not a problem?
+2. BV comments not displaying on running page
+
+&#65532;
+User Settings &gt; Account Deletion
+1. Change text to:
+( ) Close my account.
+( ) I wish to close my account and delete all my comments.</original-body>
+  <latest-body>Running Events
+1. /running/events &gt; World is broken and/or too slow
+2. Remove &quot;Event Updates&quot; from both the /running page and /running/events pages (/running/events map should stretch the length of the page)
+
+Bazaar Voice
+1. BV test comments showing up http://reviews.asics.co.uk/bvstaging/8011- en_gb/2446/gel-kayano-17-reviews/reviews.htm. I&#8217;m guessing this is not a problem?
+2. BV comments not displaying on running page
+
+&#65532;
+User Settings &gt; Account Deletion
+1. Change text to:
+( ) Close my account.
+( ) I wish to close my account and delete all my comments.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Running Events&lt;br&gt;
+1. /running/events &amp;gt; World is broken and/or too slow&lt;br&gt;
+2. Remove &quot;Event Updates&quot; from both the /running page and
+/running/events pages (/running/events map should stretch the
+length of the page)&lt;/p&gt;
+&lt;p&gt;Bazaar Voice&lt;br&gt;
+1. BV test comments showing up &lt;a href=
+&quot;http://reviews.asics.co.uk/bvstaging/8011-&quot;&gt;http://reviews.asics.co.uk/bvstaging/8011-&lt;/a&gt;
+en_gb/2446/gel-kayano-17-reviews/reviews.htm. I&amp;#8217;m guessing
+this is not a problem?&lt;br&gt;
+2. BV comments not displaying on running page&lt;/p&gt;
+&lt;p&gt;&amp;#65532;&lt;br&gt;
+User Settings &amp;gt; Account Deletion&lt;br&gt;
+1. Change text to:&lt;br&gt;
+( ) Close my account. ( ) I wish to close my account and delete all
+my comments.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Running Events
+1. /running/events &gt; World is broken and/or too slow
+2. Remove &quot;Event Updates&quot; from both the /running page and /running/events pages (/running/events map should stretch the length of the page)
+
+Bazaar Voice
+1. BV test comments showing up http://reviews.asics.co.uk/bvstaging/8011- en_gb/2446/gel-kayano-17-reviews/reviews.htm. I&#8217;m guessing this is not a problem?
+2. BV comments not displaying on running page
+
+&#65532;
+User Settings &gt; Account Deletion
+1. Change text to:
+( ) Close my account.
+( ) I wish to close my account and delete all my comments.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Running Events&lt;br&gt;
+1. /running/events &amp;gt; World is broken and/or too slow&lt;br&gt;
+2. Remove &quot;Event Updates&quot; from both the /running page and
+/running/events pages (/running/events map should stretch the
+length of the page)&lt;/p&gt;
+&lt;p&gt;Bazaar Voice&lt;br&gt;
+1. BV test comments showing up &lt;a href=
+&quot;http://reviews.asics.co.uk/bvstaging/8011-&quot;&gt;http://reviews.asics.co.uk/bvstaging/8011-&lt;/a&gt;
+en_gb/2446/gel-kayano-17-reviews/reviews.htm. I&amp;#8217;m guessing
+this is not a problem?&lt;br&gt;
+2. BV comments not displaying on running page&lt;/p&gt;
+&lt;p&gt;&amp;#65532;&lt;br&gt;
+User Settings &amp;gt; Account Deletion&lt;br&gt;
+1. Change text to:&lt;br&gt;
+( ) Close my account. ( ) I wish to close my account and delete all
+my comments.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T12:13:40+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">877</number>
+      <permalink>asics-changes-events-etc</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Events etc.</title>
+      <updated-at type="datetime">2011-09-20T12:13:49+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/877</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

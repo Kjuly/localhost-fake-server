@@ -1,0 +1,62 @@
+{
+  "parents": [
+    {
+      "sha": "c6d72156027a9686ea871ed46f6c815e5e9cf7c0",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/c6d72156027a9686ea871ed46f6c815e5e9cf7c0"
+    },
+    {
+      "sha": "9a88173f9c57f51445cd2f0ad9a739fe6d2e1860",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/9a88173f9c57f51445cd2f0ad9a739fe6d2e1860"
+    }
+  ],
+  "commit": {
+    "committer": {
+      "date": "2011-08-24T02:38:21-07:00",
+      "email": "xiaoyi.chen@hotmail.com",
+      "name": "Xiaoyi Chen"
+    },
+    "author": {
+      "date": "2011-08-24T02:38:21-07:00",
+      "email": "xiaoyi.chen@hotmail.com",
+      "name": "Xiaoyi Chen"
+    },
+    "message": "Merge branch 'master' of github.com:theplant/GBox",
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/78555862e9c49b0a7e9a80c2675ecfac2094f00d",
+    "tree": {
+      "sha": "aa6ce8dacddff6cb85d5957cf0017de1c6e6b8d3",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/aa6ce8dacddff6cb85d5957cf0017de1c6e6b8d3"
+    }
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "url": "https://api.github.com/users/chenxiaoyi",
+    "login": "chenxiaoyi",
+    "id": 877966
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "url": "https://api.github.com/users/chenxiaoyi",
+    "login": "chenxiaoyi",
+    "id": 877966
+  },
+  "files": [
+    {
+      "blob_url": "https://github.com/theplant/GBox/blob/78555862e9c49b0a7e9a80c2675ecfac2094f00d/GBox/GBCrashReport.m",
+      "filename": "GBox/GBCrashReport.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/78555862e9c49b0a7e9a80c2675ecfac2094f00d/GBox/GBCrashReport.m",
+      "deletions": 16,
+      "status": "modified",
+      "additions": 13,
+      "changes": 29,
+      "sha": "78555862e9c49b0a7e9a80c2675ecfac2094f00d",
+      "patch": "--- a/GBox/GBCrashReport.m\n+++ b/GBox/GBCrashReport.m\n@@ -21,6 +21,7 @@\n }\n \n \n+\n - (NSString*)GBFindNewCrashReport:(NSString*) appName crashLogsFolder:(NSString*) crashLogsFolder\n {\n \tNSDirectoryEnumerator*\tenny = [[NSFileManager defaultManager] enumeratorAtPath: crashLogsFolder];\n@@ -87,8 +88,6 @@\n         {\n             NSLog(@\"==================has new crash\");\n             \n-            //NSError **err;\n-            //NSString *crashContents = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:newCrashReport]];\n             \n             NSError * err;\n             \n@@ -96,43 +95,41 @@\n                                         initWithContentsOfFile:newCrashReport\n                                         encoding:NSUTF8StringEncoding\n                                         error:&err];\n-            //NSLog(crashContents);\n             \n+            NSString *post = [NSString stringWithFormat:@\"entry.0.single=%@&pageNumber=0&backupCache=&submit=Submit\",crashContents];\n             \n-            NSString *post = [NSString stringWithFormat:@\"entry.0.single=%@&submit=Submit\",crashContents];\n-            NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];\n             \n-            NSString *postLength = [NSString stringWithFormat:@\"%d\", [postData length]];\n+            NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];\n+            NSString *postLength = [NSString stringWithFormat:@\"%d\", [post length]];\n             \n-            NSLog(@\"===============length%d\", [postData length]);\n-            NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init] ;\n+            NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] init] autorelease];\n             [request setURL:[NSURL URLWithString:@\"https://docs.google.com/spreadsheet/formResponse?formkey=dFJyTzZMOGUwSnBEWktXYnl3SWpZRXc6MQ&amp;ifq\"]];\n             [request setHTTPMethod:@\"POST\"];\n             [request setValue:postLength forHTTPHeaderField:@\"Content-Length\"];\n-            [request setValue:@\"text/html; charset=UTF-8\" forHTTPHeaderField:@\"Content-Type\"];\n+            [request setValue:@\"application/x-www-form-urlencoded\" forHTTPHeaderField:@\"Content-Type\"];\n             [request setHTTPBody:postData];\n             \n+            \n             [NSURLConnection connectionWithRequest:request delegate:self];\n+\n             \n             \n             [[NSUserDefaults standardUserDefaults] setValue:crashReportTime forKey:@\"GBoxLastCrashTime\"];\n             return YES;\n         }else{\n             NSLog(@\"==================has no crash\");\n-            NSError * err;\n+            /*NSError * err;\n             \n             NSString * crashContents = [[NSString alloc]\n                                         initWithContentsOfFile:newCrashReport\n                                         encoding:NSUTF8StringEncoding\n                                         error:&err];\n-            NSLog(crashContents);\n+           \n+            NSString *post = [NSString stringWithFormat:@\"entry.0.single=%@&pageNumber=0&backupCache=&submit=Submit\",crashContents];\n             \n-            //NSString *post = @\"entry.0.single=testtom2&submit=Submit\";\n-            /* NSString *post = [NSString stringWithFormat:@\"entry.0.single=%@&pageNumber=0&backupCache=&submit=Submit\",crashContents];\n-             NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];\n-             \n+         \n+             NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];\n              NSString *postLength = [NSString stringWithFormat:@\"%d\", [post length]];\n-             NSLog(@\"==================length%d\", [post length]);\n              \n              NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] init] autorelease];\n              [request setURL:[NSURL URLWithString:@\"https://docs.google.com/spreadsheet/formResponse?formkey=dFJyTzZMOGUwSnBEWktXYnl3SWpZRXc6MQ&amp;ifq\"]];"
+    }
+  ],
+  "stats": {
+    "deletions": 0,
+    "additions": 0,
+    "total": 0
+  },
+  "sha": "78555862e9c49b0a7e9a80c2675ecfac2094f00d",
+  "url": "https://api.github.com/repos/theplant/GBox/commits/78555862e9c49b0a7e9a80c2675ecfac2094f00d"
+}

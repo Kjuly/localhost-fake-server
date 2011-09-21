@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-04T16:12:52+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">315</number>
+  <permalink>store_locator-should-be-align</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>store_locator should be align </title>
+  <updated-at type="datetime">2011-09-06T13:07:47+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">7</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+  <priority-name>Low</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-04T16:12:52+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">315</number>
+      <permalink>store_locator-should-be-align</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>store_locator should be align </title>
+      <updated-at type="datetime">2011-08-04T16:13:08+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-07T13:37:17+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">315</number>
+      <permalink>store_locator-should-be-align</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>store_locator should be align </title>
+      <updated-at type="datetime">2011-08-07T13:37:34+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">2</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-08T17:35:19+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">315</number>
+      <permalink>store_locator-should-be-align</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>store_locator should be align </title>
+      <updated-at type="datetime">2011-08-08T17:35:34+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">3</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Not completely&#65306;
+
+http://www.uk.asics2-draft.theplant-dev.com/cricket/
+
+http://www.uk.asics2-draft.theplant-dev.com/rugby/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Not completely&amp;#65306;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/cricket/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/cricket/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/rugby/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/rugby/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-09T12:58:07+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">315</number>
+      <permalink>store_locator-should-be-align</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>store_locator should be align </title>
+      <updated-at type="datetime">2011-08-09T12:58:20+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T00:57:28+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">315</number>
+      <permalink>store_locator-should-be-align</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>store_locator should be align </title>
+      <updated-at type="datetime">2011-08-18T00:57:47+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">5</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T14:56:52+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">315</number>
+      <permalink>store_locator-should-be-align</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>store_locator should be align </title>
+      <updated-at type="datetime">2011-08-18T14:57:06+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">6</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-06T13:07:32+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">315</number>
+      <permalink>store_locator-should-be-align</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>store_locator should be align </title>
+      <updated-at type="datetime">2011-09-06T13:07:47+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">7</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/315</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>f76c219cf8759c27830a10eef7e6114b6110175f</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-04T16:12:52+09:00</created-at>
+      <filename>stores.png</filename>
+      <height type="integer">973</height>
+      <id type="integer">1236666</id>
+      <size type="integer">372884</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1016</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1236666/stores.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>6b0165a00aff5a128d78502787210afdbbb289f7</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-09T12:58:07+09:00</created-at>
+      <filename>2011-08-09_1153.png</filename>
+      <height type="integer">875</height>
+      <id type="integer">1251311</id>
+      <size type="integer">463379</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1047</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1251311/2011-08-09_1153.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

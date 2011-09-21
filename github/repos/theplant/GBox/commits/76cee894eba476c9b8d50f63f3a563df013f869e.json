@@ -1,0 +1,58 @@
+{
+  "parents": [
+    {
+      "sha": "b6fb3e0a4d7d0d35e8f99618460b690152ee721e",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/b6fb3e0a4d7d0d35e8f99618460b690152ee721e"
+    }
+  ],
+  "sha": "76cee894eba476c9b8d50f63f3a563df013f869e",
+  "commit": {
+    "message": "Initial backup problem trying.",
+    "tree": {
+      "sha": "40ff5f7f0dff1a1b19ad1cbc67e74488cda2605e",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/40ff5f7f0dff1a1b19ad1cbc67e74488cda2605e"
+    },
+    "author": {
+      "email": "xiaoyi.chen@hotmail.com",
+      "date": "2011-08-26T01:32:37-07:00",
+      "name": "Xiaoyi Chen"
+    },
+    "committer": {
+      "email": "xiaoyi.chen@hotmail.com",
+      "date": "2011-08-26T01:32:37-07:00",
+      "name": "Xiaoyi Chen"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/76cee894eba476c9b8d50f63f3a563df013f869e"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "login": "chenxiaoyi",
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "changes": 8,
+      "status": "modified",
+      "sha": "76cee894eba476c9b8d50f63f3a563df013f869e",
+      "raw_url": "https://github.com/theplant/GBox/raw/76cee894eba476c9b8d50f63f3a563df013f869e/GBox/GBoxAppDelegate.m",
+      "additions": 5,
+      "filename": "GBox/GBoxAppDelegate.m",
+      "deletions": 3,
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -122,10 +122,10 @@\n     [[GBUtility sharedPList] insertPI:file3 progressIndicator:pi3];\n     [[GBUtility sharedPList] insertPI:file4 progressIndicator:pi4];\n     [[GBUtility sharedPList] insertPI:file5 progressIndicator:pi5];\n-        /*\n+\n     [defaults setBool:NO forKey:kGBSetupFinished];\n     [defaults synchronize];\n-     */\n+     \n     // check if this is the first run.\n     setupFinished = YES;\n     authController = [OAuthController authController]; \n@@ -424,7 +424,9 @@\n                                                 destination:newPath \n                                                       files:[fm contentsOfDirectoryAtPath:rootPath error:&error] \n                                                         tag:nil]  ;  \n-        \n+        if(error!=nil){\n+            NSLog(@\"error in backup: %@\",error);\n+        }\n         NSLog(@\"backup the old gbox folder to %@\", newPath);\n         \n     }else{",
+      "blob_url": "https://github.com/theplant/GBox/blob/76cee894eba476c9b8d50f63f3a563df013f869e/GBox/GBoxAppDelegate.m"
+    }
+  ],
+  "stats": {
+    "additions": 5,
+    "deletions": 3,
+    "total": 8
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "login": "chenxiaoyi",
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/76cee894eba476c9b8d50f63f3a563df013f869e"
+}

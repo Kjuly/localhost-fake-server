@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">104778</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-20T12:32:01+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">881</number>
+  <permalink>asics-changes-on-admin</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>ASICS changes on admin</title>
+  <updated-at type="datetime">2011-09-21T11:27:02+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>Zhen Wu</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/881</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>Admin
+1. Change &quot;Create&quot; button =&gt; &quot;Save as Draft&quot; when not in publish mode
+2. Change &quot;Update&quot; button =&gt; &quot;Save changes as Draft&quot; when not in publish
+mode
+3. View/edit list is too long in admin</original-body>
+  <latest-body>Admin
+1. Change &quot;Create&quot; button =&gt; &quot;Save as Draft&quot; when not in publish mode
+2. Change &quot;Update&quot; button =&gt; &quot;Save changes as Draft&quot; when not in publish
+mode
+3. View/edit list is too long in admin</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Admin&lt;br&gt;
+1. Change &quot;Create&quot; button =&amp;gt; &quot;Save as Draft&quot; when not in publish
+mode&lt;br&gt;
+2. Change &quot;Update&quot; button =&amp;gt; &quot;Save changes as Draft&quot; when not in
+publish&lt;br&gt;
+mode&lt;br&gt;
+3. View/edit list is too long in admin&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Admin
+1. Change &quot;Create&quot; button =&gt; &quot;Save as Draft&quot; when not in publish mode
+2. Change &quot;Update&quot; button =&gt; &quot;Save changes as Draft&quot; when not in publish
+mode
+3. View/edit list is too long in admin</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Admin&lt;br&gt;
+1. Change &quot;Create&quot; button =&amp;gt; &quot;Save as Draft&quot; when not in publish
+mode&lt;br&gt;
+2. Change &quot;Update&quot; button =&amp;gt; &quot;Save changes as Draft&quot; when not in
+publish&lt;br&gt;
+mode&lt;br&gt;
+3. View/edit list is too long in admin&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T12:32:01+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">881</number>
+      <permalink>asics-changes-on-admin</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes on admin</title>
+      <updated-at type="datetime">2011-09-20T12:32:11+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/881</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T11:26:49+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">881</number>
+      <permalink>asics-changes-on-admin</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes on admin</title>
+      <updated-at type="datetime">2011-09-21T11:27:02+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/881</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

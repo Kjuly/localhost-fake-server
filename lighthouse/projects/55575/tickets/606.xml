@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-29T09:01:32+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">606</number>
+  <permalink>store-locator-keys</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Store Locator Keys</title>
+  <updated-at type="datetime">2011-08-29T17:54:24+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/606</url>
+  <priority-name>Low</priority-name>
+  <original-body>If I search for:
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/translations?commit=Search&amp;keyword=store_locator&amp;utf8=%E2%9C%93
+
+I get a lot of keys. Could you please check that:
+
+* Not showing legacy keys
+* All keys used in this feature have the prefix store_locator</original-body>
+  <latest-body>If I search for:
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/translations?commit=Search&amp;keyword=store_locator&amp;utf8=%E2%9C%93
+
+I get a lot of keys. Could you please check that:
+
+* Not showing legacy keys
+* All keys used in this feature have the prefix store_locator</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;If I search for:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/translations?commit=Search&amp;amp;keyword=store_locator&amp;amp;utf8=%E2%9C%93&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/admin/translations?comm...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I get a lot of keys. Could you please check that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not showing legacy keys&lt;/li&gt;
+&lt;li&gt;All keys used in this feature have the prefix
+store_locator&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>If I search for:
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/translations?commit=Search&amp;keyword=store_locator&amp;utf8=%E2%9C%93
+
+I get a lot of keys. Could you please check that:
+
+* Not showing legacy keys
+* All keys used in this feature have the prefix store_locator</body>
+      <body-html>&lt;div&gt;&lt;p&gt;If I search for:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/translations?commit=Search&amp;amp;keyword=store_locator&amp;amp;utf8=%E2%9C%93&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/admin/translations?comm...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I get a lot of keys. Could you please check that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not showing legacy keys&lt;/li&gt;
+&lt;li&gt;All keys used in this feature have the prefix
+store_locator&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T09:01:32+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">606</number>
+      <permalink>store-locator-keys</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator Keys</title>
+      <updated-at type="datetime">2011-08-29T09:01:46+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/606</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Hi,
+
+We organized all text that relate to store_locator with the prefix store_locator. if you want search this part translations, maybe you can use this search key: &quot;store_locator.search.&quot;</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;We organized all text that relate to store_locator with the
+prefix store_locator. if you want search this part translations,
+maybe you can use this search key: &quot;store_locator.search.&quot;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T12:51:12+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">606</number>
+      <permalink>store-locator-keys</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Store Locator Keys</title>
+      <updated-at type="datetime">2011-08-29T12:51:25+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/606</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>ok. sounds reasonable.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;ok. sounds reasonable.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-29T17:54:10+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">606</number>
+      <permalink>store-locator-keys</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Store Locator Keys</title>
+      <updated-at type="datetime">2011-08-29T17:54:24+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/606</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

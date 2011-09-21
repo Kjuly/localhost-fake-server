@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">5</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-07-18T11:25:35+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">202</number>
+  <permalink>sidebar-shared-should-hide-when-zoom-the-product-image</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>sidebar shared should hide when zoom the product image</title>
+  <updated-at type="datetime">2011-09-06T13:24:14+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">5</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/202</url>
+  <priority-name>Low</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-18T11:25:35+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">202</number>
+      <permalink>sidebar-shared-should-hide-when-zoom-the-product-image</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>sidebar shared should hide when zoom the product image</title>
+      <updated-at type="datetime">2011-07-18T11:25:49+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/202</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">5</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-07-29T12:34:23+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">202</number>
+      <permalink>sidebar-shared-should-hide-when-zoom-the-product-image</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>sidebar shared should hide when zoom the product image</title>
+      <updated-at type="datetime">2011-07-29T12:34:38+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/202</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">5</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T18:25:01+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">202</number>
+      <permalink>sidebar-shared-should-hide-when-zoom-the-product-image</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>sidebar shared should hide when zoom the product image</title>
+      <updated-at type="datetime">2011-08-21T18:25:14+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">3</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/202</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">5</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T22:01:10+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">202</number>
+      <permalink>sidebar-shared-should-hide-when-zoom-the-product-image</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>sidebar shared should hide when zoom the product image</title>
+      <updated-at type="datetime">2011-08-21T22:01:24+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">4</version>
+      <user-name>Jun</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/202</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">5</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-06T13:23:58+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">202</number>
+      <permalink>sidebar-shared-should-hide-when-zoom-the-product-image</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>sidebar shared should hide when zoom the product image</title>
+      <updated-at type="datetime">2011-09-06T13:24:14+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">5</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/202</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment type="Attachment">
+      <code>8e29e9a9b378730b57a04d6c2331291bb366ffc2</code>
+      <content-type>application/x-shockwave-flash</content-type>
+      <created-at type="datetime">2011-07-18T11:25:36+09:00</created-at>
+      <filename>zoom.swf</filename>
+      <height type="integer" nil="true"></height>
+      <id type="integer">1179388</id>
+      <size type="integer">9218063</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer" nil="true"></width>
+      <url>http://theplant.lighthouseapp.com/attachments/1179388/zoom.swf</url>
+    </attachment>
+    <attachment-image type="Attachment">
+      <code>7ab65dc5747da147436225b8516be1fe89a70737</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-07-18T11:25:37+09:00</created-at>
+      <filename>2011-07-18_1023.png</filename>
+      <height type="integer">974</height>
+      <id type="integer">1179389</id>
+      <size type="integer">585081</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1185</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1179389/2011-07-18_1023.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

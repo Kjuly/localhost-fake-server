@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects type="array">
+  <project>
+    <archived type="boolean">false</archived>
+    <created-at type="datetime">2010-07-05T12:57:47+09:00</created-at>
+    <default-assigned-user-id type="integer" nil="true"></default-assigned-user-id>
+    <default-milestone-id type="integer" nil="true"></default-milestone-id>
+    <default-ticket-text></default-ticket-text>
+    <description></description>
+    <description-html></description-html>
+    <hidden type="boolean">false</hidden>
+    <id type="integer">55575</id>
+    <license nil="true"></license>
+    <membership-id type="">181845</membership-id>
+    <name>ASICS on Qor</name>
+    <open-tickets-count type="integer">186</open-tickets-count>
+    <oss-readonly type="boolean">false</oss-readonly>
+    <permalink>asics2</permalink>
+    <public type="boolean">false</public>
+    <send-changesets-to-events type="boolean">true</send-changesets-to-events>
+    <updated-at type="datetime">2011-08-29T23:38:41+09:00</updated-at>
+    <open-states-list>new,open,committed,pending_review</open-states-list>
+    <closed-states-list>resolved,hold,invalid</closed-states-list>
+    <open-states>new/f17  # You can add comments here
+open/aaa # if you want to.
+committed/099
+pending_review/0FF</open-states>
+    <closed-states>resolved/6A0 # You can customize colors
+hold/EB0     # with 3 or 6 character hex codes
+invalid/A30  # 'A30' expands to 'AA3300'</closed-states>
+  </project>
+  <project>
+    <archived type="boolean">false</archived>
+    <created-at type="datetime">2009-05-15T13:52:53+09:00</created-at>
+    <default-assigned-user-id type="integer">24538</default-assigned-user-id>
+    <default-milestone-id type="integer">0</default-milestone-id>
+    <default-ticket-text></default-ticket-text>
+    <description></description>
+    <description-html></description-html>
+    <hidden type="boolean">false</hidden>
+    <id type="integer">30780</id>
+    <license nil="true"></license>
+    <membership-id type="">181846</membership-id>
+    <name>Qor</name>
+    <open-tickets-count type="integer">79</open-tickets-count>
+    <oss-readonly type="boolean">false</oss-readonly>
+    <permalink>qor</permalink>
+    <public type="boolean">false</public>
+    <send-changesets-to-events type="boolean">true</send-changesets-to-events>
+    <updated-at type="datetime">2011-08-29T22:52:07+09:00</updated-at>
+    <open-states-list>new,open</open-states-list>
+    <closed-states-list>resolved,hold,invalid</closed-states-list>
+    <open-states>new/f17  # You can add comments here
+open/aaa # if you want to.</open-states>
+    <closed-states>resolved/6A0 # You can customize colors
+hold/EB0     # with 3 or 6 character hex codes
+invalid/A30  # 'A30' expands to 'AA3300'</closed-states>
+  </project>
+</projects>

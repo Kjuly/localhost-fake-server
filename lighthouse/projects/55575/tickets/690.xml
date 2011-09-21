@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-03T13:06:28+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">690</number>
+  <permalink>ayami-missing-product-images</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>AYAMi missing product images</title>
+  <updated-at type="datetime">2011-09-03T13:51:16+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">2</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/690</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>http://www.uk.asics2-draft.theplant-dev.com/running/ayami/</original-body>
+  <latest-body>http://www.uk.asics2-draft.theplant-dev.com/running/ayami/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/ayami/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/ayami/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/running/ayami/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/ayami/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/ayami/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-03T13:06:28+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">690</number>
+      <permalink>ayami-missing-product-images</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>AYAMi missing product images</title>
+      <updated-at type="datetime">2011-09-03T13:06:43+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/690</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Caused by import the data yesterday??</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Caused by import the data yesterday??&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-03T13:50:58+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:priority: 3
+:assigned_user: 95021
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">690</number>
+      <permalink>ayami-missing-product-images</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>AYAMi missing product images</title>
+      <updated-at type="datetime">2011-09-03T13:51:15+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/690</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>3177770a9173bec5fa892b6fc993147275910a3e</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-03T13:50:58+09:00</created-at>
+      <filename>2011-09-03_1250.png</filename>
+      <height type="integer">818</height>
+      <id type="integer">1347546</id>
+      <size type="integer">332926</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1038</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1347546/2011-09-03_1250.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

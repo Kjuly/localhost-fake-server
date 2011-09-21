@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">18874</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-11T21:45:17+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">780</number>
+  <permalink>publish-console-message-tweak</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>open</state>
+  <tag nil="true"></tag>
+  <title>Publish &gt; Console message tweak</title>
+  <updated-at type="datetime">2011-09-14T01:08:10+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">4</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Juice</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/780</url>
+  <priority-name>Low</priority-name>
+  <original-body>Change from &quot;Resolving publish dependence... (this step may take sometime, please be patient)&quot; =&gt;
+
+&quot;Resolving publish dependencies... this step may take some time. If you wish to see the result, please be patient. However, you can change pages or close the browser and the publish will still execute (provided there are no errors).&quot;</original-body>
+  <latest-body>Change from &quot;Resolving publish dependence... (this step may take sometime, please be patient)&quot; =&gt;
+
+&quot;Resolving publish dependencies... this step may take some time. If you wish to see the result, please be patient. However, you can change pages or close the browser and the publish will still execute (provided there are no errors).&quot;</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Change from &quot;Resolving publish dependence... (this step may take
+sometime, please be patient)&quot; =&amp;gt;&lt;/p&gt;
+&lt;p&gt;&quot;Resolving publish dependencies... this step may take some time.
+If you wish to see the result, please be patient. However, you can
+change pages or close the browser and the publish will still
+execute (provided there are no errors).&quot;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">18874</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Change from &quot;Resolving publish dependence... (this step may take sometime, please be patient)&quot; =&gt;
+
+&quot;Resolving publish dependencies... this step may take some time. If you wish to see the result, please be patient. However, you can change pages or close the browser and the publish will still execute (provided there are no errors).&quot;</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Change from &quot;Resolving publish dependence... (this step may take
+sometime, please be patient)&quot; =&amp;gt;&lt;/p&gt;
+&lt;p&gt;&quot;Resolving publish dependencies... this step may take some time.
+If you wish to see the result, please be patient. However, you can
+change pages or close the browser and the publish will still
+execute (provided there are no errors).&quot;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-11T21:45:17+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">780</number>
+      <permalink>publish-console-message-tweak</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Publish &gt; Console message tweak</title>
+      <updated-at type="datetime">2011-09-11T21:45:30+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Juice</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/780</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Hi Anatole,
+
+  Did it, but wait to deploy it to production.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Hi Anatole,&lt;/p&gt;
+&lt;p&gt;Did it, but wait to deploy it to production.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T23:44:37+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 18874
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">780</number>
+      <permalink>publish-console-message-tweak</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Publish &gt; Console message tweak</title>
+      <updated-at type="datetime">2011-09-12T23:44:57+09:00</updated-at>
+      <user-id type="integer">18874</user-id>
+      <version type="integer">2</version>
+      <user-name>Juice</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/780</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T23:45:16+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">780</number>
+      <permalink>publish-console-message-tweak</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Publish &gt; Console message tweak</title>
+      <updated-at type="datetime">2011-09-12T23:45:36+09:00</updated-at>
+      <user-id type="integer">18874</user-id>
+      <version type="integer">3</version>
+      <user-name>Juice</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/780</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">18874</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Please add linebreaks and slightly tweak the text:
+
+
+Resolving publish dependencies... this step may take some time. 
+If you wish to see the result, please be patient. However, you 
+can change pages or close the browser and, provided there are no errors,
+the items will be published.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Please add linebreaks and slightly tweak the text:&lt;/p&gt;
+&lt;p&gt;Resolving publish dependencies... this step may take some
+time.&lt;br&gt;
+If you wish to see the result, please be patient. However, you&lt;br&gt;
+can change pages or close the browser and, provided there are no
+errors,&lt;br&gt;
+the items will be published.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-14T01:07:54+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">780</number>
+      <permalink>publish-console-message-tweak</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>Publish &gt; Console message tweak</title>
+      <updated-at type="datetime">2011-09-14T01:08:10+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">4</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Juice</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/780</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

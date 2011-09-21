@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-11T10:04:22+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">774</number>
+  <permalink>production-server-products-zoom-returns-null</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Production Server &gt; Products &gt; Zoom returns null</title>
+  <updated-at type="datetime">2011-09-14T00:55:22+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/774</url>
+  <priority-name>Low</priority-name>
+  <original-body>Example: http://www.uk.asics2.theplant-dev.com/indoor/products/gel-blast-men/
+
+See attached.</original-body>
+  <latest-body>Example: http://www.uk.asics2.theplant-dev.com/indoor/products/gel-blast-men/
+
+See attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Example: &lt;a href=
+&quot;http://www.uk.asics2.theplant-dev.com/indoor/products/gel-blast-men/&quot;&gt;
+http://www.uk.asics2.theplant-dev.com/indoor/products/gel-blast-men/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Example: http://www.uk.asics2.theplant-dev.com/indoor/products/gel-blast-men/
+
+See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Example: &lt;a href=
+&quot;http://www.uk.asics2.theplant-dev.com/indoor/products/gel-blast-men/&quot;&gt;
+http://www.uk.asics2.theplant-dev.com/indoor/products/gel-blast-men/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-11T10:04:22+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">774</number>
+      <permalink>production-server-products-zoom-returns-null</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Production Server &gt; Products &gt; Zoom returns null</title>
+      <updated-at type="datetime">2011-09-11T10:04:34+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/774</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>This issue has been fixed on draft site ( http://www.uk.asics2-draft.theplant-dev.com/indoor/products/gel-blast-men/ ), after deploy to production site, it will be OK.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;This issue has been fixed on draft site ( &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/indoor/products/gel-blast-men/&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/indoor/products/gel-bla...&lt;/a&gt;
+), after deploy to production site, it will be OK.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T12:16:28+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">774</number>
+      <permalink>production-server-products-zoom-returns-null</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Production Server &gt; Products &gt; Zoom returns null</title>
+      <updated-at type="datetime">2011-09-12T12:16:41+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/774</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-14T00:55:09+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">774</number>
+      <permalink>production-server-products-zoom-returns-null</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Production Server &gt; Products &gt; Zoom returns null</title>
+      <updated-at type="datetime">2011-09-14T00:55:22+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/774</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>9c87d00dda2a03d162a2e05a1029d8761b87b54c</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-11T10:04:22+09:00</created-at>
+      <filename>zoom-broken.png</filename>
+      <height type="integer">699</height>
+      <id type="integer">1373349</id>
+      <size type="integer">182128</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1200</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1373349/zoom-broken.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

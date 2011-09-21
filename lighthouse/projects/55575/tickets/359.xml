@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-16T12:40:42+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">359</number>
+  <permalink>choose-a-sport-doesnt-works</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag>&quot;choose a sport&quot; ie7</tag>
+  <title>Choose a sport doesn't works (IE7 IE8)</title>
+  <updated-at type="datetime">2011-09-19T14:53:04+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">8</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-16T12:40:42+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works</title>
+      <updated-at type="datetime">2011-08-16T12:40:58+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">158028</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-19T11:54:11+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works</title>
+      <updated-at type="datetime">2011-08-19T11:54:51+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>lancee LY</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T19:25:40+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 158028
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works</title>
+      <updated-at type="datetime">2011-08-21T19:25:58+09:00</updated-at>
+      <user-id type="integer">158028</user-id>
+      <version type="integer">3</version>
+      <user-name>lancee LY</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Still does not work.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Still does not work.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T16:49:30+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works</title>
+      <updated-at type="datetime">2011-09-15T16:49:46+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T17:34:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:title: Choose a sport doesn't works
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works (IE7 IE8)</title>
+      <updated-at type="datetime">2011-09-15T17:34:26+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">5</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-16T17:54:17+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works (IE7 IE8)</title>
+      <updated-at type="datetime">2011-09-16T17:54:37+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">6</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-18T18:03:12+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works (IE7 IE8)</title>
+      <updated-at type="datetime">2011-09-18T18:03:34+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">7</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-19T14:52:49+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">359</number>
+      <permalink>choose-a-sport-doesnt-works</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>&quot;choose a sport&quot; ie7</tag>
+      <title>Choose a sport doesn't works (IE7 IE8)</title>
+      <updated-at type="datetime">2011-09-19T14:53:04+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">8</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/359</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>3d7c61a57debaa5d9e429d05eb93f28c2a0e1d76</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-16T12:40:42+09:00</created-at>
+      <filename>2011-08-16_1136.png</filename>
+      <height type="integer">914</height>
+      <id type="integer">1273782</id>
+      <size type="integer">689900</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1317</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1273782/2011-08-16_1136.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

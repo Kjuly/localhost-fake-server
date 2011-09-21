@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-01-26T19:24:20+09:00</created-at>
+  <creator-id type="integer">24538</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">235</number>
+  <permalink>tree-theme-bug-click-yes-after-you-click-trashbin-icon</permalink>
+  <priority type="integer">11</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>tree theme bug: click yes after you click trashbin icon</title>
+  <updated-at type="datetime">2011-01-27T19:08:35+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">2</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Jan Xie</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/235</url>
+  <priority-name nil="true"></priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-01-26T19:24:20+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">235</number>
+      <permalink>tree-theme-bug-click-yes-after-you-click-trashbin-icon</permalink>
+      <priority type="integer">11</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag>,</tag>
+      <title>tree theme bug: click yes after you click trashbin icon</title>
+      <updated-at type="datetime">2011-01-26T19:30:28+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">1</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/235</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-01-27T19:08:29+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:tag: &quot;,&quot;
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">235</number>
+      <permalink>tree-theme-bug-click-yes-after-you-click-trashbin-icon</permalink>
+      <priority type="integer">11</priority>
+      <project-id type="integer">30780</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>tree theme bug: click yes after you click trashbin icon</title>
+      <updated-at type="datetime">2011-01-27T19:08:35+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">2</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/235</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

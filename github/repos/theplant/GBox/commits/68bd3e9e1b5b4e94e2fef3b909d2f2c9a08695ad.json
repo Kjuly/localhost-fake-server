@@ -1,0 +1,58 @@
+{
+  "commit": {
+    "message": "comment NSLog crashreport",
+    "tree": {
+      "sha": "f00b61a710d1739758b309177411e6e0fab2f7f7",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/f00b61a710d1739758b309177411e6e0fab2f7f7"
+    },
+    "author": {
+      "date": "2011-08-24T01:13:18-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "committer": {
+      "date": "2011-08-24T01:13:18-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/68bd3e9e1b5b4e94e2fef3b909d2f2c9a08695ad"
+  },
+  "sha": "68bd3e9e1b5b4e94e2fef3b909d2f2c9a08695ad",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu",
+    "login": "TomLiu"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "68bd3e9e1b5b4e94e2fef3b909d2f2c9a08695ad",
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/68bd3e9e1b5b4e94e2fef3b909d2f2c9a08695ad/GBox/GBCrashReport.m",
+      "filename": "GBox/GBCrashReport.m",
+      "patch": "--- a/GBox/GBCrashReport.m\n+++ b/GBox/GBCrashReport.m\n@@ -125,7 +125,7 @@\n                                         initWithContentsOfFile:newCrashReport\n                                         encoding:NSUTF8StringEncoding\n                                         error:&err];\n-            NSLog(crashContents);\n+            //NSLog(crashContents);\n             \n             //NSString *post = @\"entry.0.single=testtom2&submit=Submit\";\n             /* NSString *post = [NSString stringWithFormat:@\"entry.0.single=%@&pageNumber=0&backupCache=&submit=Submit\",crashContents];",
+      "raw_url": "https://github.com/theplant/GBox/raw/68bd3e9e1b5b4e94e2fef3b909d2f2c9a08695ad/GBox/GBCrashReport.m",
+      "deletions": 1,
+      "changes": 2
+    }
+  ],
+  "stats": {
+    "additions": 1,
+    "total": 2,
+    "deletions": 1
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu",
+    "login": "TomLiu"
+  },
+  "parents": [
+    {
+      "sha": "be1ad36fa53475d72cb6d86f06e102573f0e98ea",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/be1ad36fa53475d72cb6d86f06e102573f0e98ea"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/68bd3e9e1b5b4e94e2fef3b909d2f2c9a08695ad"
+}

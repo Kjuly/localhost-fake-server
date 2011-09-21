@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-08T12:55:56+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">750</number>
+  <permalink>diffs-page-error</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag>hoptoad</tag>
+  <title>diffs page error</title>
+  <updated-at type="datetime">2011-09-13T12:41:29+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">5</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/750</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>Created from Airbrake: [RuntimeError: RuntimeError: ambassador_news_item not found in all configured children: [:meta, :mail, :translation, :setting, :running_clinic, :tech_tour, :foot_id, :event_reservation, :widget_set, :diff, :category, :long_process, :sub_category, :technology, :product, ](http://theplant.airbrakeapp.com/errors/13200549)</original-body>
+  <latest-body>Created from Airbrake: [RuntimeError: RuntimeError: ambassador_news_item not found in all configured children: [:meta, :mail, :translation, :setting, :running_clinic, :tech_tour, :foot_id, :event_reservation, :widget_set, :diff, :category, :long_process, :sub_category, :technology, :product, ](http://theplant.airbrakeapp.com/errors/13200549)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: [RuntimeError: RuntimeError:
+ambassador_news_item not found in all configured children: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/13200549&quot;&gt;:meta, :mail,
+:translation, :setting, :running_clinic, :tech_tour, :foot_id,
+:event_reservation, :widget_set, :diff, :category, :long_process,
+:sub_category, :technology, :product,&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Created from Airbrake: [RuntimeError: RuntimeError: ambassador_news_item not found in all configured children: [:meta, :mail, :translation, :setting, :running_clinic, :tech_tour, :foot_id, :event_reservation, :widget_set, :diff, :category, :long_process, :sub_category, :technology, :product, ](http://theplant.airbrakeapp.com/errors/13200549)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: [RuntimeError: RuntimeError:
+ambassador_news_item not found in all configured children: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/13200549&quot;&gt;:meta, :mail,
+:translation, :setting, :running_clinic, :tech_tour, :foot_id,
+:event_reservation, :widget_set, :diff, :category, :long_process,
+:sub_category, :technology, :product,&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T12:55:56+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">750</number>
+      <permalink>diffs-page-error</permalink>
+      <priority type="integer">0</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>diffs page error</title>
+      <updated-at type="datetime">2011-09-08T12:56:05+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/750</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">18874</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T12:56:28+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:priority: 0
+:assigned_user: 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">750</number>
+      <permalink>diffs-page-error</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>diffs page error</title>
+      <updated-at type="datetime">2011-09-08T12:56:39+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Juice</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/750</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T13:08:40+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 18874
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">750</number>
+      <permalink>diffs-page-error</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>diffs page error</title>
+      <updated-at type="datetime">2011-09-08T13:08:51+09:00</updated-at>
+      <user-id type="integer">18874</user-id>
+      <version type="integer">3</version>
+      <user-name>Juice</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/750</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Another? https://theplant.airbrakeapp.com/errors/13201753</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Another? &lt;a href=
+&quot;https://theplant.airbrakeapp.com/errors/13201753&quot;&gt;https://theplant.airbrakeapp.com/errors/13201753&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T13:15:57+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">750</number>
+      <permalink>diffs-page-error</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>diffs page error</title>
+      <updated-at type="datetime">2011-09-08T13:16:12+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/750</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-13T12:41:15+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">750</number>
+      <permalink>diffs-page-error</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>hoptoad</tag>
+      <title>diffs page error</title>
+      <updated-at type="datetime">2011-09-13T12:41:29+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">5</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/750</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+</ticket>

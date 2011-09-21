@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<token>
+  <created-at type="datetime">2011-07-28T11:19:20+09:00</created-at>
+  <note>devstats</note>
+  <project-id type="integer" nil="true"></project-id>
+  <read-only type="boolean">true</read-only>
+  <token>fbc77173b4e6d050d8b8fa4184190ab91444d737</token>
+  <user-id type="integer">158232</user-id>
+  <account>http://theplant.lighthouseapp.com</account>
+</token>

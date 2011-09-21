@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<milestone>
+  <completed-at type="datetime" nil="true"></completed-at>
+  <created-at type="datetime">2011-01-19T13:37:54+09:00</created-at>
+  <due-on type="datetime">2011-02-01T00:00:00+09:00</due-on>
+  <goals>* 1.9 infrastructure
+* navigation bar
+* status bar</goals>
+  <goals-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;1.9 infrastructure&lt;/li&gt;
+&lt;li&gt;navigation bar&lt;/li&gt;
+&lt;li&gt;status bar&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</goals-html>
+  <id type="integer">98782</id>
+  <open-tickets-count type="integer">0</open-tickets-count>
+  <permalink>iteration-2</permalink>
+  <project-id type="integer">55575</project-id>
+  <tickets-count type="integer">4</tickets-count>
+  <title>Iteration 2</title>
+  <updated-at type="datetime">2011-02-10T16:27:08+09:00</updated-at>
+  <url>http://theplant.lighthouseapp.com/projects/55575/milestones/98782</url>
+  <user-name nil="true"></user-name>
+</milestone>

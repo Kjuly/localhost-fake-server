@@ -1,0 +1,69 @@
+{
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi",
+    "login": "chenxiaoyi"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi",
+    "login": "chenxiaoyi"
+  },
+  "files": [
+    {
+      "patch": "--- a/GBox/GBDataFacility.m\n+++ b/GBox/GBDataFacility.m\n@@ -1032,5 +1032,13 @@ static GBDataFacility* instance =nil;\n     \n }\n \n+-(void)organizeLocalEvents{\n+    \n+}\n+\n+-(void)organizeServerEvents{\n+    \n+}\n+\n \n @end",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/b4f6b78cf3c435904d71d70463f822423213adf9/GBox/GBDataFacility.m",
+      "deletions": 0,
+      "additions": 8,
+      "blob_url": "https://github.com/theplant/GBox/blob/b4f6b78cf3c435904d71d70463f822423213adf9/GBox/GBDataFacility.m",
+      "changes": 8,
+      "filename": "GBox/GBDataFacility.m",
+      "sha": "b4f6b78cf3c435904d71d70463f822423213adf9"
+    },
+    {
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -108,7 +108,7 @@ static GBSyncController * shareSyncController = nil;\n         if([entry class]!= [GDataEntryFolderDoc class]){\n         \n         [dataFacility insertEvent:0\n-                    withEventCode:kGBServerNewFile\n+                    withEventCode:kGBServerFileUpdated\n                          operandA:[entry identifier]\n                       andOperandB:nil];\n         }      ",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/b4f6b78cf3c435904d71d70463f822423213adf9/GBox/GBSyncController.m",
+      "deletions": 1,
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/b4f6b78cf3c435904d71d70463f822423213adf9/GBox/GBSyncController.m",
+      "changes": 2,
+      "filename": "GBox/GBSyncController.m",
+      "sha": "b4f6b78cf3c435904d71d70463f822423213adf9"
+    }
+  ],
+  "stats": {
+    "deletions": 1,
+    "additions": 9,
+    "total": 10
+  },
+  "parents": [
+    {
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    }
+  ],
+  "sha": "b4f6b78cf3c435904d71d70463f822423213adf9",
+  "commit": {
+    "tree": {
+      "sha": "3abd73b94cf781005657c0cef92a24e1d2b81afa",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/3abd73b94cf781005657c0cef92a24e1d2b81afa"
+    },
+    "message": "Initial server doc fetch change to using the server file updated logic.",
+    "committer": {
+      "date": "2011-09-02T01:27:32-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "author": {
+      "date": "2011-09-02T01:27:32-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/b4f6b78cf3c435904d71d70463f822423213adf9"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/b4f6b78cf3c435904d71d70463f822423213adf9"
+}

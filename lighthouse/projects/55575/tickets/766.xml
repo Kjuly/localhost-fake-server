@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">104778</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-09T15:20:22+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">766</number>
+  <permalink>running-clinics-two-same-messages</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Running Clinics&gt; Two same messages</title>
+  <updated-at type="datetime">2011-09-09T15:20:40+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">1</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Zhen Wu</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/766</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Medium</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-09T15:20:22+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">766</number>
+      <permalink>running-clinics-two-same-messages</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Running Clinics&gt; Two same messages</title>
+      <updated-at type="datetime">2011-09-09T15:20:38+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/766</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>10135fa4c9b033c4a79a7633d077723505ede7ff</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-09T15:20:23+09:00</created-at>
+      <filename>2011-09-09_1418.png</filename>
+      <height type="integer">972</height>
+      <id type="integer">1368103</id>
+      <size type="integer">274481</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1366</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1368103/2011-09-09_1418.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

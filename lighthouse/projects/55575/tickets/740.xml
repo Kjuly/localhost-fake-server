@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">12</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-07T22:22:15+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">740</number>
+  <permalink>product-catalog-comment-bubbles-running-page-comment-excerpt-should-be-from-bazaarvoice-if-bv-is-enabled</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Product Catalog: Comment Bubbles + Running Page comment excerpt should be from BazaarVoice if BV is enabled</title>
+  <updated-at type="datetime">2011-09-17T19:46:02+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">6</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/740</url>
+  <priority-name>Low</priority-name>
+  <original-body>See attached. 
+
+Comment bubbles/excerpts need to be BV powered if BV is enabled:
+
+
+http://www.uk.asics2-draft.theplant-dev.com/running/products/footwear/
+
+http://www.uk.asics2-draft.theplant-dev.com/running/
+
+Giving to you, ShaoShing, please pass along if someone else can do it... will require researching the BV documentation.</original-body>
+  <latest-body>See attached. 
+
+Comment bubbles/excerpts need to be BV powered if BV is enabled:
+
+
+http://www.uk.asics2-draft.theplant-dev.com/running/products/footwear/
+
+http://www.uk.asics2-draft.theplant-dev.com/running/
+
+Giving to you, ShaoShing, please pass along if someone else can do it... will require researching the BV documentation.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;
+&lt;p&gt;Comment bubbles/excerpts need to be BV powered if BV is
+enabled:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/products/footwear/&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/running/products/footwear/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Giving to you, ShaoShing, please pass along if someone else can
+do it... will require researching the BV documentation.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>See attached. 
+
+Comment bubbles/excerpts need to be BV powered if BV is enabled:
+
+
+http://www.uk.asics2-draft.theplant-dev.com/running/products/footwear/
+
+http://www.uk.asics2-draft.theplant-dev.com/running/
+
+Giving to you, ShaoShing, please pass along if someone else can do it... will require researching the BV documentation.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;
+&lt;p&gt;Comment bubbles/excerpts need to be BV powered if BV is
+enabled:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/products/footwear/&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/running/products/footwear/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Giving to you, ShaoShing, please pass along if someone else can
+do it... will require researching the BV documentation.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-07T22:22:15+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">740</number>
+      <permalink>product-catalog-comment-bubbles-running-page-comment-excerpt-should-be-from-bazaarvoice-if-bv-is-enabled</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Product Catalog: Comment Bubbles + Running Page comment excerpt should be from BazaarVoice if BV is enabled</title>
+      <updated-at type="datetime">2011-09-07T22:22:27+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/740</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-08T16:50:12+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">740</number>
+      <permalink>product-catalog-comment-bubbles-running-page-comment-excerpt-should-be-from-bazaarvoice-if-bv-is-enabled</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Product Catalog: Comment Bubbles + Running Page comment excerpt should be from BazaarVoice if BV is enabled</title>
+      <updated-at type="datetime">2011-09-08T16:50:24+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/740</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body>Another issue with this: product sorting should be based on BV if BV enabled. See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Another issue with this: product sorting should be based on BV
+if BV enabled. See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-11T10:02:25+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">740</number>
+      <permalink>product-catalog-comment-bubbles-running-page-comment-excerpt-should-be-from-bazaarvoice-if-bv-is-enabled</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Product Catalog: Comment Bubbles + Running Page comment excerpt should be from BazaarVoice if BV is enabled</title>
+      <updated-at type="datetime">2011-09-11T10:02:39+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/740</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">12</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T15:40:07+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">740</number>
+      <permalink>product-catalog-comment-bubbles-running-page-comment-excerpt-should-be-from-bazaarvoice-if-bv-is-enabled</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Product Catalog: Comment Bubbles + Running Page comment excerpt should be from BazaarVoice if BV is enabled</title>
+      <updated-at type="datetime">2011-09-15T15:40:17+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">4</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/740</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">12</attachments-count>
+      <body>Hi, Anatole, it's done, please check it.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Hi, Anatole, it's done, please check it.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-17T17:02:51+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">740</number>
+      <permalink>product-catalog-comment-bubbles-running-page-comment-excerpt-should-be-from-bazaarvoice-if-bv-is-enabled</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Product Catalog: Comment Bubbles + Running Page comment excerpt should be from BazaarVoice if BV is enabled</title>
+      <updated-at type="datetime">2011-09-17T17:03:03+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">5</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/740</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">12</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-17T19:45:50+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">740</number>
+      <permalink>product-catalog-comment-bubbles-running-page-comment-excerpt-should-be-from-bazaarvoice-if-bv-is-enabled</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Product Catalog: Comment Bubbles + Running Page comment excerpt should be from BazaarVoice if BV is enabled</title>
+      <updated-at type="datetime">2011-09-17T19:46:02+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">6</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/740</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>cafda8deade0a22e40a1e2dc9942f8a5fdb57bba</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-07T22:22:15+09:00</created-at>
+      <filename>inline-comment.png</filename>
+      <height type="integer">696</height>
+      <id type="integer">1359094</id>
+      <size type="integer">630846</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1050</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1359094/inline-comment.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>76bb65008732ca87f7e121eeca0e3cef0aa5b77c</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-07T22:22:15+09:00</created-at>
+      <filename>bubbles.png</filename>
+      <height type="integer">652</height>
+      <id type="integer">1359095</id>
+      <size type="integer">298969</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">720</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1359095/bubbles.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>beab8cb600840cd40e2e013ff5b882faa545fe33</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-11T10:02:25+09:00</created-at>
+      <filename>bv-integration-issue.png</filename>
+      <height type="integer">473</height>
+      <id type="integer">1373345</id>
+      <size type="integer">97049</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">330</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1373345/bv-integration-issue.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

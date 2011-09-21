@@ -1,0 +1,69 @@
+{
+  "committer": {
+    "login": "frankyue",
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "author": {
+    "login": "frankyue",
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "files": [
+    {
+      "patch": "--- a/GBox/GBoxNotifySystem.m\n+++ b/GBox/GBoxNotifySystem.m\n@@ -20,7 +20,9 @@\n         queue = [[NSMutableArray alloc] init];\n         NSString * iconpath = [[NSBundle mainBundle] pathForImageResource:@\"20110708044652228_easyicon_cn_48.icns\"];\n         nfwindow = [[GBoxNotifyWindow alloc] initiconpath:iconpath];\n-        [GrowlApplicationBridge setGrowlDelegate:self];\n+        \n+        [GrowlApplicationBridge setGrowlDelegate: self];\n+        [self registrationDictionaryForGrowl];\n     }\n     return self;\n }\n@@ -44,7 +46,7 @@\n     {\n         if ([GrowlApplicationBridge isGrowlInstalled])\n         {\n-            [GrowlApplicationBridge notifyWithTitle:event description:notify notificationName:GROWL_NOTIFICATIONS_DEFAULT iconData:nil priority:2 isSticky:NO clickContext:nil];\n+            [GrowlApplicationBridge notifyWithTitle:event description:notify notificationName:@\"GBox\" iconData:nil priority:2 isSticky:NO clickContext:nil];\n         }\n         else\n         {\n@@ -91,11 +93,13 @@\n     [self notifyaction];\n }\n \n+\n - (NSDictionary *) registrationDictionaryForGrowl\n {\n-    NSArray * notifications = [NSArray arrayWithObjects:GROWL_NOTIFICATION,GROWL_NOTIFICATIONS_ALL,GROWL_NOTIFICATIONS_DEFAULT, nil];\n-    return [NSDictionary dictionaryWithObjectsAndKeys: notifications, GROWL_NOTIFICATIONS_ALL,\n-            notifications, GROWL_NOTIFICATIONS_DEFAULT, nil];\n+    NSArray *allNotify = [NSArray arrayWithObjects:@\"GBoxNotify\", @\"GBox\", @\"notDefaultNote\", nil];\n+    NSArray *defaultNotify = [NSArray arrayWithObjects:@\"GBoxNotify\", @\"GBox\", nil];\n+\n+    return [NSDictionary dictionaryWithObjectsAndKeys:allNotify, GROWL_NOTIFICATIONS_ALL, defaultNotify, GROWL_NOTIFICATIONS_DEFAULT, nil];\n }\n \n @end",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/c917bf7b0b24b4464e187db434006ad6c647b96a/GBox/GBoxNotifySystem.m",
+      "deletions": 5,
+      "additions": 9,
+      "blob_url": "https://github.com/theplant/GBox/blob/c917bf7b0b24b4464e187db434006ad6c647b96a/GBox/GBoxNotifySystem.m",
+      "changes": 14,
+      "filename": "GBox/GBoxNotifySystem.m",
+      "sha": "c917bf7b0b24b4464e187db434006ad6c647b96a"
+    },
+    {
+      "patch": "--- a/GBox/Growl Registration Ticket.growlRegDict.plist\t\n+++ b/GBox/Growl Registration Ticket.growlRegDict.plist\t\n@@ -5,8 +5,12 @@\n \t<key>TicketVersion</key>\n \t<real>1.2</real>\n \t<key>AllNotifications</key>\n-\t<array/>\n+\t<array>\n+\t\t<string>Gbox</string>\n+\t</array>\n \t<key>DefaultNotifications</key>\n-\t<array/>\n+\t<array>\n+\t\t<string>Gbox</string>\n+\t</array>\n </dict>\n </plist>",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/c917bf7b0b24b4464e187db434006ad6c647b96a/GBox/Growl Registration Ticket.growlRegDict.plist",
+      "deletions": 2,
+      "additions": 6,
+      "blob_url": "https://github.com/theplant/GBox/blob/c917bf7b0b24b4464e187db434006ad6c647b96a/GBox/Growl Registration Ticket.growlRegDict.plist",
+      "changes": 8,
+      "filename": "GBox/Growl Registration Ticket.growlRegDict.plist",
+      "sha": "c917bf7b0b24b4464e187db434006ad6c647b96a"
+    }
+  ],
+  "stats": {
+    "deletions": 7,
+    "additions": 15,
+    "total": 22
+  },
+  "parents": [
+    {
+      "sha": "81fb2db6e028c14ea8005ef424f0ba8875f485bd",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/81fb2db6e028c14ea8005ef424f0ba8875f485bd"
+    }
+  ],
+  "sha": "c917bf7b0b24b4464e187db434006ad6c647b96a",
+  "commit": {
+    "tree": {
+      "sha": "e509c08c8c2d4ebe181a7353a3369bbcb3dd2c32",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/e509c08c8c2d4ebe181a7353a3369bbcb3dd2c32"
+    },
+    "message": "re-register growl",
+    "committer": {
+      "date": "2011-09-01T19:13:32-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "author": {
+      "date": "2011-09-01T19:13:32-07:00",
+      "name": "frankyue",
+      "email": "frankyue1019@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/c917bf7b0b24b4464e187db434006ad6c647b96a"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/c917bf7b0b24b4464e187db434006ad6c647b96a"
+}

@@ -1,0 +1,1212 @@
+[
+  {
+    "sha": "795e5aee0ea70153141a41b1df0f2c2a0ec60460",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "b1d097a8e311fe31c79e852fe80865f0620eeb5f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/b1d097a8e311fe31c79e852fe80865f0620eeb5f"
+      },
+      {
+        "sha": "c6a552e793406bf8916263bfb326251fce8a7fe5",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/c6a552e793406bf8916263bfb326251fce8a7fe5"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/795e5aee0ea70153141a41b1df0f2c2a0ec60460",
+    "commit": {
+      "tree": {
+        "sha": "032707f67ef3712754bf37382605fc8d6b9b7dfb",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/032707f67ef3712754bf37382605fc8d6b9b7dfb"
+      },
+      "author": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-16T14:45:06-07:00"
+      },
+      "message": "Merge pull request #9 from mudge/patch-1\n\nSolaris doesn't come with readlink so use greadlink if available instead.",
+      "committer": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-16T14:45:06-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/795e5aee0ea70153141a41b1df0f2c2a0ec60460"
+    }
+  },
+  {
+    "sha": "c6a552e793406bf8916263bfb326251fce8a7fe5",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/beb7f5dd655d8b8e9093ef4fc5e59b6e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "mudge",
+      "id": 287,
+      "url": "https://api.github.com/users/mudge"
+    },
+    "parents": [
+      {
+        "sha": "b1d097a8e311fe31c79e852fe80865f0620eeb5f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/b1d097a8e311fe31c79e852fe80865f0620eeb5f"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/beb7f5dd655d8b8e9093ef4fc5e59b6e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "mudge",
+      "id": 287,
+      "url": "https://api.github.com/users/mudge"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/c6a552e793406bf8916263bfb326251fce8a7fe5",
+    "commit": {
+      "tree": {
+        "sha": "032707f67ef3712754bf37382605fc8d6b9b7dfb",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/032707f67ef3712754bf37382605fc8d6b9b7dfb"
+      },
+      "author": {
+        "email": "mudge@mudge.name",
+        "name": "Paul Mucur",
+        "date": "2011-08-16T14:22:52-07:00"
+      },
+      "message": "Solaris doesn't come with readlink so use greadlink if available instead. (Taken from Ryan Tomayko's \"GNU is killing Solaris\", c.f. http://tomayko.com/writings/gnu-is-killing-solaris)",
+      "committer": {
+        "email": "mudge@mudge.name",
+        "name": "Paul Mucur",
+        "date": "2011-08-16T14:22:52-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/c6a552e793406bf8916263bfb326251fce8a7fe5"
+    }
+  },
+  {
+    "sha": "b1d097a8e311fe31c79e852fe80865f0620eeb5f",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "9ab56ee51d2e2029598bb8def1c541fc820466ae",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/9ab56ee51d2e2029598bb8def1c541fc820466ae"
+      },
+      {
+        "sha": "0dc6cdabb69519148db2818211bb06bdc475188f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/0dc6cdabb69519148db2818211bb06bdc475188f"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/b1d097a8e311fe31c79e852fe80865f0620eeb5f",
+    "commit": {
+      "tree": {
+        "sha": "51a934ef4e75605ca2e3f5cd3c30a5705fb4652f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/51a934ef4e75605ca2e3f5cd3c30a5705fb4652f"
+      },
+      "author": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-16T06:57:37-07:00"
+      },
+      "message": "Merge pull request #8 from myfreeweb/patch-1\n\nJust a few readme tweaks",
+      "committer": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-16T06:57:37-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/b1d097a8e311fe31c79e852fe80865f0620eeb5f"
+    }
+  },
+  {
+    "sha": "0dc6cdabb69519148db2818211bb06bdc475188f",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/3d361879edcae91e3805021a719c5087?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "myfreeweb",
+      "id": 208340,
+      "url": "https://api.github.com/users/myfreeweb"
+    },
+    "parents": [
+      {
+        "sha": "9ab56ee51d2e2029598bb8def1c541fc820466ae",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/9ab56ee51d2e2029598bb8def1c541fc820466ae"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/3d361879edcae91e3805021a719c5087?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "myfreeweb",
+      "id": 208340,
+      "url": "https://api.github.com/users/myfreeweb"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/0dc6cdabb69519148db2818211bb06bdc475188f",
+    "commit": {
+      "tree": {
+        "sha": "51a934ef4e75605ca2e3f5cd3c30a5705fb4652f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/51a934ef4e75605ca2e3f5cd3c30a5705fb4652f"
+      },
+      "author": {
+        "email": "me@myfreeweb.ru",
+        "name": "Grigory V.",
+        "date": "2011-08-16T02:31:58-07:00"
+      },
+      "message": "Just a few readme tweaks",
+      "committer": {
+        "email": "me@myfreeweb.ru",
+        "name": "Grigory V.",
+        "date": "2011-08-16T02:31:58-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/0dc6cdabb69519148db2818211bb06bdc475188f"
+    }
+  },
+  {
+    "sha": "9ab56ee51d2e2029598bb8def1c541fc820466ae",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "8063a6f05b6b74585403e3fdddf649f63996154d",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/8063a6f05b6b74585403e3fdddf649f63996154d"
+      },
+      {
+        "sha": "8414f0ce727ded59753cf10df4ce1f406b72d68f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/8414f0ce727ded59753cf10df4ce1f406b72d68f"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/9ab56ee51d2e2029598bb8def1c541fc820466ae",
+    "commit": {
+      "tree": {
+        "sha": "0615bc325e5c0bca4f41d608facd7a946dd4ff6c",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/0615bc325e5c0bca4f41d608facd7a946dd4ff6c"
+      },
+      "author": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-15T06:06:22-07:00"
+      },
+      "message": "Merge pull request #6 from nickpad/master\n\nDefinition file for 1.8.6",
+      "committer": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-15T06:06:22-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/9ab56ee51d2e2029598bb8def1c541fc820466ae"
+    }
+  },
+  {
+    "sha": "8414f0ce727ded59753cf10df4ce1f406b72d68f",
+    "author": null,
+    "parents": [
+      {
+        "sha": "8063a6f05b6b74585403e3fdddf649f63996154d",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/8063a6f05b6b74585403e3fdddf649f63996154d"
+      }
+    ],
+    "committer": null,
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/8414f0ce727ded59753cf10df4ce1f406b72d68f",
+    "commit": {
+      "tree": {
+        "sha": "0615bc325e5c0bca4f41d608facd7a946dd4ff6c",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/0615bc325e5c0bca4f41d608facd7a946dd4ff6c"
+      },
+      "author": {
+        "email": "nick@abelsoninfo.com",
+        "name": "Nick Dainty",
+        "date": "2011-08-15T05:23:59-07:00"
+      },
+      "message": "Add definition for Ruby 1.8.6-p420.",
+      "committer": {
+        "email": "nick@abelsoninfo.com",
+        "name": "Nick Dainty",
+        "date": "2011-08-15T05:23:59-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/8414f0ce727ded59753cf10df4ce1f406b72d68f"
+    }
+  },
+  {
+    "sha": "8063a6f05b6b74585403e3fdddf649f63996154d",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "parents": [
+      {
+        "sha": "bc1a4b73bad01ecbb66db2c4040db88a30ace14a",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/bc1a4b73bad01ecbb66db2c4040db88a30ace14a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/8063a6f05b6b74585403e3fdddf649f63996154d",
+    "commit": {
+      "tree": {
+        "sha": "e930c12ce0a3cfb4306e001379273654a9d86def",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/e930c12ce0a3cfb4306e001379273654a9d86def"
+      },
+      "author": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-14T12:39:48-07:00"
+      },
+      "message": "Fix rbx gemsdir",
+      "committer": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-14T12:39:48-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/8063a6f05b6b74585403e3fdddf649f63996154d"
+    }
+  },
+  {
+    "sha": "bc1a4b73bad01ecbb66db2c4040db88a30ace14a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "fa263f2bdbdc8ba5f4af5acc753c5db270269958",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/fa263f2bdbdc8ba5f4af5acc753c5db270269958"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/bc1a4b73bad01ecbb66db2c4040db88a30ace14a",
+    "commit": {
+      "tree": {
+        "sha": "c0e2566eb8876ceedd1eef1e27791876c74fa4f4",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/c0e2566eb8876ceedd1eef1e27791876c74fa4f4"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-11T13:48:34-07:00"
+      },
+      "message": "A few tweaks",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-11T13:48:34-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/bc1a4b73bad01ecbb66db2c4040db88a30ace14a"
+    }
+  },
+  {
+    "sha": "fa263f2bdbdc8ba5f4af5acc753c5db270269958",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "c87ceef0ebfbc3dbbed1cb38c5152c81a00a10b1",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/c87ceef0ebfbc3dbbed1cb38c5152c81a00a10b1"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/fa263f2bdbdc8ba5f4af5acc753c5db270269958",
+    "commit": {
+      "tree": {
+        "sha": "ba73f205555e68c77efbecb0c3d462f7854f87c3",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/ba73f205555e68c77efbecb0c3d462f7854f87c3"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-11T13:40:36-07:00"
+      },
+      "message": "Add LICENSE and README.md",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-11T13:40:36-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/fa263f2bdbdc8ba5f4af5acc753c5db270269958"
+    }
+  },
+  {
+    "sha": "c87ceef0ebfbc3dbbed1cb38c5152c81a00a10b1",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "fac8c31d0e25bb99b8703b3a03b36a7eeead2f3d",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/fac8c31d0e25bb99b8703b3a03b36a7eeead2f3d"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/c87ceef0ebfbc3dbbed1cb38c5152c81a00a10b1",
+    "commit": {
+      "tree": {
+        "sha": "76181aa10d07488b801ebf54a338b237fe508831",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/76181aa10d07488b801ebf54a338b237fe508831"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-10T08:28:01-07:00"
+      },
+      "message": "Fix Lion conditional",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-10T08:28:01-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/c87ceef0ebfbc3dbbed1cb38c5152c81a00a10b1"
+    }
+  },
+  {
+    "sha": "fac8c31d0e25bb99b8703b3a03b36a7eeead2f3d",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "c4aa35faf3960677e6c37cd01d4019f5eacaff87",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/c4aa35faf3960677e6c37cd01d4019f5eacaff87"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/fac8c31d0e25bb99b8703b3a03b36a7eeead2f3d",
+    "commit": {
+      "tree": {
+        "sha": "05b519d0c13bb37cc079dc8b40e9a3330632bba8",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/05b519d0c13bb37cc079dc8b40e9a3330632bba8"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T15:14:52-07:00"
+      },
+      "message": "1.9 gets rubygems 1.8.7",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T15:14:52-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/fac8c31d0e25bb99b8703b3a03b36a7eeead2f3d"
+    }
+  },
+  {
+    "sha": "c4aa35faf3960677e6c37cd01d4019f5eacaff87",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "9488a170b1910c815461ed34ff66bd36156b9e05",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/9488a170b1910c815461ed34ff66bd36156b9e05"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/c4aa35faf3960677e6c37cd01d4019f5eacaff87",
+    "commit": {
+      "tree": {
+        "sha": "1894e91c66f01d3f3114bf664112085a40772d76",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/1894e91c66f01d3f3114bf664112085a40772d76"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T15:13:54-07:00"
+      },
+      "message": "jruby and ree get rubygems 1.6.2",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T15:13:54-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/c4aa35faf3960677e6c37cd01d4019f5eacaff87"
+    }
+  },
+  {
+    "sha": "9488a170b1910c815461ed34ff66bd36156b9e05",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "14810a26c9c295bf1b129828dc9c93a7da546004",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/14810a26c9c295bf1b129828dc9c93a7da546004"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/9488a170b1910c815461ed34ff66bd36156b9e05",
+    "commit": {
+      "tree": {
+        "sha": "e30a346325066091c492fe095dbaf3247f953665",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/e30a346325066091c492fe095dbaf3247f953665"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T15:06:24-07:00"
+      },
+      "message": "Add installation script",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T15:06:24-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/9488a170b1910c815461ed34ff66bd36156b9e05"
+    }
+  },
+  {
+    "sha": "14810a26c9c295bf1b129828dc9c93a7da546004",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "2b26f23dde6e85f4782ff4f5ec826d2711765f7f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/2b26f23dde6e85f4782ff4f5ec826d2711765f7f"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/14810a26c9c295bf1b129828dc9c93a7da546004",
+    "commit": {
+      "tree": {
+        "sha": "07ebb5dd9d5f33dc7a1e5216ccf613b7cb16b711",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/07ebb5dd9d5f33dc7a1e5216ccf613b7cb16b711"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T13:41:34-07:00"
+      },
+      "message": "log is gone",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T13:41:34-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/14810a26c9c295bf1b129828dc9c93a7da546004"
+    }
+  },
+  {
+    "sha": "2b26f23dde6e85f4782ff4f5ec826d2711765f7f",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "1a8c14377f384e20eab8ee99f703d6ecd8974ef9",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/1a8c14377f384e20eab8ee99f703d6ecd8974ef9"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/2b26f23dde6e85f4782ff4f5ec826d2711765f7f",
+    "commit": {
+      "tree": {
+        "sha": "a3c7ea797138ab8b211a555c4dc4cdddc71c15bb",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/a3c7ea797138ab8b211a555c4dc4cdddc71c15bb"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T13:41:20-07:00"
+      },
+      "message": "Trap failures and print an error message. Use file descriptors to avoid swallowing errors.",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T13:41:20-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/2b26f23dde6e85f4782ff4f5ec826d2711765f7f"
+    }
+  },
+  {
+    "sha": "1a8c14377f384e20eab8ee99f703d6ecd8974ef9",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "a568cffd986b5bdbc2a308fe9badd98e48610f81",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/a568cffd986b5bdbc2a308fe9badd98e48610f81"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/1a8c14377f384e20eab8ee99f703d6ecd8974ef9",
+    "commit": {
+      "tree": {
+        "sha": "60c7693a3688c54d8d8604281d89b5c8f519f293",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/60c7693a3688c54d8d8604281d89b5c8f519f293"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:44:52-07:00"
+      },
+      "message": "Fix --help",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:44:52-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/1a8c14377f384e20eab8ee99f703d6ecd8974ef9"
+    }
+  },
+  {
+    "sha": "a568cffd986b5bdbc2a308fe9badd98e48610f81",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "23dc3e2c007be3f3e67a7c27b624b5dfc34c4098",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/23dc3e2c007be3f3e67a7c27b624b5dfc34c4098"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/a568cffd986b5bdbc2a308fe9badd98e48610f81",
+    "commit": {
+      "tree": {
+        "sha": "5434c881588d489f47355f65d0c1d6a12c5d6af9",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/5434c881588d489f47355f65d0c1d6a12c5d6af9"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:38:47-07:00"
+      },
+      "message": "Add --definitions",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:40:12-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/a568cffd986b5bdbc2a308fe9badd98e48610f81"
+    }
+  },
+  {
+    "sha": "23dc3e2c007be3f3e67a7c27b624b5dfc34c4098",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "021280a3e1eca819d369aa902c5c2672f10f616a",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/021280a3e1eca819d369aa902c5c2672f10f616a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/23dc3e2c007be3f3e67a7c27b624b5dfc34c4098",
+    "commit": {
+      "tree": {
+        "sha": "74eda8804793bb95808840dd007a4098172787f8",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/74eda8804793bb95808840dd007a4098172787f8"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:38:14-07:00"
+      },
+      "message": "Add -h/--help and -v/--verbose",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:40:12-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/23dc3e2c007be3f3e67a7c27b624b5dfc34c4098"
+    }
+  },
+  {
+    "sha": "021280a3e1eca819d369aa902c5c2672f10f616a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "db8d7139178e5d6d564bd0d225f7da657942592b",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/db8d7139178e5d6d564bd0d225f7da657942592b"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/021280a3e1eca819d369aa902c5c2672f10f616a",
+    "commit": {
+      "tree": {
+        "sha": "b8b83e13393ea6e7cd222d6b691f7a01e9c40417",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/b8b83e13393ea6e7cd222d6b691f7a01e9c40417"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:36:08-07:00"
+      },
+      "message": "Automatically look for built-in definitions",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:40:12-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/021280a3e1eca819d369aa902c5c2672f10f616a"
+    }
+  },
+  {
+    "sha": "db8d7139178e5d6d564bd0d225f7da657942592b",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "e555c4b4443c497fd829f122aa2ec0fdc0bbc794",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/e555c4b4443c497fd829f122aa2ec0fdc0bbc794"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/db8d7139178e5d6d564bd0d225f7da657942592b",
+    "commit": {
+      "tree": {
+        "sha": "b493732882bafdfafada19119733d9d4f28c2c4e",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/b493732882bafdfafada19119733d9d4f28c2c4e"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:34:56-07:00"
+      },
+      "message": "Move versions/ to share/ruby-build/",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:40:11-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/db8d7139178e5d6d564bd0d225f7da657942592b"
+    }
+  },
+  {
+    "sha": "e555c4b4443c497fd829f122aa2ec0fdc0bbc794",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "a9653dfe26196a6f868987e1e5acad306855e189",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/a9653dfe26196a6f868987e1e5acad306855e189"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/e555c4b4443c497fd829f122aa2ec0fdc0bbc794",
+    "commit": {
+      "tree": {
+        "sha": "5ec90de5a14f7013f32daf5f29a856d2a026da52",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/5ec90de5a14f7013f32daf5f29a856d2a026da52"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:33:09-07:00"
+      },
+      "message": "Use date+pid instead of random number",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-07T10:40:11-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/e555c4b4443c497fd829f122aa2ec0fdc0bbc794"
+    }
+  },
+  {
+    "sha": "a9653dfe26196a6f868987e1e5acad306855e189",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "parents": [
+      {
+        "sha": "532c4e764c9096aa7a6f967fe26e82789e6cd9a1",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/532c4e764c9096aa7a6f967fe26e82789e6cd9a1"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/a9653dfe26196a6f868987e1e5acad306855e189",
+    "commit": {
+      "tree": {
+        "sha": "533215389209678babfe66e4d7b6e5361f76d0c5",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/533215389209678babfe66e4d7b6e5361f76d0c5"
+      },
+      "author": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-05T09:29:36-07:00"
+      },
+      "message": "unset RUBYOPT and RUBYLIB",
+      "committer": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-05T09:29:36-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/a9653dfe26196a6f868987e1e5acad306855e189"
+    }
+  },
+  {
+    "sha": "532c4e764c9096aa7a6f967fe26e82789e6cd9a1",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "95fbfdb26676e7dbf0341b0a42492e4ddadcb8a7",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/95fbfdb26676e7dbf0341b0a42492e4ddadcb8a7"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/532c4e764c9096aa7a6f967fe26e82789e6cd9a1",
+    "commit": {
+      "tree": {
+        "sha": "341de9acd787e13a15e543b4ca97252acd2696c2",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/341de9acd787e13a15e543b4ca97252acd2696c2"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-05T08:12:06-07:00"
+      },
+      "message": "Add Rubinius 1.2.4",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-05T08:12:06-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/532c4e764c9096aa7a6f967fe26e82789e6cd9a1"
+    }
+  },
+  {
+    "sha": "95fbfdb26676e7dbf0341b0a42492e4ddadcb8a7",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "acb2131f30bbb0d620fec6dc17c6eaf4aa4acb6a",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/acb2131f30bbb0d620fec6dc17c6eaf4aa4acb6a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/95fbfdb26676e7dbf0341b0a42492e4ddadcb8a7",
+    "commit": {
+      "tree": {
+        "sha": "778e9fa8348b078708e828be3cb8f178675b039b",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/778e9fa8348b078708e828be3cb8f178675b039b"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-03T21:49:31-07:00"
+      },
+      "message": "Unset $RUBYOPT",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-03T21:49:31-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/95fbfdb26676e7dbf0341b0a42492e4ddadcb8a7"
+    }
+  },
+  {
+    "sha": "acb2131f30bbb0d620fec6dc17c6eaf4aa4acb6a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "ced235237191a2c9bafcb73422e08ea2530059f1",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/ced235237191a2c9bafcb73422e08ea2530059f1"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/acb2131f30bbb0d620fec6dc17c6eaf4aa4acb6a",
+    "commit": {
+      "tree": {
+        "sha": "081242e5dd6c3cc2fa20f547499104b5dbc8f485",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/081242e5dd6c3cc2fa20f547499104b5dbc8f485"
+      },
+      "author": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-03T21:47:23-07:00"
+      },
+      "message": "Use gcc-4.2 on Lion for 1.8.7",
+      "committer": {
+        "email": "sam@37signals.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-03T21:47:23-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/acb2131f30bbb0d620fec6dc17c6eaf4aa4acb6a"
+    }
+  },
+  {
+    "sha": "ced235237191a2c9bafcb73422e08ea2530059f1",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "parents": [
+      {
+        "sha": "81901adf0f0f1322d457e982f5ab1c344ccdc5ce",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/81901adf0f0f1322d457e982f5ab1c344ccdc5ce"
+      },
+      {
+        "sha": "8f4cdb1a0d8863fd6f1beae995a5f878114bcce4",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/8f4cdb1a0d8863fd6f1beae995a5f878114bcce4"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/5b9fe87ec1faa67a4599782930f45ec9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "sstephenson",
+      "id": 2603,
+      "url": "https://api.github.com/users/sstephenson"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/ced235237191a2c9bafcb73422e08ea2530059f1",
+    "commit": {
+      "tree": {
+        "sha": "b97bf2402221dbc4142ccd3883e40c1973c02382",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/b97bf2402221dbc4142ccd3883e40c1973c02382"
+      },
+      "author": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-02T20:40:37-07:00"
+      },
+      "message": "Merge pull request #2 from sstephenson/ree\n\nAdd Ruby Enterprise 1.8.7 2011.03",
+      "committer": {
+        "email": "sstephenson@gmail.com",
+        "name": "Sam Stephenson",
+        "date": "2011-08-02T20:40:37-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/ced235237191a2c9bafcb73422e08ea2530059f1"
+    }
+  },
+  {
+    "sha": "8f4cdb1a0d8863fd6f1beae995a5f878114bcce4",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "parents": [
+      {
+        "sha": "138814df0364a638d13f834b5f37c468e070b44f",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/138814df0364a638d13f834b5f37c468e070b44f"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/8f4cdb1a0d8863fd6f1beae995a5f878114bcce4",
+    "commit": {
+      "tree": {
+        "sha": "b97bf2402221dbc4142ccd3883e40c1973c02382",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/b97bf2402221dbc4142ccd3883e40c1973c02382"
+      },
+      "author": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T20:08:44-07:00"
+      },
+      "message": "Ensure $PREFIX_PATH is quoted",
+      "committer": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T20:08:44-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/8f4cdb1a0d8863fd6f1beae995a5f878114bcce4"
+    }
+  },
+  {
+    "sha": "138814df0364a638d13f834b5f37c468e070b44f",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "parents": [
+      {
+        "sha": "584aeb4dec72088fad4544a8dae21197d521c5cc",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/584aeb4dec72088fad4544a8dae21197d521c5cc"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/138814df0364a638d13f834b5f37c468e070b44f",
+    "commit": {
+      "tree": {
+        "sha": "e02a5c7df46205705eb1368286c3781fa3372df5",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/e02a5c7df46205705eb1368286c3781fa3372df5"
+      },
+      "author": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T20:08:33-07:00"
+      },
+      "message": "Move ree install command to the version file",
+      "committer": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T20:08:33-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/138814df0364a638d13f834b5f37c468e070b44f"
+    }
+  },
+  {
+    "sha": "584aeb4dec72088fad4544a8dae21197d521c5cc",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "parents": [
+      {
+        "sha": "f3f230e4ae8e43a8791d6dacc15184619151f412",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/f3f230e4ae8e43a8791d6dacc15184619151f412"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/584aeb4dec72088fad4544a8dae21197d521c5cc",
+    "commit": {
+      "tree": {
+        "sha": "5da690a72353080cff7de8f95428b1be2b58b7f3",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/5da690a72353080cff7de8f95428b1be2b58b7f3"
+      },
+      "author": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T19:49:58-07:00"
+      },
+      "message": "--no-tcmalloc on darwin",
+      "committer": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T19:49:58-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/584aeb4dec72088fad4544a8dae21197d521c5cc"
+    }
+  },
+  {
+    "sha": "f3f230e4ae8e43a8791d6dacc15184619151f412",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "parents": [
+      {
+        "sha": "23ccbd7d1a820699cf1add3248d0b2b1f697db7c",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/23ccbd7d1a820699cf1add3248d0b2b1f697db7c"
+      },
+      {
+        "sha": "81901adf0f0f1322d457e982f5ab1c344ccdc5ce",
+        "url": "https://api.github.com/repos/theplant/ruby-build/commits/81901adf0f0f1322d457e982f5ab1c344ccdc5ce"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "josh",
+      "id": 137,
+      "url": "https://api.github.com/users/josh"
+    },
+    "url": "https://api.github.com/repos/theplant/ruby-build/commits/f3f230e4ae8e43a8791d6dacc15184619151f412",
+    "commit": {
+      "tree": {
+        "sha": "499d4d529b3283adb1dd167d3f18af231950d846",
+        "url": "https://api.github.com/repos/theplant/ruby-build/git/trees/499d4d529b3283adb1dd167d3f18af231950d846"
+      },
+      "author": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T19:01:47-07:00"
+      },
+      "message": "Merge branch 'master' into ree\n\nConflicts:\n\tbin/ruby-build",
+      "committer": {
+        "email": "josh@joshpeek.com",
+        "name": "Joshua Peek",
+        "date": "2011-08-02T19:01:47-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ruby-build/git/commits/f3f230e4ae8e43a8791d6dacc15184619151f412"
+    }
+  }
+]

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">95021</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-15T12:07:41+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">347</number>
+  <permalink>netball-ambassadors-header-is-not-integrated</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Netball ambassadors header is not integrated.</title>
+  <updated-at type="datetime">2011-08-31T13:07:56+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">4</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Tingting</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/347</url>
+  <priority-name>Medium</priority-name>
+  <original-body>http://www.uk.asics2-draft.theplant-dev.com/netball/ambassadors</original-body>
+  <latest-body>http://www.uk.asics2-draft.theplant-dev.com/netball/ambassadors</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/netball/ambassadors&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/netball/ambassadors&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/netball/ambassadors</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/netball/ambassadors&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/netball/ambassadors&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-15T12:07:41+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">347</number>
+      <permalink>netball-ambassadors-header-is-not-integrated</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Netball ambassadors header is not integrated.</title>
+      <updated-at type="datetime">2011-08-15T12:07:56+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/347</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-15T12:13:29+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">347</number>
+      <permalink>netball-ambassadors-header-is-not-integrated</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Netball ambassadors header is not integrated.</title>
+      <updated-at type="datetime">2011-08-15T12:13:44+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/347</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>This is incorrect widget data, and has to be fix manually.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;This is incorrect widget data, and has to be fix manually.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-18T00:07:33+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">347</number>
+      <permalink>netball-ambassadors-header-is-not-integrated</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Netball ambassadors header is not integrated.</title>
+      <updated-at type="datetime">2011-08-18T00:07:49+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/347</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-31T13:07:42+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">347</number>
+      <permalink>netball-ambassadors-header-is-not-integrated</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Netball ambassadors header is not integrated.</title>
+      <updated-at type="datetime">2011-08-31T13:07:56+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/347</url>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>17cd72644598be637a0f59b1e6a8983e919b0088</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-15T12:07:41+09:00</created-at>
+      <filename>image_not_integrated.png</filename>
+      <height type="integer">937</height>
+      <id type="integer">1269515</id>
+      <size type="integer">620523</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1021</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1269515/image_not_integrated.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

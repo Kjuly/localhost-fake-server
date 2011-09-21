@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+  <total_pages>30</total_pages>
+  <current_page>1</current_page>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-21T11:48:50+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">889</number>
+    <permalink>shoe-adviser-error</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>hoptoad</tag>
+    <title>shoe adviser error</title>
+    <updated-at type="datetime">2011-09-21T11:51:10+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">2</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/889</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing partial shoe_adviser/shoe, categories/shoe, application/shoe with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110920063202/app/views](http://theplant.airbrakeapp.com/errors/12857437)</original-body>
+    <latest-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing partial shoe_adviser/shoe, categories/shoe, application/shoe with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110920063202/app/views](http://theplant.airbrakeapp.com/errors/12857437)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12857437&quot;&gt;ActionView::MissingTemplate:
+ActionView::MissingTemplate: Missing partial shoe_adviser/shoe,
+categories/shoe, application/shoe with {:handlers=&amp;gt;[:erb,
+:builder, :slim], :formats=&amp;gt;[:html], :locale=&amp;gt;[:&quot;en-uk&quot;,
+:en]}. Searched in: *
+&quot;/home/app/app_draft/releases/20110920063202/app/views&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-15T22:52:33+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">834</number>
+    <permalink>ie7newsletter-doesnt-work</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag>ie7</tag>
+    <title>IE7&#65295;IE8&gt;newsletter doesn't work</title>
+    <updated-at type="datetime">2011-09-21T11:41:52+09:00</updated-at>
+    <user-id type="integer">158028</user-id>
+    <version type="integer">6</version>
+    <user-name>lancee LY</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/834</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>http://www.uk.asics2-draft.theplant-dev.com/running/</original-body>
+    <latest-body>http://www.uk.asics2-draft.theplant-dev.com/running/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-08-10T13:34:43+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">115207</milestone-id>
+    <number type="integer">334</number>
+    <permalink>blog-post-tag-should-use-autocomplete</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Blog Post tag should use Autocomplete</title>
+    <updated-at type="datetime">2011-09-21T11:28:24+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/334</url>
+    <milestone-title>Post Launch</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-15T16:41:09+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">820</number>
+    <permalink>nomethoderror-undefined-method-save-for-object0x007f2317d50598</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>hoptoad</tag>
+    <title>NoMethodError: undefined method `save' for #&lt;Object:0x007f2317d50598&gt;</title>
+    <updated-at type="datetime">2011-09-21T11:27:19+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/820</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `save' for #&lt;Object:0x007f23172d0208&gt;](http://theplant.airbrakeapp.com/errors/14041913)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `save' for #&lt;Object:0x007f23172d0208&gt;](http://theplant.airbrakeapp.com/errors/14041913)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14041913&quot;&gt;NoMethodError:
+NoMethodError: undefined method `save' for
+#&amp;lt;Object:0x007f23172d0208&amp;gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T12:32:01+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">881</number>
+    <permalink>asics-changes-on-admin</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>ASICS changes on admin</title>
+    <updated-at type="datetime">2011-09-21T11:27:02+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/881</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body>Admin
+1. Change &quot;Create&quot; button =&gt; &quot;Save as Draft&quot; when not in publish mode
+2. Change &quot;Update&quot; button =&gt; &quot;Save changes as Draft&quot; when not in publish
+mode
+3. View/edit list is too long in admin</original-body>
+    <latest-body>Admin
+1. Change &quot;Create&quot; button =&gt; &quot;Save as Draft&quot; when not in publish mode
+2. Change &quot;Update&quot; button =&gt; &quot;Save changes as Draft&quot; when not in publish
+mode
+3. View/edit list is too long in admin</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Admin&lt;br&gt;
+1. Change &quot;Create&quot; button =&amp;gt; &quot;Save as Draft&quot; when not in publish
+mode&lt;br&gt;
+2. Change &quot;Update&quot; button =&amp;gt; &quot;Save changes as Draft&quot; when not in
+publish&lt;br&gt;
+mode&lt;br&gt;
+3. View/edit list is too long in admin&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">8</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T16:39:32+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">882</number>
+    <permalink>ie7newslettershould-hide-the-text-field</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>cache</tag>
+    <title>IE7&gt;newsletter&gt;should hide the text field</title>
+    <updated-at type="datetime">2011-09-21T11:26:01+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-21T09:14:07+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">888</number>
+    <permalink>interaction-of-top-sports-nav-menu</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Interaction of top sports nav menu</title>
+    <updated-at type="datetime">2011-09-21T11:24:43+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/888</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body>The interaction is slightly different between the sports navigation.
+
+Compare: http://www.asics.co.uk/running/ and http://www.uk.asics2-draft.theplant-dev.com/running
+
+Please make the new site like the old as far as the interaction of roll overs on Products and Knowledge.</original-body>
+    <latest-body>The interaction is slightly different between the sports navigation.
+
+Compare: http://www.asics.co.uk/running/ and http://www.uk.asics2-draft.theplant-dev.com/running
+
+Please make the new site like the old as far as the interaction of roll overs on Products and Knowledge.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;The interaction is slightly different between the sports
+navigation.&lt;/p&gt;
+&lt;p&gt;Compare: &lt;a href=
+&quot;http://www.asics.co.uk/running/&quot;&gt;http://www.asics.co.uk/running/&lt;/a&gt;
+and &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please make the new site like the old as far as the interaction
+of roll overs on Products and Knowledge.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2503</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-17T19:40:39+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">857</number>
+    <permalink>bv-comments-only-appearing-on-uk</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag nil="true"></tag>
+    <title>BV comments only appearing on UK</title>
+    <updated-at type="datetime">2011-09-21T10:46:50+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">12</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Anatole</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/857</url>
+    <priority-name>Low</priority-name>
+    <original-body>Why aren't they on other BV sites, like NL?
+
+http://www.nl.asics2-draft.theplant-dev.com/running/</original-body>
+    <latest-body>Why aren't they on other BV sites, like NL?
+
+http://www.nl.asics2-draft.theplant-dev.com/running/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Why aren't they on other BV sites, like NL?&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/running/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">94027</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T12:17:44+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">880</number>
+    <permalink>asics-changes-store-locator-etc</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>ASICS changes: Store locator etc.</title>
+    <updated-at type="datetime">2011-09-21T09:23:21+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+    <version type="integer">3</version>
+    <user-name>Anatole</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>bin</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/880</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body>Mails
+1. Change fonts in emails to arial (currently shows up as courier in Lotus notes)
+2. Change default sender from: ASICS &lt;online@asics.eu&gt;&#8221; but let countries change this in their settings page
+3. Currently the default sign at the bottom of each email is ASICS Benelux. Change this to ASICS. Should also be a configuration in settings.
+4. Cancellation email not found in /admin/mails (also confirm that all system mails were configured for preview.)
+
+
+Store Locator
+1. Map jumps on store locator after clicking store name
+2. ASICS and OTHER ASICS STORES =&gt; OTHER RETAIL PARTNERS
+3. Is there a reason for the shop order? If not, alphabetize results.
+4. What is Alternative name in store admin?
+5. What creates the list of categories in the store locator?
+6. Stores upload doesn't work well (especially deleting and adding at the
+same time... Karen reported it took 3 times for it to work)</original-body>
+    <latest-body>Mails
+1. Change fonts in emails to arial (currently shows up as courier in Lotus notes)
+2. Change default sender from: ASICS &lt;online@asics.eu&gt;&#8221; but let countries change this in their settings page
+3. Currently the default sign at the bottom of each email is ASICS Benelux. Change this to ASICS. Should also be a configuration in settings.
+4. Cancellation email not found in /admin/mails (also confirm that all system mails were configured for preview.)
+
+
+Store Locator
+1. Map jumps on store locator after clicking store name
+2. ASICS and OTHER ASICS STORES =&gt; OTHER RETAIL PARTNERS
+3. Is there a reason for the shop order? If not, alphabetize results.
+4. What is Alternative name in store admin?
+5. What creates the list of categories in the store locator?
+6. Stores upload doesn't work well (especially deleting and adding at the
+same time... Karen reported it took 3 times for it to work)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Mails&lt;br&gt;
+1. Change fonts in emails to arial (currently shows up as courier
+in Lotus notes)&lt;br&gt;
+2. Change default sender from: ASICS &lt;a href=
+&quot;mailto:online@asics.eu&quot;&gt;online@asics.eu&lt;/a&gt;&amp;#8221; but let
+countries change this in their settings page&lt;br&gt;
+3. Currently the default sign at the bottom of each email is ASICS
+Benelux. Change this to ASICS. Should also be a configuration in
+settings.&lt;br&gt;
+4. Cancellation email not found in /admin/mails (also confirm that
+all system mails were configured for preview.)&lt;/p&gt;
+&lt;p&gt;Store Locator&lt;br&gt;
+1. Map jumps on store locator after clicking store name&lt;br&gt;
+2. ASICS and OTHER ASICS STORES =&amp;gt; OTHER RETAIL PARTNERS&lt;br&gt;
+3. Is there a reason for the shop order? If not, alphabetize
+results.&lt;br&gt;
+4. What is Alternative name in store admin?&lt;br&gt;
+5. What creates the list of categories in the store locator?&lt;br&gt;
+6. Stores upload doesn't work well (especially deleting and adding
+at the&lt;br&gt;
+same time... Karen reported it took 3 times for it to work)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T16:26:06+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">884</number>
+    <permalink>asics-chages-running-clinics-blue-box-layout-is-bad-should-match-current-site-exactly</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>[ASICS Chages]  Running clinics blue box layout is bad. Should match current site EXACTLY.</title>
+    <updated-at type="datetime">2011-09-21T09:21:16+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+    <version type="integer">2</version>
+    <user-name>Anatole</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/884</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body>The blue box layout is what I show in attachment?</original-body>
+    <latest-body>The blue box layout is what I show in attachment?</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;The blue box layout is what I show in attachment?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-21T09:18:11+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">883</number>
+    <permalink>asics-chages-can-not-classify-an-article-as-a-running-clinics-articles-in-admin-and-the-front-end-is-choosing-the-wrong-articles</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>[ASICS Chages] Can not classify an article as a Running Clinics Articles in admin and the front end is choosing the wrong articles</title>
+    <updated-at type="datetime">2011-09-21T09:18:42+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+    <version type="integer">3</version>
+    <user-name>Anatole</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/883</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-08-26T18:33:43+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">537</number>
+    <permalink>some-words-missing-the-translation-key-on-back-end</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag>&quot;translation key&quot;</tag>
+    <title>Some words missing the translation key on back end</title>
+    <updated-at type="datetime">2011-09-21T00:42:13+09:00</updated-at>
+    <user-id type="integer">104778</user-id>
+    <version type="integer">2</version>
+    <user-name>Zhen Wu</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/537</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>http://www.hu.asics2-draft.theplant-dev.com/running/shoe_adviser?use=13</original-body>
+    <latest-body>http://www.hu.asics2-draft.theplant-dev.com/running/shoe_adviser?use=13</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.hu.asics2-draft.theplant-dev.com/running/shoe_adviser?use=13&quot;&gt;
+http://www.hu.asics2-draft.theplant-dev.com/running/shoe_adviser?us...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-21T00:39:36+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">887</number>
+    <permalink>asics-chages-running-clinic-search-search-results-page-typography-is-very-bad</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>[ASICS Chages] Running Clinic Search: Search results page typography is very bad.</title>
+    <updated-at type="datetime">2011-09-21T00:40:08+09:00</updated-at>
+    <user-id type="integer">104778</user-id>
+    <version type="integer">1</version>
+    <user-name>Zhen Wu</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/887</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>please check the ASICS Changes pdf for details</original-body>
+    <latest-body>please check the ASICS Changes pdf for details</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;please check the ASICS Changes pdf for details&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">158028</assigned-user-id>
+    <attachments-count type="integer">1</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-15T23:29:52+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">835</number>
+    <permalink>ie7ie8shoe-adviser-select-doesnt-work</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>ie7 ie8</tag>
+    <title>IE7/IE8&gt;shoe adviser select doesn't work</title>
+    <updated-at type="datetime">2011-09-20T19:42:54+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">2</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>lancee LY</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/835</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>http://www.uk.asics2-draft.theplant-dev.com/running/shoe_adviser</original-body>
+    <latest-body>http://www.uk.asics2-draft.theplant-dev.com/running/shoe_adviser</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/shoe_adviser&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/shoe_adviser&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">158028</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-16T11:28:56+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">842</number>
+    <permalink>iesave-settingalway-show-the-ajax-loader-icon</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>IE&gt;save setting&gt;alway show the ajax loader icon</title>
+    <updated-at type="datetime">2011-09-20T19:41:54+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">2</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>lancee LY</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/842</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T12:11:43+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">876</number>
+    <permalink>asics-changes-top-navigation-widgets-sportstyle-ayami</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>open</state>
+    <tag nil="true"></tag>
+    <title>ASICS changes: Top Navigation, Widgets, SportStyle, AYAMi</title>
+    <updated-at type="datetime">2011-09-20T18:47:14+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">2</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/876</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body>Top Navigation
+1. Change AYAMI =&gt; AYAMi
+
+Widgets
+2. Remove store locator widget from all product pages since there is the new store locator lead below the product description
+
+ASICS SportStyle
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same space between title and description below.
+2.Remove image filter for now. Maybe it will come back in the future.
+
+AYAMi
+1. Clicking an AYAMi hotspots click jumps to top of page
+2. Change text in the Get Layering section from AYAMI =&gt; AYAMi</original-body>
+    <latest-body>Top Navigation
+1. Change AYAMI =&gt; AYAMi
+
+Widgets
+2. Remove store locator widget from all product pages since there is the new store locator lead below the product description
+
+ASICS SportStyle
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same space between title and description below.
+2.Remove image filter for now. Maybe it will come back in the future.
+
+AYAMi
+1. Clicking an AYAMi hotspots click jumps to top of page
+2. Change text in the Get Layering section from AYAMI =&gt; AYAMi</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Top Navigation&lt;br&gt;
+1. Change AYAMI =&amp;gt; AYAMi&lt;/p&gt;
+&lt;p&gt;Widgets&lt;br&gt;
+2. Remove store locator widget from all product pages since there
+is the new store locator lead below the product description&lt;/p&gt;
+&lt;p&gt;ASICS SportStyle&lt;br&gt;
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same
+space between title and description below.&lt;br&gt;
+2.Remove image filter for now. Maybe it will come back in the
+future.&lt;/p&gt;
+&lt;p&gt;AYAMi&lt;br&gt;
+1. Clicking an AYAMi hotspots click jumps to top of page&lt;br&gt;
+2. Change text in the Get Layering section from AYAMI =&amp;gt;
+AYAMi&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">94027</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-15T23:46:19+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">837</number>
+    <permalink>ie7store-locatorcant-show-the-result</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag>ie7 &quot;store locator&quot;</tag>
+    <title>IE7&gt;store locator&gt;can't show the result</title>
+    <updated-at type="datetime">2011-09-20T17:54:52+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">3</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>bin</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/837</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=london&amp;category_id=&amp;store_type=all&amp;=Search</original-body>
+    <latest-body>http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=london&amp;category_id=&amp;store_type=all&amp;=Search</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=london&amp;amp;category_id=&amp;amp;store_type=all&amp;amp;=Search&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=lond...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-02T21:58:07+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">677</number>
+    <permalink>clean-header-footer</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag>production</tag>
+    <title>Clean header footer</title>
+    <updated-at type="datetime">2011-09-20T17:17:35+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">5</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/677</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Medium</priority-name>
+    <original-body>188.202.60.225 - - [02/Sep/2011:12:57:04 +0000] &quot;GET /feeds/clean_header_footer.js HTTP/1.1&quot; 404 3504 &quot;http://my.asics.nl/my&quot; &quot;Mozilla/5.0 (iPad; U; CPU OS 3_2_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B500&quot;</original-body>
+    <latest-body>188.202.60.225 - - [02/Sep/2011:12:57:04 +0000] &quot;GET /feeds/clean_header_footer.js HTTP/1.1&quot; 404 3504 &quot;http://my.asics.nl/my&quot; &quot;Mozilla/5.0 (iPad; U; CPU OS 3_2_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B500&quot;</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;188.202.60.225 - - [02/Sep/2011:12:57:04 +0000] &quot;GET
+/feeds/clean_header_footer.js HTTP/1.1&quot; 404 3504 &quot;&lt;a href=
+&quot;http://my.asics.nl/my&quot;&gt;http://my.asics.nl/my&lt;/a&gt;&quot; &quot;Mozilla/5.0
+(iPad; U; CPU OS 3_2_2 like Mac OS X; en-us) AppleWebKit/531.21.10
+(KHTML, like Gecko) Mobile/7B500&quot;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">94027</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T17:15:50+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">886</number>
+    <permalink>add-extra-map-support-for-editing-activity</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>add extra map support for editing activity</title>
+    <updated-at type="datetime">2011-09-20T17:16:05+09:00</updated-at>
+    <user-id type="integer">104778</user-id>
+    <version type="integer">1</version>
+    <user-name>Zhen Wu</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>bin</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/886</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>we should add some extra features about editing clinic, tech tour and foot id
+
+Please check the attachment.</original-body>
+    <latest-body>we should add some extra features about editing clinic, tech tour and foot id
+
+Please check the attachment.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;we should add some extra features about editing clinic, tech
+tour and foot id&lt;/p&gt;
+&lt;p&gt;Please check the attachment.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-19T18:16:03+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">824</number>
+    <permalink>shouldnt-show-product-kind-like-footwear-if-not-product-in-it</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>open</state>
+    <tag nil="true"></tag>
+    <title>Shouldn't show product kind like Footwear if not product in it</title>
+    <updated-at type="datetime">2011-09-20T17:12:02+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">4</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/824</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-14T17:49:57+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">812</number>
+    <permalink>ptfoot-id-enable-payment-but-doesnt-show-the-payment-page</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag nil="true"></tag>
+    <title>Pt&gt;Foot ID enable payment, but doesn't show the payment page</title>
+    <updated-at type="datetime">2011-09-20T17:06:24+09:00</updated-at>
+    <user-id type="integer">104778</user-id>
+    <version type="integer">4</version>
+    <user-name>Zhen Wu</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/812</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">44985</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T17:01:55+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">885</number>
+    <permalink>fix-print-css</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>fix print css</title>
+    <updated-at type="datetime">2011-09-20T17:02:10+09:00</updated-at>
+    <user-id type="integer">104778</user-id>
+    <version type="integer">1</version>
+    <user-name>Zhen Wu</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>Jun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>you can find print button at these pages
+
+1. http://www.uk.asics2-draft.theplant-dev.com/running_clinics/2057
+2. http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/1960/
+3. http://www.fr.asics2-draft.theplant-dev.com/running/foot_id/2055/</original-body>
+    <latest-body>you can find print button at these pages
+
+1. http://www.uk.asics2-draft.theplant-dev.com/running_clinics/2057
+2. http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/1960/
+3. http://www.fr.asics2-draft.theplant-dev.com/running/foot_id/2055/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;you can find print button at these pages&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running_clinics/2057&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running_clinics/2057&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/1960/&quot;&gt;
+http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/1960/&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=
+&quot;http://www.fr.asics2-draft.theplant-dev.com/running/foot_id/2055/&quot;&gt;
+http://www.fr.asics2-draft.theplant-dev.com/running/foot_id/2055/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-12T12:47:10+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">784</number>
+    <permalink>nomethoderror-undefined-method-display_name-for-nilnilclass</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad localization</tag>
+    <title>NoMethodError: undefined method `display_name' for nil:NilClass</title>
+    <updated-at type="datetime">2011-09-20T15:40:31+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/784</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `display_name' for nil:NilClass](http://theplant.airbrakeapp.com/errors/13687845)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `display_name' for nil:NilClass](http://theplant.airbrakeapp.com/errors/13687845)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/13687845&quot;&gt;NoMethodError:
+NoMethodError: undefined method `display_name' for
+nil:NilClass&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-19T23:04:20+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">870</number>
+    <permalink>sprocketshelpersrailshelperassetpathsassetnotprecompilederror-eventscss-isnt-precompiled</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: events.css isn't precompiled </title>
+    <updated-at type="datetime">2011-09-20T15:39:44+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/870</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>Created from Airbrake: [Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: events.css isn't precompiled](http://theplant.airbrakeapp.com/errors/14429185)</original-body>
+    <latest-body>Created from Airbrake: [Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: events.css isn't precompiled](http://theplant.airbrakeapp.com/errors/14429185)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14429185&quot;&gt;Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError:
+Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError:
+events.css isn't precompiled&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-09T17:48:37+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">769</number>
+    <permalink>post-code-issue</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag nil="true"></tag>
+    <title>Post code issue</title>
+    <updated-at type="datetime">2011-09-20T14:55:28+09:00</updated-at>
+    <user-id type="integer">94027</user-id>
+    <version type="integer">2</version>
+    <user-name>bin</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/769</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Medium</priority-name>
+    <original-body>I have filled the post code when registered, but the code doesn't show on my setting page.</original-body>
+    <latest-body>I have filled the post code when registered, but the code doesn't show on my setting page.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;I have filled the post code when registered, but the code
+doesn't show on my setting page.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">1</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-17T13:08:53+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">855</number>
+    <permalink>page-style-messy-when-click-the-register-button</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag nil="true"></tag>
+    <title>page style messy when click the register button</title>
+    <updated-at type="datetime">2011-09-20T14:53:05+09:00</updated-at>
+    <user-id type="integer">94027</user-id>
+    <version type="integer">2</version>
+    <user-name>bin</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/855</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Low</priority-name>
+    <original-body>see attached</original-body>
+    <latest-body>see attached</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;see attached&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-04T12:51:53+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">707</number>
+    <permalink>subscribe-tech-tours-newsletter-doesnt-work</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag nil="true"></tag>
+    <title>subscribe tech tours newsletter doesn't work</title>
+    <updated-at type="datetime">2011-09-20T14:50:19+09:00</updated-at>
+    <user-id type="integer">94027</user-id>
+    <version type="integer">5</version>
+    <user-name>bin</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/707</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</original-body>
+    <latest-body>http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/running/tech_tours/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">94027</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-19T15:57:08+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">865</number>
+    <permalink>store-locator-flagship-store-display-do-not-show-an-image-if-there-is-no-image</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Store Locator &gt; Flagship Store Display &gt; Do not show an image if there is no image</title>
+    <updated-at type="datetime">2011-09-20T14:41:00+09:00</updated-at>
+    <user-id type="integer">94027</user-id>
+    <version type="integer">2</version>
+    <user-name>bin</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>bin</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/865</url>
+    <priority-name>Low</priority-name>
+    <original-body>See attached.</original-body>
+    <latest-body>See attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">8</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-08-16T12:26:34+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">357</number>
+    <permalink>lose-asics-sports-on-ie7</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>pending_review</state>
+    <tag>&quot;asics sport&quot; ie7</tag>
+    <title>Lose ASICS SPORTS on IE7</title>
+    <updated-at type="datetime">2011-09-20T12:29:52+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">5</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/357</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>Medium</priority-name>
+    <original-body>Please see attached.</original-body>
+    <latest-body>Please see attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Please see attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">94027</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-15T19:26:37+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer">117173</milestone-id>
+    <number type="integer">829</number>
+    <permalink>nomethoderror-undefined-method-email-for-nilnilclass</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>NoMethodError: undefined method `email' for nil:NilClass</title>
+    <updated-at type="datetime">2011-09-20T12:19:32+09:00</updated-at>
+    <user-id type="integer">94027</user-id>
+    <version type="integer">4</version>
+    <user-name>bin</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>bin</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/829</url>
+    <milestone-title>Current Iteration</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `email' for nil:NilClass](http://theplant.airbrakeapp.com/errors/14049573)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `email' for nil:NilClass](http://theplant.airbrakeapp.com/errors/14049573)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14049573&quot;&gt;NoMethodError:
+NoMethodError: undefined method `email' for nil:NilClass&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+</tickets>

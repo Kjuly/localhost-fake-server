@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket-bins type="array">
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">17698</id>
+    <name>Open tickets</name>
+    <position type="integer">1</position>
+    <project-id type="integer">30780</project-id>
+    <query>state:open</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">79</tickets-count>
+    <updated-at type="datetime">2011-07-27T17:52:00+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">17699</id>
+    <name>Resolved tickets</name>
+    <position type="integer">2</position>
+    <project-id type="integer">30780</project-id>
+    <query>state:resolved</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">153</tickets-count>
+    <updated-at type="datetime">2011-07-27T17:52:00+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">17700</id>
+    <name>This week's tickets</name>
+    <position type="integer">3</position>
+    <project-id type="integer">30780</project-id>
+    <query>created:'this week'</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">0</tickets-count>
+    <updated-at type="datetime">2011-07-27T17:52:00+09:00</updated-at>
+    <user-id type="integer">2503</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">192776</id>
+    <name>Jan</name>
+    <position type="integer">28</position>
+    <project-id type="integer">30780</project-id>
+    <query>state:open assigned:&quot;Jan&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">22</tickets-count>
+    <updated-at type="datetime">2011-07-27T17:52:00+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">192777</id>
+    <name>Felix</name>
+    <position type="integer">29</position>
+    <project-id type="integer">30780</project-id>
+    <query>state:open assigned:&quot;Felix&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">15</tickets-count>
+    <updated-at type="datetime">2011-07-27T17:52:00+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">192778</id>
+    <name>Shaoshing</name>
+    <position type="integer">30</position>
+    <project-id type="integer">30780</project-id>
+    <query>state:open assigned:&quot;Shaoshing&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">15</tickets-count>
+    <updated-at type="datetime">2011-07-27T17:52:00+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean">false</default>
+    <id type="integer">192779</id>
+    <name>Bin</name>
+    <position type="integer">31</position>
+    <project-id type="integer">30780</project-id>
+    <query>state:open assigned:&quot;Bin&quot;</query>
+    <shared type="boolean">true</shared>
+    <tickets-count type="integer">2</tickets-count>
+    <updated-at type="datetime">2011-07-27T17:52:00+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">355485</id>
+    <name>My tickets</name>
+    <position type="integer">50</position>
+    <project-id type="integer">30780</project-id>
+    <query>responsible:me state:open</query>
+    <shared type="boolean">false</shared>
+    <tickets-count type="integer">0</tickets-count>
+    <updated-at type="datetime">2011-07-27T22:48:45+09:00</updated-at>
+    <user-id type="integer">158232</user-id>
+  </ticket-bin>
+  <ticket-bin>
+    <default type="boolean" nil="true"></default>
+    <id type="integer">355486</id>
+    <name>Tickets I'm watching</name>
+    <position type="integer">51</position>
+    <project-id type="integer">30780</project-id>
+    <query>watched:me</query>
+    <shared type="boolean">false</shared>
+    <tickets-count type="integer">0</tickets-count>
+    <updated-at type="datetime">2011-07-27T22:48:45+09:00</updated-at>
+    <user-id type="integer">158232</user-id>
+  </ticket-bin>
+</ticket-bins>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-28T02:47:34+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">576</number>
+  <permalink>newsletter-title</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Newsletter title</title>
+  <updated-at type="datetime">2011-08-29T17:59:06+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">2</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/576</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>I found there is a newsletter title was added, keep it or remove?
+
+For example: http://www.ru.asics2-draft.theplant-dev.com/running</original-body>
+  <latest-body>I found there is a newsletter title was added, keep it or remove?
+
+For example: http://www.ru.asics2-draft.theplant-dev.com/running</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;I found there is a newsletter title was added, keep it or
+remove?&lt;/p&gt;
+&lt;p&gt;For example: &lt;a href=
+&quot;http://www.ru.asics2-draft.theplant-dev.com/running&quot;&gt;http://www.ru.asics2-draft.theplant-dev.com/running&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>I found there is a newsletter title was added, keep it or remove?
+
+For example: http://www.ru.asics2-draft.theplant-dev.com/running</body>
+      <body-html>&lt;div&gt;&lt;p&gt;I found there is a newsletter title was added, keep it or
+remove?&lt;/p&gt;
+&lt;p&gt;For example: &lt;a href=
+&quot;http://www.ru.asics2-draft.theplant-dev.com/running&quot;&gt;http://www.ru.asics2-draft.theplant-dev.com/running&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T02:47:34+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">576</number>
+      <permalink>newsletter-title</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Newsletter title</title>
+      <updated-at type="datetime">2011-08-28T02:47:48+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/576</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-29T17:58:50+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">576</number>
+      <permalink>newsletter-title</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Newsletter title</title>
+      <updated-at type="datetime">2011-08-29T17:59:06+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">2</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/576</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>ceca3c9575f54e7af6eaf598fe43eccde349e273</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-28T02:47:34+09:00</created-at>
+      <filename>2011-08-28_0141.png</filename>
+      <height type="integer">713</height>
+      <id type="integer">1319937</id>
+      <size type="integer">667358</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1348</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1319937/2011-08-28_0141.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

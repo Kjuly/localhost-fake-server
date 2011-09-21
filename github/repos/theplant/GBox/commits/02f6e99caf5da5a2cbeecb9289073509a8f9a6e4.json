@@ -1,0 +1,58 @@
+{
+  "commit": {
+    "message": "Close filesysteminfo refresh test.",
+    "tree": {
+      "sha": "eb4968b1df4c2e11b5422575b7390c90ff0ec515",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/eb4968b1df4c2e11b5422575b7390c90ff0ec515"
+    },
+    "author": {
+      "date": "2011-08-23T21:30:59-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "committer": {
+      "date": "2011-08-23T21:30:59-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/02f6e99caf5da5a2cbeecb9289073509a8f9a6e4"
+  },
+  "sha": "02f6e99caf5da5a2cbeecb9289073509a8f9a6e4",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "02f6e99caf5da5a2cbeecb9289073509a8f9a6e4",
+      "raw_url": "https://github.com/theplant/GBox/raw/02f6e99caf5da5a2cbeecb9289073509a8f9a6e4/GBox/GBoxAppDelegate.m",
+      "additions": 3,
+      "blob_url": "https://github.com/theplant/GBox/blob/02f6e99caf5da5a2cbeecb9289073509a8f9a6e4/GBox/GBoxAppDelegate.m",
+      "filename": "GBox/GBoxAppDelegate.m",
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -274,12 +274,13 @@\n     [GBC newCrashReportExists];\n      */\n     //[self redirectNSLogToDocumentFolder];\n-    \n+    /*\n     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:10\n                                                       target:self\n                                                     selector:@selector(fetchLocalFileSystemInfo:)\n                                                     userInfo:nil\n-                                                     repeats:YES];\n+                                                    repeats:YES];\n+     */\n }\n \n -(void)fetchLocalFileSystemInfo:(NSTimer*)timer{",
+      "deletions": 2,
+      "changes": 5
+    }
+  ],
+  "stats": {
+    "additions": 3,
+    "total": 5,
+    "deletions": 2
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "parents": [
+    {
+      "sha": "dfcbc6b4e3464f38ef703a24e4a51f5e45624df1",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/dfcbc6b4e3464f38ef703a24e4a51f5e45624df1"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/02f6e99caf5da5a2cbeecb9289073509a8f9a6e4"
+}

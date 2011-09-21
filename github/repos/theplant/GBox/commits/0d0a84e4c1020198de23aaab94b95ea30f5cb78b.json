@@ -1,0 +1,135 @@
+{
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "patch": "--- a/GBox.xcodeproj/project.pbxproj\n+++ b/GBox.xcodeproj/project.pbxproj\n@@ -211,7 +211,7 @@\n \t\t4C1FEDBE13BE3A7700679BD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = \"<group>\"; };\n \t\t4C1FEDC113BE3A7700679BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = \"<group>\"; };\n \t\t4C1FEDC313BE3A7700679BD7 /* GBoxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBoxAppDelegate.h; sourceTree = \"<group>\"; };\n-\t\t4C1FEDC413BE3A7700679BD7 /* GBoxAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GBoxAppDelegate.m; sourceTree = \"<group>\"; };\n+\t\t4C1FEDC413BE3A7700679BD7 /* GBoxAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBoxAppDelegate.m; sourceTree = \"<group>\"; };\n \t\t4C1FEDE313BE3B6100679BD7 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = \"<group>\"; };\n \t\t4C1FEDE513BE3B8000679BD7 /* OAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthController.h; sourceTree = \"<group>\"; };\n \t\t4C1FEDE613BE3B8000679BD7 /* OAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthController.m; sourceTree = \"<group>\"; };",
+      "status": "modified",
+      "deletions": 1,
+      "additions": 1,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox.xcodeproj/project.pbxproj",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox.xcodeproj/project.pbxproj",
+      "changes": 2,
+      "filename": "GBox.xcodeproj/project.pbxproj",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    },
+    {
+      "patch": "--- a/GBox/GBCollectionManager.h\n+++ b/GBox/GBCollectionManager.h\n@@ -38,6 +38,6 @@\n - (NSArray *)includingCollectionOfIdentifier:(NSString*) identifier;\n \n -(void) setFolderHrefDic;\n-\n+- (NSSet *)includedEntryOfCollectionIdentifier:(NSString*) identifier;\n \n @end",
+      "status": "modified",
+      "deletions": 1,
+      "additions": 1,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBCollectionManager.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBCollectionManager.h",
+      "changes": 2,
+      "filename": "GBox/GBCollectionManager.h",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    },
+    {
+      "patch": "--- a/GBox/GBCollectionManager.m\n+++ b/GBox/GBCollectionManager.m\n@@ -339,5 +339,21 @@ static GBCollectionManager* sharedInstance = nil;\n                             [docListData entryForIdentifier:identifier] ];\n }\n \n+- (NSSet *)includedEntryOfCollectionIdentifier:(NSString*) identifier{\n+    GDataEntryFolderDoc* folder = [docListData entryForIdentifier:identifier];\n+    NSString* folderHref = [[folder selfLink] href];\n+    NSMutableSet* entrySet = [[NSMutableSet alloc]init ];\n+    for(GDataEntryDocBase* entry in [[docListData docListFeed]entries]){\n+        \n+        for(GDataLink* parentLink in [entry parentLinks]){\n+            \n+            if([[parentLink href] isEqualToString:folderHref]){\n+                [entrySet addObject:entry];\n+            }\n+        }\n+    }\n+    return entrySet;\n+}\n+\n \n @end",
+      "status": "modified",
+      "deletions": 0,
+      "additions": 16,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBCollectionManager.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBCollectionManager.m",
+      "changes": 16,
+      "filename": "GBox/GBCollectionManager.m",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    },
+    {
+      "patch": "--- a/GBox/GBSyncController.h\n+++ b/GBox/GBSyncController.h\n@@ -44,7 +44,8 @@\n     NSStatusItem *statusItem;\n     \n     BOOL synced;\n-    }\n+\n+}\n \n + (GBSyncController *) shareSyncController;\n ",
+      "status": "modified",
+      "deletions": 1,
+      "additions": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBSyncController.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBSyncController.h",
+      "changes": 3,
+      "filename": "GBox/GBSyncController.h",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    },
+    {
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -78,9 +78,6 @@\n     return self;\n }\n \n--(void)clearData{\n-    [dataFacility clearData];\n-}\n \n -(void)beginSync{\n     ",
+      "status": "modified",
+      "deletions": 3,
+      "additions": 0,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBSyncController.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBSyncController.m",
+      "changes": 3,
+      "filename": "GBox/GBSyncController.m",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    },
+    {
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -164,6 +164,12 @@\n         for(GDataEntryFolderDoc* folder in includingCollections){\n             NSString* folderIdentifier = [folder identifier];\n             NSSet* parentPathSet = [localIdentifierDic valueForKey:folderIdentifier];\n+            if(parentPathSet==nil||[parentPathSet count]==0){\n+                [dataFacility setState:kGBStateWaiting ofTaskID:[taskMO objectID]];\n+                [currentExecutingTasks removeObject:taskID];\n+                \n+                return;\n+            }\n             for(NSString* parentPath in parentPathSet){\n                 //The local directory is not exist\n                 NSString* newPath = [NSString stringWithFormat:@\"%@/%@/\",parentPath,entryTitle];\n@@ -271,31 +277,68 @@\n         case kGBLocalDeleteFile:\n         case kGBLocalDeleteCollection:{\n             //kGBLocalDeleteCollection\n-            NSString* path = [GBUtility simplifyLocalPath: operandA];\n-            \n-            NSString* identifier = [[localInfoDic valueForKey:path] valueForKey:kGBFileAttributeIdentifier];\n-            \n-            [docListData deleteEntryByIdentifier:identifier];\n-            [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n-            [currentExecutingTasks removeObject:taskID];\n+            NSString* identifier = [taskMO valueForKey:@\"operandB\"];\n             \n+            NSString* path = operandA;\n+            NSString* fileName = [path lastPathComponent];   \n+            NSString* identifierToDelete=nil;\n+            if(identifier!=nil){\n+                identifierToDelete = identifier;\n+            }else{\n+                if([[path stringByDeletingLastPathComponent] length]!= [[GBUtility rootPath] length]){\n+                    //The file not exist at root path\n+                    NSString* parentPath = [[GBUtility simplifyLocalPath:[path stringByDeletingLastPathComponent]] stringByAppendingString:@\"/\"];\n+                    NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+                    if(parentIdentifier!=nil){\n+                        NSSet* includedEntries = [collectionManager includedEntryOfCollectionIdentifier:parentIdentifier];\n+                        for(GDataEntryDocBase* entry in includedEntries){\n+                            if([[[entry title]stringValue] isEqualToString:fileName]){\n+                                identifierToDelete = [entry identifier];\n+                                break;\n+                            }\n+                        }\n+                    }\n+                }else{\n+                    //The file exist at root path.\n+                    for(GDataEntryDocBase* entry in [[docListData docListFeed]entries]){\n+                        if([[[entry title]stringValue] isEqualToString:fileName]){\n+                            if([entry parentLinks]==nil||[entry count]==0){\n+                                identifierToDelete = [entry identifier];\n+                                break;\n+                            }\n+                        }\n+                    }\n+                }\n+            }\n+            if(identifierToDelete==nil){\n+                [dataFacility setState:kGBStateWaiting ofTaskID:[taskMO objectID]];\n+                [currentExecutingTasks removeObject:taskID];\n+            }else{\n+                [docListData deleteEntryByIdentifier:identifierToDelete];\n+                \n+                [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n+                [currentExecutingTasks removeObject:taskID];\n+            }\n         }\n             break;\n         case kGBLocalNewCollection:{\n             //kGBLocalNewCollection\n             NSString* path = operandA;\n-            [collectionManager createFolder:path];\n+            NSString* possibleIdentifier = [GBUtility identifierforFileAtPath:[GBUtility simplifyLocalPath:path]];\n+            if(possibleIdentifier==nil||[possibleIdentifier length]<80){\n+                [collectionManager createFolder:path];\n+            }\n             [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n             [currentExecutingTasks removeObject:taskID];\n \n-\n         }\n             break;\n \n         case kGBLocalRename:{\n             //kGBLocalRename\n             NSString *path = [GBUtility simplifyLocalPath: operandA];\n-            NSString *newName = [path lastPathComponent];\n+            NSString* newPath = [taskMO valueForKey:@\"operandB\"];\n+            NSString *newName = [newPath lastPathComponent];\n             NSString* identifier = [[localInfoDic valueForKey:path] valueForKey:kGBFileAttributeIdentifier];\n             GDataEntryDocBase *entry = [docListData entryForIdentifier:identifier];\n                         \n@@ -523,7 +566,7 @@\n -(void)handleTasks{\n     \n     fileSystemInfo = [GBFileSystemInfo sharedFileSystemInfo];\n-    [fileSystemInfo setLocalInfoDic];\n+    [fileSystemInfo setLocalInfoDic];//Refresh local filesystem info.\n     localInfoDic = [fileSystemInfo localInfoDic];\n     //localMD5Dic = [fileSystemInfo md5PathsDic];\n     localIdentifierDic = [fileSystemInfo identifierPathsDic];",
+      "status": "modified",
+      "deletions": 11,
+      "additions": 54,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBTaskHandler.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBTaskHandler.m",
+      "changes": 65,
+      "filename": "GBox/GBTaskHandler.m",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    },
+    {
+      "patch": "--- a/GBox/GBoxAppDelegate.h\n+++ b/GBox/GBoxAppDelegate.h\n@@ -33,8 +33,9 @@\n     GBDocListData *docListData;\n     GBSyncController *syncController;\n     \n-    GBFileSystemInfo *fileSystemInfo;\n+    GBFileSystemInfo* fileSystemInfo;\n     GBFileSystemWatcher *fileSystemWatcher;\n+    NSDictionary* localInfoDic;\n     \n     IBOutlet NSMenuItem *spaceItem;\n     ",
+      "status": "modified",
+      "deletions": 1,
+      "additions": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBoxAppDelegate.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBoxAppDelegate.h",
+      "changes": 3,
+      "filename": "GBox/GBoxAppDelegate.h",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    },
+    {
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -56,6 +56,8 @@\n \n -(void)awakeFromNib{\n     //progress indicate\n+    [GTMHTTPFetcher setLoggingEnabled:YES];\n+\n     progressIncrement = 0.0;\n     //set recently files\n     \n@@ -282,7 +284,10 @@\n                                                   delegate: self];\n         [nsw start];\n     }\n-    \n+    fileSystemInfo = [GBFileSystemInfo sharedFileSystemInfo];\n+    [fileSystemInfo setLocalInfoDic];\n+    localInfoDic = [fileSystemInfo localInfoDic];\n+\n     /*\n     //find new crash report\n     GBCrashReport *GBC = [[GBCrashReport alloc] init];\n@@ -296,15 +301,15 @@\n                                                     userInfo:nil\n                                                     repeats:YES];\n      */\n-}\n-\n+} \n+/*\n -(void)fetchLocalFileSystemInfo:(NSTimer*)timer{\n     fileSystemInfo = [GBFileSystemInfo sharedFileSystemInfo];\n     [fileSystemInfo setLocalInfoDic];\n     NSDictionary *identifierPathsDic = [fileSystemInfo identifierPathsDic];\n     //NSDictionary *md5PathsDic = [fileSystemInfo md5PathsDic];\n }\n-\n+*/\n \n // ----------------------------------------------------------\n \n@@ -330,19 +335,37 @@\n }\n \n - (void)fileDeleted: (NSString*)filePath eventId: (uint64_t)eventId {\n-    GBDataFacility *dataFacility = [GBDataFacility sharedDataFacility];\n-\n     // on the GBox root folder deleted.\n-    if ([filePath isEqual: [[GBUtility rootPath] stringByStandardizingPath]]) {\n+    if ([filePath isEqualToString: [[GBUtility rootPath] stringByStandardizingPath]]) {\n         // TODO take guard of the root directory deletd.\n         return;\n     }\n+    \n     // on the normal files deleted\n     NSLog(@\"file/dir deleted: %@\", filePath);\n-    [dataFacility insertEvent:[NSNumber numberWithUnsignedLongLong: eventId]\n-                withEventCode:kGBLocalDeleteFile\n-                     operandA:filePath\n-                  andOperandB:nil];\n+    \n+    GBDataFacility *dataFacility = [GBDataFacility sharedDataFacility];\n+    \n+    NSString* simplifiedPath = [GBUtility simplifyLocalPath:filePath];\n+    NSDictionary* fileInfo = [localInfoDic valueForKey:simplifiedPath];\n+    if(fileInfo==nil||[fileInfo count]==0){\n+        fileInfo = [localInfoDic valueForKey:[simplifiedPath stringByAppendingString:@\"/\"]];\n+    }\n+    \n+    NSString* identifier = [fileInfo valueForKey:kGBFileAttributeIdentifier];\n+    if(identifier!=nil&&[identifier length]>80){\n+        \n+        [dataFacility insertEvent:[NSNumber numberWithUnsignedLongLong: eventId]\n+                    withEventCode:kGBLocalDeleteFile\n+                         operandA:filePath\n+                      andOperandB:identifier];  \n+    }else{\n+    \n+        [dataFacility insertEvent:[NSNumber numberWithUnsignedLongLong: eventId]\n+                    withEventCode:kGBLocalDeleteFile\n+                         operandA:filePath\n+                      andOperandB:nil];\n+    }\n }\n \n - (void)fileModified: (NSString*)filePath eventId: (uint64_t)eventId {",
+      "status": "modified",
+      "deletions": 11,
+      "additions": 34,
+      "raw_url": "https://github.com/theplant/GBox/raw/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBoxAppDelegate.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/0d0a84e4c1020198de23aaab94b95ea30f5cb78b/GBox/GBoxAppDelegate.m",
+      "changes": 45,
+      "filename": "GBox/GBoxAppDelegate.m",
+      "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    }
+  ],
+  "stats": {
+    "deletions": 29,
+    "additions": 110,
+    "total": 139
+  },
+  "parents": [
+    {
+      "sha": "c917bf7b0b24b4464e187db434006ad6c647b96a",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/c917bf7b0b24b4464e187db434006ad6c647b96a"
+    }
+  ],
+  "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b",
+  "commit": {
+    "tree": {
+      "sha": "aefbf82a2f3ca7036a8d0244ee1d729c939eeb86",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/aefbf82a2f3ca7036a8d0244ee1d729c939eeb86"
+    },
+    "message": "Local deletion is handled correctly",
+    "committer": {
+      "date": "2011-09-02T01:19:50-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "author": {
+      "date": "2011-09-02T01:19:50-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+}

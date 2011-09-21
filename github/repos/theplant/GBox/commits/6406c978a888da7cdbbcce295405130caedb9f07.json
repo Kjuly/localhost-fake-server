@@ -1,0 +1,102 @@
+{
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 1014,
+    "url": "https://api.github.com/users/sunfmin",
+    "login": "sunfmin"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 1014,
+    "url": "https://api.github.com/users/sunfmin",
+    "login": "sunfmin"
+  },
+  "files": [
+    {
+      "patch": "--- a/GBox.xcodeproj/project.pbxproj\n+++ b/GBox.xcodeproj/project.pbxproj\n@@ -183,6 +183,11 @@\n \t\t4CE5081113C1FE22000AAA69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE5081013C1FE22000AAA69 /* SenTestingKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };\n \t\t4CE5095F13C20398000AAA69 /* GBDocListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5095E13C20398000AAA69 /* GBDocListData.m */; };\n \t\t4CF0A2E813DE5E030019D55B /* GBMOModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0A2E613DE5E030019D55B /* GBMOModel.xcdatamodeld */; };\n+\t\tB5B7C71E141F68800003309D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE5081013C1FE22000AAA69 /* SenTestingKit.framework */; };\n+\t\tB5B7C71F141F68800003309D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1FEDB113BE3A7700679BD7 /* Cocoa.framework */; };\n+\t\tB5B7C725141F68800003309D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5B7C723141F68800003309D /* InfoPlist.strings */; };\n+\t\tB5B7C727141F68800003309D /* GBoxTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B5B7C726141F68800003309D /* GBoxTests.h */; };\n+\t\tB5B7C729141F68800003309D /* GBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B7C728141F68800003309D /* GBoxTests.m */; };\n \t\tCF3EA1A314074C1800A19644 /* statusicon2.icns in Resources */ = {isa = PBXBuildFile; fileRef = CF3EA1A214074C1800A19644 /* statusicon2.icns */; };\n \t\tCF46C10C13D7BFCA00C5A5DE /* StartUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF46C10B13D7BFCA00C5A5DE /* StartUpController.m */; };\n \t\tCF9BF16113CC32A500D5691F /* AccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9BF16013CC32A500D5691F /* AccountModel.m */; };\n@@ -531,6 +536,12 @@\n \t\t4CE5095D13C20398000AAA69 /* GBDocListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBDocListData.h; sourceTree = \"<group>\"; };\n \t\t4CE5095E13C20398000AAA69 /* GBDocListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDocListData.m; sourceTree = \"<group>\"; };\n \t\t4CF0A2E713DE5E030019D55B /* GBMOModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GBMOModel.xcdatamodel; sourceTree = \"<group>\"; };\n+\t\tB5B7C71D141F68800003309D /* GBoxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBoxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };\n+\t\tB5B7C722141F68800003309D /* GBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = \"GBoxTests-Info.plist\"; sourceTree = \"<group>\"; };\n+\t\tB5B7C724141F68800003309D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = \"<group>\"; };\n+\t\tB5B7C726141F68800003309D /* GBoxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBoxTests.h; sourceTree = \"<group>\"; };\n+\t\tB5B7C728141F68800003309D /* GBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBoxTests.m; sourceTree = \"<group>\"; };\n+\t\tB5B7C72A141F68800003309D /* GBoxTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = \"GBoxTests-Prefix.pch\"; sourceTree = \"<group>\"; };\n \t\tCF3EA1A214074C1800A19644 /* statusicon2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = statusicon2.icns; sourceTree = \"<group>\"; };\n \t\tCF46C10A13D7BFCA00C5A5DE /* StartUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUpController.h; sourceTree = \"<group>\"; };\n \t\tCF46C10B13D7BFCA00C5A5DE /* StartUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUpController.m; sourceTree = \"<group>\"; };\n@@ -568,6 +579,15 @@\n \t\t\t);\n \t\t\trunOnlyForDeploymentPostprocessing = 0;\n \t\t};\n+\t\tB5B7C719141F68800003309D /* Frameworks */ = {\n+\t\t\tisa = PBXFrameworksBuildPhase;\n+\t\t\tbuildActionMask = 2147483647;\n+\t\t\tfiles = (\n+\t\t\t\tB5B7C71E141F68800003309D /* SenTestingKit.framework in Frameworks */,\n+\t\t\t\tB5B7C71F141F68800003309D /* Cocoa.framework in Frameworks */,\n+\t\t\t);\n+\t\t\trunOnlyForDeploymentPostprocessing = 0;\n+\t\t};\n /* End PBXFrameworksBuildPhase section */\n \n /* Begin PBXGroup section */\n@@ -612,6 +632,7 @@\n \t\t\tchildren = (\n \t\t\t\t14FFEDA013E938F900B394B9 /* libz.1.2.5.dylib */,\n \t\t\t\t4C1FEDB713BE3A7700679BD7 /* GBox */,\n+\t\t\t\tB5B7C720141F68800003309D /* GBoxTests */,\n \t\t\t\t4C1FEDB013BE3A7700679BD7 /* Frameworks */,\n \t\t\t\t4C1FEDAE13BE3A7700679BD7 /* Products */,\n \t\t\t);\n@@ -621,6 +642,7 @@\n \t\t\tisa = PBXGroup;\n \t\t\tchildren = (\n \t\t\t\t4C1FEDAD13BE3A7700679BD7 /* GBox.app */,\n+\t\t\t\tB5B7C71D141F68800003309D /* GBoxTests.octest */,\n \t\t\t);\n \t\t\tname = Products;\n \t\t\tsourceTree = \"<group>\";\n@@ -1115,6 +1137,26 @@\n \t\t\tpath = Mac;\n \t\t\tsourceTree = \"<group>\";\n \t\t};\n+\t\tB5B7C720141F68800003309D /* GBoxTests */ = {\n+\t\t\tisa = PBXGroup;\n+\t\t\tchildren = (\n+\t\t\t\tB5B7C726141F68800003309D /* GBoxTests.h */,\n+\t\t\t\tB5B7C728141F68800003309D /* GBoxTests.m */,\n+\t\t\t\tB5B7C721141F68800003309D /* Supporting Files */,\n+\t\t\t);\n+\t\t\tpath = GBoxTests;\n+\t\t\tsourceTree = \"<group>\";\n+\t\t};\n+\t\tB5B7C721141F68800003309D /* Supporting Files */ = {\n+\t\t\tisa = PBXGroup;\n+\t\t\tchildren = (\n+\t\t\t\tB5B7C722141F68800003309D /* GBoxTests-Info.plist */,\n+\t\t\t\tB5B7C723141F68800003309D /* InfoPlist.strings */,\n+\t\t\t\tB5B7C72A141F68800003309D /* GBoxTests-Prefix.pch */,\n+\t\t\t);\n+\t\t\tname = \"Supporting Files\";\n+\t\t\tsourceTree = \"<group>\";\n+\t\t};\n \t\tCF93503713D5892E005C41CE /* GBoxUI */ = {\n \t\t\tisa = PBXGroup;\n \t\t\tchildren = (\n@@ -1166,6 +1208,24 @@\n \t\t\tproductReference = 4C1FEDAD13BE3A7700679BD7 /* GBox.app */;\n \t\t\tproductType = \"com.apple.product-type.application\";\n \t\t};\n+\t\tB5B7C71C141F68800003309D /* GBoxTests */ = {\n+\t\t\tisa = PBXNativeTarget;\n+\t\t\tbuildConfigurationList = B5B7C72D141F68800003309D /* Build configuration list for PBXNativeTarget \"GBoxTests\" */;\n+\t\t\tbuildPhases = (\n+\t\t\t\tB5B7C718141F68800003309D /* Sources */,\n+\t\t\t\tB5B7C719141F68800003309D /* Frameworks */,\n+\t\t\t\tB5B7C71A141F68800003309D /* Resources */,\n+\t\t\t\tB5B7C71B141F68800003309D /* ShellScript */,\n+\t\t\t);\n+\t\t\tbuildRules = (\n+\t\t\t);\n+\t\t\tdependencies = (\n+\t\t\t);\n+\t\t\tname = GBoxTests;\n+\t\t\tproductName = GBoxTests;\n+\t\t\tproductReference = B5B7C71D141F68800003309D /* GBoxTests.octest */;\n+\t\t\tproductType = \"com.apple.product-type.bundle\";\n+\t\t};\n /* End PBXNativeTarget section */\n \n /* Begin PBXProject section */\n@@ -1185,6 +1245,7 @@\n \t\t\tprojectRoot = \"\";\n \t\t\ttargets = (\n \t\t\t\t4C1FEDAC13BE3A7700679BD7 /* GBox */,\n+\t\t\t\tB5B7C71C141F68800003309D /* GBoxTests */,\n \t\t\t);\n \t\t};\n /* End PBXProject section */\n@@ -1225,8 +1286,33 @@\n \t\t\t);\n \t\t\trunOnlyForDeploymentPostprocessing = 0;\n \t\t};\n+\t\tB5B7C71A141F68800003309D /* Resources */ = {\n+\t\t\tisa = PBXResourcesBuildPhase;\n+\t\t\tbuildActionMask = 2147483647;\n+\t\t\tfiles = (\n+\t\t\t\tB5B7C725141F68800003309D /* InfoPlist.strings in Resources */,\n+\t\t\t\tB5B7C727141F68800003309D /* GBoxTests.h in Resources */,\n+\t\t\t);\n+\t\t\trunOnlyForDeploymentPostprocessing = 0;\n+\t\t};\n /* End PBXResourcesBuildPhase section */\n \n+/* Begin PBXShellScriptBuildPhase section */\n+\t\tB5B7C71B141F68800003309D /* ShellScript */ = {\n+\t\t\tisa = PBXShellScriptBuildPhase;\n+\t\t\tbuildActionMask = 2147483647;\n+\t\t\tfiles = (\n+\t\t\t);\n+\t\t\tinputPaths = (\n+\t\t\t);\n+\t\t\toutputPaths = (\n+\t\t\t);\n+\t\t\trunOnlyForDeploymentPostprocessing = 0;\n+\t\t\tshellPath = /bin/sh;\n+\t\t\tshellScript = \"# Run the unit tests in this test bundle.\\n\\\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\\\"\\n\";\n+\t\t};\n+/* End PBXShellScriptBuildPhase section */\n+\n /* Begin PBXSourcesBuildPhase section */\n \t\t4C1FEDA913BE3A7700679BD7 /* Sources */ = {\n \t\t\tisa = PBXSourcesBuildPhase;\n@@ -1384,6 +1470,14 @@\n \t\t\t);\n \t\t\trunOnlyForDeploymentPostprocessing = 0;\n \t\t};\n+\t\tB5B7C718141F68800003309D /* Sources */ = {\n+\t\t\tisa = PBXSourcesBuildPhase;\n+\t\t\tbuildActionMask = 2147483647;\n+\t\t\tfiles = (\n+\t\t\t\tB5B7C729141F68800003309D /* GBoxTests.m in Sources */,\n+\t\t\t);\n+\t\t\trunOnlyForDeploymentPostprocessing = 0;\n+\t\t};\n /* End PBXSourcesBuildPhase section */\n \n /* Begin PBXVariantGroup section */\n@@ -1403,6 +1497,14 @@\n \t\t\tname = Credits.rtf;\n \t\t\tsourceTree = \"<group>\";\n \t\t};\n+\t\tB5B7C723141F68800003309D /* InfoPlist.strings */ = {\n+\t\t\tisa = PBXVariantGroup;\n+\t\t\tchildren = (\n+\t\t\t\tB5B7C724141F68800003309D /* en */,\n+\t\t\t);\n+\t\t\tname = InfoPlist.strings;\n+\t\t\tsourceTree = \"<group>\";\n+\t\t};\n /* End PBXVariantGroup section */\n \n /* Begin XCBuildConfiguration section */\n@@ -1483,6 +1585,54 @@\n \t\t\t};\n \t\t\tname = Release;\n \t\t};\n+\t\tB5B7C72B141F68800003309D /* Debug */ = {\n+\t\t\tisa = XCBuildConfiguration;\n+\t\t\tbuildSettings = {\n+\t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n+\t\t\t\tARCHS = \"$(ARCHS_STANDARD_64_BIT)\";\n+\t\t\t\tCOPY_PHASE_STRIP = NO;\n+\t\t\t\tFRAMEWORK_SEARCH_PATHS = (\n+\t\t\t\t\t\"\\\"$(SRCROOT)\\\"\",\n+\t\t\t\t\t\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\",\n+\t\t\t\t);\n+\t\t\t\tGCC_DYNAMIC_NO_PIC = NO;\n+\t\t\t\tGCC_ENABLE_OBJC_EXCEPTIONS = YES;\n+\t\t\t\tGCC_PRECOMPILE_PREFIX_HEADER = YES;\n+\t\t\t\tGCC_PREFIX_HEADER = \"GBoxTests/GBoxTests-Prefix.pch\";\n+\t\t\t\tGCC_PREPROCESSOR_DEFINITIONS = (\n+\t\t\t\t\t\"DEBUG=1\",\n+\t\t\t\t\t\"$(inherited)\",\n+\t\t\t\t);\n+\t\t\t\tGCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;\n+\t\t\t\tINFOPLIST_FILE = \"GBoxTests/GBoxTests-Info.plist\";\n+\t\t\t\tMACOSX_DEPLOYMENT_TARGET = 10.7;\n+\t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n+\t\t\t\tWRAPPER_EXTENSION = octest;\n+\t\t\t};\n+\t\t\tname = Debug;\n+\t\t};\n+\t\tB5B7C72C141F68800003309D /* Release */ = {\n+\t\t\tisa = XCBuildConfiguration;\n+\t\t\tbuildSettings = {\n+\t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n+\t\t\t\tARCHS = \"$(ARCHS_STANDARD_64_BIT)\";\n+\t\t\t\tCOPY_PHASE_STRIP = YES;\n+\t\t\t\tDEBUG_INFORMATION_FORMAT = \"dwarf-with-dsym\";\n+\t\t\t\tFRAMEWORK_SEARCH_PATHS = (\n+\t\t\t\t\t\"\\\"$(SRCROOT)\\\"\",\n+\t\t\t\t\t\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\",\n+\t\t\t\t);\n+\t\t\t\tGCC_ENABLE_OBJC_EXCEPTIONS = YES;\n+\t\t\t\tGCC_PRECOMPILE_PREFIX_HEADER = YES;\n+\t\t\t\tGCC_PREFIX_HEADER = \"GBoxTests/GBoxTests-Prefix.pch\";\n+\t\t\t\tGCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;\n+\t\t\t\tINFOPLIST_FILE = \"GBoxTests/GBoxTests-Info.plist\";\n+\t\t\t\tMACOSX_DEPLOYMENT_TARGET = 10.7;\n+\t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n+\t\t\t\tWRAPPER_EXTENSION = octest;\n+\t\t\t};\n+\t\t\tname = Release;\n+\t\t};\n /* End XCBuildConfiguration section */\n \n /* Begin XCConfigurationList section */\n@@ -1504,6 +1654,14 @@\n \t\t\tdefaultConfigurationIsVisible = 0;\n \t\t\tdefaultConfigurationName = Release;\n \t\t};\n+\t\tB5B7C72D141F68800003309D /* Build configuration list for PBXNativeTarget \"GBoxTests\" */ = {\n+\t\t\tisa = XCConfigurationList;\n+\t\t\tbuildConfigurations = (\n+\t\t\t\tB5B7C72B141F68800003309D /* Debug */,\n+\t\t\t\tB5B7C72C141F68800003309D /* Release */,\n+\t\t\t);\n+\t\t\tdefaultConfigurationIsVisible = 0;\n+\t\t};\n /* End XCConfigurationList section */\n \n /* Begin XCVersionGroup section */",
+      "status": "modified",
+      "deletions": 0,
+      "additions": 158,
+      "blob_url": "https://github.com/theplant/GBox/blob/6406c978a888da7cdbbcce295405130caedb9f07/GBox.xcodeproj/project.pbxproj",
+      "changes": 158,
+      "filename": "GBox.xcodeproj/project.pbxproj",
+      "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
+      "raw_url": "https://github.com/theplant/GBox/raw/6406c978a888da7cdbbcce295405130caedb9f07/GBox.xcodeproj/project.pbxproj"
+    },
+    {
+      "patch": "--- a/GBox/GBox-Info.plist\n+++ b/GBox/GBox-Info.plist\n@@ -9,7 +9,7 @@\n \t<key>CFBundleIconFile</key>\n \t<string>bigIcon.icns</string>\n \t<key>CFBundleIdentifier</key>\n-\t<string>com.Plant.${PRODUCT_NAME:rfc1034identifier}</string>\n+\t<string>jp.theplant.${PRODUCT_NAME:rfc1034identifier}</string>\n \t<key>CFBundleInfoDictionaryVersion</key>\n \t<string>6.0</string>\n \t<key>CFBundleName</key>",
+      "status": "modified",
+      "deletions": 1,
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/6406c978a888da7cdbbcce295405130caedb9f07/GBox/GBox-Info.plist",
+      "changes": 2,
+      "filename": "GBox/GBox-Info.plist",
+      "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
+      "raw_url": "https://github.com/theplant/GBox/raw/6406c978a888da7cdbbcce295405130caedb9f07/GBox/GBox-Info.plist"
+    },
+    {
+      "patch": "--- a/GBoxTests/GBoxTests-Info.plist\n+++ b/GBoxTests/GBoxTests-Info.plist\n@@ -7,7 +7,7 @@\n \t<key>CFBundleExecutable</key>\n \t<string>${EXECUTABLE_NAME}</string>\n \t<key>CFBundleIdentifier</key>\n-\t<string>jp.theplant.${PRODUCT_NAME:rfc1034identifier}</string>\n+\t<string>jp.theplant.GBox.${PRODUCT_NAME:rfc1034identifier}</string>\n \t<key>CFBundleInfoDictionaryVersion</key>\n \t<string>6.0</string>\n \t<key>CFBundlePackageType</key>",
+      "status": "modified",
+      "deletions": 1,
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/6406c978a888da7cdbbcce295405130caedb9f07/GBoxTests/GBoxTests-Info.plist",
+      "changes": 2,
+      "filename": "GBoxTests/GBoxTests-Info.plist",
+      "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
+      "raw_url": "https://github.com/theplant/GBox/raw/6406c978a888da7cdbbcce295405130caedb9f07/GBoxTests/GBoxTests-Info.plist"
+    },
+    {
+      "patch": "--- a/GBoxTests/GBoxTests.h\n+++ b/GBoxTests/GBoxTests.h\n@@ -2,16 +2,12 @@\n //  GBoxTests.h\n //  GBoxTests\n //\n-//  Created by Felix on 6/22/11.\n+//  Created by Felix on 9/13/11.\n //  Copyright 2011 __MyCompanyName__. All rights reserved.\n //\n \n #import <SenTestingKit/SenTestingKit.h>\n \n-\n-@interface GBoxTests : SenTestCase {\n-@private\n-    \n-}\n+@interface GBoxTests : SenTestCase\n \n @end",
+      "status": "modified",
+      "deletions": 6,
+      "additions": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/6406c978a888da7cdbbcce295405130caedb9f07/GBoxTests/GBoxTests.h",
+      "changes": 8,
+      "filename": "GBoxTests/GBoxTests.h",
+      "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
+      "raw_url": "https://github.com/theplant/GBox/raw/6406c978a888da7cdbbcce295405130caedb9f07/GBoxTests/GBoxTests.h"
+    },
+    {
+      "patch": "--- a/GBoxTests/GBoxTests.m\n+++ b/GBoxTests/GBoxTests.m\n@@ -2,11 +2,12 @@\n //  GBoxTests.m\n //  GBoxTests\n //\n-//  Created by Felix on 6/22/11.\n+//  Created by Felix on 9/13/11.\n //  Copyright 2011 __MyCompanyName__. All rights reserved.\n //\n \n #import \"GBoxTests.h\"\n+#import \"GBUtility.h\"\n \n \n @implementation GBoxTests\n@@ -25,9 +26,11 @@\n     [super tearDown];\n }\n \n-- (void)testExample\n+- (void)testGBUtility\n {\n-    STFail(@\"Unit tests are not implemented yet in GBoxTests\");\n+    [GBUtility setIdentifier:@\"felix\" forFileAtPath:@\"/tmp\"];\n+    \n+    STAssertEquals(@\"felix\", [GBUtility identifierforFileAtPath:@\"/tmp\"], [GBUtility identifierforFileAtPath:@\"/tmp\"]);\n }\n \n @end",
+      "status": "modified",
+      "deletions": 3,
+      "additions": 6,
+      "blob_url": "https://github.com/theplant/GBox/blob/6406c978a888da7cdbbcce295405130caedb9f07/GBoxTests/GBoxTests.m",
+      "changes": 9,
+      "filename": "GBoxTests/GBoxTests.m",
+      "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
+      "raw_url": "https://github.com/theplant/GBox/raw/6406c978a888da7cdbbcce295405130caedb9f07/GBoxTests/GBoxTests.m"
+    }
+  ],
+  "stats": {
+    "deletions": 11,
+    "additions": 168,
+    "total": 179
+  },
+  "parents": [
+    {
+      "sha": "1517c999efbb5d4291476c04fbf3d9548fe0f9ba",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/1517c999efbb5d4291476c04fbf3d9548fe0f9ba"
+    }
+  ],
+  "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
+  "commit": {
+    "tree": {
+      "sha": "04ad27149018d003564426347cb4eaebd5d5d0d2",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/04ad27149018d003564426347cb4eaebd5d5d0d2"
+    },
+    "message": "try to add tests, but still can't run yet",
+    "committer": {
+      "date": "2011-09-13T03:59:19-07:00",
+      "name": "Felix Sun",
+      "email": "sunfmin@gmail.com"
+    },
+    "author": {
+      "date": "2011-09-13T03:59:19-07:00",
+      "name": "Felix Sun",
+      "email": "sunfmin@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/6406c978a888da7cdbbcce295405130caedb9f07"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/6406c978a888da7cdbbcce295405130caedb9f07"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">2</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-04-14T15:06:30+09:00</created-at>
+  <creator-id type="integer">94027</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">251</number>
+  <permalink>long-process-style-broken</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Long Process style broken.</title>
+  <updated-at type="datetime">2011-04-15T13:03:29+09:00</updated-at>
+  <user-id type="integer">2504</user-id>
+  <version type="integer">2</version>
+  <user-name>Felix Sun</user-name>
+  <creator-name>bin</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/251</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>http://www.ru.dev3.asics.eu:9090/admin/long_processes</original-body>
+  <latest-body>http://www.ru.dev3.asics.eu:9090/admin/long_processes</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.ru.dev3.asics.eu:9090/admin/long_processes&quot;&gt;http://www.ru.dev3.asics.eu:9090/admin/long_processes&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.ru.dev3.asics.eu:9090/admin/long_processes</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.ru.dev3.asics.eu:9090/admin/long_processes&quot;&gt;http://www.ru.dev3.asics.eu:9090/admin/long_processes&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-04-14T15:06:30+09:00</created-at>
+      <creator-id type="integer">94027</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">251</number>
+      <permalink>long-process-style-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Long Process style broken.</title>
+      <updated-at type="datetime">2011-04-14T15:06:40+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">1</version>
+      <user-name>bin</user-name>
+      <creator-name>bin</creator-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/251</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">2</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-04-15T13:03:17+09:00</created-at>
+      <creator-id type="integer">94027</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">251</number>
+      <permalink>long-process-style-broken</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">30780</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Long Process style broken.</title>
+      <updated-at type="datetime">2011-04-15T13:03:29+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">2</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>bin</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/251</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>7874f2466327066cfbb8f14fe75ebea9b1d27ae6</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-04-14T15:06:30+09:00</created-at>
+      <filename>screen-shot-2011-04-14-at-204.png</filename>
+      <height type="integer">257</height>
+      <id type="integer">1013619</id>
+      <size type="integer">39085</size>
+      <uploader-id type="integer">94027</uploader-id>
+      <width type="integer">1070</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1013619/screen-shot-2011-04-14-at-204.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

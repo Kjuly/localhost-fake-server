@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-10T21:57:32+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">772</number>
+  <permalink>admin-stores-minor-changes-to-input-screen</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Admin &gt; Stores &gt; Minor changes to input screen</title>
+  <updated-at type="datetime">2011-09-14T00:54:25+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">3</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/772</url>
+  <priority-name>Low</priority-name>
+  <original-body>http://www.uk.asics2-draft.theplant-dev.com/admin/stores/new/
+
+* Change the text &quot;Ichiban&quot; =&gt; &quot;Specialist Stores&quot;
+* Put some padding after the checkbox.
+* Alphabetize the category list.
+
+see attached.</original-body>
+  <latest-body>http://www.uk.asics2-draft.theplant-dev.com/admin/stores/new/
+
+* Change the text &quot;Ichiban&quot; =&gt; &quot;Specialist Stores&quot;
+* Put some padding after the checkbox.
+* Alphabetize the category list.
+
+see attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/stores/new/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/stores/new/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Change the text &quot;Ichiban&quot; =&amp;gt; &quot;Specialist Stores&quot;&lt;/li&gt;
+&lt;li&gt;Put some padding after the checkbox.&lt;/li&gt;
+&lt;li&gt;Alphabetize the category list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;see attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/admin/stores/new/
+
+* Change the text &quot;Ichiban&quot; =&gt; &quot;Specialist Stores&quot;
+* Put some padding after the checkbox.
+* Alphabetize the category list.
+
+see attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/stores/new/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/stores/new/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Change the text &quot;Ichiban&quot; =&amp;gt; &quot;Specialist Stores&quot;&lt;/li&gt;
+&lt;li&gt;Put some padding after the checkbox.&lt;/li&gt;
+&lt;li&gt;Alphabetize the category list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;see attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-10T21:57:32+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">772</number>
+      <permalink>admin-stores-minor-changes-to-input-screen</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Stores &gt; Minor changes to input screen</title>
+      <updated-at type="datetime">2011-09-10T21:57:45+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/772</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body>Done.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Done.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-13T11:34:35+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 94027
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">772</number>
+      <permalink>admin-stores-minor-changes-to-input-screen</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Stores &gt; Minor changes to input screen</title>
+      <updated-at type="datetime">2011-09-13T11:34:50+09:00</updated-at>
+      <user-id type="integer">94027</user-id>
+      <version type="integer">2</version>
+      <user-name>bin</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/772</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-14T00:54:05+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">772</number>
+      <permalink>admin-stores-minor-changes-to-input-screen</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Admin &gt; Stores &gt; Minor changes to input screen</title>
+      <updated-at type="datetime">2011-09-14T00:54:25+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">3</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/772</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>69a93e2e0489f97aa8b1eadf6fc9bc7714eec518</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-10T21:57:33+09:00</created-at>
+      <filename>ichiban.png</filename>
+      <height type="integer">458</height>
+      <id type="integer">1372939</id>
+      <size type="integer">79983</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">673</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1372939/ichiban.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>8ae6df26d51349ddd5946ad59c8ad1a32f6dec08</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-10T21:57:33+09:00</created-at>
+      <filename>alphabetize-categories.png</filename>
+      <height type="integer">699</height>
+      <id type="integer">1372940</id>
+      <size type="integer">135643</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1157</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1372940/alphabetize-categories.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">104778</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-14T17:26:55+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">811</number>
+  <permalink>foot-id-cancel</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>committed</state>
+  <tag nil="true"></tag>
+  <title>Foot ID cancel</title>
+  <updated-at type="datetime">2011-09-19T21:59:19+09:00</updated-at>
+  <user-id type="integer">104778</user-id>
+  <version type="integer">4</version>
+  <user-name>Zhen Wu</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Zhen Wu</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/811</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>After cancel an Foot ID event, thst should be link to a page like image 1, should not link to image 2.</original-body>
+  <latest-body>After cancel an Foot ID event, thst should be link to a page like image 1, should not link to image 2.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;After cancel an Foot ID event, thst should be link to a page
+like image 1, should not link to image 2.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>After cancel an Foot ID event, thst should be link to a page like image 1, should not link to image 2.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;After cancel an Foot ID event, thst should be link to a page
+like image 1, should not link to image 2.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-14T17:26:55+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">811</number>
+      <permalink>foot-id-cancel</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Foot ID cancel</title>
+      <updated-at type="datetime">2011-09-14T17:27:11+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/811</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T12:32:33+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">811</number>
+      <permalink>foot-id-cancel</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Foot ID cancel</title>
+      <updated-at type="datetime">2011-09-15T12:32:51+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/811</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-15T16:30:28+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">811</number>
+      <permalink>foot-id-cancel</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Foot ID cancel</title>
+      <updated-at type="datetime">2011-09-15T16:30:43+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">3</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/811</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T21:58:52+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">811</number>
+      <permalink>foot-id-cancel</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Foot ID cancel</title>
+      <updated-at type="datetime">2011-09-19T21:59:19+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">4</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/811</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>f4c4bf4c8d45d68fa1e22017800430494f3198e7</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-14T17:26:55+09:00</created-at>
+      <filename>image1.png</filename>
+      <height type="integer">918</height>
+      <id type="integer">1384215</id>
+      <size type="integer">272915</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1087</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1384215/image1.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>367c2a837505c9f07cac52912b3ca528abc53d09</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-14T17:26:56+09:00</created-at>
+      <filename>image2.png</filename>
+      <height type="integer">853</height>
+      <id type="integer">1384216</id>
+      <size type="integer">234267</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1007</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1384216/image2.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

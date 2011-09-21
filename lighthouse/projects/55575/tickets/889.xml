@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-21T11:48:50+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">889</number>
+  <permalink>shoe-adviser-error</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag>hoptoad</tag>
+  <title>shoe adviser error</title>
+  <updated-at type="datetime">2011-09-21T11:51:10+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">2</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/889</url>
+  <priority-name>Low</priority-name>
+  <original-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing partial shoe_adviser/shoe, categories/shoe, application/shoe with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110920063202/app/views](http://theplant.airbrakeapp.com/errors/12857437)</original-body>
+  <latest-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing partial shoe_adviser/shoe, categories/shoe, application/shoe with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110920063202/app/views](http://theplant.airbrakeapp.com/errors/12857437)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12857437&quot;&gt;ActionView::MissingTemplate:
+ActionView::MissingTemplate: Missing partial shoe_adviser/shoe,
+categories/shoe, application/shoe with {:handlers=&amp;gt;[:erb,
+:builder, :slim], :formats=&amp;gt;[:html], :locale=&amp;gt;[:&quot;en-uk&quot;,
+:en]}. Searched in: *
+&quot;/home/app/app_draft/releases/20110920063202/app/views&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing partial shoe_adviser/shoe, categories/shoe, application/shoe with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110920063202/app/views](http://theplant.airbrakeapp.com/errors/12857437)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12857437&quot;&gt;ActionView::MissingTemplate:
+ActionView::MissingTemplate: Missing partial shoe_adviser/shoe,
+categories/shoe, application/shoe with {:handlers=&amp;gt;[:erb,
+:builder, :slim], :formats=&amp;gt;[:html], :locale=&amp;gt;[:&quot;en-uk&quot;,
+:en]}. Searched in: *
+&quot;/home/app/app_draft/releases/20110920063202/app/views&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T11:48:50+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">889</number>
+      <permalink>shoe-adviser-error</permalink>
+      <priority type="integer">0</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>shoe adviser error</title>
+      <updated-at type="datetime">2011-09-21T11:49:00+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/889</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T11:50:57+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 
+:priority: 0
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">889</number>
+      <permalink>shoe-adviser-error</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>shoe adviser error</title>
+      <updated-at type="datetime">2011-09-21T11:51:10+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/889</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

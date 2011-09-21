@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-02-21T19:08:21+09:00</created-at>
+  <creator-id type="integer">24538</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">243</number>
+  <permalink>refactor-filtered_scope-out-from-resources_controller</permalink>
+  <priority type="integer">61</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag>refactor resources_engine</tag>
+  <title>refactor filtered_scope out from resources_controller</title>
+  <updated-at type="datetime">2011-02-21T19:08:30+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">1</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Jan Xie</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/243</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>* a module including all filter_scoped related methods
+* resources_engine will add a filter_scoped class method to all models
+* in resources_controller#index, we just do @resource_class.filter_scoped(params[:filter])
+* we can simplify search_center_controller a lot</original-body>
+  <latest-body>* a module including all filter_scoped related methods
+* resources_engine will add a filter_scoped class method to all models
+* in resources_controller#index, we just do @resource_class.filter_scoped(params[:filter])
+* we can simplify search_center_controller a lot</latest-body>
+  <original-body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;a module including all filter_scoped related methods&lt;/li&gt;
+&lt;li&gt;resources_engine will add a filter_scoped class method to all
+models&lt;/li&gt;
+&lt;li&gt;in resources_controller#index, we just do
+@resource_class.filter_scoped(params[:filter])&lt;/li&gt;
+&lt;li&gt;we can simplify search_center_controller a lot&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>* a module including all filter_scoped related methods
+* resources_engine will add a filter_scoped class method to all models
+* in resources_controller#index, we just do @resource_class.filter_scoped(params[:filter])
+* we can simplify search_center_controller a lot</body>
+      <body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;a module including all filter_scoped related methods&lt;/li&gt;
+&lt;li&gt;resources_engine will add a filter_scoped class method to all
+models&lt;/li&gt;
+&lt;li&gt;in resources_controller#index, we just do
+@resource_class.filter_scoped(params[:filter])&lt;/li&gt;
+&lt;li&gt;we can simplify search_center_controller a lot&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-21T19:08:21+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">243</number>
+      <permalink>refactor-filtered_scope-out-from-resources_controller</permalink>
+      <priority type="integer">61</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag>refactor resources_engine</tag>
+      <title>refactor filtered_scope out from resources_controller</title>
+      <updated-at type="datetime">2011-02-21T19:08:30+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">1</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/243</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

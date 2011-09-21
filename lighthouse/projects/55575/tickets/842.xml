@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">158028</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-16T11:28:56+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">842</number>
+  <permalink>iesave-settingalway-show-the-ajax-loader-icon</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>IE&gt;save setting&gt;alway show the ajax loader icon</title>
+  <updated-at type="datetime">2011-09-20T19:41:54+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">2</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>lancee LY</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/842</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-16T11:28:56+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">842</number>
+      <permalink>iesave-settingalway-show-the-ajax-loader-icon</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>IE&gt;save setting&gt;alway show the ajax loader icon</title>
+      <updated-at type="datetime">2011-09-16T11:38:59+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/842</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">158028</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T19:41:31+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">842</number>
+      <permalink>iesave-settingalway-show-the-ajax-loader-icon</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>IE&gt;save setting&gt;alway show the ajax loader icon</title>
+      <updated-at type="datetime">2011-09-20T19:41:54+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>lancee LY</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/842</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>99598b16941c8300d4f6cf7c648b46cd94ada343</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-16T11:28:56+09:00</created-at>
+      <filename>2011-09-16_1030.png</filename>
+      <height type="integer">922</height>
+      <id type="integer">1394628</id>
+      <size type="integer">143514</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1435</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1394628/2011-09-16_1030.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

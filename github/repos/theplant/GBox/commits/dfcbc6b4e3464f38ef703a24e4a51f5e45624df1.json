@@ -1,0 +1,58 @@
+{
+  "commit": {
+    "message": "Close log in filesysteminfo.",
+    "tree": {
+      "sha": "0304d7cf0e8bd2a57b923cd3cacd5b9a8a538627",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/0304d7cf0e8bd2a57b923cd3cacd5b9a8a538627"
+    },
+    "author": {
+      "date": "2011-08-23T21:30:00-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "committer": {
+      "date": "2011-08-23T21:30:00-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/dfcbc6b4e3464f38ef703a24e4a51f5e45624df1"
+  },
+  "sha": "dfcbc6b4e3464f38ef703a24e4a51f5e45624df1",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "dfcbc6b4e3464f38ef703a24e4a51f5e45624df1",
+      "additions": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/dfcbc6b4e3464f38ef703a24e4a51f5e45624df1/GBox/GBFileSystemInfo.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/dfcbc6b4e3464f38ef703a24e4a51f5e45624df1/GBox/GBFileSystemInfo.m",
+      "filename": "GBox/GBFileSystemInfo.m",
+      "patch": "--- a/GBox/GBFileSystemInfo.m\n+++ b/GBox/GBFileSystemInfo.m\n@@ -72,9 +72,11 @@ static GBFileSystemInfo* instance= nil;\n         \n         //set identifier to path dic\n         NSString* identifier = [GBUtility identifierforFileAtPath:[GBUtility simplifyLocalPath:[url path]]];\n+        /*\n         if(identifier!=nil){\n             NSLog(@\"The identifier length is %lu\",[identifier length]);\n         }\n+         */\n         if( (identifier!=nil) && (![identifier isEqualToString:@\"\"] ) && ([identifier length] >80 ) ){\n             [attributes setObject:identifier forKey:kGBFileAttributeIdentifier];\n             NSMutableSet* paths =  [identifierPathsDic valueForKey:identifier];",
+      "deletions": 0,
+      "changes": 2
+    }
+  ],
+  "stats": {
+    "additions": 2,
+    "total": 2,
+    "deletions": 0
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "parents": [
+    {
+      "sha": "3db9c11ee490dcd86b261a8ab901c865600bce04",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/3db9c11ee490dcd86b261a8ab901c865600bce04"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/dfcbc6b4e3464f38ef703a24e4a51f5e45624df1"
+}

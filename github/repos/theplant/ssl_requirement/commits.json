@@ -1,0 +1,359 @@
+[
+  {
+    "sha": "32c0cd10fe3aa39e43446ea909ff63be68f031fa",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "parents": [
+      {
+        "sha": "c2d3503e276f76c9d5e8589137f5e39d549c95dd",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/c2d3503e276f76c9d5e8589137f5e39d549c95dd"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/32c0cd10fe3aa39e43446ea909ff63be68f031fa",
+    "commit": {
+      "tree": {
+        "sha": "ac72f9c3c35f9f32daf44df532a0e2d57369b31a",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/ac72f9c3c35f9f32daf44df532a0e2d57369b31a"
+      },
+      "author": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-05-06T02:46:49-07:00"
+      },
+      "message": "remove DEPRECATION WARNING",
+      "committer": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-05-06T02:46:49-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/32c0cd10fe3aa39e43446ea909ff63be68f031fa"
+    }
+  },
+  {
+    "sha": "c2d3503e276f76c9d5e8589137f5e39d549c95dd",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "parents": [
+      {
+        "sha": "254451bb94b84d7bb794211edd75ff7630c83053",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/254451bb94b84d7bb794211edd75ff7630c83053"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/c2d3503e276f76c9d5e8589137f5e39d549c95dd",
+    "commit": {
+      "tree": {
+        "sha": "2604b60554868ef8de8c86c17e96e8f39143d48c",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/2604b60554868ef8de8c86c17e96e8f39143d48c"
+      },
+      "author": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-05-05T21:41:13-07:00"
+      },
+      "message": "add method to skip ssl requirement on fly",
+      "committer": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-05-05T21:41:19-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/c2d3503e276f76c9d5e8589137f5e39d549c95dd"
+    }
+  },
+  {
+    "sha": "254451bb94b84d7bb794211edd75ff7630c83053",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "parents": [
+      {
+        "sha": "6383210019c469b741efcaa360bb0202a214ed28",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/6383210019c469b741efcaa360bb0202a214ed28"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/254451bb94b84d7bb794211edd75ff7630c83053",
+    "commit": {
+      "tree": {
+        "sha": "73f8af5fb0eecae880bbfb193cbc47159a443a07",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/73f8af5fb0eecae880bbfb193cbc47159a443a07"
+      },
+      "author": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T20:55:31-07:00"
+      },
+      "message": "don't redirect unless request is get",
+      "committer": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T20:55:31-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/254451bb94b84d7bb794211edd75ff7630c83053"
+    }
+  },
+  {
+    "sha": "6383210019c469b741efcaa360bb0202a214ed28",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "parents": [
+      {
+        "sha": "4e897ac6e64c88fcd8fb640de9672e8b6edbe774",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/4e897ac6e64c88fcd8fb640de9672e8b6edbe774"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/6383210019c469b741efcaa360bb0202a214ed28",
+    "commit": {
+      "tree": {
+        "sha": "5732b7082c2cebb3abcf625ac130dba5f8d7cb5b",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/5732b7082c2cebb3abcf625ac130dba5f8d7cb5b"
+      },
+      "author": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T00:33:17-07:00"
+      },
+      "message": "rename gemspec",
+      "committer": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T00:33:17-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/6383210019c469b741efcaa360bb0202a214ed28"
+    }
+  },
+  {
+    "sha": "4e897ac6e64c88fcd8fb640de9672e8b6edbe774",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "parents": [
+      {
+        "sha": "c9d8efa88354e0860d8003aefa77c7c456b88032",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/c9d8efa88354e0860d8003aefa77c7c456b88032"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/4e897ac6e64c88fcd8fb640de9672e8b6edbe774",
+    "commit": {
+      "tree": {
+        "sha": "1ab34fe79bab85b83b90b904b8a1f7c6f180b61c",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/1ab34fe79bab85b83b90b904b8a1f7c6f180b61c"
+      },
+      "author": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T00:31:05-07:00"
+      },
+      "message": "add gemspec",
+      "committer": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T00:31:05-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/4e897ac6e64c88fcd8fb640de9672e8b6edbe774"
+    }
+  },
+  {
+    "sha": "c9d8efa88354e0860d8003aefa77c7c456b88032",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "parents": [
+      {
+        "sha": "34a9a138c4093bd7d5678822f8f1e62c31d47299",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/34a9a138c4093bd7d5678822f8f1e62c31d47299"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d240c45b981e760cf35fd52e8b83ce87?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jinzhu",
+      "id": 6843,
+      "url": "https://api.github.com/users/jinzhu"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/c9d8efa88354e0860d8003aefa77c7c456b88032",
+    "commit": {
+      "tree": {
+        "sha": "cc7414c15c67f8a000bba9542d310533bdf9ad38",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/cc7414c15c67f8a000bba9542d310533bdf9ad38"
+      },
+      "author": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T00:23:27-07:00"
+      },
+      "message": "allow :all for ssl_required, ssl_allowed",
+      "committer": {
+        "email": "wosmvp@gmail.com",
+        "name": "Jinzhu",
+        "date": "2011-04-30T00:23:27-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/c9d8efa88354e0860d8003aefa77c7c456b88032"
+    }
+  },
+  {
+    "sha": "34a9a138c4093bd7d5678822f8f1e62c31d47299",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/24d2f8804e6bb4b7ea6bd11e0a586470?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jeremy",
+      "id": 199,
+      "url": "https://api.github.com/users/jeremy"
+    },
+    "parents": [
+      {
+        "sha": "aa2dded823f8a9b378c22ba0159971508918928a",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/aa2dded823f8a9b378c22ba0159971508918928a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/24d2f8804e6bb4b7ea6bd11e0a586470?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jeremy",
+      "id": 199,
+      "url": "https://api.github.com/users/jeremy"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/34a9a138c4093bd7d5678822f8f1e62c31d47299",
+    "commit": {
+      "tree": {
+        "sha": "234ebc2ec7865ccf38a8751df6d51e6ed113b650",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/234ebc2ec7865ccf38a8751df6d51e6ed113b650"
+      },
+      "author": {
+        "email": "jeremy@bitsweat.net",
+        "name": "Jeremy Kemper",
+        "date": "2008-02-01T21:16:53-08:00"
+      },
+      "message": "SSL requirement plugin keeps flash when it redirects. Closes #8649 [rundeks, fogle]",
+      "committer": {
+        "email": "jeremy@bitsweat.net",
+        "name": "Jeremy Kemper",
+        "date": "2008-02-01T21:16:53-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/34a9a138c4093bd7d5678822f8f1e62c31d47299"
+    }
+  },
+  {
+    "sha": "aa2dded823f8a9b378c22ba0159971508918928a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/992fe8c19bbbc27f2b562a9f96efc03d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jamis",
+      "id": 1627,
+      "url": "https://api.github.com/users/jamis"
+    },
+    "parents": [
+      {
+        "sha": "79ded847042aa9f8b4d619a70aa709cdf73b6704",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/79ded847042aa9f8b4d619a70aa709cdf73b6704"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/992fe8c19bbbc27f2b562a9f96efc03d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "jamis",
+      "id": 1627,
+      "url": "https://api.github.com/users/jamis"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/aa2dded823f8a9b378c22ba0159971508918928a",
+    "commit": {
+      "tree": {
+        "sha": "1adaf335bd80d4f7a3b59984874531f1d238dbf4",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/1adaf335bd80d4f7a3b59984874531f1d238dbf4"
+      },
+      "author": {
+        "email": "jamis@37signals.com",
+        "name": "Jamis Buck",
+        "date": "2005-11-15T14:50:17-08:00"
+      },
+      "message": "[ssl_requirement plugin] add unit tests and ssl_allowed option (for actions that optionally support SSL)",
+      "committer": {
+        "email": "jamis@37signals.com",
+        "name": "Jamis Buck",
+        "date": "2005-11-15T14:50:17-08:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/aa2dded823f8a9b378c22ba0159971508918928a"
+    }
+  },
+  {
+    "sha": "79ded847042aa9f8b4d619a70aa709cdf73b6704",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/ed9635566b34ade32274f510f0f9a6d2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "dhh",
+      "id": 2741,
+      "url": "https://api.github.com/users/dhh"
+    },
+    "parents": [
+
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/ed9635566b34ade32274f510f0f9a6d2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "dhh",
+      "id": 2741,
+      "url": "https://api.github.com/users/dhh"
+    },
+    "url": "https://api.github.com/repos/theplant/ssl_requirement/commits/79ded847042aa9f8b4d619a70aa709cdf73b6704",
+    "commit": {
+      "tree": {
+        "sha": "7608bbe4bbac38b71c9bcad8d0f3cf54fab12db6",
+        "url": "https://api.github.com/repos/theplant/ssl_requirement/git/trees/7608bbe4bbac38b71c9bcad8d0f3cf54fab12db6"
+      },
+      "author": {
+        "email": "david@loudthinking.com",
+        "name": "David Heinemeier Hansson",
+        "date": "2005-10-29T08:12:37-07:00"
+      },
+      "message": "SSL requirement adds a declarative way of specifying that certain actions should only be allowed to run under SSL, and if theyre accessed without it, they should be redirected.",
+      "committer": {
+        "email": "david@loudthinking.com",
+        "name": "David Heinemeier Hansson",
+        "date": "2005-10-29T08:12:37-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/ssl_requirement/git/commits/79ded847042aa9f8b4d619a70aa709cdf73b6704"
+    }
+  }
+]

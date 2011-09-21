@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-03-18T16:00:20+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">246</number>
+  <permalink>add-tracking-to-google-analytics-on-front-end</permalink>
+  <priority type="integer">15</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Add tracking to Google Analytics on Front end</title>
+  <updated-at type="datetime">2011-03-18T16:00:34+09:00</updated-at>
+  <user-id type="integer">2504</user-id>
+  <version type="integer">1</version>
+  <user-name>Felix Sun</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/246</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name nil="true"></priority-name>
+  <original-body>Raph want to be able to say &quot;This link, this button, this transition should be tracked by Google Analytics&quot; at front end
+
+We should think about have a interface to add tracking definitions to Google Analytics in front end.</original-body>
+  <latest-body>Raph want to be able to say &quot;This link, this button, this transition should be tracked by Google Analytics&quot; at front end
+
+We should think about have a interface to add tracking definitions to Google Analytics in front end.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Raph want to be able to say &quot;This link, this button, this
+transition should be tracked by Google Analytics&quot; at front end&lt;/p&gt;
+&lt;p&gt;We should think about have a interface to add tracking
+definitions to Google Analytics in front end.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Raph want to be able to say &quot;This link, this button, this transition should be tracked by Google Analytics&quot; at front end
+
+We should think about have a interface to add tracking definitions to Google Analytics in front end.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Raph want to be able to say &quot;This link, this button, this
+transition should be tracked by Google Analytics&quot; at front end&lt;/p&gt;
+&lt;p&gt;We should think about have a interface to add tracking
+definitions to Google Analytics in front end.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-03-18T16:00:20+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">246</number>
+      <permalink>add-tracking-to-google-analytics-on-front-end</permalink>
+      <priority type="integer">15</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Add tracking to Google Analytics on Front end</title>
+      <updated-at type="datetime">2011-03-18T16:00:34+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/246</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

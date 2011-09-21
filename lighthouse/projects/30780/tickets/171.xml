@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2010-09-16T11:09:42+09:00</created-at>
+  <creator-id type="integer">24538</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">171</number>
+  <permalink>publish-resources_engine-and-other-improvments</permalink>
+  <priority type="integer">17</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag>publish</tag>
+  <title>publish + resources_engine and other improvments</title>
+  <updated-at type="datetime">2011-02-12T21:58:23+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">3</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Jan Xie</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/171</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>Add a hook in publish to accept a list of 'visible' resources, so when app initialize, we can pass in the resources list of resources_engine. Visible means displayed on admin, the resource user can manage directly.
+
+With that information, we can improve the auto publish algorithm used now:
+
+1. if A belongs_to B, B is new, when you publish A, B should be published too (keep fk consistent)
+
+2. if A has_many B, and B is in resources list, when publish A do nothing to B (because user can see B on admin pages, he can publish B by himself if he wish)
+
+3. if A has_many B, and B is NOT in resources list, when publish A also publish B (if don't publish B also, user have no way to publish it because it's not in the resources list)
+
+4. if A has_many C through B, auto publish B only when both A and C are published. e.g. if A is published but C is not, keep B unpublished. If C is published at a later time, publish B.
+
+A graph search can be used to determine the dependencies of a publish, which can help user experience and avoid dead loop (there should be no circle in the graph). e.g. if user choose to publish A, we can know B and C need to be published automatically in advance, and give that information back to user, ask for his confirmation to avoid auto publish any sensitive data.
+
+We should display a progress bar after user clicks the publish button.</original-body>
+  <latest-body>Add a hook in publish to accept a list of 'visible' resources, so when app initialize, we can pass in the resources list of resources_engine. Visible means displayed on admin, the resource user can manage directly.
+
+With that information, we can improve the auto publish algorithm used now:
+
+1. if A belongs_to B, B is new, when you publish A, B should be published too (keep fk consistent)
+
+2. if A has_many B, and B is in resources list, when publish A do nothing to B (because user can see B on admin pages, he can publish B by himself if he wish)
+
+3. if A has_many B, and B is NOT in resources list, when publish A also publish B (if don't publish B also, user have no way to publish it because it's not in the resources list)
+
+4. if A has_many C through B, auto publish B only when both A and C are published. e.g. if A is published but C is not, keep B unpublished. If C is published at a later time, publish B.
+
+A graph search can be used to determine the dependencies of a publish, which can help user experience and avoid dead loop (there should be no circle in the graph). e.g. if user choose to publish A, we can know B and C need to be published automatically in advance, and give that information back to user, ask for his confirmation to avoid auto publish any sensitive data.
+
+We should display a progress bar after user clicks the publish button.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Add a hook in publish to accept a list of 'visible' resources,
+so when app initialize, we can pass in the resources list of
+resources_engine. Visible means displayed on admin, the resource
+user can manage directly.&lt;/p&gt;
+&lt;p&gt;With that information, we can improve the auto publish algorithm
+used now:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;if A belongs_to B, B is new, when you publish A, B should be
+published too (keep fk consistent)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many B, and B is in resources list, when publish A do
+nothing to B (because user can see B on admin pages, he can publish
+B by himself if he wish)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many B, and B is NOT in resources list, when publish A
+also publish B (if don't publish B also, user have no way to
+publish it because it's not in the resources list)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many C through B, auto publish B only when both A and C
+are published. e.g. if A is published but C is not, keep B
+unpublished. If C is published at a later time, publish B.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A graph search can be used to determine the dependencies of a
+publish, which can help user experience and avoid dead loop (there
+should be no circle in the graph). e.g. if user choose to publish
+A, we can know B and C need to be published automatically in
+advance, and give that information back to user, ask for his
+confirmation to avoid auto publish any sensitive data.&lt;/p&gt;
+&lt;p&gt;We should display a progress bar after user clicks the publish
+button.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Add a hook in publish to accept a list of 'visible' resources, so when app initialize, we can pass in the resources list of resources_engine. Visible means displayed on admin, the resource user can manage directly.
+
+With that information, we can improve the auto publish algorithm used now:
+
+1. if A belongs_to B, B is new, when you publish A, B should be published too (keep fk consistent)
+
+2. if A has_many B, and B is in resources list, when publish A do nothing to B (because user can see B on admin pages, he can publish B by himself if he wish)
+
+3. if A has_many B, and B is NOT in resources list, when publish A also publish B (if don't publish B also, user have no way to publish it because it's not in the resources list)
+
+4. if A has_many C through B, auto publish B only when both A and C are published. e.g. if A is published but C is not, keep B unpublished. If C is published at a later time, publish B.
+
+A graph search can be used to determine the dependencies of a publish, which can help user experience and avoid dead loop (there should be no circle in the graph). e.g. if user choose to publish A, we can know B and C need to be published automatically in advance, and give that information back to user, ask for his confirmation to avoid auto publish any sensitive data.
+
+We should display a progress bar after user clicks the publish button.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Add a hook in publish to accept a list of 'visible' resources,
+so when app initialize, we can pass in the resources list of
+resources_engine. Visible means displayed on admin, the resource
+user can manage directly.&lt;/p&gt;
+&lt;p&gt;With that information, we can improve the auto publish algorithm
+used now:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;if A belongs_to B, B is new, when you publish A, B should be
+published too (keep fk consistent)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many B, and B is in resources list, when publish A do
+nothing to B (because user can see B on admin pages, he can publish
+B by himself if he wish)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many B, and B is NOT in resources list, when publish A
+also publish B (if don't publish B also, user have no way to
+publish it because it's not in the resources list)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if A has_many C through B, auto publish B only when both A and C
+are published. e.g. if A is published but C is not, keep B
+unpublished. If C is published at a later time, publish B.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A graph search can be used to determine the dependencies of a
+publish, which can help user experience and avoid dead loop (there
+should be no circle in the graph). e.g. if user choose to publish
+A, we can know B and C need to be published automatically in
+advance, and give that information back to user, ask for his
+confirmation to avoid auto publish any sensitive data.&lt;/p&gt;
+&lt;p&gt;We should display a progress bar after user clicks the publish
+button.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2010-09-16T11:09:42+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">171</number>
+      <permalink>publish-resources_engine-and-other-improvments</permalink>
+      <priority type="integer">17</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>publish + resources_engine and other improvments</title>
+      <updated-at type="datetime">2010-09-16T11:09:44+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">1</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/171</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2010-09-16T11:10:27+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">171</number>
+      <permalink>publish-resources_engine-and-other-improvments</permalink>
+      <priority type="integer">17</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>publish + resources_engine and other improvments</title>
+      <updated-at type="datetime">2010-09-16T11:10:31+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">2</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/171</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>related to #239</body>
+      <body-html>&lt;div&gt;&lt;p&gt;related to &lt;a href=&quot;/projects/30780/tickets/239&quot; title=
+&quot;Ticket #239&quot;&gt;#239&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-12T21:58:12+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- 
+:tag: 
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">171</number>
+      <permalink>publish-resources_engine-and-other-improvments</permalink>
+      <priority type="integer">17</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag>publish</tag>
+      <title>publish + resources_engine and other improvments</title>
+      <updated-at type="datetime">2011-02-12T21:58:23+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">3</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/171</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

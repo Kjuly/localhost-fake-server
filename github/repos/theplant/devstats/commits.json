@@ -1,0 +1,1202 @@
+[
+  {
+    "sha": "cd7f36e602330555f0194f135a4ae260cbf0b9a7",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "f422332496179bbb3c791c5460bd16541a7eabc4",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/f422332496179bbb3c791c5460bd16541a7eabc4"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/cd7f36e602330555f0194f135a4ae260cbf0b9a7",
+    "commit": {
+      "tree": {
+        "sha": "c1ddc77eb13cf1f1e6c04b06d14326ce6a785e86",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/c1ddc77eb13cf1f1e6c04b06d14326ce6a785e86"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-18T07:18:26-07:00"
+      },
+      "message": "Basic Functions seems all done. Need to slove the issues left.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-18T07:18:26-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/cd7f36e602330555f0194f135a4ae260cbf0b9a7"
+    }
+  },
+  {
+    "sha": "f422332496179bbb3c791c5460bd16541a7eabc4",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "74963859d08da91174b2b2345822b2fc308df2ce",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/74963859d08da91174b2b2345822b2fc308df2ce"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/f422332496179bbb3c791c5460bd16541a7eabc4",
+    "commit": {
+      "tree": {
+        "sha": "64774e3b5444779236f9a34545bc758218b224d4",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/64774e3b5444779236f9a34545bc758218b224d4"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-18T01:31:05-07:00"
+      },
+      "message": "Lighthouse Chart member name show Done.\n\nChange the member id to name for clear view, change the MemberModel.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-18T01:31:05-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/f422332496179bbb3c791c5460bd16541a7eabc4"
+    }
+  },
+  {
+    "sha": "74963859d08da91174b2b2345822b2fc308df2ce",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "9859387ee8d93c99c74a841b97c0d181566ef174",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/9859387ee8d93c99c74a841b97c0d181566ef174"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/74963859d08da91174b2b2345822b2fc308df2ce",
+    "commit": {
+      "tree": {
+        "sha": "69657cb4d624e3838a711eebab428cc7649e915d",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/69657cb4d624e3838a711eebab428cc7649e915d"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-18T01:04:50-07:00"
+      },
+      "message": "Lighthouse Chart of Tickets shown successfully.\n\n  7 type of chart shown in blend page. The user id shown as the user\nname temply.\n  Add the \"Compute Priority\" checkbox. If checked, ticket data will\ncompute the priority of the tickets, otherwise, just count the nums\nof the tickets and do output.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-18T01:04:50-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/74963859d08da91174b2b2345822b2fc308df2ce"
+    }
+  },
+  {
+    "sha": "9859387ee8d93c99c74a841b97c0d181566ef174",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "64bdb5c620127dafd51aa2c7ae5072b424a12d98",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/64bdb5c620127dafd51aa2c7ae5072b424a12d98"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/9859387ee8d93c99c74a841b97c0d181566ef174",
+    "commit": {
+      "tree": {
+        "sha": "70005f6a42e588a763fbecc7a55df6ce97dbba72",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/70005f6a42e588a763fbecc7a55df6ce97dbba72"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-17T23:29:04-07:00"
+      },
+      "message": "Modified the file mode from 655 to 644.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-17T23:29:04-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/9859387ee8d93c99c74a841b97c0d181566ef174"
+    }
+  },
+  {
+    "sha": "64bdb5c620127dafd51aa2c7ae5072b424a12d98",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "093aabebf3ab84e45e1d314a7d9fcda507cd164a",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/093aabebf3ab84e45e1d314a7d9fcda507cd164a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/64bdb5c620127dafd51aa2c7ae5072b424a12d98",
+    "commit": {
+      "tree": {
+        "sha": "da29cd56717ba7b271f93ce43ffa770cdceedbb4",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/da29cd56717ba7b271f93ce43ffa770cdceedbb4"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-17T07:22:57-07:00"
+      },
+      "message": "Dispatch data done.\n\n  Model to View is OK. Next task is how to deal with the ticket list\ndata.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-17T07:22:57-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/64bdb5c620127dafd51aa2c7ae5072b424a12d98"
+    }
+  },
+  {
+    "sha": "093aabebf3ab84e45e1d314a7d9fcda507cd164a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "687d131d9480018e9581483c90214c04fc132298",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/687d131d9480018e9581483c90214c04fc132298"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/093aabebf3ab84e45e1d314a7d9fcda507cd164a",
+    "commit": {
+      "tree": {
+        "sha": "15c782537a571738bb98f254518489e405437b49",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/15c782537a571738bb98f254518489e405437b49"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-17T01:49:22-07:00"
+      },
+      "message": "Autofetch ticket daily & refetch data done.\n\n1. Autofetch tickets daily.\n2. Refetch tickets (one page). * Need traverse all.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-17T01:49:22-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/093aabebf3ab84e45e1d314a7d9fcda507cd164a"
+    }
+  },
+  {
+    "sha": "687d131d9480018e9581483c90214c04fc132298",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "9aac37b2cb2631391f8b2dd061ef5441c8538540",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/9aac37b2cb2631391f8b2dd061ef5441c8538540"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/687d131d9480018e9581483c90214c04fc132298",
+    "commit": {
+      "tree": {
+        "sha": "49be3c1860e9c587c95f6aefe4297e3eb74366a6",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/49be3c1860e9c587c95f6aefe4297e3eb74366a6"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-16T19:13:23-07:00"
+      },
+      "message": "Fix the Header.\n\nOnly when the user login, show Sites info.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-16T19:13:23-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/687d131d9480018e9581483c90214c04fc132298"
+    }
+  },
+  {
+    "sha": "9aac37b2cb2631391f8b2dd061ef5441c8538540",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "1c32106cda173ca7be2f1e8dae3cce1ce65e58fb",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/1c32106cda173ca7be2f1e8dae3cce1ce65e58fb"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/9aac37b2cb2631391f8b2dd061ef5441c8538540",
+    "commit": {
+      "tree": {
+        "sha": "baf5cfd8e9b6ef7451fd4a4ec174223e32c9d0c3",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/baf5cfd8e9b6ef7451fd4a4ec174223e32c9d0c3"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-16T06:29:00-07:00"
+      },
+      "message": "Add Lighthouse Models & little UI modified.\n\n1. Fetch User data OK.\n2. Fetch Org data OK.\n3. Fetch Project data OK.\n4. Blend Lighthouse Setting page OK.\n5. Header UI modified.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-16T06:29:00-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/9aac37b2cb2631391f8b2dd061ef5441c8538540"
+    }
+  },
+  {
+    "sha": "1c32106cda173ca7be2f1e8dae3cce1ce65e58fb",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "08ae41eeab65859cc11463c81daff2f5bc85e0f8",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/08ae41eeab65859cc11463c81daff2f5bc85e0f8"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/1c32106cda173ca7be2f1e8dae3cce1ce65e58fb",
+    "commit": {
+      "tree": {
+        "sha": "510a186f169b9d4f1123058be49dcb86755bd572",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/510a186f169b9d4f1123058be49dcb86755bd572"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-13T07:21:48-07:00"
+      },
+      "message": "Update Autofetch_daily Func & Add Change Lines Chart\n\n1.\tSplit the 'traverse_commit' func from 'fetch' func.\n\t'autofetch_daily' & 'fetch' will dispatch this shared func.\n\n2.\tIn Chart template, add 'Change Lines of Github' Chart.\n\tThe line chart shows every member now, need to deal with it.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-13T07:21:48-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/1c32106cda173ca7be2f1e8dae3cce1ce65e58fb"
+    }
+  },
+  {
+    "sha": "08ae41eeab65859cc11463c81daff2f5bc85e0f8",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "2d859387dd54385894695b4cd87b21a7d74a3f2d",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/2d859387dd54385894695b4cd87b21a7d74a3f2d"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/08ae41eeab65859cc11463c81daff2f5bc85e0f8",
+    "commit": {
+      "tree": {
+        "sha": "8f8a5924b0879017151bba4c3a069d071c08b6e1",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/8f8a5924b0879017151bba4c3a069d071c08b6e1"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-12T11:01:44-07:00"
+      },
+      "message": "Change the Chart type from BAR to LINE done.\n\n  when fetching more than one day's data, it'll store the data\nday by day.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-12T11:01:44-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/08ae41eeab65859cc11463c81daff2f5bc85e0f8"
+    }
+  },
+  {
+    "sha": "2d859387dd54385894695b4cd87b21a7d74a3f2d",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "da386edf231874816e3d71d77706b7bc5cc6d9d0",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/da386edf231874816e3d71d77706b7bc5cc6d9d0"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/2d859387dd54385894695b4cd87b21a7d74a3f2d",
+    "commit": {
+      "tree": {
+        "sha": "dcd82a43fd4ca68e7ca9c2fac88438525522e073",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/dcd82a43fd4ca68e7ca9c2fac88438525522e073"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-12T01:35:22-07:00"
+      },
+      "message": "Change DataFetchHandler for Line Chart\n\nfetch fun: store commit data by day, instead of every commit data.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-12T01:35:22-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/2d859387dd54385894695b4cd87b21a7d74a3f2d"
+    }
+  },
+  {
+    "sha": "da386edf231874816e3d71d77706b7bc5cc6d9d0",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "5195d09d7f5e1cb711e62c930605c2fcdacd1385",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/5195d09d7f5e1cb711e62c930605c2fcdacd1385"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/da386edf231874816e3d71d77706b7bc5cc6d9d0",
+    "commit": {
+      "tree": {
+        "sha": "bd7c15dd3d388283912a6f61847fb8aa1e622c7a",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/bd7c15dd3d388283912a6f61847fb8aa1e622c7a"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-11T19:37:40-07:00"
+      },
+      "message": "Add Lighthouse API & files for Lighthouse.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-11T19:37:40-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/da386edf231874816e3d71d77706b7bc5cc6d9d0"
+    }
+  },
+  {
+    "sha": "5195d09d7f5e1cb711e62c930605c2fcdacd1385",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "0f28753d2bc6760c26b02a5ec53a49fedfdf0ddc",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/0f28753d2bc6760c26b02a5ec53a49fedfdf0ddc"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/5195d09d7f5e1cb711e62c930605c2fcdacd1385",
+    "commit": {
+      "tree": {
+        "sha": "a9badf44d06729a9c9f7e21da3e48e59317f8087",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/a9badf44d06729a9c9f7e21da3e48e59317f8087"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-11T00:34:45-07:00"
+      },
+      "message": "Update the nameing format, reday for add lighthouse part.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-11T00:34:45-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/5195d09d7f5e1cb711e62c930605c2fcdacd1385"
+    }
+  },
+  {
+    "sha": "0f28753d2bc6760c26b02a5ec53a49fedfdf0ddc",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "db148550c476fdf53942883cce8d4f4953a01df4",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/db148550c476fdf53942883cce8d4f4953a01df4"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/0f28753d2bc6760c26b02a5ec53a49fedfdf0ddc",
+    "commit": {
+      "tree": {
+        "sha": "da2f1a0f38fe00ccbe6bfddd73d95a76a5c64ec5",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/da2f1a0f38fe00ccbe6bfddd73d95a76a5c64ec5"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-10T02:25:46-07:00"
+      },
+      "message": "Add checkbox for refetching data & Auto Fetch function is added.\n\nAuto Fetch function runs daily. Not sure it works in my wish, need test\nmore. However, admin can run it manually, and the users need not to take\nlong time fetching the data.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-10T02:25:46-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/0f28753d2bc6760c26b02a5ec53a49fedfdf0ddc"
+    }
+  },
+  {
+    "sha": "db148550c476fdf53942883cce8d4f4953a01df4",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "8261b282d9a8685e0b601c9e00ba55c6c098e70d",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/8261b282d9a8685e0b601c9e00ba55c6c098e70d"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/db148550c476fdf53942883cce8d4f4953a01df4",
+    "commit": {
+      "tree": {
+        "sha": "e4e162bda1c42ba581d49351b2c34d82bcdf3d27",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/e4e162bda1c42ba581d49351b2c34d82bcdf3d27"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-09T07:28:58-07:00"
+      },
+      "message": "Refix the decode bug.\n\nSince we just care about the commit stats, not the commit content, so\nwhen meet the decode error, just ignore, as it must happened in the\ncommit content. If not have a better solution.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-09T07:28:58-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/db148550c476fdf53942883cce8d4f4953a01df4"
+    }
+  },
+  {
+    "sha": "8261b282d9a8685e0b601c9e00ba55c6c098e70d",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "7cd3d1c574dde500dfca61249a1733d2fb8d3fcd",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/7cd3d1c574dde500dfca61249a1733d2fb8d3fcd"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/8261b282d9a8685e0b601c9e00ba55c6c098e70d",
+    "commit": {
+      "tree": {
+        "sha": "6fab09c6a4ad48e259a1dce3a3e1ec9921d04cd3",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/6fab09c6a4ad48e259a1dce3a3e1ec9921d04cd3"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-09T05:56:56-07:00"
+      },
+      "message": "Fix the 'utf-8' codec can't decode( simplejson ) bug.\n\nIf the data fetched include gbk edcoded content(e.g. Chinese), it'll met\nthis bug.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-09T05:56:56-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/8261b282d9a8685e0b601c9e00ba55c6c098e70d"
+    }
+  },
+  {
+    "sha": "7cd3d1c574dde500dfca61249a1733d2fb8d3fcd",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "7c0e49ecd96cbc30e5f52acd647a670c4fd3783d",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/7c0e49ecd96cbc30e5f52acd647a670c4fd3783d"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/7cd3d1c574dde500dfca61249a1733d2fb8d3fcd",
+    "commit": {
+      "tree": {
+        "sha": "fd93c18394f28dc89b6b52246056c1d0823de3aa",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/fd93c18394f28dc89b6b52246056c1d0823de3aa"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-09T05:01:18-07:00"
+      },
+      "message": "Fix the Null Author bug.\n\nWhen the commit author or commuter is not stetted, fetch data will\nresult error. Met this bug from frankyue's commits of Aug. 8th.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-09T05:01:18-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/7cd3d1c574dde500dfca61249a1733d2fb8d3fcd"
+    }
+  },
+  {
+    "sha": "7c0e49ecd96cbc30e5f52acd647a670c4fd3783d",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "b542585987929b44030aca1909e99f42d03787ad",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/b542585987929b44030aca1909e99f42d03787ad"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/7c0e49ecd96cbc30e5f52acd647a670c4fd3783d",
+    "commit": {
+      "tree": {
+        "sha": "9885c767b93be6273863335eeb1c5397ef7fd16d",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/9885c767b93be6273863335eeb1c5397ef7fd16d"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-08T09:35:31-07:00"
+      },
+      "message": "Merge pages into one & update setting column UI\n\nMerged pages: Setting, Chart Show, Index",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-08T09:35:31-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/7c0e49ecd96cbc30e5f52acd647a670c4fd3783d"
+    }
+  },
+  {
+    "sha": "b542585987929b44030aca1909e99f42d03787ad",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "765c48db3bbbbe47664bc504c3f1aebebdba3312",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/765c48db3bbbbe47664bc504c3f1aebebdba3312"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/b542585987929b44030aca1909e99f42d03787ad",
+    "commit": {
+      "tree": {
+        "sha": "d40345f40dcec9309eb169419c97b3d7b82e3e6d",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/d40345f40dcec9309eb169419c97b3d7b82e3e6d"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-08T05:55:48-07:00"
+      },
+      "message": "Fix some issues & start adding simply UI\n\nIssues fixed: Connect to github, not every time need OAuth; Update the\naccount model in order to use the User login name; Split some models,\ncreate BlendGithub; Fix the Chart show filter not works bug;",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-08T05:55:48-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/b542585987929b44030aca1909e99f42d03787ad"
+    }
+  },
+  {
+    "sha": "765c48db3bbbbe47664bc504c3f1aebebdba3312",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "0cfc71ece4501d7a9c9b16d8fda863dbc78216e8",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/0cfc71ece4501d7a9c9b16d8fda863dbc78216e8"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/765c48db3bbbbe47664bc504c3f1aebebdba3312",
+    "commit": {
+      "tree": {
+        "sha": "8c9fece1a116312f3d6a57ab9def202b24d02624",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/8c9fece1a116312f3d6a57ab9def202b24d02624"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-05T02:10:40-07:00"
+      },
+      "message": "Little Optimized",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-05T02:10:40-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/765c48db3bbbbe47664bc504c3f1aebebdba3312"
+    }
+  },
+  {
+    "sha": "0cfc71ece4501d7a9c9b16d8fda863dbc78216e8",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "80f2ea7623d9089c6e3e7eb6dc8a409a346e12f0",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/80f2ea7623d9089c6e3e7eb6dc8a409a346e12f0"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/0cfc71ece4501d7a9c9b16d8fda863dbc78216e8",
+    "commit": {
+      "tree": {
+        "sha": "78311780ef157d9a1183b6a5dc92d7c13cb0d89c",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/78311780ef157d9a1183b6a5dc92d7c13cb0d89c"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-05T00:43:59-07:00"
+      },
+      "message": "+ Date range & remove zero data members from chart; Fix data fetch bug.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-05T00:43:59-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/0cfc71ece4501d7a9c9b16d8fda863dbc78216e8"
+    }
+  },
+  {
+    "sha": "80f2ea7623d9089c6e3e7eb6dc8a409a346e12f0",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "691c9e512c9da17905a262f496f5f011b7dd7f18",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/691c9e512c9da17905a262f496f5f011b7dd7f18"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/80f2ea7623d9089c6e3e7eb6dc8a409a346e12f0",
+    "commit": {
+      "tree": {
+        "sha": "a7e911b32c7ba1797605e0bedc0c4148544cf32f",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/a7e911b32c7ba1797605e0bedc0c4148544cf32f"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-04T19:45:19-07:00"
+      },
+      "message": "Fix 4 problems.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-04T19:45:19-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/80f2ea7623d9089c6e3e7eb6dc8a409a346e12f0"
+    }
+  },
+  {
+    "sha": "691c9e512c9da17905a262f496f5f011b7dd7f18",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "ad40f01dee83e1e74273a516e101b93076897aad",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/ad40f01dee83e1e74273a516e101b93076897aad"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/691c9e512c9da17905a262f496f5f011b7dd7f18",
+    "commit": {
+      "tree": {
+        "sha": "37b335b1f535b1615caa26d271b7b291037c1896",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/37b335b1f535b1615caa26d271b7b291037c1896"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-03T02:41:14-07:00"
+      },
+      "message": "Allow other users connect and fetch data & Adding simple Google Chart",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-03T02:41:14-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/691c9e512c9da17905a262f496f5f011b7dd7f18"
+    }
+  },
+  {
+    "sha": "ad40f01dee83e1e74273a516e101b93076897aad",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "af90762390b0beac57dc5674a35022fe1e7b0e26",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/af90762390b0beac57dc5674a35022fe1e7b0e26"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/ad40f01dee83e1e74273a516e101b93076897aad",
+    "commit": {
+      "tree": {
+        "sha": "67f59491b18bdb0127b4329ce31951400d5e6a27",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/67f59491b18bdb0127b4329ce31951400d5e6a27"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-02T06:28:11-07:00"
+      },
+      "message": "OAuth Almost Done, need test more. Can fetch Co.'s data now.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-02T06:28:11-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/ad40f01dee83e1e74273a516e101b93076897aad"
+    }
+  },
+  {
+    "sha": "af90762390b0beac57dc5674a35022fe1e7b0e26",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "1f9648149d014a5db0448aea756903d1bf174614",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/1f9648149d014a5db0448aea756903d1bf174614"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/af90762390b0beac57dc5674a35022fe1e7b0e26",
+    "commit": {
+      "tree": {
+        "sha": "270371158867b03488bdd1c55adf6aa3b7150391",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/270371158867b03488bdd1c55adf6aa3b7150391"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-01T07:34:23-07:00"
+      },
+      "message": "Before OAuth",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-08-01T07:34:23-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/af90762390b0beac57dc5674a35022fe1e7b0e26"
+    }
+  },
+  {
+    "sha": "1f9648149d014a5db0448aea756903d1bf174614",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "a57e5a3f901b02695e09d2f3f1f62520dba81528",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/a57e5a3f901b02695e09d2f3f1f62520dba81528"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/1f9648149d014a5db0448aea756903d1bf174614",
+    "commit": {
+      "tree": {
+        "sha": "fdc1c6f523884ff7aae635365b522d996042ad45",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/fdc1c6f523884ff7aae635365b522d996042ad45"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-31T09:39:51-07:00"
+      },
+      "message": "Commit Model updated & Flitered Show by Org, Repo and User.",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-31T09:39:51-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/1f9648149d014a5db0448aea756903d1bf174614"
+    }
+  },
+  {
+    "sha": "a57e5a3f901b02695e09d2f3f1f62520dba81528",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "b09c6b4292a73daa5ce6492fefce61f3c0598db3",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/b09c6b4292a73daa5ce6492fefce61f3c0598db3"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/a57e5a3f901b02695e09d2f3f1f62520dba81528",
+    "commit": {
+      "tree": {
+        "sha": "8b79d22eb3a689e5c41e6a5b0fbf27c0c38757f2",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/8b79d22eb3a689e5c41e6a5b0fbf27c0c38757f2"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-29T09:35:47-07:00"
+      },
+      "message": "Almost build db model donn & make some pages",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-29T09:35:47-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/a57e5a3f901b02695e09d2f3f1f62520dba81528"
+    }
+  },
+  {
+    "sha": "b09c6b4292a73daa5ce6492fefce61f3c0598db3",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "5c826b6cc7e10b0a672ea73856cab90a9361b91a",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/5c826b6cc7e10b0a672ea73856cab90a9361b91a"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/b09c6b4292a73daa5ce6492fefce61f3c0598db3",
+    "commit": {
+      "tree": {
+        "sha": "e10cde1e945e348397f5d80042a2363d0f68baa8",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/e10cde1e945e348397f5d80042a2363d0f68baa8"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-29T02:23:25-07:00"
+      },
+      "message": "db of Member & Weight & URLTag done half",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-29T02:23:25-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/b09c6b4292a73daa5ce6492fefce61f3c0598db3"
+    }
+  },
+  {
+    "sha": "5c826b6cc7e10b0a672ea73856cab90a9361b91a",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "daa368dc986f496183edd10fb72021ed37970cef",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/daa368dc986f496183edd10fb72021ed37970cef"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/5c826b6cc7e10b0a672ea73856cab90a9361b91a",
+    "commit": {
+      "tree": {
+        "sha": "ac4ee99ff54dd8dfcb671497971f0b99c9d0a8d1",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/ac4ee99ff54dd8dfcb671497971f0b99c9d0a8d1"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-28T19:51:36-07:00"
+      },
+      "message": "Fix the date: 'The total day of yestoday' instead 'Today begin to now'",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-28T19:51:36-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/5c826b6cc7e10b0a672ea73856cab90a9361b91a"
+    }
+  },
+  {
+    "sha": "daa368dc986f496183edd10fb72021ed37970cef",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "parents": [
+      {
+        "sha": "70fbb145ca8a358792d2518c1ed665a8b810ac2f",
+        "url": "https://api.github.com/repos/theplant/devstats/commits/70fbb145ca8a358792d2518c1ed665a8b810ac2f"
+      }
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8b06c176818a8b734f8452951c7bc9e2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 867323,
+      "url": "https://api.github.com/users/Kjuly",
+      "login": "Kjuly"
+    },
+    "url": "https://api.github.com/repos/theplant/devstats/commits/daa368dc986f496183edd10fb72021ed37970cef",
+    "commit": {
+      "tree": {
+        "sha": "e26e568e7e2fafcec98e63833b491dbb22a74177",
+        "url": "https://api.github.com/repos/theplant/devstats/git/trees/e26e568e7e2fafcec98e63833b491dbb22a74177"
+      },
+      "author": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-27T07:35:41-07:00"
+      },
+      "message": "Fetch the Commits Change Lines & Issues successfully",
+      "committer": {
+        "email": "kj@kjuly.com",
+        "name": "Kj Yu",
+        "date": "2011-07-27T07:35:41-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/devstats/git/commits/daa368dc986f496183edd10fb72021ed37970cef"
+    }
+  }
+]

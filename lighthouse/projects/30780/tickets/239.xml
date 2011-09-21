@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-02-12T21:59:43+09:00</created-at>
+  <creator-id type="integer">24538</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">239</number>
+  <permalink>rewrite-publish-publish-3</permalink>
+  <priority type="integer">11</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag>publish</tag>
+  <title>rewrite Publish (Publish 3)</title>
+  <updated-at type="datetime">2011-02-12T22:22:04+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">1</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Jan Xie</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/239</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name nil="true"></priority-name>
+  <original-body>* based on versioning (prefer https://github.com/laserlemon/vestal_versions to https://github.com/airblade/paper_trail)
+* use lock? with lock we can ask user to resolve conflict when publish
+* unintrusive design, Publish as a middle man instead of insert callbacks everywhere
+* get #171 resolved</original-body>
+  <latest-body>* based on versioning (prefer https://github.com/laserlemon/vestal_versions to https://github.com/airblade/paper_trail)
+* use lock? with lock we can ask user to resolve conflict when publish
+* unintrusive design, Publish as a middle man instead of insert callbacks everywhere
+* get #171 resolved</latest-body>
+  <original-body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;based on versioning (prefer &lt;a href=
+&quot;https://github.com/laserlemon/vestal_versions&quot;&gt;https://github.com/laserlemon/vestal_versions&lt;/a&gt;
+to &lt;a href=
+&quot;https://github.com/airblade/paper_trail&quot;&gt;https://github.com/airblade/paper_trail&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;use lock? with lock we can ask user to resolve conflict when
+publish&lt;/li&gt;
+&lt;li&gt;unintrusive design, Publish as a middle man instead of insert
+callbacks everywhere&lt;/li&gt;
+&lt;li&gt;get &lt;a href=&quot;/projects/30780/tickets/171&quot; title=
+&quot;Ticket #171&quot;&gt;#171&lt;/a&gt; resolved&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>* based on versioning (prefer https://github.com/laserlemon/vestal_versions to https://github.com/airblade/paper_trail)
+* use lock? with lock we can ask user to resolve conflict when publish
+* unintrusive design, Publish as a middle man instead of insert callbacks everywhere
+* get #171 resolved</body>
+      <body-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;based on versioning (prefer &lt;a href=
+&quot;https://github.com/laserlemon/vestal_versions&quot;&gt;https://github.com/laserlemon/vestal_versions&lt;/a&gt;
+to &lt;a href=
+&quot;https://github.com/airblade/paper_trail&quot;&gt;https://github.com/airblade/paper_trail&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;use lock? with lock we can ask user to resolve conflict when
+publish&lt;/li&gt;
+&lt;li&gt;unintrusive design, Publish as a middle man instead of insert
+callbacks everywhere&lt;/li&gt;
+&lt;li&gt;get &lt;a href=&quot;/projects/30780/tickets/171&quot; title=
+&quot;Ticket #171&quot;&gt;#171&lt;/a&gt; resolved&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-12T21:59:43+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">239</number>
+      <permalink>rewrite-publish-publish-3</permalink>
+      <priority type="integer">11</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag>publish</tag>
+      <title>rewrite Publish (Publish 3)</title>
+      <updated-at type="datetime">2011-02-12T22:22:03+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">1</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/239</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

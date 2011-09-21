@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-24T17:11:17+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">512</number>
+  <permalink>missing-close-account-part-on-the-setting-page</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag>&quot;settings page&quot; stylesheets</tag>
+  <title>Missing &quot;close account&quot; part on the setting page</title>
+  <updated-at type="datetime">2011-08-29T17:52:48+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">6</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/512</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>http://www.uk.asics2-draft.theplant-dev.com/settings</original-body>
+  <latest-body>http://www.uk.asics2-draft.theplant-dev.com/settings</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/settings&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/settings&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/settings</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/settings&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/settings&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-24T17:11:17+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">512</number>
+      <permalink>missing-close-account-part-on-the-setting-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;settings page&quot;</tag>
+      <title>Missing &quot;close account&quot; part on the setting page</title>
+      <updated-at type="datetime">2011-08-24T17:11:32+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/512</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T19:03:11+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">512</number>
+      <permalink>missing-close-account-part-on-the-setting-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;settings page&quot;</tag>
+      <title>Missing &quot;close account&quot; part on the setting page</title>
+      <updated-at type="datetime">2011-08-27T19:03:25+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/512</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>please fix the close account page style: http://www.asics-local.uk:3000/close_account/, thank you.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;please fix the close account page style: &lt;a href=
+&quot;http://www.asics-local.uk:3000/close_account/&quot;&gt;http://www.asics-local.uk:3000/close_account/&lt;/a&gt;,
+thank you.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-27T23:57:15+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">512</number>
+      <permalink>missing-close-account-part-on-the-setting-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>&quot;settings page&quot;</tag>
+      <title>Missing &quot;close account&quot; part on the setting page</title>
+      <updated-at type="datetime">2011-08-27T23:57:27+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">3</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/512</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T12:06:08+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:tag: &quot;\&quot;settings page\&quot;&quot;
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">512</number>
+      <permalink>missing-close-account-part-on-the-setting-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;settings page&quot; stylesheets</tag>
+      <title>Missing &quot;close account&quot; part on the setting page</title>
+      <updated-at type="datetime">2011-08-28T12:06:21+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">4</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/512</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T10:47:20+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">512</number>
+      <permalink>missing-close-account-part-on-the-setting-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>&quot;settings page&quot; stylesheets</tag>
+      <title>Missing &quot;close account&quot; part on the setting page</title>
+      <updated-at type="datetime">2011-08-29T10:47:31+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">5</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/512</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-08-29T17:52:35+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">512</number>
+      <permalink>missing-close-account-part-on-the-setting-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>&quot;settings page&quot; stylesheets</tag>
+      <title>Missing &quot;close account&quot; part on the setting page</title>
+      <updated-at type="datetime">2011-08-29T17:52:48+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">6</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/512</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>e56469c66df7707d4bc301dc07bdd8585cf0c934</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-24T17:11:17+09:00</created-at>
+      <filename>2011-08-24_1608.png</filename>
+      <height type="integer">977</height>
+      <id type="integer">1305371</id>
+      <size type="integer">304322</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1757</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1305371/2011-08-24_1608.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

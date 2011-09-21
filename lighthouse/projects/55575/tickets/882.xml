@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-20T16:39:32+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">882</number>
+  <permalink>ie7newslettershould-hide-the-text-field</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag>cache</tag>
+  <title>IE7&gt;newsletter&gt;should hide the text field</title>
+  <updated-at type="datetime">2011-09-21T11:26:01+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">3</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body></original-body>
+  <latest-body></latest-body>
+  <original-body-html></original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T15:42:50+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">882</number>
+      <permalink>ie7newslettershould-hide-the-text-field</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>IE7&gt;newsletter&gt;should hide the text field</title>
+      <updated-at type="datetime">2011-09-20T15:43:06+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-20T16:39:32+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">882</number>
+      <permalink>ie7newslettershould-hide-the-text-field</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>,</tag>
+      <title>IE7&gt;newsletter&gt;should hide the text field</title>
+      <updated-at type="datetime">2011-09-20T17:06:04+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">2</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-21T11:25:43+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:tag: &quot;,&quot;
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">882</number>
+      <permalink>ie7newslettershould-hide-the-text-field</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>cache</tag>
+      <title>IE7&gt;newsletter&gt;should hide the text field</title>
+      <updated-at type="datetime">2011-09-21T11:26:01+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>1c242dccc21ee053cb04d8ac24bd3a7ac5988883</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-20T15:42:51+09:00</created-at>
+      <filename>2011-09-20_1438.png</filename>
+      <height type="integer">972</height>
+      <id type="integer">1406255</id>
+      <size type="integer">575266</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1496</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1406255/2011-09-20_1438.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>295087da91d8b2590a27d2766c2424d0095c6cab</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-20T16:51:26+09:00</created-at>
+      <filename>2011-09-20_1549.png</filename>
+      <height type="integer">1069</height>
+      <id type="integer">1406358</id>
+      <size type="integer">718755</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1557</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1406358/2011-09-20_1549.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

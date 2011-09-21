@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2010-12-16T22:00:58+09:00</created-at>
+  <creator-id type="integer">24538</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">225</number>
+  <permalink>event-generator</permalink>
+  <priority type="integer">59</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>event  generator</title>
+  <updated-at type="datetime">2011-02-10T16:14:46+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">2</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Jan Xie</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/225</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>We need great flexibility in controller/view level for Qor Event: I believe most events have different appearances. Two way to achieve this goal:
+
+1. resources_engine like design: a EventsController responds to all requests for events, return different views based on complex logic
+2. scaffold. Use a generator to generate scaffold of events flow, then you can customize as you wish
+
+I'm going to walk on way 2, because it's extremely customizable, which is the first goal in Qor Event's case. Shared code will be put in modules/helpers.</original-body>
+  <latest-body>We need great flexibility in controller/view level for Qor Event: I believe most events have different appearances. Two way to achieve this goal:
+
+1. resources_engine like design: a EventsController responds to all requests for events, return different views based on complex logic
+2. scaffold. Use a generator to generate scaffold of events flow, then you can customize as you wish
+
+I'm going to walk on way 2, because it's extremely customizable, which is the first goal in Qor Event's case. Shared code will be put in modules/helpers.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;We need great flexibility in controller/view level for Qor
+Event: I believe most events have different appearances. Two way to
+achieve this goal:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;resources_engine like design: a EventsController responds to
+all requests for events, return different views based on complex
+logic&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;scaffold. Use a generator to generate scaffold of events flow,
+then you can customize as you wish&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I'm going to walk on way 2, because it's extremely customizable,
+which is the first goal in Qor Event's case. Shared code will be
+put in modules/helpers.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>We need great flexibility in controller/view level for Qor Event: I believe most events have different appearances. Two way to achieve this goal:
+
+1. resources_engine like design: a EventsController responds to all requests for events, return different views based on complex logic
+2. scaffold. Use a generator to generate scaffold of events flow, then you can customize as you wish
+
+I'm going to walk on way 2, because it's extremely customizable, which is the first goal in Qor Event's case. Shared code will be put in modules/helpers.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;We need great flexibility in controller/view level for Qor
+Event: I believe most events have different appearances. Two way to
+achieve this goal:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;resources_engine like design: a EventsController responds to
+all requests for events, return different views based on complex
+logic&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;scaffold. Use a generator to generate scaffold of events flow,
+then you can customize as you wish&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I'm going to walk on way 2, because it's extremely customizable,
+which is the first goal in Qor Event's case. Shared code will be
+put in modules/helpers.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2010-12-16T22:00:58+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">225</number>
+      <permalink>event-generator</permalink>
+      <priority type="integer">59</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>event  generator</title>
+      <updated-at type="datetime">2010-12-16T22:01:23+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">1</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/225</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-02-10T16:14:27+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">225</number>
+      <permalink>event-generator</permalink>
+      <priority type="integer">59</priority>
+      <project-id type="integer">30780</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>event  generator</title>
+      <updated-at type="datetime">2011-02-10T16:14:46+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">2</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/225</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

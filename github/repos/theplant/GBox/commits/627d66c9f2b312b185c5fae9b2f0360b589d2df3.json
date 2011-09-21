@@ -1,0 +1,113 @@
+{
+  "parents": [
+    {
+      "sha": "b13f907d49bf5b14f7182446ecebea9ac5b58c33",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/b13f907d49bf5b14f7182446ecebea9ac5b58c33"
+    }
+  ],
+  "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+  "commit": {
+    "message": "Fix serveral issues in downloading entry, and add entry to collection by comparing local path",
+    "tree": {
+      "sha": "7d691526c1f3d8baee177e936a64fd6f8d54bed4",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/7d691526c1f3d8baee177e936a64fd6f8d54bed4"
+    },
+    "author": {
+      "email": "xiaoyi.chen@hotmail.com",
+      "date": "2011-08-29T04:35:08-07:00",
+      "name": "Xiaoyi Chen"
+    },
+    "committer": {
+      "email": "xiaoyi.chen@hotmail.com",
+      "date": "2011-08-29T04:35:08-07:00",
+      "name": "Xiaoyi Chen"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/627d66c9f2b312b185c5fae9b2f0360b589d2df3"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "login": "chenxiaoyi",
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "changes": 20,
+      "status": "modified",
+      "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+      "additions": 7,
+      "filename": "GBox/GBCollectionManager.m",
+      "deletions": 13,
+      "raw_url": "https://github.com/theplant/GBox/raw/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBCollectionManager.m",
+      "patch": "--- a/GBox/GBCollectionManager.m\n+++ b/GBox/GBCollectionManager.m\n@@ -42,24 +42,18 @@\n -(void) setFolderHrefDic{\n     \n     NSArray *folderEntries = [[docListData docListFeed] entriesWithCategoryKind:kGDataCategoryFolderDoc];\n+    if(folderHrefDic!=nil){\n+        [folderHrefDic release];\n+    }\n+    folderHrefDic = [[NSMutableDictionary alloc]init ];\n     \n-    NSMutableDictionary* folderEntryDic = [[NSMutableDictionary alloc]init ];\n-    \n-    NSEnumerator *folderEnum = [folderEntries objectEnumerator];\n-    \n-    GDataEntryFolderDoc *folderEntry;\n-    \n-    while ((folderEntry = [folderEnum nextObject]) != nil) {\n-        \n-        NSString *folderHref = [[folderEntry selfLink] href];\n+    for(GDataEntryFolderDoc *folderEntry in folderEntries){\n+        NSString *folderHref = [[[folderEntry selfLink] href]retain ];\n         \n         //NSLog(@\"FolderEntry Href:%@ Name:%@\",folderHref,folderEntry);\n         \n-        [folderEntryDic setObject:folderEntry forKey:folderHref];\n-        \n+        [folderHrefDic setObject:folderEntry forKey:folderHref];\n     }\n-    \n-    folderHrefDic = [NSDictionary dictionaryWithDictionary:folderEntryDic];\n }\n \n -(NSArray *) includedEntryOfCurrentCollection{",
+      "blob_url": "https://github.com/theplant/GBox/blob/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBCollectionManager.m"
+    },
+    {
+      "changes": 22,
+      "status": "modified",
+      "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+      "additions": 13,
+      "filename": "GBox/GBDownloadOperation.m",
+      "deletions": 9,
+      "raw_url": "https://github.com/theplant/GBox/raw/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBDownloadOperation.m",
+      "patch": "--- a/GBox/GBDownloadOperation.m\n+++ b/GBox/GBDownloadOperation.m\n@@ -98,7 +98,7 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n         \n         NSString *savePath = [NSString stringWithFormat:@\"%@/%@.download\", path, fileTitle];\n \n-        if([[fileTitle pathExtension] isEqualToString:@\"log\"]){\n+        if([fileTitle rangeOfCharacterFromSet:[NSCharacterSet characterSetWithCharactersInString:@\"//\"]].location != NSNotFound){\n             savePath = [NSString stringWithFormat:@\"%@/%@\",path,fileTitle];\n         }\n \n@@ -206,15 +206,20 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n \n - (void)requestFailed:(ASIHTTPRequest *)request\n {\n+    BOOL retryNeeded = NO;\n     if(request==nil){\n-        [[NSNotificationCenter defaultCenter] postNotificationName:kGBDownloadFailed  \n-                                                            object:taskID\n-                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:NO,@\"retryNeeded\", nil]];\n+        retryNeeded = NO;\n     }else{\n-        [[NSNotificationCenter defaultCenter] postNotificationName:kGBDownloadFailed  \n-                                                            object:taskID\n-                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:YES,@\"retryNeeded\", nil]];\n+        retryNeeded =YES;\n+        if([[request error] code ]==8){\n+            retryNeeded = NO;\n+        }\n+            \n     }\n+    [[NSNotificationCenter defaultCenter] postNotificationName:kGBDownloadFailed  \n+                                                        object:taskID\n+                                                      userInfo:[NSDictionary dictionaryWithObjectsAndKeys:retryNeeded,@\"retryNeeded\", nil]];\n+\n     NSLog(@\"Faild of request\");\n     NSLog(@\"request = %@\",[request error]);\n     [self willChangeValueForKey:@\"isFinished\"];\n@@ -228,8 +233,7 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n \n \n - (void) requestDone:(ASIHTTPRequest *)request {\n-    NSMutableDictionary * doneRequest = [[NSMutableDictionary alloc] init];\n-    [doneRequest setValue:[[NSString alloc] initWithFormat:@\"%d\",piID] forKey:@\"piID\"];\n+    NSDictionary* doneRequest = [NSDictionary dictionaryWithObject:[NSString stringWithFormat:@\"%d\",piID ] forKey:@\"piID\"];\n     [[NSNotificationCenter defaultCenter] postNotificationName:kGBDownloadFinished object:taskID userInfo:doneRequest];\n     [self willChangeValueForKey:@\"isFinished\"];\n     [self willChangeValueForKey:@\"isExecuting\"];",
+      "blob_url": "https://github.com/theplant/GBox/blob/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBDownloadOperation.m"
+    },
+    {
+      "changes": 3,
+      "status": "modified",
+      "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+      "additions": 1,
+      "filename": "GBox/GBSyncController.m",
+      "deletions": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBSyncController.m",
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -9,7 +9,6 @@\n //\n \n #import \"GBSyncController.h\"\n-#import \"GData.h\"\n \n #import \"GBDocListData.h\"\n #import \"GBDataFacility.h\"\n@@ -169,7 +168,6 @@ static GBSyncController * shareSyncController = nil;\n         [statusItem setImage:[NSImage imageNamed:@\"statusicon2\"]];\n         [docListData fetchDocList];\n         synced= NO;\n-        [dataFacility contextSave];\n     }else if(synced==NO && countOfExecutingTasks==0){\n         [statusItem setImage:[NSImage imageNamed:@\"statusicon\"]];\n         synced=YES;\n@@ -207,6 +205,7 @@ static GBSyncController * shareSyncController = nil;\n         [collectionManager setFolderHrefDic];\n         [self initialServerCollectionsCheck];\n         [self initialServerEntryCheck];\n+        [dataFacility contextSave];\n         [self beginSync];\n         setupFinished = YES ;\n ",
+      "blob_url": "https://github.com/theplant/GBox/blob/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBSyncController.m"
+    },
+    {
+      "changes": 119,
+      "status": "modified",
+      "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+      "additions": 69,
+      "filename": "GBox/GBTaskHandler.m",
+      "deletions": 50,
+      "raw_url": "https://github.com/theplant/GBox/raw/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBTaskHandler.m",
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -18,8 +18,6 @@\n \n #import \"GBTaskHandler.h\"\n \n-#import \"GData.h\"\n-\n #import \"GBDocListData.h\"\n #import \"GBDataFacility.h\"\n \n@@ -85,13 +83,16 @@\n     GDataEntryDocBase* entry = [docListData entryForIdentifier:identifier];\n     BOOL isCollection = ([entry class]==[GDataEntryFolderDoc class])?YES:NO;\n     NSString* entryTitle = [[entry title] stringValue];\n-    \n+    if(entry==nil){\n+        [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];\n+        [currentExecutingTasks removeObject:taskID];\n+        return;\n+    }\n     NSSet* pathSet = [localIdentifierDic valueForKey:identifier];\n     \n     if(pathSet!=nil && [pathSet count]!=0){\n         //File exist at local.\n         if(isCollection){\n-            [self handleServerNewCollection:taskMO];\n         }else{\n             //If not updated, check rename by filename & suggested filename\n             NSString* fileName = [entry filename];\n@@ -112,7 +113,7 @@\n         }\n         [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n         [currentExecutingTasks removeObject:taskID];\n-\n+        \n         /*\n          if(!isCollection){\n          \n@@ -121,19 +122,17 @@\n          NSDictionary* fileInfo = [localInfoDic valueForKey:onePath];\n          NSString* md5 = [fileInfo valueForKey:kGBFileAttributeMD5];\n          if(![[entry MD5Checksum] isEqualToString: md5]){\n-        \n+         \n          \n          }\n          }\n          */\n         //check collection. using set operation.\n-        \n-        [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n-        [currentExecutingTasks removeObject:taskID];\n     }else{\n         //The entry not exist at local.\n         if(isCollection){\n-                        \n+            [self handleServerNewCollection:taskMO];\n+\n         }else{\n             //Server New File\n             NSLog(@\"Doc entry %@ added on server.\",entryTitle);\n@@ -317,6 +316,11 @@\n \n             break;\n         }\n+        case kGBServerNoMD5FileExist:{\n+            [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n+            [currentExecutingTasks removeObject:taskID];\n+            \n+        }break;\n \n         default:\n             NSLog(@\"Unrecognized event code.\");\n@@ -344,9 +348,16 @@\n     NSString* identifier = [userInfo valueForKey:@\"kGBEntryIdentifier\"];\n     \n     GDataEntryDocBase* uploadedEntry = [docListData entryForIdentifier:identifier];\n-\n+    NSString* rootPath = [GBUtility rootPath];\n     if(eventCode == kGBLocalNewFile){\n-                \n+        if([[path stringByDeletingLastPathComponent] length]!= [rootPath length]){\n+            NSString* parentPath = [GBUtility simplifyLocalPath:[path stringByDeletingLastPathComponent]];\n+            NSString* parentIdentifier = [[localInfoDic valueForKey:parentPath] valueForKey:kGBFileAttributeIdentifier];\n+            if(parentIdentifier!=nil){\n+                GDataEntryDocBase* parentEntry = [docListData entryForIdentifier:parentIdentifier];\n+                [collectionManager addEntry:uploadedEntry  toFolder:parentIdentifier];\n+            }\n+        }\n         [GBUtility setIdentifier:identifier forFileAtPath:[GBUtility simplifyLocalPath: path]];\n         \n     }else if(eventCode == kGBLocalFileUpdated){\n@@ -385,9 +396,15 @@\n -(void)downloadFailed:(NSNotification*)aNotification{\n     numInQueue--;\n     NSLog(@\"Download failed\");\n-    NSManagedObjectID* taskID = [aNotification object];    \n+    NSManagedObjectID* taskID = [aNotification object];  \n+    NSDictionary* userInfo = [aNotification userInfo];\n     [currentExecutingTasks removeObject:taskID];\n-    [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n+    BOOL retryNeeded = [[userInfo valueForKey:@\"retryNeeded\"]boolValue];\n+    if(retryNeeded){\n+        [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n+    }else{\n+        [dataFacility setState:kGBStateCancel ofTaskID:taskID];\n+    }\n }\n \n -(void)uploadFailed:(NSNotification*)aNotification{\n@@ -396,11 +413,10 @@\n     NSManagedObjectID* taskID = [aNotification object];   \n     NSDictionary* userInfo = [aNotification userInfo];\n     BOOL retryNeeded = [[userInfo valueForKey:@\"retryNeeded\"]boolValue];\n+    [currentExecutingTasks removeObject:taskID];\n     if(retryNeeded){\n-        [currentExecutingTasks removeObject:taskID];\n         [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n     }else{\n-        [currentExecutingTasks removeObject:taskID];\n         [dataFacility setState:kGBStateCancel ofTaskID:taskID];\n     }\n }\n@@ -448,8 +464,6 @@\n                      format:@\"File downloaded: %@\", [[entry title] stringValue]];\n }\n \n-\n-\n -(void)handleTasks{\n     \n     fileSystemInfo = [GBFileSystemInfo sharedFileSystemInfo];\n@@ -461,8 +475,9 @@\n     //NSUInteger currentExecuting = [dataFacility countOfExecutingTasks];\n     i=0;\n     NSArray* waitingTasks = [dataFacility fetchTaskOfState:kGBStateWaiting];\n+    \n     for(NSManagedObject* mo in waitingTasks){\n-        if([currentExecutingTasks count]<20){\n+        if([currentExecutingTasks count]<30){\n             [self handleTask:mo];\n             [currentExecutingTasks addObject:[mo objectID]];\n         }\n@@ -492,37 +507,41 @@\n -(void)downloadTimerFireMethod:(NSTimer *) theTimer{    \n     if (!canceled) {\n         \n-    NSManagedObject* mo =    [theTimer userInfo];\n-\n-    NSString *identifier = [mo valueForKey:@\"operandA\"];\n-    \n-    GDataEntryDocBase * entry = [[docListData docListFeed] entryForIdentifier:identifier];\n-    \n-    //Do not download document created on google web.\n-    if([entry MD5Checksum]==nil){\n-        [currentExecutingTasks removeObject:[ mo objectID]];\n-        [dataFacility setState:kGBStateCancel ofTaskID:[mo objectID]];\n-        return;\n-    }\n-    NSLog(@\"Downloading %@ \",[[entry title]stringValue]);\n-\n-    //NSString * md5 = [theTimer userInfo];\n-    GBDownloadOperation* downloadOp;\n-\n-    downloadOp = [[GBDownloadOperation alloc] initWith:docListData \n-                                      downloadingEntry:entry\n-                                                  path:[GBUtility rootPath]\n-                                                taskID:[mo objectID]\n-                                                option:nil];\n-    \n-    //in get stop action stop it\n-    if (!isAllOperationPaused)\n-    {\n-        [self appendPIList:downloadOp];\n-        [opqueue addOperation:downloadOp];\n-        numInQueue++;\n-    }\n-    [downloadOp release];\n+        NSManagedObject* mo =    [theTimer userInfo];\n+        \n+        NSString *identifier = [mo valueForKey:@\"operandA\"];\n+        \n+        GDataEntryDocBase * entry = [[docListData docListFeed] entryForIdentifier:identifier];\n+        if(entry==nil){\n+            [currentExecutingTasks removeObject:[ mo objectID]];\n+            [dataFacility setState:kGBStateCancel ofTaskID:[mo objectID]];\n+            return;\n+        }\n+        //Do not download document created on google web.\n+        if([entry MD5Checksum]==nil){\n+            [currentExecutingTasks removeObject:[ mo objectID]];\n+            [dataFacility setState:kGBStateCancel ofTaskID:[mo objectID]];\n+            return;\n+        }\n+        NSLog(@\"Downloading %@ \",[[entry title]stringValue]);\n+        \n+        //NSString * md5 = [theTimer userInfo];\n+        GBDownloadOperation* downloadOp;\n+        \n+        downloadOp = [[GBDownloadOperation alloc] initWith:docListData \n+                                          downloadingEntry:entry\n+                                                      path:[GBUtility rootPath]\n+                                                    taskID:[mo objectID]\n+                                                    option:nil];\n+        \n+        //in get stop action stop it\n+        if (!isAllOperationPaused)\n+        {\n+            [self appendPIList:downloadOp];\n+            [opqueue addOperation:downloadOp];\n+            numInQueue++;\n+        }\n+        [downloadOp release];\n     }\n }\n ",
+      "blob_url": "https://github.com/theplant/GBox/blob/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBTaskHandler.m"
+    },
+    {
+      "changes": 4,
+      "status": "modified",
+      "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+      "additions": 2,
+      "filename": "GBox/GBoxAppDelegate.m",
+      "deletions": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBoxAppDelegate.m",
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -140,10 +140,10 @@\n     //Initial Folder Creation\n     \n     \n-    \n+    /*\n     [defaults setBool:NO forKey:kGBSetupFinished];\n     [defaults synchronize];\n-     \n+     */\n     \n     // check if this is the first run.\n     setupFinished = YES;",
+      "blob_url": "https://github.com/theplant/GBox/blob/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBoxAppDelegate.m"
+    },
+    {
+      "changes": 6,
+      "status": "modified",
+      "sha": "627d66c9f2b312b185c5fae9b2f0360b589d2df3",
+      "additions": 4,
+      "filename": "GBox/GBoxConstants.h",
+      "deletions": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBoxConstants.h",
+      "patch": "--- a/GBox/GBoxConstants.h\n+++ b/GBox/GBoxConstants.h\n@@ -35,7 +35,7 @@ typedef enum {\n     kGBLocalNewCollection,\n \n     kGBServerRemoveEntryFromCollection,\n-\n+    \n     kGBServerAddEntryToCollection,\n \n     kGBServerRename,\n@@ -52,7 +52,9 @@ typedef enum {\n     \n     kGBServerNoMD5FileExist,\n \n-    kGBSync\n+    kGBSync,\n+    \n+    kGBLocalAddEntryToCollection\n     \n } GBEventCode;\n ",
+      "blob_url": "https://github.com/theplant/GBox/blob/627d66c9f2b312b185c5fae9b2f0360b589d2df3/GBox/GBoxConstants.h"
+    }
+  ],
+  "stats": {
+    "additions": 96,
+    "deletions": 78,
+    "total": 174
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "login": "chenxiaoyi",
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/627d66c9f2b312b185c5fae9b2f0360b589d2df3"
+}

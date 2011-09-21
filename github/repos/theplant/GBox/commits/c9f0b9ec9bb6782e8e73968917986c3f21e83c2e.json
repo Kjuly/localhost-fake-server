@@ -1,0 +1,58 @@
+{
+  "committer": {
+    "login": "chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "author": {
+    "login": "chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "patch": "--- a/GBox/GBACLShareManager.m\n+++ b/GBox/GBACLShareManager.m\n@@ -130,15 +130,13 @@\n                      error:(NSError *)error {\n     if (error == nil) {\n         // tell the user that the update worked\n-        [GBUtility displayAlert:@\"Updated ACLEntry\"\n-                    format:@\"ACL Entry updated\"];\n+        NSLog(@\"ACL Entry updated\");\n         \n         // re-fetch the selected calendar's ACLEntries\n         //[self fetchSelectedCalendar];\n         //[self updateUI];\n     } else {\n-        [GBUtility displayAlert:@\"Update failed\"\n-                    format:@\"ACLEntry update failed: %@\", error];\n+        NSLog(@\"ACLEntry update failed: %@\", error);\n     }\n }\n \n@@ -191,16 +189,14 @@\n                     error:(NSError *)error {\n     if (error == nil) {\n         // tell the user that the add worked\n-        [GBUtility displayAlert:@\"Added ACL Entry\"\n-                    format:@\"ACL Entry added\"];\n+        NSLog(@\"ACL Entry added\");\n         \n         [[NSNotificationCenter defaultCenter] postNotificationName:kGBACLEntryAdded object:entry];\n         // refetch the current calendar's ACL entries\n         //[self fetchSelectedCalendar];\n         //[self updateUI];\n     } else {\n-        [GBUtility displayAlert:@\"Add failed\"\n-                    format:@\"ACL Entry add failed: %@\", error];\n+        NSLog(@\"ACL Entry add failed: %@\", error);\n     }\n }\n \n@@ -230,16 +226,14 @@\n                 deletedEntry:(GDataFeedACL *)object\n                        error:(NSError *)error {\n     if (error == nil) {\n-        [GBUtility displayAlert:@\"Deleted ACLEntry\"\n-                    format:@\"ACL Entry deleted\"];\n+        NSLog(@\"ACL Entry deleted\");\n         \n         // re-fetch the selected calendar's events\n         //[self fetchSelectedCalendar];\n         //[self updateUI];\n         NSLog(@\"========================delete success\");\n     } else {\n-        [GBUtility displayAlert:@\"Delete failed\"\n-                    format:@\"ACL Entry delete failed: %@\", error];\n+        NSLog(@\"ACL Entry delete failed: %@\", error);\n         NSLog(@\"========================delete faild\");\n     }\n }",
+      "status": "modified",
+      "raw_url": "https://github.com/theplant/GBox/raw/c9f0b9ec9bb6782e8e73968917986c3f21e83c2e/GBox/GBACLShareManager.m",
+      "deletions": 12,
+      "additions": 6,
+      "blob_url": "https://github.com/theplant/GBox/blob/c9f0b9ec9bb6782e8e73968917986c3f21e83c2e/GBox/GBACLShareManager.m",
+      "changes": 18,
+      "filename": "GBox/GBACLShareManager.m",
+      "sha": "c9f0b9ec9bb6782e8e73968917986c3f21e83c2e"
+    }
+  ],
+  "stats": {
+    "deletions": 12,
+    "additions": 6,
+    "total": 18
+  },
+  "parents": [
+    {
+      "sha": "f7529ece808e1e7619e2bef28255893dc627f705",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/f7529ece808e1e7619e2bef28255893dc627f705"
+    }
+  ],
+  "sha": "c9f0b9ec9bb6782e8e73968917986c3f21e83c2e",
+  "commit": {
+    "tree": {
+      "sha": "1875c9b8e2a8a8bed7060666e816122bde112a53",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/1875c9b8e2a8a8bed7060666e816122bde112a53"
+    },
+    "message": "Sharing alert is removed.",
+    "committer": {
+      "date": "2011-09-04T23:28:45-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "author": {
+      "date": "2011-09-04T23:28:45-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/c9f0b9ec9bb6782e8e73968917986c3f21e83c2e"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/c9f0b9ec9bb6782e8e73968917986c3f21e83c2e"
+}

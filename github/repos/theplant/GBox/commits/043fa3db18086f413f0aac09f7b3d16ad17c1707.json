@@ -1,0 +1,69 @@
+{
+  "commit": {
+    "message": "delete all file up to date in Main menu",
+    "tree": {
+      "sha": "d54e4b9bc694a589b5a734ab1f4010dba0fa0f79",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/d54e4b9bc694a589b5a734ab1f4010dba0fa0f79"
+    },
+    "author": {
+      "date": "2011-08-24T03:04:17-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "committer": {
+      "date": "2011-08-24T03:04:27-07:00",
+      "name": "liuyi0922",
+      "email": "liuyi19900922@gmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/043fa3db18086f413f0aac09f7b3d16ad17c1707"
+  },
+  "sha": "043fa3db18086f413f0aac09f7b3d16ad17c1707",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "043fa3db18086f413f0aac09f7b3d16ad17c1707",
+      "additions": 0,
+      "blob_url": "https://github.com/theplant/GBox/blob/043fa3db18086f413f0aac09f7b3d16ad17c1707/GBox/GBCrashReport.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/043fa3db18086f413f0aac09f7b3d16ad17c1707/GBox/GBCrashReport.m",
+      "filename": "GBox/GBCrashReport.m",
+      "patch": "--- a/GBox/GBCrashReport.m\n+++ b/GBox/GBCrashReport.m\n@@ -140,7 +140,6 @@\n              \n              \n              [NSURLConnection connectionWithRequest:request delegate:self];*/\n-            \n             return NO;\n         }\n         ",
+      "deletions": 1,
+      "changes": 1
+    },
+    {
+      "status": "modified",
+      "sha": "043fa3db18086f413f0aac09f7b3d16ad17c1707",
+      "additions": 0,
+      "blob_url": "https://github.com/theplant/GBox/blob/043fa3db18086f413f0aac09f7b3d16ad17c1707/GBox/MainMenu.xib",
+      "raw_url": "https://github.com/theplant/GBox/raw/043fa3db18086f413f0aac09f7b3d16ad17c1707/GBox/MainMenu.xib",
+      "filename": "GBox/MainMenu.xib",
+      "patch": "--- a/GBox/MainMenu.xib\n+++ b/GBox/MainMenu.xib\n@@ -1395,24 +1395,6 @@\n \t\t\t\t\t\t<reference key=\"NSOnImage\" ref=\"35465992\"/>\n \t\t\t\t\t\t<reference key=\"NSMixedImage\" ref=\"502551668\"/>\n \t\t\t\t\t</object>\n-\t\t\t\t\t<object class=\"NSMenuItem\" id=\"200267799\">\n-\t\t\t\t\t\t<reference key=\"NSMenu\" ref=\"940201210\"/>\n-\t\t\t\t\t\t<string key=\"NSTitle\">All files up to date</string>\n-\t\t\t\t\t\t<string key=\"NSKeyEquiv\"/>\n-\t\t\t\t\t\t<int key=\"NSMnemonicLoc\">2147483647</int>\n-\t\t\t\t\t\t<reference key=\"NSOnImage\" ref=\"35465992\"/>\n-\t\t\t\t\t\t<reference key=\"NSMixedImage\" ref=\"502551668\"/>\n-\t\t\t\t\t</object>\n-\t\t\t\t\t<object class=\"NSMenuItem\" id=\"978325315\">\n-\t\t\t\t\t\t<reference key=\"NSMenu\" ref=\"940201210\"/>\n-\t\t\t\t\t\t<bool key=\"NSIsDisabled\">YES</bool>\n-\t\t\t\t\t\t<bool key=\"NSIsSeparator\">YES</bool>\n-\t\t\t\t\t\t<string key=\"NSTitle\"/>\n-\t\t\t\t\t\t<string key=\"NSKeyEquiv\"/>\n-\t\t\t\t\t\t<int key=\"NSMnemonicLoc\">2147483647</int>\n-\t\t\t\t\t\t<reference key=\"NSOnImage\" ref=\"35465992\"/>\n-\t\t\t\t\t\t<reference key=\"NSMixedImage\" ref=\"502551668\"/>\n-\t\t\t\t\t</object>\n \t\t\t\t\t<object class=\"NSMenuItem\" id=\"1009572427\">\n \t\t\t\t\t\t<reference key=\"NSMenu\" ref=\"940201210\"/>\n \t\t\t\t\t\t<string key=\"NSTitle\">Get More Space</string>\n@@ -1517,7 +1499,6 @@\n \t\t\t\t\t\t<string key=\"NSFrame\">{{166, 6}, {56, 20}}</string>\n \t\t\t\t\t\t<reference key=\"NSSuperview\" ref=\"947358406\"/>\n \t\t\t\t\t\t<reference key=\"NSWindow\"/>\n-\t\t\t\t\t\t<reference key=\"NSNextKeyView\"/>\n \t\t\t\t\t\t<int key=\"NSpiFlags\">24584</int>\n \t\t\t\t\t\t<double key=\"NSMaxValue\">100</double>\n \t\t\t\t\t</object>\n@@ -3533,8 +3514,6 @@\n \t\t\t\t\t\t\t<reference ref=\"213061120\"/>\n \t\t\t\t\t\t\t<reference ref=\"643933734\"/>\n \t\t\t\t\t\t\t<reference ref=\"246543342\"/>\n-\t\t\t\t\t\t\t<reference ref=\"200267799\"/>\n-\t\t\t\t\t\t\t<reference ref=\"978325315\"/>\n \t\t\t\t\t\t\t<reference ref=\"1009572427\"/>\n \t\t\t\t\t\t\t<reference ref=\"657505116\"/>\n \t\t\t\t\t\t\t<reference ref=\"332167656\"/>\n@@ -3590,16 +3569,6 @@\n \t\t\t\t\t\t<reference key=\"parent\" ref=\"940201210\"/>\n \t\t\t\t\t</object>\n \t\t\t\t\t<object class=\"IBObjectRecord\">\n-\t\t\t\t\t\t<int key=\"objectID\">551</int>\n-\t\t\t\t\t\t<reference key=\"object\" ref=\"200267799\"/>\n-\t\t\t\t\t\t<reference key=\"parent\" ref=\"940201210\"/>\n-\t\t\t\t\t</object>\n-\t\t\t\t\t<object class=\"IBObjectRecord\">\n-\t\t\t\t\t\t<int key=\"objectID\">552</int>\n-\t\t\t\t\t\t<reference key=\"object\" ref=\"978325315\"/>\n-\t\t\t\t\t\t<reference key=\"parent\" ref=\"940201210\"/>\n-\t\t\t\t\t</object>\n-\t\t\t\t\t<object class=\"IBObjectRecord\">\n \t\t\t\t\t\t<int key=\"objectID\">553</int>\n \t\t\t\t\t\t<reference key=\"object\" ref=\"1009572427\"/>\n \t\t\t\t\t\t<reference key=\"parent\" ref=\"940201210\"/>\n@@ -3897,8 +3866,6 @@\n \t\t\t\t\t<string>548.IBPluginDependency</string>\n \t\t\t\t\t<string>549.IBPluginDependency</string>\n \t\t\t\t\t<string>550.IBPluginDependency</string>\n-\t\t\t\t\t<string>551.IBPluginDependency</string>\n-\t\t\t\t\t<string>552.IBPluginDependency</string>\n \t\t\t\t\t<string>553.IBPluginDependency</string>\n \t\t\t\t\t<string>554.IBPluginDependency</string>\n \t\t\t\t\t<string>555.IBPluginDependency</string>\n@@ -4120,8 +4087,6 @@\n \t\t\t\t\t<string>com.apple.InterfaceBuilder.CocoaPlugin</string>\n \t\t\t\t\t<string>com.apple.InterfaceBuilder.CocoaPlugin</string>\n \t\t\t\t\t<string>com.apple.InterfaceBuilder.CocoaPlugin</string>\n-\t\t\t\t\t<string>com.apple.InterfaceBuilder.CocoaPlugin</string>\n-\t\t\t\t\t<string>com.apple.InterfaceBuilder.CocoaPlugin</string>\n \t\t\t\t</object>\n \t\t\t</object>\n \t\t\t<object class=\"NSMutableDictionary\" key=\"unlocalizedProperties\">\n@@ -4968,24 +4933,6 @@\n \t\t\t\t\t\t<string key=\"minorKey\">./Classes/PreferenceController.h</string>\n \t\t\t\t\t</object>\n \t\t\t\t</object>\n-\t\t\t\t<object class=\"IBPartialClassDescription\">\n-\t\t\t\t\t<string key=\"className\">WebView</string>\n-\t\t\t\t\t<object class=\"NSMutableDictionary\" key=\"actions\">\n-\t\t\t\t\t\t<string key=\"NS.key.0\">reloadFromOrigin:</string>\n-\t\t\t\t\t\t<string key=\"NS.object.0\">id</string>\n-\t\t\t\t\t</object>\n-\t\t\t\t\t<object class=\"NSMutableDictionary\" key=\"actionInfosByName\">\n-\t\t\t\t\t\t<string key=\"NS.key.0\">reloadFromOrigin:</string>\n-\t\t\t\t\t\t<object class=\"IBActionInfo\" key=\"NS.object.0\">\n-\t\t\t\t\t\t\t<string key=\"name\">reloadFromOrigin:</string>\n-\t\t\t\t\t\t\t<string key=\"candidateClassName\">id</string>\n-\t\t\t\t\t\t</object>\n-\t\t\t\t\t</object>\n-\t\t\t\t\t<object class=\"IBClassDescriptionSource\" key=\"sourceIdentifier\">\n-\t\t\t\t\t\t<string key=\"majorKey\">IBProjectSource</string>\n-\t\t\t\t\t\t<string key=\"minorKey\">./Classes/WebView.h</string>\n-\t\t\t\t\t</object>\n-\t\t\t\t</object>\n \t\t\t</object>\n \t\t</object>\n \t\t<int key=\"IBDocument.localizationMode\">0</int>",
+      "deletions": 53,
+      "changes": 53
+    }
+  ],
+  "stats": {
+    "additions": 0,
+    "total": 54,
+    "deletions": 54
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "TomLiu",
+    "id": 704820,
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "parents": [
+    {
+      "sha": "78555862e9c49b0a7e9a80c2675ecfac2094f00d",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/78555862e9c49b0a7e9a80c2675ecfac2094f00d"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/043fa3db18086f413f0aac09f7b3d16ad17c1707"
+}

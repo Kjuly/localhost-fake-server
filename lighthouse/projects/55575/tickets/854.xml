@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-17T00:20:13+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">854</number>
+  <permalink>testing-on-production-and-writing-cache-expire-rules</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Testing on production and writing cache expire rules</title>
+  <updated-at type="datetime">2011-09-17T00:20:39+09:00</updated-at>
+  <user-id type="integer">2504</user-id>
+  <version type="integer">1</version>
+  <user-name>Felix Sun</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/854</url>
+  <priority-name>High</priority-name>
+  <original-body>@@@
+expire_keys(/running/) do |scoped|
+   scoped.where(&quot;key LIKE ?&quot;, &quot;%#{record.something}%&quot;)
+end
+
+@@@
+
+Limit scope to make expire regexp compare faster.</original-body>
+  <latest-body>@@@
+expire_keys(/running/) do |scoped|
+   scoped.where(&quot;key LIKE ?&quot;, &quot;%#{record.something}%&quot;)
+end
+
+@@@
+
+Limit scope to make expire regexp compare faster.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;expire_keys(/running/) do |scoped|
+   scoped.where(&quot;key LIKE ?&quot;, &quot;%#{record.something}%&quot;)
+end&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Limit scope to make expire regexp compare faster.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>@@@
+expire_keys(/running/) do |scoped|
+   scoped.where(&quot;key LIKE ?&quot;, &quot;%#{record.something}%&quot;)
+end
+
+@@@
+
+Limit scope to make expire regexp compare faster.</body>
+      <body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;expire_keys(/running/) do |scoped|
+   scoped.where(&quot;key LIKE ?&quot;, &quot;%#{record.something}%&quot;)
+end&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;Limit scope to make expire regexp compare faster.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-17T00:20:13+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">854</number>
+      <permalink>testing-on-production-and-writing-cache-expire-rules</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Testing on production and writing cache expire rules</title>
+      <updated-at type="datetime">2011-09-17T00:20:38+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/854</url>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+</ticket>

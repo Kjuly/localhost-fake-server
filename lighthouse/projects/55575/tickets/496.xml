@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">94027</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-23T14:56:05+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">496</number>
+  <permalink>enhancements-to-kpis</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Enhancements to KPIs</title>
+  <updated-at type="datetime">2011-09-14T09:38:01+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">2</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>bin</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/496</url>
+  <priority-name>Low</priority-name>
+  <original-body>I chatted with Raph and he would like to add the following:
+
+* Users (total, displayed monthly... for example, there were 10000 users in january, 11000 users in february...)
+* MailChimp signups (total, displayed monthly)
+* What products are most viewed (use same as we made for OT?)
+* What categories (sports) are most viewed
+* Inside running, what types of pages are most viewed (products nav, product pages, knowledge, events, ambassadors).
+
+
+He also said: Bazaarvoice stats would be good too. Not sure if BV has an API we can use to get these or if we can generate some on our onw... (lower priority)
+
+All of this is lower priority than getting the store locator to work properly.</original-body>
+  <latest-body>I chatted with Raph and he would like to add the following:
+
+* Users (total, displayed monthly... for example, there were 10000 users in january, 11000 users in february...)
+* MailChimp signups (total, displayed monthly)
+* What products are most viewed (use same as we made for OT?)
+* What categories (sports) are most viewed
+* Inside running, what types of pages are most viewed (products nav, product pages, knowledge, events, ambassadors).
+
+
+He also said: Bazaarvoice stats would be good too. Not sure if BV has an API we can use to get these or if we can generate some on our onw... (lower priority)
+
+All of this is lower priority than getting the store locator to work properly.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;I chatted with Raph and he would like to add the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users (total, displayed monthly... for example, there were
+10000 users in january, 11000 users in february...)&lt;/li&gt;
+&lt;li&gt;MailChimp signups (total, displayed monthly)&lt;/li&gt;
+&lt;li&gt;What products are most viewed (use same as we made for
+OT?)&lt;/li&gt;
+&lt;li&gt;What categories (sports) are most viewed&lt;/li&gt;
+&lt;li&gt;Inside running, what types of pages are most viewed (products
+nav, product pages, knowledge, events, ambassadors).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;He also said: Bazaarvoice stats would be good too. Not sure if
+BV has an API we can use to get these or if we can generate some on
+our onw... (lower priority)&lt;/p&gt;
+&lt;p&gt;All of this is lower priority than getting the store locator to
+work properly.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>I chatted with Raph and he would like to add the following:
+
+* Users (total, displayed monthly... for example, there were 10000 users in january, 11000 users in february...)
+* MailChimp signups (total, displayed monthly)
+* What products are most viewed (use same as we made for OT?)
+* What categories (sports) are most viewed
+* Inside running, what types of pages are most viewed (products nav, product pages, knowledge, events, ambassadors).
+
+
+He also said: Bazaarvoice stats would be good too. Not sure if BV has an API we can use to get these or if we can generate some on our onw... (lower priority)
+
+All of this is lower priority than getting the store locator to work properly.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;I chatted with Raph and he would like to add the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users (total, displayed monthly... for example, there were
+10000 users in january, 11000 users in february...)&lt;/li&gt;
+&lt;li&gt;MailChimp signups (total, displayed monthly)&lt;/li&gt;
+&lt;li&gt;What products are most viewed (use same as we made for
+OT?)&lt;/li&gt;
+&lt;li&gt;What categories (sports) are most viewed&lt;/li&gt;
+&lt;li&gt;Inside running, what types of pages are most viewed (products
+nav, product pages, knowledge, events, ambassadors).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;He also said: Bazaarvoice stats would be good too. Not sure if
+BV has an API we can use to get these or if we can generate some on
+our onw... (lower priority)&lt;/p&gt;
+&lt;p&gt;All of this is lower priority than getting the store locator to
+work properly.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-23T14:56:05+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">496</number>
+      <permalink>enhancements-to-kpis</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Enhancements to KPIs</title>
+      <updated-at type="datetime">2011-08-23T14:57:49+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/496</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Let's start with the top 3 only since there may be upcoming changes to the categories data structure:
+
+* Users (total, displayed monthly... for example, there were 10000 users in january, 11000 users in february...)
+* MailChimp signups (total, displayed monthly)
+* What products are most viewed (use same as we made for OT?)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Let's start with the top 3 only since there may be upcoming
+changes to the categories data structure:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users (total, displayed monthly... for example, there were
+10000 users in january, 11000 users in february...)&lt;/li&gt;
+&lt;li&gt;MailChimp signups (total, displayed monthly)&lt;/li&gt;
+&lt;li&gt;What products are most viewed (use same as we made for
+OT?)&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-14T09:37:43+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">496</number>
+      <permalink>enhancements-to-kpis</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Enhancements to KPIs</title>
+      <updated-at type="datetime">2011-09-14T09:38:01+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">2</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/496</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

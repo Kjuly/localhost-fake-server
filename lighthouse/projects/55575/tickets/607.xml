@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-29T09:07:44+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">607</number>
+  <permalink>products-top-page-products-multiple-issues</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>pending_review</state>
+  <tag nil="true"></tag>
+  <title>Products top page (/products) &gt; Multiple issues</title>
+  <updated-at type="datetime">2011-08-29T19:25:46+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">2</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/607</url>
+  <priority-name>Low</priority-name>
+  <original-body>URL: http://www.uk.asics2-draft.theplant-dev.com/products
+
+Missing contents, some links are bad (e.g. http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears)</original-body>
+  <latest-body>URL: http://www.uk.asics2-draft.theplant-dev.com/products
+
+Missing contents, some links are bad (e.g. http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;URL: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/products&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/products&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Missing contents, some links are bad (e.g. &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears&lt;/a&gt;)&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>URL: http://www.uk.asics2-draft.theplant-dev.com/products
+
+Missing contents, some links are bad (e.g. http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;URL: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/products&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/products&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Missing contents, some links are bad (e.g. &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears&lt;/a&gt;)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T09:07:44+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">607</number>
+      <permalink>products-top-page-products-multiple-issues</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Products top page (/products) &gt; Multiple issues</title>
+      <updated-at type="datetime">2011-08-29T09:07:58+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/607</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/products ----this is fine.
+
+http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears ---- it should be http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwear , your link has a &quot;s&quot; in the end of &quot;footwear&quot; :-)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/products&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/products&lt;/a&gt;
+----this is fine.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwears&lt;/a&gt;
+---- it should be &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwear&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/tennis/products/footwear&lt;/a&gt;
+, your link has a &quot;s&quot; in the end of &quot;footwear&quot; :-)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-29T19:25:36+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">607</number>
+      <permalink>products-top-page-products-multiple-issues</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Products top page (/products) &gt; Multiple issues</title>
+      <updated-at type="datetime">2011-08-29T19:25:46+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/607</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

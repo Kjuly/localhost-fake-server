@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">94027</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-28T08:41:00+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">580</number>
+  <permalink>newsletter-specification</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Newsletter Specification</title>
+  <updated-at type="datetime">2011-09-02T22:47:25+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>bin</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/580</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Low</priority-name>
+  <original-body>A few notes about the newsletter signup. 
+
+### Well tested on a coding and human level
+We absolutely can not make mistakes with newsletter signup. It must be backed up with tests that prove this feature works. We must make sure that our system recognizes previously subscribed emails.
+
+### Storing and Sending Subscriptions
+This is my understanding of how this should work. Please let me know if you agree/have the same idea.
+
+* Newsletter accounts are stored locally and synced with MailChimp. We send all of the confirmation emails through our system. We use SendGrid to send system mail and add appropriate tracking tags for this and all emails we send. We should be able to easily view and localize all emails we send.
+
+* Newsletter accounts are associated to user accounts. There are multiple newsletters that a user can subscribe to. An email that does not already belong to a user account will create a password-less user account. 
+
+### Basic flow:
+
+#### User logged in?
+
+* Already Subscribed?
+If already subscribed to this newsletter, do not display the registration box. If this registration box appears in an area of the site in which it needs some content, replace with another widget of same size. I believe the Store Locator widget was used like this before.
+
+* Not Subscribed Yet?
+In this case, we should not show the email input, just the lead text and the &quot;Subscribe&quot; button. Obviously, no need to ask for an email if we already know it, no need to send a confirmation email. After clicking the button display confirmation text: &quot;Thank you for subscribing to the {newsletter name}.&quot;
+
+#### User not logged in?
+Display the email subscription form. User enters email:
+
+1. Sanity check the email. Doesn't look sane? Give them an error message: &quot;Please enter a valid email.&quot;
+
+2. Email address already belong to a confirmed user account and is already subscribed to this newsletter? 
+
+If yes, give them a message: &quot;{email} is already subscribed to the {newsletter name (in this case ASICS General Newsletter}.
+
+If no, send a confirmation email and display a confirmation email on screen. 
+
+**Email title**
+
+Please confirm your email to subscribe to {newsletter name}
+
+**Email body**
+
+Thank you for signing up for the ASICS General Newsletter. Please click the link below to verify your email and complete your subscription:
+
+Confirm my email and newsletter subscription.
+
+--
+ASICS Administrator
+
+---
+
+**On screen confirmation message**
+
+Thank you. We have sent you an email to confirm your email address. You will be subscribed as soon as you have confirmed your email.
+
+**On screen message after confirming email address**
+
+Thank you. You are now subscribed to {newsletter name}. 
+
+---
+
+In a future version, we may suggest them to create an account, but not for this version.
+
+In a future version, if the user does not click the confirmation link we will have a planned reminder system to encourage the user to complete their registration, but not for this version.
+
+### Other considerations:
+
+* If the user creates a new user account from a password-less user account, they will still need to follow the normal flow for email confirmation for their account because we can't prove that the user owns the email w/o sending the confirmation email again.
+
+* If the user unsubscribes through either MailChimp or through our site, both need to be aware of the change.
+
+* All language keys should have the same base, so that they are easy to localize (hopefully, all features are like this).</original-body>
+  <latest-body>A few notes about the newsletter signup. 
+
+### Well tested on a coding and human level
+We absolutely can not make mistakes with newsletter signup. It must be backed up with tests that prove this feature works. We must make sure that our system recognizes previously subscribed emails.
+
+### Storing and Sending Subscriptions
+This is my understanding of how this should work. Please let me know if you agree/have the same idea.
+
+* Newsletter accounts are stored locally and synced with MailChimp. We send all of the confirmation emails through our system. We use SendGrid to send system mail and add appropriate tracking tags for this and all emails we send. We should be able to easily view and localize all emails we send.
+
+* Newsletter accounts are associated to user accounts. There are multiple newsletters that a user can subscribe to. An email that does not already belong to a user account will create a password-less user account. 
+
+### Basic flow:
+
+#### User logged in?
+
+* Already Subscribed?
+If already subscribed to this newsletter, do not display the registration box. If this registration box appears in an area of the site in which it needs some content, replace with another widget of same size. I believe the Store Locator widget was used like this before.
+
+* Not Subscribed Yet?
+In this case, we should not show the email input, just the lead text and the &quot;Subscribe&quot; button. Obviously, no need to ask for an email if we already know it, no need to send a confirmation email. After clicking the button display confirmation text: &quot;Thank you for subscribing to the {newsletter name}.&quot;
+
+#### User not logged in?
+Display the email subscription form. User enters email:
+
+1. Sanity check the email. Doesn't look sane? Give them an error message: &quot;Please enter a valid email.&quot;
+
+2. Email address already belong to a confirmed user account and is already subscribed to this newsletter? 
+
+If yes, give them a message: &quot;{email} is already subscribed to the {newsletter name (in this case ASICS General Newsletter}.
+
+If no, send a confirmation email and display a confirmation email on screen. 
+
+**Email title**
+
+Please confirm your email to subscribe to {newsletter name}
+
+**Email body**
+
+Thank you for signing up for the ASICS General Newsletter. Please click the link below to verify your email and complete your subscription:
+
+Confirm my email and newsletter subscription.
+
+--
+ASICS Administrator
+
+---
+
+**On screen confirmation message**
+
+Thank you. We have sent you an email to confirm your email address. You will be subscribed as soon as you have confirmed your email.
+
+**On screen message after confirming email address**
+
+Thank you. You are now subscribed to {newsletter name}. 
+
+---
+
+In a future version, we may suggest them to create an account, but not for this version.
+
+In a future version, if the user does not click the confirmation link we will have a planned reminder system to encourage the user to complete their registration, but not for this version.
+
+### Other considerations:
+
+* If the user creates a new user account from a password-less user account, they will still need to follow the normal flow for email confirmation for their account because we can't prove that the user owns the email w/o sending the confirmation email again.
+
+* If the user unsubscribes through either MailChimp or through our site, both need to be aware of the change.
+
+* All language keys should have the same base, so that they are easy to localize (hopefully, all features are like this).</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;A few notes about the newsletter signup.&lt;/p&gt;
+&lt;h3&gt;Well tested on a coding and human level&lt;/h3&gt;
+&lt;p&gt;We absolutely can not make mistakes with newsletter signup. It
+must be backed up with tests that prove this feature works. We must
+make sure that our system recognizes previously subscribed
+emails.&lt;/p&gt;
+&lt;h3&gt;Storing and Sending Subscriptions&lt;/h3&gt;
+&lt;p&gt;This is my understanding of how this should work. Please let me
+know if you agree/have the same idea.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Newsletter accounts are stored locally and synced with
+MailChimp. We send all of the confirmation emails through our
+system. We use SendGrid to send system mail and add appropriate
+tracking tags for this and all emails we send. We should be able to
+easily view and localize all emails we send.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Newsletter accounts are associated to user accounts. There are
+multiple newsletters that a user can subscribe to. An email that
+does not already belong to a user account will create a
+password-less user account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Basic flow:&lt;/h3&gt;
+&lt;h4&gt;User logged in?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Already Subscribed? If already subscribed to this newsletter, do
+not display the registration box. If this registration box appears
+in an area of the site in which it needs some content, replace with
+another widget of same size. I believe the Store Locator widget was
+used like this before.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Not Subscribed Yet? In this case, we should not show the email
+input, just the lead text and the &quot;Subscribe&quot; button. Obviously, no
+need to ask for an email if we already know it, no need to send a
+confirmation email. After clicking the button display confirmation
+text: &quot;Thank you for subscribing to the {newsletter name}.&quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;User not logged in?&lt;/h4&gt;
+&lt;p&gt;Display the email subscription form. User enters email:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Sanity check the email. Doesn't look sane? Give them an error
+message: &quot;Please enter a valid email.&quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Email address already belong to a confirmed user account and is
+already subscribed to this newsletter?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If yes, give them a message: &quot;{email} is already subscribed to
+the {newsletter name (in this case ASICS General Newsletter}.&lt;/p&gt;
+&lt;p&gt;If no, send a confirmation email and display a confirmation
+email on screen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Email title&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please confirm your email to subscribe to {newsletter name}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Email body&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you for signing up for the ASICS General Newsletter.
+Please click the link below to verify your email and complete your
+subscription:&lt;/p&gt;
+&lt;p&gt;Confirm my email and newsletter subscription.&lt;/p&gt;
+&lt;p&gt;-- ASICS Administrator&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;On screen confirmation message&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you. We have sent you an email to confirm your email
+address. You will be subscribed as soon as you have confirmed your
+email.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;On screen message after confirming email
+address&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you. You are now subscribed to {newsletter name}.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In a future version, we may suggest them to create an account,
+but not for this version.&lt;/p&gt;
+&lt;p&gt;In a future version, if the user does not click the confirmation
+link we will have a planned reminder system to encourage the user
+to complete their registration, but not for this version.&lt;/p&gt;
+&lt;h3&gt;Other considerations:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If the user creates a new user account from a password-less user
+account, they will still need to follow the normal flow for email
+confirmation for their account because we can't prove that the user
+owns the email w/o sending the confirmation email again.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the user unsubscribes through either MailChimp or through our
+site, both need to be aware of the change.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All language keys should have the same base, so that they are
+easy to localize (hopefully, all features are like this).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>A few notes about the newsletter signup. 
+
+### Well tested on a coding and human level
+We absolutely can not make mistakes with newsletter signup. It must be backed up with tests that prove this feature works. We must make sure that our system recognizes previously subscribed emails.
+
+### Storing and Sending Subscriptions
+This is my understanding of how this should work. Please let me know if you agree/have the same idea.
+
+* Newsletter accounts are stored locally and synced with MailChimp. We send all of the confirmation emails through our system. We use SendGrid to send system mail and add appropriate tracking tags for this and all emails we send. We should be able to easily view and localize all emails we send.
+
+* Newsletter accounts are associated to user accounts. There are multiple newsletters that a user can subscribe to. An email that does not already belong to a user account will create a password-less user account. 
+
+### Basic flow:
+
+#### User logged in?
+
+* Already Subscribed?
+If already subscribed to this newsletter, do not display the registration box. If this registration box appears in an area of the site in which it needs some content, replace with another widget of same size. I believe the Store Locator widget was used like this before.
+
+* Not Subscribed Yet?
+In this case, we should not show the email input, just the lead text and the &quot;Subscribe&quot; button. Obviously, no need to ask for an email if we already know it, no need to send a confirmation email. After clicking the button display confirmation text: &quot;Thank you for subscribing to the {newsletter name}.&quot;
+
+#### User not logged in?
+Display the email subscription form. User enters email:
+
+1. Sanity check the email. Doesn't look sane? Give them an error message: &quot;Please enter a valid email.&quot;
+
+2. Email address already belong to a confirmed user account and is already subscribed to this newsletter? 
+
+If yes, give them a message: &quot;{email} is already subscribed to the {newsletter name (in this case ASICS General Newsletter}.
+
+If no, send a confirmation email and display a confirmation email on screen. 
+
+**Email title**
+
+Please confirm your email to subscribe to {newsletter name}
+
+**Email body**
+
+Thank you for signing up for the ASICS General Newsletter. Please click the link below to verify your email and complete your subscription:
+
+Confirm my email and newsletter subscription.
+
+--
+ASICS Administrator
+
+---
+
+**On screen confirmation message**
+
+Thank you. We have sent you an email to confirm your email address. You will be subscribed as soon as you have confirmed your email.
+
+**On screen message after confirming email address**
+
+Thank you. You are now subscribed to {newsletter name}. 
+
+---
+
+In a future version, we may suggest them to create an account, but not for this version.
+
+In a future version, if the user does not click the confirmation link we will have a planned reminder system to encourage the user to complete their registration, but not for this version.
+
+### Other considerations:
+
+* If the user creates a new user account from a password-less user account, they will still need to follow the normal flow for email confirmation for their account because we can't prove that the user owns the email w/o sending the confirmation email again.
+
+* If the user unsubscribes through either MailChimp or through our site, both need to be aware of the change.
+
+* All language keys should have the same base, so that they are easy to localize (hopefully, all features are like this).</body>
+      <body-html>&lt;div&gt;&lt;p&gt;A few notes about the newsletter signup.&lt;/p&gt;
+&lt;h3&gt;Well tested on a coding and human level&lt;/h3&gt;
+&lt;p&gt;We absolutely can not make mistakes with newsletter signup. It
+must be backed up with tests that prove this feature works. We must
+make sure that our system recognizes previously subscribed
+emails.&lt;/p&gt;
+&lt;h3&gt;Storing and Sending Subscriptions&lt;/h3&gt;
+&lt;p&gt;This is my understanding of how this should work. Please let me
+know if you agree/have the same idea.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Newsletter accounts are stored locally and synced with
+MailChimp. We send all of the confirmation emails through our
+system. We use SendGrid to send system mail and add appropriate
+tracking tags for this and all emails we send. We should be able to
+easily view and localize all emails we send.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Newsletter accounts are associated to user accounts. There are
+multiple newsletters that a user can subscribe to. An email that
+does not already belong to a user account will create a
+password-less user account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Basic flow:&lt;/h3&gt;
+&lt;h4&gt;User logged in?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Already Subscribed? If already subscribed to this newsletter, do
+not display the registration box. If this registration box appears
+in an area of the site in which it needs some content, replace with
+another widget of same size. I believe the Store Locator widget was
+used like this before.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Not Subscribed Yet? In this case, we should not show the email
+input, just the lead text and the &quot;Subscribe&quot; button. Obviously, no
+need to ask for an email if we already know it, no need to send a
+confirmation email. After clicking the button display confirmation
+text: &quot;Thank you for subscribing to the {newsletter name}.&quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;User not logged in?&lt;/h4&gt;
+&lt;p&gt;Display the email subscription form. User enters email:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Sanity check the email. Doesn't look sane? Give them an error
+message: &quot;Please enter a valid email.&quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Email address already belong to a confirmed user account and is
+already subscribed to this newsletter?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If yes, give them a message: &quot;{email} is already subscribed to
+the {newsletter name (in this case ASICS General Newsletter}.&lt;/p&gt;
+&lt;p&gt;If no, send a confirmation email and display a confirmation
+email on screen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Email title&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please confirm your email to subscribe to {newsletter name}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Email body&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you for signing up for the ASICS General Newsletter.
+Please click the link below to verify your email and complete your
+subscription:&lt;/p&gt;
+&lt;p&gt;Confirm my email and newsletter subscription.&lt;/p&gt;
+&lt;p&gt;-- ASICS Administrator&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;On screen confirmation message&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you. We have sent you an email to confirm your email
+address. You will be subscribed as soon as you have confirmed your
+email.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;On screen message after confirming email
+address&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thank you. You are now subscribed to {newsletter name}.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In a future version, we may suggest them to create an account,
+but not for this version.&lt;/p&gt;
+&lt;p&gt;In a future version, if the user does not click the confirmation
+link we will have a planned reminder system to encourage the user
+to complete their registration, but not for this version.&lt;/p&gt;
+&lt;h3&gt;Other considerations:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If the user creates a new user account from a password-less user
+account, they will still need to follow the normal flow for email
+confirmation for their account because we can't prove that the user
+owns the email w/o sending the confirmation email again.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If the user unsubscribes through either MailChimp or through our
+site, both need to be aware of the change.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All language keys should have the same base, so that they are
+easy to localize (hopefully, all features are like this).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-28T08:41:00+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">580</number>
+      <permalink>newsletter-specification</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Newsletter Specification</title>
+      <updated-at type="datetime">2011-08-28T08:43:09+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/580</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-02T22:47:10+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">580</number>
+      <permalink>newsletter-specification</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Newsletter Specification</title>
+      <updated-at type="datetime">2011-09-02T22:47:25+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/580</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

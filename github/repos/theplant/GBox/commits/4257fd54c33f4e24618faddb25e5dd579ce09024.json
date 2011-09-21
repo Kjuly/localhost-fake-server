@@ -1,0 +1,69 @@
+{
+  "parents": [
+    {
+      "sha": "21cf008787c2218b600378260ebee33cdd2ab7be",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/21cf008787c2218b600378260ebee33cdd2ab7be"
+    }
+  ],
+  "sha": "4257fd54c33f4e24618faddb25e5dd579ce09024",
+  "commit": {
+    "message": "recently changed files progressindicator can show in realtime",
+    "tree": {
+      "sha": "63dc66b7ecd02d3ac9b240585b5c0b5bb9576cfc",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/63dc66b7ecd02d3ac9b240585b5c0b5bb9576cfc"
+    },
+    "author": {
+      "email": "frankyue1019@gmail.com",
+      "date": "2011-08-31T01:34:16-07:00",
+      "name": "frankyue"
+    },
+    "committer": {
+      "email": "frankyue1019@gmail.com",
+      "date": "2011-08-31T01:34:16-07:00",
+      "name": "frankyue"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/4257fd54c33f4e24618faddb25e5dd579ce09024"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "login": "frankyue",
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "files": [
+    {
+      "changes": 5,
+      "status": "modified",
+      "sha": "4257fd54c33f4e24618faddb25e5dd579ce09024",
+      "blob_url": "https://github.com/theplant/GBox/blob/4257fd54c33f4e24618faddb25e5dd579ce09024/GBox/GBDownloadOperation.m",
+      "additions": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/4257fd54c33f4e24618faddb25e5dd579ce09024/GBox/GBDownloadOperation.m",
+      "filename": "GBox/GBDownloadOperation.m",
+      "deletions": 3,
+      "patch": "--- a/GBox/GBDownloadOperation.m\n+++ b/GBox/GBDownloadOperation.m\n@@ -188,7 +188,7 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n     }\n     \n     \n-    //[requestdown setDownloadProgressDelegate:downloadPI];\n+    [requestdown setDownloadProgressDelegate:downloadPI];\n     //[requestdown setDidReceiveDataSelector:@selector(requestData:)];\n \n     [requestdown setDidFailSelector:@selector(requestFailed:)];\n@@ -379,8 +379,7 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n \n - (void) setPI:(NSProgressIndicator *)pi\n {\n-    [pi setDoubleValue:0];\n-    [requestdown setDownloadProgressDelegate:pi];\n+    downloadPI = pi;\n }\n \n @end"
+    },
+    {
+      "changes": 2,
+      "status": "modified",
+      "sha": "4257fd54c33f4e24618faddb25e5dd579ce09024",
+      "blob_url": "https://github.com/theplant/GBox/blob/4257fd54c33f4e24618faddb25e5dd579ce09024/GBox/GBoxAppDelegate.m",
+      "additions": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/4257fd54c33f4e24618faddb25e5dd579ce09024/GBox/GBoxAppDelegate.m",
+      "filename": "GBox/GBoxAppDelegate.m",
+      "deletions": 0,
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -238,6 +238,8 @@\n      */\n }\n \n+\n+\n - (void)applicationDidFinishLaunching:(NSNotification *)aNotification\n {\n     //add crash report"
+    }
+  ],
+  "stats": {
+    "additions": 4,
+    "deletions": 3,
+    "total": 7
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 58485,
+    "login": "frankyue",
+    "url": "https://api.github.com/users/frankyue"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/4257fd54c33f4e24618faddb25e5dd579ce09024"
+}

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-09-07T10:41:50+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">728</number>
+  <permalink>running-events-default-zoom-level-of-map-is-wrong</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Running Events: Default zoom level of map is wrong</title>
+  <updated-at type="datetime">2011-09-14T00:55:09+09:00</updated-at>
+  <user-id type="integer">2503</user-id>
+  <version type="integer">5</version>
+  <user-name>Anatole</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Anatole</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/728</url>
+  <priority-name>Low</priority-name>
+  <original-body>http://www.uk.asics2-draft.theplant-dev.com/running/events
+
+ASICS RACES IN UNITED KINGDOM and NON-ASICS RACES IN UNITED KINGDOM tabs =&gt; Should be zoomed to see all of England (should change to fit the country that you are looking at)
+
+
+RACES IN EUROPE tab =&gt; Should be zoomed to see all of Europe (currently somewhere in the tip of Spain)
+
+ShaoShing, please assign to the right person.</original-body>
+  <latest-body>http://www.uk.asics2-draft.theplant-dev.com/running/events
+
+ASICS RACES IN UNITED KINGDOM and NON-ASICS RACES IN UNITED KINGDOM tabs =&gt; Should be zoomed to see all of England (should change to fit the country that you are looking at)
+
+
+RACES IN EUROPE tab =&gt; Should be zoomed to see all of Europe (currently somewhere in the tip of Spain)
+
+ShaoShing, please assign to the right person.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/events&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/events&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASICS RACES IN UNITED KINGDOM and NON-ASICS RACES IN UNITED
+KINGDOM tabs =&amp;gt; Should be zoomed to see all of England (should
+change to fit the country that you are looking at)&lt;/p&gt;
+&lt;p&gt;RACES IN EUROPE tab =&amp;gt; Should be zoomed to see all of Europe
+(currently somewhere in the tip of Spain)&lt;/p&gt;
+&lt;p&gt;ShaoShing, please assign to the right person.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/running/events
+
+ASICS RACES IN UNITED KINGDOM and NON-ASICS RACES IN UNITED KINGDOM tabs =&gt; Should be zoomed to see all of England (should change to fit the country that you are looking at)
+
+
+RACES IN EUROPE tab =&gt; Should be zoomed to see all of Europe (currently somewhere in the tip of Spain)
+
+ShaoShing, please assign to the right person.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/events&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/running/events&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ASICS RACES IN UNITED KINGDOM and NON-ASICS RACES IN UNITED
+KINGDOM tabs =&amp;gt; Should be zoomed to see all of England (should
+change to fit the country that you are looking at)&lt;/p&gt;
+&lt;p&gt;RACES IN EUROPE tab =&amp;gt; Should be zoomed to see all of Europe
+(currently somewhere in the tip of Spain)&lt;/p&gt;
+&lt;p&gt;ShaoShing, please assign to the right person.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-07T10:41:50+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">728</number>
+      <permalink>running-events-default-zoom-level-of-map-is-wrong</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Running Events: Default zoom level of map is wrong</title>
+      <updated-at type="datetime">2011-09-07T10:42:01+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/728</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-07T11:25:55+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">728</number>
+      <permalink>running-events-default-zoom-level-of-map-is-wrong</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Running Events: Default zoom level of map is wrong</title>
+      <updated-at type="datetime">2011-09-07T11:26:07+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/728</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T12:05:42+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">728</number>
+      <permalink>running-events-default-zoom-level-of-map-is-wrong</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Running Events: Default zoom level of map is wrong</title>
+      <updated-at type="datetime">2011-09-12T12:05:55+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">3</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/728</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>done.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;done.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-12T14:24:08+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: committed
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">728</number>
+      <permalink>running-events-default-zoom-level-of-map-is-wrong</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Running Events: Default zoom level of map is wrong</title>
+      <updated-at type="datetime">2011-09-12T14:24:25+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">4</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/728</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-14T00:54:55+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">728</number>
+      <permalink>running-events-default-zoom-level-of-map-is-wrong</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Running Events: Default zoom level of map is wrong</title>
+      <updated-at type="datetime">2011-09-14T00:55:09+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">5</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/728</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+</ticket>

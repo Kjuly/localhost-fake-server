@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-08-31T12:27:59+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">639</number>
+  <permalink>go-through-all-code-should-raise-activerecordrecordnotfound-in-controller-in-order-for-nginx-to-handle-404-page-not-return-not_found</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>pending_review</state>
+  <tag>hoptoad</tag>
+  <title>Go through All code should raise ActiveRecord::RecordNotFound in controller, in order for nginx to handle 404 page, Not return not_found</title>
+  <updated-at type="datetime">2011-08-31T17:33:14+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">3</version>
+  <user-name>Yuan He</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/639</url>
+  <priority-name>Medium</priority-name>
+  <original-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing template /errors/404.html with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110831003047/app/views&quot; * &quot;/home/app/app_draft/releases/2](http://theplant.airbrakeapp.com/errors/12478765)</original-body>
+  <latest-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing template /errors/404.html with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110831003047/app/views&quot; * &quot;/home/app/app_draft/releases/2](http://theplant.airbrakeapp.com/errors/12478765)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12478765&quot;&gt;ActionView::MissingTemplate:
+ActionView::MissingTemplate: Missing template /errors/404.html with
+{:handlers=&amp;gt;[:erb, :builder, :slim], :formats=&amp;gt;[:html],
+:locale=&amp;gt;[:&quot;en-uk&quot;, :en]}. Searched in: *
+&quot;/home/app/app_draft/releases/20110831003047/app/views&quot; *
+&quot;/home/app/app_draft/releases/2&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing template /errors/404.html with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110831003047/app/views&quot; * &quot;/home/app/app_draft/releases/2](http://theplant.airbrakeapp.com/errors/12478765)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12478765&quot;&gt;ActionView::MissingTemplate:
+ActionView::MissingTemplate: Missing template /errors/404.html with
+{:handlers=&amp;gt;[:erb, :builder, :slim], :formats=&amp;gt;[:html],
+:locale=&amp;gt;[:&quot;en-uk&quot;, :en]}. Searched in: *
+&quot;/home/app/app_draft/releases/20110831003047/app/views&quot; *
+&quot;/home/app/app_draft/releases/2&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-31T12:27:59+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">639</number>
+      <permalink>go-through-all-code-should-raise-activerecordrecordnotfound-in-controller-in-order-for-nginx-to-handle-404-page-not-return-not_found</permalink>
+      <priority type="integer">0</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>Go through All code should raise ActiveRecord::RecordNotFound in controller, in order for nginx to handle 404 page, Not return not_found</title>
+      <updated-at type="datetime">2011-08-31T12:28:09+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name nil="true"></assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/639</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-31T12:29:03+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:priority: 0
+:assigned_user: 
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">639</number>
+      <permalink>go-through-all-code-should-raise-activerecordrecordnotfound-in-controller-in-order-for-nginx-to-handle-404-page-not-return-not_found</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>Go through All code should raise ActiveRecord::RecordNotFound in controller, in order for nginx to handle 404 page, Not return not_found</title>
+      <updated-at type="datetime">2011-08-31T12:29:10+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">2</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/639</url>
+      <priority-name>Medium</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>remove not_found method</body>
+      <body-html>&lt;div&gt;&lt;p&gt;remove not_found method&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-31T17:33:03+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">639</number>
+      <permalink>go-through-all-code-should-raise-activerecordrecordnotfound-in-controller-in-order-for-nginx-to-handle-404-page-not-return-not_found</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>hoptoad</tag>
+      <title>Go through All code should raise ActiveRecord::RecordNotFound in controller, in order for nginx to handle 404 page, Not return not_found</title>
+      <updated-at type="datetime">2011-08-31T17:33:14+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/639</url>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+</ticket>

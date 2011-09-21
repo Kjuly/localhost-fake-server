@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <archived type="boolean">false</archived>
+  <created-at type="datetime">2010-07-05T12:57:47+09:00</created-at>
+  <default-assigned-user-id type="integer" nil="true"></default-assigned-user-id>
+  <default-milestone-id type="integer" nil="true"></default-milestone-id>
+  <default-ticket-text></default-ticket-text>
+  <description></description>
+  <description-html></description-html>
+  <hidden type="boolean">false</hidden>
+  <id type="integer">55575</id>
+  <license nil="true"></license>
+  <name>ASICS on Qor</name>
+  <open-tickets-count type="integer">185</open-tickets-count>
+  <oss-readonly type="boolean">false</oss-readonly>
+  <permalink>asics2</permalink>
+  <public type="boolean">false</public>
+  <send-changesets-to-events type="boolean">true</send-changesets-to-events>
+  <updated-at type="datetime">2011-08-29T22:07:58+09:00</updated-at>
+  <open-states-list>new,open,committed,pending_review</open-states-list>
+  <closed-states-list>resolved,hold,invalid</closed-states-list>
+  <open-states>new/f17  # You can add comments here
+open/aaa # if you want to.
+committed/099
+pending_review/0FF</open-states>
+  <closed-states>resolved/6A0 # You can customize colors
+hold/EB0     # with 3 or 6 character hex codes
+invalid/A30  # 'A30' expands to 'AA3300'</closed-states>
+</project>

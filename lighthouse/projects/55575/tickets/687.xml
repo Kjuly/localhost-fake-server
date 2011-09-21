@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">154128</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-03T08:40:49+09:00</created-at>
+  <creator-id type="integer">2503</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">687</number>
+  <permalink>product-page-position-of-share-button</permalink>
+  <priority type="integer">2</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag nil="true"></tag>
+  <title>Product Page &gt; Position of Share Button</title>
+  <updated-at type="datetime">2011-09-03T16:23:25+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">2</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Anatole</creator-name>
+  <assigned-user-name>Yuan He</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/687</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>Medium</priority-name>
+  <original-body>See attached.</original-body>
+  <latest-body>See attached.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>See attached.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-03T08:40:49+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">687</number>
+      <permalink>product-page-position-of-share-button</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Product Page &gt; Position of Share Button</title>
+      <updated-at type="datetime">2011-09-03T08:41:01+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">1</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/687</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>Another issue: http://www.uk.asics2-draft.theplant-dev.com/hockey/products/gel-hockey-neo-women/
+show a redundant technologie icon</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Another issue: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/hockey/products/gel-hockey-neo-women/&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/hockey/products/gel-hoc...&lt;/a&gt;&lt;br&gt;
+show a redundant technologie icon&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-03T16:23:09+09:00</created-at>
+      <creator-id type="integer">2503</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+:priority: 3
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">687</number>
+      <permalink>product-page-position-of-share-button</permalink>
+      <priority type="integer">2</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Product Page &gt; Position of Share Button</title>
+      <updated-at type="datetime">2011-09-03T16:23:25+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">2</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Anatole</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/687</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Medium</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>bdf76ac6881786d975a172d13dcb7589c4a706b7</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-03T08:40:49+09:00</created-at>
+      <filename>2011-09-03_0839.png</filename>
+      <height type="integer">319</height>
+      <id type="integer">1347376</id>
+      <size type="integer">382397</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1180</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1347376/2011-09-03_0839.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

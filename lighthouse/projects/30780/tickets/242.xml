@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">24538</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-02-21T19:04:53+09:00</created-at>
+  <creator-id type="integer">24538</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">242</number>
+  <permalink>use-kaminari-instead-of-will_paginate-in-resources_engine</permalink>
+  <priority type="integer">60</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Use kaminari instead of will_paginate in resources_engine</title>
+  <updated-at type="datetime">2011-02-21T19:05:01+09:00</updated-at>
+  <user-id type="integer">24538</user-id>
+  <version type="integer">1</version>
+  <user-name>Jan Xie</user-name>
+  <creator-name>Jan Xie</creator-name>
+  <assigned-user-name>Jan Xie</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/242</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>https://github.com/amatsuda/kaminari
+
+will_paginate rails3 branch hasn't been updated for a long time. Kaminari is better in rails3/ruby19 environment.</original-body>
+  <latest-body>https://github.com/amatsuda/kaminari
+
+will_paginate rails3 branch hasn't been updated for a long time. Kaminari is better in rails3/ruby19 environment.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://github.com/amatsuda/kaminari&quot;&gt;https://github.com/amatsuda/kaminari&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;will_paginate rails3 branch hasn't been updated for a long time.
+Kaminari is better in rails3/ruby19 environment.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">24538</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>https://github.com/amatsuda/kaminari
+
+will_paginate rails3 branch hasn't been updated for a long time. Kaminari is better in rails3/ruby19 environment.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://github.com/amatsuda/kaminari&quot;&gt;https://github.com/amatsuda/kaminari&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;will_paginate rails3 branch hasn't been updated for a long time.
+Kaminari is better in rails3/ruby19 environment.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-02-21T19:04:53+09:00</created-at>
+      <creator-id type="integer">24538</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">242</number>
+      <permalink>use-kaminari-instead-of-will_paginate-in-resources_engine</permalink>
+      <priority type="integer">60</priority>
+      <project-id type="integer">30780</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Use kaminari instead of will_paginate in resources_engine</title>
+      <updated-at type="datetime">2011-02-21T19:05:01+09:00</updated-at>
+      <user-id type="integer">24538</user-id>
+      <version type="integer">1</version>
+      <user-name>Jan Xie</user-name>
+      <creator-name>Jan Xie</creator-name>
+      <assigned-user-name>Jan Xie</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/242</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

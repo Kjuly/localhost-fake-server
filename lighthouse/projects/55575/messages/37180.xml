@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+  <all-attachments-count type="integer">0</all-attachments-count>
+  <attachments-count type="integer">0</attachments-count>
+  <body>Mysql2::Error: Table 'asics_dev.translations' doesn't exist</body>
+  <body-html>&lt;div&gt;&lt;p&gt;Mysql2::Error: Table 'asics_dev.translations' doesn't exist&lt;/p&gt;&lt;/div&gt;</body-html>
+  <comments-count type="integer">12</comments-count>
+  <created-at type="datetime">2010-11-09T17:20:19+09:00</created-at>
+  <id type="integer">37180</id>
+  <parent-id type="integer" nil="true"></parent-id>
+  <permalink>seizens-black-box</permalink>
+  <project-id type="integer">55575</project-id>
+  <title>Seizen's black box</title>
+  <token>fm4njk2z</token>
+  <updated-at type="datetime">2010-12-08T12:30:05+09:00</updated-at>
+  <user-id type="integer">123136</user-id>
+  <user-name>seizen</user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+  <comments type="array">
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Knowledge section integration started.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Knowledge section integration started.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-09T17:45:00+09:00</created-at>
+      <id type="integer">37182</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>7z6qtmc8</token>
+      <updated-at type="datetime">2010-11-09T17:45:00+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>In http://www.asics.co.uk/running/knowledge/xxxxxxxxxxxxxxxxxx-xxxxx-xxxxxx/
+Right banners and comments function were left to later.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;In &lt;a href=
+&quot;http://www.asics.co.uk/running/knowledge/xxxxxxxxxxxxxxxxxx-xxxxx-xxxxxx/&quot;&gt;
+http://www.asics.co.uk/running/knowledge/xxxxxxxxxxxxxxxxxx-xxxxx-x...&lt;/a&gt;&lt;br&gt;
+Right banners and comments function were left to later.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-09T17:52:05+09:00</created-at>
+      <id type="integer">37184</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>uud9tby7</token>
+      <updated-at type="datetime">2010-11-09T17:52:05+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>#Task: Mimic www.asics.co.uk/running/knowledge/#
+&lt;br/&gt;
+**Q:**
+
+* **where're the images(uri)?**&lt;br/&gt;
+The s3 resource(images...) migrating(from local) feature in oni will be integrated into qor first, then with this feature, images can be uploaded to a new bucket in s3. 
+* **what's the query condition for index page(/running/knowledge/)?**&lt;br/&gt;
+see **On project specifications**
+* **what're the query conditions for sub-index(/running/knowledge/preparation/,...) pages?**&lt;br/&gt;
+see **On project specifications**
+* **where's the original specification for the whole site hierarchy, details for each column/page clusters respectively? (from the client probably.)** actually this one includes the 2 above.&lt;br/&gt;
+see **On project specifications**
+* **what're other coding rules excluding the previous routes.rb coding rule issued by Mr. Sun?**
+
+&lt;br/&gt;
+**Progress:**
+
+* add Knowledge controller. **&lt;----done**
+* add routes to /running/knowledge/, /running/knowledge/preparation/, /running/knowledge/xxxx/. **&lt;----done**&lt;br/&gt;
+As http requests will be routed in rails' default restful style, and qor handles all the CUD parts of CRUD, available methods for KnowledgeController are left to be: #index and #show.
+* add index.html.erb for /running/knowledge/ **&lt;----done, sub_navigation part pending, due 20101111180000**
+* add sub_index.html.erb for /running/knowledge/sub_index/ **&lt;----done, sub_navigation part pending, due 20101111180000**
+* add article.html.erb for /running/knowledge/articlexxxx_xx/ **&lt;---- on it now, due 20101111180000**
+* integrate s3 resource migrating feature into qor.
+
+#Objective Changed!#</body>
+      <body-html>&lt;div&gt;&lt;h1&gt;Task: Mimic &lt;a href=
+&quot;http://www.asics.co.uk/running/knowledge/&quot;&gt;www.asics.co.uk/running/knowledge/&lt;/a&gt;&lt;/h1&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;where're the images(uri)?&lt;/strong&gt;&lt;br&gt;
+The s3 resource(images...) migrating(from local) feature in oni
+will be integrated into qor first, then with this feature, images
+can be uploaded to a new bucket in s3.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;what's the query condition for index
+page(/running/knowledge/)?&lt;/strong&gt;&lt;br&gt;
+see &lt;strong&gt;On project specifications&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;what're the query conditions for
+sub-index(/running/knowledge/preparation/,...) pages?&lt;/strong&gt;&lt;br&gt;
+see &lt;strong&gt;On project specifications&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;where's the original specification for the whole site
+hierarchy, details for each column/page clusters respectively?
+(from the client probably.)&lt;/strong&gt; actually this one includes the
+2 above.&lt;br&gt;
+see &lt;strong&gt;On project specifications&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;what're other coding rules excluding the previous
+routes.rb coding rule issued by Mr. Sun?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Progress:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;add Knowledge controller. &lt;strong&gt;&amp;lt;----done&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;add routes to /running/knowledge/,
+/running/knowledge/preparation/, /running/knowledge/xxxx/.
+&lt;strong&gt;&amp;lt;----done&lt;/strong&gt;&lt;br&gt;
+As http requests will be routed in rails' default restful style,
+and qor handles all the CUD parts of CRUD, available methods for
+KnowledgeController are left to be: #index and #show.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;add index.html.erb for /running/knowledge/
+&lt;strong&gt;&amp;lt;----done, sub_navigation part pending, due
+20101111180000&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;add sub_index.html.erb for /running/knowledge/sub_index/
+&lt;strong&gt;&amp;lt;----done, sub_navigation part pending, due
+20101111180000&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;add article.html.erb for /running/knowledge/articlexxxx_xx/
+&lt;strong&gt;&amp;lt;---- on it now, due 20101111180000&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;integrate s3 resource migrating feature into qor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Objective Changed!&lt;/h1&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-10T18:45:14+09:00</created-at>
+      <id type="integer">37255</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>m538df2r</token>
+      <updated-at type="datetime">2010-11-11T18:44:53+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>**Coding rules**
+
+* **routes.rb**&lt;br/&gt;
+Routes need to be configured as restful as possible, update actions layout in the controller to fit that.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;strong&gt;Coding rules&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;routes.rb&lt;/strong&gt;&lt;br&gt;
+Routes need to be configured as restful as possible, update actions
+layout in the controller to fit that.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-10T19:28:53+09:00</created-at>
+      <id type="integer">37257</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>f3mgzfnz</token>
+      <updated-at type="datetime">2010-11-11T09:52:27+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>**On project specifications:**
+
+The original specification, which is said to be some pdfs and html files provide by the client, are probably deprecated now due to later modifications based on mutual assents, thus the rebuild of Asics on Qor is a process of copying logics from asics project(frontend) and integrating qor the CMS.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;strong&gt;On project specifications:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The original specification, which is said to be some pdfs and
+html files provide by the client, are probably deprecated now due
+to later modifications based on mutual assents, thus the rebuild of
+Asics on Qor is a process of copying logics from asics
+project(frontend) and integrating qor the CMS.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-11T18:24:20+09:00</created-at>
+      <id type="integer">37336</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>sz8pfsas</token>
+      <updated-at type="datetime">2010-11-11T18:24:20+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>**Current project state:**
+
+* Qor's been already integrated. CUDs of event, knowledge,ambassador seem to be completed.
+* frontend is nil.
+
+So, my task is copying channel Knowledge's frontend in.
+ooops, I've rewritten some code, wasted some time.
+
+And, the old project was written with merb, so the Qor integration necessitates some substitutions from merb/datamapper to rails/activerecord.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;strong&gt;Current project state:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Qor's been already integrated. CUDs of event,
+knowledge,ambassador seem to be completed.&lt;/li&gt;
+&lt;li&gt;frontend is nil.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, my task is copying channel Knowledge's frontend in.&lt;br&gt;
+ooops, I've rewritten some code, wasted some time.&lt;/p&gt;
+&lt;p&gt;And, the old project was written with merb, so the Qor
+integration necessitates some substitutions from merb/datamapper to
+rails/activerecord.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-11T18:42:19+09:00</created-at>
+      <id type="integer">37339</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>6hwnbfcq</token>
+      <updated-at type="datetime">2010-11-12T14:53:52+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>#Task: Copy Knowledge's frontend to Asics on Qor#
+&lt;br/&gt;
+
+**processes:**
+
+* **locate the old model.  &lt;----done**&lt;br/&gt;
+Knowledge, KnowledgeStep already added to app/models/
+* **locate the old erubys.  &lt;----done**&lt;br/&gt;
+in app/views/in_category/knowledges/
+* **locate the old controller.  &lt;----done**&lt;br/&gt;
+In order to route /running/knowledge/ to InCategory::Knowledge in app/controllers/in_category/
+thus we need scope
+* **configure the routes.  &lt;----done**&lt;br/&gt;
+It used merb. We'll not go with merb this time, bye merb.
+
+* **copy the oldies in and adapt.  &lt;----on it now**&lt;br/&gt;
+use no merb, no datamapper. Guess it's because qor is with no merb.
+From Mr. Lee, Rails has a cool query interface in its edge version(&gt;=3.0.0). It simplified the process of rewriting the old datamapper queries, cool.
+**knowledge route/controller/model integration completed. **&lt;br/&gt;
+views completed, S3 resources pending. git pushed.
+to understand git crystal clearly, I spent some time to read the book pro git on 20101116.</body>
+      <body-html>&lt;div&gt;&lt;h1&gt;Task: Copy Knowledge's frontend to Asics on Qor&lt;/h1&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;processes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;locate the old model. &amp;lt;----done&lt;/strong&gt;&lt;br&gt;
+Knowledge, KnowledgeStep already added to app/models/&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;locate the old erubys. &amp;lt;----done&lt;/strong&gt;&lt;br&gt;
+in app/views/in_category/knowledges/&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;locate the old controller. &amp;lt;----done&lt;/strong&gt;&lt;br&gt;
+In order to route /running/knowledge/ to InCategory::Knowledge in
+app/controllers/in_category/&lt;br&gt;
+thus we need scope&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;configure the routes. &amp;lt;----done&lt;/strong&gt;&lt;br&gt;
+It used merb. We'll not go with merb this time, bye merb.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;copy the oldies in and adapt. &amp;lt;----on it
+now&lt;/strong&gt;&lt;br&gt;
+use no merb, no datamapper. Guess it's because qor is with no
+merb.&lt;br&gt;
+From Mr. Lee, Rails has a cool query interface in its edge
+version(&amp;gt;=3.0.0). It simplified the process of rewriting the old
+datamapper queries, cool.&lt;br&gt;
+&lt;strong&gt;knowledge route/controller/model integration
+completed.&lt;/strong&gt;&lt;br&gt;
+views completed, S3 resources pending. git pushed.&lt;br&gt;
+to understand git crystal clearly, I spent some time to read the
+book pro git on 20101116.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-11T18:46:52+09:00</created-at>
+      <id type="integer">37340</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>7346vagn</token>
+      <updated-at type="datetime">2010-11-17T09:46:28+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>**settings in JSON**
+
+In the old project, settings are saved in database in raw json strings, DataMapper parses it with JSON.
+ActiveRails uses yml to serialize objects in&amp;out database. Enabling by serialize :field.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;strong&gt;settings in JSON&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the old project, settings are saved in database in raw json
+strings, DataMapper parses it with JSON.&lt;br&gt;
+ActiveRails uses yml to serialize objects in&amp;amp;out database.
+Enabling by serialize :field.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-12T17:44:14+09:00</created-at>
+      <id type="integer">37413</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>j4788ndy</token>
+      <updated-at type="datetime">2010-11-12T17:44:41+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>#Task: Integrate s3 resource migrating feature into qor &lt;----Done&lt;br/&gt;
+&lt;br/&gt;
+**Features:**
+
+* update paperclip image resource for model object with existing column value(a relative path of an image).
+
+&lt;br/&gt;
+**S3 bucket issue:**&lt;br/&gt;
+As stated in this official doc:
+http://docs.amazonwebservices.com/AmazonS3/latest/index.html?VirtualHosting.html
+An EU bucket responds a 301 status code when it's requested with this host name: 
+    s3.amazonaws.com 
+and the correct host name for an EU bucket is:
+    s3-eu-west-1.amazonaws.com
+But, the gem, aws-s3, used by paperclip, requests any bucket with a fixed host: s3.amazonaws.com.
+**Solution:**&lt;br/&gt;
+In config/environment.rb, this line solves the trouble:
+AWS::S3::DEFAULT_HOST.replace &quot;s3-eu-west-1.amazonaws.com&quot;
+
+
+&lt;br/&gt;
+**Notes:**&lt;br/&gt;
+It took about a day(6h) to update images for all knowledge objects(total:807).</body>
+      <body-html>&lt;div&gt;&lt;h1&gt;Task: Integrate s3 resource migrating feature into qor
+&amp;lt;----Done&lt;br&gt;&lt;/h1&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;update paperclip image resource for model object with existing
+column value(a relative path of an image).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;S3 bucket issue:&lt;/strong&gt;&lt;br&gt;
+As stated in this official doc:&lt;br&gt;
+&lt;a href=
+&quot;http://docs.amazonwebservices.com/AmazonS3/latest/index.html?VirtualHosting.html&quot;&gt;
+http://docs.amazonwebservices.com/AmazonS3/latest/index.html?Virtua...&lt;/a&gt;&lt;br&gt;
+An EU bucket responds a 301 status code when it's requested with
+this host name:&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;s3.amazonaws.com&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;and the correct host name for an EU bucket is:&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;s3-eu-west-1.amazonaws.com&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;But, the gem, aws-s3, used by paperclip, requests any bucket
+with a fixed host: s3.amazonaws.com.&lt;br&gt;
+&lt;strong&gt;Solution:&lt;/strong&gt;&lt;br&gt;
+In config/environment.rb, this line solves the trouble:&lt;br&gt;
+AWS::S3::DEFAULT_HOST.replace &quot;s3-eu-west-1.amazonaws.com&quot;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;br&gt;
+It took about a day(6h) to update images for all knowledge
+objects(total:807).&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-15T17:33:38+09:00</created-at>
+      <id type="integer">37529</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>pxpm2sbh</token>
+      <updated-at type="datetime">2010-11-23T14:48:00+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>**On Project: Rebuild of Asics on Qor**&lt;br/&gt;
+To apply the same frontend and a qor integration, we need a progress.
+(Always we need a framework and a list, when we have a framework, we could construct workloads basing on the list, then we can get our hands wet to tackle them one by one by someone or simultaneously by different staff.)
+&lt;br/&gt;The **framework**(besides rails hierarchy) could be:
+
+* Application settings.
+* Resource configurations.(S3...)
+* Common error handling. including 404 pages handling...
+* Session management including multination access, user sessions...
+* Qor integration.
+* Layouts.
+* ...
+
+and the **list** could be **one of**(the most efficient arrangement):
+
+* a list of asics functions
+* a list of asics routes
+* Decided: the list of old asics views.&lt;br/&gt;
+Reason: the focuses of the project are: 
+to integrate qor, 
+to clone/modify all the old views adapting them to activerecord based models.
+so the workloads map exactly to the views including the old ones and that qor brings in.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;strong&gt;On Project: Rebuild of Asics on Qor&lt;/strong&gt;&lt;br&gt;
+To apply the same frontend and a qor integration, we need a
+progress.&lt;br&gt;
+(Always we need a framework and a list, when we have a framework,
+we could construct workloads basing on the list, then we can get
+our hands wet to tackle them one by one by someone or
+simultaneously by different staff.)&lt;br&gt;
+The &lt;strong&gt;framework&lt;/strong&gt;(besides rails hierarchy) could
+be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Application settings.&lt;/li&gt;
+&lt;li&gt;Resource configurations.(S3...)&lt;/li&gt;
+&lt;li&gt;Common error handling. including 404 pages handling...&lt;/li&gt;
+&lt;li&gt;Session management including multination access, user
+sessions...&lt;/li&gt;
+&lt;li&gt;Qor integration.&lt;/li&gt;
+&lt;li&gt;Layouts.&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and the &lt;strong&gt;list&lt;/strong&gt; could be &lt;strong&gt;one
+of&lt;/strong&gt;(the most efficient arrangement):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a list of asics functions&lt;/li&gt;
+&lt;li&gt;a list of asics routes&lt;/li&gt;
+&lt;li&gt;Decided: the list of old asics views.&lt;br&gt;
+Reason: the focuses of the project are:&lt;br&gt;
+to integrate qor,&lt;br&gt;
+to clone/modify all the old views adapting them to activerecord
+based models.&lt;br&gt;
+so the workloads map exactly to the views including the old ones
+and that qor brings in.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-23T15:04:24+09:00</created-at>
+      <id type="integer">38007</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>8fwn3ms5</token>
+      <updated-at type="datetime">2010-11-29T11:06:59+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Take control on:
+Every single view.
+Every single line.
+
+#Task:#
+Move control of:
+TopMenu Items
+Navigation Items
+to Qor models.
+
+Configed resource_engine.rb to present the 2 item into the drop down menu.
+Investigated a lot into Qor's resource_engine and localization feature as the 2 items need to be localized.
+
+My question is how to let the system write default language_id(the current) to the newly created records? I think it has something to do with localization, I'm investigating it...(YES!)
+Now I have a Qor::Dolilo::Forbidden, do I need some configuration in the rulefile.rb?
+grant added into rulefile.rb, and it starts to work.
+
+I think now totally understand some ideas of Qor.
+e.g. the a little bit weird hierarchical implementation of configurations.
+the theme/template thing for the CMS frontend.
+...
+it's taken some time, but my knowledge about ruby, rails, even vim has been extended quite a bit. feels good.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Take control on:&lt;br&gt;
+Every single view.&lt;br&gt;
+Every single line.&lt;/p&gt;
+&lt;h1&gt;Task:&lt;/h1&gt;
+&lt;p&gt;Move control of:&lt;br&gt;
+TopMenu Items&lt;br&gt;
+Navigation Items&lt;br&gt;
+to Qor models.&lt;/p&gt;
+&lt;p&gt;Configed resource_engine.rb to present the 2 item into the drop
+down menu.&lt;br&gt;
+Investigated a lot into Qor's resource_engine and localization
+feature as the 2 items need to be localized.&lt;/p&gt;
+&lt;p&gt;My question is how to let the system write default
+language_id(the current) to the newly created records? I think it
+has something to do with localization, I'm investigating
+it...(YES!)&lt;br&gt;
+Now I have a Qor::Dolilo::Forbidden, do I need some configuration
+in the rulefile.rb?&lt;br&gt;
+grant added into rulefile.rb, and it starts to work.&lt;/p&gt;
+&lt;p&gt;I think now totally understand some ideas of Qor.&lt;br&gt;
+e.g. the a little bit weird hierarchical implementation of
+configurations.&lt;br&gt;
+the theme/template thing for the CMS frontend.&lt;br&gt;
+... it's taken some time, but my knowledge about ruby, rails, even
+vim has been extended quite a bit. feels good.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-11-26T11:41:58+09:00</created-at>
+      <id type="integer">38167</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>4qmdq7e4</token>
+      <updated-at type="datetime">2010-12-02T17:56:57+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+    <comment type="Message">
+      <all-attachments-count type="integer">0</all-attachments-count>
+      <attachments-count type="integer">0</attachments-count>
+      <body>In yesterday's qor meeting, we had sorta of a code review, some opinions from others are:
+
+* verbose local variable names
+* do end instead of {}
+* no personal signature in comments
+
+&lt;br/&gt;
+My philosophy is: as little as possible - ALAP, which means:
+
+* as few local variable as possible
+* local variable name as short as possible (global var names as detail as possible, you have to.)
+* keystrokes as few as possible
+* find the person who's responsible for the piece of code as fast as possible
+* use arrays instead of hashes - indices are perfect for unique keys
+* use |x| for any enumerable - so you won't think of what's the object this time? it's always x,y,z,b,d,e,...(a for array objects, c for counter, h for hash, k for key, v for value)
+* ...
+
+and some others:
+
+* data processing procedural as clear as possible - indicate steps with indents
+* ...</body>
+      <body-html>&lt;div&gt;&lt;p&gt;In yesterday's qor meeting, we had sorta of a code review, some
+opinions from others are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;verbose local variable names&lt;/li&gt;
+&lt;li&gt;do end instead of {}&lt;/li&gt;
+&lt;li&gt;no personal signature in comments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;My philosophy is: as little as possible - ALAP, which means:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;as few local variable as possible&lt;/li&gt;
+&lt;li&gt;local variable name as short as possible (global var names as
+detail as possible, you have to.)&lt;/li&gt;
+&lt;li&gt;keystrokes as few as possible&lt;/li&gt;
+&lt;li&gt;find the person who's responsible for the piece of code as fast
+as possible&lt;/li&gt;
+&lt;li&gt;use arrays instead of hashes - indices are perfect for unique
+keys&lt;/li&gt;
+&lt;li&gt;use |x| for any enumerable - so you won't think of what's the
+object this time? it's always x,y,z,b,d,e,...(a for array objects,
+c for counter, h for hash, k for key, v for value)&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and some others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;data processing procedural as clear as possible - indicate
+steps with indents&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <comments-count type="integer">0</comments-count>
+      <created-at type="datetime">2010-12-08T12:21:10+09:00</created-at>
+      <id type="integer">38672</id>
+      <parent-id type="integer">37180</parent-id>
+      <permalink>seizens-black-box</permalink>
+      <project-id type="integer">55575</project-id>
+      <title>Seizen's black box</title>
+      <token>6z64nnq7</token>
+      <updated-at type="datetime">2010-12-08T12:30:05+09:00</updated-at>
+      <user-id type="integer">123136</user-id>
+      <user-name>seizen</user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/messages/37180</url>
+    </comment>
+  </comments>
+</message>

@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changesets type="array">
+  <total_pages>18</total_pages>
+  <current_page>1</current_page>
+  <changeset>
+    <body>Merge pull request #45 from zyan/events_map
+
+Events map
+https://github.com/theplant/asics2/commit/5a2dfc3dcc34237629a3debc256d8a8f2fe7c748</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Merge pull request &lt;a href=&quot;/projects/55575/tickets/45&quot; title=
+&quot;Ticket #45&quot;&gt;#45&lt;/a&gt; from zyan/events_map&lt;/p&gt;
+&lt;p&gt;Events map&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/5a2dfc3dcc34237629a3debc256d8a8f2fe7c748&quot;&gt;
+https://github.com/theplant/asics2/commit/5a2dfc3dcc34237629a3debc2...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-07T14:57:37+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - app/views/events/race_map.html.slim
+- - A
+  - public/images/google_map_images/event_maps/end.png
+- - A
+  - public/images/google_map_images/event_maps/map_tiles/UnitedKingdom_left.png
+- - A
+  - public/images/google_map_images/event_maps/map_tiles/UnitedKingdom_right.png
+- - A
+  - public/images/google_map_images/event_maps/map_tiles/black.png
+- - A
+  - public/images/google_map_images/event_maps/shadow.png
+- - A
+  - public/images/google_map_images/event_maps/start.png
+- - A
+  - public/images/google_map_images/icon_store_locator_center.png
+- - A
+  - public/images/google_map_images/icon_store_locator_normal.png
+- - A
+  - public/images/google_map_images/icon_store_locator_specialist.png
+- - A
+  - public/javascripts/events/event_locator.js
+- - A
+  - public/javascripts/events/event_overview_map.js
+- - A
+  - public/javascripts/events/event_race_map.js
+- - A
+  - public/javascripts/events/index.js
+- - A
+  - public/javascripts/google_map_status.js
+- - M
+  - Gemfile
+- - M
+  - Gemfile.lock
+- - M
+  - app/controllers/events_controller.rb
+- - M
+  - app/helpers/application_helper.rb
+- - M
+  - app/helpers/events_helper.rb
+- - M
+  - app/helpers/store_locator_helper.rb
+- - M
+  - app/models/ambassador.rb
+- - M
+  - app/models/event.rb
+- - M
+  - app/models/event_distance.rb
+- - M
+  - app/models/event_path.rb
+- - M
+  - app/views/ambassadors/index.html.slim
+- - M
+  - app/views/ambassadors/show.html.slim
+- - M
+  - app/views/events/_event.html.slim
+- - M
+  - app/views/events/_event_header.html.slim
+- - M
+  - app/views/events/_map.html.slim
+- - M
+  - app/views/events/_schedule_and_contact_info.html.slim
+- - M
+  - app/views/events/_season.html.slim
+- - M
+  - app/views/events/_season_column.html.slim
+- - M
+  - app/views/events/_season_row.html.slim
+- - M
+  - app/views/events/index.html.slim
+- - M
+  - app/views/events/show.html.slim
+- - M
+  - app/views/events/world_races.html.slim
+- - M
+  - app/views/layouts/subwindow.html.erb
+- - M
+  - app/views/store_locator/index.html.slim
+- - M
+  - config/locales/en-uk.yml
+- - M
+  - config/resources_engine.rb
+- - M
+  - config/routes.rb
+- - M
+  - db/migrate/20110308083137_create_event_paths.rb
+- - M
+  - db/schema.rb
+- - M
+  - lib/tasks/old_models.rake
+- - M
+  - lib/tasks/old_models.rb
+- - M
+  - public/javascripts/asics_store_locator.js
+- - M
+  - public/javascripts/old/store_locator.js
+- - M
+  - public/javascripts/store_locator.js
+- - M
+  - test/fixtures/event_distances.sql
+- - M
+  - test/fixtures/event_paths.sql
+- - M
+  - test/fixtures/events.sql
+- - M
+  - test/fixtures/news_items.sql
+- - M
+  - test/functional/events_controller_test.rb
+- - M
+  - test/functional/routes_test.rb
+- - M
+  - test/unit/event_distance_test.rb
+- - M
+  - test/unit/event_path_test.rb
+- - M
+  - test/unit/event_test.rb
+- - M
+  - test/unit/featured_set_test.rb
+</changes>
+    <committer>Felix Sun</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>5a2dfc3dcc34237629a3debc256d8a8f2fe7c748</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [5a2dfc3dcc34237629a3debc256d8a8f2fe7c748] by Felix Sun</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix test
+https://github.com/theplant/asics2/commit/117d4e1b2109f8bbdcee37fcc5e9d86f77d9fadc</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix test&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/117d4e1b2109f8bbdcee37fcc5e9d86f77d9fadc&quot;&gt;
+https://github.com/theplant/asics2/commit/117d4e1b2109f8bbdcee37fcc...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-02T19:29:59+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - Gemfile.lock
+- - M
+  - test/functional/events_controller_test.rb
+- - M
+  - test/unit/featured_set_test.rb
+</changes>
+    <committer>Charles Shen</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>117d4e1b2109f8bbdcee37fcc5e9d86f77d9fadc</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [117d4e1b2109f8bbdcee37fcc5e9d86f77d9fadc] by Charles Shen</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>update events fixtures
+https://github.com/theplant/asics2/commit/ab568f22827ee45cf413efbd5cb4e7ab75d6ecdf</body>
+    <body-html>&lt;div&gt;&lt;p&gt;update events fixtures&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/ab568f22827ee45cf413efbd5cb4e7ab75d6ecdf&quot;&gt;
+https://github.com/theplant/asics2/commit/ab568f22827ee45cf413efbd5...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-02T18:10:46+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - lib/tasks/old_models.rake
+- - M
+  - lib/tasks/old_models.rb
+- - M
+  - test/fixtures/event_distances.sql
+- - M
+  - test/fixtures/event_paths.sql
+- - M
+  - test/fixtures/events.sql
+</changes>
+    <committer>Charles Shen</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>ab568f22827ee45cf413efbd5cb4e7ab75d6ecdf</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [ab568f22827ee45cf413efbd5cb4e7ab75d6ecdf] by Charles Shen</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix test
+https://github.com/theplant/asics2/commit/04bd54e79bf71e168ddbc6c905ec02dda57cc03f</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix test&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/04bd54e79bf71e168ddbc6c905ec02dda57cc03f&quot;&gt;
+https://github.com/theplant/asics2/commit/04bd54e79bf71e168ddbc6c90...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-02T11:33:47+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - Gemfile
+- - M
+  - Gemfile.lock
+- - M
+  - config/locales/en-uk.yml
+- - M
+  - test/functional/users_controller_test.rb
+</changes>
+    <committer>Charles Shen</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>04bd54e79bf71e168ddbc6c905ec02dda57cc03f</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [04bd54e79bf71e168ddbc6c905ec02dda57cc03f] by Charles Shen</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>merge with theplant
+https://github.com/theplant/asics2/commit/99215eafcddcba6bd390e91b5e38956276226141</body>
+    <body-html>&lt;div&gt;&lt;p&gt;merge with theplant&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/99215eafcddcba6bd390e91b5e38956276226141&quot;&gt;
+https://github.com/theplant/asics2/commit/99215eafcddcba6bd390e91b5...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-02T11:15:29+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - CHANGELOG.markdown
+- - A
+  - app/models/widget_setting/home_slideshow.rb
+- - A
+  - app/models/widget_setting/slideshow_viewer.rb
+- - A
+  - app/views/categories/_ambassadors.html.slim
+- - A
+  - app/views/categories/show/cricket.html.slim
+- - A
+  - app/views/categories/show/netball.html.slim
+- - A
+  - app/views/categories/show/rugby.html.slim
+- - A
+  - app/views/products/show/_rotation_viewer.html.erb
+- - A
+  - app/views/products/show/cricket.html.slim
+- - A
+  - app/views/qor_widgets/embedded_code/default/embed.html
+- - A
+  - app/views/qor_widgets/home_slideshow/default/aq-slide.js
+- - A
+  - app/views/qor_widgets/home_slideshow/default/embed.html
+- - A
+  - app/views/qor_widgets/slideshow_viewer/default/embed.html
+- - A
+  - app/views/qor_widgets/slideshow_viewer/default/items.xml.erb
+- - A
+  - app/views/qor_widgets/slideshow_viewer/default/params.xml.erb
+- - A
+  - app/views/qor_widgets/store_locator_form/default/embed.html
+- - A
+  - db/migrate/20110509104352_add_video_columns_to_widget_settings.rb
+- - A
+  - db/migrate/20110512025939_add_tmp_video_path_to_widget_settings.rb
+- - A
+  - public/360viewer/main.swf
+- - A
+  - public/360viewer/mouse/move.png
+- - A
+  - public/360viewer/mouse/zoom.png
+- - A
+  - public/ssp/AC_RunActiveContent.js
+- - A
+  - public/ssp/GA_SSP/libraries/Main.as
+- - A
+  - public/ssp/GA_SSP/libraries/net/slideshowpro/sspstandalone/SSPLoader.as
+- - A
+  - public/ssp/GA_SSP/libraries/net/slideshowpro/sspstandalone/SSPLoaderEvent.as
+- - A
+  - public/ssp/GA_SSP/libraries/net/slideshowpro/sspstandalone/XMLParser.as
+- - A
+  - public/ssp/GA_SSP/slideshowpro.fla
+- - A
+  - public/ssp/slideshowpro.swf
+- - A
+  - public/ssp/ssp_viewer.swf
+- - A
+  - public/ssp/ssp_viewer550x345.fla
+- - A
+  - public/ssp/ssp_viewer550x345.swf
+- - A
+  - public/ssp/ssp_viewer606x404.swf
+- - A
+  - test/integration/category_pages_test.rb
+- - A
+  - test/integration/product_pages_test.rb
+- - A
+  - test/integration/widgets_test.rb
+- - R
+  - app/models/widget_setting/slide_show.rb
+- - R
+  - app/views/events/_photos_and_videos.html.slim
+- - R
+  - app/views/qor_widgets/home/default/embed.html
+- - R
+  - app/views/qor_widgets/slide_show/default/aq-slide.js
+- - R
+  - app/views/qor_widgets/slide_show/default/embed.html
+- - R
+  - app/views/resources/publish/index.html.erb
+- - R
+  - test/factories/product.rb
+- - M
+  - .gitignore
+- - M
+  - Gemfile
+- - M
+  - Gemfile.lock
+- - M
+  - app/controllers/application_controller.rb
+- - M
+  - app/controllers/categories_controller.rb
+- - M
+  - app/controllers/knowledges_controller.rb
+- - M
+  - app/controllers/products_controller.rb
+- - M
+  - app/controllers/store_locator_controller.rb
+- - M
+  - app/helpers/application_helper.rb
+- - M
+  - app/helpers/categories_helper.rb
+- - M
+  - app/helpers/events_helper.rb
+- - M
+  - app/helpers/product_kinds_helper.rb
+- - M
+  - app/helpers/products_helper.rb
+- - M
+  - app/helpers/store_locator_helper.rb
+- - M
+  - app/models/category.rb
+- - M
+  - app/models/knowledge.rb
+- - M
+  - app/models/knowledge_stage.rb
+- - M
+  - app/models/product.rb
+- - M
+  - app/models/product_filter.rb
+- - M
+  - app/models/store.rb
+- - M
+  - app/models/widget_setting.rb
+- - M
+  - app/views/categories/_community_and_events.html.slim
+- - M
+  - app/views/categories/_featured_knowledges.html.slim
+- - M
+  - app/views/categories/_news_items.html.slim
+- - M
+  - app/views/categories/_products.html.slim
+- - M
+  - app/views/categories/show/hockey.html.slim
+- - M
+  - app/views/events/_event.html.slim
+- - M
+  - app/views/events/_season.html.slim
+- - M
+  - app/views/events/_teba.html.slim
+- - M
+  - app/views/home/index.html.slim
+- - M
+  - app/views/knowledge_stages/_other_stages.html.slim
+- - M
+  - app/views/knowledge_stages/show.html.slim
+- - M
+  - app/views/knowledges/_more_knowledges.html.slim
+- - M
+  - app/views/knowledges/index.html.slim
+- - M
+  - app/views/knowledges/show.html.slim
+- - M
+  - app/views/layouts/_navigation_bar.html.erb
+- - M
+  - app/views/layouts/share/_language_selector.html.erb
+- - M
+  - app/views/products/show/_related_product.html.slim
+- - M
+  - app/views/products/show/hockey.html.slim
+- - M
+  - app/views/qor_widgets/store_locator/default/embed.html
+- - M
+  - app/views/sessions/_session_header.html.erb
+- - M
+  - app/views/users/_password_strength.html.slim
+- - M
+  - config/deploy.rb
+- - M
+  - config/locales/en-uk.yml
+- - M
+  - config/resources_engine.rb
+- - M
+  - config/routes.rb
+- - M
+  - config/widget.rb
+- - M
+  - db/schema.rb
+- - M
+  - lib/tasks/ci.rake
+- - M
+  - lib/tasks/db.rake
+- - M
+  - lib/tasks/old_models.rake
+- - M
+  - lib/tasks/old_models.rb
+- - M
+  - lib/tasks/old_modules.rb
+- - M
+  - public/500.html
+- - M
+  - test/fixtures.rb
+- - M
+  - test/fixtures/qor_widget_template_bundles.sql
+- - M
+  - test/fixtures/qor_widget_view_settings.sql
+- - M
+  - test/fixtures/widget_settings.sql
+- - M
+  - test/functional/categories_controller_test.rb
+- - M
+  - test/test_helper.rb
+- - M
+  - test/unit/helpers/events_helper_test.rb
+</changes>
+    <committer>Charles Shen</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>99215eafcddcba6bd390e91b5e38956276226141</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [99215eafcddcba6bd390e91b5e38956276226141] by Charles Shen</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>test EventDistance and EventPath; use path's zoom value when the map is shown
+https://github.com/theplant/asics2/commit/491e1551a1de863daa5d3a2358fe5080b02800b3</body>
+    <body-html>&lt;div&gt;&lt;p&gt;test EventDistance and EventPath; use path's zoom value when the
+map is shown&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/491e1551a1de863daa5d3a2358fe5080b02800b3&quot;&gt;
+https://github.com/theplant/asics2/commit/491e1551a1de863daa5d3a235...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-01T19:21:04+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - Gemfile
+- - M
+  - app/models/event.rb
+- - M
+  - app/models/event_distance.rb
+- - M
+  - app/models/event_path.rb
+- - M
+  - app/views/events/show.html.slim
+- - M
+  - config/application.rb
+- - M
+  - config/locales/en-uk.yml
+- - M
+  - config/resources_engine.rb
+- - M
+  - public/javascripts/events/event_locator.js
+- - M
+  - public/javascripts/events/event_overview_map.js
+- - M
+  - public/javascripts/events/event_race_map.js
+- - M
+  - test/functional/users_controller_test.rb
+- - M
+  - test/unit/event_distance_test.rb
+- - M
+  - test/unit/event_test.rb
+</changes>
+    <committer>Charles Shen</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>491e1551a1de863daa5d3a2358fe5080b02800b3</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [491e1551a1de863daa5d3a2358fe5080b02800b3] by Charles Shen</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>remove useless files
+https://github.com/theplant/asics2/commit/6f7cae3a9b7e2842613c530cf6f285e0bf1c471d</body>
+    <body-html>&lt;div&gt;&lt;p&gt;remove useless files&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/6f7cae3a9b7e2842613c530cf6f285e0bf1c471d&quot;&gt;
+https://github.com/theplant/asics2/commit/6f7cae3a9b7e2842613c530cf...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-01T17:55:27+09:00</changed-at>
+    <changes type="yaml">--- 
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_0.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_102.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_105.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_108.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_111.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_114.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_117.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_12.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_120.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_123.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_126.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_129.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_132.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_135.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_138.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_141.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_144.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_147.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_15.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_150.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_153.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_156.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_159.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_162.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_165.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_168.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_171.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_174.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_177.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_18.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_180.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_183.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_186.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_189.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_192.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_195.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_198.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_201.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_204.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_207.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_21.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_210.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_213.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_216.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_219.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_222.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_225.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_228.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_231.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_234.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_237.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_24.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_240.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_243.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_246.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_249.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_252.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_255.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_258.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_261.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_264.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_267.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_27.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_270.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_273.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_276.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_279.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_282.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_285.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_288.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_291.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_294.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_297.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_3.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_30.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_300.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_303.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_306.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_309.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_312.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_315.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_318.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_321.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_324.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_327.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_33.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_330.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_333.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_336.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_339.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_342.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_345.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_348.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_351.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_354.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_357.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_36.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_39.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_42.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_45.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_48.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_51.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_54.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_57.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_6.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_60.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_63.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_66.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_69.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_72.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_75.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_78.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_81.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_84.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_87.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_9.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_90.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_93.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_96.png
+- - R
+  - public/images/google_map_images/event_maps/arrows/dir_99.png
+</changes>
+    <committer>Charles Shen</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>6f7cae3a9b7e2842613c530cf6f285e0bf1c471d</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [6f7cae3a9b7e2842613c530cf6f285e0bf1c471d] by Charles Shen</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix NewsItem type error
+https://github.com/theplant/asics2/commit/948728b293cb1c39dff5e66b6507eb3e50be9fef</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix NewsItem type error&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/948728b293cb1c39dff5e66b6507eb3e50be9fef&quot;&gt;
+https://github.com/theplant/asics2/commit/948728b293cb1c39dff5e66b6...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-06-01T17:49:42+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/views/events/index.html.slim
+- - M
+  - lib/tasks/old_models.rb
+- - M
+  - public/javascripts/events/event_overview_map.js
+- - M
+  - public/javascripts/events/event_race_map.js
+- - M
+  - test/fixtures/news_items.sql
+</changes>
+    <committer>Charles Shen</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>948728b293cb1c39dff5e66b6507eb3e50be9fef</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [948728b293cb1c39dff5e66b6507eb3e50be9fef] by Charles Shen</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>enable identity map
+https://github.com/theplant/asics2/commit/331cace57e3a188d7ace1ca17e83b0239ab00055</body>
+    <body-html>&lt;div&gt;&lt;p&gt;enable identity map&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/331cace57e3a188d7ace1ca17e83b0239ab00055&quot;&gt;
+https://github.com/theplant/asics2/commit/331cace57e3a188d7ace1ca17...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-27T12:05:58+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - config/application.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>331cace57e3a188d7ace1ca17e83b0239ab00055</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [331cace57e3a188d7ace1ca17e83b0239ab00055] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>general product show page and more product pages integration test
+https://github.com/theplant/asics2/commit/7f4e3296df0d28c82299efa36105898231cdce67</body>
+    <body-html>&lt;div&gt;&lt;p&gt;general product show page and more product pages integration
+test&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/7f4e3296df0d28c82299efa36105898231cdce67&quot;&gt;
+https://github.com/theplant/asics2/commit/7f4e3296df0d28c82299efa36...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T19:27:44+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/controllers/products_controller.rb
+- - M
+  - app/helpers/products_helper.rb
+- - M
+  - app/models/product.rb
+- - M
+  - app/views/products/show/_related_product.html.slim
+- - M
+  - test/fixtures.rb
+- - M
+  - test/integration/product_pages_test.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>7f4e3296df0d28c82299efa36105898231cdce67</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [7f4e3296df0d28c82299efa36105898231cdce67] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>product pages integration test
+https://github.com/theplant/asics2/commit/7cd9b2e26c68686fc4f99a0e5d06ece2da3223ac</body>
+    <body-html>&lt;div&gt;&lt;p&gt;product pages integration test&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/7cd9b2e26c68686fc4f99a0e5d06ece2da3223ac&quot;&gt;
+https://github.com/theplant/asics2/commit/7cd9b2e26c68686fc4f99a0e5...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T18:53:01+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - test/integration/product_pages_test.rb
+- - M
+  - test/fixtures.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>7cd9b2e26c68686fc4f99a0e5d06ece2da3223ac</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [7cd9b2e26c68686fc4f99a0e5d06ece2da3223ac] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>redirect strategy for category top pages
+https://github.com/theplant/asics2/commit/c811d608f0acc0636f4c789e22efcef7978062c9</body>
+    <body-html>&lt;div&gt;&lt;p&gt;redirect strategy for category top pages&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/c811d608f0acc0636f4c789e22efcef7978062c9&quot;&gt;
+https://github.com/theplant/asics2/commit/c811d608f0acc0636f4c789e2...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T18:38:05+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - test/integration/category_pages_test.rb
+- - M
+  - .gitignore
+- - M
+  - app/controllers/categories_controller.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>c811d608f0acc0636f4c789e22efcef7978062c9</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [c811d608f0acc0636f4c789e22efcef7978062c9] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>cricket product show page
+https://github.com/theplant/asics2/commit/2a756d5bc90b54c10022c8f60a747284f9b6f34c</body>
+    <body-html>&lt;div&gt;&lt;p&gt;cricket product show page&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/2a756d5bc90b54c10022c8f60a747284f9b6f34c&quot;&gt;
+https://github.com/theplant/asics2/commit/2a756d5bc90b54c10022c8f60...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T18:17:58+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - app/views/products/show/cricket.html.slim
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>2a756d5bc90b54c10022c8f60a747284f9b6f34c</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [2a756d5bc90b54c10022c8f60a747284f9b6f34c] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>kind can be ProductKind or String
+https://github.com/theplant/asics2/commit/9819012df7899cd131f9412e88f535e1f9dbb020</body>
+    <body-html>&lt;div&gt;&lt;p&gt;kind can be ProductKind or String&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/9819012df7899cd131f9412e88f535e1f9dbb020&quot;&gt;
+https://github.com/theplant/asics2/commit/9819012df7899cd131f9412e8...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T17:54:20+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/controllers/application_controller.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>9819012df7899cd131f9412e88f535e1f9dbb020</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [9819012df7899cd131f9412e88f535e1f9dbb020] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>use stringfy_keys
+https://github.com/theplant/asics2/commit/714c817645d6a35f2ab65f729cca89f8f7a9fdd8</body>
+    <body-html>&lt;div&gt;&lt;p&gt;use stringfy_keys&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/714c817645d6a35f2ab65f729cca89f8f7a9fdd8&quot;&gt;
+https://github.com/theplant/asics2/commit/714c817645d6a35f2ab65f729...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T17:29:48+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/models/product_filter.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>714c817645d6a35f2ab65f729cca89f8f7a9fdd8</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [714c817645d6a35f2ab65f729cca89f8f7a9fdd8] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix kind param in products_for
+https://github.com/theplant/asics2/commit/3f4a68fc53fa0892dea910e90ca16272eb028161</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix kind param in products_for&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/3f4a68fc53fa0892dea910e90ca16272eb028161&quot;&gt;
+https://github.com/theplant/asics2/commit/3f4a68fc53fa0892dea910e90...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T17:23:07+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/controllers/application_controller.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>3f4a68fc53fa0892dea910e90ca16272eb028161</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [3f4a68fc53fa0892dea910e90ca16272eb028161] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix products_for
+https://github.com/theplant/asics2/commit/1a707a84f5ca29ddaa83cd777040d1201508c5d7</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix products_for&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/1a707a84f5ca29ddaa83cd777040d1201508c5d7&quot;&gt;
+https://github.com/theplant/asics2/commit/1a707a84f5ca29ddaa83cd777...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T16:51:37+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/controllers/application_controller.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>1a707a84f5ca29ddaa83cd777040d1201508c5d7</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [1a707a84f5ca29ddaa83cd777040d1201508c5d7] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>Merge remote-tracking branch 'zyan/strip_html'
+https://github.com/theplant/asics2/commit/b5bac776320ed7456f09789a20e1a6759ae3060b</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Merge remote-tracking branch 'zyan/strip_html'&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/b5bac776320ed7456f09789a20e1a6759ae3060b&quot;&gt;
+https://github.com/theplant/asics2/commit/b5bac776320ed7456f09789a2...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T14:28:39+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - config/resources_engine.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>b5bac776320ed7456f09789a20e1a6759ae3060b</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [b5bac776320ed7456f09789a20e1a6759ae3060b] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>Merge remote-tracking branch 'zyan/360viewer'
+https://github.com/theplant/asics2/commit/e2b10d8110d68c610764acd8aaee04ec0ba52625</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Merge remote-tracking branch 'zyan/360viewer'&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/e2b10d8110d68c610764acd8aaee04ec0ba52625&quot;&gt;
+https://github.com/theplant/asics2/commit/e2b10d8110d68c610764acd8a...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-26T13:12:10+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - app/views/products/show/_rotation_viewer.html.erb
+- - A
+  - public/360viewer/main.swf
+- - A
+  - public/360viewer/mouse/move.png
+- - A
+  - public/360viewer/mouse/zoom.png
+- - M
+  - app/controllers/products_controller.rb
+- - M
+  - app/helpers/products_helper.rb
+- - M
+  - app/views/products/show/hockey.html.slim
+- - M
+  - config/locales/en-uk.yml
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>e2b10d8110d68c610764acd8aaee04ec0ba52625</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [e2b10d8110d68c610764acd8aaee04ec0ba52625] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>optimize navigation bar
+https://github.com/theplant/asics2/commit/0d45080cc7fea75a676677d827d9685a49dc6dc4</body>
+    <body-html>&lt;div&gt;&lt;p&gt;optimize navigation bar&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/0d45080cc7fea75a676677d827d9685a49dc6dc4&quot;&gt;
+https://github.com/theplant/asics2/commit/0d45080cc7fea75a676677d82...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-24T18:41:28+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/helpers/application_helper.rb
+- - M
+  - app/helpers/store_locator_helper.rb
+- - M
+  - app/models/store.rb
+- - M
+  - app/views/layouts/_navigation_bar.html.erb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>0d45080cc7fea75a676677d827d9685a49dc6dc4</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [0d45080cc7fea75a676677d827d9685a49dc6dc4] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>optimize store locator query
+https://github.com/theplant/asics2/commit/98fb7ca404ef3ef88f0f2c85b2dd1612e6ec2211</body>
+    <body-html>&lt;div&gt;&lt;p&gt;optimize store locator query&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/98fb7ca404ef3ef88f0f2c85b2dd1612e6ec2211&quot;&gt;
+https://github.com/theplant/asics2/commit/98fb7ca404ef3ef88f0f2c85b...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-24T17:58:06+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - app/controllers/store_locator_controller.rb
+- - M
+  - app/models/category.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>98fb7ca404ef3ef88f0f2c85b2dd1612e6ec2211</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [98fb7ca404ef3ef88f0f2c85b2dd1612e6ec2211] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix deploy script
+https://github.com/theplant/asics2/commit/96063de73e80e1bda8db3bd581ba5db2517cb360</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix deploy script&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/96063de73e80e1bda8db3bd581ba5db2517cb360&quot;&gt;
+https://github.com/theplant/asics2/commit/96063de73e80e1bda8db3bd58...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-23T18:43:57+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - Gemfile.lock
+- - M
+  - config/deploy.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>96063de73e80e1bda8db3bd581ba5db2517cb360</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [96063de73e80e1bda8db3bd581ba5db2517cb360] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>Admin &gt; Knowledges &gt; Add Category column to list overview (#77)
+https://github.com/theplant/asics2/commit/e22040e322bf6ead617d10bb43744e7acd58c7ec</body>
+    <body-html>&lt;div&gt;&lt;p&gt;Admin &amp;gt; Knowledges &amp;gt; Add Category column to list overview
+(#77)&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/e22040e322bf6ead617d10bb43744e7acd58c7ec&quot;&gt;
+https://github.com/theplant/asics2/commit/e22040e322bf6ead617d10bb4...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-23T17:45:00+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - Gemfile.lock
+- - M
+  - app/models/knowledge.rb
+- - M
+  - config/resources_engine.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>e22040e322bf6ead617d10bb43744e7acd58c7ec</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [e22040e322bf6ead617d10bb43744e7acd58c7ec] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>beautiful test output with turn
+https://github.com/theplant/asics2/commit/4434a848ef3d07a28cad49d36acdcaf14c7c19db</body>
+    <body-html>&lt;div&gt;&lt;p&gt;beautiful test output with turn&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/4434a848ef3d07a28cad49d36acdcaf14c7c19db&quot;&gt;
+https://github.com/theplant/asics2/commit/4434a848ef3d07a28cad49d36...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-23T12:39:53+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - Gemfile
+- - M
+  - Gemfile.lock
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>4434a848ef3d07a28cad49d36acdcaf14c7c19db</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [4434a848ef3d07a28cad49d36acdcaf14c7c19db] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix ci task
+https://github.com/theplant/asics2/commit/5d59b8eb20dfbcb8ce2c10ddca12c8b7fb7694b7</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix ci task&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/5d59b8eb20dfbcb8ce2c10ddca12c8b7fb7694b7&quot;&gt;
+https://github.com/theplant/asics2/commit/5d59b8eb20dfbcb8ce2c10ddc...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-20T18:45:16+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - lib/tasks/ci.rake
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>5d59b8eb20dfbcb8ce2c10ddca12c8b7fb7694b7</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [5d59b8eb20dfbcb8ce2c10ddca12c8b7fb7694b7] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>disguise 500 as 404
+https://github.com/theplant/asics2/commit/946fafb0500eb27a5be3810f6e5f6ff36d4c3dd7</body>
+    <body-html>&lt;div&gt;&lt;p&gt;disguise 500 as 404&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/946fafb0500eb27a5be3810f6e5f6ff36d4c3dd7&quot;&gt;
+https://github.com/theplant/asics2/commit/946fafb0500eb27a5be3810f6...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-20T15:51:41+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - public/500.html
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>946fafb0500eb27a5be3810f6e5f6ff36d4c3dd7</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [946fafb0500eb27a5be3810f6e5f6ff36d4c3dd7] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>fix deploy script
+https://github.com/theplant/asics2/commit/4b9f7ac311afbfbdc985fe1bdd1feba47c3c2e4d</body>
+    <body-html>&lt;div&gt;&lt;p&gt;fix deploy script&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/4b9f7ac311afbfbdc985fe1bdd1feba47c3c2e4d&quot;&gt;
+https://github.com/theplant/asics2/commit/4b9f7ac311afbfbdc985fe1bd...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-20T15:51:18+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - config/deploy.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>4b9f7ac311afbfbdc985fe1bdd1feba47c3c2e4d</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [4b9f7ac311afbfbdc985fe1bdd1feba47c3c2e4d] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>add changelog
+https://github.com/theplant/asics2/commit/ff0e1c4c1f5ba60f3ebd9563d38a7626ed245cd5</body>
+    <body-html>&lt;div&gt;&lt;p&gt;add changelog&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/ff0e1c4c1f5ba60f3ebd9563d38a7626ed245cd5&quot;&gt;
+https://github.com/theplant/asics2/commit/ff0e1c4c1f5ba60f3ebd9563d...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-20T14:12:04+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - CHANGELOG.markdown
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>ff0e1c4c1f5ba60f3ebd9563d38a7626ed245cd5</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [ff0e1c4c1f5ba60f3ebd9563d38a7626ed245cd5] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>store_locator on cricket and rugby top pages
+https://github.com/theplant/asics2/commit/8153572fcccd7a65bc53ab6e3bb0cfe6f42c9555</body>
+    <body-html>&lt;div&gt;&lt;p&gt;store_locator on cricket and rugby top pages&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/8153572fcccd7a65bc53ab6e3bb0cfe6f42c9555&quot;&gt;
+https://github.com/theplant/asics2/commit/8153572fcccd7a65bc53ab6e3...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-20T13:23:23+09:00</changed-at>
+    <changes type="yaml">--- 
+- - A
+  - app/views/qor_widgets/store_locator_form/default/embed.html
+- - M
+  - app/views/categories/show/cricket.html.slim
+- - M
+  - app/views/categories/show/rugby.html.slim
+- - M
+  - config/locales/en-uk.yml
+- - M
+  - config/widget.rb
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>8153572fcccd7a65bc53ab6e3bb0cfe6f42c9555</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [8153572fcccd7a65bc53ab6e3bb0cfe6f42c9555] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+  <changeset>
+    <body>update widgets fixtures
+https://github.com/theplant/asics2/commit/a08624d0a43028837425ddf8fc2831d9011fce87</body>
+    <body-html>&lt;div&gt;&lt;p&gt;update widgets fixtures&lt;br&gt;
+&lt;a href=
+&quot;https://github.com/theplant/asics2/commit/a08624d0a43028837425ddf8fc2831d9011fce87&quot;&gt;
+https://github.com/theplant/asics2/commit/a08624d0a43028837425ddf8f...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+    <changed-at type="datetime">2011-05-20T12:41:45+09:00</changed-at>
+    <changes type="yaml">--- 
+- - M
+  - test/fixtures/qor_widget_template_bundles.sql
+- - M
+  - test/fixtures/qor_widget_view_settings.sql
+- - M
+  - test/fixtures/widget_settings.sql
+</changes>
+    <committer>Jan Xie</committer>
+    <project-id type="integer">55575</project-id>
+    <revision>a08624d0a43028837425ddf8fc2831d9011fce87</revision>
+    <ticket-id type="integer" nil="true"></ticket-id>
+    <title>Changeset [a08624d0a43028837425ddf8fc2831d9011fce87] by Jan Xie</title>
+    <user-id type="integer">24538</user-id>
+  </changeset>
+</changesets>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">2504</assigned-user-id>
+  <attachments-count type="integer">6</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-02-14T11:14:33+09:00</created-at>
+  <creator-id type="integer">2504</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer">90248</milestone-id>
+  <number type="integer">241</number>
+  <permalink>introducing-qor-resources-engine-search-center</permalink>
+  <priority type="integer">13</priority>
+  <project-id type="integer">30780</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Introducing Qor Resources Engine Search Center</title>
+  <updated-at type="datetime">2011-02-17T13:13:45+09:00</updated-at>
+  <user-id type="integer">2504</user-id>
+  <version type="integer">3</version>
+  <user-name>Felix Sun</user-name>
+  <creator-name>Felix Sun</creator-name>
+  <assigned-user-name>Felix Sun</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/30780/tickets/241</url>
+  <milestone-title>Next Milestone?</milestone-title>
+  <priority-name nil="true"></priority-name>
+  <original-body>Search center is a integration view for multiple resources, I add this feature because of LACOSTE Customer Service admin, Which is also related to:
+
+- https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view
+- Single User View that someday Anatole mentioned.
+
+Here are the listing of current behaviors
+
+### You can search multiple resources the same time ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png &quot;image&quot;)
+
+### Choose one of the row in result, It will show that records related info ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png &quot;image&quot;)
+
+
+### Mount to any url you want, and choose whatever resources related ###
+@@@
+  search_center :at =&gt; &quot;/catalogue&quot;, :resources =&gt; [:product, :color_variation, :color, :size]
+@@@
+
+### If you get only one result, It show related info page directly ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png &quot;image&quot;)
+
+
+Define related info like this:
+
+@@@
+  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end
+
+
+@@@
+
+
+You can edit any record in the result page.</original-body>
+  <latest-body>Search center is a integration view for multiple resources, I add this feature because of LACOSTE Customer Service admin, Which is also related to:
+
+- https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view
+- Single User View that someday Anatole mentioned.
+
+Here are the listing of current behaviors
+
+### You can search multiple resources the same time ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png &quot;image&quot;)
+
+### Choose one of the row in result, It will show that records related info ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png &quot;image&quot;)
+
+
+### Mount to any url you want, and choose whatever resources related ###
+@@@
+  search_center :at =&gt; &quot;/catalogue&quot;, :resources =&gt; [:product, :color_variation, :color, :size]
+@@@
+
+### If you get only one result, It show related info page directly ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png &quot;image&quot;)
+
+
+Define related info like this:
+
+@@@
+  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end
+
+
+@@@
+
+
+You can edit any record in the result page.</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Search center is a integration view for multiple resources, I
+add this feature because of LACOSTE Customer Service admin, Which
+is also related to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view&quot;&gt;
+https://theplant.lighthouseapp.com/projects/30780/tickets/214-custo...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Single User View that someday Anatole mentioned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the listing of current behaviors&lt;/p&gt;
+&lt;h3&gt;You can search multiple resources the same time&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Choose one of the row in result, It will show that records
+related info&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Mount to any url you want, and choose whatever resources
+related&lt;/h3&gt;
+&lt;pre&gt;
+&lt;code&gt;  search_center :at =&amp;gt; &quot;/catalogue&quot;, :resources =&amp;gt; [:product, :color_variation, :color, :size]&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h3&gt;If you get only one result, It show related info page
+directly&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Define related info like this:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;You can edit any record in the result page.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Search center is a integration view for multiple resources, I add this feature because of LACOSTE Customer Service admin, Which is also related to:
+
+- https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view
+- Single User View that someday Anatole mentioned.
+
+Here are the listing of current behaviors
+
+### You can search multiple resources the same time ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png &quot;image&quot;)
+
+### Choose one of the row in result, It will show that records related info ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png &quot;image&quot;)
+
+
+### Mount to any url you want, and choose whatever resources related ###
+@@@
+  search_center :at =&gt; &quot;/catalogue&quot;, :resources =&gt; [:product, :color_variation, :color, :size]
+@@@
+
+### If you get only one result, It show related info page directly ###
+
+![image](https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png &quot;image&quot;)
+
+
+Define related info like this:
+
+@@@
+  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end
+
+
+@@@
+
+
+You can edit any record in the result page.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Search center is a integration view for multiple resources, I
+add this feature because of LACOSTE Customer Service admin, Which
+is also related to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/214-customer-view&quot;&gt;
+https://theplant.lighthouseapp.com/projects/30780/tickets/214-custo...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Single User View that someday Anatole mentioned.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are the listing of current behaviors&lt;/p&gt;
+&lt;h3&gt;You can search multiple resources the same time&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910294/2011-02-14_1007.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Choose one of the row in result, It will show that records
+related info&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910295/2011-02-14_1008.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Mount to any url you want, and choose whatever resources
+related&lt;/h3&gt;
+&lt;pre&gt;
+&lt;code&gt;  search_center :at =&amp;gt; &quot;/catalogue&quot;, :resources =&amp;gt; [:product, :color_variation, :color, :size]&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h3&gt;If you get only one result, It show related info page
+directly&lt;/h3&gt;
+&lt;p&gt;&lt;img title=&quot;image&quot; src=
+&quot;https://theplant.lighthouseapp.com/projects/30780/tickets/241/a/910296/2011-02-14_1009.png&quot;
+alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Define related info like this:&lt;/p&gt;
+&lt;pre&gt;
+&lt;code&gt;  resource :product do
+    search_on :code, :name
+
+    index_attrs :code, :name
+    show_attrs :code, :name, :gender, :made_country, :price
+    write_attrs :code, :name
+
+    related :all_color_variations do |p|
+      p.color_variations.order(&quot;color_code&quot;)
+    end
+
+    related :all_sizes do |p|
+      p.size_variations.map{|sv| sv.size}.uniq
+    end
+
+    related :collection do |p|
+      p.collection
+    end
+
+    related :material do |p|
+      p.material
+    end
+
+    related :care_instruction do |p|
+      p.care_instruction
+    end
+
+    related :special_care_instruction do |p|
+      p.special_care_instruction
+    end
+
+    related :washing_instruction do |p|
+      p.washing_instruction.washing_instruction_icons
+    end
+
+  end&lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;You can edit any record in the result page.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-14T11:14:33+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">241</number>
+      <permalink>introducing-qor-resources-engine-search-center</permalink>
+      <priority type="integer">13</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Introducing Qor Resources Engine Search Center</title>
+      <updated-at type="datetime">2011-02-14T11:16:48+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">1</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/241</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-02-14T11:17:43+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">241</number>
+      <permalink>introducing-qor-resources-engine-search-center</permalink>
+      <priority type="integer">13</priority>
+      <project-id type="integer">30780</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Introducing Qor Resources Engine Search Center</title>
+      <updated-at type="datetime">2011-02-14T11:18:09+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">2</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/241</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2504</assigned-user-id>
+      <attachments-count type="integer">6</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-02-17T13:13:21+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">90248</milestone-id>
+      <number type="integer">241</number>
+      <permalink>introducing-qor-resources-engine-search-center</permalink>
+      <priority type="integer">13</priority>
+      <project-id type="integer">30780</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Introducing Qor Resources Engine Search Center</title>
+      <updated-at type="datetime">2011-02-17T13:13:45+09:00</updated-at>
+      <user-id type="integer">2504</user-id>
+      <version type="integer">3</version>
+      <user-name>Felix Sun</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Felix Sun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/30780/tickets/241</url>
+      <milestone-title>Next Milestone?</milestone-title>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>eca05a11008d28122d63177c611c4bcae4f7909e</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-02-14T11:14:33+09:00</created-at>
+      <filename>2011-02-14_1007.png</filename>
+      <height type="integer">789</height>
+      <id type="integer">910294</id>
+      <size type="integer">79965</size>
+      <uploader-id type="integer">2504</uploader-id>
+      <width type="integer">1053</width>
+      <url>http://theplant.lighthouseapp.com/attachments/910294/2011-02-14_1007.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>0f491fca8b5bcb467f1395e7be7402e899f682a4</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-02-14T11:14:33+09:00</created-at>
+      <filename>2011-02-14_1008.png</filename>
+      <height type="integer">808</height>
+      <id type="integer">910295</id>
+      <size type="integer">132007</size>
+      <uploader-id type="integer">2504</uploader-id>
+      <width type="integer">993</width>
+      <url>http://theplant.lighthouseapp.com/attachments/910295/2011-02-14_1008.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>c5a7b981eecf44111a76c027cf3e9a0dd64c19e8</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-02-14T11:14:34+09:00</created-at>
+      <filename>2011-02-14_1009.png</filename>
+      <height type="integer">789</height>
+      <id type="integer">910296</id>
+      <size type="integer">88127</size>
+      <uploader-id type="integer">2504</uploader-id>
+      <width type="integer">1008</width>
+      <url>http://theplant.lighthouseapp.com/attachments/910296/2011-02-14_1009.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

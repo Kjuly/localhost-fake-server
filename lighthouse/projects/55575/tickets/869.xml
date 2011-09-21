@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer" nil="true"></assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-19T19:19:16+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">869</number>
+  <permalink>setting-page-500</permalink>
+  <priority type="integer">0</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag>hoptoad</tag>
+  <title>setting page 500</title>
+  <updated-at type="datetime">2011-09-19T19:19:26+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">1</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/869</url>
+  <priority-name nil="true"></priority-name>
+  <original-body>Created from Airbrake: [RuntimeError: RuntimeError: User#current_shoes delegated to profile.current_shoes, but profile is nil: #&lt;User id: 88729, email: &quot;venustingting+87@gmail.com&quot;, encrypted_password: &quot;718e78542a1657005f272de03ac5c3b0e223ca45&quot;, reset_password_token: nil, remember_token: nil,](http://theplant.airbrakeapp.com/errors/14418669)</original-body>
+  <latest-body>Created from Airbrake: [RuntimeError: RuntimeError: User#current_shoes delegated to profile.current_shoes, but profile is nil: #&lt;User id: 88729, email: &quot;venustingting+87@gmail.com&quot;, encrypted_password: &quot;718e78542a1657005f272de03ac5c3b0e223ca45&quot;, reset_password_token: nil, remember_token: nil,](http://theplant.airbrakeapp.com/errors/14418669)</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14418669&quot;&gt;RuntimeError:
+RuntimeError: User#current_shoes delegated to
+profile.current_shoes, but profile is nil: #&amp;lt;User id: 88729,
+email: &quot;venustingting+87@gmail.com&quot;, encrypted_password:
+&quot;718e78542a1657005f272de03ac5c3b0e223ca45&quot;, reset_password_token:
+nil, remember_token: nil,&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Created from Airbrake: [RuntimeError: RuntimeError: User#current_shoes delegated to profile.current_shoes, but profile is nil: #&lt;User id: 88729, email: &quot;venustingting+87@gmail.com&quot;, encrypted_password: &quot;718e78542a1657005f272de03ac5c3b0e223ca45&quot;, reset_password_token: nil, remember_token: nil,](http://theplant.airbrakeapp.com/errors/14418669)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14418669&quot;&gt;RuntimeError:
+RuntimeError: User#current_shoes delegated to
+profile.current_shoes, but profile is nil: #&amp;lt;User id: 88729,
+email: &quot;venustingting+87@gmail.com&quot;, encrypted_password:
+&quot;718e78542a1657005f272de03ac5c3b0e223ca45&quot;, reset_password_token:
+nil, remember_token: nil,&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-19T19:19:16+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">869</number>
+      <permalink>setting-page-500</permalink>
+      <priority type="integer">0</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>hoptoad</tag>
+      <title>setting page 500</title>
+      <updated-at type="datetime">2011-09-19T19:19:26+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/869</url>
+      <priority-name nil="true"></priority-name>
+    </version>
+  </versions>
+</ticket>

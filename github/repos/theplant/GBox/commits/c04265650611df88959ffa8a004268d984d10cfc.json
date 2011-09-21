@@ -1,0 +1,113 @@
+{
+  "commit": {
+    "message": "Deal with the no md5 file exist problem temporarily.",
+    "tree": {
+      "sha": "6511f4713dbb914a75f53dc30c75f5379544b99d",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/6511f4713dbb914a75f53dc30c75f5379544b99d"
+    },
+    "author": {
+      "date": "2011-08-24T00:41:18-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "committer": {
+      "date": "2011-08-24T00:41:18-07:00",
+      "name": "Xiaoyi Chen",
+      "email": "xiaoyi.chen@hotmail.com"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/c04265650611df88959ffa8a004268d984d10cfc"
+  },
+  "sha": "c04265650611df88959ffa8a004268d984d10cfc",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "login": "chenxiaoyi",
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "files": [
+    {
+      "status": "modified",
+      "sha": "c04265650611df88959ffa8a004268d984d10cfc",
+      "additions": 0,
+      "blob_url": "https://github.com/theplant/GBox/blob/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBDataFacility.h",
+      "filename": "GBox/GBDataFacility.h",
+      "raw_url": "https://github.com/theplant/GBox/raw/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBDataFacility.h",
+      "patch": "--- a/GBox/GBDataFacility.h\n+++ b/GBox/GBDataFacility.h\n@@ -9,7 +9,6 @@\n #import <Foundation/Foundation.h>\n #import <CoreData/CoreData.h>\n @class GDataEntryDocBase;\n-@class GBFileSystemInfo;\n @class GBCollectionManager;\n \n @interface GBDataFacility : NSObject {",
+      "deletions": 1,
+      "changes": 1
+    },
+    {
+      "status": "modified",
+      "sha": "c04265650611df88959ffa8a004268d984d10cfc",
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBDataFacility.m",
+      "filename": "GBox/GBDataFacility.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBDataFacility.m",
+      "patch": "--- a/GBox/GBDataFacility.m\n+++ b/GBox/GBDataFacility.m\n@@ -37,13 +37,7 @@ static GBDataFacility* instance =nil;\n     \n     if ([self InitializeCoreDataStack:&errorInitializingStack]) {\n         //[self setRequestTemplate];\n-        // Initializing the stack succeeded, so there is a persistent store available.  \n-        /*\n-        fileSystemInfo = [GBFileSystemInfo sharedFileSystemInfo];\n-        [fileSystemInfo setLocalInfoDic];\n-        localInfoDic = [fileSystemInfo localInfoDic];\n-        localMD5Dic = [fileSystemInfo md5PathsDic];     \n-         */\n+        \n         [self setUnfinshedTaskToWaiting];\n         return self;\n                 ",
+      "deletions": 7,
+      "changes": 8
+    },
+    {
+      "status": "modified",
+      "sha": "c04265650611df88959ffa8a004268d984d10cfc",
+      "additions": 5,
+      "blob_url": "https://github.com/theplant/GBox/blob/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBFileSystemWatcher.m",
+      "filename": "GBox/GBFileSystemWatcher.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBFileSystemWatcher.m",
+      "patch": "--- a/GBox/GBFileSystemWatcher.m\n+++ b/GBox/GBFileSystemWatcher.m\n@@ -63,11 +63,13 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n             if (!attrs) \n                 continue;\n             // file created or modified\n-            if (eventFlag & kFSEventStreamEventFlagItemModified) {\n-                [[fsw delegate] fileModified: filePath eventId: eventId];\n+            if (eventFlag & kFSEventStreamEventFlagItemCreated) {\n+                [[fsw delegate] fileCreated: filePath eventId: eventId];\n+\n             }\n             else {\n-                [[fsw delegate] fileCreated: filePath eventId: eventId];\n+                [[fsw delegate] fileModified: filePath eventId: eventId];\n+\n             }\n         }\n         [fsw setLastEventId: eventId];",
+      "deletions": 3,
+      "changes": 8
+    },
+    {
+      "status": "modified",
+      "sha": "c04265650611df88959ffa8a004268d984d10cfc",
+      "additions": 10,
+      "blob_url": "https://github.com/theplant/GBox/blob/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBSyncController.m",
+      "filename": "GBox/GBSyncController.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBSyncController.m",
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -359,15 +359,21 @@ static GBSyncController * shareSyncController = nil;\n             //Deal with each changed entry, treat it as common doc/collection entry\n             for (GDataEntryDocBase *entry in changesEntries) {\n                 \n+                BOOL isCollection = ([entry class]==[GDataEntryFolderDoc class])?YES:NO;\n+                NSString* entryTitle = [[entry title] stringValue];\n+                NSNumber* entryChangestamp = [entry changestamp];\n+                NSString* entryIdentifier = [entry identifier];\n+                \n                 //Ignore file created on web.\n                 if([entry MD5Checksum ]==nil){\n+                    [dataFacility insertEvent:entryChangestamp\n+                                withEventCode:kGBServerNoMD5FileExist\n+                                     operandA:entryIdentifier\n+                                     operandB:nil\n+                           andStateWithouSave:kGBStateCancel];\n                     continue;\n                 }\n                 \n-                BOOL isCollection = ([entry class]==[GDataEntryFolderDoc class])?YES:NO;\n-                NSString* entryTitle = [[entry title] stringValue];\n-                NSNumber* entryChangestamp = [entry changestamp];\n-                NSString* entryIdentifier = [entry identifier];\n                 //Entry\n                 if([dataFacility fetchTaskOfTimestamp:entryChangestamp]==nil){\n                     //Ensure This entry is processed only once. ",
+      "deletions": 4,
+      "changes": 14
+    },
+    {
+      "status": "modified",
+      "sha": "c04265650611df88959ffa8a004268d984d10cfc",
+      "additions": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBoxAppDelegate.m",
+      "filename": "GBox/GBoxAppDelegate.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBoxAppDelegate.m",
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -143,7 +143,7 @@\n     authController = [OAuthController authController]; \n \n     if ([defaults boolForKey:kGBSetupFinished] == NO) {\n-        [GBUtility displayAlert:@\"Welcome\" format:@\"Please login with your google account in preferences.\"];\n+        [GBUtility displayAlert:@\"Welcome\" format:@\"Please login with your google account in preferences...\"];\n         [self appSetup: rootPath];\n         setupFinished = NO;\n         [defaults setValue:nil forKey:kGBLargestChangestamp];",
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "status": "modified",
+      "sha": "c04265650611df88959ffa8a004268d984d10cfc",
+      "additions": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBoxConstants.h",
+      "filename": "GBox/GBoxConstants.h",
+      "raw_url": "https://github.com/theplant/GBox/raw/c04265650611df88959ffa8a004268d984d10cfc/GBox/GBoxConstants.h",
+      "patch": "--- a/GBox/GBoxConstants.h\n+++ b/GBox/GBoxConstants.h\n@@ -49,6 +49,8 @@ typedef enum {\n     kGBServerNoMD5ConflictedFileExist,\n \n     kGBFileExistPathsSubSet,\n+    \n+    kGBServerNoMD5FileExist,\n \n     kGBSync\n     ",
+      "deletions": 0,
+      "changes": 2
+    }
+  ],
+  "stats": {
+    "additions": 19,
+    "total": 35,
+    "deletions": 16
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "login": "chenxiaoyi",
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
+  "parents": [
+    {
+      "sha": "02f6e99caf5da5a2cbeecb9289073509a8f9a6e4",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/02f6e99caf5da5a2cbeecb9289073509a8f9a6e4"
+    }
+  ],
+  "url": "https://api.github.com/repos/theplant/GBox/commits/c04265650611df88959ffa8a004268d984d10cfc"
+}

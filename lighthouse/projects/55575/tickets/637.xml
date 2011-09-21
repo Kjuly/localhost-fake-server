@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">132540</assigned-user-id>
+  <attachments-count type="integer">4</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-31T11:21:45+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
+  <number type="integer">637</number>
+  <permalink>admineditor-broken</permalink>
+  <priority type="integer">3</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>resolved</state>
+  <tag nil="true"></tag>
+  <title>Admin&gt;editor broken</title>
+  <updated-at type="datetime">2011-09-03T15:44:40+09:00</updated-at>
+  <user-id type="integer">132540</user-id>
+  <version type="integer">2</version>
+  <user-name>Charles Shen</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/637</url>
+  <priority-name>Low</priority-name>
+  <original-body>http://www.uk.asics2-draft.theplant-dev.com/admin/knowledge/new/
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/posts/new/</original-body>
+  <latest-body>http://www.uk.asics2-draft.theplant-dev.com/admin/knowledge/new/
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/posts/new/</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/knowledge/new/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/knowledge/new/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/posts/new/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/posts/new/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>http://www.uk.asics2-draft.theplant-dev.com/admin/knowledge/new/
+
+http://www.uk.asics2-draft.theplant-dev.com/admin/posts/new/</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/knowledge/new/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/knowledge/new/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/posts/new/&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/posts/new/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-31T11:21:45+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">637</number>
+      <permalink>admineditor-broken</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Admin&gt;editor broken</title>
+      <updated-at type="datetime">2011-08-31T11:21:56+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/637</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>it's already fixed by shaoshing.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;it's already fixed by shaoshing.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-03T15:44:29+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">637</number>
+      <permalink>admineditor-broken</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Admin&gt;editor broken</title>
+      <updated-at type="datetime">2011-09-03T15:44:40+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">2</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/637</url>
+      <priority-name>Low</priority-name>
+    </version>
+  </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>63e7823ac63e7190444b479b2a0eb65487c12eaf</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-08-31T11:21:46+09:00</created-at>
+      <filename>2011-08-31_1019.png</filename>
+      <height type="integer">892</height>
+      <id type="integer">1331700</id>
+      <size type="integer">138051</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1032</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1331700/2011-08-31_1019.png</url>
+    </attachment-image>
+  </attachments>
+</ticket>

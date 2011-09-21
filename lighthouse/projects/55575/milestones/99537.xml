@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<milestone>
+  <completed-at type="datetime" nil="true"></completed-at>
+  <created-at type="datetime">2011-01-26T12:55:17+09:00</created-at>
+  <due-on type="datetime">2011-02-18T00:00:00+09:00</due-on>
+  <goals>* Start products pages</goals>
+  <goals-html>&lt;div&gt;&lt;ul&gt;
+&lt;li&gt;Start products pages&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</goals-html>
+  <id type="integer">99537</id>
+  <open-tickets-count type="integer">0</open-tickets-count>
+  <permalink>iteration-3</permalink>
+  <project-id type="integer">55575</project-id>
+  <tickets-count type="integer">3</tickets-count>
+  <title>Iteration 3</title>
+  <updated-at type="datetime">2011-02-18T18:31:37+09:00</updated-at>
+  <url>http://theplant.lighthouseapp.com/projects/55575/milestones/99537</url>
+  <user-name nil="true"></user-name>
+</milestone>

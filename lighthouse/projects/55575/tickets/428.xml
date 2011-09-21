@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">94027</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">true</closed>
+  <created-at type="datetime">2011-08-21T00:09:12+09:00</created-at>
+  <creator-id type="integer">79899</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">428</number>
+  <permalink>dashboard-and-qorkpi</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>invalid</state>
+  <tag nil="true"></tag>
+  <title>Dashboard and QorKPI</title>
+  <updated-at type="datetime">2011-09-19T11:41:02+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">2</version>
+  <user-name>Shaoshing Lee</user-name>
+  <creator-name>Shaoshing Lee</creator-name>
+  <assigned-user-name>bin</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/428</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>Discussed examples:
+
+###Config###
+@@@ ruby
+# config/kpi.rb
+kpi &quot;country_daily_view&quot; do # name of KPI
+  chart :line  # type of chart, could be: bar, pie, map 
+  keys Language.all.map(&amp;:id) # 
+  data(:sync =&gt; true) do |key| # :sync option indicates wether the KPI data needs to be sync by rake task
+    # Fetch data from GA, MailChimp or Database
+  end
+end
+@@@
+
+###Usage###
+
+@@@ ruby
+render_kpi_chart('country_daily_view'&#65292; :key =&gt; Language.current.id)
+render_kpi_chart('country_daily_view'&#65292; :key =&gt; Language.current.id, :type =&gt; :image) # can render as as image, this will be used in email
+@@@
+
+###Others###
+
+provides following rake tasks:
+
+rake qor:kpi:migrate
+rake qor:kpi:sync</original-body>
+  <latest-body>Discussed examples:
+
+###Config###
+@@@ ruby
+# config/kpi.rb
+kpi &quot;country_daily_view&quot; do # name of KPI
+  chart :line  # type of chart, could be: bar, pie, map 
+  keys Language.all.map(&amp;:id) # 
+  data(:sync =&gt; true) do |key| # :sync option indicates wether the KPI data needs to be sync by rake task
+    # Fetch data from GA, MailChimp or Database
+  end
+end
+@@@
+
+###Usage###
+
+@@@ ruby
+render_kpi_chart('country_daily_view'&#65292; :key =&gt; Language.current.id)
+render_kpi_chart('country_daily_view'&#65292; :key =&gt; Language.current.id, :type =&gt; :image) # can render as as image, this will be used in email
+@@@
+
+###Others###
+
+provides following rake tasks:
+
+rake qor:kpi:migrate
+rake qor:kpi:sync</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;Discussed examples:&lt;/p&gt;
+&lt;h3&gt;Config&lt;/h3&gt;
+&lt;pre&gt;
+&lt;code class=&quot;ruby&quot;&gt;# config/kpi.rb
+kpi &quot;country_daily_view&quot; do # name of KPI
+  chart :line  # type of chart, could be: bar, pie, map 
+  keys Language.all.map(&amp;amp;:id) # 
+  data(:sync =&amp;gt; true) do |key| # :sync option indicates wether the KPI data needs to be sync by rake task
+    # Fetch data from GA, MailChimp or Database
+  end
+end&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;pre&gt;
+&lt;code class=
+&quot;ruby&quot;&gt;render_kpi_chart('country_daily_view'&amp;#65292; :key =&amp;gt; Language.current.id)
+render_kpi_chart('country_daily_view'&amp;#65292; :key =&amp;gt; Language.current.id, :type =&amp;gt; :image) # can render as as image, this will be used in email&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h3&gt;Others&lt;/h3&gt;
+&lt;p&gt;provides following rake tasks:&lt;/p&gt;
+&lt;p&gt;rake qor:kpi:migrate&lt;br&gt;
+rake qor:kpi:sync&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Discussed examples:
+
+###Config###
+@@@ ruby
+# config/kpi.rb
+kpi &quot;country_daily_view&quot; do # name of KPI
+  chart :line  # type of chart, could be: bar, pie, map 
+  keys Language.all.map(&amp;:id) # 
+  data(:sync =&gt; true) do |key| # :sync option indicates wether the KPI data needs to be sync by rake task
+    # Fetch data from GA, MailChimp or Database
+  end
+end
+@@@
+
+###Usage###
+
+@@@ ruby
+render_kpi_chart('country_daily_view'&#65292; :key =&gt; Language.current.id)
+render_kpi_chart('country_daily_view'&#65292; :key =&gt; Language.current.id, :type =&gt; :image) # can render as as image, this will be used in email
+@@@
+
+###Others###
+
+provides following rake tasks:
+
+rake qor:kpi:migrate
+rake qor:kpi:sync</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Discussed examples:&lt;/p&gt;
+&lt;h3&gt;Config&lt;/h3&gt;
+&lt;pre&gt;
+&lt;code class=&quot;ruby&quot;&gt;# config/kpi.rb
+kpi &quot;country_daily_view&quot; do # name of KPI
+  chart :line  # type of chart, could be: bar, pie, map 
+  keys Language.all.map(&amp;amp;:id) # 
+  data(:sync =&amp;gt; true) do |key| # :sync option indicates wether the KPI data needs to be sync by rake task
+    # Fetch data from GA, MailChimp or Database
+  end
+end&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h3&gt;Usage&lt;/h3&gt;
+&lt;pre&gt;
+&lt;code class=
+&quot;ruby&quot;&gt;render_kpi_chart('country_daily_view'&amp;#65292; :key =&amp;gt; Language.current.id)
+render_kpi_chart('country_daily_view'&amp;#65292; :key =&amp;gt; Language.current.id, :type =&amp;gt; :image) # can render as as image, this will be used in email&lt;/code&gt;
+&lt;/pre&gt;
+&lt;h3&gt;Others&lt;/h3&gt;
+&lt;p&gt;provides following rake tasks:&lt;/p&gt;
+&lt;p&gt;rake qor:kpi:migrate&lt;br&gt;
+rake qor:kpi:sync&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-21T00:09:12+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">428</number>
+      <permalink>dashboard-and-qorkpi</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Dashboard and QorKPI</title>
+      <updated-at type="datetime">2011-08-21T00:09:26+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">1</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/428</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">94027</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Move this to Qor ticket</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Move this to Qor ticket&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-19T11:40:48+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">428</number>
+      <permalink>dashboard-and-qorkpi</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>invalid</state>
+      <tag nil="true"></tag>
+      <title>Dashboard and QorKPI</title>
+      <updated-at type="datetime">2011-09-19T11:41:02+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>bin</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/428</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+</ticket>

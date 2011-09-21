@@ -1,0 +1,39 @@
+[
+  {
+    "sha": "45de38b586fa94ee9dc0c7ec87a456929287d60b",
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "url": "https://api.github.com/users/janx",
+      "login": "janx"
+    },
+    "parents": [
+
+    ],
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/8853f712852b03ba6646b59b1723f44d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 5958,
+      "url": "https://api.github.com/users/janx",
+      "login": "janx"
+    },
+    "url": "https://api.github.com/repos/theplant/rchardet/commits/45de38b586fa94ee9dc0c7ec87a456929287d60b",
+    "commit": {
+      "tree": {
+        "sha": "a0e156d88e9d7301792fb62b9db61c332a0f6418",
+        "url": "https://api.github.com/repos/theplant/rchardet/git/trees/a0e156d88e9d7301792fb62b9db61c332a0f6418"
+      },
+      "author": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-03-31T01:48:12-07:00"
+      },
+      "message": "fix for ruby 1.9",
+      "committer": {
+        "email": "jan.h.xie@gmail.com",
+        "name": "Jan Xie",
+        "date": "2011-03-31T01:48:12-07:00"
+      },
+      "url": "https://api.github.com/repos/theplant/rchardet/git/commits/45de38b586fa94ee9dc0c7ec87a456929287d60b"
+    }
+  }
+]

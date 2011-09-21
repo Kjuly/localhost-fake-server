@@ -1,0 +1,58 @@
+{
+  "parents": [
+    {
+      "sha": "9403b87334518f53ab19e829bb3201ac693d5a06",
+      "url": "https://api.github.com/repos/theplant/GBox/commits/9403b87334518f53ab19e829bb3201ac693d5a06"
+    }
+  ],
+  "sha": "0657d8ab90ea75656e2799590f3504e459c716e9",
+  "commit": {
+    "message": "delete unnecesary code",
+    "tree": {
+      "sha": "20881a7e34caca32375c1c4ab4d62d7c304a6f6f",
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/20881a7e34caca32375c1c4ab4d62d7c304a6f6f"
+    },
+    "author": {
+      "email": "liuyi19900922@gmail.com",
+      "date": "2011-08-30T21:39:08-07:00",
+      "name": "liuyi0922"
+    },
+    "committer": {
+      "email": "liuyi19900922@gmail.com",
+      "date": "2011-08-30T21:39:08-07:00",
+      "name": "liuyi0922"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/0657d8ab90ea75656e2799590f3504e459c716e9"
+  },
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 704820,
+    "login": "TomLiu",
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "files": [
+    {
+      "changes": 23,
+      "status": "modified",
+      "sha": "0657d8ab90ea75656e2799590f3504e459c716e9",
+      "raw_url": "https://github.com/theplant/GBox/raw/0657d8ab90ea75656e2799590f3504e459c716e9/GBox/GBCrashReport.m",
+      "additions": 1,
+      "filename": "GBox/GBCrashReport.m",
+      "deletions": 22,
+      "patch": "--- a/GBox/GBCrashReport.m\n+++ b/GBox/GBCrashReport.m\n@@ -123,28 +123,7 @@\n             return YES;\n         }else{\n             NSLog(@\"==================has no crash\");\n-          /* NSError * err;\n-            \n-            NSString * crashContents = [[NSString alloc]\n-                                        initWithContentsOfFile:newCrashReport\n-                                        encoding:NSUTF8StringEncoding\n-                                        error:&err];\n-           \n-            NSString *post = [NSString stringWithFormat:@\"entry.0.single=%@&pageNumber=0&backupCache=&submit=Submit\",crashContents];\n-            \n-         \n-             NSData *postData = [post dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];\n-             NSString *postLength = [NSString stringWithFormat:@\"%d\", [post length]];\n-             \n-             NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] init] autorelease];\n-             [request setURL:[NSURL URLWithString:@\"https://docs.google.com/spreadsheet/formResponse?formkey=dFJyTzZMOGUwSnBEWktXYnl3SWpZRXc6MQ&amp;ifq\"]];\n-             [request setHTTPMethod:@\"POST\"];\n-             [request setValue:postLength forHTTPHeaderField:@\"Content-Length\"];\n-             [request setValue:@\"application/x-www-form-urlencoded\" forHTTPHeaderField:@\"Content-Type\"];\n-             [request setHTTPBody:postData];\n-             \n-             [crashContents release];\n-             [NSURLConnection connectionWithRequest:request delegate:self];*/\n+          \n             return NO;\n         }\n         ",
+      "blob_url": "https://github.com/theplant/GBox/blob/0657d8ab90ea75656e2799590f3504e459c716e9/GBox/GBCrashReport.m"
+    }
+  ],
+  "stats": {
+    "additions": 1,
+    "deletions": 22,
+    "total": 23
+  },
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/97bd8cc04bb705b77f358a12c538e2de?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 704820,
+    "login": "TomLiu",
+    "url": "https://api.github.com/users/TomLiu"
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/0657d8ab90ea75656e2799590f3504e459c716e9"
+}

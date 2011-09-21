@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+  <assigned-user-id type="integer">79899</assigned-user-id>
+  <attachments-count type="integer">0</attachments-count>
+  <closed type="boolean">false</closed>
+  <created-at type="datetime">2011-09-01T11:17:54+09:00</created-at>
+  <creator-id type="integer">95021</creator-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
+  <number type="integer">644</number>
+  <permalink>bugs-nomethoderror-undefined-method-for-nilnilhash</permalink>
+  <priority type="integer">1</priority>
+  <project-id type="integer">55575</project-id>
+  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
+  <state>new</state>
+  <tag>ungency</tag>
+  <title>Bugs: NoMethodError: undefined method `+' for {nil=&gt;nil}:Hash</title>
+  <updated-at type="datetime">2011-09-01T11:18:10+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">1</version>
+  <user-name>Tingting</user-name>
+  <creator-name>Tingting</creator-name>
+  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <url>http://theplant.lighthouseapp.com/projects/55575/tickets/644</url>
+  <milestone-title>Current Iteration</milestone-title>
+  <priority-name>High</priority-name>
+  <original-body>https://theplant.airbrakeapp.com/errors/12553469</original-body>
+  <latest-body>https://theplant.airbrakeapp.com/errors/12553469</latest-body>
+  <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://theplant.airbrakeapp.com/errors/12553469&quot;&gt;https://theplant.airbrakeapp.com/errors/12553469&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  <versions type="array">
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>https://theplant.airbrakeapp.com/errors/12553469</body>
+      <body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;https://theplant.airbrakeapp.com/errors/12553469&quot;&gt;https://theplant.airbrakeapp.com/errors/12553469&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-01T11:17:54+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">644</number>
+      <permalink>bugs-nomethoderror-undefined-method-for-nilnilhash</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>ungency</tag>
+      <title>Bugs: NoMethodError: undefined method `+' for {nil=&gt;nil}:Hash</title>
+      <updated-at type="datetime">2011-09-01T11:18:10+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">1</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/644</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+  </versions>
+</ticket>
