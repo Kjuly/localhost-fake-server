@@ -3,3 +3,14 @@
 *~
 .*.sw[po]
 tags
+
+lighthouse/*.xml
+lighthouse/*/*.xml
+lighthouse/*/*/*.xml
+lighthouse/*/*/*/*.xml
+
+github/*.json
+github/*/*.json
+github/*/*/*.json
+github/*/*/*/*.json
+github/*/*/*/*/*.json

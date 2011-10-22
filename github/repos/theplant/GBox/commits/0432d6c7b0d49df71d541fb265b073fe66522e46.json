@@ -1,80 +1,80 @@
 {
-  "committer": {
-    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 1014,
-    "url": "https://api.github.com/users/sunfmin",
-    "login": "sunfmin"
-  },
-  "author": {
-    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 1014,
-    "url": "https://api.github.com/users/sunfmin",
-    "login": "sunfmin"
-  },
   "files": [
     {
-      "patch": "--- a/GBox/GBDataFacility.h\n+++ b/GBox/GBDataFacility.h\n@@ -27,7 +27,7 @@\n \n - (void)clearData;\n \n-- (BOOL) InitializeCoreDataStack: (NSError **) error;\n+- (BOOL) initializeCoreDataStack: (NSError **) error;\n \n - (NSArray *)fetchTaskOfState: (NSInteger) state;\n ",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.h",
+      "deletions": 1,
       "changes": 2,
+      "raw_url": "https://github.com/theplant/GBox/raw/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.h",
+      "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
       "filename": "GBox/GBDataFacility.h",
-      "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
-      "raw_url": "https://github.com/theplant/GBox/raw/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.h"
+      "patch": "--- a/GBox/GBDataFacility.h\n+++ b/GBox/GBDataFacility.h\n@@ -27,7 +27,7 @@\n \n - (void)clearData;\n \n-- (BOOL) InitializeCoreDataStack: (NSError **) error;\n+- (BOOL) initializeCoreDataStack: (NSError **) error;\n \n - (NSArray *)fetchTaskOfState: (NSInteger) state;\n "
     },
     {
-      "patch": "--- a/GBox/GBDataFacility.m\n+++ b/GBox/GBDataFacility.m\n@@ -31,7 +31,7 @@ static GBDataFacility* instance =nil;\n     \n     NSError *errorInitializingStack = nil;\n     \n-    if ([self InitializeCoreDataStack:&errorInitializingStack]) {\n+    if ([self initializeCoreDataStack:&errorInitializingStack]) {\n         //[self setRequestTemplate];\n         \n         [self setUnfinshedTaskToWaiting];\n@@ -87,7 +87,7 @@ static GBDataFacility* instance =nil;\n \n // Initialize the Core Data persistence stack used by this tool.  This consists of a model, a persistent store coordinator, a managed object context, and a persistent store, all global.  Return YES on success, NO and an autoreleased NSError in *error on failure.\n \n--(BOOL) InitializeCoreDataStack:(NSError **)error {\n+-(BOOL) initializeCoreDataStack:(NSError **)error {\n     \n     // Create a merged managed object model based on the models in the main bundle.\n     // For a Foundation tool, the main bundle is the directory that contains it.\n@@ -143,7 +143,7 @@ static GBDataFacility* instance =nil;\n             \n     NSError *errorInitializingStack = nil;\n \n-    [self InitializeCoreDataStack:&errorInitializingStack];  \n+    [self initializeCoreDataStack:&errorInitializingStack];  \n     \n }\n ",
       "status": "modified",
-      "deletions": 3,
       "additions": 3,
-      "blob_url": "https://github.com/theplant/GBox/blob/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.m",
+      "deletions": 3,
       "changes": 6,
-      "filename": "GBox/GBDataFacility.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.m",
       "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
-      "raw_url": "https://github.com/theplant/GBox/raw/0432d6c7b0d49df71d541fb265b073fe66522e46/GBox/GBDataFacility.m"
+      "filename": "GBox/GBDataFacility.m",
+      "patch": "--- a/GBox/GBDataFacility.m\n+++ b/GBox/GBDataFacility.m\n@@ -31,7 +31,7 @@ static GBDataFacility* instance =nil;\n     \n     NSError *errorInitializingStack = nil;\n     \n-    if ([self InitializeCoreDataStack:&errorInitializingStack]) {\n+    if ([self initializeCoreDataStack:&errorInitializingStack]) {\n         //[self setRequestTemplate];\n         \n         [self setUnfinshedTaskToWaiting];\n@@ -87,7 +87,7 @@ static GBDataFacility* instance =nil;\n \n // Initialize the Core Data persistence stack used by this tool.  This consists of a model, a persistent store coordinator, a managed object context, and a persistent store, all global.  Return YES on success, NO and an autoreleased NSError in *error on failure.\n \n--(BOOL) InitializeCoreDataStack:(NSError **)error {\n+-(BOOL) initializeCoreDataStack:(NSError **)error {\n     \n     // Create a merged managed object model based on the models in the main bundle.\n     // For a Foundation tool, the main bundle is the directory that contains it.\n@@ -143,7 +143,7 @@ static GBDataFacility* instance =nil;\n             \n     NSError *errorInitializingStack = nil;\n \n-    [self InitializeCoreDataStack:&errorInitializingStack];  \n+    [self initializeCoreDataStack:&errorInitializingStack];  \n     \n }\n "
     },
     {
-      "patch": "--- a/GBoxTests/GBoxTests.m\n+++ b/GBoxTests/GBoxTests.m\n@@ -8,21 +8,22 @@\n \n #import \"GBoxTests.h\"\n #import \"GBUtility.h\"\n-\n+#import \"GBDataFacility.h\"\n+#import \"GBoxConstants.h\"\n \n @implementation GBoxTests\n \n - (void)setUp\n {\n     [super setUp];\n-    \n+\n     // Set-up code here.\n }\n \n - (void)tearDown\n {\n     // Tear-down code here.\n-    \n+\n     [super tearDown];\n }\n \n@@ -31,9 +32,9 @@\n     NSString* value = @\"felix21212\";\n \n     [GBUtility setIdentifier:value forFileAtPath:[GBUtility rootPath]];\n-        \n-    STAssertEqualObjects(value, \n-                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]], \n+\n+    STAssertEqualObjects(value,\n+                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]],\n                    [GBUtility identifierForFileAtPath:[GBUtility rootPath]]);\n }\n \n@@ -42,4 +43,15 @@\n }\n \n \n+- (void)testGBDataFacility_insertEvent {\n+    GBDataFacility *df = [GBDataFacility sharedDataFacility];\n+    NSString *identifier = @\"https://docs.google.com/feeds/id/folder%3A0B53sIHDAZjj8YTkyZmFjZWQtMzUzYS00MmQ4LTk1MDgtYjVmNzFiYmJjYTQ1\";\n+\n+    [df insertEvent:[NSNumber numberWithInt:10000] withEventCode:kGBServerFileUpdated operandA:identifier andOperandB:nil];\n+\n+    NSManagedObject *mo = [df fetchTaskOfTimestamp:[NSNumber numberWithInt:10000]];\n+\n+    STAssertEqualObjects(identifier, [mo valueForKey:@\"operandA\"], @\"\");\n+}\n+\n @end",
       "status": "modified",
-      "deletions": 6,
       "additions": 18,
-      "blob_url": "https://github.com/theplant/GBox/blob/0432d6c7b0d49df71d541fb265b073fe66522e46/GBoxTests/GBoxTests.m",
+      "deletions": 6,
       "changes": 24,
-      "filename": "GBoxTests/GBoxTests.m",
+      "raw_url": "https://github.com/theplant/GBox/raw/0432d6c7b0d49df71d541fb265b073fe66522e46/GBoxTests/GBoxTests.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/0432d6c7b0d49df71d541fb265b073fe66522e46/GBoxTests/GBoxTests.m",
       "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
-      "raw_url": "https://github.com/theplant/GBox/raw/0432d6c7b0d49df71d541fb265b073fe66522e46/GBoxTests/GBoxTests.m"
+      "filename": "GBoxTests/GBoxTests.m",
+      "patch": "--- a/GBoxTests/GBoxTests.m\n+++ b/GBoxTests/GBoxTests.m\n@@ -8,21 +8,22 @@\n \n #import \"GBoxTests.h\"\n #import \"GBUtility.h\"\n-\n+#import \"GBDataFacility.h\"\n+#import \"GBoxConstants.h\"\n \n @implementation GBoxTests\n \n - (void)setUp\n {\n     [super setUp];\n-    \n+\n     // Set-up code here.\n }\n \n - (void)tearDown\n {\n     // Tear-down code here.\n-    \n+\n     [super tearDown];\n }\n \n@@ -31,9 +32,9 @@\n     NSString* value = @\"felix21212\";\n \n     [GBUtility setIdentifier:value forFileAtPath:[GBUtility rootPath]];\n-        \n-    STAssertEqualObjects(value, \n-                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]], \n+\n+    STAssertEqualObjects(value,\n+                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]],\n                    [GBUtility identifierForFileAtPath:[GBUtility rootPath]]);\n }\n \n@@ -42,4 +43,15 @@\n }\n \n \n+- (void)testGBDataFacility_insertEvent {\n+    GBDataFacility *df = [GBDataFacility sharedDataFacility];\n+    NSString *identifier = @\"https://docs.google.com/feeds/id/folder%3A0B53sIHDAZjj8YTkyZmFjZWQtMzUzYS00MmQ4LTk1MDgtYjVmNzFiYmJjYTQ1\";\n+\n+    [df insertEvent:[NSNumber numberWithInt:10000] withEventCode:kGBServerFileUpdated operandA:identifier andOperandB:nil];\n+\n+    NSManagedObject *mo = [df fetchTaskOfTimestamp:[NSNumber numberWithInt:10000]];\n+\n+    STAssertEqualObjects(identifier, [mo valueForKey:@\"operandA\"], @\"\");\n+}\n+\n @end"
     }
   ],
-  "stats": {
-    "deletions": 10,
-    "additions": 22,
-    "total": 32
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "url": "https://api.github.com/users/sunfmin",
+    "login": "sunfmin",
+    "id": 1014
   },
+  "stats": {
+    "additions": 22,
+    "total": 32,
+    "deletions": 10
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/0432d6c7b0d49df71d541fb265b073fe66522e46",
   "parents": [
     {
-      "sha": "918db942b7398eebb149967b670f0ec701db7dbd",
-      "url": "https://api.github.com/repos/theplant/GBox/commits/918db942b7398eebb149967b670f0ec701db7dbd"
+      "url": "https://api.github.com/repos/theplant/GBox/commits/918db942b7398eebb149967b670f0ec701db7dbd",
+      "sha": "918db942b7398eebb149967b670f0ec701db7dbd"
     }
   ],
-  "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
   "commit": {
-    "tree": {
-      "sha": "b852d44f4d095f754fdedaf4af2bb1862a22aee5",
-      "url": "https://api.github.com/repos/theplant/GBox/git/trees/b852d44f4d095f754fdedaf4af2bb1862a22aee5"
-    },
-    "message": "Add tests for dataFacility",
     "committer": {
+      "email": "sunfmin@gmail.com",
       "date": "2011-09-13T20:52:03-07:00",
-      "name": "Felix Sun",
-      "email": "sunfmin@gmail.com"
+      "name": "Felix Sun"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/0432d6c7b0d49df71d541fb265b073fe66522e46",
+    "message": "Add tests for dataFacility",
+    "tree": {
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/b852d44f4d095f754fdedaf4af2bb1862a22aee5",
+      "sha": "b852d44f4d095f754fdedaf4af2bb1862a22aee5"
     },
     "author": {
+      "email": "sunfmin@gmail.com",
       "date": "2011-09-13T20:52:03-07:00",
-      "name": "Felix Sun",
-      "email": "sunfmin@gmail.com"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/git/commits/0432d6c7b0d49df71d541fb265b073fe66522e46"
+      "name": "Felix Sun"
+    }
   },
-  "url": "https://api.github.com/repos/theplant/GBox/commits/0432d6c7b0d49df71d541fb265b073fe66522e46"
+  "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "url": "https://api.github.com/users/sunfmin",
+    "login": "sunfmin",
+    "id": 1014
+  }
 }

@@ -15,9 +15,9 @@
   <state>committed</state>
   <tag nil="true"></tag>
   <title>Foot ID cancel</title>
-  <updated-at type="datetime">2011-09-19T21:59:19+09:00</updated-at>
+  <updated-at type="datetime">2011-09-22T23:06:12+09:00</updated-at>
   <user-id type="integer">104778</user-id>
-  <version type="integer">4</version>
+  <version type="integer">5</version>
   <user-name>Zhen Wu</user-name>
   <creator-name>Tingting</creator-name>
   <assigned-user-name>Zhen Wu</assigned-user-name>
@@ -139,6 +139,35 @@ like image 1, should not link to image 2.&lt;/p&gt;&lt;/div&gt;</body-html>
       <updated-at type="datetime">2011-09-19T21:59:19+09:00</updated-at>
       <user-id type="integer">104778</user-id>
       <version type="integer">4</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Zhen Wu</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/811</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">104778</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-22T23:05:59+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">811</number>
+      <permalink>foot-id-cancel</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>committed</state>
+      <tag nil="true"></tag>
+      <title>Foot ID cancel</title>
+      <updated-at type="datetime">2011-09-22T23:06:12+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">5</version>
       <user-name>Zhen Wu</user-name>
       <creator-name>Tingting</creator-name>
       <assigned-user-name>Zhen Wu</assigned-user-name>

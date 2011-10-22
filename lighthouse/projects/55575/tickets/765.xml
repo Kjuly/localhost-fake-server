@@ -2,7 +2,7 @@
 <ticket>
   <assigned-user-id type="integer">95021</assigned-user-id>
   <attachments-count type="integer">4</attachments-count>
-  <closed type="boolean">false</closed>
+  <closed type="boolean">true</closed>
   <created-at type="datetime">2011-09-09T13:52:57+09:00</created-at>
   <creator-id type="integer">95021</creator-id>
   <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
@@ -11,14 +11,14 @@
   <permalink>nlplease-change-another-store-lacotor-type</permalink>
   <priority type="integer">1</priority>
   <project-id type="integer">55575</project-id>
-  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
-  <state>pending_review</state>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>invalid</state>
   <tag nil="true"></tag>
   <title>NL&gt;please change another store lacotor type.</title>
-  <updated-at type="datetime">2011-09-09T19:43:17+09:00</updated-at>
-  <user-id type="integer">132540</user-id>
-  <version type="integer">2</version>
-  <user-name>Charles Shen</user-name>
+  <updated-at type="datetime">2011-10-11T15:23:22+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">3</version>
+  <user-name>Tingting</user-name>
   <creator-name>Tingting</creator-name>
   <assigned-user-name>Tingting</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/765</url>
@@ -91,6 +91,35 @@ http://www.nl.asics2-draft.theplant-dev.com/running/</body>
       <user-id type="integer">132540</user-id>
       <version type="integer">2</version>
       <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/765</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-10-11T15:23:11+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">765</number>
+      <permalink>nlplease-change-another-store-lacotor-type</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>invalid</state>
+      <tag nil="true"></tag>
+      <title>NL&gt;please change another store lacotor type.</title>
+      <updated-at type="datetime">2011-10-11T15:23:22+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">3</version>
+      <user-name>Tingting</user-name>
       <creator-name>Tingting</creator-name>
       <assigned-user-name>Tingting</assigned-user-name>
       <url>http://theplant.lighthouseapp.com/projects/55575/tickets/765</url>

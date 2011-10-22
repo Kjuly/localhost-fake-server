@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ticket>
-  <assigned-user-id type="integer">79899</assigned-user-id>
+  <assigned-user-id type="integer">132540</assigned-user-id>
   <attachments-count type="integer">8</attachments-count>
   <closed type="boolean">false</closed>
   <created-at type="datetime">2011-09-20T16:39:32+09:00</created-at>
@@ -12,15 +12,15 @@
   <priority type="integer">1</priority>
   <project-id type="integer">55575</project-id>
   <raw-data type="binary" nil="true" encoding="base64"></raw-data>
-  <state>new</state>
+  <state>pending_review</state>
   <tag>cache</tag>
   <title>IE7&gt;newsletter&gt;should hide the text field</title>
-  <updated-at type="datetime">2011-09-21T11:26:01+09:00</updated-at>
-  <user-id type="integer">79899</user-id>
-  <version type="integer">3</version>
-  <user-name>Shaoshing Lee</user-name>
+  <updated-at type="datetime">2011-09-23T03:21:06+09:00</updated-at>
+  <user-id type="integer">132540</user-id>
+  <version type="integer">5</version>
+  <user-name>Charles Shen</user-name>
   <creator-name>Tingting</creator-name>
-  <assigned-user-name>Shaoshing Lee</assigned-user-name>
+  <assigned-user-name>Charles Shen</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
   <milestone-title>Current Iteration</milestone-title>
   <priority-name>High</priority-name>
@@ -111,6 +111,74 @@
       <user-name>Shaoshing Lee</user-name>
       <creator-name>Tingting</creator-name>
       <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body>These widgets were cached by nginx SSI, so widgets depend on current user have to implement in another way:
+
+* Provide API to retrieve limited data of current user, like '/api/current_user'
+* Use javascript to retrieve current user data and display proper content</body>
+      <body-html>&lt;div&gt;&lt;p&gt;These widgets were cached by nginx SSI, so widgets depend on
+current user have to implement in another way:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide API to retrieve limited data of current user, like
+'/api/current_user'&lt;/li&gt;
+&lt;li&gt;Use javascript to retrieve current user data and display proper
+content&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-22T12:00:13+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">882</number>
+      <permalink>ie7newslettershould-hide-the-text-field</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag>cache</tag>
+      <title>IE7&gt;newsletter&gt;should hide the text field</title>
+      <updated-at type="datetime">2011-09-22T12:00:32+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">4</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-23T03:20:53+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">882</number>
+      <permalink>ie7newslettershould-hide-the-text-field</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>cache</tag>
+      <title>IE7&gt;newsletter&gt;should hide the text field</title>
+      <updated-at type="datetime">2011-09-23T03:21:06+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">5</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
       <url>http://theplant.lighthouseapp.com/projects/55575/tickets/882</url>
       <milestone-title>Current Iteration</milestone-title>
       <priority-name>High</priority-name>

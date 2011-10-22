@@ -2,7 +2,7 @@
 <ticket>
   <assigned-user-id type="integer">95021</assigned-user-id>
   <attachments-count type="integer">4</attachments-count>
-  <closed type="boolean">false</closed>
+  <closed type="boolean">true</closed>
   <created-at type="datetime">2011-09-15T22:39:51+09:00</created-at>
   <creator-id type="integer">95021</creator-id>
   <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
@@ -11,14 +11,14 @@
   <permalink>ie7login-pop-up-style</permalink>
   <priority type="integer">3</priority>
   <project-id type="integer">55575</project-id>
-  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
-  <state>pending_review</state>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
   <tag>css &quot;CSS&quot; ie7</tag>
   <title>IE7&gt;login pop-up style</title>
-  <updated-at type="datetime">2011-09-18T18:03:46+09:00</updated-at>
-  <user-id type="integer">154128</user-id>
-  <version type="integer">3</version>
-  <user-name>Yuan He</user-name>
+  <updated-at type="datetime">2011-10-10T14:57:20+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">4</version>
+  <user-name>Tingting</user-name>
   <creator-name>Tingting</creator-name>
   <assigned-user-name>Tingting</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/833</url>
@@ -110,6 +110,35 @@
       <user-id type="integer">154128</user-id>
       <version type="integer">3</version>
       <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/833</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body nil="true"></body>
+      <body-html nil="true"></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-10-10T14:57:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">833</number>
+      <permalink>ie7login-pop-up-style</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>css &quot;CSS&quot; ie7</tag>
+      <title>IE7&gt;login pop-up style</title>
+      <updated-at type="datetime">2011-10-10T14:57:20+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">4</version>
+      <user-name>Tingting</user-name>
       <creator-name>Tingting</creator-name>
       <assigned-user-name>Tingting</assigned-user-name>
       <url>http://theplant.lighthouseapp.com/projects/55575/tickets/833</url>

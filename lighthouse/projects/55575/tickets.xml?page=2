@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+  <total_pages>34</total_pages>
+  <current_page>2</current_page>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-20T10:49:59+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1006</number>
+    <permalink>error-when-create-knowledge</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>airbrake</tag>
+    <title>Error when create knowledge</title>
+    <updated-at type="datetime">2011-10-20T17:30:27+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">5</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1006</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `save' for #&lt;Object:0x007f26f76de4d8&gt;](http://theplant.airbrake.io/errors/14041913)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `save' for #&lt;Object:0x007f26f76de4d8&gt;](http://theplant.airbrake.io/errors/14041913)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrake.io/errors/14041913&quot;&gt;NoMethodError:
+NoMethodError: undefined method `save' for
+#&amp;lt;Object:0x007f26f76de4d8&amp;gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-20T10:50:56+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1007</number>
+    <permalink>payment-transaction-should-reflect-to-rescheduled-reservation</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Payment transaction should reflect to rescheduled reservation </title>
+    <updated-at type="datetime">2011-10-20T10:51:13+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">1</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1007</url>
+    <priority-name>Medium</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-15T16:41:09+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">820</number>
+    <permalink>nomethoderror-undefined-method-save-for-object0x007f2317d50598</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>NoMethodError: undefined method `save' for #&lt;Object:0x007f2317d50598&gt;</title>
+    <updated-at type="datetime">2011-10-20T10:50:00+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">5</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/820</url>
+    <priority-name>High</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `save' for #&lt;Object:0x007f23172d0208&gt;](http://theplant.airbrakeapp.com/errors/14041913)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `save' for #&lt;Object:0x007f23172d0208&gt;](http://theplant.airbrakeapp.com/errors/14041913)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14041913&quot;&gt;NoMethodError:
+NoMethodError: undefined method `save' for
+#&amp;lt;Object:0x007f23172d0208&amp;gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer" nil="true"></assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-17T00:15:31+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">852</number>
+    <permalink>simple-tip-can-not-compile</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>Simple Tip Can not compile</title>
+    <updated-at type="datetime">2011-10-19T16:28:30+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">2</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/852</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: lib/jquery.simpletip-1.3.1.min isn't precompiled](http://theplant.airbrakeapp.com/errors/13138101)</original-body>
+    <latest-body>Created from Airbrake: [Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: lib/jquery.simpletip-1.3.1.min isn't precompiled](http://theplant.airbrakeapp.com/errors/13138101)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/13138101&quot;&gt;Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError:
+Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError:
+lib/jquery.simpletip-1.3.1.min isn't precompiled&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-12T16:00:14+09:00</created-at>
+    <creator-id type="integer">132540</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">994</number>
+    <permalink>typeerror-cant-convert-nil-into-array</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>TypeError: can't convert nil into Array</title>
+    <updated-at type="datetime">2011-10-19T16:25:48+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">2</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Charles Shen</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/994</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: https://theplant.airbrakeapp.com/errors/16569485</original-body>
+    <latest-body>Created from Airbrake: https://theplant.airbrakeapp.com/errors/16569485</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;https://theplant.airbrakeapp.com/errors/16569485&quot;&gt;https://theplant.airbrakeapp.com/errors/16569485&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-19T13:36:52+09:00</created-at>
+    <creator-id type="integer">154128</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1004</number>
+    <permalink>refactor-france-outdoor-events-map</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>refactor france outdoor events map</title>
+    <updated-at type="datetime">2011-10-19T13:37:02+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">1</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Yuan He</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1004</url>
+    <priority-name>Low</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">8</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-15T23:46:19+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">837</number>
+    <permalink>ie7store-locatorcant-show-the-result</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>hold</state>
+    <tag>ie7 &quot;store locator&quot;</tag>
+    <title>IE7&gt;store locator&gt;can't show the result</title>
+    <updated-at type="datetime">2011-10-19T13:33:35+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">6</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/837</url>
+    <priority-name>High</priority-name>
+    <original-body>http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=london&amp;category_id=&amp;store_type=all&amp;=Search</original-body>
+    <latest-body>http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=london&amp;category_id=&amp;store_type=all&amp;=Search</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=london&amp;amp;category_id=&amp;amp;store_type=all&amp;amp;=Search&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/store_locator/?zip=lond...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-20T12:11:43+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">876</number>
+    <permalink>asics-changes-top-navigation-widgets-sportstyle-ayami</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>ASICS changes: Top Navigation, Widgets, SportStyle, AYAMi</title>
+    <updated-at type="datetime">2011-10-19T13:29:08+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">3</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/876</url>
+    <priority-name>Low</priority-name>
+    <original-body>Top Navigation
+1. Change AYAMI =&gt; AYAMi
+
+Widgets
+2. Remove store locator widget from all product pages since there is the new store locator lead below the product description
+
+ASICS SportStyle
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same space between title and description below.
+2.Remove image filter for now. Maybe it will come back in the future.
+
+AYAMi
+1. Clicking an AYAMi hotspots click jumps to top of page
+2. Change text in the Get Layering section from AYAMI =&gt; AYAMi</original-body>
+    <latest-body>Top Navigation
+1. Change AYAMI =&gt; AYAMi
+
+Widgets
+2. Remove store locator widget from all product pages since there is the new store locator lead below the product description
+
+ASICS SportStyle
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same space between title and description below.
+2.Remove image filter for now. Maybe it will come back in the future.
+
+AYAMi
+1. Clicking an AYAMi hotspots click jumps to top of page
+2. Change text in the Get Layering section from AYAMI =&gt; AYAMi</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Top Navigation&lt;br&gt;
+1. Change AYAMI =&amp;gt; AYAMi&lt;/p&gt;
+&lt;p&gt;Widgets&lt;br&gt;
+2. Remove store locator widget from all product pages since there
+is the new store locator lead below the product description&lt;/p&gt;
+&lt;p&gt;ASICS SportStyle&lt;br&gt;
+1.Change line-height on ASICS SportStyle to about 1.0. Keep same
+space between title and description below.&lt;br&gt;
+2.Remove image filter for now. Maybe it will come back in the
+future.&lt;/p&gt;
+&lt;p&gt;AYAMi&lt;br&gt;
+1. Clicking an AYAMi hotspots click jumps to top of page&lt;br&gt;
+2. Change text in the Get Layering section from AYAMI =&amp;gt;
+AYAMi&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-13T14:19:53+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">999</number>
+    <permalink>event-reservation-printing</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Event reservation printing</title>
+    <updated-at type="datetime">2011-10-19T13:11:32+09:00</updated-at>
+    <user-id type="integer">154128</user-id>
+    <version type="integer">2</version>
+    <user-name>Yuan He</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/999</url>
+    <priority-name>Low</priority-name>
+    <original-body>Example url
+
+http://www.fr.asics2.theplant-dev.com/outdoor/events/test/reservations/19269/</original-body>
+    <latest-body>Example url
+
+http://www.fr.asics2.theplant-dev.com/outdoor/events/test/reservations/19269/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Example url&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.fr.asics2.theplant-dev.com/outdoor/events/test/reservations/19269/&quot;&gt;
+http://www.fr.asics2.theplant-dev.com/outdoor/events/test/reservati...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2503</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-18T07:56:46+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1002</number>
+    <permalink>foot-idtech-tours-problem-with-poland</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>pending_review</state>
+    <tag nil="true"></tag>
+    <title>Foot ID/Tech Tours &gt; Problem with Poland</title>
+    <updated-at type="datetime">2011-10-19T11:20:17+09:00</updated-at>
+    <user-id type="integer">104778</user-id>
+    <version type="integer">3</version>
+    <user-name>Zhen Wu</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Anatole</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1002</url>
+    <priority-name>Low</priority-name>
+    <original-body>http://www.asics.pl/running/ (click on the Foot ID link)
+
+This is very urgent. Can someone please look at this as soon as possible this morning?</original-body>
+    <latest-body>http://www.asics.pl/running/ (click on the Foot ID link)
+
+This is very urgent. Can someone please look at this as soon as possible this morning?</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.asics.pl/running/&quot;&gt;http://www.asics.pl/running/&lt;/a&gt;
+(click on the Foot ID link)&lt;/p&gt;
+&lt;p&gt;This is very urgent. Can someone please look at this as soon as
+possible this morning?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-18T17:50:39+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1003</number>
+    <permalink>knowledge-type-cant-be-saved</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Knowledge type can't be saved</title>
+    <updated-at type="datetime">2011-10-18T17:51:03+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">1</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1003</url>
+    <priority-name>Low</priority-name>
+    <original-body>Already selected the type, the updated, but the type is still show&quot; Click to select&quot;.</original-body>
+    <latest-body>Already selected the type, the updated, but the type is still show&quot; Click to select&quot;.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Already selected the type, the updated, but the type is still
+show&quot; Click to select&quot;.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-12T19:06:59+09:00</created-at>
+    <creator-id type="integer">132540</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">995</number>
+    <permalink>filter-duplicate-data-from-widget</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Filter duplicate data from widget</title>
+    <updated-at type="datetime">2011-10-17T19:48:19+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">2</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Charles Shen</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/995</url>
+    <priority-name>Medium</priority-name>
+    <original-body>Filter duplicate data from widget, such as products widget.</original-body>
+    <latest-body>Filter duplicate data from widget, such as products widget.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Filter duplicate data from widget, such as products widget.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-08T19:56:59+09:00</created-at>
+    <creator-id type="integer">154128</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">326</number>
+    <permalink>mysql2error-table-asics_devbases-when-exec-rake-oldlinksto_sql</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag nil="true"></tag>
+    <title>Mysql2::Error: Table 'asics_dev.bases'  when exec rake old:links:to_sql </title>
+    <updated-at type="datetime">2011-10-17T16:04:17+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">2</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Yuan He</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/326</url>
+    <priority-name>Low</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">94027</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-14T16:14:53+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1000</number>
+    <permalink>adjust-zoom-level-of-activity</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Adjust zoom level of activity</title>
+    <updated-at type="datetime">2011-10-14T16:15:05+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">1</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>bin</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1000</url>
+    <priority-name>Low</priority-name>
+    <original-body>The current map is too zoom for activity.</original-body>
+    <latest-body>The current map is too zoom for activity.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;The current map is too zoom for activity.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-26T23:39:50+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">948</number>
+    <permalink>foot-id-text-wrong-before-the-reservation-is-confirmed</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Foot ID &gt; Text wrong before the reservation is confirmed.</title>
+    <updated-at type="datetime">2011-10-13T16:01:02+09:00</updated-at>
+    <user-id type="integer">104778</user-id>
+    <version type="integer">2</version>
+    <user-name>Zhen Wu</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/948</url>
+    <priority-name>Low</priority-name>
+    <original-body>See attached.</original-body>
+    <latest-body>See attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer" nil="true"></assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-13T14:19:35+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">998</number>
+    <permalink>event-reservation-printing</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Event reservation printing</title>
+    <updated-at type="datetime">2011-10-13T14:19:44+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">1</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/998</url>
+    <priority-name>Low</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-13T10:54:51+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">991</number>
+    <permalink>implement-rake-task-to-notify-foot-id-owners-about-upcoming-activities</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Implement rake task to notify foot id owners about upcoming activities</title>
+    <updated-at type="datetime">2011-10-13T11:04:39+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/991</url>
+    <priority-name>Low</priority-name>
+    <original-body>Please check if ASICS1 has the feature and implement it.</original-body>
+    <latest-body>Please check if ASICS1 has the feature and implement it.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Please check if ASICS1 has the feature and implement it.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-10T15:35:10+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">990</number>
+    <permalink>implement-rake-task-to-send-reservation-newsletters</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Implement rake task to send reservation newsletters</title>
+    <updated-at type="datetime">2011-10-13T11:04:28+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/990</url>
+    <priority-name>Medium</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-12T20:54:07+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">997</number>
+    <permalink>need-to-inspect-product-show-page</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Need to inspect product show page</title>
+    <updated-at type="datetime">2011-10-12T20:54:15+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/997</url>
+    <priority-name>Low</priority-name>
+    <original-body>@@@
+
+Started GET &quot;/indoor/products/gel-beyond-women/&quot; for 188.76.244.190 at 2011-10-12 11:46:15 +0000
+  Qor Measure unlocalize uri /indoor/products/gel-beyond-women (0.0ms)
+  Processing by ProductsController#show as HTML
+  Parameters: {&quot;category&quot;=&gt;&quot;indoor&quot;, &quot;id&quot;=&gt;&quot;gel-beyond-women&quot;}
+  Category Load (0.4ms)  SELECT `categories`.* FROM `categories` WHERE `categories`.`language_id` = 15 AND `categories`.`active` = 1 AND `categories`.`url_title` = 'indoor' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `categories`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (2.2ms)  SELECT `products`.* FROM `products` INNER JOIN `category_products` ON `products`.`id` = `category_products`.`product_id` WHERE `category_products`.`category_id` = 1149 AND `products`.`url_title` = 'gel-beyond-women' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `category_products`.`deleted_at` IS NULL) LIMIT 1
+   (1.5ms)  SELECT COUNT(*) FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null)
+  ProductVariation Load (2.6ms)  SELECT `product_variations`.* FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null) ORDER BY display_order ASC, created_at DESC LIMIT 1
+  Product Load (0.6ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  Season Load (0.2ms)  SELECT `seasons`.* FROM `seasons` WHERE `seasons`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `seasons`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+Rendered products/show/_scripts.html.erb (0.2ms)
+  SubCategory Load (2.4ms)  SELECT `sub_categories`.* FROM `sub_categories` INNER JOIN `sub_category_products` ON `sub_categories`.`id` = `sub_category_products`.`sub_category_id` WHERE `sub_category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_category_products`.`deleted_at` IS NULL)
+  Category Load (2.5ms)  SELECT `categories`.* FROM `categories` INNER JOIN `category_products` ON `categories`.`id` = `category_products`.`category_id` WHERE `category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `category_products`.`deleted_at` IS NULL)
+  ProductVariation Load (3.0ms)  SELECT `product_variations`.* FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null) ORDER BY display_order ASC, created_at DESC
+  CACHE (0.0ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `sub_categories`.* FROM `sub_categories` INNER JOIN `sub_category_products` ON `sub_categories`.`id` = `sub_category_products`.`sub_category_id` WHERE `sub_category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_category_products`.`deleted_at` IS NULL)
+Rendered products/show/_tools.html.slim (1.3ms)
+  ProductPronation Load (0.7ms)  SELECT `attributes`.* FROM `attributes` INNER JOIN `product_attributes` ON `attributes`.`id` = `product_attributes`.`attribute_id` WHERE `attributes`.`type` IN ('ProductPronation') AND `product_attributes`.`product_id` = 2057 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `attributes`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_attributes`.`deleted_at` IS NULL)
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) AND (name not in ('Unisex','Women'))
+   (1.0ms)  SELECT COUNT(*) FROM `products` WHERE `products`.`language_id` = 15 AND `products`.`url_title` = 'gel-beyond-men' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+   (0.7ms)  SELECT COUNT(*) FROM `products` WHERE `products`.`language_id` = 15 AND `products`.`url_title` = 'gel-beyond-kids' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+Rendered products/show/_info.html.slim (59.5ms)
+   (0.5ms)  SELECT COUNT(*) FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &gt; &quot;&quot; AND icon_file_name IS NOT NULL)
+  Technology Load (0.8ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &gt; &quot;&quot; AND icon_file_name IS NOT NULL) ORDER BY position
+   (1.0ms)  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) LIMIT 2) subquery_for_count 
+  CACHE (0.0ms)  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) LIMIT 2) subquery_for_count 
+  CACHE (0.0ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &gt; &quot;&quot; AND icon_file_name IS NOT NULL) ORDER BY position
+  Technology Load (1.0ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) ORDER BY position LIMIT 2
+Rendered products/show/_highlight_technology.html.slim (4.6ms)
+Rendered products/show/_technology.html.slim (2.1ms)
+Rendered products/show/_technologies.html.slim (67.4ms)
+  Qor::Widget::ViewSetting Load (0.7ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'recommendation_30153' AND `qor_widget_view_settings`.`widget_name` = 'product_recommendations' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`widget_name` = 'product_recommendations' AND `qor_widget_template_bundles`.`name` = 'default' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+No such file or directory - /home/app/app/releases/20111012062637/public/system/qor_widgets/product_recommendations/default/note.txt
+   (0.2ms)  BEGIN
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10075 LIMIT 1
+   (0.2ms)  SELECT DATABASE() as db
+*** switch to #draft# database ***
+   (0.1ms)  COMMIT
+  SQL (8.4ms)  UPDATE `qor_widget_template_bundles` SET `publish_status` = 0, `shadow_id` = 10075, `deleted_at` = NULL WHERE `qor_widget_template_bundles`.`id` = 10075
+   (0.2ms)  COMMIT
+*** switch to #original# database ***
+  Qor Measure Render Widget product_recommendations:{:setting_key=&gt;&quot;recommendation_30153&quot;} Item (79.5ms)
+  Qor::Addon::Setting Load (0.3ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'bazaarvoice_rating_review_15' AND `qor_addon_settings`.`addon_name` = 'BazaarvoiceRatingReview' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+Rendered bazaarvoice/_ratings_and_reviews.html.slim (19.5ms)
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'footwear' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.8ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (5.6ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (1) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'footwear' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (4.1ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (1) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'apparel/tops' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (3.6ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (3) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women','gel-domain-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'apparel/bottoms' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (3.9ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (4) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women','gel-domain-women')) ORDER BY RAND() LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` IN (40768, 38998) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+  ProductVariation Load (3.3ms)  SELECT `product_variations`.* FROM `product_variations` WHERE `product_variations`.`id` = 67041 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 40768 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  ProductVariation Load (0.7ms)  SELECT `product_variations`.* FROM `product_variations` WHERE `product_variations`.`id` = 67050 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 38998 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+Rendered products/show/_related_product.html.slim (30.2ms)
+Rendered products/show/_related_products.html.slim (81.5ms)
+Rendered products/show/_main_bottom.html.slim (253.9ms)
+  Qor::Widget::ViewSetting Load (0.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'products_sidebar_15_1' AND `qor_widget_view_settings`.`widget_group` = 'sidebar' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget sidebar:{:setting_key=&gt;&quot;products_sidebar_15_1&quot;, :default_widget=&gt;&quot;my_asics#sidebar&quot;} Item (2.5ms)
+  Qor::Widget::ViewSetting Load (1.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'sidebar_product_knowledge_article_indoor_15' AND `qor_widget_view_settings`.`widget_name` = 'sidebar_shared' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`widget_name` = 'sidebar_shared' AND `qor_widget_template_bundles`.`name` = 'default' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+No such file or directory - /home/app/app/releases/20111012062637/public/system/qor_widgets/sidebar_shared/default/note.txt
+   (0.4ms)  BEGIN
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 39 LIMIT 1
+   (1.1ms)  SELECT DATABASE() as db
+*** switch to #draft# database ***
+   (0.5ms)  COMMIT
+  SQL (4.5ms)  UPDATE `qor_widget_template_bundles` SET `publish_status` = 0, `shadow_id` = 39, `deleted_at` = NULL WHERE `qor_widget_template_bundles`.`id` = 39
+   (2.2ms)  COMMIT
+*** switch to #original# database ***
+  Qor Measure Render Widget sidebar_shared:{:setting_key=&gt;&quot;sidebar_product_knowledge_article_indoor_15&quot;, :class=&gt;&quot;articles&quot;} Item (168.2ms)
+  Qor::Widget::ViewSetting Load (0.4ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'products_sidebar_15_2' AND `qor_widget_view_settings`.`widget_group` = 'sidebar' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget sidebar:{:setting_key=&gt;&quot;products_sidebar_15_2&quot;, :default_widget=&gt;&quot;newsletter&quot;, :hide_when_subscribed_of_no_config=&gt;true} Item (3.2ms)
+Rendered products/show/_contextual_bottom.html.slim (174.6ms)
+Rendered products/show/default.html.slim within layouts/application (503.2ms)
+  Qor Measure generate meta tags for products#show (25.8ms)
+  Qor::Widget::ViewSetting Load (1.5ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'cssjs' AND `qor_widget_view_settings`.`widget_name` = 'cssjs' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget cssjs:{} Item (7.9ms)
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'header' AND `qor_widget_view_settings`.`widget_name` = 'header' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget header:{:category_id=&gt;1149} Item (2.1ms)
+  NavigationItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('NavigationItem') AND `links`.`language_id` = 15 AND `links`.`parent_id` IS NULL AND `links`.`url` = '/indoor/' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Link Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 71 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` IN (1373) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered layouts/_navigation_sub_menu.html.slim (8.7ms)
+  Qor::Widget::ViewSetting Load (0.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'footer' AND `qor_widget_view_settings`.`widget_name` = 'footer' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget footer:{} Item (1.4ms)
+  Qor::Addon::Setting Load (0.4ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'crazy_egg' AND `qor_addon_settings`.`addon_name` = 'CrazyEgg' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+   (0.1ms)  SELECT COUNT(*) FROM `languages` WHERE `languages`.`country_id` = 11 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL)
+Completed 200 OK in 586ms (Views: 411.4ms | ActiveRecord: 162.8ms)
+  &gt;&gt;&gt; Qor::Cache cache /indoor/products/gel-beyond-women by [/[\/\w\-\_\@]*$/] 
+  Qor::Cache::Key Load (0.9ms)  SELECT `qor_cache_keys`.* FROM `qor_cache_keys` WHERE `qor_cache_keys`.`key` = 'www.asics.es/indoor/products/gel-beyond-women/' LIMIT 1
+   (0.1ms)  BEGIN
+  SQL (0.3ms)  INSERT INTO `qor_cache_keys` (`key`, `publish_status`, `shadow_id`) VALUES ('www.asics.es/indoor/products/gel-beyond-women/', 0, NULL)
+   (4.9ms)  COMMIT
+  Qor::Cache::Writer wrote: www.asics.es/indoor/products/gel-beyond-women/ 
+
+
+@@@
+
+
+- It shouldn't updating drafts through production all the time.</original-body>
+    <latest-body>@@@
+
+Started GET &quot;/indoor/products/gel-beyond-women/&quot; for 188.76.244.190 at 2011-10-12 11:46:15 +0000
+  Qor Measure unlocalize uri /indoor/products/gel-beyond-women (0.0ms)
+  Processing by ProductsController#show as HTML
+  Parameters: {&quot;category&quot;=&gt;&quot;indoor&quot;, &quot;id&quot;=&gt;&quot;gel-beyond-women&quot;}
+  Category Load (0.4ms)  SELECT `categories`.* FROM `categories` WHERE `categories`.`language_id` = 15 AND `categories`.`active` = 1 AND `categories`.`url_title` = 'indoor' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `categories`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (2.2ms)  SELECT `products`.* FROM `products` INNER JOIN `category_products` ON `products`.`id` = `category_products`.`product_id` WHERE `category_products`.`category_id` = 1149 AND `products`.`url_title` = 'gel-beyond-women' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `category_products`.`deleted_at` IS NULL) LIMIT 1
+   (1.5ms)  SELECT COUNT(*) FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null)
+  ProductVariation Load (2.6ms)  SELECT `product_variations`.* FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null) ORDER BY display_order ASC, created_at DESC LIMIT 1
+  Product Load (0.6ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  Season Load (0.2ms)  SELECT `seasons`.* FROM `seasons` WHERE `seasons`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `seasons`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+Rendered products/show/_scripts.html.erb (0.2ms)
+  SubCategory Load (2.4ms)  SELECT `sub_categories`.* FROM `sub_categories` INNER JOIN `sub_category_products` ON `sub_categories`.`id` = `sub_category_products`.`sub_category_id` WHERE `sub_category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_category_products`.`deleted_at` IS NULL)
+  Category Load (2.5ms)  SELECT `categories`.* FROM `categories` INNER JOIN `category_products` ON `categories`.`id` = `category_products`.`category_id` WHERE `category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `category_products`.`deleted_at` IS NULL)
+  ProductVariation Load (3.0ms)  SELECT `product_variations`.* FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null) ORDER BY display_order ASC, created_at DESC
+  CACHE (0.0ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `sub_categories`.* FROM `sub_categories` INNER JOIN `sub_category_products` ON `sub_categories`.`id` = `sub_category_products`.`sub_category_id` WHERE `sub_category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_category_products`.`deleted_at` IS NULL)
+Rendered products/show/_tools.html.slim (1.3ms)
+  ProductPronation Load (0.7ms)  SELECT `attributes`.* FROM `attributes` INNER JOIN `product_attributes` ON `attributes`.`id` = `product_attributes`.`attribute_id` WHERE `attributes`.`type` IN ('ProductPronation') AND `product_attributes`.`product_id` = 2057 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `attributes`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_attributes`.`deleted_at` IS NULL)
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) AND (name not in ('Unisex','Women'))
+   (1.0ms)  SELECT COUNT(*) FROM `products` WHERE `products`.`language_id` = 15 AND `products`.`url_title` = 'gel-beyond-men' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+   (0.7ms)  SELECT COUNT(*) FROM `products` WHERE `products`.`language_id` = 15 AND `products`.`url_title` = 'gel-beyond-kids' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+Rendered products/show/_info.html.slim (59.5ms)
+   (0.5ms)  SELECT COUNT(*) FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &gt; &quot;&quot; AND icon_file_name IS NOT NULL)
+  Technology Load (0.8ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &gt; &quot;&quot; AND icon_file_name IS NOT NULL) ORDER BY position
+   (1.0ms)  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) LIMIT 2) subquery_for_count 
+  CACHE (0.0ms)  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) LIMIT 2) subquery_for_count 
+  CACHE (0.0ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &gt; &quot;&quot; AND icon_file_name IS NOT NULL) ORDER BY position
+  Technology Load (1.0ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) ORDER BY position LIMIT 2
+Rendered products/show/_highlight_technology.html.slim (4.6ms)
+Rendered products/show/_technology.html.slim (2.1ms)
+Rendered products/show/_technologies.html.slim (67.4ms)
+  Qor::Widget::ViewSetting Load (0.7ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'recommendation_30153' AND `qor_widget_view_settings`.`widget_name` = 'product_recommendations' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`widget_name` = 'product_recommendations' AND `qor_widget_template_bundles`.`name` = 'default' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+No such file or directory - /home/app/app/releases/20111012062637/public/system/qor_widgets/product_recommendations/default/note.txt
+   (0.2ms)  BEGIN
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10075 LIMIT 1
+   (0.2ms)  SELECT DATABASE() as db
+*** switch to #draft# database ***
+   (0.1ms)  COMMIT
+  SQL (8.4ms)  UPDATE `qor_widget_template_bundles` SET `publish_status` = 0, `shadow_id` = 10075, `deleted_at` = NULL WHERE `qor_widget_template_bundles`.`id` = 10075
+   (0.2ms)  COMMIT
+*** switch to #original# database ***
+  Qor Measure Render Widget product_recommendations:{:setting_key=&gt;&quot;recommendation_30153&quot;} Item (79.5ms)
+  Qor::Addon::Setting Load (0.3ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'bazaarvoice_rating_review_15' AND `qor_addon_settings`.`addon_name` = 'BazaarvoiceRatingReview' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+Rendered bazaarvoice/_ratings_and_reviews.html.slim (19.5ms)
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'footwear' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.8ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (5.6ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (1) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'footwear' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (4.1ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (1) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'apparel/tops' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (3.6ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (3) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women','gel-domain-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'apparel/bottoms' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (3.9ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (4) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women','gel-domain-women')) ORDER BY RAND() LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` IN (40768, 38998) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+  ProductVariation Load (3.3ms)  SELECT `product_variations`.* FROM `product_variations` WHERE `product_variations`.`id` = 67041 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 40768 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  ProductVariation Load (0.7ms)  SELECT `product_variations`.* FROM `product_variations` WHERE `product_variations`.`id` = 67050 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 38998 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+Rendered products/show/_related_product.html.slim (30.2ms)
+Rendered products/show/_related_products.html.slim (81.5ms)
+Rendered products/show/_main_bottom.html.slim (253.9ms)
+  Qor::Widget::ViewSetting Load (0.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'products_sidebar_15_1' AND `qor_widget_view_settings`.`widget_group` = 'sidebar' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget sidebar:{:setting_key=&gt;&quot;products_sidebar_15_1&quot;, :default_widget=&gt;&quot;my_asics#sidebar&quot;} Item (2.5ms)
+  Qor::Widget::ViewSetting Load (1.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'sidebar_product_knowledge_article_indoor_15' AND `qor_widget_view_settings`.`widget_name` = 'sidebar_shared' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`widget_name` = 'sidebar_shared' AND `qor_widget_template_bundles`.`name` = 'default' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+No such file or directory - /home/app/app/releases/20111012062637/public/system/qor_widgets/sidebar_shared/default/note.txt
+   (0.4ms)  BEGIN
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 39 LIMIT 1
+   (1.1ms)  SELECT DATABASE() as db
+*** switch to #draft# database ***
+   (0.5ms)  COMMIT
+  SQL (4.5ms)  UPDATE `qor_widget_template_bundles` SET `publish_status` = 0, `shadow_id` = 39, `deleted_at` = NULL WHERE `qor_widget_template_bundles`.`id` = 39
+   (2.2ms)  COMMIT
+*** switch to #original# database ***
+  Qor Measure Render Widget sidebar_shared:{:setting_key=&gt;&quot;sidebar_product_knowledge_article_indoor_15&quot;, :class=&gt;&quot;articles&quot;} Item (168.2ms)
+  Qor::Widget::ViewSetting Load (0.4ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'products_sidebar_15_2' AND `qor_widget_view_settings`.`widget_group` = 'sidebar' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget sidebar:{:setting_key=&gt;&quot;products_sidebar_15_2&quot;, :default_widget=&gt;&quot;newsletter&quot;, :hide_when_subscribed_of_no_config=&gt;true} Item (3.2ms)
+Rendered products/show/_contextual_bottom.html.slim (174.6ms)
+Rendered products/show/default.html.slim within layouts/application (503.2ms)
+  Qor Measure generate meta tags for products#show (25.8ms)
+  Qor::Widget::ViewSetting Load (1.5ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'cssjs' AND `qor_widget_view_settings`.`widget_name` = 'cssjs' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget cssjs:{} Item (7.9ms)
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'header' AND `qor_widget_view_settings`.`widget_name` = 'header' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget header:{:category_id=&gt;1149} Item (2.1ms)
+  NavigationItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('NavigationItem') AND `links`.`language_id` = 15 AND `links`.`parent_id` IS NULL AND `links`.`url` = '/indoor/' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Link Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 71 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` IN (1373) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered layouts/_navigation_sub_menu.html.slim (8.7ms)
+  Qor::Widget::ViewSetting Load (0.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'footer' AND `qor_widget_view_settings`.`widget_name` = 'footer' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget footer:{} Item (1.4ms)
+  Qor::Addon::Setting Load (0.4ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'crazy_egg' AND `qor_addon_settings`.`addon_name` = 'CrazyEgg' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+   (0.1ms)  SELECT COUNT(*) FROM `languages` WHERE `languages`.`country_id` = 11 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL)
+Completed 200 OK in 586ms (Views: 411.4ms | ActiveRecord: 162.8ms)
+  &gt;&gt;&gt; Qor::Cache cache /indoor/products/gel-beyond-women by [/[\/\w\-\_\@]*$/] 
+  Qor::Cache::Key Load (0.9ms)  SELECT `qor_cache_keys`.* FROM `qor_cache_keys` WHERE `qor_cache_keys`.`key` = 'www.asics.es/indoor/products/gel-beyond-women/' LIMIT 1
+   (0.1ms)  BEGIN
+  SQL (0.3ms)  INSERT INTO `qor_cache_keys` (`key`, `publish_status`, `shadow_id`) VALUES ('www.asics.es/indoor/products/gel-beyond-women/', 0, NULL)
+   (4.9ms)  COMMIT
+  Qor::Cache::Writer wrote: www.asics.es/indoor/products/gel-beyond-women/ 
+
+
+@@@
+
+
+- It shouldn't updating drafts through production all the time.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;
+Started GET &quot;/indoor/products/gel-beyond-women/&quot; for 188.76.244.190 at 2011-10-12 11:46:15 +0000
+  Qor Measure unlocalize uri /indoor/products/gel-beyond-women (0.0ms)
+  Processing by ProductsController#show as HTML
+  Parameters: {&quot;category&quot;=&amp;gt;&quot;indoor&quot;, &quot;id&quot;=&amp;gt;&quot;gel-beyond-women&quot;}
+  Category Load (0.4ms)  SELECT `categories`.* FROM `categories` WHERE `categories`.`language_id` = 15 AND `categories`.`active` = 1 AND `categories`.`url_title` = 'indoor' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `categories`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (2.2ms)  SELECT `products`.* FROM `products` INNER JOIN `category_products` ON `products`.`id` = `category_products`.`product_id` WHERE `category_products`.`category_id` = 1149 AND `products`.`url_title` = 'gel-beyond-women' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `category_products`.`deleted_at` IS NULL) LIMIT 1
+   (1.5ms)  SELECT COUNT(*) FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null)
+  ProductVariation Load (2.6ms)  SELECT `product_variations`.* FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null) ORDER BY display_order ASC, created_at DESC LIMIT 1
+  Product Load (0.6ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  Season Load (0.2ms)  SELECT `seasons`.* FROM `seasons` WHERE `seasons`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `seasons`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+Rendered products/show/_scripts.html.erb (0.2ms)
+  SubCategory Load (2.4ms)  SELECT `sub_categories`.* FROM `sub_categories` INNER JOIN `sub_category_products` ON `sub_categories`.`id` = `sub_category_products`.`sub_category_id` WHERE `sub_category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_category_products`.`deleted_at` IS NULL)
+  Category Load (2.5ms)  SELECT `categories`.* FROM `categories` INNER JOIN `category_products` ON `categories`.`id` = `category_products`.`category_id` WHERE `category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `category_products`.`deleted_at` IS NULL)
+  ProductVariation Load (3.0ms)  SELECT `product_variations`.* FROM `product_variations` INNER JOIN `products` ON `products`.`id` = `product_variations`.`product_id` WHERE `products`.`url_title` = 'gel-beyond-women' AND `product_variations`.`language_id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) AND (`product_variations`.`main_image_file_name` is not null) ORDER BY display_order ASC, created_at DESC
+  CACHE (0.0ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `sub_categories`.* FROM `sub_categories` INNER JOIN `sub_category_products` ON `sub_categories`.`id` = `sub_category_products`.`sub_category_id` WHERE `sub_category_products`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_categories`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `sub_category_products`.`deleted_at` IS NULL)
+Rendered products/show/_tools.html.slim (1.3ms)
+  ProductPronation Load (0.7ms)  SELECT `attributes`.* FROM `attributes` INNER JOIN `product_attributes` ON `attributes`.`id` = `product_attributes`.`attribute_id` WHERE `attributes`.`type` IN ('ProductPronation') AND `product_attributes`.`product_id` = 2057 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `attributes`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_attributes`.`deleted_at` IS NULL)
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) AND (name not in ('Unisex','Women'))
+   (1.0ms)  SELECT COUNT(*) FROM `products` WHERE `products`.`language_id` = 15 AND `products`.`url_title` = 'gel-beyond-men' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+   (0.7ms)  SELECT COUNT(*) FROM `products` WHERE `products`.`language_id` = 15 AND `products`.`url_title` = 'gel-beyond-kids' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+Rendered products/show/_info.html.slim (59.5ms)
+   (0.5ms)  SELECT COUNT(*) FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &amp;gt; &quot;&quot; AND icon_file_name IS NOT NULL)
+  Technology Load (0.8ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &amp;gt; &quot;&quot; AND icon_file_name IS NOT NULL) ORDER BY position
+   (1.0ms)  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) LIMIT 2) subquery_for_count 
+  CACHE (0.0ms)  SELECT COUNT(count_column) FROM (SELECT 1 AS count_column FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) LIMIT 2) subquery_for_count 
+  CACHE (0.0ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) AND (benefit IS NOT NULL and benefit &amp;gt; &quot;&quot; AND icon_file_name IS NOT NULL) ORDER BY position
+  Technology Load (1.0ms)  SELECT `technologies`.* FROM `technologies` INNER JOIN `product_technologies` ON `technologies`.`id` = `product_technologies`.`technology_id` WHERE `product_technologies`.`product_id` = 30153 AND `product_technologies`.`highlight` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `technologies`.`deleted_at` IS NULL) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_technologies`.`deleted_at` IS NULL) ORDER BY position LIMIT 2
+Rendered products/show/_highlight_technology.html.slim (4.6ms)
+Rendered products/show/_technology.html.slim (2.1ms)
+Rendered products/show/_technologies.html.slim (67.4ms)
+  Qor::Widget::ViewSetting Load (0.7ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'recommendation_30153' AND `qor_widget_view_settings`.`widget_name` = 'product_recommendations' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`widget_name` = 'product_recommendations' AND `qor_widget_template_bundles`.`name` = 'default' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+No such file or directory - /home/app/app/releases/20111012062637/public/system/qor_widgets/product_recommendations/default/note.txt
+   (0.2ms)  BEGIN
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 10075 LIMIT 1
+   (0.2ms)  SELECT DATABASE() as db
+*** switch to #draft# database ***
+   (0.1ms)  COMMIT
+  SQL (8.4ms)  UPDATE `qor_widget_template_bundles` SET `publish_status` = 0, `shadow_id` = 10075, `deleted_at` = NULL WHERE `qor_widget_template_bundles`.`id` = 10075
+   (0.2ms)  COMMIT
+*** switch to #original# database ***
+  Qor Measure Render Widget product_recommendations:{:setting_key=&amp;gt;&quot;recommendation_30153&quot;} Item (79.5ms)
+  Qor::Addon::Setting Load (0.3ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'bazaarvoice_rating_review_15' AND `qor_addon_settings`.`addon_name` = 'BazaarvoiceRatingReview' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+  Country Load (0.3ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+Rendered bazaarvoice/_ratings_and_reviews.html.slim (19.5ms)
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'footwear' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.8ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (5.6ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (1) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'footwear' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (4.1ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (1) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'apparel/tops' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.1ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 3 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (3.6ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (3) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women','gel-domain-women')) ORDER BY RAND() LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`url_title` = 'apparel/bottoms' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  ProductKind Load (0.2ms)  SELECT `product_kinds`.* FROM `product_kinds` WHERE `product_kinds`.`parent_id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_kinds`.`deleted_at` IS NULL) ORDER BY position
+  ProductGender Load (0.1ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  FilterItem Load (3.9ms)  SELECT product_id, url_title FROM `filter_items` WHERE `filter_items`.`language_id` = 15 AND `filter_items`.`category_id` = 1149 AND `filter_items`.`kind_id` IN (4) AND `filter_items`.`gender_id` IN (4, 2) AND (url_title NOT IN ('gel-beyond-women','gel-tactic-women','gel-domain-women')) ORDER BY RAND() LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` IN (40768, 38998) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL)
+  ProductVariation Load (3.3ms)  SELECT `product_variations`.* FROM `product_variations` WHERE `product_variations`.`id` = 67041 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 40768 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+  ProductVariation Load (0.7ms)  SELECT `product_variations`.* FROM `product_variations` WHERE `product_variations`.`id` = 67050 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_variations`.`deleted_at` IS NULL) LIMIT 1
+  Product Load (0.5ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 38998 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `products`.`deleted_at` IS NULL) LIMIT 1
+  ProductGender Load (0.2ms)  SELECT `product_genders`.* FROM `product_genders` WHERE `product_genders`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `product_genders`.`deleted_at` IS NULL) LIMIT 1
+Rendered products/show/_related_product.html.slim (30.2ms)
+Rendered products/show/_related_products.html.slim (81.5ms)
+Rendered products/show/_main_bottom.html.slim (253.9ms)
+  Qor::Widget::ViewSetting Load (0.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'products_sidebar_15_1' AND `qor_widget_view_settings`.`widget_group` = 'sidebar' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget sidebar:{:setting_key=&amp;gt;&quot;products_sidebar_15_1&quot;, :default_widget=&amp;gt;&quot;my_asics#sidebar&quot;} Item (2.5ms)
+  Qor::Widget::ViewSetting Load (1.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'sidebar_product_knowledge_article_indoor_15' AND `qor_widget_view_settings`.`widget_name` = 'sidebar_shared' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.4ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`widget_name` = 'sidebar_shared' AND `qor_widget_template_bundles`.`name` = 'default' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+No such file or directory - /home/app/app/releases/20111012062637/public/system/qor_widgets/sidebar_shared/default/note.txt
+   (0.4ms)  BEGIN
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 39 LIMIT 1
+   (1.1ms)  SELECT DATABASE() as db
+*** switch to #draft# database ***
+   (0.5ms)  COMMIT
+  SQL (4.5ms)  UPDATE `qor_widget_template_bundles` SET `publish_status` = 0, `shadow_id` = 39, `deleted_at` = NULL WHERE `qor_widget_template_bundles`.`id` = 39
+   (2.2ms)  COMMIT
+*** switch to #original# database ***
+  Qor Measure Render Widget sidebar_shared:{:setting_key=&amp;gt;&quot;sidebar_product_knowledge_article_indoor_15&quot;, :class=&amp;gt;&quot;articles&quot;} Item (168.2ms)
+  Qor::Widget::ViewSetting Load (0.4ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'products_sidebar_15_2' AND `qor_widget_view_settings`.`widget_group` = 'sidebar' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget sidebar:{:setting_key=&amp;gt;&quot;products_sidebar_15_2&quot;, :default_widget=&amp;gt;&quot;newsletter&quot;, :hide_when_subscribed_of_no_config=&amp;gt;true} Item (3.2ms)
+Rendered products/show/_contextual_bottom.html.slim (174.6ms)
+Rendered products/show/default.html.slim within layouts/application (503.2ms)
+  Qor Measure generate meta tags for products#show (25.8ms)
+  Qor::Widget::ViewSetting Load (1.5ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'cssjs' AND `qor_widget_view_settings`.`widget_name` = 'cssjs' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget cssjs:{} Item (7.9ms)
+  Qor::Widget::ViewSetting Load (0.3ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'header' AND `qor_widget_view_settings`.`widget_name` = 'header' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget header:{:category_id=&amp;gt;1149} Item (2.1ms)
+  NavigationItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('NavigationItem') AND `links`.`language_id` = 15 AND `links`.`parent_id` IS NULL AND `links`.`url` = '/indoor/' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position LIMIT 1
+  Link Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 71 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` IN (1373) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered layouts/_navigation_sub_menu.html.slim (8.7ms)
+  Qor::Widget::ViewSetting Load (0.2ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'footer' AND `qor_widget_view_settings`.`widget_name` = 'footer' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor Measure Render Widget footer:{} Item (1.4ms)
+  Qor::Addon::Setting Load (0.4ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'crazy_egg' AND `qor_addon_settings`.`addon_name` = 'CrazyEgg' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+   (0.1ms)  SELECT COUNT(*) FROM `languages` WHERE `languages`.`country_id` = 11 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL)
+Completed 200 OK in 586ms (Views: 411.4ms | ActiveRecord: 162.8ms)
+  &amp;gt;&amp;gt;&amp;gt; Qor::Cache cache /indoor/products/gel-beyond-women by [/[\/\w\-\_\@]*$/] 
+  Qor::Cache::Key Load (0.9ms)  SELECT `qor_cache_keys`.* FROM `qor_cache_keys` WHERE `qor_cache_keys`.`key` = 'www.asics.es/indoor/products/gel-beyond-women/' LIMIT 1
+   (0.1ms)  BEGIN
+  SQL (0.3ms)  INSERT INTO `qor_cache_keys` (`key`, `publish_status`, `shadow_id`) VALUES ('www.asics.es/indoor/products/gel-beyond-women/', 0, NULL)
+   (4.9ms)  COMMIT
+  Qor::Cache::Writer wrote: www.asics.es/indoor/products/gel-beyond-women/&lt;/code&gt;
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;It shouldn't updating drafts through production all the
+time.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-12T20:42:39+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">996</number>
+    <permalink>need-to-be-cached</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Need to be cached.</title>
+    <updated-at type="datetime">2011-10-12T20:42:51+09:00</updated-at>
+    <user-id type="integer">2504</user-id>
+    <version type="integer">1</version>
+    <user-name>Felix Sun</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/996</url>
+    <priority-name>Medium</priority-name>
+    <original-body>@@@
+
+Started GET &quot;/feeds/clean_header_footer.js&quot; for 81.246.22.234 at 2011-10-12 11:41:07 +0000
+  Qor Measure unlocalize uri /feeds/clean_header_footer.js (0.0ms)
+  Processing by FeedsController#clean_header_footer as JS
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'global' AND `qor_widget_view_settings`.`widget_name` = 'footer' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (1.4ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &gt; 0) ORDER BY position ASC
+  FooterItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR `links`.`children_count` IS NULL) ORDER BY position ASC
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2139 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2149 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered feeds/mini_site.js.erb (190.7ms)
+Completed 200 OK in 192ms (Views: 176.8ms | ActiveRecord: 14.8ms)
+  &gt;&gt;&gt; Qor::Cache skip /feeds/clean_header_footer.js by [/\.(js|css|xml)/, /^\/(admin|session... 
+
+
+@@@</original-body>
+    <latest-body>@@@
+
+Started GET &quot;/feeds/clean_header_footer.js&quot; for 81.246.22.234 at 2011-10-12 11:41:07 +0000
+  Qor Measure unlocalize uri /feeds/clean_header_footer.js (0.0ms)
+  Processing by FeedsController#clean_header_footer as JS
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'global' AND `qor_widget_view_settings`.`widget_name` = 'footer' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (1.4ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &gt; 0) ORDER BY position ASC
+  FooterItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR `links`.`children_count` IS NULL) ORDER BY position ASC
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2139 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2149 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered feeds/mini_site.js.erb (190.7ms)
+Completed 200 OK in 192ms (Views: 176.8ms | ActiveRecord: 14.8ms)
+  &gt;&gt;&gt; Qor::Cache skip /feeds/clean_header_footer.js by [/\.(js|css|xml)/, /^\/(admin|session... 
+
+
+@@@</latest-body>
+    <original-body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;
+Started GET &quot;/feeds/clean_header_footer.js&quot; for 81.246.22.234 at 2011-10-12 11:41:07 +0000
+  Qor Measure unlocalize uri /feeds/clean_header_footer.js (0.0ms)
+  Processing by FeedsController#clean_header_footer as JS
+  Qor::Widget::ViewSetting Load (0.6ms)  SELECT `qor_widget_view_settings`.* FROM `qor_widget_view_settings` WHERE `qor_widget_view_settings`.`setting_key` = 'global' AND `qor_widget_view_settings`.`widget_name` = 'footer' AND `qor_widget_view_settings`.`widget_group` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_view_settings`.`deleted_at` IS NULL) LIMIT 1
+  Qor::Widget::TemplateBundle Load (0.3ms)  SELECT `qor_widget_template_bundles`.* FROM `qor_widget_template_bundles` WHERE `qor_widget_template_bundles`.`id` = 35 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_widget_template_bundles`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (1.4ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) ORDER BY display_name
+  FooterItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` &amp;gt; 0) ORDER BY position ASC
+  FooterItem Load (0.2ms)  SELECT `links`.* FROM `links` WHERE `links`.`type` IN ('FooterItem') AND `links`.`language_id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) AND (parent_id IS NULL) AND (`links`.`children_count` = 0 OR `links`.`children_count` IS NULL) ORDER BY position ASC
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2139 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+  Link Load (0.6ms)  SELECT `links`.* FROM `links` WHERE `links`.`parent_id` = 2149 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `links`.`deleted_at` IS NULL) ORDER BY position
+Rendered feeds/mini_site.js.erb (190.7ms)
+Completed 200 OK in 192ms (Views: 176.8ms | ActiveRecord: 14.8ms)
+  &amp;gt;&amp;gt;&amp;gt; Qor::Cache skip /feeds/clean_header_footer.js by [/\.(js|css|xml)/, /^\/(admin|session...&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-28T10:23:25+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">952</number>
+    <permalink>widget-error-with-incorrect-setting-obj</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>Widget error with incorrect setting obj</title>
+    <updated-at type="datetime">2011-10-12T16:38:51+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/952</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `recommendations' for #&lt;WidgetSetting::SidebarShared:0x007fc6c21d3e28&gt;](http://theplant.airbrakeapp.com/errors/14888853)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `recommendations' for #&lt;WidgetSetting::SidebarShared:0x007fc6c21d3e28&gt;](http://theplant.airbrakeapp.com/errors/14888853)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14888853&quot;&gt;NoMethodError:
+NoMethodError: undefined method `recommendations' for
+#&amp;lt;WidgetSetting::SidebarShared:0x007fc6c21d3e28&amp;gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-26T22:40:05+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">947</number>
+    <permalink>picture-in-slideshow-is-broken</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>picture in slideshow is broken</title>
+    <updated-at type="datetime">2011-10-12T13:54:24+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">3</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/947</url>
+    <priority-name>High</priority-name>
+    <original-body>please check this link:
+http://www.asics.co.uk/running_clinics/pro_team/the-dietician-ruth-mckean/</original-body>
+    <latest-body>please check this link:
+http://www.asics.co.uk/running_clinics/pro_team/the-dietician-ruth-mckean/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;please check this link:&lt;br&gt;
+&lt;a href=
+&quot;http://www.asics.co.uk/running_clinics/pro_team/the-dietician-ruth-mckean/&quot;&gt;
+http://www.asics.co.uk/running_clinics/pro_team/the-dietician-ruth-...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">18874</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-11T17:31:15+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">993</number>
+    <permalink>error-when-creating-reservation-due-to-sync-to-draft-db</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag>airbrake</tag>
+    <title>Error when creating reservation due to sync to draft db</title>
+    <updated-at type="datetime">2011-10-11T17:53:35+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Juice</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/993</url>
+    <priority-name>High</priority-name>
+    <original-body>Created from Airbrake: [ActiveRecord::StatementInvalid: ActiveRecord::StatementInvalid: Mysql2::Error: Column 'reservable_id' cannot be null: INSERT INTO `activity_reservations` (`age`, `bib_number`, `booked`, `check_item`, `created_at`, `current_shoes`, `deleted_at`, `email`, `first_name`, `gender`, `heartrat](http://theplant.airbrakeapp.com/errors/15991093)</original-body>
+    <latest-body>Created from Airbrake: [ActiveRecord::StatementInvalid: ActiveRecord::StatementInvalid: Mysql2::Error: Column 'reservable_id' cannot be null: INSERT INTO `activity_reservations` (`age`, `bib_number`, `booked`, `check_item`, `created_at`, `current_shoes`, `deleted_at`, `email`, `first_name`, `gender`, `heartrat](http://theplant.airbrakeapp.com/errors/15991093)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/15991093&quot;&gt;ActiveRecord::StatementInvalid:
+ActiveRecord::StatementInvalid: Mysql2::Error: Column
+'reservable_id' cannot be null: INSERT INTO
+&lt;code&gt;activity_reservations&lt;/code&gt; (&lt;code&gt;age&lt;/code&gt;,
+&lt;code&gt;bib_number&lt;/code&gt;, &lt;code&gt;booked&lt;/code&gt;,
+&lt;code&gt;check_item&lt;/code&gt;, &lt;code&gt;created_at&lt;/code&gt;,
+&lt;code&gt;current_shoes&lt;/code&gt;, &lt;code&gt;deleted_at&lt;/code&gt;,
+&lt;code&gt;email&lt;/code&gt;, &lt;code&gt;first_name&lt;/code&gt;, &lt;code&gt;gender&lt;/code&gt;,
+`heartrat&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">5</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-07-12T12:59:49+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">198</number>
+    <permalink>running-clinics-team-member-page-got-404</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Running clinics team member page got 404</title>
+    <updated-at type="datetime">2011-10-11T16:15:01+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">7</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/198</url>
+    <priority-name>Medium</priority-name>
+    <original-body>1.Team Member list is wrong, and the Latest Articles style issue.
+
+2.Click the Team Member and the page got 404 error.</original-body>
+    <latest-body>1.Team Member list is wrong, and the Latest Articles style issue.
+
+2.Click the Team Member and the page got 404 error.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;1.Team Member list is wrong, and the Latest Articles style
+issue.&lt;/p&gt;
+&lt;p&gt;2.Click the Team Member and the page got 404 error.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-09T13:52:57+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">765</number>
+    <permalink>nlplease-change-another-store-lacotor-type</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag nil="true"></tag>
+    <title>NL&gt;please change another store lacotor type.</title>
+    <updated-at type="datetime">2011-10-11T15:23:22+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">3</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/765</url>
+    <priority-name>High</priority-name>
+    <original-body>After subscribed newsletter.
+
+http://www.nl.asics2-draft.theplant-dev.com/running/</original-body>
+    <latest-body>After subscribed newsletter.
+
+http://www.nl.asics2-draft.theplant-dev.com/running/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;After subscribed newsletter.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/running/&quot;&gt;http://www.nl.asics2-draft.theplant-dev.com/running/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-22T23:08:20+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">911</number>
+    <permalink>add-language_id-for-reservation</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>data</tag>
+    <title>Add language_id for reservation</title>
+    <updated-at type="datetime">2011-10-11T14:48:48+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">6</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/911</url>
+    <priority-name>High</priority-name>
+    <original-body>forward back after finishing this migration</original-body>
+    <latest-body>forward back after finishing this migration</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;forward back after finishing this migration&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">154128</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-11T10:55:00+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">992</number>
+    <permalink>error-on-search-autocomplete</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag>airbrake</tag>
+    <title>Error on search autocomplete</title>
+    <updated-at type="datetime">2011-10-11T11:03:25+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Yuan He</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/992</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `delete' for nil:NilClass](http://theplant.airbrakeapp.com/errors/15272945)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `delete' for nil:NilClass](http://theplant.airbrakeapp.com/errors/15272945)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/15272945&quot;&gt;NoMethodError:
+NoMethodError: undefined method `delete' for nil:NilClass&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-05T12:16:43+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">717</number>
+    <permalink>please-keep-the-text-accordance</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Please keep the text accordance</title>
+    <updated-at type="datetime">2011-10-10T17:47:22+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">5</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/717</url>
+    <priority-name>Low</priority-name>
+    <original-body>If on the clinic page, that show &quot;clinic&quot;, if on TechTour page, show&quot;TechTour&quot;&#65292;if on Foot ID page, show&quot;Foot ID&quot;</original-body>
+    <latest-body>If on the clinic page, that show &quot;clinic&quot;, if on TechTour page, show&quot;TechTour&quot;&#65292;if on Foot ID page, show&quot;Foot ID&quot;</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;If on the clinic page, that show &quot;clinic&quot;, if on TechTour page,
+show&quot;TechTour&quot;&amp;#65292;if on Foot ID page, show&quot;Foot ID&quot;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-04T15:08:41+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">574</number>
+    <permalink>no-translation-key</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>hold</state>
+    <tag>&quot;translation key&quot;</tag>
+    <title>No Translation key</title>
+    <updated-at type="datetime">2011-10-10T17:20:19+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">5</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/574</url>
+    <priority-name>High</priority-name>
+    <original-body>Follow words are missing the translation key on back end:
+
+* Thank you. We have sent you an email to confirm your email address. You will be subscribed as soon as you have confirmed your email.
+
+*%{account} is already subscribed to list {country} newsletter.
+
+*invalid email or password -----login
+
+*can't be blank---settings</original-body>
+    <latest-body>Follow words are missing the translation key on back end:
+
+* Thank you. We have sent you an email to confirm your email address. You will be subscribed as soon as you have confirmed your email.
+
+*%{account} is already subscribed to list {country} newsletter.
+
+*invalid email or password -----login
+
+*can't be blank---settings</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Follow words are missing the translation key on back end:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thank you. We have sent you an email to confirm your email
+address. You will be subscribed as soon as you have confirmed your
+email.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*%{account} is already subscribed to list {country}
+newsletter.&lt;/p&gt;
+&lt;p&gt;*invalid email or password -----login&lt;/p&gt;
+&lt;p&gt;*can't be blank---settings&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-26T19:16:58+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">539</number>
+    <permalink>different-translation-key</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag>&quot;translation key&quot;</tag>
+    <title>Different translation key</title>
+    <updated-at type="datetime">2011-10-10T17:19:20+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">3</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/539</url>
+    <priority-name>High</priority-name>
+    <original-body>http://www.pt.asics2-draft.theplant-dev.com/running/shoe_adviser/?use=13
+
+VS
+
+http://www.asics.pt/running/shoe_adviser/use/running/</original-body>
+    <latest-body>http://www.pt.asics2-draft.theplant-dev.com/running/shoe_adviser/?use=13
+
+VS
+
+http://www.asics.pt/running/shoe_adviser/use/running/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.pt.asics2-draft.theplant-dev.com/running/shoe_adviser/?use=13&quot;&gt;
+http://www.pt.asics2-draft.theplant-dev.com/running/shoe_adviser/?u...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;VS&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.asics.pt/running/shoe_adviser/use/running/&quot;&gt;http://www.asics.pt/running/shoe_adviser/use/running/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+</tickets>

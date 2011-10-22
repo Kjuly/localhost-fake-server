@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+  <total_pages>34</total_pages>
+  <current_page>1</current_page>
+  <ticket>
+    <assigned-user-id type="integer">18874</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-17T13:17:46+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1001</number>
+    <permalink>create-a-new-product-but-cant-show-on-the-front-end</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>open</state>
+    <tag nil="true"></tag>
+    <title>Create a new product, but can't show on the front end.</title>
+    <updated-at type="datetime">2011-10-21T16:37:12+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">5</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Juice</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1001</url>
+    <priority-name>High</priority-name>
+    <original-body>For example: www.uk.asics2-draft.theplant-dev.com/admin/products/44030/edit/</original-body>
+    <latest-body>For example: www.uk.asics2-draft.theplant-dev.com/admin/products/44030/edit/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;For example: &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/products/44030/edit/&quot;&gt;
+www.uk.asics2-draft.theplant-dev.com/admin/products/44030/edit/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-21T11:11:20+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1010</number>
+    <permalink>check-for-duplicate-keys-which-creating-products</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>pending_review</state>
+    <tag>airbrake</tag>
+    <title>Check for duplicate keys which creating products</title>
+    <updated-at type="datetime">2011-10-21T16:30:19+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">4</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1010</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [Mysql2::Error: Mysql2::Error: Duplicate entry '1161-40923' for key 'index_sub_category_products_on_sub_category_id_and_product_id'](http://theplant.airbrake.io/errors/17554133)</original-body>
+    <latest-body>Created from Airbrake: [Mysql2::Error: Mysql2::Error: Duplicate entry '1161-40923' for key 'index_sub_category_products_on_sub_category_id_and_product_id'](http://theplant.airbrake.io/errors/17554133)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrake.io/errors/17554133&quot;&gt;Mysql2::Error:
+Mysql2::Error: Duplicate entry '1161-40923' for key
+'index_sub_category_products_on_sub_category_id_and_product_id'&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-20T10:47:02+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1005</number>
+    <permalink>some-trail-event-raise-error</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>airbrake</tag>
+    <title>Some trail event raise error</title>
+    <updated-at type="datetime">2011-10-21T13:58:04+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">5</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1005</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `available?' for #&lt;Event::AsicsEvent:0x007f7a18ff8c98&gt;](http://theplant.airbrake.io/errors/17409621)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `available?' for #&lt;Event::AsicsEvent:0x007f7a18ff8c98&gt;](http://theplant.airbrake.io/errors/17409621)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrake.io/errors/17409621&quot;&gt;NoMethodError:
+NoMethodError: undefined method `available?' for
+#&amp;lt;Event::AsicsEvent:0x007f7a18ff8c98&amp;gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">5</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-11T21:52:51+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">783</number>
+    <permalink>stores-import-csv-is-mistaken-for-an-excel-and-gives-an-error</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Stores &gt; Import CSV is mistaken for an Excel and gives an error</title>
+    <updated-at type="datetime">2011-10-21T13:57:47+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/783</url>
+    <priority-name>Low</priority-name>
+    <original-body>See attached. Used on the UK with attached stores.</original-body>
+    <latest-body>See attached. Used on the UK with attached stores.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;See attached. Used on the UK with attached stores.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-21T11:12:19+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1011</number>
+    <permalink>regexperror-too-short-escape-sequence</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>airbrake</tag>
+    <title>RegexpError: too short escape sequence:</title>
+    <updated-at type="datetime">2011-10-21T13:57:25+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1011</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [RegexpError: RegexpError: too short escape sequence: /firenze\/](http://theplant.airbrake.io/errors/16798573)</original-body>
+    <latest-body>Created from Airbrake: [RegexpError: RegexpError: too short escape sequence: /firenze\/](http://theplant.airbrake.io/errors/16798573)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrake.io/errors/16798573&quot;&gt;RegexpError:
+RegexpError: too short escape sequence: /firenze\/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-21T11:10:44+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1009</number>
+    <permalink>reject-requests-for-no-supported-formats</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>airbrake</tag>
+    <title>Reject requests for no-supported formats </title>
+    <updated-at type="datetime">2011-10-21T13:57:15+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1009</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing template qor/widget/settings/show, application/show with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[&quot;image/jpeg&quot;, &quot;image/pjpeg&quot;, &quot;image/png&quot;, &quot;image/gif&quot;], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app/](http://theplant.airbrake.io/errors/17396129)</original-body>
+    <latest-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing template qor/widget/settings/show, application/show with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[&quot;image/jpeg&quot;, &quot;image/pjpeg&quot;, &quot;image/png&quot;, &quot;image/gif&quot;], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app/](http://theplant.airbrake.io/errors/17396129)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrake.io/errors/17396129&quot;&gt;ActionView::MissingTemplate:
+ActionView::MissingTemplate: Missing template
+qor/widget/settings/show, application/show with
+{:handlers=&amp;gt;[:erb, :builder, :slim], :formats=&amp;gt;[&quot;image/jpeg&quot;,
+&quot;image/pjpeg&quot;, &quot;image/png&quot;, &quot;image/gif&quot;], :locale=&amp;gt;[:&quot;en-uk&quot;,
+:en]}. Searched in: * &quot;/home/app/app/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">132540</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-27T11:40:45+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">556</number>
+    <permalink>admin-about-pages-active</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Admin &gt; About Pages &gt; Active?</title>
+    <updated-at type="datetime">2011-10-21T13:53:37+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">11</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Charles Shen</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/556</url>
+    <priority-name>Low</priority-name>
+    <original-body>http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages
+
+I think the word Active? is probably wrong... what does it really mean/do in this context? See attached.</original-body>
+    <latest-body>http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages
+
+I think the word Active? is probably wrong... what does it really mean/do in this context? See attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages&quot;&gt;http://www.uk.asics2-draft.theplant-dev.com/admin/about_pages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I think the word Active? is probably wrong... what does it
+really mean/do in this context? See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-17T20:19:41+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer">115207</milestone-id>
+    <number type="integer">384</number>
+    <permalink>lose-reservation-part</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>hold</state>
+    <tag>reservation</tag>
+    <title>Lose reservation part</title>
+    <updated-at type="datetime">2011-10-21T12:59:10+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/384</url>
+    <milestone-title>Post Launch</milestone-title>
+    <priority-name>High</priority-name>
+    <original-body>&quot;Make a Reservation&quot; is missing:
+
+http://www.nl.asics2-draft.theplant-dev.com/amsterdamstore/running_lab</original-body>
+    <latest-body>&quot;Make a Reservation&quot; is missing:
+
+http://www.nl.asics2-draft.theplant-dev.com/amsterdamstore/running_lab</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&quot;Make a Reservation&quot; is missing:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.nl.asics2-draft.theplant-dev.com/amsterdamstore/running_lab&quot;&gt;
+http://www.nl.asics2-draft.theplant-dev.com/amsterdamstore/running_lab&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-03T11:25:16+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">981</number>
+    <permalink>update-widget-for-es-trail</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag nil="true"></tag>
+    <title>Update widget for ES trail </title>
+    <updated-at type="datetime">2011-10-21T11:55:00+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/981</url>
+    <priority-name>Low</priority-name>
+    <original-body>&gt; http://www.asics.es/trail vs
+&gt; http://www.es.dev2.asics.eu/trail/
+
+Lost the community event widget
+And the knowledge widget displays duplicate</original-body>
+    <latest-body>&gt; http://www.asics.es/trail vs
+&gt; http://www.es.dev2.asics.eu/trail/
+
+Lost the community event widget
+And the knowledge widget displays duplicate</latest-body>
+    <original-body-html>&lt;div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.asics.es/trail&quot;&gt;http://www.asics.es/trail&lt;/a&gt; vs
+&lt;a href=
+&quot;http://www.es.dev2.asics.eu/trail/&quot;&gt;http://www.es.dev2.asics.eu/trail/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Lost the community event widget&lt;br&gt;
+And the knowledge widget displays duplicate&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-30T14:45:19+09:00</created-at>
+    <creator-id type="integer">104778</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">978</number>
+    <permalink>qor-cache-issue</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag nil="true"></tag>
+    <title>Qor cache issue</title>
+    <updated-at type="datetime">2011-10-21T11:54:40+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Zhen Wu</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/978</url>
+    <priority-name>Medium</priority-name>
+    <original-body>please visit http://www.nl.asics2.theplant-dev.com/qor/widget/settings/5537/LS0tIAo6c2V0dGluZ19rZXk6IHRlY2hfdG91cl9yZWxhdGVkX2FydGljbGVz@XzIKOmNhdGVnb3J5X2lkOiAxMDY4CjpyZWxhdGVkX2FydGljbGU6IEdFUkVM@QVRFRVJERSBBUlRJS0VMRU4KOmRlZmF1bHRfdGVtcGxhdGVfYnVuZGxlOiBz@aWRlYmFyCg==@/2634465626/</original-body>
+    <latest-body>please visit http://www.nl.asics2.theplant-dev.com/qor/widget/settings/5537/LS0tIAo6c2V0dGluZ19rZXk6IHRlY2hfdG91cl9yZWxhdGVkX2FydGljbGVz@XzIKOmNhdGVnb3J5X2lkOiAxMDY4CjpyZWxhdGVkX2FydGljbGU6IEdFUkVM@QVRFRVJERSBBUlRJS0VMRU4KOmRlZmF1bHRfdGVtcGxhdGVfYnVuZGxlOiBz@aWRlYmFyCg==@/2634465626/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;please visit &lt;a href=
+&quot;http://www.nl.asics2.theplant-dev.com/qor/widget/settings/5537/LS0tIAo6c2V0dGluZ19rZXk6IHRlY2hfdG91cl9yZWxhdGVkX2FydGljbGVz@XzIKOmNhdGVnb3J5X2lkOiAxMDY4CjpyZWxhdGVkX2FydGljbGU6IEdFUkVM@QVRFRVJERSBBUlRJS0VMRU4KOmRlZmF1bHRfdGVtcGxhdGVfYnVuZGxlOiBz@aWRlYmFyCg==@/2634465626/&quot;&gt;
+http://www.nl.asics2.theplant-dev.com/qor/widget/settings/5537/LS0t...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">44985</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-09-20T12:15:29+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">878</number>
+    <permalink>asics-changes-shoe-advisor-etc</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>open</state>
+    <tag nil="true"></tag>
+    <title>ASICS changes: Shoe Advisor etc.</title>
+    <updated-at type="datetime">2011-10-21T11:51:16+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Jun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/878</url>
+    <priority-name>Low</priority-name>
+    <original-body>Shoe Advisor
+1.Change the text of the word &#8220;severly&#8221; =&gt; &#8220;severely&#8221;
+2.Change all Shoe adviser =&gt; Shoe advisor system-wide. Including URL. 
+3.Remove the introduction line &#8220;Hello {name},&#8221;
+
+Flagship Store
+1. Information in boxes in Running Clinics should have same fonts, weights, spacing and should align. The titles &#8220;Who can Join&#8221; and &#8220;About the Running Clinics&#8221; should be a little bigger font and the same blue color as used elsewhere on the page titles.
+
+Product Page
+1. Some technology text is cut.
+
+Product Catalog
+1. Catalog migration problems. MIssing a lot of products in all categories. Compare all categories (hockey, netball, running, etc.)
+2. http://www.uk.asics2-draft.theplant-dev.com/running/products/apparel/ =&gt; title is broken
+
+Category Product Top (e.g. /running/products)
+1. Currently many countries have less than 4 products listed. Change behavior so that if &lt; 4 products are selected, the remaining 4 products are automatically displayed.
+2. Product selection widget deletion problem: deleting a product did not remove from page.
+
+Product Top (/products)
+1. Only show more sports if there are more sports.
+
+Walking Page
+1. Move My ASICS widget to right side of Walking so that the page has better balance.</original-body>
+    <latest-body>Shoe Advisor
+1.Change the text of the word &#8220;severly&#8221; =&gt; &#8220;severely&#8221;
+2.Change all Shoe adviser =&gt; Shoe advisor system-wide. Including URL. 
+3.Remove the introduction line &#8220;Hello {name},&#8221;
+
+Flagship Store
+1. Information in boxes in Running Clinics should have same fonts, weights, spacing and should align. The titles &#8220;Who can Join&#8221; and &#8220;About the Running Clinics&#8221; should be a little bigger font and the same blue color as used elsewhere on the page titles.
+
+Product Page
+1. Some technology text is cut.
+
+Product Catalog
+1. Catalog migration problems. MIssing a lot of products in all categories. Compare all categories (hockey, netball, running, etc.)
+2. http://www.uk.asics2-draft.theplant-dev.com/running/products/apparel/ =&gt; title is broken
+
+Category Product Top (e.g. /running/products)
+1. Currently many countries have less than 4 products listed. Change behavior so that if &lt; 4 products are selected, the remaining 4 products are automatically displayed.
+2. Product selection widget deletion problem: deleting a product did not remove from page.
+
+Product Top (/products)
+1. Only show more sports if there are more sports.
+
+Walking Page
+1. Move My ASICS widget to right side of Walking so that the page has better balance.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Shoe Advisor&lt;br&gt;
+1.Change the text of the word &amp;#8220;severly&amp;#8221; =&amp;gt;
+&amp;#8220;severely&amp;#8221;&lt;br&gt;
+2.Change all Shoe adviser =&amp;gt; Shoe advisor system-wide. Including
+URL.&lt;br&gt;
+3.Remove the introduction line &amp;#8220;Hello {name},&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Flagship Store&lt;br&gt;
+1. Information in boxes in Running Clinics should have same fonts,
+weights, spacing and should align. The titles &amp;#8220;Who can
+Join&amp;#8221; and &amp;#8220;About the Running Clinics&amp;#8221; should be a
+little bigger font and the same blue color as used elsewhere on the
+page titles.&lt;/p&gt;
+&lt;p&gt;Product Page&lt;br&gt;
+1. Some technology text is cut.&lt;/p&gt;
+&lt;p&gt;Product Catalog&lt;br&gt;
+1. Catalog migration problems. MIssing a lot of products in all
+categories. Compare all categories (hockey, netball, running,
+etc.)&lt;br&gt;
+2. &lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/products/apparel/&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/running/products/apparel/&lt;/a&gt;
+=&amp;gt; title is broken&lt;/p&gt;
+&lt;p&gt;Category Product Top (e.g. /running/products)&lt;br&gt;
+1. Currently many countries have less than 4 products listed.
+Change behavior so that if &amp;lt; 4 products are selected, the
+remaining 4 products are automatically displayed.&lt;br&gt;
+2. Product selection widget deletion problem: deleting a product
+did not remove from page.&lt;/p&gt;
+&lt;p&gt;Product Top (/products)&lt;br&gt;
+1. Only show more sports if there are more sports.&lt;/p&gt;
+&lt;p&gt;Walking Page&lt;br&gt;
+1. Move My ASICS widget to right side of Walking so that the page
+has better balance.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-28T10:31:34+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">955</number>
+    <permalink>visiting-post-error</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>Visiting post error</title>
+    <updated-at type="datetime">2011-10-21T11:49:00+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">8</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/955</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `mounted_at' for nil:NilClass](http://theplant.airbrakeapp.com/errors/12544661)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `mounted_at' for nil:NilClass](http://theplant.airbrakeapp.com/errors/12544661)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12544661&quot;&gt;NoMethodError:
+NoMethodError: undefined method `mounted_at' for
+nil:NilClass&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-28T10:26:36+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">953</number>
+    <permalink>visiting-sport-style-products-error</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>Visiting sport style products error</title>
+    <updated-at type="datetime">2011-10-21T11:47:36+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/953</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [RuntimeError: RuntimeError: Could not find any product.](http://theplant.airbrakeapp.com/errors/14896489)</original-body>
+    <latest-body>Created from Airbrake: [RuntimeError: RuntimeError: Could not find any product.](http://theplant.airbrakeapp.com/errors/14896489)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14896489&quot;&gt;RuntimeError:
+RuntimeError: Could not find any product.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-12T15:59:00+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">342</number>
+    <permalink>user-charts-stats-shoe-profile-activation</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>User charts: stats, shoe profile, activation</title>
+    <updated-at type="datetime">2011-10-21T11:45:07+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">6</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/342</url>
+    <priority-name>Low</priority-name>
+    <original-body>Please use Google chart that used in dashboard.</original-body>
+    <latest-body>Please use Google chart that used in dashboard.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Please use Google chart that used in dashboard.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-06T16:37:26+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">726</number>
+    <permalink>image-size-ir-wrong</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Image size ir wrong</title>
+    <updated-at type="datetime">2011-10-21T11:44:58+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">7</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/726</url>
+    <priority-name>Medium</priority-name>
+    <original-body>http://www.uk.asics2-draft.theplant-dev.com/running/ambassadors/ryan-hall/</original-body>
+    <latest-body>http://www.uk.asics2-draft.theplant-dev.com/running/ambassadors/ryan-hall/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.uk.asics2-draft.theplant-dev.com/running/ambassadors/ryan-hall/&quot;&gt;
+http://www.uk.asics2-draft.theplant-dev.com/running/ambassadors/rya...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">44985</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-29T07:06:44+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">601</number>
+    <permalink>amsterdam-store-language-switch-doesnt-work</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Amsterdam Store &gt; Language switch doesn't work</title>
+    <updated-at type="datetime">2011-10-21T11:41:48+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Jun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/601</url>
+    <priority-name>Low</priority-name>
+    <original-body>See attached.</original-body>
+    <latest-body>See attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">104778</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-10-03T22:39:46+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">983</number>
+    <permalink>foot-idtech-toursrunning-labs-notification-email</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Foot ID/Tech Tours/Running Labs (?) &gt; Notification Email</title>
+    <updated-at type="datetime">2011-10-21T11:40:18+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Zhen Wu</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/983</url>
+    <priority-name>Low</priority-name>
+    <original-body>I'm not exactly sure how the previous system works, but I believe it was programmed to send a notification to the Tech Rep to notify them of the registrants one or two days before the event. 
+
+### Questions:
+
+1. Does the current system support this?
+2. How does a Tech Rep check the admin for an event that is happening now (e.g. an expired event that won't show up on the front end)?</original-body>
+    <latest-body>I'm not exactly sure how the previous system works, but I believe it was programmed to send a notification to the Tech Rep to notify them of the registrants one or two days before the event. 
+
+### Questions:
+
+1. Does the current system support this?
+2. How does a Tech Rep check the admin for an event that is happening now (e.g. an expired event that won't show up on the front end)?</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;I'm not exactly sure how the previous system works, but I
+believe it was programmed to send a notification to the Tech Rep to
+notify them of the registrants one or two days before the
+event.&lt;/p&gt;
+&lt;h3&gt;Questions:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Does the current system support this?&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;How does a Tech Rep check the admin for an event that is
+happening now (e.g. an expired event that won't show up on the
+front end)?&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-20T13:16:15+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">427</number>
+    <permalink>ftp-user-shouldnt-be-able-to-access-qor_jobs</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>FTP User &gt; Shouldn't be able to access qor_jobs?</title>
+    <updated-at type="datetime">2011-10-21T11:34:12+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/427</url>
+    <priority-name>Low</priority-name>
+    <original-body>Seems strange that a 3rd party could see this. Possible to move elsewhere? See attached.</original-body>
+    <latest-body>Seems strange that a 3rd party could see this. Possible to move elsewhere? See attached.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Seems strange that a 3rd party could see this. Possible to move
+elsewhere? See attached.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-15T17:12:00+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">823</number>
+    <permalink>ayami-product-show-highlight-ayami</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>AYAMi product show highlight AYAMi</title>
+    <updated-at type="datetime">2011-10-21T11:33:38+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/823</url>
+    <priority-name>Low</priority-name>
+    <original-body>The top navigation bar is highlighted in &quot;Products&quot;, But it should be &quot;AYAMi&quot;</original-body>
+    <latest-body>The top navigation bar is highlighted in &quot;Products&quot;, But it should be &quot;AYAMi&quot;</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;The top navigation bar is highlighted in &quot;Products&quot;, But it
+should be &quot;AYAMi&quot;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-31T12:27:59+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">639</number>
+    <permalink>go-through-all-code-should-raise-activerecordrecordnotfound-in-controller-in-order-for-nginx-to-handle-404-page-not-return-not_found</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>Go through All code should raise ActiveRecord::RecordNotFound in controller, in order for nginx to handle 404 page, Not return not_found</title>
+    <updated-at type="datetime">2011-10-21T11:32:33+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/639</url>
+    <priority-name>Medium</priority-name>
+    <original-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing template /errors/404.html with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110831003047/app/views&quot; * &quot;/home/app/app_draft/releases/2](http://theplant.airbrakeapp.com/errors/12478765)</original-body>
+    <latest-body>Created from Airbrake: [ActionView::MissingTemplate: ActionView::MissingTemplate: Missing template /errors/404.html with {:handlers=&gt;[:erb, :builder, :slim], :formats=&gt;[:html], :locale=&gt;[:&quot;en-uk&quot;, :en]}. Searched in: * &quot;/home/app/app_draft/releases/20110831003047/app/views&quot; * &quot;/home/app/app_draft/releases/2](http://theplant.airbrakeapp.com/errors/12478765)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12478765&quot;&gt;ActionView::MissingTemplate:
+ActionView::MissingTemplate: Missing template /errors/404.html with
+{:handlers=&amp;gt;[:erb, :builder, :slim], :formats=&amp;gt;[:html],
+:locale=&amp;gt;[:&quot;en-uk&quot;, :en]}. Searched in: *
+&quot;/home/app/app_draft/releases/20110831003047/app/views&quot; *
+&quot;/home/app/app_draft/releases/2&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-23T19:18:18+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">501</number>
+    <permalink>link-to-picture-hover-shouldn</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Link to picture hover shouldn't have blue bottom border</title>
+    <updated-at type="datetime">2011-10-21T11:32:24+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/501</url>
+    <priority-name>Medium</priority-name>
+    <original-body></original-body>
+    <latest-body></latest-body>
+    <original-body-html></original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">2504</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-17T00:15:32+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">853</number>
+    <permalink>simple-tip-can-not-compile</permalink>
+    <priority type="integer">1</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag>hoptoad</tag>
+    <title>Simple Tip Can not compile</title>
+    <updated-at type="datetime">2011-10-21T11:32:10+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Felix Sun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/853</url>
+    <priority-name>High</priority-name>
+    <original-body>Created from Airbrake: [Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: lib/jquery.simpletip-1.3.1.min isn't precompiled](http://theplant.airbrakeapp.com/errors/13138101)</original-body>
+    <latest-body>Created from Airbrake: [Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError: lib/jquery.simpletip-1.3.1.min isn't precompiled](http://theplant.airbrakeapp.com/errors/13138101)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/13138101&quot;&gt;Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError:
+Sprockets::Helpers::RailsHelper::AssetPaths::AssetNotPrecompiledError:
+lib/jquery.simpletip-1.3.1.min isn't precompiled&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">44985</assigned-user-id>
+    <attachments-count type="integer">2</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-23T21:11:36+09:00</created-at>
+    <creator-id type="integer">2503</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">923</number>
+    <permalink>2-new-stand-alone-page-needed-for-nl-on-monday-sept-26-for-launch</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>2 New stand-alone page needed for NL on Monday, Sept 26 (for launch)</title>
+    <updated-at type="datetime">2011-10-21T11:31:26+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">4</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Anatole</creator-name>
+    <assigned-user-name>Jun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/923</url>
+    <priority-name>Low</priority-name>
+    <original-body>Both of these pages **should not** be connected to the normal knowledge articles (they are linked directly from a newsletter)
+
+### Page 1
+
+&gt; This page needs to be hidden, but could have a URL something like:
+&gt; http://www.asics.nl/running/knowledge/performance/WK-Atletiek-Daegu
+
+Assets attached 
+
+
+### Page 2
+
+&gt; This is a product related page, so can we have this as a hidden page with a URL relating to the products pages, something like:
+
+&gt; http://www.asics.nl/running/products/najaarscollectie_runningkleding
+
+&gt; Where it says Klik hier voor de complete runningkleding collectie, the hier needs to be linked to http://www.asics.nl/products/
+
+Assets attached. 
+
+
+
+Please make these in the easiest way possible. Please discuss with ShaoShing or Felix about the best way tot do this.</original-body>
+    <latest-body>Both of these pages **should not** be connected to the normal knowledge articles (they are linked directly from a newsletter)
+
+### Page 1
+
+&gt; This page needs to be hidden, but could have a URL something like:
+&gt; http://www.asics.nl/running/knowledge/performance/WK-Atletiek-Daegu
+
+Assets attached 
+
+
+### Page 2
+
+&gt; This is a product related page, so can we have this as a hidden page with a URL relating to the products pages, something like:
+
+&gt; http://www.asics.nl/running/products/najaarscollectie_runningkleding
+
+&gt; Where it says Klik hier voor de complete runningkleding collectie, the hier needs to be linked to http://www.asics.nl/products/
+
+Assets attached. 
+
+
+
+Please make these in the easiest way possible. Please discuss with ShaoShing or Felix about the best way tot do this.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Both of these pages &lt;strong&gt;should not&lt;/strong&gt; be connected to
+the normal knowledge articles (they are linked directly from a
+newsletter)&lt;/p&gt;
+&lt;h3&gt;Page 1&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This page needs to be hidden, but could have a URL something
+like: &lt;a href=
+&quot;http://www.asics.nl/running/knowledge/performance/WK-Atletiek-Daegu&quot;&gt;
+http://www.asics.nl/running/knowledge/performance/WK-Atletiek-Daegu&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Assets attached&lt;/p&gt;
+&lt;h3&gt;Page 2&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a product related page, so can we have this as a hidden
+page with a URL relating to the products pages, something like:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.asics.nl/running/products/najaarscollectie_runningkleding&quot;&gt;
+http://www.asics.nl/running/products/najaarscollectie_runningkleding&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Where it says Klik hier voor de complete runningkleding
+collectie, the hier needs to be linked to &lt;a href=
+&quot;http://www.asics.nl/products/&quot;&gt;http://www.asics.nl/products/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Assets attached.&lt;/p&gt;
+&lt;p&gt;Please make these in the easiest way possible. Please discuss
+with ShaoShing or Felix about the best way tot do this.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">44985</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-28T10:32:15+09:00</created-at>
+    <creator-id type="integer">79899</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">956</number>
+    <permalink>login-status-header-error</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag>hoptoad</tag>
+    <title>Login status header error </title>
+    <updated-at type="datetime">2011-10-21T11:30:38+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Shaoshing Lee</creator-name>
+    <assigned-user-name>Jun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/956</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `ref' for nil:NilClass](http://theplant.airbrakeapp.com/errors/14984317)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `ref' for nil:NilClass](http://theplant.airbrakeapp.com/errors/14984317)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/14984317&quot;&gt;NoMethodError:
+NoMethodError: undefined method `ref' for nil:NilClass&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">44985</assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-02T22:28:43+09:00</created-at>
+    <creator-id type="integer">2504</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">679</number>
+    <permalink>img2pic_store_locator_leadin_ukpng-not-found</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag nil="true"></tag>
+    <title>/img2/pic_store_locator_leadin_uk.png Not found</title>
+    <updated-at type="datetime">2011-10-21T11:29:20+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">2</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Felix Sun</creator-name>
+    <assigned-user-name>Jun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/679</url>
+    <priority-name>Medium</priority-name>
+    <original-body>@@@
+
+
+Started GET &quot;/img2/pic_store_locator_leadin_uk.png&quot; for 115.238.44.107 at 2011-09-02 11:01:00 +0000
+  Country Load (1.1ms)  SELECT `countries`.* FROM `countries` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL)
+  Language Load (1.8ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 100) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) AND (`languages`.`active` = 1)
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 31 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 10 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 20 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 21 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 21 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 34 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 36 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 37 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 38 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 40 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 39 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 31 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 42 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 44 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 33 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 100 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  UrlRedirect Load (5.5ms)  SELECT `url_redirects`.* FROM `url_redirects` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `url_redirects`.`deleted_at` IS NULL)
+  MiniSite Load (1.1ms)  SELECT `mini_sites`.* FROM `mini_sites` WHERE `mini_sites`.`language_id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `mini_sites`.`deleted_at` IS NULL)
+  CACHE (0.0ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'asics_flagship_2' AND `qor_addon_settings`.`addon_name` = 'Flagship' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'asics_flagship_2' AND `qor_addon_settings`.`addon_name` = 'Flagship' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+
+ActionController::RoutingError (No route matches [GET] &quot;/img2/pic_store_locator_leadin_uk.png&quot;):
+  
+
+
+@@@</original-body>
+    <latest-body>@@@
+
+
+Started GET &quot;/img2/pic_store_locator_leadin_uk.png&quot; for 115.238.44.107 at 2011-09-02 11:01:00 +0000
+  Country Load (1.1ms)  SELECT `countries`.* FROM `countries` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL)
+  Language Load (1.8ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 100) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) AND (`languages`.`active` = 1)
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 31 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 10 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 20 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 21 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 21 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 34 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 36 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 37 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 38 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 40 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 39 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 31 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 42 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 44 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 33 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 100 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  UrlRedirect Load (5.5ms)  SELECT `url_redirects`.* FROM `url_redirects` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `url_redirects`.`deleted_at` IS NULL)
+  MiniSite Load (1.1ms)  SELECT `mini_sites`.* FROM `mini_sites` WHERE `mini_sites`.`language_id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `mini_sites`.`deleted_at` IS NULL)
+  CACHE (0.0ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'asics_flagship_2' AND `qor_addon_settings`.`addon_name` = 'Flagship' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'asics_flagship_2' AND `qor_addon_settings`.`addon_name` = 'Flagship' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+
+ActionController::RoutingError (No route matches [GET] &quot;/img2/pic_store_locator_leadin_uk.png&quot;):
+  
+
+
+@@@</latest-body>
+    <original-body-html>&lt;div&gt;&lt;pre&gt;
+&lt;code&gt;
+
+Started GET &quot;/img2/pic_store_locator_leadin_uk.png&quot; for 115.238.44.107 at 2011-09-02 11:01:00 +0000
+  Country Load (1.1ms)  SELECT `countries`.* FROM `countries` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL)
+  Language Load (1.8ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 100) AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) AND (`languages`.`active` = 1)
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 4 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 5 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 31 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 8 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 10 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 11 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 12 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 13 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 10 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 15 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 17 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 18 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 19 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 20 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 21 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 22 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 23 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 24 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 21 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 25 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 26 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 32 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 34 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 36 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 37 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 38 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 40 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 39 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` IS NULL AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 31 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 42 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.2ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 44 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`country_id` = 33 AND `languages`.`active` = 1 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  Language Load (0.3ms)  SELECT `languages`.* FROM `languages` WHERE `languages`.`active` = 1 AND `languages`.`id` = 100 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `languages`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `countries`.* FROM `countries` WHERE `countries`.`id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `countries`.`deleted_at` IS NULL) LIMIT 1
+  UrlRedirect Load (5.5ms)  SELECT `url_redirects`.* FROM `url_redirects` WHERE (/* SOFT_DELETE_DEFAULT_SCOPE */ `url_redirects`.`deleted_at` IS NULL)
+  MiniSite Load (1.1ms)  SELECT `mini_sites`.* FROM `mini_sites` WHERE `mini_sites`.`language_id` = 2 AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `mini_sites`.`deleted_at` IS NULL)
+  CACHE (0.0ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'asics_flagship_2' AND `qor_addon_settings`.`addon_name` = 'Flagship' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+  CACHE (0.0ms)  SELECT `qor_addon_settings`.* FROM `qor_addon_settings` WHERE `qor_addon_settings`.`setting_key` = 'asics_flagship_2' AND `qor_addon_settings`.`addon_name` = 'Flagship' AND (/* SOFT_DELETE_DEFAULT_SCOPE */ `qor_addon_settings`.`deleted_at` IS NULL) LIMIT 1
+
+ActionController::RoutingError (No route matches [GET] &quot;/img2/pic_store_locator_leadin_uk.png&quot;):&lt;/code&gt;
+&lt;/pre&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">44985</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-13T11:50:05+09:00</created-at>
+    <creator-id type="integer">44985</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">798</number>
+    <permalink>trail-widget-missing</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag nil="true"></tag>
+    <title>Trail widget missing</title>
+    <updated-at type="datetime">2011-10-21T11:26:33+09:00</updated-at>
+    <user-id type="integer">79899</user-id>
+    <version type="integer">3</version>
+    <user-name>Shaoshing Lee</user-name>
+    <creator-name>Jun</creator-name>
+    <assigned-user-name>Jun</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/798</url>
+    <priority-name>Medium</priority-name>
+    <original-body>http://www.asics.es/trail/
+http://www.es.asics2-draft.theplant-dev.com/trail</original-body>
+    <latest-body>http://www.asics.es/trail/
+http://www.es.asics2-draft.theplant-dev.com/trail</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;&lt;a href=
+&quot;http://www.asics.es/trail/&quot;&gt;http://www.asics.es/trail/&lt;/a&gt;&lt;br&gt;
+&lt;a href=
+&quot;http://www.es.asics2-draft.theplant-dev.com/trail&quot;&gt;http://www.es.asics2-draft.theplant-dev.com/trail&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-08-25T19:43:15+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">521</number>
+    <permalink>please-change-the-translation-key-like-asics1</permalink>
+    <priority type="integer">2</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Please change the translation key like ASICS1</title>
+    <updated-at type="datetime">2011-10-21T11:07:06+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">5</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/521</url>
+    <priority-name>Medium</priority-name>
+    <original-body>For example:
+
+http://www.es.asics2-draft.theplant-dev.com/running/events/ this page.</original-body>
+    <latest-body>For example:
+
+http://www.es.asics2-draft.theplant-dev.com/running/events/ this page.</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;For example:&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.es.asics2-draft.theplant-dev.com/running/events/&quot;&gt;http://www.es.asics2-draft.theplant-dev.com/running/events/&lt;/a&gt;
+this page.&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">95021</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-22T20:08:50+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">910</number>
+    <permalink>please-remove-one-knowledge</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>resolved</state>
+    <tag nil="true"></tag>
+    <title>Please remove one knowledge </title>
+    <updated-at type="datetime">2011-10-21T11:06:28+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">4</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Tingting</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/910</url>
+    <priority-name>Low</priority-name>
+    <original-body>ASICS 1 have 2, but ASICS 2 has 3.
+
+http://www.es.asics2-draft.theplant-dev.com/trail/</original-body>
+    <latest-body>ASICS 1 have 2, but ASICS 2 has 3.
+
+http://www.es.asics2-draft.theplant-dev.com/trail/</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;ASICS 1 have 2, but ASICS 2 has 3.&lt;/p&gt;
+&lt;p&gt;&lt;a href=
+&quot;http://www.es.asics2-draft.theplant-dev.com/trail/&quot;&gt;http://www.es.asics2-draft.theplant-dev.com/trail/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer">79899</assigned-user-id>
+    <attachments-count type="integer">4</attachments-count>
+    <closed type="boolean">false</closed>
+    <created-at type="datetime">2011-10-20T18:06:33+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">1008</number>
+    <permalink>copy-translation</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>new</state>
+    <tag nil="true"></tag>
+    <title>Copy translation</title>
+    <updated-at type="datetime">2011-10-20T18:08:01+09:00</updated-at>
+    <user-id type="integer">95021</user-id>
+    <version type="integer">2</version>
+    <user-name>Tingting</user-name>
+    <creator-name>Tingting</creator-name>
+    <assigned-user-name>Shaoshing Lee</assigned-user-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/1008</url>
+    <priority-name>Low</priority-name>
+    <original-body>Is it necessary to add text to say what it do, so that could let people know how to use this feature.
+Or can just copy the translation searched, not copy all translation?</original-body>
+    <latest-body>Is it necessary to add text to say what it do, so that could let people know how to use this feature.
+Or can just copy the translation searched, not copy all translation?</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Is it necessary to add text to say what it do, so that could let
+people know how to use this feature.&lt;br&gt;
+Or can just copy the translation searched, not copy all
+translation?&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+  <ticket>
+    <assigned-user-id type="integer" nil="true"></assigned-user-id>
+    <attachments-count type="integer">0</attachments-count>
+    <closed type="boolean">true</closed>
+    <created-at type="datetime">2011-09-05T18:55:02+09:00</created-at>
+    <creator-id type="integer">95021</creator-id>
+    <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <number type="integer">720</number>
+    <permalink>nomethoderror-undefined-method-type-for-nilnilclass</permalink>
+    <priority type="integer">3</priority>
+    <project-id type="integer">55575</project-id>
+    <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+    <state>invalid</state>
+    <tag>hoptoad</tag>
+    <title>NoMethodError: undefined method `type' for nil:NilClass</title>
+    <updated-at type="datetime">2011-10-20T17:58:29+09:00</updated-at>
+    <user-id type="integer">132540</user-id>
+    <version type="integer">2</version>
+    <user-name>Charles Shen</user-name>
+    <creator-name>Tingting</creator-name>
+    <url>http://theplant.lighthouseapp.com/projects/55575/tickets/720</url>
+    <priority-name>Low</priority-name>
+    <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `type' for nil:NilClass](http://theplant.airbrakeapp.com/errors/12959417)</original-body>
+    <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `type' for nil:NilClass](http://theplant.airbrakeapp.com/errors/12959417)</latest-body>
+    <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
+&quot;http://theplant.airbrakeapp.com/errors/12959417&quot;&gt;NoMethodError:
+NoMethodError: undefined method `type' for nil:NilClass&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</original-body-html>
+  </ticket>
+</tickets>

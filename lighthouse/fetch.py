@@ -39,8 +39,10 @@ elif sys.argv[1] == '23' :
 # ---------------------------------------------------
 # TICKETs
 # projects/#{project_id}/tickets.xml
-elif sys.argv[1] == '31' :
+elif sys.argv[1] == '30' :
 	SAVE = 'projects/%s/tickets.xml' % sys.argv[2]
+elif sys.argv[1] == '31' :
+	SAVE = 'projects/%s/tickets.xml?page=%s' % ( sys.argv[2], sys.argv[3] )
 
 # projects/#{project_id}/tickets/#{number}.xml
 elif sys.argv[1] == '32' :
@@ -88,6 +90,10 @@ elif sys.argv[1] == '72' :
 
 # ---------------------------------------------------
 # Process
-URL		= '%s%s%s' % ( URL_HEADER, SAVE, URL_TAIL )
+if sys.argv[1] == '31' :
+	URL = '"%s%s%s"' % ( URL_HEADER, SAVE, '&' + URL_TAIL[1:] )
+else :
+	URL	= '%s%s%s' % ( URL_HEADER, SAVE, URL_TAIL )
+print(URL)
 command = 'curl %s > %s' % ( URL, SAVE )
 os.system( command )

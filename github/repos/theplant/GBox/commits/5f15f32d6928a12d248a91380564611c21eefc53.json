@@ -1,65 +1,65 @@
 {
-  "committer": {
-    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi",
-    "login": "chenxiaoyi"
-  },
   "author": {
     "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
     "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi",
-    "login": "chenxiaoyi"
+    "url": "https://api.github.com/users/chenxiaoyi"
   },
   "files": [
     {
       "patch": "--- a/GBox.xcodeproj/project.pbxproj\n+++ b/GBox.xcodeproj/project.pbxproj\n@@ -32,6 +32,7 @@\n \t\t4C1FEDFC13BE3C4000679BD7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1FEDF913BE3C4000679BD7 /* WebKit.framework */; };\n \t\t4C1FEDFD13BE3C4000679BD7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1FEDFA13BE3C4000679BD7 /* SystemConfiguration.framework */; };\n \t\t4C22467D13E425F40084B82B /* GBFileSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22467C13E425F40084B82B /* GBFileSystemInfo.m */; };\n+\t\t4C3D2B651417512500EEC312 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3D2B641417512500EEC312 /* CoreServices.framework */; };\n \t\t4C43BF2613CDDD23006EBEB7 /* GBACLShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C43BF1F13CDDD23006EBEB7 /* GBACLShareManager.m */; };\n \t\t4C43BF2713CDDD23006EBEB7 /* GBCollectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C43BF2113CDDD23006EBEB7 /* GBCollectionManager.m */; };\n \t\t4C43BF2913CDDD23006EBEB7 /* GBUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C43BF2513CDDD23006EBEB7 /* GBUtility.m */; };\n@@ -225,6 +226,7 @@\n \t\t4C1FEDFA13BE3C4000679BD7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = \"<group>\"; };\n \t\t4C22467B13E425F40084B82B /* GBFileSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBFileSystemInfo.h; sourceTree = \"<group>\"; };\n \t\t4C22467C13E425F40084B82B /* GBFileSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBFileSystemInfo.m; sourceTree = \"<group>\"; };\n+\t\t4C3D2B641417512500EEC312 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };\n \t\t4C43BF1E13CDDD23006EBEB7 /* GBACLShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBACLShareManager.h; sourceTree = \"<group>\"; };\n \t\t4C43BF1F13CDDD23006EBEB7 /* GBACLShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBACLShareManager.m; sourceTree = \"<group>\"; };\n \t\t4C43BF2013CDDD23006EBEB7 /* GBCollectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBCollectionManager.h; sourceTree = \"<group>\"; };\n@@ -536,6 +538,7 @@\n \t\t\tisa = PBXFrameworksBuildPhase;\n \t\t\tbuildActionMask = 2147483647;\n \t\t\tfiles = (\n+\t\t\t\t4C3D2B651417512500EEC312 /* CoreServices.framework in Frameworks */,\n \t\t\t\t14FFEDA113E938F900B394B9 /* libz.1.2.5.dylib in Frameworks */,\n \t\t\t\t4C8E5EE913D7CB4500B07EAD /* CoreData.framework in Frameworks */,\n \t\t\t\t4C1FEDB213BE3A7700679BD7 /* Cocoa.framework in Frameworks */,\n@@ -607,6 +610,7 @@\n \t\t4C1FEDB013BE3A7700679BD7 /* Frameworks */ = {\n \t\t\tisa = PBXGroup;\n \t\t\tchildren = (\n+\t\t\t\t4C3D2B641417512500EEC312 /* CoreServices.framework */,\n \t\t\t\t14A01BAB13DFB5C700B5C5E1 /* Growl.framework */,\n \t\t\t\t4C8E5EE813D7CB4500B07EAD /* CoreData.framework */,\n \t\t\t\t4CE5081013C1FE22000AAA69 /* SenTestingKit.framework */,",
-      "status": "modified",
-      "deletions": 0,
-      "additions": 4,
       "raw_url": "https://github.com/theplant/GBox/raw/5f15f32d6928a12d248a91380564611c21eefc53/GBox.xcodeproj/project.pbxproj",
-      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox.xcodeproj/project.pbxproj",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
       "changes": 4,
       "filename": "GBox.xcodeproj/project.pbxproj",
+      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox.xcodeproj/project.pbxproj",
       "sha": "5f15f32d6928a12d248a91380564611c21eefc53"
     },
     {
       "patch": "--- a/GBox/GBFileSystemInfo.m\n+++ b/GBox/GBFileSystemInfo.m\n@@ -64,10 +64,11 @@ static GBFileSystemInfo* instance= nil;\n \n         NSError* error =nil;\n         \n-        NSDictionary * oAttributes = [fileManager attributesOfItemAtPath:[url path] error:&error]; \n-        \n-        NSMutableDictionary* attributes = [NSMutableDictionary dictionaryWithDictionary:oAttributes];\n+        //NSDictionary * oAttributes = [fileManager attributesOfItemAtPath:[url path] error:&error]; \n         \n+        //NSMutableDictionary* attributes = [NSMutableDictionary dictionaryWithDictionary:oAttributes];\n+        NSMutableDictionary* attributes = [[NSMutableDictionary alloc]init ];\n+\n         [attributes setObject:isDirectory forKey:NSURLIsDirectoryKey];\n         \n         //set identifier to path dic",
-      "status": "modified",
-      "deletions": 3,
-      "additions": 4,
       "raw_url": "https://github.com/theplant/GBox/raw/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBFileSystemInfo.m",
-      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBFileSystemInfo.m",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
       "changes": 7,
       "filename": "GBox/GBFileSystemInfo.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBFileSystemInfo.m",
       "sha": "5f15f32d6928a12d248a91380564611c21eefc53"
     },
     {
       "patch": "--- a/GBox/GBFileSystemWatcher.m\n+++ b/GBox/GBFileSystemWatcher.m\n@@ -72,7 +72,7 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n                     }\n                 }\n             }\n-            else {\n+            else if(eventFlag & kFSEventStreamEventFlagItemRemoved){\n                 [[fsw delegate] fileDeleted: filePath eventId: eventId];\n             }\n         }",
-      "status": "modified",
-      "deletions": 1,
-      "additions": 1,
       "raw_url": "https://github.com/theplant/GBox/raw/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBFileSystemWatcher.m",
-      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBFileSystemWatcher.m",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
       "changes": 2,
       "filename": "GBox/GBFileSystemWatcher.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBFileSystemWatcher.m",
       "sha": "5f15f32d6928a12d248a91380564611c21eefc53"
     },
     {
       "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -299,27 +299,51 @@\n             NSString* identifier = [GBUtility identifierforFileAtPath:path];\n \n             if(identifier!=nil&&[identifier length]>80){\n+                NSError* error = nil;\n+                NSDictionary *fileInfo = [[NSFileManager defaultManager] attributesOfItemAtPath:path \n+                                                                                         error:&error];\n+                NSDate* createDate = [fileInfo valueForKey:NSFileCreationDate];\n+                NSDate* modifiedDate = [fileInfo valueForKey:NSFileModificationDate];\n                 \n+                /*\n+                 - (NSComparisonResult)compare:(NSDate *)anotherDate\n+\n+                 Return Value\n+                 If:\n+                 \n+                 The receiver and anotherDate are exactly equal to each other, NSOrderedSame\n+                 The receiver is later in time than anotherDate, NSOrderedDescending    RECEIVER > ANOTHERDATE\n+                 The receiver is earlier in time than anotherDate, NSOrderedAscending.  RECEIVER < ANOTHERDATE\n+                 */\n+                NSComparisonResult cResult = [createDate compare:modifiedDate];\n+                if(cResult == NSOrderedAscending){\n+                    \n                 \n-                [NSTimer scheduledTimerWithTimeInterval:i\n-                                                 target:self\n-                                               selector:@selector(uploadTimerFireMethod:)\n-                                               userInfo:taskMO\n-                                                repeats:NO];\n-                i=i+2;\n-                \n-                NSSet* paths = [localIdentifierDic valueForKey:identifier];\n-                \n-                for(NSString* destPath in paths){\n-                    if(![destPath isEqualToString: path]){\n-                        [GBUtility recycleFileAtPath:destPath];\n-                        [GBUtility cpFileAt:path to:destPath];\n-                    }\n-                } \n-                \n-                [currentExecutingTasks removeObject:taskID];\n-                [dataFacility setState:kGBStateDone ofTaskID:taskID];\n-                \n+                    \n+                    [NSTimer scheduledTimerWithTimeInterval:i\n+                                                     target:self\n+                                                   selector:@selector(uploadTimerFireMethod:)\n+                                                   userInfo:taskMO\n+                                                    repeats:NO];\n+                    i=i+2;\n+                    \n+                    NSSet* paths = [localIdentifierDic valueForKey:identifier];\n+                    \n+                    for(NSString* destPath in paths){\n+                        if(![destPath isEqualToString: path]){\n+                            [GBUtility recycleFileAtPath:destPath];\n+                            [GBUtility cpFileAt:path to:destPath];\n+                        }\n+                    } \n+                    \n+                }else{\n+                    [dataFacility insertEvent:0\n+                                withEventCode:kGBLocalAddEntryToCollection\n+                                     operandA:path\n+                                  andOperandB:nil];\n+                }\n+                     [currentExecutingTasks removeObject:taskID];\n+                     [dataFacility setState:kGBStateDone ofTaskID:taskID];\n             }else{\n                 [currentExecutingTasks removeObject:taskID];\n                 [dataFacility setState:kGBStateCancel ofTaskID:taskID];\n@@ -559,7 +583,7 @@\n             NSString* entryIdentifier = [GBUtility identifierforFileAtPath:path];\n             GDataEntryDocBase* entry = [docListData entryForIdentifier:entryIdentifier];\n             if(entry==nil||parentIdentifier==nil){\n-                [dataFacility setState:kGBStateWaiting ofTaskID:[taskMO objectID]];\n+                [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];\n                 [currentExecutingTasks removeObject:taskID];\n             }else{\n                 GDataEntryDocBase* parentEntry = [docListData entryForIdentifier:parentIdentifier];",
-      "status": "modified",
-      "deletions": 20,
-      "additions": 44,
       "raw_url": "https://github.com/theplant/GBox/raw/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBTaskHandler.m",
-      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBTaskHandler.m",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 20,
       "changes": 64,
       "filename": "GBox/GBTaskHandler.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/5f15f32d6928a12d248a91380564611c21eefc53/GBox/GBTaskHandler.m",
       "sha": "5f15f32d6928a12d248a91380564611c21eefc53"
     }
   ],
+  "committer": {
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "login": "chenxiaoyi",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
   "stats": {
-    "deletions": 24,
     "additions": 53,
+    "deletions": 24,
     "total": 77
   },
   "parents": [
@@ -68,24 +68,24 @@
       "url": "https://api.github.com/repos/theplant/GBox/commits/13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
     }
   ],
-  "sha": "5f15f32d6928a12d248a91380564611c21eefc53",
   "commit": {
     "tree": {
       "sha": "928bcd4e16f2894185874c1252679292a6c763b6",
       "url": "https://api.github.com/repos/theplant/GBox/git/trees/928bcd4e16f2894185874c1252679292a6c763b6"
     },
     "message": "Fix bugs on file move inside GBox folder, fsevent is dangerous the bug is fixed however the reason is not clear, and re-appear some times.",
-    "committer": {
+    "author": {
       "date": "2011-09-07T00:34:37-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
-    "author": {
+    "committer": {
       "date": "2011-09-07T00:34:37-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
     "url": "https://api.github.com/repos/theplant/GBox/git/commits/5f15f32d6928a12d248a91380564611c21eefc53"
   },
+  "sha": "5f15f32d6928a12d248a91380564611c21eefc53",
   "url": "https://api.github.com/repos/theplant/GBox/commits/5f15f32d6928a12d248a91380564611c21eefc53"
 }

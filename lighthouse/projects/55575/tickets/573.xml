@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ticket>
-  <assigned-user-id type="integer">132540</assigned-user-id>
+  <assigned-user-id type="integer">95021</assigned-user-id>
   <attachments-count type="integer">12</attachments-count>
-  <closed type="boolean">false</closed>
+  <closed type="boolean">true</closed>
   <created-at type="datetime">2011-08-28T02:22:48+09:00</created-at>
   <creator-id type="integer">95021</creator-id>
   <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
@@ -11,16 +11,16 @@
   <permalink>please-add-especial-widget-for-these-page</permalink>
   <priority type="integer">1</priority>
   <project-id type="integer">55575</project-id>
-  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
-  <state>pending_review</state>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
   <tag nil="true"></tag>
   <title>Please add especial widget for these page</title>
-  <updated-at type="datetime">2011-08-29T22:07:58+09:00</updated-at>
+  <updated-at type="datetime">2011-10-10T16:02:37+09:00</updated-at>
   <user-id type="integer">95021</user-id>
-  <version type="integer">3</version>
+  <version type="integer">6</version>
   <user-name>Tingting</user-name>
   <creator-name>Tingting</creator-name>
-  <assigned-user-name>Charles Shen</assigned-user-name>
+  <assigned-user-name>Tingting</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/573</url>
   <milestone-title>Current Iteration</milestone-title>
   <priority-name>High</priority-name>
@@ -128,6 +128,94 @@ http://www.es.asics2-draft.theplant-dev.com/running/products/gel-ka...&lt;/a&gt;
       <user-name>Tingting</user-name>
       <creator-name>Tingting</creator-name>
       <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/573</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">132540</assigned-user-id>
+      <attachments-count type="integer">12</attachments-count>
+      <body>the widget on the product show page is also a sidebar_shared widget.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;the widget on the product show page is also a sidebar_shared
+widget.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-30T13:29:13+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">573</number>
+      <permalink>please-add-especial-widget-for-these-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Please add especial widget for these page</title>
+      <updated-at type="datetime">2011-08-30T13:29:24+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">4</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Charles Shen</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/573</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">12</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-08-30T19:34:09+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 132540
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">573</number>
+      <permalink>please-add-especial-widget-for-these-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>Please add especial widget for these page</title>
+      <updated-at type="datetime">2011-08-30T19:34:22+09:00</updated-at>
+      <user-id type="integer">132540</user-id>
+      <version type="integer">5</version>
+      <user-name>Charles Shen</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/573</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">12</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-10-10T16:02:25+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">573</number>
+      <permalink>please-add-especial-widget-for-these-page</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Please add especial widget for these page</title>
+      <updated-at type="datetime">2011-10-10T16:02:37+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">6</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
       <url>http://theplant.lighthouseapp.com/projects/55575/tickets/573</url>
       <milestone-title>Current Iteration</milestone-title>
       <priority-name>High</priority-name>

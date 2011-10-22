@@ -1,135 +1,135 @@
 {
-  "committer": {
-    "login": "sunfmin",
-    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 1014,
-    "url": "https://api.github.com/users/sunfmin"
-  },
-  "author": {
-    "login": "sunfmin",
-    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 1014,
-    "url": "https://api.github.com/users/sunfmin"
-  },
   "files": [
     {
-      "patch": "--- a/GBox.xcodeproj/project.pbxproj\n+++ b/GBox.xcodeproj/project.pbxproj\n@@ -200,6 +200,16 @@\n \t\tCFFF80D013F4C64800F2EEAA /* GBCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFF80CF13F4C64800F2EEAA /* GBCrashReport.m */; };\n /* End PBXBuildFile section */\n \n+/* Begin PBXContainerItemProxy section */\n+\t\tB5B7C731141F71370003309D /* PBXContainerItemProxy */ = {\n+\t\t\tisa = PBXContainerItemProxy;\n+\t\t\tcontainerPortal = 4C1FEDA413BE3A7700679BD7 /* Project object */;\n+\t\t\tproxyType = 1;\n+\t\t\tremoteGlobalIDString = 4C1FEDAC13BE3A7700679BD7;\n+\t\t\tremoteInfo = GBox;\n+\t\t};\n+/* End PBXContainerItemProxy section */\n+\n /* Begin PBXFileReference section */\n \t\t144754B213D40DAA000CE1A3 /* GBoxNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBoxNotify.h; sourceTree = \"<group>\"; };\n \t\t144754B313D40DAA000CE1A3 /* GBoxNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBoxNotify.m; sourceTree = \"<group>\"; };\n@@ -1220,6 +1230,7 @@\n \t\t\tbuildRules = (\n \t\t\t);\n \t\t\tdependencies = (\n+\t\t\t\tB5B7C732141F71370003309D /* PBXTargetDependency */,\n \t\t\t);\n \t\t\tname = GBoxTests;\n \t\t\tproductName = GBoxTests;\n@@ -1480,6 +1491,14 @@\n \t\t};\n /* End PBXSourcesBuildPhase section */\n \n+/* Begin PBXTargetDependency section */\n+\t\tB5B7C732141F71370003309D /* PBXTargetDependency */ = {\n+\t\t\tisa = PBXTargetDependency;\n+\t\t\ttarget = 4C1FEDAC13BE3A7700679BD7 /* GBox */;\n+\t\t\ttargetProxy = B5B7C731141F71370003309D /* PBXContainerItemProxy */;\n+\t\t};\n+/* End PBXTargetDependency section */\n+\n /* Begin PBXVariantGroup section */\n \t\t4C1FEDBA13BE3A7700679BD7 /* InfoPlist.strings */ = {\n \t\t\tisa = PBXVariantGroup;\n@@ -1590,8 +1609,10 @@\n \t\t\tbuildSettings = {\n \t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n \t\t\t\tARCHS = \"$(ARCHS_STANDARD_64_BIT)\";\n+\t\t\t\tBUNDLE_LOADER = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tCOPY_PHASE_STRIP = NO;\n \t\t\t\tFRAMEWORK_SEARCH_PATHS = (\n+\t\t\t\t\t\"$(inherited)\",\n \t\t\t\t\t\"\\\"$(SRCROOT)\\\"\",\n \t\t\t\t\t\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\",\n \t\t\t\t);\n@@ -1607,6 +1628,7 @@\n \t\t\t\tINFOPLIST_FILE = \"GBoxTests/GBoxTests-Info.plist\";\n \t\t\t\tMACOSX_DEPLOYMENT_TARGET = 10.7;\n \t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n+\t\t\t\tTEST_HOST = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tWRAPPER_EXTENSION = octest;\n \t\t\t};\n \t\t\tname = Debug;\n@@ -1616,9 +1638,11 @@\n \t\t\tbuildSettings = {\n \t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n \t\t\t\tARCHS = \"$(ARCHS_STANDARD_64_BIT)\";\n+\t\t\t\tBUNDLE_LOADER = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tCOPY_PHASE_STRIP = YES;\n \t\t\t\tDEBUG_INFORMATION_FORMAT = \"dwarf-with-dsym\";\n \t\t\t\tFRAMEWORK_SEARCH_PATHS = (\n+\t\t\t\t\t\"$(inherited)\",\n \t\t\t\t\t\"\\\"$(SRCROOT)\\\"\",\n \t\t\t\t\t\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\",\n \t\t\t\t);\n@@ -1629,6 +1653,7 @@\n \t\t\t\tINFOPLIST_FILE = \"GBoxTests/GBoxTests-Info.plist\";\n \t\t\t\tMACOSX_DEPLOYMENT_TARGET = 10.7;\n \t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n+\t\t\t\tTEST_HOST = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tWRAPPER_EXTENSION = octest;\n \t\t\t};\n \t\t\tname = Release;",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox.xcodeproj/project.pbxproj",
       "status": "modified",
-      "deletions": 0,
       "additions": 25,
-      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox.xcodeproj/project.pbxproj",
+      "deletions": 0,
       "changes": 25,
+      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox.xcodeproj/project.pbxproj",
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBox.xcodeproj/project.pbxproj",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBox.xcodeproj/project.pbxproj\n+++ b/GBox.xcodeproj/project.pbxproj\n@@ -200,6 +200,16 @@\n \t\tCFFF80D013F4C64800F2EEAA /* GBCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFF80CF13F4C64800F2EEAA /* GBCrashReport.m */; };\n /* End PBXBuildFile section */\n \n+/* Begin PBXContainerItemProxy section */\n+\t\tB5B7C731141F71370003309D /* PBXContainerItemProxy */ = {\n+\t\t\tisa = PBXContainerItemProxy;\n+\t\t\tcontainerPortal = 4C1FEDA413BE3A7700679BD7 /* Project object */;\n+\t\t\tproxyType = 1;\n+\t\t\tremoteGlobalIDString = 4C1FEDAC13BE3A7700679BD7;\n+\t\t\tremoteInfo = GBox;\n+\t\t};\n+/* End PBXContainerItemProxy section */\n+\n /* Begin PBXFileReference section */\n \t\t144754B213D40DAA000CE1A3 /* GBoxNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBoxNotify.h; sourceTree = \"<group>\"; };\n \t\t144754B313D40DAA000CE1A3 /* GBoxNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBoxNotify.m; sourceTree = \"<group>\"; };\n@@ -1220,6 +1230,7 @@\n \t\t\tbuildRules = (\n \t\t\t);\n \t\t\tdependencies = (\n+\t\t\t\tB5B7C732141F71370003309D /* PBXTargetDependency */,\n \t\t\t);\n \t\t\tname = GBoxTests;\n \t\t\tproductName = GBoxTests;\n@@ -1480,6 +1491,14 @@\n \t\t};\n /* End PBXSourcesBuildPhase section */\n \n+/* Begin PBXTargetDependency section */\n+\t\tB5B7C732141F71370003309D /* PBXTargetDependency */ = {\n+\t\t\tisa = PBXTargetDependency;\n+\t\t\ttarget = 4C1FEDAC13BE3A7700679BD7 /* GBox */;\n+\t\t\ttargetProxy = B5B7C731141F71370003309D /* PBXContainerItemProxy */;\n+\t\t};\n+/* End PBXTargetDependency section */\n+\n /* Begin PBXVariantGroup section */\n \t\t4C1FEDBA13BE3A7700679BD7 /* InfoPlist.strings */ = {\n \t\t\tisa = PBXVariantGroup;\n@@ -1590,8 +1609,10 @@\n \t\t\tbuildSettings = {\n \t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n \t\t\t\tARCHS = \"$(ARCHS_STANDARD_64_BIT)\";\n+\t\t\t\tBUNDLE_LOADER = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tCOPY_PHASE_STRIP = NO;\n \t\t\t\tFRAMEWORK_SEARCH_PATHS = (\n+\t\t\t\t\t\"$(inherited)\",\n \t\t\t\t\t\"\\\"$(SRCROOT)\\\"\",\n \t\t\t\t\t\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\",\n \t\t\t\t);\n@@ -1607,6 +1628,7 @@\n \t\t\t\tINFOPLIST_FILE = \"GBoxTests/GBoxTests-Info.plist\";\n \t\t\t\tMACOSX_DEPLOYMENT_TARGET = 10.7;\n \t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n+\t\t\t\tTEST_HOST = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tWRAPPER_EXTENSION = octest;\n \t\t\t};\n \t\t\tname = Debug;\n@@ -1616,9 +1638,11 @@\n \t\t\tbuildSettings = {\n \t\t\t\tALWAYS_SEARCH_USER_PATHS = NO;\n \t\t\t\tARCHS = \"$(ARCHS_STANDARD_64_BIT)\";\n+\t\t\t\tBUNDLE_LOADER = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tCOPY_PHASE_STRIP = YES;\n \t\t\t\tDEBUG_INFORMATION_FORMAT = \"dwarf-with-dsym\";\n \t\t\t\tFRAMEWORK_SEARCH_PATHS = (\n+\t\t\t\t\t\"$(inherited)\",\n \t\t\t\t\t\"\\\"$(SRCROOT)\\\"\",\n \t\t\t\t\t\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\",\n \t\t\t\t);\n@@ -1629,6 +1653,7 @@\n \t\t\t\tINFOPLIST_FILE = \"GBoxTests/GBoxTests-Info.plist\";\n \t\t\t\tMACOSX_DEPLOYMENT_TARGET = 10.7;\n \t\t\t\tPRODUCT_NAME = \"$(TARGET_NAME)\";\n+\t\t\t\tTEST_HOST = \"$(BUILT_PRODUCTS_DIR)/GBox.app/Contents/MacOS/GBox\";\n \t\t\t\tWRAPPER_EXTENSION = octest;\n \t\t\t};\n \t\t\tname = Release;",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox.xcodeproj/project.pbxproj"
     },
     {
-      "patch": "--- a/GBox/GBFileSystemInfo.m\n+++ b/GBox/GBFileSystemInfo.m\n@@ -72,7 +72,7 @@ static GBFileSystemInfo* instance= nil;\n         [attributes setObject:isDirectory forKey:NSURLIsDirectoryKey];\n         \n         //set identifier to path dic\n-        NSString* identifier = [GBUtility identifierforFileAtPath:[url path]];\n+        NSString* identifier = [GBUtility identifierForFileAtPath:[url path]];\n         /*\n         if(identifier!=nil){\n             NSLog(@\"The identifier length is %lu\",[identifier length]);",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBFileSystemInfo.m",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
+      "deletions": 1,
+      "changes": 2,
       "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/GBFileSystemInfo.m",
-      "changes": 2,
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBox/GBFileSystemInfo.m",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBox/GBFileSystemInfo.m\n+++ b/GBox/GBFileSystemInfo.m\n@@ -72,7 +72,7 @@ static GBFileSystemInfo* instance= nil;\n         [attributes setObject:isDirectory forKey:NSURLIsDirectoryKey];\n         \n         //set identifier to path dic\n-        NSString* identifier = [GBUtility identifierforFileAtPath:[url path]];\n+        NSString* identifier = [GBUtility identifierForFileAtPath:[url path]];\n         /*\n         if(identifier!=nil){\n             NSLog(@\"The identifier length is %lu\",[identifier length]);",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBFileSystemInfo.m"
     },
     {
-      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -126,7 +126,7 @@\n         NSMutableSet* localParentIdentifiers = [[NSMutableSet alloc]init];\n         for(NSString* path in pathSet){\n             NSString* parentPath = [path stringByDeletingLastPathComponent];\n-            NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+            NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n             if(parentIdentifier!=nil){\n                 [localParentIdentifiers addObject:parentIdentifier];\n             }\n@@ -288,7 +288,7 @@\n             }\n             if([[NSFileManager defaultManager] fileExistsAtPath:path]){\n                 //This check insure the local file exist, when uploading the file.\n-                NSString* possibleIdentifier = [GBUtility identifierforFileAtPath:path];\n+                NSString* possibleIdentifier = [GBUtility identifierForFileAtPath:path];\n                 if(possibleIdentifier==nil||[possibleIdentifier length]<80){\n                     [uploadingPaths addObject:path];\n                     [NSTimer scheduledTimerWithTimeInterval:i\n@@ -320,7 +320,7 @@\n         case kGBLocalFileUpdated: {\n             NSString* path = operandA;\n             \n-            NSString* identifier = [GBUtility identifierforFileAtPath:path];\n+            NSString* identifier = [GBUtility identifierForFileAtPath:path];\n            \n \n             if(identifier!=nil&&[identifier length]>80){\n@@ -421,7 +421,7 @@\n                 if([[path stringByDeletingLastPathComponent] length]!= [[GBUtility rootPath] length]){\n                     //The file not exist at root path\n                     NSString* parentPath = [[path stringByDeletingLastPathComponent] stringByAppendingString:@\"/\"];\n-                    NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+                    NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n                     if(parentIdentifier!=nil){\n                         NSSet* includedEntries = [collectionManager includedEntryOfCollectionIdentifier:parentIdentifier];\n                         for(GDataEntryDocBase* entry in includedEntries){\n@@ -473,7 +473,7 @@\n                         [dataFacility insertEvent:0\n                                     withEventCode:kGBLocalRemoveEntryFromCollection\n                                          operandA:identifierToDelete\n-                                      andOperandB:[GBUtility identifierforFileAtPath:parentPath]];\n+                                      andOperandB:[GBUtility identifierForFileAtPath:parentPath]];\n                     }\n                 }\n                 \n@@ -498,7 +498,7 @@\n                             return YES;\n                         }\n                     }\n-                    NSString* possibleIdentifier = [GBUtility identifierforFileAtPath:path];\n+                    NSString* possibleIdentifier = [GBUtility identifierForFileAtPath:path];\n                     if(possibleIdentifier==nil||[possibleIdentifier length]<80){\n                         [uploadingPaths addObject:path];\n                         [collectionManager createFolder:path];\n@@ -528,7 +528,7 @@\n             //kGBLocalRename\n             NSString* newPath = [taskMO valueForKey:@\"operandB\"];\n             NSString *newName = [newPath lastPathComponent];\n-            NSString* identifier = [GBUtility identifierforFileAtPath:newPath];;\n+            NSString* identifier = [GBUtility identifierForFileAtPath:newPath];;\n             if(identifier!=nil&&[identifier length]>80){\n                 [self appendPISingle:[NSString stringWithFormat:@\"Renamed:%@\",newName] ];\n \n@@ -568,9 +568,9 @@\n                 \n                 NSString* parentPath = [[oldPath stringByDeletingLastPathComponent] stringByAppendingString:@\"/\"];\n                 \n-                NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+                NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n                 \n-                NSString* entryIdentifier = [GBUtility identifierforFileAtPath:newPath];\n+                NSString* entryIdentifier = [GBUtility identifierForFileAtPath:newPath];\n                 \n                 [dataFacility insertEvent:0\n                             withEventCode:kGBLocalRemoveEntryFromCollection\n@@ -618,9 +618,9 @@\n             NSString* parentPath = [[path stringByDeletingLastPathComponent] stringByAppendingString:@\"/\"];\n             [self appendPISingle:[NSString stringWithFormat:@\"ADD:%@ To %@\",[path lastPathComponent],[parentPath lastPathComponent]  ] ];\n \n-            NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+            NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n             \n-            NSString* entryIdentifier = [GBUtility identifierforFileAtPath:path];\n+            NSString* entryIdentifier = [GBUtility identifierForFileAtPath:path];\n             GDataEntryDocBase* entry = [docListData entryForIdentifier:entryIdentifier];\n             if(entry==nil||parentIdentifier==nil){\n                 [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBTaskHandler.m",
       "status": "modified",
-      "deletions": 11,
       "additions": 11,
-      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/GBTaskHandler.m",
+      "deletions": 11,
       "changes": 22,
+      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/GBTaskHandler.m",
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBox/GBTaskHandler.m",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -126,7 +126,7 @@\n         NSMutableSet* localParentIdentifiers = [[NSMutableSet alloc]init];\n         for(NSString* path in pathSet){\n             NSString* parentPath = [path stringByDeletingLastPathComponent];\n-            NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+            NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n             if(parentIdentifier!=nil){\n                 [localParentIdentifiers addObject:parentIdentifier];\n             }\n@@ -288,7 +288,7 @@\n             }\n             if([[NSFileManager defaultManager] fileExistsAtPath:path]){\n                 //This check insure the local file exist, when uploading the file.\n-                NSString* possibleIdentifier = [GBUtility identifierforFileAtPath:path];\n+                NSString* possibleIdentifier = [GBUtility identifierForFileAtPath:path];\n                 if(possibleIdentifier==nil||[possibleIdentifier length]<80){\n                     [uploadingPaths addObject:path];\n                     [NSTimer scheduledTimerWithTimeInterval:i\n@@ -320,7 +320,7 @@\n         case kGBLocalFileUpdated: {\n             NSString* path = operandA;\n             \n-            NSString* identifier = [GBUtility identifierforFileAtPath:path];\n+            NSString* identifier = [GBUtility identifierForFileAtPath:path];\n            \n \n             if(identifier!=nil&&[identifier length]>80){\n@@ -421,7 +421,7 @@\n                 if([[path stringByDeletingLastPathComponent] length]!= [[GBUtility rootPath] length]){\n                     //The file not exist at root path\n                     NSString* parentPath = [[path stringByDeletingLastPathComponent] stringByAppendingString:@\"/\"];\n-                    NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+                    NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n                     if(parentIdentifier!=nil){\n                         NSSet* includedEntries = [collectionManager includedEntryOfCollectionIdentifier:parentIdentifier];\n                         for(GDataEntryDocBase* entry in includedEntries){\n@@ -473,7 +473,7 @@\n                         [dataFacility insertEvent:0\n                                     withEventCode:kGBLocalRemoveEntryFromCollection\n                                          operandA:identifierToDelete\n-                                      andOperandB:[GBUtility identifierforFileAtPath:parentPath]];\n+                                      andOperandB:[GBUtility identifierForFileAtPath:parentPath]];\n                     }\n                 }\n                 \n@@ -498,7 +498,7 @@\n                             return YES;\n                         }\n                     }\n-                    NSString* possibleIdentifier = [GBUtility identifierforFileAtPath:path];\n+                    NSString* possibleIdentifier = [GBUtility identifierForFileAtPath:path];\n                     if(possibleIdentifier==nil||[possibleIdentifier length]<80){\n                         [uploadingPaths addObject:path];\n                         [collectionManager createFolder:path];\n@@ -528,7 +528,7 @@\n             //kGBLocalRename\n             NSString* newPath = [taskMO valueForKey:@\"operandB\"];\n             NSString *newName = [newPath lastPathComponent];\n-            NSString* identifier = [GBUtility identifierforFileAtPath:newPath];;\n+            NSString* identifier = [GBUtility identifierForFileAtPath:newPath];;\n             if(identifier!=nil&&[identifier length]>80){\n                 [self appendPISingle:[NSString stringWithFormat:@\"Renamed:%@\",newName] ];\n \n@@ -568,9 +568,9 @@\n                 \n                 NSString* parentPath = [[oldPath stringByDeletingLastPathComponent] stringByAppendingString:@\"/\"];\n                 \n-                NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+                NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n                 \n-                NSString* entryIdentifier = [GBUtility identifierforFileAtPath:newPath];\n+                NSString* entryIdentifier = [GBUtility identifierForFileAtPath:newPath];\n                 \n                 [dataFacility insertEvent:0\n                             withEventCode:kGBLocalRemoveEntryFromCollection\n@@ -618,9 +618,9 @@\n             NSString* parentPath = [[path stringByDeletingLastPathComponent] stringByAppendingString:@\"/\"];\n             [self appendPISingle:[NSString stringWithFormat:@\"ADD:%@ To %@\",[path lastPathComponent],[parentPath lastPathComponent]  ] ];\n \n-            NSString* parentIdentifier = [GBUtility identifierforFileAtPath:parentPath];\n+            NSString* parentIdentifier = [GBUtility identifierForFileAtPath:parentPath];\n             \n-            NSString* entryIdentifier = [GBUtility identifierforFileAtPath:path];\n+            NSString* entryIdentifier = [GBUtility identifierForFileAtPath:path];\n             GDataEntryDocBase* entry = [docListData entryForIdentifier:entryIdentifier];\n             if(entry==nil||parentIdentifier==nil){\n                 [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBTaskHandler.m"
     },
     {
-      "patch": "--- a/GBox/GBUploadOperation.m\n+++ b/GBox/GBUploadOperation.m\n@@ -211,7 +211,7 @@\n             if([option isEqualToString:@\"NewRevision\"]){\n                 [newEntry setETag:@\"*\"]; \n                 \n-                NSString* entryIdentifier = [GBUtility identifierforFileAtPath:path];\n+                NSString* entryIdentifier = [GBUtility identifierForFileAtPath:path];\n                 GDataEntryDocBase* selectedDoc = [docListData entryForIdentifier:entryIdentifier];\n                 NSURL *uploadURL = [[selectedDoc uploadEditLink] URL]; \n                 GDataQueryDocs *query = [GDataQueryDocs queryWithFeedURL:uploadURL]; ",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUploadOperation.m",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
+      "deletions": 1,
+      "changes": 2,
       "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUploadOperation.m",
-      "changes": 2,
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBox/GBUploadOperation.m",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBox/GBUploadOperation.m\n+++ b/GBox/GBUploadOperation.m\n@@ -211,7 +211,7 @@\n             if([option isEqualToString:@\"NewRevision\"]){\n                 [newEntry setETag:@\"*\"]; \n                 \n-                NSString* entryIdentifier = [GBUtility identifierforFileAtPath:path];\n+                NSString* entryIdentifier = [GBUtility identifierForFileAtPath:path];\n                 GDataEntryDocBase* selectedDoc = [docListData entryForIdentifier:entryIdentifier];\n                 NSURL *uploadURL = [[selectedDoc uploadEditLink] URL]; \n                 GDataQueryDocs *query = [GDataQueryDocs queryWithFeedURL:uploadURL]; ",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUploadOperation.m"
     },
     {
-      "patch": "--- a/GBox/GBUtility.h\n+++ b/GBox/GBUtility.h\n@@ -46,7 +46,7 @@\n +(NSInteger)setIdentifier:(NSString*) resourceID\n             forFileAtPath:(NSString*) path;\n \n-+(NSString*)identifierforFileAtPath:(NSString*)path;\n++(NSString*)identifierForFileAtPath:(NSString*)path;\n \n +(BOOL) isNetworkActive;\n ",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUtility.h",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
+      "deletions": 1,
+      "changes": 2,
       "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUtility.h",
-      "changes": 2,
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBox/GBUtility.h",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBox/GBUtility.h\n+++ b/GBox/GBUtility.h\n@@ -46,7 +46,7 @@\n +(NSInteger)setIdentifier:(NSString*) resourceID\n             forFileAtPath:(NSString*) path;\n \n-+(NSString*)identifierforFileAtPath:(NSString*)path;\n++(NSString*)identifierForFileAtPath:(NSString*)path;\n \n +(BOOL) isNetworkActive;\n ",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUtility.h"
     },
     {
-      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -226,7 +226,7 @@ static NSUInteger sharedBandWidth = 0;\n     return result;\n }\n \n-+(NSString*)identifierforFileAtPath:(NSString*)path_string{\n++(NSString*)identifierForFileAtPath:(NSString*)path_string{\n     \n     char textEncoding[256];\n     ssize_t attrSize;",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUtility.m",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
+      "deletions": 1,
+      "changes": 2,
       "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUtility.m",
-      "changes": 2,
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBox/GBUtility.m",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -226,7 +226,7 @@ static NSUInteger sharedBandWidth = 0;\n     return result;\n }\n \n-+(NSString*)identifierforFileAtPath:(NSString*)path_string{\n++(NSString*)identifierForFileAtPath:(NSString*)path_string{\n     \n     char textEncoding[256];\n     ssize_t attrSize;",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/GBUtility.m"
     },
     {
-      "patch": "--- a/GBox/ShareWindowController.m\n+++ b/GBox/ShareWindowController.m\n@@ -52,7 +52,7 @@\n     \n \n     NSLog(@\"%@\",filePath);\n-    NSString* identifier = [GBUtility identifierforFileAtPath: filePath];\n+    NSString* identifier = [GBUtility identifierForFileAtPath: filePath];\n     if(identifier !=nil){\n         entry = [[docListData docListFeed] entryForIdentifier:identifier];\n         ",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/ShareWindowController.m",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/ShareWindowController.m",
+      "deletions": 1,
       "changes": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBox/ShareWindowController.m",
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBox/ShareWindowController.m",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBox/ShareWindowController.m\n+++ b/GBox/ShareWindowController.m\n@@ -52,7 +52,7 @@\n     \n \n     NSLog(@\"%@\",filePath);\n-    NSString* identifier = [GBUtility identifierforFileAtPath: filePath];\n+    NSString* identifier = [GBUtility identifierForFileAtPath: filePath];\n     if(identifier !=nil){\n         entry = [[docListData docListFeed] entryForIdentifier:identifier];\n         ",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBox/ShareWindowController.m"
     },
     {
-      "patch": "--- a/GBoxTests/GBoxTests.m\n+++ b/GBoxTests/GBoxTests.m\n@@ -28,9 +28,13 @@\n \n - (void)testGBUtility\n {\n-    [GBUtility setIdentifier:@\"felix\" forFileAtPath:@\"/tmp\"];\n-    \n-    STAssertEquals(@\"felix\", [GBUtility identifierforFileAtPath:@\"/tmp\"], [GBUtility identifierforFileAtPath:@\"/tmp\"]);\n+    NSString* value = @\"felix21212\";\n+\n+    [GBUtility setIdentifier:value forFileAtPath:[GBUtility rootPath]];\n+        \n+    STAssertEqualObjects(value, \n+                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]], \n+                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]]);\n }\n \n @end",
-      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBoxTests/GBoxTests.m",
       "status": "modified",
-      "deletions": 3,
       "additions": 7,
-      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBoxTests/GBoxTests.m",
+      "deletions": 3,
       "changes": 10,
+      "blob_url": "https://github.com/theplant/GBox/blob/2a422957d44f291233ac63482c97f005628713ad/GBoxTests/GBoxTests.m",
+      "sha": "2a422957d44f291233ac63482c97f005628713ad",
       "filename": "GBoxTests/GBoxTests.m",
-      "sha": "2a422957d44f291233ac63482c97f005628713ad"
+      "patch": "--- a/GBoxTests/GBoxTests.m\n+++ b/GBoxTests/GBoxTests.m\n@@ -28,9 +28,13 @@\n \n - (void)testGBUtility\n {\n-    [GBUtility setIdentifier:@\"felix\" forFileAtPath:@\"/tmp\"];\n-    \n-    STAssertEquals(@\"felix\", [GBUtility identifierforFileAtPath:@\"/tmp\"], [GBUtility identifierforFileAtPath:@\"/tmp\"]);\n+    NSString* value = @\"felix21212\";\n+\n+    [GBUtility setIdentifier:value forFileAtPath:[GBUtility rootPath]];\n+        \n+    STAssertEqualObjects(value, \n+                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]], \n+                   [GBUtility identifierForFileAtPath:[GBUtility rootPath]]);\n }\n \n @end",
+      "raw_url": "https://github.com/theplant/GBox/raw/2a422957d44f291233ac63482c97f005628713ad/GBoxTests/GBoxTests.m"
     }
   ],
-  "stats": {
-    "deletions": 19,
-    "additions": 48,
-    "total": 67
+  "committer": {
+    "url": "https://api.github.com/users/sunfmin",
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 1014,
+    "login": "sunfmin"
   },
+  "stats": {
+    "additions": 48,
+    "total": 67,
+    "deletions": 19
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/2a422957d44f291233ac63482c97f005628713ad",
   "parents": [
     {
-      "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
-      "url": "https://api.github.com/repos/theplant/GBox/commits/6406c978a888da7cdbbcce295405130caedb9f07"
+      "url": "https://api.github.com/repos/theplant/GBox/commits/6406c978a888da7cdbbcce295405130caedb9f07",
+      "sha": "6406c978a888da7cdbbcce295405130caedb9f07"
     }
   ],
-  "sha": "2a422957d44f291233ac63482c97f005628713ad",
   "commit": {
-    "tree": {
-      "sha": "7b946de677a777e82fdfee9b161ae45a50b6cd21",
-      "url": "https://api.github.com/repos/theplant/GBox/git/trees/7b946de677a777e82fdfee9b161ae45a50b6cd21"
-    },
-    "message": "make one test pass",
     "committer": {
+      "email": "sunfmin@gmail.com",
       "date": "2011-09-13T05:10:13-07:00",
-      "name": "Felix Sun",
-      "email": "sunfmin@gmail.com"
+      "name": "Felix Sun"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/2a422957d44f291233ac63482c97f005628713ad",
+    "message": "make one test pass",
+    "tree": {
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/7b946de677a777e82fdfee9b161ae45a50b6cd21",
+      "sha": "7b946de677a777e82fdfee9b161ae45a50b6cd21"
     },
     "author": {
+      "email": "sunfmin@gmail.com",
       "date": "2011-09-13T05:10:13-07:00",
-      "name": "Felix Sun",
-      "email": "sunfmin@gmail.com"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/git/commits/2a422957d44f291233ac63482c97f005628713ad"
+      "name": "Felix Sun"
+    }
   },
-  "url": "https://api.github.com/repos/theplant/GBox/commits/2a422957d44f291233ac63482c97f005628713ad"
+  "sha": "2a422957d44f291233ac63482c97f005628713ad",
+  "author": {
+    "url": "https://api.github.com/users/sunfmin",
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 1014,
+    "login": "sunfmin"
+  }
 }

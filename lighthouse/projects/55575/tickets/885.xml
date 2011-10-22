@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ticket>
-  <assigned-user-id type="integer">44985</assigned-user-id>
-  <attachments-count type="integer">0</attachments-count>
+  <assigned-user-id type="integer">2503</assigned-user-id>
+  <attachments-count type="integer">16</attachments-count>
   <closed type="boolean">false</closed>
   <created-at type="datetime">2011-09-20T17:01:55+09:00</created-at>
   <creator-id type="integer">104778</creator-id>
@@ -12,15 +12,15 @@
   <priority type="integer">1</priority>
   <project-id type="integer">55575</project-id>
   <raw-data type="binary" nil="true" encoding="base64"></raw-data>
-  <state>new</state>
+  <state>pending_review</state>
   <tag nil="true"></tag>
   <title>fix print css</title>
-  <updated-at type="datetime">2011-09-20T17:02:10+09:00</updated-at>
-  <user-id type="integer">104778</user-id>
-  <version type="integer">1</version>
-  <user-name>Zhen Wu</user-name>
+  <updated-at type="datetime">2011-09-27T19:28:29+09:00</updated-at>
+  <user-id type="integer">154128</user-id>
+  <version type="integer">13</version>
+  <user-name>Yuan He</user-name>
   <creator-name>Zhen Wu</creator-name>
-  <assigned-user-name>Jun</assigned-user-name>
+  <assigned-user-name>Anatole</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
   <milestone-title>Current Iteration</milestone-title>
   <priority-name>High</priority-name>
@@ -89,5 +89,410 @@ http://www.fr.asics2-draft.theplant-dev.com/running/foot_id/2055/&lt;/a&gt;&lt;/
       <milestone-title>Current Iteration</milestone-title>
       <priority-name>High</priority-name>
     </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-22T10:43:49+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-22T10:44:13+09:00</updated-at>
+      <user-id type="integer">104778</user-id>
+      <version type="integer">2</version>
+      <user-name>Zhen Wu</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-22T15:58:59+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-22T15:59:09+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">3</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-22T20:26:40+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-22T20:26:49+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">4</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-25T10:53:41+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-25T10:53:52+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">5</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-25T10:53:56+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-25T10:54:06+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">6</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>These look OK, not great. There are other options to print in the process that need to be looked at as well. Still high prioirty.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;These look OK, not great. There are other options to print in
+the process that need to be looked at as well. Still high
+prioirty.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-26T23:12:05+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-26T23:12:18+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">7</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>Please go through the entire process on all reservation systems and make sure all prints look perfect. Also, please try to perfect the ones that you have done.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Please go through the entire process on all reservation systems
+and make sure all prints look perfect. Also, please try to perfect
+the ones that you have done.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-26T23:14:05+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-26T23:14:41+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">8</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-26T23:14:14+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: resolved
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-26T23:14:29+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">9</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-26T23:36:02+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-26T23:36:14+09:00</updated-at>
+      <user-id type="integer">2503</user-id>
+      <version type="integer">10</version>
+      <user-name>Anatole</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body>Hi Anatole, Sorry for my forgot and normal css to print.css file, print style will look like this(See Attach),is this ok? i will fix it in this morning, :)</body>
+      <body-html>&lt;div&gt;&lt;p&gt;Hi Anatole, Sorry for my forgot and normal css to print.css
+file, print style will look like this(See Attach),is this ok? i
+will fix it in this morning, :)&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-27T11:34:03+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-27T11:34:14+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">11</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">16</attachments-count>
+      <body>fixed, please check again</body>
+      <body-html>&lt;div&gt;&lt;p&gt;fixed, please check again&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-27T19:27:56+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: open
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-27T19:28:29+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">12</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">2503</assigned-user-id>
+      <attachments-count type="integer">16</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-27T19:28:04+09:00</created-at>
+      <creator-id type="integer">104778</creator-id>
+      <diffable-attributes type="yaml">--- {}
+
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">885</number>
+      <permalink>fix-print-css</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>fix print css</title>
+      <updated-at type="datetime">2011-09-27T19:28:18+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">13</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Zhen Wu</creator-name>
+      <assigned-user-name>Anatole</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/885</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
   </versions>
+  <attachments type="array">
+    <attachment-image type="Attachment">
+      <code>7dd7e4801a695103cd965ecedbeaf8c1d5459955</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-26T23:36:02+09:00</created-at>
+      <filename>2011-09-26_2335.png</filename>
+      <height type="integer">697</height>
+      <id type="integer">1430809</id>
+      <size type="integer">271905</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1235</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1430809/2011-09-26_2335.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>95c7e3bb5f35118c491762409f6068056431aa5a</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-26T23:36:02+09:00</created-at>
+      <filename>2011-09-26_2334.png</filename>
+      <height type="integer">697</height>
+      <id type="integer">1430810</id>
+      <size type="integer">329267</size>
+      <uploader-id type="integer">2503</uploader-id>
+      <width type="integer">1235</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1430810/2011-09-26_2334.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>d1ac0e32ede951a02bce44733c510e48b0cb541f</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-27T11:34:03+09:00</created-at>
+      <filename>screen-shot-2011-09-27-at-1001.png</filename>
+      <height type="integer">1066</height>
+      <id type="integer">1434133</id>
+      <size type="integer">194383</size>
+      <uploader-id type="integer">154128</uploader-id>
+      <width type="integer">1031</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1434133/screen-shot-2011-09-27-at-1001.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>95d24668ff324d041800cace2e475ce1bc94953c</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-27T11:34:04+09:00</created-at>
+      <filename>screen-shot-2011-09-27-at-1012.png</filename>
+      <height type="integer">924</height>
+      <id type="integer">1434134</id>
+      <size type="integer">188001</size>
+      <uploader-id type="integer">154128</uploader-id>
+      <width type="integer">1002</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1434134/screen-shot-2011-09-27-at-1012.png</url>
+    </attachment-image>
+  </attachments>
 </ticket>

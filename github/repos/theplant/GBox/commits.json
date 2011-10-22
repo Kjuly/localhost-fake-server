@@ -1,1218 +1,1262 @@
 [
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "05806738aac570ea4def6fae0ab01dbc87c757d3",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/05806738aac570ea4def6fae0ab01dbc87c757d3"
+      }
+    ],
+    "sha": "9426194d3e197547e5f47ab7c63ecaa6fbe4c985",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/9426194d3e197547e5f47ab7c63ecaa6fbe4c985",
+    "commit": {
+      "message": "Trying to download files created on google web.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/9426194d3e197547e5f47ab7c63ecaa6fbe4c985",
+      "tree": {
+        "sha": "bef3dce9172baf6f460031488dd1cc362aacf2bb",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/bef3dce9172baf6f460031488dd1cc362aacf2bb"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T05:12:26-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T05:12:26-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "0c26335ce32ccc151b19571ecd5d64282946e667",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/0c26335ce32ccc151b19571ecd5d64282946e667"
-      },
-      {
-        "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
-      }
-    ],
-    "sha": "4da1b3450d10e152ca0ae956dabe6008e6d58087",
-    "commit": {
-      "tree": {
-        "sha": "42c574f77e6db8b409036fca9e285b15f6479d14",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/42c574f77e6db8b409036fca9e285b15f6479d14"
-      },
-      "message": "Merge branch 'master' of github.com:theplant/GBox",
-      "committer": {
-        "date": "2011-09-16T07:56:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-16T07:56:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/4da1b3450d10e152ca0ae956dabe6008e6d58087"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/4da1b3450d10e152ca0ae956dabe6008e6d58087"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "fcb24f0cfc4510ea302b5324e0c39d7ef73e802a",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/fcb24f0cfc4510ea302b5324e0c39d7ef73e802a"
+      }
+    ],
+    "sha": "05806738aac570ea4def6fae0ab01dbc87c757d3",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/05806738aac570ea4def6fae0ab01dbc87c757d3",
+    "commit": {
+      "message": "Fix the problem caused by updating api",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/05806738aac570ea4def6fae0ab01dbc87c757d3",
+      "tree": {
+        "sha": "b11fa17ba4ea37714dffb6ec95e067549a67a830",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/b11fa17ba4ea37714dffb6ec95e067549a67a830"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T02:25:24-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T02:25:24-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "fb903087038297ed3af4a2aee51fb0742310264b",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/fb903087038297ed3af4a2aee51fb0742310264b"
-      }
-    ],
-    "sha": "0c26335ce32ccc151b19571ecd5d64282946e667",
-    "commit": {
-      "tree": {
-        "sha": "ff93f1127299830f1915c0396f9e0e608abc0faf",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/ff93f1127299830f1915c0396f9e0e608abc0faf"
-      },
-      "message": "Recent change works, and fix problem in insufficent storage caused crash.",
-      "committer": {
-        "date": "2011-09-16T07:56:11-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-16T07:56:11-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/0c26335ce32ccc151b19571ecd5d64282946e667"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/0c26335ce32ccc151b19571ecd5d64282946e667"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
     "parents": [
       {
-        "sha": "fb903087038297ed3af4a2aee51fb0742310264b",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/fb903087038297ed3af4a2aee51fb0742310264b"
+        "sha": "1f1ff2a7e158f8b1ae2f6fbc957748f122365b10",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/1f1ff2a7e158f8b1ae2f6fbc957748f122365b10"
       }
     ],
-    "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+    "sha": "fcb24f0cfc4510ea302b5324e0c39d7ef73e802a",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/fcb24f0cfc4510ea302b5324e0c39d7ef73e802a",
     "commit": {
+      "message": "Update google api r707",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/fcb24f0cfc4510ea302b5324e0c39d7ef73e802a",
       "tree": {
-        "sha": "bfecfb493f157d7d3a16a4afb113710ef8e9a5ec",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/bfecfb493f157d7d3a16a4afb113710ef8e9a5ec"
-      },
-      "message": "add tests for fetch google doc",
-      "committer": {
-        "date": "2011-09-14T04:41:01-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "sha": "eff91d8d8f5e6ae1c8c587c4ca8e7666f0a402b3",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/eff91d8d8f5e6ae1c8c587c4ca8e7666f0a402b3"
       },
       "author": {
-        "date": "2011-09-14T04:40:43-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T01:58:54-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T01:58:54-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/520e38ff71a386bc5b0d243c1c05ac2a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "lancee",
-      "id": 385489,
-      "url": "https://api.github.com/users/lancee"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/520e38ff71a386bc5b0d243c1c05ac2a?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "lancee",
-      "id": 385489,
-      "url": "https://api.github.com/users/lancee"
-    },
     "parents": [
       {
-        "sha": "9ee0af0bfe2aa612059d9c25466c012acf44974e",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/9ee0af0bfe2aa612059d9c25466c012acf44974e"
+        "sha": "f69c799aab2008e45b6ac14419ec08b7d62f130b",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/f69c799aab2008e45b6ac14419ec08b7d62f130b"
       }
     ],
-    "sha": "fb903087038297ed3af4a2aee51fb0742310264b",
+    "sha": "1f1ff2a7e158f8b1ae2f6fbc957748f122365b10",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/1f1ff2a7e158f8b1ae2f6fbc957748f122365b10",
     "commit": {
+      "message": "Update google api",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/1f1ff2a7e158f8b1ae2f6fbc957748f122365b10",
       "tree": {
-        "sha": "371ee1630e98ca1915dceb442a77b37fb973c584",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/371ee1630e98ca1915dceb442a77b37fb973c584"
-      },
-      "message": "Sync icon",
-      "committer": {
-        "date": "2011-09-14T01:57:45-07:00",
-        "name": "lancee",
-        "email": "ly.lancee@gmail.com"
+        "sha": "87c4710f30ea726965be3aa5b3e3b93e0633850c",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/87c4710f30ea726965be3aa5b3e3b93e0633850c"
       },
       "author": {
-        "date": "2011-09-14T01:57:14-07:00",
-        "name": "lancee",
-        "email": "ly.lancee@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T01:57:09-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/fb903087038297ed3af4a2aee51fb0742310264b"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T01:57:09-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/fb903087038297ed3af4a2aee51fb0742310264b"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "285f854de5ff84fe21601c2aacc5c254dfba97ac",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/285f854de5ff84fe21601c2aacc5c254dfba97ac"
+      }
+    ],
+    "sha": "f69c799aab2008e45b6ac14419ec08b7d62f130b",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/f69c799aab2008e45b6ac14419ec08b7d62f130b",
+    "commit": {
+      "message": "Fix server update",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/f69c799aab2008e45b6ac14419ec08b7d62f130b",
+      "tree": {
+        "sha": "bff71a510c6511a1aa515253984d2315a66fc8ea",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/bff71a510c6511a1aa515253984d2315a66fc8ea"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T01:51:22-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T01:51:22-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "2d80757ad4e49a07c1d207e3bcb50187ce8826dc",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/2d80757ad4e49a07c1d207e3bcb50187ce8826dc"
-      },
-      {
-        "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/0432d6c7b0d49df71d541fb265b073fe66522e46"
-      }
-    ],
-    "sha": "9ee0af0bfe2aa612059d9c25466c012acf44974e",
-    "commit": {
-      "tree": {
-        "sha": "0b62ff2940414c2dfda857550c6a3b89ebed43a1",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/0b62ff2940414c2dfda857550c6a3b89ebed43a1"
-      },
-      "message": "Fix problem concern collection on server.",
-      "committer": {
-        "date": "2011-09-14T01:02:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-14T01:02:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/9ee0af0bfe2aa612059d9c25466c012acf44974e"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/9ee0af0bfe2aa612059d9c25466c012acf44974e"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "f162202ec5f3591469c1d6bfdbba232c426f0da9",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/f162202ec5f3591469c1d6bfdbba232c426f0da9"
+      }
+    ],
+    "sha": "285f854de5ff84fe21601c2aacc5c254dfba97ac",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/285f854de5ff84fe21601c2aacc5c254dfba97ac",
+    "commit": {
+      "message": "Remove the localFileInfo Dictionary, fix renaming error with web-generated documents.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/285f854de5ff84fe21601c2aacc5c254dfba97ac",
+      "tree": {
+        "sha": "4a69c5565aa04461672cba09bc8c7813771ec7b9",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/4a69c5565aa04461672cba09bc8c7813771ec7b9"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T00:32:47-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-21T00:32:47-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "1517c999efbb5d4291476c04fbf3d9548fe0f9ba",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/1517c999efbb5d4291476c04fbf3d9548fe0f9ba"
-      }
-    ],
-    "sha": "2d80757ad4e49a07c1d207e3bcb50187ce8826dc",
-    "commit": {
-      "tree": {
-        "sha": "d2f4f51dea2610b88fbd3a05160b3f9ded3e9193",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/d2f4f51dea2610b88fbd3a05160b3f9ded3e9193"
-      },
-      "message": "The icon refresh during syncing process works.",
-      "committer": {
-        "date": "2011-09-13T23:21:48-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-13T23:21:48-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/2d80757ad4e49a07c1d207e3bcb50187ce8826dc"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/2d80757ad4e49a07c1d207e3bcb50187ce8826dc"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
     "parents": [
       {
-        "sha": "918db942b7398eebb149967b670f0ec701db7dbd",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/918db942b7398eebb149967b670f0ec701db7dbd"
+        "sha": "d3be5b7fe3aeacb47c91a521e7c6014f36ba4c23",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/d3be5b7fe3aeacb47c91a521e7c6014f36ba4c23"
       }
     ],
-    "sha": "0432d6c7b0d49df71d541fb265b073fe66522e46",
+    "sha": "f162202ec5f3591469c1d6bfdbba232c426f0da9",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/f162202ec5f3591469c1d6bfdbba232c426f0da9",
     "commit": {
+      "message": "Reveal in web using self link instead of constructed link",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/f162202ec5f3591469c1d6bfdbba232c426f0da9",
       "tree": {
-        "sha": "b852d44f4d095f754fdedaf4af2bb1862a22aee5",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/b852d44f4d095f754fdedaf4af2bb1862a22aee5"
-      },
-      "message": "Add tests for dataFacility",
-      "committer": {
-        "date": "2011-09-13T20:52:03-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "sha": "6ab5080860987f021dc3cde23e3281cd9e39f9c0",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/6ab5080860987f021dc3cde23e3281cd9e39f9c0"
       },
       "author": {
-        "date": "2011-09-13T20:52:03-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T20:28:29-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/0432d6c7b0d49df71d541fb265b073fe66522e46"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T20:28:29-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/0432d6c7b0d49df71d541fb265b073fe66522e46"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
     "parents": [
       {
-        "sha": "2a422957d44f291233ac63482c97f005628713ad",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/2a422957d44f291233ac63482c97f005628713ad"
+        "sha": "c99af15a1bcb7ff0cd7b51fae0a47be975ace9b9",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/c99af15a1bcb7ff0cd7b51fae0a47be975ace9b9"
       }
     ],
-    "sha": "918db942b7398eebb149967b670f0ec701db7dbd",
+    "sha": "d3be5b7fe3aeacb47c91a521e7c6014f36ba4c23",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/d3be5b7fe3aeacb47c91a521e7c6014f36ba4c23",
     "commit": {
+      "message": "Reveal in finder after activate it.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/d3be5b7fe3aeacb47c91a521e7c6014f36ba4c23",
       "tree": {
-        "sha": "8e223335d697490e1f00789a96b4f9e88219347c",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/8e223335d697490e1f00789a96b4f9e88219347c"
-      },
-      "message": "try to fix executeFetchRequest:error: A fetch request must have an entity. failed",
-      "committer": {
-        "date": "2011-09-13T10:10:59-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "sha": "d05514f4fd6155f4b4db889b0b31ac4d49601297",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/d05514f4fd6155f4b4db889b0b31ac4d49601297"
       },
       "author": {
-        "date": "2011-09-13T10:10:59-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T20:18:49-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/918db942b7398eebb149967b670f0ec701db7dbd"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T20:18:49-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/918db942b7398eebb149967b670f0ec701db7dbd"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
     "parents": [
       {
-        "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/6406c978a888da7cdbbcce295405130caedb9f07"
+        "sha": "43ef8db0a693db87efbbdd00b0a499c2c545c6cb",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/43ef8db0a693db87efbbdd00b0a499c2c545c6cb"
       }
     ],
-    "sha": "2a422957d44f291233ac63482c97f005628713ad",
+    "sha": "c99af15a1bcb7ff0cd7b51fae0a47be975ace9b9",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/c99af15a1bcb7ff0cd7b51fae0a47be975ace9b9",
     "commit": {
+      "message": "remove the upload item in recent change if it failed",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/c99af15a1bcb7ff0cd7b51fae0a47be975ace9b9",
       "tree": {
-        "sha": "7b946de677a777e82fdfee9b161ae45a50b6cd21",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/7b946de677a777e82fdfee9b161ae45a50b6cd21"
-      },
-      "message": "make one test pass",
-      "committer": {
-        "date": "2011-09-13T05:10:13-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "sha": "21d98034143f2f3f6bab91b4903d6023738d2ea3",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/21d98034143f2f3f6bab91b4903d6023738d2ea3"
       },
       "author": {
-        "date": "2011-09-13T05:10:13-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T20:10:36-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/2a422957d44f291233ac63482c97f005628713ad"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T20:10:36-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/2a422957d44f291233ac63482c97f005628713ad"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "sunfmin",
-      "id": 1014,
-      "url": "https://api.github.com/users/sunfmin"
-    },
     "parents": [
       {
-        "sha": "1517c999efbb5d4291476c04fbf3d9548fe0f9ba",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/1517c999efbb5d4291476c04fbf3d9548fe0f9ba"
+        "sha": "d2c7b81826c006cea10bace9d09dcbda47685264",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/d2c7b81826c006cea10bace9d09dcbda47685264"
       }
     ],
-    "sha": "6406c978a888da7cdbbcce295405130caedb9f07",
+    "sha": "43ef8db0a693db87efbbdd00b0a499c2c545c6cb",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/43ef8db0a693db87efbbdd00b0a499c2c545c6cb",
     "commit": {
+      "message": "Add md5 check before upload",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/43ef8db0a693db87efbbdd00b0a499c2c545c6cb",
       "tree": {
-        "sha": "04ad27149018d003564426347cb4eaebd5d5d0d2",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/04ad27149018d003564426347cb4eaebd5d5d0d2"
-      },
-      "message": "try to add tests, but still can't run yet",
-      "committer": {
-        "date": "2011-09-13T03:59:19-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "sha": "f540ff0c7aa8d50a59c25a64a4a6b51fec5c92fc",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/f540ff0c7aa8d50a59c25a64a4a6b51fec5c92fc"
       },
       "author": {
-        "date": "2011-09-13T03:59:19-07:00",
-        "name": "Felix Sun",
-        "email": "sunfmin@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T19:39:21-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/6406c978a888da7cdbbcce295405130caedb9f07"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-20T19:39:21-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/6406c978a888da7cdbbcce295405130caedb9f07"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "ee19deee4d5f5b6208c8a0754f30f23938f168fd",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/ee19deee4d5f5b6208c8a0754f30f23938f168fd"
+      }
+    ],
+    "sha": "d2c7b81826c006cea10bace9d09dcbda47685264",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/d2c7b81826c006cea10bace9d09dcbda47685264",
+    "commit": {
+      "message": "Add search by title or md5 in the feed fetched from server",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/d2c7b81826c006cea10bace9d09dcbda47685264",
+      "tree": {
+        "sha": "86d768ddc9b5415fbcd7def9f920e83d1e27b29f",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/86d768ddc9b5415fbcd7def9f920e83d1e27b29f"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T20:45:00-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T20:45:00-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "d29e8225324cc89f7999f57a3c3c9d6ecc861277",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/d29e8225324cc89f7999f57a3c3c9d6ecc861277"
-      }
-    ],
-    "sha": "1517c999efbb5d4291476c04fbf3d9548fe0f9ba",
-    "commit": {
-      "tree": {
-        "sha": "3f8890d2bf3e3cae7e781490e663b307b849ca6c",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/3f8890d2bf3e3cae7e781490e663b307b849ca6c"
-      },
-      "message": "Icons have been changed.",
-      "committer": {
-        "date": "2011-09-13T03:25:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-13T03:25:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/1517c999efbb5d4291476c04fbf3d9548fe0f9ba"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/1517c999efbb5d4291476c04fbf3d9548fe0f9ba"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "06cf6b6641e86452e351625183eb6e3e5005b517",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/06cf6b6641e86452e351625183eb6e3e5005b517"
+      }
+    ],
+    "sha": "ee19deee4d5f5b6208c8a0754f30f23938f168fd",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/ee19deee4d5f5b6208c8a0754f30f23938f168fd",
+    "commit": {
+      "message": "Reveal in finder",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/ee19deee4d5f5b6208c8a0754f30f23938f168fd",
+      "tree": {
+        "sha": "86eaa8f42b8599176d35de4b36ae4dc6a2d17c62",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/86eaa8f42b8599176d35de4b36ae4dc6a2d17c62"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T08:56:43-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T08:56:43-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
-      }
-    ],
-    "sha": "d29e8225324cc89f7999f57a3c3c9d6ecc861277",
-    "commit": {
-      "tree": {
-        "sha": "904ab8dcd061c1312c409c04e7f5d4bb8d6d90fe",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/904ab8dcd061c1312c409c04e7f5d4bb8d6d90fe"
-      },
-      "message": "Fix deletion bug",
-      "committer": {
-        "date": "2011-09-08T21:13:17-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-08T21:13:17-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/d29e8225324cc89f7999f57a3c3c9d6ecc861277"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/d29e8225324cc89f7999f57a3c3c9d6ecc861277"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "f4918add8f655ffdc1d56c7cbc9f7d465be513f9",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/f4918add8f655ffdc1d56c7cbc9f7d465be513f9"
+      }
+    ],
+    "sha": "06cf6b6641e86452e351625183eb6e3e5005b517",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/06cf6b6641e86452e351625183eb6e3e5005b517",
+    "commit": {
+      "message": "Only set services when run GBox for the first time",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/06cf6b6641e86452e351625183eb6e3e5005b517",
+      "tree": {
+        "sha": "7d6d17f4e4252dbb2065625738bf6feccb224a83",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/7d6d17f4e4252dbb2065625738bf6feccb224a83"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T02:09:26-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T02:09:26-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "235a8270026155b646b622bd69ad886ebc43bdf6",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/235a8270026155b646b622bd69ad886ebc43bdf6"
-      }
-    ],
-    "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
-    "commit": {
-      "tree": {
-        "sha": "d6b97db9ef4131d7305b5420ca35ff4b32bad4db",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/d6b97db9ef4131d7305b5420ca35ff4b32bad4db"
-      },
-      "message": "Write log to file for debug.",
-      "committer": {
-        "date": "2011-09-08T20:27:02-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-08T20:27:02-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "f5e01c4dbaf10fd0296e3e40418f8cf917d825a0",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/f5e01c4dbaf10fd0296e3e40418f8cf917d825a0"
+      }
+    ],
+    "sha": "f4918add8f655ffdc1d56c7cbc9f7d465be513f9",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/f4918add8f655ffdc1d56c7cbc9f7d465be513f9",
+    "commit": {
+      "message": "Use applescript to set ShareWithGBox Services available.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/f4918add8f655ffdc1d56c7cbc9f7d465be513f9",
+      "tree": {
+        "sha": "33df45552a169dd915c5c9129288d9c99c0c06ef",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/33df45552a169dd915c5c9129288d9c99c0c06ef"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T02:06:30-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-18T02:06:30-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "cf2cdb85bdbaed12299e8610d27fe5b5a69cebca",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
-      }
-    ],
-    "sha": "235a8270026155b646b622bd69ad886ebc43bdf6",
-    "commit": {
-      "tree": {
-        "sha": "88ff9163426bbebda1df82a451cbbff6b55abc9d",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/88ff9163426bbebda1df82a451cbbff6b55abc9d"
-      },
-      "message": "Recent change add to 12 items.",
-      "committer": {
-        "date": "2011-09-08T19:46:36-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-08T19:46:36-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/235a8270026155b646b622bd69ad886ebc43bdf6"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/235a8270026155b646b622bd69ad886ebc43bdf6"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "frankyue",
-      "id": 58485,
-      "url": "https://api.github.com/users/frankyue"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "frankyue",
-      "id": 58485,
-      "url": "https://api.github.com/users/frankyue"
-    },
     "parents": [
       {
-        "sha": "c998a04968e279d36f4048272064cd541eabd848",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/c998a04968e279d36f4048272064cd541eabd848"
+        "sha": "a53a1035a661464e0ee2757f6dae5ec768b7d6d2",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/a53a1035a661464e0ee2757f6dae5ec768b7d6d2"
       }
     ],
-    "sha": "cf2cdb85bdbaed12299e8610d27fe5b5a69cebca",
+    "sha": "f5e01c4dbaf10fd0296e3e40418f8cf917d825a0",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/f5e01c4dbaf10fd0296e3e40418f8cf917d825a0",
     "commit": {
+      "message": "Add GBox folder to the favorite list(first item)",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/f5e01c4dbaf10fd0296e3e40418f8cf917d825a0",
       "tree": {
-        "sha": "a5aca04c657f58c93ef1d74ae222c7c021e241e9",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/a5aca04c657f58c93ef1d74ae222c7c021e241e9"
-      },
-      "message": "fix the recently changes bug that lost symbol % in any time commit",
-      "committer": {
-        "date": "2011-09-07T07:45:09-07:00",
-        "name": "frankyue",
-        "email": "frankyue1019@gmail.com"
+        "sha": "fdc6bd87b9906285361736b792fa612145a993ac",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/fdc6bd87b9906285361736b792fa612145a993ac"
       },
       "author": {
-        "date": "2011-09-07T07:45:09-07:00",
-        "name": "frankyue",
-        "email": "frankyue1019@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T06:25:43-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T06:25:43-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/cf2cdb85bdbaed12299e8610d27fe5b5a69cebca"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "3e56cf7b8623f3fed0e9a0156d9f415e7cb9575e",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/3e56cf7b8623f3fed0e9a0156d9f415e7cb9575e"
+      }
+    ],
+    "sha": "a53a1035a661464e0ee2757f6dae5ec768b7d6d2",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/a53a1035a661464e0ee2757f6dae5ec768b7d6d2",
+    "commit": {
+      "message": "Fix link error in sharing.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/a53a1035a661464e0ee2757f6dae5ec768b7d6d2",
+      "tree": {
+        "sha": "47e553dfd37e062d26aae244a5dec659350a4740",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/47e553dfd37e062d26aae244a5dec659350a4740"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T06:17:53-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T06:17:53-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "5f15f32d6928a12d248a91380564611c21eefc53",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/5f15f32d6928a12d248a91380564611c21eefc53"
-      }
-    ],
-    "sha": "c998a04968e279d36f4048272064cd541eabd848",
-    "commit": {
-      "tree": {
-        "sha": "3c2bd2cb910949bb9d878cff121d2bfb9ec146ad",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/3c2bd2cb910949bb9d878cff121d2bfb9ec146ad"
-      },
-      "message": "Initial launch is ok",
-      "committer": {
-        "date": "2011-09-07T03:48:32-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-07T03:48:32-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/c998a04968e279d36f4048272064cd541eabd848"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/c998a04968e279d36f4048272064cd541eabd848"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "2ccddf1d3a569714329031932b5a6909a31cdc1d",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/2ccddf1d3a569714329031932b5a6909a31cdc1d"
+      }
+    ],
+    "sha": "3e56cf7b8623f3fed0e9a0156d9f415e7cb9575e",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/3e56cf7b8623f3fed0e9a0156d9f415e7cb9575e",
+    "commit": {
+      "message": "Share with public link",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/3e56cf7b8623f3fed0e9a0156d9f415e7cb9575e",
+      "tree": {
+        "sha": "a12c3ef30d5021a0699a6bf9650e48cfa4c44e07",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/a12c3ef30d5021a0699a6bf9650e48cfa4c44e07"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T03:25:12-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T03:25:12-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "13a4e9fb216452d1141cc9d414a3d9c6081ab22c",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
-      }
-    ],
-    "sha": "5f15f32d6928a12d248a91380564611c21eefc53",
-    "commit": {
-      "tree": {
-        "sha": "928bcd4e16f2894185874c1252679292a6c763b6",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/928bcd4e16f2894185874c1252679292a6c763b6"
-      },
-      "message": "Fix bugs on file move inside GBox folder, fsevent is dangerous the bug is fixed however the reason is not clear, and re-appear some times.",
-      "committer": {
-        "date": "2011-09-07T00:34:37-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-07T00:34:37-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/5f15f32d6928a12d248a91380564611c21eefc53"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/5f15f32d6928a12d248a91380564611c21eefc53"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "00613b8f03b74fd446605aee3ece74d9e6d31b02",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/00613b8f03b74fd446605aee3ece74d9e6d31b02"
+      }
+    ],
+    "sha": "2ccddf1d3a569714329031932b5a6909a31cdc1d",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/2ccddf1d3a569714329031932b5a6909a31cdc1d",
+    "commit": {
+      "message": "Update ACL share api",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/2ccddf1d3a569714329031932b5a6909a31cdc1d",
+      "tree": {
+        "sha": "6e37ee486cb7448adf7e0b474557ab789ab1e40d",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/6e37ee486cb7448adf7e0b474557ab789ab1e40d"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T00:15:19-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-17T00:15:19-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "0281bb08100c729154210cb1231ed9f809d33e09",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/0281bb08100c729154210cb1231ed9f809d33e09"
-      }
-    ],
-    "sha": "13a4e9fb216452d1141cc9d414a3d9c6081ab22c",
-    "commit": {
-      "tree": {
-        "sha": "2ed6c7ba83150e31101b9c08691787fd1b7b5525",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/2ed6c7ba83150e31101b9c08691787fd1b7b5525"
-      },
-      "message": "The downloaded/uploaded reminder looks more pretty.",
-      "committer": {
-        "date": "2011-09-06T21:23:52-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-06T21:23:52-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "55d2b677219118e83b409de0c4b04413be4c3bb8",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/55d2b677219118e83b409de0c4b04413be4c3bb8"
+      }
+    ],
+    "sha": "00613b8f03b74fd446605aee3ece74d9e6d31b02",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/00613b8f03b74fd446605aee3ece74d9e6d31b02",
+    "commit": {
+      "message": "Code of recent change items that insure unfinished item will not be removed.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/00613b8f03b74fd446605aee3ece74d9e6d31b02",
+      "tree": {
+        "sha": "c71d474575c989ed3d1dc1074554584398cff671",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/c71d474575c989ed3d1dc1074554584398cff671"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T23:09:27-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T23:09:27-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "c1c99088585e1fb5c45ea583a766d365914e0069",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/c1c99088585e1fb5c45ea583a766d365914e0069"
-      },
-      {
-        "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/7bb76e38cfac94d40c29f62de745274bc0251d60"
-      }
-    ],
-    "sha": "0281bb08100c729154210cb1231ed9f809d33e09",
-    "commit": {
-      "tree": {
-        "sha": "0d88230110998f1ef054669e6956643bba737cf8",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/0d88230110998f1ef054669e6956643bba737cf8"
-      },
-      "message": "Merge branch 'master' of github.com:theplant/GBox",
-      "committer": {
-        "date": "2011-09-06T19:47:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-06T19:47:43-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/0281bb08100c729154210cb1231ed9f809d33e09"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/0281bb08100c729154210cb1231ed9f809d33e09"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "fb5720d043addc3bd7d1ba186029b5c0e22f0dd3",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/fb5720d043addc3bd7d1ba186029b5c0e22f0dd3"
+      }
+    ],
+    "sha": "55d2b677219118e83b409de0c4b04413be4c3bb8",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/55d2b677219118e83b409de0c4b04413be4c3bb8",
+    "commit": {
+      "message": "Remove the donwload temporary file if the download is cancelled.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/55d2b677219118e83b409de0c4b04413be4c3bb8",
+      "tree": {
+        "sha": "7508d45bdb2359c8053886f9132f5dcd7a834753",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/7508d45bdb2359c8053886f9132f5dcd7a834753"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T01:51:49-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T01:51:49-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "9a4cc31c2556deb7029496438725222112cc7680",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/9a4cc31c2556deb7029496438725222112cc7680"
-      }
-    ],
-    "sha": "c1c99088585e1fb5c45ea583a766d365914e0069",
-    "commit": {
-      "tree": {
-        "sha": "e3a8f0ecac2fe7af5962c6e69ec4bda4dd9139c9",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/e3a8f0ecac2fe7af5962c6e69ec4bda4dd9139c9"
-      },
-      "message": "Move file into GBox folder get uploaded, copy folder inside GBox folder get fixed.",
-      "committer": {
-        "date": "2011-09-06T19:47:29-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-06T19:47:29-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/c1c99088585e1fb5c45ea583a766d365914e0069"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/c1c99088585e1fb5c45ea583a766d365914e0069"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "frankyue",
-      "id": 58485,
-      "url": "https://api.github.com/users/frankyue"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "frankyue",
-      "id": 58485,
-      "url": "https://api.github.com/users/frankyue"
-    },
     "parents": [
       {
-        "sha": "9a4cc31c2556deb7029496438725222112cc7680",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/9a4cc31c2556deb7029496438725222112cc7680"
+        "sha": "9f9418acbbcce3278d5db807654dc6c3fa863be8",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/9f9418acbbcce3278d5db807654dc6c3fa863be8"
       }
     ],
-    "sha": "7bb76e38cfac94d40c29f62de745274bc0251d60",
+    "sha": "fb5720d043addc3bd7d1ba186029b5c0e22f0dd3",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/fb5720d043addc3bd7d1ba186029b5c0e22f0dd3",
     "commit": {
+      "message": "Fix cancel download opeartion",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/fb5720d043addc3bd7d1ba186029b5c0e22f0dd3",
       "tree": {
-        "sha": "8097f188142ecf0a0aa913e23d3a8b65da98d40f",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/8097f188142ecf0a0aa913e23d3a8b65da98d40f"
-      },
-      "message": "add upload file to Recently changes's bar that the progress can show how much had upload to server",
-      "committer": {
-        "date": "2011-09-05T08:49:11-07:00",
-        "name": "frankyue",
-        "email": "frankyue1019@gmail.com"
+        "sha": "10e59868309aa1f890d9f7fcc8eb561be9e805ea",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/10e59868309aa1f890d9f7fcc8eb561be9e805ea"
       },
       "author": {
-        "date": "2011-09-05T08:49:11-07:00",
-        "name": "frankyue",
-        "email": "frankyue1019@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T01:31:29-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/7bb76e38cfac94d40c29f62de745274bc0251d60"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T01:31:29-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/7bb76e38cfac94d40c29f62de745274bc0251d60"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "33b9b38d66754133a216373cc7baf9754d5fc869",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/33b9b38d66754133a216373cc7baf9754d5fc869"
+      }
+    ],
+    "sha": "9f9418acbbcce3278d5db807654dc6c3fa863be8",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/9f9418acbbcce3278d5db807654dc6c3fa863be8",
+    "commit": {
+      "message": "Reveal in Safari is implemented.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/9f9418acbbcce3278d5db807654dc6c3fa863be8",
+      "tree": {
+        "sha": "a56d93b88f9f41f8da4756d44e380f8cb84dfec8",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/a56d93b88f9f41f8da4756d44e380f8cb84dfec8"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T00:05:58-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-12T00:05:58-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "b45a314bd94233ac46af54e589763789d040906e",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/b45a314bd94233ac46af54e589763789d040906e"
-      }
-    ],
-    "sha": "9a4cc31c2556deb7029496438725222112cc7680",
-    "commit": {
-      "tree": {
-        "sha": "1c96fa5dc2d9c16cb25e35cbb65844c4b3379f07",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/1c96fa5dc2d9c16cb25e35cbb65844c4b3379f07"
-      },
-      "message": "Local updated solved",
-      "committer": {
-        "date": "2011-09-05T07:26:57-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-05T07:26:57-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/9a4cc31c2556deb7029496438725222112cc7680"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/9a4cc31c2556deb7029496438725222112cc7680"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "682ee9d36d354b621a91ceb709f7ce1d5c5e41e5",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/682ee9d36d354b621a91ceb709f7ce1d5c5e41e5"
+      }
+    ],
+    "sha": "33b9b38d66754133a216373cc7baf9754d5fc869",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/33b9b38d66754133a216373cc7baf9754d5fc869",
+    "commit": {
+      "message": "Revert to old because unkown reason that the unified solution will cause crash.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/33b9b38d66754133a216373cc7baf9754d5fc869",
+      "tree": {
+        "sha": "cad2c15957df8e3956864652a35acbe6adbea256",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/cad2c15957df8e3956864652a35acbe6adbea256"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-11T23:57:18-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-11T23:57:18-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "c9f0b9ec9bb6782e8e73968917986c3f21e83c2e",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/c9f0b9ec9bb6782e8e73968917986c3f21e83c2e"
-      }
-    ],
-    "sha": "b45a314bd94233ac46af54e589763789d040906e",
-    "commit": {
-      "tree": {
-        "sha": "61f4006373f4a49dc07e616a959bec0492706119",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/61f4006373f4a49dc07e616a959bec0492706119"
-      },
-      "message": "Remove history code in data facility",
-      "committer": {
-        "date": "2011-09-04T23:40:51-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-04T23:40:51-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/b45a314bd94233ac46af54e589763789d040906e"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/b45a314bd94233ac46af54e589763789d040906e"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "60e3bbb892d782dcb9607909f963ecd9d1dc708c",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/60e3bbb892d782dcb9607909f963ecd9d1dc708c"
+      }
+    ],
+    "sha": "682ee9d36d354b621a91ceb709f7ce1d5c5e41e5",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/682ee9d36d354b621a91ceb709f7ce1d5c5e41e5",
+    "commit": {
+      "message": "Unify the ignored file",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/682ee9d36d354b621a91ceb709f7ce1d5c5e41e5",
+      "tree": {
+        "sha": "12aecca1324597c60c7514a585220842bbac0508",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/12aecca1324597c60c7514a585220842bbac0508"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-11T23:51:34-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-11T23:51:34-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "f7529ece808e1e7619e2bef28255893dc627f705",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/f7529ece808e1e7619e2bef28255893dc627f705"
-      }
-    ],
-    "sha": "c9f0b9ec9bb6782e8e73968917986c3f21e83c2e",
-    "commit": {
-      "tree": {
-        "sha": "1875c9b8e2a8a8bed7060666e816122bde112a53",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/1875c9b8e2a8a8bed7060666e816122bde112a53"
-      },
-      "message": "Sharing alert is removed.",
-      "committer": {
-        "date": "2011-09-04T23:28:45-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-04T23:28:45-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/c9f0b9ec9bb6782e8e73968917986c3f21e83c2e"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/c9f0b9ec9bb6782e8e73968917986c3f21e83c2e"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "aa6d04c2e8b8b58ab0143aec095459a9e69ebd6a",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/aa6d04c2e8b8b58ab0143aec095459a9e69ebd6a"
+      }
+    ],
+    "sha": "60e3bbb892d782dcb9607909f963ecd9d1dc708c",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/60e3bbb892d782dcb9607909f963ecd9d1dc708c",
+    "commit": {
+      "message": "Modification of process of localfileUpdated, and modification to recent chang ui",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/60e3bbb892d782dcb9607909f963ecd9d1dc708c",
+      "tree": {
+        "sha": "c852e10e46b674adf8fafcd5376a32229799b0b7",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/c852e10e46b674adf8fafcd5376a32229799b0b7"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-11T23:41:38-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-11T23:41:38-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "f6c3956c84bd66e381c253a3034981007bfd729c",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/f6c3956c84bd66e381c253a3034981007bfd729c"
-      }
-    ],
-    "sha": "f7529ece808e1e7619e2bef28255893dc627f705",
-    "commit": {
-      "tree": {
-        "sha": "13bde37def9f75f7b2a33d17a1deaea110d7f96d",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/13bde37def9f75f7b2a33d17a1deaea110d7f96d"
-      },
-      "message": "Server collection change handled.",
-      "committer": {
-        "date": "2011-09-04T21:55:10-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-04T21:55:10-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/f7529ece808e1e7619e2bef28255893dc627f705"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/f7529ece808e1e7619e2bef28255893dc627f705"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "209e2f72e63568644e5e289a60353cffd53de360",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/209e2f72e63568644e5e289a60353cffd53de360"
+      }
+    ],
+    "sha": "aa6d04c2e8b8b58ab0143aec095459a9e69ebd6a",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/aa6d04c2e8b8b58ab0143aec095459a9e69ebd6a",
+    "commit": {
+      "message": "The ui is improved when download and upload finished.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/aa6d04c2e8b8b58ab0143aec095459a9e69ebd6a",
+      "tree": {
+        "sha": "f11c6e7cf0d03bb316becac34f0d002c95dd4e2a",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/f11c6e7cf0d03bb316becac34f0d002c95dd4e2a"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-10T23:31:42-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-10T23:31:42-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "b4f6b78cf3c435904d71d70463f822423213adf9",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/b4f6b78cf3c435904d71d70463f822423213adf9"
-      }
-    ],
-    "sha": "f6c3956c84bd66e381c253a3034981007bfd729c",
-    "commit": {
-      "tree": {
-        "sha": "4a35f8a57b58a864c7a8e6e0782763ac6ee10818",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/4a35f8a57b58a864c7a8e6e0782763ac6ee10818"
-      },
-      "message": "Major updated of local file move, folder creation.",
-      "committer": {
-        "date": "2011-09-04T19:53:20-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-04T19:53:20-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/f6c3956c84bd66e381c253a3034981007bfd729c"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/f6c3956c84bd66e381c253a3034981007bfd729c"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "cdf49eee79c42bb5b0ec00a0e05d7cc7549e4049",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/cdf49eee79c42bb5b0ec00a0e05d7cc7549e4049"
+      }
+    ],
+    "sha": "209e2f72e63568644e5e289a60353cffd53de360",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/209e2f72e63568644e5e289a60353cffd53de360",
+    "commit": {
+      "message": "Fix UI problem in recent change files",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/209e2f72e63568644e5e289a60353cffd53de360",
+      "tree": {
+        "sha": "90aac1a58e51618405bf39c07c74aad57d06dbec",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/90aac1a58e51618405bf39c07c74aad57d06dbec"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-10T19:40:29-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-10T19:40:29-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
-      }
-    ],
-    "sha": "b4f6b78cf3c435904d71d70463f822423213adf9",
-    "commit": {
-      "tree": {
-        "sha": "3abd73b94cf781005657c0cef92a24e1d2b81afa",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/3abd73b94cf781005657c0cef92a24e1d2b81afa"
-      },
-      "message": "Initial server doc fetch change to using the server file updated logic.",
-      "committer": {
-        "date": "2011-09-02T01:27:32-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-02T01:27:32-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/b4f6b78cf3c435904d71d70463f822423213adf9"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/b4f6b78cf3c435904d71d70463f822423213adf9"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "5b134d57e54779bd6cc76fc85f695d53dc8f6f3d",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/5b134d57e54779bd6cc76fc85f695d53dc8f6f3d"
+      }
+    ],
+    "sha": "cdf49eee79c42bb5b0ec00a0e05d7cc7549e4049",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/cdf49eee79c42bb5b0ec00a0e05d7cc7549e4049",
+    "commit": {
+      "message": "Add icon to indicate download or upload.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/cdf49eee79c42bb5b0ec00a0e05d7cc7549e4049",
+      "tree": {
+        "sha": "711900ec264f98fe73d5a1aac2b920263cb8d3ec",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/711900ec264f98fe73d5a1aac2b920263cb8d3ec"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-09T01:56:45-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-09T01:56:45-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "c917bf7b0b24b4464e187db434006ad6c647b96a",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/c917bf7b0b24b4464e187db434006ad6c647b96a"
-      }
-    ],
-    "sha": "0d0a84e4c1020198de23aaab94b95ea30f5cb78b",
-    "commit": {
-      "tree": {
-        "sha": "aefbf82a2f3ca7036a8d0244ee1d729c939eeb86",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/aefbf82a2f3ca7036a8d0244ee1d729c939eeb86"
-      },
-      "message": "Local deletion is handled correctly",
-      "committer": {
-        "date": "2011-09-02T01:19:50-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-09-02T01:19:50-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/0d0a84e4c1020198de23aaab94b95ea30f5cb78b"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "frankyue",
-      "id": 58485,
-      "url": "https://api.github.com/users/frankyue"
-    },
-    "author": {
-      "avatar_url": "https://secure.gravatar.com/avatar/6c7e9668d8ee0116e7e0ef735d887cd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "frankyue",
-      "id": 58485,
-      "url": "https://api.github.com/users/frankyue"
-    },
     "parents": [
       {
-        "sha": "81fb2db6e028c14ea8005ef424f0ba8875f485bd",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/81fb2db6e028c14ea8005ef424f0ba8875f485bd"
+        "sha": "18f1838dc79a8d57ffe61b141d5799a1e79d1f55",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/18f1838dc79a8d57ffe61b141d5799a1e79d1f55"
       }
     ],
-    "sha": "c917bf7b0b24b4464e187db434006ad6c647b96a",
+    "sha": "5b134d57e54779bd6cc76fc85f695d53dc8f6f3d",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/5b134d57e54779bd6cc76fc85f695d53dc8f6f3d",
     "commit": {
+      "message": "Add resumable upload",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/5b134d57e54779bd6cc76fc85f695d53dc8f6f3d",
       "tree": {
-        "sha": "e509c08c8c2d4ebe181a7353a3369bbcb3dd2c32",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/e509c08c8c2d4ebe181a7353a3369bbcb3dd2c32"
-      },
-      "message": "re-register growl",
-      "committer": {
-        "date": "2011-09-01T19:13:32-07:00",
-        "name": "frankyue",
-        "email": "frankyue1019@gmail.com"
+        "sha": "c32ccd1ee8e961439d40bfc3d4640207fd0afdfe",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/c32ccd1ee8e961439d40bfc3d4640207fd0afdfe"
       },
       "author": {
-        "date": "2011-09-01T19:13:32-07:00",
-        "name": "frankyue",
-        "email": "frankyue1019@gmail.com"
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-09T00:58:44-07:00",
+        "name": "Xiaoyi Chen"
       },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/c917bf7b0b24b4464e187db434006ad6c647b96a"
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-09T00:58:44-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/c917bf7b0b24b4464e187db434006ad6c647b96a"
+    "author": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    },
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   },
   {
-    "committer": {
-      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-      "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+    "parents": [
+      {
+        "sha": "35cf5e69634def2625ae70c2fb19ab950fac2a12",
+        "url": "https://api.github.com/repos/theplant/GBox/commits/35cf5e69634def2625ae70c2fb19ab950fac2a12"
+      }
+    ],
+    "sha": "18f1838dc79a8d57ffe61b141d5799a1e79d1f55",
+    "url": "https://api.github.com/repos/theplant/GBox/commits/18f1838dc79a8d57ffe61b141d5799a1e79d1f55",
+    "commit": {
+      "message": "Update to google api new revision.",
+      "url": "https://api.github.com/repos/theplant/GBox/git/commits/18f1838dc79a8d57ffe61b141d5799a1e79d1f55",
+      "tree": {
+        "sha": "bc01eddecef455118b0f0441e2100c2016438438",
+        "url": "https://api.github.com/repos/theplant/GBox/git/trees/bc01eddecef455118b0f0441e2100c2016438438"
+      },
+      "author": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-08T23:07:02-07:00",
+        "name": "Xiaoyi Chen"
+      },
+      "committer": {
+        "email": "xiaoyi.chen@hotmail.com",
+        "date": "2011-10-08T23:07:02-07:00",
+        "name": "Xiaoyi Chen"
+      }
     },
     "author": {
       "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
       "login": "chenxiaoyi",
-      "id": 877966,
-      "url": "https://api.github.com/users/chenxiaoyi"
+      "id": 877966
     },
-    "parents": [
-      {
-        "sha": "49ee3bbfb74ce63ffe4039d163e6536977b71cca",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/49ee3bbfb74ce63ffe4039d163e6536977b71cca"
-      },
-      {
-        "sha": "93ba675b9149736ec883e4a9f1f55e1e59398a1d",
-        "url": "https://api.github.com/repos/theplant/GBox/commits/93ba675b9149736ec883e4a9f1f55e1e59398a1d"
-      }
-    ],
-    "sha": "81fb2db6e028c14ea8005ef424f0ba8875f485bd",
-    "commit": {
-      "tree": {
-        "sha": "c4b2c552df8eaa9534fe96b99d850e577313d4a7",
-        "url": "https://api.github.com/repos/theplant/GBox/git/trees/c4b2c552df8eaa9534fe96b99d850e577313d4a7"
-      },
-      "message": "Merge branch 'master' of github.com:theplant/GBox",
-      "committer": {
-        "date": "2011-08-31T03:17:07-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "author": {
-        "date": "2011-08-31T03:17:07-07:00",
-        "name": "Xiaoyi Chen",
-        "email": "xiaoyi.chen@hotmail.com"
-      },
-      "url": "https://api.github.com/repos/theplant/GBox/git/commits/81fb2db6e028c14ea8005ef424f0ba8875f485bd"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/commits/81fb2db6e028c14ea8005ef424f0ba8875f485bd"
+    "committer": {
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/chenxiaoyi",
+      "gravatar_id": "38eb4e6b823b7e406e11de34be7fe61d",
+      "login": "chenxiaoyi",
+      "id": 877966
+    }
   }
 ]

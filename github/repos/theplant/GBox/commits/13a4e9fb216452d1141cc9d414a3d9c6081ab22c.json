@@ -1,13 +1,7 @@
 {
-  "committer": {
-    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "login": "chenxiaoyi",
-    "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi"
-  },
   "author": {
-    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
     "login": "chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
     "id": 877966,
     "url": "https://api.github.com/users/chenxiaoyi"
   },
@@ -15,29 +9,35 @@
     {
       "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -693,8 +693,8 @@\n     [dataFacility setState:kGBStateDone ofTaskID:taskID];\n     [currentExecutingTasks removeObject:taskID];\n \n-    [GBUtility displayAlert:@\"Uploaded file\"\n-                     format:@\"File uploaded: %@\", [path lastPathComponent] ];\n+    [GBUtility displayAlert:@\"File uploaded:\"\n+                     format:@\"%@\", [path lastPathComponent] ];\n \n }\n \n@@ -770,8 +770,8 @@\n     [currentExecutingTasks removeObject:taskID];\n     [dataFacility setState:kGBStateDone ofTaskID:taskID];\n     \n-    [GBUtility displayAlert:@\"Downloaded file\"\n-                     format:@\"File downloaded: %@\", [[entry title] stringValue]];\n+    [GBUtility displayAlert:@\"File downloaded:\"\n+                     format:@\"%@\", [[entry title] stringValue]];\n }\n \n -(void)handleTasks{",
       "status": "modified",
-      "deletions": 4,
       "raw_url": "https://github.com/theplant/GBox/raw/13a4e9fb216452d1141cc9d414a3d9c6081ab22c/GBox/GBTaskHandler.m",
       "additions": 4,
-      "blob_url": "https://github.com/theplant/GBox/blob/13a4e9fb216452d1141cc9d414a3d9c6081ab22c/GBox/GBTaskHandler.m",
+      "deletions": 4,
       "changes": 8,
       "filename": "GBox/GBTaskHandler.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/13a4e9fb216452d1141cc9d414a3d9c6081ab22c/GBox/GBTaskHandler.m",
       "sha": "13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
     },
     {
       "patch": "--- a/GBox/PreferenceController.m\n+++ b/GBox/PreferenceController.m\n@@ -558,7 +558,10 @@\n     //NSLog(@\"========================%d\",[object boolValue]);\n     \n }\n-- (void)browser:(NSBrowser *)browser willDisplayCell:(FSBrowserCell *)cell atRow:(NSInteger)row column:(NSInteger)column {\n+- (void)browser:(NSBrowser *)browser\n+willDisplayCell:(FSBrowserCell *)cell \n+          atRow:(NSInteger)row \n+         column:(NSInteger)column {\n     NSIndexPath *indexPath = [browser indexPathForColumn:column];\n     indexPath = [indexPath indexPathByAddingIndex:row];\n     FSNode *node = [browser itemAtIndexPath:indexPath];",
       "status": "modified",
-      "deletions": 1,
       "raw_url": "https://github.com/theplant/GBox/raw/13a4e9fb216452d1141cc9d414a3d9c6081ab22c/GBox/PreferenceController.m",
       "additions": 4,
-      "blob_url": "https://github.com/theplant/GBox/blob/13a4e9fb216452d1141cc9d414a3d9c6081ab22c/GBox/PreferenceController.m",
+      "deletions": 1,
       "changes": 5,
       "filename": "GBox/PreferenceController.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/13a4e9fb216452d1141cc9d414a3d9c6081ab22c/GBox/PreferenceController.m",
       "sha": "13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
     }
   ],
+  "committer": {
+    "login": "chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
   "stats": {
-    "deletions": 5,
     "additions": 8,
+    "deletions": 5,
     "total": 13
   },
   "parents": [
@@ -46,24 +46,24 @@
       "url": "https://api.github.com/repos/theplant/GBox/commits/0281bb08100c729154210cb1231ed9f809d33e09"
     }
   ],
-  "sha": "13a4e9fb216452d1141cc9d414a3d9c6081ab22c",
   "commit": {
     "tree": {
       "sha": "2ed6c7ba83150e31101b9c08691787fd1b7b5525",
       "url": "https://api.github.com/repos/theplant/GBox/git/trees/2ed6c7ba83150e31101b9c08691787fd1b7b5525"
     },
     "message": "The downloaded/uploaded reminder looks more pretty.",
-    "committer": {
+    "author": {
       "date": "2011-09-06T21:23:52-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
-    "author": {
+    "committer": {
       "date": "2011-09-06T21:23:52-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
     "url": "https://api.github.com/repos/theplant/GBox/git/commits/13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
   },
+  "sha": "13a4e9fb216452d1141cc9d414a3d9c6081ab22c",
   "url": "https://api.github.com/repos/theplant/GBox/commits/13a4e9fb216452d1141cc9d414a3d9c6081ab22c"
 }

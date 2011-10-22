@@ -1,102 +1,102 @@
 {
-  "committer": {
-    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "login": "sunfmin",
-    "id": 1014,
-    "url": "https://api.github.com/users/sunfmin"
-  },
-  "author": {
-    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "login": "sunfmin",
-    "id": 1014,
-    "url": "https://api.github.com/users/sunfmin"
-  },
   "files": [
     {
-      "patch": "--- a/GBox/GBDocListData.m\n+++ b/GBox/GBDocListData.m\n@@ -381,7 +381,7 @@ static GBDocListData* sharedInstance = nil;\n     // link following are not really practical on mobile devices, though, as\n     // the entries of the changes feed are big.\n     [query setMaxResults:10000];\n-    \n+\n     [service fetchFeedWithQuery:query\n               completionHandler:^(GDataServiceTicket *ticket, GDataFeedBase *feed, NSError *error) {\n                   // callback",
       "status": "modified",
+      "additions": 1,
       "deletions": 1,
-      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBDocListData.m",
-      "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBDocListData.m",
       "changes": 2,
+      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBDocListData.m",
+      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBDocListData.m",
       "filename": "GBox/GBDocListData.m",
-      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+      "patch": "--- a/GBox/GBDocListData.m\n+++ b/GBox/GBDocListData.m\n@@ -381,7 +381,7 @@ static GBDocListData* sharedInstance = nil;\n     // link following are not really practical on mobile devices, though, as\n     // the entries of the changes feed are big.\n     [query setMaxResults:10000];\n-    \n+\n     [service fetchFeedWithQuery:query\n               completionHandler:^(GDataServiceTicket *ticket, GDataFeedBase *feed, NSError *error) {\n                   // callback"
     },
     {
-      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -270,10 +270,10 @@ static GBSyncController * shareSyncController = nil;\n     \n     //largestChangestamp will not be updated, until the changeEntries is fetched successfully.\n     NSNumber *largestChangestamp = [userInfo objectForKey: kGBLargestChangestamp];\n-    NSLog(@\"Largest changestamp: %@\", largestChangestamp);\n+    NSLog(@\"\\t=> Largest change timestamp: %@\", largestChangestamp);\n \n     [[NSUserDefaults standardUserDefaults] setObject: largestChangestamp\n-     forKey: kGBLargestChangestamp];\n+                                              forKey: kGBLargestChangestamp];\n     [[NSUserDefaults standardUserDefaults] synchronize];\n \n     //second or later fetch\n@@ -297,42 +297,45 @@ static GBSyncController * shareSyncController = nil;\n         //Entry\n         if ([dataFacility fetchTaskOfTimestamp: entryChangestamp] == nil) {\n             //Ensure This entry is processed only once.\n+            continue;\n+        }\n \n-            if ([entry isRemoved]) {\n-                // Removed\n-                //NSLog(@\"Removed %@ with timestamp %@\",[entry identifier] ,[entry changestamp]);\n+        if ([entry isRemoved]) {\n+            // Removed\n+            NSLog(@\"Removed %@ with timestamp %@\",[entry identifier] ,[entry changestamp]);\n+            continue;\n+        }\n+\n+        // Added or updated\n+        //[GBUtility displayAlert:@\"Added Or Updated\" format:@\"\\n%@\", [[entry title] stringValue]];\n+        NSLog(@\"Added or Updated %@ with timestamp %@\", entryTitle, entryChangestamp);\n+        if ([entry isDeleted]) {\n+            //Is trashed on server\n+            \n+            GBEventCode eventCode = kGBServerDeleteCollection;\n+            if (!isCollection) {\n+                eventCode = kGBServerDeleteFile;\n             }\n-            else {\n-                // Added or updated\n-                //[GBUtility displayAlert:@\"Added Or Updated\" format:@\"\\n%@\", [[entry title] stringValue]];\n-                NSLog(@\"Added or Updated %@ with timestamp %@\", entryTitle, entryChangestamp);\n-                if ([entry isDeleted]) {\n-                    //Is trashed on server\n-\n-                    //Succeed into this step.\n-                    if (isCollection) {\n-                        NSLog(@\"Collection %@ deleted on server.\", entryTitle);\n-                        [dataFacility insertEvent: entryChangestamp\n-                         withEventCode: kGBServerDeleteCollection\n-                         operandA: entryIdentifier\n-                         andOperandB: nil];\n-                    }\n-                    else {\n-                        NSLog(@\"Doc entry %@ deleted on server.\", entryTitle);\n-                        [dataFacility insertEvent: entryChangestamp\n-                         withEventCode: kGBServerDeleteFile\n+ \n+            NSLog(@\"Entry %@ deleted on server.\", entryTitle);\n+\n+            \n+            [dataFacility insertEvent: entryChangestamp\n+                        withEventCode: eventCode\n+                             operandA: entryIdentifier\n+                          andOperandB: nil];\n+\n+            \n+            continue;\n+        }\n+\n+        // File updated\n+        [dataFacility insertEvent: entryChangestamp\n+                    withEventCode: kGBServerFileUpdated\n                          operandA: entryIdentifier\n-                         andOperandB: nil];\n-                    }\n-                }\n-                else {\n-                    [dataFacility insertEvent: entryChangestamp\n-                     withEventCode: kGBServerFileUpdated\n-                     operandA: entryIdentifier\n-                     andOperandB: nil];\n-                } //If the entry is deleted.\n-            } //is Removed.\n-        } //Ensure This entry is processed only once.\n+                      andOperandB: nil];\n+\n+        \n     } //For each entry doc/collection\n     [dataFacility contextSave];\n }",
       "status": "modified",
-      "deletions": 35,
-      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBSyncController.m",
       "additions": 38,
-      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBSyncController.m",
+      "deletions": 35,
       "changes": 73,
+      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBSyncController.m",
+      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBSyncController.m",
       "filename": "GBox/GBSyncController.m",
-      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+      "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -270,10 +270,10 @@ static GBSyncController * shareSyncController = nil;\n     \n     //largestChangestamp will not be updated, until the changeEntries is fetched successfully.\n     NSNumber *largestChangestamp = [userInfo objectForKey: kGBLargestChangestamp];\n-    NSLog(@\"Largest changestamp: %@\", largestChangestamp);\n+    NSLog(@\"\\t=> Largest change timestamp: %@\", largestChangestamp);\n \n     [[NSUserDefaults standardUserDefaults] setObject: largestChangestamp\n-     forKey: kGBLargestChangestamp];\n+                                              forKey: kGBLargestChangestamp];\n     [[NSUserDefaults standardUserDefaults] synchronize];\n \n     //second or later fetch\n@@ -297,42 +297,45 @@ static GBSyncController * shareSyncController = nil;\n         //Entry\n         if ([dataFacility fetchTaskOfTimestamp: entryChangestamp] == nil) {\n             //Ensure This entry is processed only once.\n+            continue;\n+        }\n \n-            if ([entry isRemoved]) {\n-                // Removed\n-                //NSLog(@\"Removed %@ with timestamp %@\",[entry identifier] ,[entry changestamp]);\n+        if ([entry isRemoved]) {\n+            // Removed\n+            NSLog(@\"Removed %@ with timestamp %@\",[entry identifier] ,[entry changestamp]);\n+            continue;\n+        }\n+\n+        // Added or updated\n+        //[GBUtility displayAlert:@\"Added Or Updated\" format:@\"\\n%@\", [[entry title] stringValue]];\n+        NSLog(@\"Added or Updated %@ with timestamp %@\", entryTitle, entryChangestamp);\n+        if ([entry isDeleted]) {\n+            //Is trashed on server\n+            \n+            GBEventCode eventCode = kGBServerDeleteCollection;\n+            if (!isCollection) {\n+                eventCode = kGBServerDeleteFile;\n             }\n-            else {\n-                // Added or updated\n-                //[GBUtility displayAlert:@\"Added Or Updated\" format:@\"\\n%@\", [[entry title] stringValue]];\n-                NSLog(@\"Added or Updated %@ with timestamp %@\", entryTitle, entryChangestamp);\n-                if ([entry isDeleted]) {\n-                    //Is trashed on server\n-\n-                    //Succeed into this step.\n-                    if (isCollection) {\n-                        NSLog(@\"Collection %@ deleted on server.\", entryTitle);\n-                        [dataFacility insertEvent: entryChangestamp\n-                         withEventCode: kGBServerDeleteCollection\n-                         operandA: entryIdentifier\n-                         andOperandB: nil];\n-                    }\n-                    else {\n-                        NSLog(@\"Doc entry %@ deleted on server.\", entryTitle);\n-                        [dataFacility insertEvent: entryChangestamp\n-                         withEventCode: kGBServerDeleteFile\n+ \n+            NSLog(@\"Entry %@ deleted on server.\", entryTitle);\n+\n+            \n+            [dataFacility insertEvent: entryChangestamp\n+                        withEventCode: eventCode\n+                             operandA: entryIdentifier\n+                          andOperandB: nil];\n+\n+            \n+            continue;\n+        }\n+\n+        // File updated\n+        [dataFacility insertEvent: entryChangestamp\n+                    withEventCode: kGBServerFileUpdated\n                          operandA: entryIdentifier\n-                         andOperandB: nil];\n-                    }\n-                }\n-                else {\n-                    [dataFacility insertEvent: entryChangestamp\n-                     withEventCode: kGBServerFileUpdated\n-                     operandA: entryIdentifier\n-                     andOperandB: nil];\n-                } //If the entry is deleted.\n-            } //is Removed.\n-        } //Ensure This entry is processed only once.\n+                      andOperandB: nil];\n+\n+        \n     } //For each entry doc/collection\n     [dataFacility contextSave];\n }"
     },
     {
-      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -96,6 +96,7 @@ static NSUInteger sharedBandWidth = 0;\n     return string;\n }\n \n+\n // displayAlert is replace by below method.\n // [[GBUtility sharedNotifySystem] sendnotify:@\"hello\" notify:@\"good\"];\n ",
       "status": "modified",
-      "deletions": 0,
-      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBUtility.m",
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBUtility.m",
+      "deletions": 0,
       "changes": 1,
+      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBUtility.m",
+      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBUtility.m",
       "filename": "GBox/GBUtility.m",
-      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+      "patch": "--- a/GBox/GBUtility.m\n+++ b/GBox/GBUtility.m\n@@ -96,6 +96,7 @@ static NSUInteger sharedBandWidth = 0;\n     return string;\n }\n \n+\n // displayAlert is replace by below method.\n // [[GBUtility sharedNotifySystem] sendnotify:@\"hello\" notify:@\"good\"];\n "
     },
     {
-      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -167,8 +167,7 @@\n     NSInteger usedSpace = [[docListData usedSpace] intValue]/1024/1024;\n     NSInteger totalSpace = [[docListData totalSpace] intValue]/1024/1024;\n     \n-    NSLog(@\"%d%%sa uge\", (int)usedSpace);\n-    NSLog(@\"%d%% usage\", (int)totalSpace);\n+    NSLog(@\"Used space: %dMB/%dMB\", (int)usedSpace, (int)totalSpace);\n     \n     [spaceItem setTitle:[NSString stringWithFormat:@\"%.2f%% of %dG used\",(float)usedSpace/totalSpace*100,totalSpace/1024]];\n     ",
       "status": "modified",
-      "deletions": 2,
-      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBoxAppDelegate.m",
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBoxAppDelegate.m",
+      "deletions": 2,
       "changes": 3,
+      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBoxAppDelegate.m",
+      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBox/GBoxAppDelegate.m",
       "filename": "GBox/GBoxAppDelegate.m",
-      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+      "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -167,8 +167,7 @@\n     NSInteger usedSpace = [[docListData usedSpace] intValue]/1024/1024;\n     NSInteger totalSpace = [[docListData totalSpace] intValue]/1024/1024;\n     \n-    NSLog(@\"%d%%sa uge\", (int)usedSpace);\n-    NSLog(@\"%d%% usage\", (int)totalSpace);\n+    NSLog(@\"Used space: %dMB/%dMB\", (int)usedSpace, (int)totalSpace);\n     \n     [spaceItem setTitle:[NSString stringWithFormat:@\"%.2f%% of %dG used\",(float)usedSpace/totalSpace*100,totalSpace/1024]];\n     "
     },
     {
-      "patch": "--- a/GBoxTests/GBoxTests.m\n+++ b/GBoxTests/GBoxTests.m\n@@ -10,6 +10,8 @@\n #import \"GBUtility.h\"\n #import \"GBDataFacility.h\"\n #import \"GBoxConstants.h\"\n+#import \"GBDocListData.h\"\n+#import \"OAuthController.h\"\n \n @implementation GBoxTests\n \n@@ -54,4 +56,22 @@\n     STAssertEqualObjects(identifier, [mo valueForKey:@\"operandA\"], @\"\");\n }\n \n+- (void)testGBDocListData_laterChangeFeedFetch {\n+    NSData *pathData = [NSKeyedArchiver archivedDataWithRootObject:[@\"/tmp\" stringByAppendingString:@\"/GBox\"]];\n+\n+    [[NSUserDefaults standardUserDefaults] setObject:pathData forKey:@\"GBoxFolderPath\"];\n+    [[NSUserDefaults standardUserDefaults] synchronize];\n+\n+    [[OAuthController authController] tryKeychainAuthenticaiton];\n+    \n+    GBDocListData *dld = [GBDocListData sharedDocListData];\n+    [dld setAuth:[[OAuthController authController] auth]];\n+    [dld laterChangeFeedFetch:1];\n+    \n+    do {\n+        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];\n+    } while (true);\n+}\n+\n+\n @end",
       "status": "modified",
-      "deletions": 0,
-      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBoxTests/GBoxTests.m",
       "additions": 20,
-      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBoxTests/GBoxTests.m",
+      "deletions": 0,
       "changes": 20,
+      "blob_url": "https://github.com/theplant/GBox/blob/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBoxTests/GBoxTests.m",
+      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+      "raw_url": "https://github.com/theplant/GBox/raw/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b/GBoxTests/GBoxTests.m",
       "filename": "GBoxTests/GBoxTests.m",
-      "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+      "patch": "--- a/GBoxTests/GBoxTests.m\n+++ b/GBoxTests/GBoxTests.m\n@@ -10,6 +10,8 @@\n #import \"GBUtility.h\"\n #import \"GBDataFacility.h\"\n #import \"GBoxConstants.h\"\n+#import \"GBDocListData.h\"\n+#import \"OAuthController.h\"\n \n @implementation GBoxTests\n \n@@ -54,4 +56,22 @@\n     STAssertEqualObjects(identifier, [mo valueForKey:@\"operandA\"], @\"\");\n }\n \n+- (void)testGBDocListData_laterChangeFeedFetch {\n+    NSData *pathData = [NSKeyedArchiver archivedDataWithRootObject:[@\"/tmp\" stringByAppendingString:@\"/GBox\"]];\n+\n+    [[NSUserDefaults standardUserDefaults] setObject:pathData forKey:@\"GBoxFolderPath\"];\n+    [[NSUserDefaults standardUserDefaults] synchronize];\n+\n+    [[OAuthController authController] tryKeychainAuthenticaiton];\n+    \n+    GBDocListData *dld = [GBDocListData sharedDocListData];\n+    [dld setAuth:[[OAuthController authController] auth]];\n+    [dld laterChangeFeedFetch:1];\n+    \n+    do {\n+        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];\n+    } while (true);\n+}\n+\n+\n @end"
     }
   ],
-  "stats": {
-    "deletions": 38,
-    "additions": 61,
-    "total": 99
+  "committer": {
+    "url": "https://api.github.com/users/sunfmin",
+    "login": "sunfmin",
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 1014
   },
+  "stats": {
+    "additions": 61,
+    "total": 99,
+    "deletions": 38
+  },
+  "url": "https://api.github.com/repos/theplant/GBox/commits/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
   "parents": [
     {
-      "sha": "fb903087038297ed3af4a2aee51fb0742310264b",
-      "url": "https://api.github.com/repos/theplant/GBox/commits/fb903087038297ed3af4a2aee51fb0742310264b"
+      "url": "https://api.github.com/repos/theplant/GBox/commits/fb903087038297ed3af4a2aee51fb0742310264b",
+      "sha": "fb903087038297ed3af4a2aee51fb0742310264b"
     }
   ],
-  "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
   "commit": {
-    "tree": {
-      "sha": "bfecfb493f157d7d3a16a4afb113710ef8e9a5ec",
-      "url": "https://api.github.com/repos/theplant/GBox/git/trees/bfecfb493f157d7d3a16a4afb113710ef8e9a5ec"
-    },
-    "message": "add tests for fetch google doc",
     "committer": {
+      "email": "sunfmin@gmail.com",
       "date": "2011-09-14T04:41:01-07:00",
-      "name": "Felix Sun",
-      "email": "sunfmin@gmail.com"
+      "name": "Felix Sun"
+    },
+    "url": "https://api.github.com/repos/theplant/GBox/git/commits/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+    "message": "add tests for fetch google doc",
+    "tree": {
+      "url": "https://api.github.com/repos/theplant/GBox/git/trees/bfecfb493f157d7d3a16a4afb113710ef8e9a5ec",
+      "sha": "bfecfb493f157d7d3a16a4afb113710ef8e9a5ec"
     },
     "author": {
+      "email": "sunfmin@gmail.com",
       "date": "2011-09-14T04:40:43-07:00",
-      "name": "Felix Sun",
-      "email": "sunfmin@gmail.com"
-    },
-    "url": "https://api.github.com/repos/theplant/GBox/git/commits/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+      "name": "Felix Sun"
+    }
   },
-  "url": "https://api.github.com/repos/theplant/GBox/commits/a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b"
+  "sha": "a8404b84abebaaa43aee0bcbcb147bed3ec1ee6b",
+  "author": {
+    "url": "https://api.github.com/users/sunfmin",
+    "login": "sunfmin",
+    "avatar_url": "https://secure.gravatar.com/avatar/d4a7c04ca87944e7fb06518fb64f9c36?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 1014
+  }
 }

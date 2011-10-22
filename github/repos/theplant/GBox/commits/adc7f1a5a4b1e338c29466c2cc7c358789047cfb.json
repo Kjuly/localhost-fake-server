@@ -1,65 +1,65 @@
 {
-  "committer": {
-    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi",
-    "login": "chenxiaoyi"
-  },
   "author": {
+    "login": "chenxiaoyi",
     "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
     "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi",
-    "login": "chenxiaoyi"
+    "url": "https://api.github.com/users/chenxiaoyi"
   },
   "files": [
     {
       "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -156,7 +156,7 @@ static GBSyncController * shareSyncController = nil;\n         }\n     }\n     */\n-    \n+    NSLog(@\"WaitingTasks: %lu ExecutingTasks: %lu\",countOfWaitingTasks,countOfExecutingTasks);\n     if(countOfWaitingTasks!=0&&countOfExecutingTasks==0){\n         [statusItem setImage:[NSImage imageNamed:@\"statusicon2\"]];\n         [docListData fetchDocList];\n@@ -166,9 +166,7 @@ static GBSyncController * shareSyncController = nil;\n         [statusItem setImage:[NSImage imageNamed:@\"statusicon\"]];\n         synced=YES;\n         [dataFacility contextSave];\n-    }\n-    \n-    \n+    }    \n }\n \n -(void)setStatusItem:(NSStatusItem*)item{",
       "status": "modified",
-      "deletions": 4,
       "additions": 2,
-      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBSyncController.m",
+      "deletions": 4,
+      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBSyncController.m",
       "changes": 6,
       "filename": "GBox/GBSyncController.m",
-      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
-      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBSyncController.m"
+      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBSyncController.m",
+      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
     },
     {
       "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -197,6 +197,7 @@\n     NSDictionary* userInfo = [aNotification userInfo];\n     NSString* entryIdentifier = [userInfo valueForKey:@\"DocEntryIdentifier\"];\n     NSString* parentIdentifier = [userInfo valueForKey:@\"ParentIdentifier\"];\n+    NSLog(@\"removeEntry %@ From %@ Failed\",entryIdentifier,parentIdentifier);\n     [dataFacility insertEvent:0\n                 withEventCode:kGBLocalRemoveEntryFromCollection\n                      operandA:entryIdentifier\n@@ -223,9 +224,12 @@\n             NSString* folderIdentifier = [folder identifier];\n             NSSet* parentPathSet = [localIdentifierDic valueForKey:folderIdentifier];\n             if(parentPathSet==nil||[parentPathSet count]==0){\n-                [dataFacility setState:kGBStateWaiting ofTaskID:[taskMO objectID]];\n+                [dataFacility insertEvent:0\n+                            withEventCode:kGBServerAddEntryToCollection\n+                                 operandA:identifier\n+                              andOperandB:folderIdentifier];\n+                [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n                 [currentExecutingTasks removeObject:taskID];\n-                \n                 return;\n             }\n             NSMutableSet *newPathSet = [[NSMutableSet alloc]init ];\n@@ -317,9 +321,10 @@\n             NSString* path = operandA;\n             \n             NSString* identifier = [GBUtility identifierforFileAtPath:path];\n-            [self appendPISingle:[NSString stringWithFormat:@\"FileUpdated:%@\",[path lastPathComponent]] ];\n+           \n \n             if(identifier!=nil&&[identifier length]>80){\n+                 [self appendPISingle:[NSString stringWithFormat:@\"FileUpdated:%@\",[path lastPathComponent]] ];\n                 NSError* error = nil;\n                 NSDictionary *fileInfo = [[NSFileManager defaultManager] attributesOfItemAtPath:path \n                                                                                          error:&error];\n@@ -389,7 +394,6 @@\n             NSString* identifier = operandA;\n             NSSet* paths = [localIdentifierDic valueForKey:identifier];\n             NSString* fileName = [[[docListData entryForIdentifier:identifier] title]stringValue];\n-            [self appendPISingle:[NSString stringWithFormat:@\"FileDeleted:%@\",fileName] ];\n \n             for(NSString* path in paths){\n                 [GBUtility recycleFileAtPath:path];\n@@ -484,11 +488,12 @@\n             NSString* path = operandA;\n             [self appendPISingle:[NSString stringWithFormat:@\"NewFolder:%@\",[path lastPathComponent]] ];\n \n-            if([path isEqualToString:[GBUtility rootPath]]){\n+            if(![path isEqualToString:[GBUtility rootPath]]){\n                 if([[NSFileManager defaultManager] fileExistsAtPath:path]){\n                     \n                     for(NSString* uploadingPath in uploadingPaths){\n                         if([uploadingPath isEqualToString:path]){\n+                            NSLog(@\"The collection %@ is already handled.\",path );\n                             [currentExecutingTasks removeObject:taskID];\n                             [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];\n                             return YES;\n@@ -496,7 +501,6 @@\n                     }\n                     NSString* possibleIdentifier = [GBUtility identifierforFileAtPath:path];\n                     if(possibleIdentifier==nil||[possibleIdentifier length]<80){\n-                        \n                         [uploadingPaths addObject:path];\n                         [collectionManager createFolder:path];\n                     }else{\n@@ -508,10 +512,15 @@\n                     [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n                     [currentExecutingTasks removeObject:taskID];\n                 }else{\n+                    NSLog(@\"The folder not exist local, local new collection event cancel\");\n                     [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];\n                     [currentExecutingTasks removeObject:taskID];\n                 }\n                 \n+            }else{\n+                NSLog(@\"This is GBox root path created.\");\n+                [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];\n+                [currentExecutingTasks removeObject:taskID];\n             }\n         }\n             break;\n@@ -548,9 +557,6 @@\n                     }\n                 }\n             }\n-            \n-\n-\n         }\n             break;\n         case kGBLocalMoveEntry:{\n@@ -648,8 +654,13 @@\n                 [currentExecutingTasks removeObject:taskID];\n                 \n             }else{\n-                [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n-                [currentExecutingTasks removeObject:taskID];\n+                if(entryPath==nil){\n+                    [dataFacility setState:kGBStateCancel ofTaskID:taskID];\n+                    [currentExecutingTasks removeObject:taskID];\n+                }else{\n+                    [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n+                    [currentExecutingTasks removeObject:taskID];\n+                }\n             }\n         }break;\n             ",
       "status": "modified",
-      "deletions": 11,
       "additions": 22,
-      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBTaskHandler.m",
+      "deletions": 11,
+      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBTaskHandler.m",
       "changes": 33,
       "filename": "GBox/GBTaskHandler.m",
-      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
-      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBTaskHandler.m"
+      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBTaskHandler.m",
+      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
     },
     {
       "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -57,6 +57,7 @@\n -(void)awakeFromNib{\n     //progress indicate\n     [GTMHTTPFetcher setLoggingEnabled:YES];\n+    [self redirectNSLogToDocumentFolder];\n \n     progressIncrement = 0.0;\n     //set recently files",
       "status": "modified",
-      "deletions": 0,
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxAppDelegate.m",
+      "deletions": 0,
+      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxAppDelegate.m",
       "changes": 1,
       "filename": "GBox/GBoxAppDelegate.m",
-      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
-      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxAppDelegate.m"
+      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxAppDelegate.m",
+      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
     },
     {
       "patch": "--- a/GBox/GBoxConstants.m\n+++ b/GBox/GBoxConstants.m\n@@ -46,7 +46,7 @@ NSString* const kGBLargestChangestamp=@\"largestChangestamp\";\n \n NSString* const kGBNotFoundMarker = @\"notFoundMarker#9987dfewfvrtqd8765dfeef78341\";\n \n-NSString* const kGBSetupFinished = @\"kGBSetupFinished-Alpha1TESTTEST8443489456597878997987834467867843439759896658786354\";\n+NSString* const kGBSetupFinished = @\"kGBSetupFinished---Alpha5\";\n \n NSString * const kGB_DB_STORE_FILENAME = @\"gbdatamodel.xml\";\n ",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxConstants.m",
+      "deletions": 1,
+      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxConstants.m",
       "changes": 2,
       "filename": "GBox/GBoxConstants.m",
-      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
-      "raw_url": "https://github.com/theplant/GBox/raw/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxConstants.m"
+      "blob_url": "https://github.com/theplant/GBox/blob/adc7f1a5a4b1e338c29466c2cc7c358789047cfb/GBox/GBoxConstants.m",
+      "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
     }
   ],
+  "committer": {
+    "login": "chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
   "stats": {
-    "deletions": 16,
     "additions": 26,
+    "deletions": 16,
     "total": 42
   },
   "parents": [
@@ -68,24 +68,24 @@
       "url": "https://api.github.com/repos/theplant/GBox/commits/235a8270026155b646b622bd69ad886ebc43bdf6"
     }
   ],
-  "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
   "commit": {
     "tree": {
       "sha": "d6b97db9ef4131d7305b5420ca35ff4b32bad4db",
       "url": "https://api.github.com/repos/theplant/GBox/git/trees/d6b97db9ef4131d7305b5420ca35ff4b32bad4db"
     },
     "message": "Write log to file for debug.",
-    "committer": {
+    "author": {
       "date": "2011-09-08T20:27:02-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
-    "author": {
+    "committer": {
       "date": "2011-09-08T20:27:02-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
     "url": "https://api.github.com/repos/theplant/GBox/git/commits/adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
   },
+  "sha": "adc7f1a5a4b1e338c29466c2cc7c358789047cfb",
   "url": "https://api.github.com/repos/theplant/GBox/commits/adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
 }

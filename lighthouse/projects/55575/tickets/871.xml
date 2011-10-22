@@ -2,26 +2,26 @@
 <ticket>
   <assigned-user-id type="integer" nil="true"></assigned-user-id>
   <attachments-count type="integer">0</attachments-count>
-  <closed type="boolean">false</closed>
+  <closed type="boolean">true</closed>
   <created-at type="datetime">2011-09-19T23:15:42+09:00</created-at>
   <creator-id type="integer">95021</creator-id>
   <milestone-due-on type="datetime" nil="true"></milestone-due-on>
   <milestone-id type="integer" nil="true"></milestone-id>
   <number type="integer">871</number>
   <permalink>nomethoderror-undefined-method-uniq-for-string</permalink>
-  <priority type="integer">0</priority>
+  <priority type="integer">3</priority>
   <project-id type="integer">55575</project-id>
-  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
-  <state>new</state>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
   <tag>hoptoad</tag>
   <title>NoMethodError: undefined method `uniq!' for &quot;&quot;:String </title>
-  <updated-at type="datetime">2011-09-19T23:17:24+09:00</updated-at>
-  <user-id type="integer">95021</user-id>
-  <version type="integer">2</version>
-  <user-name>Tingting</user-name>
+  <updated-at type="datetime">2011-09-22T15:22:44+09:00</updated-at>
+  <user-id type="integer">18874</user-id>
+  <version type="integer">3</version>
+  <user-name>Juice</user-name>
   <creator-name>Tingting</creator-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/871</url>
-  <priority-name nil="true"></priority-name>
+  <priority-name>Low</priority-name>
   <original-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `uniq!' for &quot;&quot;:String](http://theplant.airbrakeapp.com/errors/14431745)</original-body>
   <latest-body>Created from Airbrake: [NoMethodError: NoMethodError: undefined method `uniq!' for &quot;&quot;:String](http://theplant.airbrakeapp.com/errors/14431745)</latest-body>
   <original-body-html>&lt;div&gt;&lt;p&gt;Created from Airbrake: &lt;a href=
@@ -82,6 +82,34 @@
       <creator-name>Tingting</creator-name>
       <url>http://theplant.lighthouseapp.com/projects/55575/tickets/871</url>
       <priority-name nil="true"></priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer" nil="true"></assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-22T15:22:31+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:priority: 0
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">871</number>
+      <permalink>nomethoderror-undefined-method-uniq-for-string</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>hoptoad</tag>
+      <title>NoMethodError: undefined method `uniq!' for &quot;&quot;:String </title>
+      <updated-at type="datetime">2011-09-22T15:22:44+09:00</updated-at>
+      <user-id type="integer">18874</user-id>
+      <version type="integer">3</version>
+      <user-name>Juice</user-name>
+      <creator-name>Tingting</creator-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/871</url>
+      <priority-name>Low</priority-name>
     </version>
   </versions>
 </ticket>

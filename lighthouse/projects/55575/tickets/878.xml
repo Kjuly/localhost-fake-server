@@ -5,24 +5,23 @@
   <closed type="boolean">false</closed>
   <created-at type="datetime">2011-09-20T12:15:29+09:00</created-at>
   <creator-id type="integer">79899</creator-id>
-  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
-  <milestone-id type="integer">117173</milestone-id>
+  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
+  <milestone-id type="integer" nil="true"></milestone-id>
   <number type="integer">878</number>
   <permalink>asics-changes-shoe-advisor-etc</permalink>
   <priority type="integer">3</priority>
   <project-id type="integer">55575</project-id>
-  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
-  <state>new</state>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>open</state>
   <tag nil="true"></tag>
   <title>ASICS changes: Shoe Advisor etc.</title>
-  <updated-at type="datetime">2011-09-20T12:15:42+09:00</updated-at>
+  <updated-at type="datetime">2011-10-21T11:51:16+09:00</updated-at>
   <user-id type="integer">79899</user-id>
-  <version type="integer">1</version>
+  <version type="integer">3</version>
   <user-name>Shaoshing Lee</user-name>
   <creator-name>Shaoshing Lee</creator-name>
   <assigned-user-name>Jun</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/878</url>
-  <milestone-title>Current Iteration</milestone-title>
   <priority-name>Low</priority-name>
   <original-body>Shoe Advisor
 1.Change the text of the word &#8220;severly&#8221; =&gt; &#8220;severely&#8221;
@@ -172,7 +171,7 @@ has better balance.&lt;/p&gt;&lt;/div&gt;</body-html>
       <diffable-attributes type="yaml">--- {}
 
 </diffable-attributes>
-      <milestone-id type="integer">117173</milestone-id>
+      <milestone-id type="integer" nil="true"></milestone-id>
       <number type="integer">878</number>
       <permalink>asics-changes-shoe-advisor-etc</permalink>
       <priority type="integer">3</priority>
@@ -187,7 +186,75 @@ has better balance.&lt;/p&gt;&lt;/div&gt;</body-html>
       <creator-name>Shaoshing Lee</creator-name>
       <assigned-user-name>Jun</assigned-user-name>
       <url>http://theplant.lighthouseapp.com/projects/55575/tickets/878</url>
-      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-26T13:38:20+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+:assigned_user: 44985
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">878</number>
+      <permalink>asics-changes-shoe-advisor-etc</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Shoe Advisor etc.</title>
+      <updated-at type="datetime">2011-09-26T13:38:31+09:00</updated-at>
+      <user-id type="integer">44985</user-id>
+      <version type="integer">2</version>
+      <user-name>Jun</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/878</url>
+      <priority-name>Low</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">44985</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>These are not complete yet
+
+Shoe Advisor
+1.Change the text of the word &#8220;severly&#8221; =&gt; &#8220;severely&#8221;
+2.Change all Shoe adviser =&gt; Shoe advisor system-wide. Including URL.
+3.Remove the introduction line &#8220;Hello {name},&#8221;</body>
+      <body-html>&lt;div&gt;&lt;p&gt;These are not complete yet&lt;/p&gt;
+&lt;p&gt;Shoe Advisor&lt;br&gt;
+1.Change the text of the word &amp;#8220;severly&amp;#8221; =&amp;gt;
+&amp;#8220;severely&amp;#8221;&lt;br&gt;
+2.Change all Shoe adviser =&amp;gt; Shoe advisor system-wide. Including
+URL.&lt;br&gt;
+3.Remove the introduction line &amp;#8220;Hello {name},&amp;#8221;&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-10-21T11:51:03+09:00</created-at>
+      <creator-id type="integer">79899</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+:assigned_user: 79899
+</diffable-attributes>
+      <milestone-id type="integer" nil="true"></milestone-id>
+      <number type="integer">878</number>
+      <permalink>asics-changes-shoe-advisor-etc</permalink>
+      <priority type="integer">3</priority>
+      <project-id type="integer">55575</project-id>
+      <state>open</state>
+      <tag nil="true"></tag>
+      <title>ASICS changes: Shoe Advisor etc.</title>
+      <updated-at type="datetime">2011-10-21T11:51:16+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Shaoshing Lee</creator-name>
+      <assigned-user-name>Jun</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/878</url>
       <priority-name>Low</priority-name>
     </version>
   </versions>

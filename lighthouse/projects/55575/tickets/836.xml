@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ticket>
   <assigned-user-id type="integer">95021</assigned-user-id>
-  <attachments-count type="integer">4</attachments-count>
-  <closed type="boolean">false</closed>
+  <attachments-count type="integer">8</attachments-count>
+  <closed type="boolean">true</closed>
   <created-at type="datetime">2011-09-15T23:40:18+09:00</created-at>
   <creator-id type="integer">95021</creator-id>
   <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
@@ -11,14 +11,14 @@
   <permalink>ie7shoe-adviser-search-result-style</permalink>
   <priority type="integer">1</priority>
   <project-id type="integer">55575</project-id>
-  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
-  <state>pending_review</state>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
   <tag>ie7 stylesheets</tag>
   <title>IE7&gt;shoe adviser search result style</title>
-  <updated-at type="datetime">2011-09-20T12:10:24+09:00</updated-at>
-  <user-id type="integer">154128</user-id>
-  <version type="integer">5</version>
-  <user-name>Yuan He</user-name>
+  <updated-at type="datetime">2011-09-28T00:30:09+09:00</updated-at>
+  <user-id type="integer">95021</user-id>
+  <version type="integer">8</version>
+  <user-name>Tingting</user-name>
   <creator-name>Tingting</creator-name>
   <assigned-user-name>Tingting</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/836</url>
@@ -176,6 +176,93 @@
       <milestone-title>Current Iteration</milestone-title>
       <priority-name>High</priority-name>
     </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">154128</assigned-user-id>
+      <attachments-count type="integer">4</attachments-count>
+      <body>still have a little issue.</body>
+      <body-html>&lt;div&gt;&lt;p&gt;still have a little issue.&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-26T01:03:28+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 95021
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">836</number>
+      <permalink>ie7shoe-adviser-search-result-style</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>ie7 stylesheets</tag>
+      <title>IE7&gt;shoe adviser search result style</title>
+      <updated-at type="datetime">2011-09-26T01:03:42+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">6</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Yuan He</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/836</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-26T13:58:04+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:assigned_user: 154128
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">836</number>
+      <permalink>ie7shoe-adviser-search-result-style</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>pending_review</state>
+      <tag>ie7 stylesheets</tag>
+      <title>IE7&gt;shoe adviser search result style</title>
+      <updated-at type="datetime">2011-09-26T13:58:17+09:00</updated-at>
+      <user-id type="integer">154128</user-id>
+      <version type="integer">7</version>
+      <user-name>Yuan He</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/836</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">95021</assigned-user-id>
+      <attachments-count type="integer">8</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-28T00:29:31+09:00</created-at>
+      <creator-id type="integer">95021</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: pending_review
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">836</number>
+      <permalink>ie7shoe-adviser-search-result-style</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag>ie7 stylesheets</tag>
+      <title>IE7&gt;shoe adviser search result style</title>
+      <updated-at type="datetime">2011-09-28T00:30:09+09:00</updated-at>
+      <user-id type="integer">95021</user-id>
+      <version type="integer">8</version>
+      <user-name>Tingting</user-name>
+      <creator-name>Tingting</creator-name>
+      <assigned-user-name>Tingting</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/836</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
   </versions>
   <attachments type="array">
     <attachment-image type="Attachment">
@@ -189,6 +276,18 @@
       <uploader-id type="integer">95021</uploader-id>
       <width type="integer">719</width>
       <url>http://theplant.lighthouseapp.com/attachments/1391215/css.png</url>
+    </attachment-image>
+    <attachment-image type="Attachment">
+      <code>78dead836a8bd49bf35e3b33a6e7ac50645e33a9</code>
+      <content-type>image/png</content-type>
+      <created-at type="datetime">2011-09-26T01:03:28+09:00</created-at>
+      <filename>2011-09-26_0002.png</filename>
+      <height type="integer">661</height>
+      <id type="integer">1428061</id>
+      <size type="integer">193595</size>
+      <uploader-id type="integer">95021</uploader-id>
+      <width type="integer">1075</width>
+      <url>http://theplant.lighthouseapp.com/attachments/1428061/2011-09-26_0002.png</url>
     </attachment-image>
   </attachments>
 </ticket>

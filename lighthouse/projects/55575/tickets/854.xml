@@ -2,26 +2,27 @@
 <ticket>
   <assigned-user-id type="integer">79899</assigned-user-id>
   <attachments-count type="integer">0</attachments-count>
-  <closed type="boolean">false</closed>
+  <closed type="boolean">true</closed>
   <created-at type="datetime">2011-09-17T00:20:13+09:00</created-at>
   <creator-id type="integer">2504</creator-id>
-  <milestone-due-on type="datetime" nil="true"></milestone-due-on>
-  <milestone-id type="integer" nil="true"></milestone-id>
+  <milestone-due-on type="datetime">2011-08-03T00:00:00+09:00</milestone-due-on>
+  <milestone-id type="integer">117173</milestone-id>
   <number type="integer">854</number>
   <permalink>testing-on-production-and-writing-cache-expire-rules</permalink>
   <priority type="integer">1</priority>
   <project-id type="integer">55575</project-id>
-  <raw-data type="binary" encoding="base64" nil="true"></raw-data>
-  <state>new</state>
+  <raw-data type="binary" nil="true" encoding="base64"></raw-data>
+  <state>resolved</state>
   <tag nil="true"></tag>
   <title>Testing on production and writing cache expire rules</title>
-  <updated-at type="datetime">2011-09-17T00:20:39+09:00</updated-at>
-  <user-id type="integer">2504</user-id>
-  <version type="integer">1</version>
-  <user-name>Felix Sun</user-name>
+  <updated-at type="datetime">2011-09-22T16:59:19+09:00</updated-at>
+  <user-id type="integer">79899</user-id>
+  <version type="integer">3</version>
+  <user-name>Shaoshing Lee</user-name>
   <creator-name>Felix Sun</creator-name>
   <assigned-user-name>Shaoshing Lee</assigned-user-name>
   <url>http://theplant.lighthouseapp.com/projects/55575/tickets/854</url>
+  <milestone-title>Current Iteration</milestone-title>
   <priority-name>High</priority-name>
   <original-body>@@@
 expire_keys(/running/) do |scoped|
@@ -84,6 +85,65 @@ end&lt;/code&gt;
       <creator-name>Felix Sun</creator-name>
       <assigned-user-name>Shaoshing Lee</assigned-user-name>
       <url>http://theplant.lighthouseapp.com/projects/55575/tickets/854</url>
+      <milestone-title nil="true"></milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body>[[bulk edit](/projects/55575/bulk_edits/62755)]</body>
+      <body-html>&lt;div&gt;&lt;p&gt;[&lt;a href=&quot;/projects/55575/bulk_edits/62755&quot;&gt;bulk edit&lt;/a&gt;]&lt;/p&gt;&lt;/div&gt;</body-html>
+      <closed type="boolean">false</closed>
+      <created-at type="datetime">2011-09-22T12:41:57+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:milestone: 
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">854</number>
+      <permalink>testing-on-production-and-writing-cache-expire-rules</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>new</state>
+      <tag nil="true"></tag>
+      <title>Testing on production and writing cache expire rules</title>
+      <updated-at type="datetime">2011-09-22T12:41:57+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">2</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/854</url>
+      <milestone-title>Current Iteration</milestone-title>
+      <priority-name>High</priority-name>
+    </version>
+    <version type="Ticket::Version">
+      <assigned-user-id type="integer">79899</assigned-user-id>
+      <attachments-count type="integer">0</attachments-count>
+      <body></body>
+      <body-html></body-html>
+      <closed type="boolean">true</closed>
+      <created-at type="datetime">2011-09-22T16:59:03+09:00</created-at>
+      <creator-id type="integer">2504</creator-id>
+      <diffable-attributes type="yaml">--- 
+:state: new
+</diffable-attributes>
+      <milestone-id type="integer">117173</milestone-id>
+      <number type="integer">854</number>
+      <permalink>testing-on-production-and-writing-cache-expire-rules</permalink>
+      <priority type="integer">1</priority>
+      <project-id type="integer">55575</project-id>
+      <state>resolved</state>
+      <tag nil="true"></tag>
+      <title>Testing on production and writing cache expire rules</title>
+      <updated-at type="datetime">2011-09-22T16:59:19+09:00</updated-at>
+      <user-id type="integer">79899</user-id>
+      <version type="integer">3</version>
+      <user-name>Shaoshing Lee</user-name>
+      <creator-name>Felix Sun</creator-name>
+      <assigned-user-name>Shaoshing Lee</assigned-user-name>
+      <url>http://theplant.lighthouseapp.com/projects/55575/tickets/854</url>
+      <milestone-title>Current Iteration</milestone-title>
       <priority-name>High</priority-name>
     </version>
   </versions>

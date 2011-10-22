@@ -1,10 +1,4 @@
 {
-  "committer": {
-    "login": "chenxiaoyi",
-    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi"
-  },
   "author": {
     "login": "chenxiaoyi",
     "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
@@ -16,127 +10,133 @@
       "patch": "--- a/GBox/GBDocListData.m\n+++ b/GBox/GBDocListData.m\n@@ -122,6 +122,7 @@ static GBDocListData* sharedInstance = nil;\n     }\n }\n \n+\n // begin retrieving the list of the user's docs\n - (void)fetchDocList {\n     ",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBDocListData.m",
-      "deletions": 0,
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBDocListData.m",
+      "deletions": 0,
       "changes": 1,
       "filename": "GBox/GBDocListData.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBDocListData.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBDownloadOperation.m\n+++ b/GBox/GBDownloadOperation.m\n@@ -130,7 +130,7 @@ downloadingEntry:(GDataEntryDocBase*)docEntry\n     GDataServiceGoogleDocs *docsService = [docListData docsService];\n \n     BOOL isDrawing = [classProperty isEqual:[GDataEntryDrawingDoc class]];\n-    NSString *exportFormat = (isDrawing ? @\"pdf\" : @\"txt\");\n+    NSString *exportFormat = (isDrawing ? @\"pdf\" : @\"docx\");\n     [self saveDocEntry:docEntry\n                 toPath:savePath\n           exportFormat:exportFormat",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBDownloadOperation.m",
-      "deletions": 1,
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBDownloadOperation.m",
+      "deletions": 1,
       "changes": 2,
       "filename": "GBox/GBDownloadOperation.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBDownloadOperation.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBFileSystemWatcher.h\n+++ b/GBox/GBFileSystemWatcher.h\n@@ -43,7 +43,6 @@\n #import <Foundation/Foundation.h>\n #import <CoreServices/CoreServices.h>\n \n-static NSString * const kGBFileSystemWatcherLastEventIDKey = @\"GBFileSystemWatcherLastEventID\";\n static NSString * const kGBFileSystemWatcherLastModificationDateMap = @\"GBFileSystemWatcherLastModificationDateMap\";\n static NSString * const kGBFileSystemWatcherLastFileNamesMap = @\"GBFileSystemWatcherLastFileNamesMap\";\n ",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBFileSystemWatcher.h",
-      "deletions": 1,
       "additions": 0,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBFileSystemWatcher.h",
+      "deletions": 1,
       "changes": 1,
       "filename": "GBox/GBFileSystemWatcher.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBFileSystemWatcher.h",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBFileSystemWatcher.m\n+++ b/GBox/GBFileSystemWatcher.m\n@@ -9,7 +9,7 @@\n //  refactor this later.\n \n #import \"GBFileSystemWatcher.h\"\n-\n+#import \"GBoxConstants.h\"\n // this is the callback function which passed to the routine FSEventStreamCreate().\n // the parameters in use: \n //  streamRef:  the handle to FSEventStream.\n@@ -40,11 +40,14 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n     fm = [NSFileManager defaultManager]; \n     filePaths = (NSArray*) eventPaths;\n     fsw = (GBFileSystemWatcher*)fswatcher;\n+    NSInteger largestEventId = 0;\n     for (i = 0; i < [filePaths count]; i++) {\n         filePath = [[filePaths objectAtIndex: i] stringByStandardizingPath];\n         eventId = eventIds[i];\n         eventFlag = eventFlags[i];\n-\n+        if(eventId > largestEventId){\n+            largestEventId = eventId;\n+        }\n         // file ignored\n         if ([fsw fileIgnored: filePath]) {\n             continue;\n@@ -56,12 +59,17 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n                 i++;\n                 // there's a bug from kFSEventStreamEventFlagItemRenamed on Mac OS X 10.7. It's a \n                 // good API, but seems have not been well documented yet, so take care.\n-                if ([fm fileExistsAtPath: newPath] == NO) {\n+                NSString* fileTitle = [newPath lastPathComponent];\n+                if([fileTitle isEqualToString:@\".DS_Store\" ]){\n                     [[fsw delegate] fileDeleted: filePath eventId: eventId];\n-                    [[fsw delegate] fileDeleted: newPath eventId: eventId];\n-                }\n-                else {\n-                    [[fsw delegate] fileMoved: filePath newPath: newPath eventId: eventId];\n+                }else{\n+                    if([fm fileExistsAtPath: newPath] == NO) {\n+                        [[fsw delegate] fileDeleted: filePath eventId: eventId];\n+                        [[fsw delegate] fileDeleted: newPath eventId: eventId];\n+                    }\n+                    else {\n+                        [[fsw delegate] fileMoved: filePath newPath: newPath eventId: eventId];\n+                    }\n                 }\n             }\n             else {\n@@ -102,6 +110,10 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n         }\n         [fsw setLastEventId: eventId];\n     }\n+    if(largestEventId > [[[NSUserDefaults standardUserDefaults]objectForKey:kGBFileSystemWatcherLastEventIDKey]unsignedLongLongValue]){\n+        [[NSUserDefaults standardUserDefaults]setObject:[NSNumber numberWithUnsignedLongLong:largestEventId ]forKey:kGBFileSystemWatcherLastEventIDKey];\n+        [[NSUserDefaults standardUserDefaults] synchronize];\n+    }\n }\n \n @implementation GBFileSystemWatcher\n@@ -117,7 +129,7 @@ static void fsevent_callback(ConstFSEventStreamRef streamRef,\n         ignoredFiles: (NSArray *)theIgnoredFiles\n             delegate: (id)theDelegate \n          lastEventId: (uint64_t)theLastEventId {\n-    CFAbsoluteTime latency = 3.0;\n+    CFAbsoluteTime latency = 13.0;\n     FSEventStreamContext streamContext = {0, self, NULL, NULL};\n \n     NSLog(@\"In GBFileSystemWatcher\");",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBFileSystemWatcher.m",
-      "deletions": 8,
       "additions": 20,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBFileSystemWatcher.m",
+      "deletions": 8,
       "changes": 28,
       "filename": "GBox/GBFileSystemWatcher.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBFileSystemWatcher.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBSyncController.m\n+++ b/GBox/GBSyncController.m\n@@ -160,6 +160,7 @@ static GBSyncController * shareSyncController = nil;\n     if(countOfWaitingTasks!=0&&countOfExecutingTasks==0){\n         [statusItem setImage:[NSImage imageNamed:@\"statusicon2\"]];\n         [docListData fetchDocList];\n+        [dataFacility contextSave];\n         synced= NO;\n     }else if(synced==NO && countOfExecutingTasks==0){\n         [statusItem setImage:[NSImage imageNamed:@\"statusicon\"]];",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBSyncController.m",
-      "deletions": 0,
       "additions": 1,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBSyncController.m",
+      "deletions": 0,
       "changes": 1,
       "filename": "GBox/GBSyncController.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBSyncController.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -277,11 +277,13 @@\n                     //If the local file is already set an identifier, the file is treated as updated.\n                     [currentExecutingTasks removeObject:taskID];\n                     [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];\n-                    \n-                    [dataFacility insertEvent:0\n-                                withEventCode:kGBLocalFileUpdated\n-                                     operandA:path\n-                                  andOperandB:nil];\n+                    if([[path stringByDeletingLastPathComponent] length]!= [[GBUtility rootPath] length]){\n+                        \n+                        [dataFacility insertEvent:0\n+                                    withEventCode:kGBLocalAddEntryToCollection\n+                                         operandA:path \n+                                      andOperandB:nil];\n+                    }\n                 }\n \n             }else{\n@@ -291,32 +293,25 @@\n             break;\n         }    \n \n-        case kGBLocalFileUpdated: {/*\n-            NSString* path = operandA;\n-            NSManagedObject* pathMO = [dataFacility fetchLocalPathEntryByPathString:path];\n-            BOOL isFile = [[pathMO valueForKey:@\"isFile\"]boolValue];\n-            NSManagedObject* entryMO;\n-            if(isFile){\n-                entryMO = [pathMO valueForKey:@\"uniqueDocEntry\"];\n-            }else{\n-                entryMO = [pathMO valueForKey:@\"uniqueCollection\"];\n-            }\n-            NSString* identifier = [entryMO valueForKey:@\"identifier\"];\n-            [docListData deleteEntryByIdentifier:identifier];\n-            \n-            NSSet* paths = [localIdentifierDic valueForKey:identifier];\n-            \n-            for(NSString* destPath in paths){\n-                [GBUtility cpFileAt:path to:destPath];\n-            } \n-            \n+        case kGBLocalFileUpdated: {\n             [NSTimer scheduledTimerWithTimeInterval:i\n                                              target:self\n                                            selector:@selector(uploadTimerFireMethod:)\n                                            userInfo:taskMO\n                                             repeats:NO];\n             i=i+2;\n-      */\n+            NSString* path = operandA;\n+            \n+            NSString* identifier = [GBUtility identifierforFileAtPath:path];\n+            \n+            NSSet* paths = [localIdentifierDic valueForKey:identifier];\n+            \n+            for(NSString* destPath in paths){\n+                if(![destPath isEqualToString: path]){\n+                    [GBUtility recycleFileAtPath:destPath];\n+                    [GBUtility cpFileAt:path to:destPath];\n+                }\n+            } \n             [currentExecutingTasks removeObject:taskID];\n             [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n          break;\n@@ -384,7 +379,36 @@\n                 [dataFacility setState:kGBStateCancel ofTaskID:[taskMO objectID]];\n                 [currentExecutingTasks removeObject:taskID];\n             }else{\n-                [docListData deleteEntryByIdentifier:identifierToDelete];\n+                GDataEntryDocBase* entryToDelete = [docListData entryForIdentifier:identifierToDelete];\n+                if([entryToDelete class] == [GDataEntryFolderDoc class]){\n+                    \n+                    \n+                    NSSet* includedEntries = [collectionManager includedEntryOfCollectionIdentifier:identifierToDelete];\n+                    for(GDataEntryDocBase* entry in includedEntries){\n+                        NSArray* entryParents = [collectionManager includingCollectionOf:entry];\n+                        if([entryParents count]==1){\n+                            [docListData deleteEntry:entry];\n+                        }else{\n+                            [dataFacility insertEvent:0\n+                                        withEventCode:kGBLocalRemoveEntryFromCollection\n+                                             operandA:[entry identifier]\n+                                          andOperandB:identifierToDelete];\n+                        }\n+                    }\n+                }else{\n+                    NSArray* entryParents = [collectionManager includingCollectionOf:entryToDelete];\n+                    if([entryParents count]==0){\n+                        [docListData deleteEntry:entryToDelete];\n+                    }else{\n+                        NSString* parentPath =[path stringByDeletingLastPathComponent];\n+                        if([parentPath length]!=[[GBUtility rootPath]length]){\n+                            [dataFacility insertEvent:0\n+                                        withEventCode:kGBLocalRemoveEntryFromCollection\n+                                             operandA:identifierToDelete\n+                                          andOperandB:[GBUtility identifierforFileAtPath:parentPath]];\n+                        }\n+                    }\n+                }\n                 \n                 [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n                 [currentExecutingTasks removeObject:taskID];\n@@ -651,7 +675,7 @@\n     [currentExecutingTasks removeObject:taskID];\n \n     [GBUtility displayAlert:@\"Uploaded file\"\n-                     format:@\"File uploaded: %@\", path];\n+                     format:@\"File uploaded: %@\", [path lastPathComponent] ];\n \n }\n \n@@ -753,20 +777,28 @@\n \n -(void)uploadTimerFireMethod:(NSTimer *) theTimer{\n     if (!canceled) {\n-\n-    NSManagedObject* mo = [theTimer userInfo];\n-    \n-    NSString *path = [mo valueForKey:@\"operandA\"];\n-    \n-    NSLog(@\"Uploading %@ \", path);\n     \n-    GBUploadOperation* uploadOp = [[GBUploadOperation alloc] initWith:docListData\n-                                                                 path:path\n-                                                               taskID:[mo objectID]\n-                                                               option:nil];\n-    \n-    [opqueue addOperation:uploadOp];\n-    [uploadOp release];\n+        NSManagedObject* mo = [theTimer userInfo];\n+        NSInteger eventCode = [[mo valueForKey:@\"eventCode\"]integerValue];\n+        NSString *path = [mo valueForKey:@\"operandA\"];\n+        NSString* option = nil;\n+        if(eventCode==kGBLocalNewFile){\n+            \n+            NSLog(@\"Uploading %@ \", path);\n+            \n+        }else if(eventCode==kGBLocalFileUpdated){\n+            option = @\"NewRevision\";\n+            NSLog(@\"Updating %@ \", path);\n+        }\n+        \n+        GBUploadOperation* uploadOp = [[GBUploadOperation alloc] initWith:docListData\n+                                                                     path:path\n+                                                                   taskID:[mo objectID]\n+                                                                   option:option];\n+        \n+        \n+        [opqueue addOperation:uploadOp];\n+        [uploadOp release];\n     }\n }\n ",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBTaskHandler.m",
-      "deletions": 40,
       "additions": 72,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBTaskHandler.m",
+      "deletions": 40,
       "changes": 112,
       "filename": "GBox/GBTaskHandler.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBTaskHandler.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBUploadOperation.h\n+++ b/GBox/GBUploadOperation.h\n@@ -32,10 +32,11 @@\n     NSManagedObjectID* taskID;\n     NSString* option;\n \n-\n }\n \n - (id)initWith:(GBDocListData*) gData uploadingAtPath:(NSString *)path;\n+\n+\n - (void) uploadFile:(NSURL *)uploadURL\n         accessToken:(NSString *)value\n            mimeType:(NSString *)mimeType",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBUploadOperation.h",
-      "deletions": 1,
       "additions": 2,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBUploadOperation.h",
+      "deletions": 1,
       "changes": 3,
       "filename": "GBox/GBUploadOperation.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBUploadOperation.h",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBUploadOperation.m\n+++ b/GBox/GBUploadOperation.m\n@@ -40,10 +40,10 @@\n \t\n     docListData = [gData retain];\n     savePath = [path retain];\n-\t\n     return self;\n }\n \n+\n - (void)dealloc\n {    [docListData release];\n     [savePath release];\n@@ -137,15 +137,11 @@\n     \n     NSString *extn = [path pathExtension];\n     \n-    if( [extn isEqual:@\"download\"]){\n+    if( [extn isEqualToString:@\"download\"]||[extn isEqualToString:@\"log\"]||[extn isEqualToString:@\"DS_Store\"]){\n         //return;             // download temp file will not be uploaded.\n         [self cancel];\n+        errorMsg = @\"These file should not be added as file to upload.\";\n     }\n-    if( [extn isEqual:@\"log\"]){\n-        [self cancel];\n-        \n-    }\n-    \n     if([self isCancelled]){\n         [self willChangeValueForKey:@\"isFinished\"];\n         finished = YES;\n@@ -210,15 +206,31 @@\n             //NSLog(@\"%@\");\n             \n             //Folder Creation\n-            \n-            \n-            // insert the entry into the docList feed\n             GDataServiceTicket *ticket;\n-            ticket = [service fetchEntryByInsertingEntry:newEntry\n-                                              forFeedURL:uploadURL\n-                                                delegate:self\n-                                       didFinishSelector:@selector(uploadFileTicket:finishedWithEntry:error:)];\n+\n+            if([option isEqualToString:@\"NewRevision\"]){\n+                [newEntry setETag:@\"*\"]; \n+                \n+                NSString* entryIdentifier = [GBUtility identifierforFileAtPath:path];\n+                GDataEntryDocBase* selectedDoc = [docListData entryForIdentifier:entryIdentifier];\n+                NSURL *uploadURL = [[selectedDoc uploadEditLink] URL]; \n+                GDataQueryDocs *query = [GDataQueryDocs queryWithFeedURL:uploadURL]; \n+                [query setShouldCreateNewRevision:YES]; \n+                \n+                ticket = [service fetchEntryByUpdatingEntry:newEntry \n+                                                forEntryURL:[query URL] \n+                                                   delegate:self \n+                                          didFinishSelector:@selector(uploadFileTicket:finishedWithEntry:error:)]; \n+            }else{\n+                \n+                // insert the entry into the docList feed\n+                ticket = [service fetchEntryByInsertingEntry:newEntry\n+                                                  forFeedURL:uploadURL\n+                                                    delegate:self\n+                                           didFinishSelector:@selector(uploadFileTicket:finishedWithEntry:error:)];\n+            }\n             SEL progressSel = @selector(ticket:hasDeliveredByteCount:ofTotalByteCount:);\n+                \n             [ticket setUploadProgressSelector:progressSel];\n             \n             // we turned automatic retry on when we allocated the service, but we\n@@ -260,8 +272,6 @@\n                                                             object:taskID \n                                                           userInfo:[NSDictionary dictionaryWithObjectsAndKeys:NO, @\"retryNeeded\",nil]];\n     }\n-    \n-    //[self updateUI];\n }\n \n \n@@ -390,9 +400,8 @@\n     } else {\n         [[NSNotificationCenter defaultCenter] postNotificationName:kGBUploadFailed \n                                                             object:taskID \n-                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:YES,@\"retryNeeded\",[entry identifier], @\"kGBEntryIdentifier\",nil]];\n+                                                          userInfo:[NSDictionary dictionaryWithObjectsAndKeys:YES,@\"retryNeeded\",nil]];\n     }\n-    //[self updateUI];\n     \n \n     [self willChangeValueForKey:@\"isFinished\"];",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBUploadOperation.m",
-      "deletions": 18,
       "additions": 27,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBUploadOperation.m",
+      "deletions": 18,
       "changes": 45,
       "filename": "GBox/GBUploadOperation.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBUploadOperation.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -268,15 +268,18 @@\n     NSString *statusMessage = [requestdown responseStatusMessage];\n     [[GBUtility sharedNotifySystem]sendnotify:@\"status\" notify:statusMessage];\n */\n-    \n+    FSEventStreamEventId eventIdSince = [[[NSUserDefaults standardUserDefaults] objectForKey:kGBFileSystemWatcherLastEventIDKey]unsignedLongLongValue];\n+    if(eventIdSince==0){\n+        eventIdSince = kFSEventStreamEventIdSinceNow;\n+    }\n     if (fileSystemWatcher == nil) {\n         // start up GBFileSystemWatcher\n         watchedPaths = [NSArray arrayWithObject: [GBUtility rootPath]];\n-        ignoredFiles = [NSArray arrayWithObjects: @\".DS_Store\", @\"-Spotlight\", nil];\n+        ignoredFiles = [NSArray arrayWithObjects: @\".DS_Store\", @\"-Spotlight\",@\".svn-base\", nil];\n         fileSystemWatcher = [[GBFileSystemWatcher alloc] initWithPaths: watchedPaths \n                                                           ignoredFiles: ignoredFiles\n                                                               delegate: self \n-                                                           lastEventId: kFSEventStreamEventIdSinceNow];\n+                                                           lastEventId: eventIdSince];\n         [fileSystemWatcher start];\n         // start up GBNetworkStatusWatcher\n         nsw = [[GBNetworkStatusWatcher alloc] initWithName: GOOGLE_DOC_WEBSITE\n@@ -364,12 +367,13 @@\n \n - (void)fileModified: (NSString*)filePath eventId: (uint64_t)eventId {\n     GBDataFacility *dataFacility = [GBDataFacility sharedDataFacility];\n-\n-    NSLog(@\"fileModified: %@\", filePath);\n-    [dataFacility insertEvent:[NSNumber numberWithUnsignedLongLong: eventId]\n-                withEventCode:kGBLocalFileUpdated\n-                     operandA:filePath\n-                  andOperandB:nil];\n+    if(![filePath isEqualToString:[GBUtility rootPath]]){\n+        NSLog(@\"fileModified: %@\", filePath);\n+        [dataFacility insertEvent:[NSNumber numberWithUnsignedLongLong: eventId]\n+                    withEventCode:kGBLocalFileUpdated\n+                         operandA:filePath\n+                      andOperandB:nil];\n+    }\n }\n \n - (void)fileMoved: (NSString*)filePath newPath: (NSString*)newPath eventId: (uint64_t)eventId {\n@@ -451,13 +455,13 @@\n \n     [fileSystemWatcher release];\n     watchedPaths = [NSArray arrayWithObject: [GBUtility rootPath]];\n-    ignoredFiles = [NSArray arrayWithObjects: @\".DS_Store\", @\"-Spotlight\", nil];\n+    ignoredFiles = [NSArray arrayWithObjects: @\".DS_Store\", @\"-Spotlight\",@\".svn-base\", nil];\n     fileSystemWatcher = [[GBFileSystemWatcher alloc] initWithPaths: watchedPaths \n                                         ignoredFiles: ignoredFiles\n                                             delegate: self \n                                          lastEventId: kFSEventStreamEventIdSinceNow];\n     [fileSystemWatcher start];\n-    \n+        \n     setupFinished = NO;\n     [userDefaults setValue:nil forKey:kGBLargestChangestamp];\n     ",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxAppDelegate.m",
-      "deletions": 11,
       "additions": 15,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxAppDelegate.m",
+      "deletions": 11,
       "changes": 26,
       "filename": "GBox/GBoxAppDelegate.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxAppDelegate.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBoxConstants.h\n+++ b/GBox/GBoxConstants.h\n@@ -88,6 +88,8 @@ extern NSString* const kGBSetupFinished;\n \n extern NSString* const kGBChangeAccount;\n \n+extern NSString * const kGBFileSystemWatcherLastEventIDKey;\n+\n @interface GBoxConstants : NSObject\n \n @end",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxConstants.h",
-      "deletions": 0,
       "additions": 2,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxConstants.h",
+      "deletions": 0,
       "changes": 2,
       "filename": "GBox/GBoxConstants.h",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxConstants.h",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     },
     {
       "patch": "--- a/GBox/GBoxConstants.m\n+++ b/GBox/GBoxConstants.m\n@@ -54,6 +54,11 @@ NSString * const kGB_DB_STORE_FILENAME = @\"gbdatamodel.xml\";\n NSString* const kGBChangeAccount = @\"kGBChangeAccount\";\n \n NSString* const kGBRemoveEntryFromCollectionFailed =  @\"kGBRemoveEntryFromCollectionFailed\";\n+\n+NSString* const kGBFSEventStreamEventId = @\"kGBFSEventStreamEventId\";\n+\n+NSString * const kGBFileSystemWatcherLastEventIDKey = @\"GBFileSystemWatcherLastEventID\";\n+\n - (id)init\n {\n     self = [super init];",
       "status": "modified",
       "raw_url": "https://github.com/theplant/GBox/raw/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxConstants.m",
-      "deletions": 0,
       "additions": 5,
-      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxConstants.m",
+      "deletions": 0,
       "changes": 5,
       "filename": "GBox/GBoxConstants.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/9a4cc31c2556deb7029496438725222112cc7680/GBox/GBoxConstants.m",
       "sha": "9a4cc31c2556deb7029496438725222112cc7680"
     }
   ],
+  "committer": {
+    "login": "chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
   "stats": {
-    "deletions": 80,
     "additions": 146,
+    "deletions": 80,
     "total": 226
   },
   "parents": [
@@ -145,24 +145,24 @@
       "url": "https://api.github.com/repos/theplant/GBox/commits/b45a314bd94233ac46af54e589763789d040906e"
     }
   ],
-  "sha": "9a4cc31c2556deb7029496438725222112cc7680",
   "commit": {
     "tree": {
       "sha": "1c96fa5dc2d9c16cb25e35cbb65844c4b3379f07",
       "url": "https://api.github.com/repos/theplant/GBox/git/trees/1c96fa5dc2d9c16cb25e35cbb65844c4b3379f07"
     },
     "message": "Local updated solved",
-    "committer": {
+    "author": {
       "date": "2011-09-05T07:26:57-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
-    "author": {
+    "committer": {
       "date": "2011-09-05T07:26:57-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
     "url": "https://api.github.com/repos/theplant/GBox/git/commits/9a4cc31c2556deb7029496438725222112cc7680"
   },
+  "sha": "9a4cc31c2556deb7029496438725222112cc7680",
   "url": "https://api.github.com/repos/theplant/GBox/commits/9a4cc31c2556deb7029496438725222112cc7680"
 }

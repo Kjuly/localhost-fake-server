@@ -1,43 +1,43 @@
 {
-  "committer": {
-    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
-    "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi",
-    "login": "chenxiaoyi"
-  },
   "author": {
+    "login": "chenxiaoyi",
     "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
     "id": 877966,
-    "url": "https://api.github.com/users/chenxiaoyi",
-    "login": "chenxiaoyi"
+    "url": "https://api.github.com/users/chenxiaoyi"
   },
   "files": [
     {
       "patch": "--- a/GBox/GBTaskHandler.m\n+++ b/GBox/GBTaskHandler.m\n@@ -463,21 +463,22 @@\n                                           andOperandB:identifierToDelete];\n                         }\n                     }\n+                }\n+                \n+                NSArray* entryParents = [collectionManager includingCollectionOf:entryToDelete];\n+                if([entryParents count]==1){\n+                    [docListData deleteEntry:entryToDelete];\n                 }else{\n-                    NSArray* entryParents = [collectionManager includingCollectionOf:entryToDelete];\n-                    if([entryParents count]==0){\n-                        [docListData deleteEntry:entryToDelete];\n-                    }else{\n-                        NSString* parentPath =[path stringByDeletingLastPathComponent];\n-                        if([parentPath length]!=[[GBUtility rootPath]length]){\n-                            [dataFacility insertEvent:0\n-                                        withEventCode:kGBLocalRemoveEntryFromCollection\n-                                             operandA:identifierToDelete\n-                                          andOperandB:[GBUtility identifierforFileAtPath:parentPath]];\n-                        }\n+                    NSString* parentPath =[path stringByDeletingLastPathComponent];\n+                    if([parentPath length]!=[[GBUtility rootPath]length]){\n+                        [dataFacility insertEvent:0\n+                                    withEventCode:kGBLocalRemoveEntryFromCollection\n+                                         operandA:identifierToDelete\n+                                      andOperandB:[GBUtility identifierforFileAtPath:parentPath]];\n                     }\n                 }\n                 \n+                \n                 [dataFacility setState:kGBStateDone ofTaskID:[taskMO objectID]];\n                 [currentExecutingTasks removeObject:taskID];\n             }\n@@ -654,6 +655,10 @@\n                 [currentExecutingTasks removeObject:taskID];\n                 \n             }else{\n+                [dataFacility setState:kGBStateCancel ofTaskID:taskID];\n+                [currentExecutingTasks removeObject:taskID];\n+\n+                /*\n                 if(entryPath==nil){\n                     [dataFacility setState:kGBStateCancel ofTaskID:taskID];\n                     [currentExecutingTasks removeObject:taskID];\n@@ -661,6 +666,7 @@\n                     [dataFacility setState:kGBStateWaiting ofTaskID:taskID];\n                     [currentExecutingTasks removeObject:taskID];\n                 }\n+                 */\n             }\n         }break;\n             ",
       "status": "modified",
-      "deletions": 11,
       "additions": 17,
+      "deletions": 11,
       "raw_url": "https://github.com/theplant/GBox/raw/d29e8225324cc89f7999f57a3c3c9d6ecc861277/GBox/GBTaskHandler.m",
-      "blob_url": "https://github.com/theplant/GBox/blob/d29e8225324cc89f7999f57a3c3c9d6ecc861277/GBox/GBTaskHandler.m",
       "changes": 28,
       "filename": "GBox/GBTaskHandler.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/d29e8225324cc89f7999f57a3c3c9d6ecc861277/GBox/GBTaskHandler.m",
       "sha": "d29e8225324cc89f7999f57a3c3c9d6ecc861277"
     },
     {
       "patch": "--- a/GBox/GBoxAppDelegate.m\n+++ b/GBox/GBoxAppDelegate.m\n@@ -56,7 +56,7 @@\n \n -(void)awakeFromNib{\n     //progress indicate\n-    [GTMHTTPFetcher setLoggingEnabled:YES];\n+    //[GTMHTTPFetcher setLoggingEnabled:YES];\n     [self redirectNSLogToDocumentFolder];\n \n     progressIncrement = 0.0;",
       "status": "modified",
-      "deletions": 1,
       "additions": 1,
+      "deletions": 1,
       "raw_url": "https://github.com/theplant/GBox/raw/d29e8225324cc89f7999f57a3c3c9d6ecc861277/GBox/GBoxAppDelegate.m",
-      "blob_url": "https://github.com/theplant/GBox/blob/d29e8225324cc89f7999f57a3c3c9d6ecc861277/GBox/GBoxAppDelegate.m",
       "changes": 2,
       "filename": "GBox/GBoxAppDelegate.m",
+      "blob_url": "https://github.com/theplant/GBox/blob/d29e8225324cc89f7999f57a3c3c9d6ecc861277/GBox/GBoxAppDelegate.m",
       "sha": "d29e8225324cc89f7999f57a3c3c9d6ecc861277"
     }
   ],
+  "committer": {
+    "login": "chenxiaoyi",
+    "avatar_url": "https://secure.gravatar.com/avatar/38eb4e6b823b7e406e11de34be7fe61d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+    "id": 877966,
+    "url": "https://api.github.com/users/chenxiaoyi"
+  },
   "stats": {
-    "deletions": 12,
     "additions": 18,
+    "deletions": 12,
     "total": 30
   },
   "parents": [
@@ -46,24 +46,24 @@
       "url": "https://api.github.com/repos/theplant/GBox/commits/adc7f1a5a4b1e338c29466c2cc7c358789047cfb"
     }
   ],
-  "sha": "d29e8225324cc89f7999f57a3c3c9d6ecc861277",
   "commit": {
     "tree": {
       "sha": "904ab8dcd061c1312c409c04e7f5d4bb8d6d90fe",
       "url": "https://api.github.com/repos/theplant/GBox/git/trees/904ab8dcd061c1312c409c04e7f5d4bb8d6d90fe"
     },
     "message": "Fix deletion bug",
-    "committer": {
+    "author": {
       "date": "2011-09-08T21:13:17-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
-    "author": {
+    "committer": {
       "date": "2011-09-08T21:13:17-07:00",
       "name": "Xiaoyi Chen",
       "email": "xiaoyi.chen@hotmail.com"
     },
     "url": "https://api.github.com/repos/theplant/GBox/git/commits/d29e8225324cc89f7999f57a3c3c9d6ecc861277"
   },
+  "sha": "d29e8225324cc89f7999f57a3c3c9d6ecc861277",
   "url": "https://api.github.com/repos/theplant/GBox/commits/d29e8225324cc89f7999f57a3c3c9d6ecc861277"
 }
